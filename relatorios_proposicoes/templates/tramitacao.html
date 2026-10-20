@@ -1,0 +1,209 @@
+{% extends "base.html" %}
+{% from "componentes.html" import icone_documento, aria_pdf, cartao_parlamentar, link_documento %}
+{% set prop = r.proposicao %}
+{% set rotulos_estado = {"concluido": "CONCLUÍDA", "atual": "EM CURSO", "pendente": "PENDENTE"} %}
+
+{% block titulo %}Tramitação do {{ prop.identificacao }}{% endblock %}
+
+{% block conteudo %}
+    {# ---------- CABEÇALHO ---------- #}
+    <header class="cabecalho">
+      <div class="cabecalho__principal">
+        <div class="rotulo rotulo--secao">LINHA_DO_TEMPO_LEGISLATIVA · {{ prop.casa | upper }}</div>
+        <h1 class="cabecalho__titulo">{{ prop.identificacao }}</h1>
+        <p class="cabecalho__ementa titulo-lg">{{ prop.ementa }}</p>
+        <p class="cabecalho__explicacao">{{ prop.explicacao }}</p>
+        <div class="cabecalho__linha">
+          {{ cartao_parlamentar(r.autor, rotulo_aria="Autor da proposição") }}
+          <div class="cabecalho__meta">
+            {% for m in prop.metadados %}
+            <div class="meta">
+              <span class="rotulo rotulo--apagado">{{ m.rotulo }}</span>
+              <span class="meta__valor">{{ m.valor }}</span>
+            </div>
+            {% endfor %}
+            <a class="botao botao--primario" href="{{ prop.url_inteiro_teor }}" target="_blank" rel="noopener noreferrer">
+              {{ icone_documento(20) }}
+              INTEIRO TEOR
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="situacao vidro vidro--painel vidro--brilho" aria-label="Situação atual">
+        <div class="cantoneira cantoneira--painel cantoneira--sup" aria-hidden="true"></div>
+        <div class="cantoneira cantoneira--painel cantoneira--inf" aria-hidden="true"></div>
+        <div class="situacao__topo">
+          <span class="rotulo rotulo--secao rotulo--suave">SITUAÇÃO_ATUAL</span>
+          <span class="situacao__estado rotulo rotulo--neon"><span class="ponto" aria-hidden="true"></span>{{ r.situacao.estado }}</span>
+        </div>
+        <div class="situacao__descricao titulo-lg">{{ r.situacao.descricao }}</div>
+        <div class="situacao__dados">
+          <div class="dado">
+            <span class="rotulo rotulo--apagado">ÓRGÃO</span>
+            <span class="dado__valor">{{ r.situacao.orgao_sigla }}</span>
+          </div>
+          <div class="dado">
+            <span class="rotulo rotulo--apagado">{{ r.situacao.rotulo_tempo }}</span>
+            <span class="dado__valor dado__valor--fluido numeros">{{ dias_na_situacao }} {{ "dia" if dias_na_situacao == 1 else "dias" }}</span>
+          </div>
+        </div>
+        <div class="texto-sm">{{ r.situacao.orgao_nome }} · recebido em {{ r.situacao.desde | data_br }}</div>
+      </section>
+    </header>
+
+    {# ---------- PIPELINE DE ESTÁGIOS ---------- #}
+    <section class="estagios" aria-label="Estágios da tramitação">
+      <div class="cabeca-secao">
+        <h2 class="rotulo rotulo--secao">ORDEM_DE_TRAMITAÇÃO</h2>
+        <span class="rotulo rotulo--suave">{{ prop.rotulo_apreciacao }}</span>
+      </div>
+      <div class="estagios__grade">
+        {% for s in r.estagios %}
+        <div class="estagio estagio--{{ s.estado }}">
+          <div class="estagio__barra" aria-hidden="true"></div>
+          <div class="estagio__cartao">
+            <div class="estagio__topo">
+              <span class="rotulo rotulo--apagado">ETAPA {{ "%02d" | format(loop.index) }}</span>
+              <span class="rotulo estagio__status">{{ rotulos_estado[s.estado] }}</span>
+            </div>
+            <div class="estagio__sigla">{{ s.sigla }}</div>
+            <div class="estagio__nome">{{ s.nome }}</div>
+            <div class="texto-sm">{{ s.papel }}</div>
+            {% if s.documento %}
+            <a class="link-doc link-doc--compacto rotulo" href="{{ s.documento.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(s.documento.nome) }}">
+              {{ icone_documento(18, pdf=true) }}
+              {{ s.documento.nome }}
+            </a>
+            {% endif %}
+            <div class="estagio__periodo rotulo numeros">{{ s | periodo_estagio }}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <p class="texto-sm">{{ prop.nota_apreciacao }}</p>
+    </section>
+
+    {# ---------- CORPO: HISTÓRICO + PAINEL ---------- #}
+    <div class="corpo">
+      <section class="historico vidro" aria-label="Histórico de tramitações">
+        <div class="cabeca-secao">
+          <h2 class="titulo-lg">Histórico de Tramitações</h2>
+          <span class="rotulo rotulo--suave">{{ total_eventos }} REGISTROS · {{ total_com_documento }} COM DOCUMENTO</span>
+        </div>
+
+        <div class="legenda texto-sm">
+          <span class="legenda__item"><span class="marcador marcador--marco" aria-hidden="true"></span>Marco decisivo</span>
+          <span class="legenda__item"><span class="marcador marcador--rotina" aria-hidden="true"></span>Ato de rotina</span>
+          <span class="legenda__item"><span class="marcador marcador--alerta" aria-hidden="true"></span>Atraso / retirada</span>
+          <span class="legenda__item"><span class="marcador marcador--atual" aria-hidden="true"></span>Posição atual</span>
+          <span class="legenda__item rotulo--destaque">{{ icone_documento(16, extra=false) }}<span class="texto-sm">Documento (abre em nova aba)</span></span>
+        </div>
+
+        {% for f in r.fases %}
+        <div class="fase">
+          <div class="fase__cabeca">
+            <span class="selo rotulo">{{ f.sigla }}</span>
+            <span class="fase__nome">{{ f.nome }}</span>
+          </div>
+          {% for e in f.eventos %}
+          <div class="evento evento--{{ e.tipo }}">
+            <div class="evento__quando rotulo numeros">
+              <span>{{ e.data_hora | data_br }}</span>
+              <span class="evento__hora">{{ e.data_hora | hora }}</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--{{ e.tipo }}" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">{{ e.titulo }}</span>
+                  {% if e.etiqueta %}<span class="etiqueta rotulo">{{ e.etiqueta }}</span>{% endif %}
+                </div>
+                <div class="texto-sm">{{ e.texto }}</div>
+              </div>
+              {% if e.documento %}{{ link_documento(e.documento) }}{% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </section>
+
+      <aside class="lateral">
+        {% if r.relatoria %}
+        {% set rel = r.relatoria %}
+        <section class="vidro vidro--painel" aria-label="Relatoria">
+          <h2 class="rotulo rotulo--secao">RELATORIA_{{ rel.orgao_sigla }}</h2>
+          {{ cartao_parlamentar(rel.relator, cartao=false) }}
+          <div class="texto-sm">
+            {{ rel.resumo_inicio }}
+            {% for p in rel.pareceres -%}
+            <a class="link-inline" href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(p.sigla ~ ' ' ~ rel.orgao_sigla) }}">{{ icone_documento(14, extra=false) }}{{ p.sigla }}</a>
+            {%- if loop.revindex == 2 %} e {% elif not loop.last %}, {% else %}.{% endif %}
+            {% endfor %}
+            {{ rel.resumo_fim }}
+          </div>
+          <div class="pareceres">
+            {% for p in rel.pareceres %}
+            <a class="parecer{{ ' parecer--aprovado' if p.aprovado }}" href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(p.nome) }}">
+              {{ icone_documento(20, pdf=true) }}
+              <span class="parecer__textos">
+                <span class="parecer__nome">{{ p.nome }}</span>
+                <span class="rotulo rotulo--suave">{{ p.data }}</span>
+              </span>
+              <span class="rotulo parecer__status">{{ "APROVADO" if p.aprovado else "SUPERADO" }}</span>
+            </a>
+            {% endfor %}
+          </div>
+        </section>
+        {% endif %}
+
+        <section class="indicadores vidro vidro--painel" aria-label="Indicadores">
+          <h2 class="rotulo rotulo--secao">INDICADORES_DE_TRAMITAÇÃO</h2>
+          <div class="indicadores__grade">
+            {% for k in indicadores %}
+            <div class="indicador">
+              <span class="indicador__valor numeros">{{ k.valor }}</span>
+              <span class="rotulo rotulo--suave">{{ k.rotulo }}</span>
+            </div>
+            {% endfor %}
+          </div>
+          {% if progresso.total %}
+          <div class="progresso">
+            <div class="progresso__topo rotulo">
+              <span>COMISSÕES CONCLUÍDAS</span>
+              <span class="progresso__valor numeros">{{ progresso.concluidas }} de {{ progresso.total }} · {{ progresso.percentual | round | int }}%</span>
+            </div>
+            <div class="progresso__trilho" role="img" aria-label="{{ progresso.concluidas }} de {{ progresso.total }} comissões concluídas">
+              <div class="progresso__barra" style="width: {{ '%.1f' | format(progresso.percentual) }}%"></div>
+            </div>
+          </div>
+          {% endif %}
+        </section>
+
+        {% if r.proximos_marcos %}
+        <section class="vidro vidro--painel" aria-label="Próximos marcos">
+          <h2 class="rotulo rotulo--secao">PRÓXIMOS_MARCOS</h2>
+          <ol class="marcos">
+            {% for m in r.proximos_marcos %}
+            <li class="marcos__item">
+              <span class="marcos__numero rotulo">{{ "%02d" | format(loop.index) }}</span>
+              <div class="marcos__textos">
+                <span class="marcos__titulo">{{ m.titulo }}</span>
+                <span class="texto-sm">{{ m.descricao }}</span>
+              </div>
+            </li>
+            {% endfor %}
+          </ol>
+        </section>
+        {% endif %}
+      </aside>
+    </div>
+
+    <footer class="rodape rotulo">
+      <span>FONTE: API DADOS ABERTOS · {{ prop.casa | upper }} · ID_PROPOSIÇÃO {{ prop.id }}</span>
+      <span class="numeros">CONSULTA {{ r.data_consulta | data_br }}{% if ultima_movimentacao %} · ÚLTIMA MOVIMENTAÇÃO {{ ultima_movimentacao | data_br }}{% endif %}</span>
+    </footer>
+{% endblock %}

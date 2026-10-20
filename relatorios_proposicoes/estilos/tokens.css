@@ -1,0 +1,60 @@
+/* Tokens do design system Glass HUD Legislativo (tema "Operação", escuro). */
+:root {
+  /* Superfícies */
+  --surface: #10131a;
+  --surface-container-lowest: #0b0e15;
+  --surface-container: #1d1f27;
+  --surface-container-high: #272a32;
+  --on-surface: #e1e2ec;
+  --on-surface-variant: #b9cacb;
+  --outline: #849495;
+  --outline-variant: #3b494b;
+
+  /* Primária (cyan) */
+  --primary: #dbfcff;
+  --on-primary: #00363a;
+  --primary-container: #00f0ff;
+  --primary-fixed: #7df4ff;
+  --primary-fixed-dim: #00dbe9;
+
+  /* Terciária (alertas) */
+  --tertiary-fixed-dim: #ffb2b8;
+
+  /* Vidro */
+  --glass-1: rgba(29, 31, 39, 0.4);
+  --glass-2: rgba(29, 31, 39, 0.6);
+  --glass-stage: rgba(29, 31, 39, 0.55);
+  --glass-button: rgba(39, 42, 50, 0.7);
+  --hairline: rgba(0, 219, 233, 0.2);
+  --hairline-strong: rgba(0, 219, 233, 0.35);
+  --grid-line: rgba(59, 73, 75, 0.35);
+  --blur-1: 12px;
+
+  /* Sombras luminosas */
+  --glow-soft: 0 0 24px 0 rgba(0, 219, 233, 0.16);
+  --glow-dot: 0 0 12px 0 rgba(0, 240, 255, 0.45);
+  --glow-focus: 0 0 0 2px #00f0ff, 0 0 12px 0 rgba(0, 240, 255, 0.45);
+
+  /* Tipografia */
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Geist", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Espaçamento (base 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --touch-target: 44px;
+  --max-width: 1440px;
+
+  /* Raios */
+  --radius-base: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+}
