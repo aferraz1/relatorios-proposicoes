@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relatorios-proposicoes"
+version = "0.1.0"
+description = "Relatórios de Tramitação e Análise de Proposições Legislativas"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Alexandre Ferraz" }]
+requires-python = ">=3.11"
+dependencies = ["Jinja2>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+relatorios-proposicoes = "relatorios_proposicoes.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["relatorios_proposicoes*"]
+
+[tool.setuptools.package-data]
+relatorios_proposicoes = ["templates/*.html", "estilos/*.css"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

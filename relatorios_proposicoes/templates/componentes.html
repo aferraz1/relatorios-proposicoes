@@ -1,0 +1,37 @@
+{# Componentes reutilizáveis do relatório (macros Jinja2). #}
+
+{% macro icone_documento(tamanho=20, pdf=false, extra=true) -%}
+<svg aria-hidden="true" width="{{ tamanho }}" height="{{ tamanho }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path>
+{%- if pdf %}<path d="M8.5 16.5v-4h1.25a1.25 1.25 0 0 1 0 2.5H8.5"></path><path d="M13 12.5v4h0.75a1.5 1.5 0 0 0 1.5-1.5v-1a1.5 1.5 0 0 0-1.5-1.5z"></path>
+{%- elif extra %}<path d="M9 13h6"></path><path d="M9 17h4"></path>{% endif %}</svg>
+{%- endmacro %}
+
+{% macro aria_pdf(nome) -%}
+Abrir {{ nome }} em PDF, em nova aba
+{%- endmacro %}
+
+{% macro cartao_parlamentar(p, cartao=true, rotulo_aria=none) %}
+<{{ 'article' if cartao else 'div' }} class="parlamentar{{ ' parlamentar--cartao vidro' if cartao }}"{% if rotulo_aria %} aria-label="{{ rotulo_aria }}"{% endif %}>
+  <div class="parlamentar__foto">
+    <img src="{{ p.url_foto }}" alt="Fotografia oficial do {{ p.nome }}" width="84" height="112" loading="lazy">
+    <div class="cantoneira cantoneira--sup" aria-hidden="true"></div>
+    <div class="cantoneira cantoneira--inf" aria-hidden="true"></div>
+  </div>
+  <div class="parlamentar__dados">
+    <span class="rotulo rotulo--destaque">{{ p.rotulo }}</span>
+    <span class="parlamentar__nome">{{ p.nome }}</span>
+    <span class="texto-sm">{{ p.descricao }}</span>
+    <span class="rotulo rotulo--apagado">ID_DEPUTADO {{ p.id }}</span>
+  </div>
+</{{ 'article' if cartao else 'div' }}>
+{% endmacro %}
+
+{% macro link_documento(doc) %}
+<a class="link-doc evento__doc" href="{{ doc.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(doc.nome) }}" title="{{ doc.nome }}">
+  {{ icone_documento(20, pdf=true) }}
+  <span class="link-doc__textos">
+    <span class="rotulo rotulo--destaque">PDF</span>
+    <span class="rotulo rotulo--suave">{{ doc.nome }}</span>
+  </span>
+</a>
+{% endmacro %}
