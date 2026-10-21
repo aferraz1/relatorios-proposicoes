@@ -250,5 +250,354 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 3.507/2026, com base no inteiro teor e no requerimento de urgência ainda não votado (REQ 3721/2026), considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 3.507/2026 reconhece o **artesanato tradicional do Maranhão como manifestação da cultura nacional** e permite ao Executivo adotar medidas de salvaguarda e fomento. É projeto curto, de forte apelo regional e baixo custo político, distribuído à **Comissão de Cultura (mérito) e à CCJC (art. 54)**, em regime conclusivo. Aguarda **designação de relator na CCULT desde 08/09/2026**.",
+   "Há um **requerimento de urgência (REQ 3721/2026)**, subscrito com o Dep. Doutor Luizinho, ainda não votado. Aprovado, levaria a matéria ao Plenário com parecer das comissões em Plenário; sem ele, o caminho natural é a conclusiva em duas comissões, que costuma ser rápida para projetos de reconhecimento cultural.",
+   "O ponto de atenção está na **CCJC**: o art. 2º (“O Poder Executivo poderá adotar medidas…”) tem natureza autorizativa, que a comissão tende a considerar inconstitucional (Súmula CCJC nº 1). A solução é simples (suprimir o artigo ou convertê-lo em diretriz), e convém levá-la ao relator da CCULT para que o texto chegue saneado à CCJC."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Sem relator na CCULT desde 08/09/2026; urgência apresentada, mas não votada."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "MÉDIO",
+    "texto": "Art. 2º autorizativo tende a ser apontado como vício pela CCJC."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "BAIXO",
+    "texto": "Reconhecimento cultural com base no art. 215, § 1º, da CF; amplo apoio esperado."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Sem despesa obrigatória; a matéria não foi distribuída à CFT."
+   },
+   {
+    "eixo": "EFETIVIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Efeito sobretudo simbólico; a proteção patrimonial efetiva depende do registro de bem imaterial pelo Iphan."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho até o Senado",
+    "itens": [
+     {
+      "texto": "Despacho de 02/09/2026: CCULT (mérito) e CCJC (art. 54), apreciação conclusiva (RICD, art. 24, II). Sem recurso de 1/10 dos deputados, segue ao Senado após a CCJC.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "A urgência do art. 155 exige maioria absoluta e retira a matéria das comissões, com parecer em Plenário; útil se houver janela de pauta, mas dispensável para um projeto de duas comissões.",
+      "fontes": [
+       "ricd",
+       "req"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Encaixe com a Constituição e com a CCJC",
+    "itens": [
+     {
+      "texto": "A CF manda o Estado proteger as manifestações das culturas populares (art. 215, § 1º) e define o patrimônio cultural imaterial (art. 216); a iniciativa parlamentar é legítima para o reconhecimento.",
+      "fontes": [
+       "cf"
+      ]
+     },
+     {
+      "texto": "O art. 2º apenas “permite” ao Executivo medidas que já são de sua competência; a CCJC considera inconstitucionais os projetos autorizativos (Súmula nº 1) e costuma suprimir ou reescrever esse tipo de dispositivo.",
+      "fontes": [
+       "sum1",
+       "cf"
+      ]
+     },
+     {
+      "texto": "O reconhecimento por lei não substitui o registro de bem imaterial (Decreto 3.551/2000), procedimento técnico do Iphan; o texto pode mencioná-lo como diretriz sem criar obrigação.",
+      "fontes": [
+       "d3551"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO",
+    "titulo": "O que sustenta o projeto",
+    "itens": [
+     {
+      "texto": "A justificação traz dados do SICAB (mais de 4 mil artesãos, 28 aldeias indígenas e 274 comunidades quilombolas) e a ligação com o Bumba Meu Boi, o Divino e o Reisado, que dão substância ao reconhecimento.",
+      "fontes": [
+       "pl"
+      ]
+     },
+     {
+      "texto": "A profissão de artesão já é regulada pela Lei 13.180/2015; o projeto não conflita com ela e pode citá-la para reforçar o vínculo com a economia criativa.",
+      "fontes": [
+       "l13180"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 3.507/2026",
+   "achados": [
+    {
+     "dispositivo": "Art. 2º",
+     "problema": "Dispositivo autorizativo (“O Poder Executivo poderá adotar medidas…”).",
+     "fundamento": "Súmula CCJC nº 1; LC 95, art. 11, II",
+     "correcao": "Suprimir ou converter em diretriz: “O reconhecimento de que trata esta Lei orienta as ações de salvaguarda e fomento do artesanato tradicional maranhense.”"
+    },
+    {
+     "dispositivo": "Art. 1º",
+     "problema": "Enumeração dos fundamentos com conectivos irregulares (“por sua relevância enquanto (...), como identidade (...) e como prática (...)”).",
+     "fundamento": "LC 95, art. 11, I",
+     "correcao": "Uniformizar: “por sua relevância como expressão do saber tradicional, da identidade comunitária e da economia criativa”."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "MÉDIO",
+    "titulo": "Demora na designação de relator",
+    "descricao": "Fila da CCULT e fim da sessão legislativa podem adiar a relatoria para 2027.",
+    "instancia": "CCULT",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 52.",
+    "fontes": [
+     "ricd",
+     "ficha"
+    ],
+    "mitigacao": "Pedir à presidência da CCULT a designação de relator aliado ainda em 2026."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Emenda supressiva ou parecer contrário na CCJC",
+    "descricao": "Art. 2º autorizativo pode gerar emenda ou, no limite, parecer pela inconstitucionalidade do dispositivo.",
+    "instancia": "CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "Súmula CCJC nº 1; RICD, art. 54, I.",
+    "fontes": [
+     "sum1",
+     "ricd"
+    ],
+    "mitigacao": "Levar ao relator da CCULT um substitutivo sem o art. 2º autorizativo."
+   },
+   {
+    "id": "R03",
+    "nivel": "BAIXO",
+    "titulo": "Urgência sem pauta",
+    "descricao": "O REQ 3721/2026 pode ficar sem votação e não acelerar nada.",
+    "instancia": "PLEN",
+    "probabilidade": "ALTA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 155.",
+    "fontes": [
+     "ricd",
+     "req"
+    ],
+    "mitigacao": "Seguir pela conclusiva e usar a urgência só se houver acordo de líderes."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Questionamento de efetividade",
+    "descricao": "Leis de reconhecimento são criticadas como meramente simbólicas.",
+    "instancia": "CCULT · SENADO",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "Decreto 3.551/2000.",
+    "fontes": [
+     "d3551"
+    ],
+    "mitigacao": "Articular paralelamente o pedido de registro no Iphan com o governo do Estado e entidades de artesãos."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Tramitação curta",
+    "descricao": "Duas comissões e regime conclusivo permitem aprovação na Câmara em poucos meses.",
+    "como": "Relatoria na CCULT ainda em 2026.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Saneamento na CCULT",
+    "descricao": "O relator de mérito pode resolver a questão do art. 2º antes da CCJC.",
+    "como": "Entregar minuta de substitutivo ao relator.",
+    "fontes": [
+     "sum1"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Valorização do artesão",
+    "descricao": "A Lei 13.180/2015 já reconhece a profissão de artesão; o reconhecimento cultural complementa essa base em pleitos de fomento e capacitação.",
+    "como": "Citar a Lei 13.180/2015 no parecer e em ações de fomento ao setor.",
+    "fontes": [
+     "l13180"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Apoio da bancada do Maranhão",
+    "descricao": "Pauta de identidade regional, sem oposição previsível.",
+    "como": "Coletar apoio da bancada e de entidades de artesãos.",
+    "fontes": [
+     "pl"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Designação de relator na CCULT",
+    "descricao": "Pedido à presidência da CCULT, com sugestão de relator da bancada do Nordeste.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Relator designado e prazo de emendas aberto.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Suprimir o art. 2º autorizativo e ajustar a redação do art. 1º.",
+    "prazo": "nov./2026",
+    "instrumento": "Súmula CCJC nº 1; LC 95, art. 11.",
+    "resultado": "Texto sem vício na CCJC.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Decidir sobre a urgência",
+    "descricao": "Manter o REQ 3721/2026 como opção, a usar só com acordo de líderes.",
+    "prazo": "nov./2026",
+    "instrumento": "RICD, art. 155.",
+    "resultado": "Evitar desgaste com requerimento não votado.",
+    "riscos": "R03"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Registro no Iphan",
+    "descricao": "Articular com o governo do Estado e associações o pedido de registro como patrimônio imaterial.",
+    "prazo": "2027",
+    "instrumento": "Decreto 3.551/2000.",
+    "resultado": "Proteção efetiva além do reconhecimento legal.",
+    "riscos": "R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Mobilização regional",
+    "descricao": "Material com os dados do SICAB e manifestações de entidades de artesãos.",
+    "prazo": "nov./2026",
+    "instrumento": "Justificação do projeto.",
+    "resultado": "Apoio na CCULT e na CCJC.",
+    "riscos": "R01, R04"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "sum1": {
+    "titulo": "Súmula CCJC nº 1",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ccjc/normas-internas/s1.pdf"
+   },
+   "pl": {
+    "titulo": "PL 3.507/2026 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3157723"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637478"
+   },
+   "req": {
+    "titulo": "REQ 3721/2026 (urgência)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637478"
+   },
+   "d3551": {
+    "titulo": "Decreto 3.551/2000 (registro de bens imateriais)",
+    "url": "https://www.planalto.gov.br/ccivil_03/decreto/d3551.htm"
+   },
+   "l13180": {
+    "titulo": "Lei 13.180/2015 (profissão de artesão)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13180.htm"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e situação"
+   },
+   {
+    "fonte": "req",
+    "nota": "urgência apresentada"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 215 e 216"
+   },
+   {
+    "fonte": "sum1",
+    "nota": "projetos autorizativos"
+   },
+   {
+    "fonte": "d3551",
+    "nota": "registro de patrimônio imaterial"
+   },
+   {
+    "fonte": "l13180",
+    "nota": "profissão de artesão"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 54 e 155"
+   }
+  ]
+ }
 }

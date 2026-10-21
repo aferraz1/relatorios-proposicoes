@@ -259,5 +259,313 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 3.239/2025, com base no inteiro teor e na relatoria em curso na Comissão de Cultura, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 3.239/2025 institui o **Dia Nacional da Palavra em 5 de novembro** e lista atividades que os órgãos públicos “poderão” promover. Tramita em regime conclusivo na **CCULT (mérito) e na CCJC (art. 54)** e aguarda o parecer da **Dep. Duda Salabert**, designada em 24/03/2026 depois que o primeiro relator devolveu o projeto sem manifestação.",
+   "O ponto decisivo é a **Lei 12.345/2010**: datas comemorativas nacionais exigem demonstração de “alta significação” por consultas ou audiências públicas documentadas, e o projeto deve vir acompanhado dessa comprovação (art. 4º). O PL não traz essa documentação, o que expõe a matéria a parecer pela **injuridicidade** na CCJC ou a rejeição no mérito.",
+   "Há ainda **concorrência de datas**: 5 de novembro já é celebrado, como a própria justificação reconhece, por ser o nascimento de Rui Barbosa e o Dia Nacional da Língua Portuguesa. A estratégia recomendada é cumprir a Lei 12.345/2010 com audiência pública na CCULT e reforçar no parecer a diferença entre “palavra” e “língua”, ou avaliar outra data."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Relatora designada há sete meses, sem parecer; faltam CCULT e CCJC."
+   },
+   {
+    "eixo": "JURIDICIDADE (LEI 12.345/2010)",
+    "nivel": "ALTO",
+    "texto": "Sem comprovação de consultas ou audiências públicas exigida pelo art. 4º da lei."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "MÉDIO",
+    "texto": "Sobreposição temática e de data com comemorações já existentes em 5 de novembro."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "BAIXO",
+    "texto": "Atividades facultativas (“poderão”), sem obrigação ao Executivo."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Sem despesa; não distribuído à CFT."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho do projeto",
+    "itens": [
+     {
+      "texto": "Despacho de 18/07/2025: CCULT (mérito) e CCJC (art. 54), conclusivo; prazo de emendas encerrado sem emendas.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "A relatora pode requerer audiência pública na própria CCULT, o que supre a exigência procedimental da Lei 12.345/2010 durante a tramitação.",
+      "fontes": [
+       "ricd",
+       "l12345"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "JURIDICIDADE",
+    "titulo": "Requisitos das datas comemorativas",
+    "itens": [
+     {
+      "texto": "A Lei 12.345/2010 condiciona a instituição de datas nacionais ao critério da alta significação, aferido por consultas e audiências públicas documentadas com entidades dos segmentos interessados, e exige que o projeto venha acompanhado dessa comprovação.",
+      "fontes": [
+       "l12345"
+      ]
+     },
+     {
+      "texto": "Pareceres do Congresso têm tratado o descumprimento desses requisitos como injuridicidade; na Câmara, a CCJC examina a juridicidade em caráter terminativo (RICD, art. 54, I).",
+      "fontes": [
+       "l12345",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO",
+    "titulo": "Diferencial da proposta",
+    "itens": [
+     {
+      "texto": "A justificação escolhe 5 de novembro por já ser a data de Rui Barbosa e do Dia Nacional da Língua Portuguesa; a sobreposição pode ser vista como redundância pela CCULT.",
+      "fontes": [
+       "pl"
+      ]
+     },
+     {
+      "texto": "O art. 2º usa “poderão promover”, sem criar obrigação; as atividades (debates, concursos, campanhas de leitura) se alinham à liberdade de expressão (CF, art. 5º, IV e IX).",
+      "fontes": [
+       "pl",
+       "cf"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 3.239/2025",
+   "achados": [
+    {
+     "dispositivo": "Ementa",
+     "problema": "Ementa iniciada por “Projeto de Lei que Institui” e encerrada com “dá outras providências” sem outro objeto.",
+     "fundamento": "LC 95, art. 5º",
+     "correcao": "“Institui o Dia Nacional da Palavra.”"
+    },
+    {
+     "dispositivo": "Art. 2º",
+     "problema": "Comando facultativo dirigido a “órgãos públicos” sem identificar esfera.",
+     "fundamento": "LC 95, art. 11, II, “a”",
+     "correcao": "Converter em diretriz: “A data será celebrada com atividades de valorização da palavra, tais como: (...)”."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Injuridicidade por descumprimento da Lei 12.345/2010",
+    "descricao": "Falta de comprovação de consultas ou audiências públicas pode levar a parecer contrário na CCJC.",
+    "instancia": "CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "Lei 12.345/2010, arts. 1º a 4º; RICD, art. 54, I.",
+    "fontes": [
+     "l12345",
+     "ricd"
+    ],
+    "mitigacao": "Requerer e realizar audiência pública na CCULT, com entidades de leitura, escrita e educação, e juntar a documentação ao processo."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Rejeição no mérito por sobreposição de datas",
+    "descricao": "5 de novembro já concentra comemorações ligadas a Rui Barbosa e à língua portuguesa.",
+    "instancia": "CCULT",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Justificação do projeto.",
+    "fontes": [
+     "pl"
+    ],
+    "mitigacao": "Reforçar a distinção entre palavra e língua ou propor data alternativa no substitutivo."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Parecer não sai em 2026",
+    "descricao": "Relatora designada há sete meses; prioridade baixa na pauta da CCULT.",
+    "instancia": "CCULT",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 52.",
+    "fontes": [
+     "ricd",
+     "ficha"
+    ],
+    "mitigacao": "Contato com a relatora com minuta de parecer e pedido de audiência pública."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Nova relatoria em 2027",
+    "descricao": "Recomposição das comissões pode exigir nova designação.",
+    "instancia": "CCULT",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Concluir a audiência pública em 2026 para não perder o trabalho feito."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Audiência pública como solução",
+    "descricao": "Uma única audiência documentada supre o requisito legal e dá visibilidade ao tema.",
+    "como": "Requerimento na CCULT com convidados de academias de letras, bibliotecas e escolas.",
+    "fontes": [
+     "l12345",
+     "ricd"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda de leitura e escrita",
+    "descricao": "O tema dialoga com políticas de incentivo à leitura e com a liberdade de expressão.",
+    "como": "Associar a data a campanhas de leitura nas escolas e bibliotecas públicas.",
+    "fontes": [
+     "pl",
+     "cf"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CELERIDADE",
+    "titulo": "Tramitação curta",
+    "descricao": "Duas comissões e regime conclusivo.",
+    "como": "Concluir CCULT e CCJC em 2027, com a documentação da audiência já juntada.",
+    "fontes": [
+     "ficha"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Audiência pública na CCULT",
+    "descricao": "Requerimento de audiência com entidades representativas, registrada em ata e juntada ao processo.",
+    "prazo": "nov./2026",
+    "instrumento": "Lei 12.345/2010, arts. 2º e 4º; RICD, art. 255.",
+    "resultado": "Requisito legal cumprido.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de parecer para a relatora",
+    "descricao": "Parecer favorável com substitutivo: ementa corrigida, art. 2º como diretriz e fundamentação da alta significação.",
+    "prazo": "após a audiência",
+    "instrumento": "LC 95, art. 5º.",
+    "resultado": "Parecer aprovado na CCULT.",
+    "riscos": "R02, R03"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Avaliar a data",
+    "descricao": "Decidir com a relatora se mantém 5 de novembro ou adota outra data sem concorrência.",
+    "prazo": "nov./2026",
+    "instrumento": "Justificação do projeto.",
+    "resultado": "Afastar a crítica de redundância.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Preparar a CCJC",
+    "descricao": "Nota sobre a juridicidade com a documentação da audiência.",
+    "prazo": "antes da CCJC",
+    "instrumento": "RICD, art. 54, I.",
+    "resultado": "Parecer pela juridicidade.",
+    "riscos": "R01, R04"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "pl": {
+    "titulo": "PL 3.239/2025 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2948955"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2531914"
+   },
+   "l12345": {
+    "titulo": "Lei 12.345/2010 (critério para datas comemorativas)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12345.htm"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e relatoria"
+   },
+   {
+    "fonte": "l12345",
+    "nota": "arts. 1º a 4º"
+   },
+   {
+    "fonte": "cf",
+    "nota": "art. 5º, IV e IX"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 54 e 255"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento"
+   }
+  ]
+ }
 }

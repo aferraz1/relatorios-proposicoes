@@ -326,5 +326,455 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 2.427/2026, com base no inteiro teor, a urgência aprovada (REQ 2888/2026) e a designação do relator de Plenário e na situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 2.427/2026 autoriza os fundos constitucionais de financiamento (FNO, FNE e FCO) e o FDNE a **oferecer garantias**, inclusive por participação em fundo garantidor, a operações de crédito para infraestrutura econômica. A proposta é curta (quatro artigos) e altera a Lei 7.827/1989 e a MP 2.156-5/2001. É a proposição do autor **mais próxima de deliberação**: a urgência (art. 155 do RICD) foi aprovada em 09/06/2026 e o Dep. Danilo Forte foi designado relator de Plenário em 30/06/2026.",
+   "Com a urgência, a matéria deixa a apreciação conclusiva e será votada em Plenário, com **parecer proferido em Plenário pelas três comissões** (CINDRE, CFT e CCJC). O ponto de maior risco é a **adequação financeira**: garantia prestada com recursos dos fundos cria passivo contingente e pode ser lida como nova despesa sem estimativa de impacto. A justificativa não traz números nem limites.",
+   "Há também um **vício de legística que precisa de correção antes da votação**: o art. 3º acrescenta um “§ 7º” à MP 2.156-5 sem indicar o artigo, e o art. 3º daquela MP já ganhou um § 7º com a LC 231, de 16/06/2026, posterior à apresentação do projeto. O texto do relator é a oportunidade de sanear isso e de incluir limites, governança e regulamentação pelo CMN."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "BAIXO",
+    "texto": "Urgência aprovada, relator de Plenário designado e matéria pronta para pauta desde 30/06/2026."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "ALTO",
+    "texto": "Garantias com recursos dos fundos geram passivo contingente; falta estimativa de impacto e teto de exposição."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "BAIXO",
+    "texto": "Matéria de lei ordinária federal sobre fundos já criados por lei; não cria órgão nem atribuição nova ao Executivo."
+   },
+   {
+    "eixo": "TÉCNICA LEGISLATIVA",
+    "nivel": "MÉDIO",
+    "texto": "Comando do art. 3º sem artigo de destino e colisão com o § 7º incluído pela LC 231/2026."
+   },
+   {
+    "eixo": "ARTICULAÇÃO POLÍTICA",
+    "nivel": "MÉDIO",
+    "texto": "Urgência subscrita com o líder do MDB; votação depende de pauta da Presidência e de acordo com o governo."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Onde o projeto está e o que vem pela frente",
+    "itens": [
+     {
+      "texto": "A urgência do art. 155 leva a matéria ao Plenário; o relator designado profere parecer em nome das comissões de mérito, de finanças e de constitucionalidade, e emendas podem ser apresentadas em Plenário até o encerramento da discussão.",
+      "fontes": [
+       "ricd",
+       "ficha"
+      ]
+     },
+     {
+      "texto": "Despacho original: CINDRE, CFT (mérito e art. 54) e CCJC (art. 54), em regime ordinário e conclusivo. A urgência alterou o regime; a ficha da API ainda exibe “conclusiva”, que deve ser lida como superada.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Aprovado na Câmara, o projeto segue ao Senado (CF, art. 65). Como altera MP anterior à EC 32/2001 (MP 2.156-5), a alteração por lei ordinária é válida.",
+      "fontes": [
+       "cf",
+       "mp2156"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E ORDENAMENTO",
+    "titulo": "Encaixe com a Lei 7.827/1989 e o FDNE",
+    "itens": [
+     {
+      "texto": "A Lei 7.827/1989 já permite aos fundos financiar infraestrutura econômica considerada prioritária pelo conselho deliberativo (art. 4º, § 1º); o projeto acrescenta a cobertura de risco, sem mexer nos beneficiários.",
+      "fontes": [
+       "l7827"
+      ]
+     },
+     {
+      "texto": "O parágrafo único proposto vai para o art. 3º, que trata de diretrizes dos programas de financiamento; o art. 3º, VIII, já exige “adequada política de garantias”. A autorização ficaria melhor em artigo próprio ou junto ao art. 4º, § 1º.",
+      "fontes": [
+       "l7827",
+       "lc95"
+      ]
+     },
+     {
+      "texto": "No FDNE, o art. 3º da MP 2.156-5 define a finalidade de assegurar recursos para investimentos em infraestrutura e empreendimentos produtivos; a LC 231/2026 incluiu § 7º sobre pessoas jurídicas e cooperativas.",
+      "fontes": [
+       "mp2156",
+       "lc231"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+    "titulo": "Ponto que decide a votação",
+    "itens": [
+     {
+      "texto": "O parecer de adequação examina se a proposição gera despesa ou renúncia; garantia prestada com patrimônio de fundo federal gera passivo contingente e, se executada, despesa. Sem estimativa, há risco de parecer pela inadequação (NI-CFT).",
+      "fontes": [
+       "nicft",
+       "adeq"
+      ]
+     },
+     {
+      "texto": "O art. 113 do ADCT exige estimativa de impacto de proposição que crie despesa obrigatória, e o STF aplica a regra a toda proposição legislativa (ADI 6.303).",
+      "fontes": [
+       "adct",
+       "adi6303"
+      ]
+     },
+     {
+      "texto": "Caminho de baixo custo: limitar a exposição a um percentual do patrimônio de cada fundo, remeter critérios ao Conselho Monetário Nacional e prever que a cobertura se faça por fundo garantidor com aporte delimitado.",
+      "fontes": [
+       "lrf",
+       "l7827"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 2.427/2026",
+   "achados": [
+    {
+     "dispositivo": "Art. 3º",
+     "problema": "Acrescenta “§ 7º” à MP 2.156-5 sem indicar o artigo; o art. 3º da MP já tem § 7º (LC 231/2026).",
+     "fundamento": "LC 95, art. 12, III",
+     "correcao": "Indicar o art. 3º e renumerar como § 8º."
+    },
+    {
+     "dispositivo": "Art. 2º",
+     "problema": "Autorização de garantia inserida como parágrafo único do art. 3º (diretrizes), longe do art. 4º, § 1º (infraestrutura).",
+     "fundamento": "LC 95, art. 11, III, “c”",
+     "correcao": "Inserir como § 1º-A do art. 4º ou como artigo próprio (art. 4º-A)."
+    },
+    {
+     "dispositivo": "Arts. 2º e 3º",
+     "problema": "Remissão “de que trata o art. 4º, § 1º desta Lei” sem vírgula; expressões “fica o FDNE autorizado” e “ficam os Fundos autorizados” com sujeito posposto.",
+     "fundamento": "LC 95, art. 11, I",
+     "correcao": "Uniformizar a redação e pontuação."
+    },
+    {
+     "dispositivo": "Art. 4º",
+     "problema": "“Art. 4°.” com símbolo de grau e ponto; vigência imediata.",
+     "fundamento": "LC 95, arts. 8º e 10, I",
+     "correcao": "Grafar “Art. 4º”; avaliar prazo para regulamentação pelo CMN."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Inadequação orçamentária",
+    "descricao": "Garantia com recursos dos fundos lida como nova despesa sem estimativa de impacto nem limite de exposição.",
+    "instancia": "PLEN · CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "ALTO",
+    "fundamento": "ADCT, art. 113; LRF; NI-CFT.",
+    "fontes": [
+     "adct",
+     "nicft",
+     "adi6303"
+    ],
+    "mitigacao": "Emenda do relator com teto de exposição por fundo, cobertura via fundo garantidor e regulamentação pelo CMN; nota técnica com estimativa."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Erro de técnica que gera emenda de redação ou veto",
+    "descricao": "Comando do art. 3º sem artigo e colisão com o § 7º da LC 231/2026.",
+    "instancia": "PLEN · SENADO",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "LC 95, art. 12, III.",
+    "fontes": [
+     "lc95",
+     "lc231"
+    ],
+    "mitigacao": "Levar o texto corrigido ao relator antes da votação."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Resistência do Executivo e dos bancos administradores",
+    "descricao": "Ministério da Fazenda e BNB/Basa/BB podem temer o efeito sobre o patrimônio e a capacidade de financiamento dos fundos.",
+    "instancia": "PLEN · SANÇÃO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 7.827/1989, arts. 3º, VIII, e 9º-A.",
+    "fontes": [
+     "l7827"
+    ],
+    "mitigacao": "Reunião técnica com Fazenda, MIDR e bancos operadores; incorporar salvaguardas de risco no parecer."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Fila da pauta do Plenário",
+    "descricao": "Pronta para pauta desde 30/06/2026; a inclusão depende do Colégio de Líderes e da Presidência.",
+    "instancia": "PLEN",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, arts. 17 e 155.",
+    "fontes": [
+     "ricd",
+     "ficha"
+    ],
+    "mitigacao": "Pedido de inclusão em pauta via liderança, com o coautor do requerimento de urgência."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Pedido de urgência sem texto pactuado",
+    "descricao": "Votação rápida sem acordo pode gerar destaques que desfigurem o texto.",
+    "instancia": "PLEN",
+    "probabilidade": "BAIXA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 161.",
+    "fontes": [
+     "ricd"
+    ],
+    "mitigacao": "Fechar texto com o relator e líderes antes da sessão."
+   },
+   {
+    "id": "R06",
+    "nivel": "BAIXO",
+    "titulo": "Revisão no Senado",
+    "descricao": "A matéria é sensível para bancadas do Norte e Centro-Oeste, beneficiárias dos fundos.",
+    "instancia": "SENADO",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "CF, art. 65.",
+    "fontes": [
+     "cf"
+    ],
+    "mitigacao": "Apoio das bancadas regionais e da Sudene/Sudam/Sudeco."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Urgência já aprovada",
+    "descricao": "A matéria pode ser votada em sessão única em Plenário, sem passar pelas comissões.",
+    "como": "Pedir a pauta assim que o texto do relator estiver pactuado.",
+    "fontes": [
+     "ricd",
+     "ficha"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Parecer de Plenário como texto de saneamento",
+    "descricao": "O relator pode corrigir a técnica e incluir salvaguardas fiscais num substitutivo.",
+    "como": "Entregar ao Dep. Danilo Forte minuta de substitutivo com teto, governança e regulamentação pelo CMN.",
+    "fontes": [
+     "ricd",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda de infraestrutura e transição energética",
+    "descricao": "A justificativa liga o projeto a logística, energia renovável e segurança hídrica, agenda com apoio amplo no Nordeste.",
+    "como": "Material de uma página com projetos-âncora da região que dependem de garantia.",
+    "fontes": [
+     "pl"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Coautoria com o líder do MDB",
+    "descricao": "O requerimento de urgência foi subscrito pelo Dep. Isnaldo Bulhões Jr., o que amplia a base de apoio.",
+    "como": "Articulação conjunta das lideranças para a pauta.",
+    "fontes": [
+     "req"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Minuta de substitutivo para o relator",
+    "descricao": "Corrigir o art. 3º (art. 3º, § 8º, da MP 2.156-5), mover a autorização para o art. 4º da Lei 7.827 e incluir teto de exposição e regulamentação pelo CMN.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "LC 95, arts. 11 e 12; Lei 7.827/1989.",
+    "resultado": "Texto sem vícios de técnica e com salvaguardas fiscais.",
+    "riscos": "R01, R02"
+   },
+   {
+    "numero": "02",
+    "prioridade": "CRÍTICA",
+    "titulo": "Nota técnica de adequação financeira",
+    "descricao": "Estimar a exposição máxima e demonstrar que a cobertura fica limitada ao patrimônio dos fundos, sem aporte do Tesouro.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "ADCT, art. 113; NI-CFT.",
+    "resultado": "Parecer de Plenário pela adequação.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Reunião com Fazenda, MIDR e bancos operadores",
+    "descricao": "Mapear objeções e incorporar ajustes no texto do relator.",
+    "prazo": "nov./2026",
+    "instrumento": "Lei 7.827/1989, art. 9º-A.",
+    "resultado": "Texto pactuado e sem orientação contrária do governo.",
+    "riscos": "R03"
+   },
+   {
+    "numero": "04",
+    "prioridade": "ALTA",
+    "titulo": "Inclusão em pauta",
+    "descricao": "Pedido da liderança à Presidência, com o coautor da urgência.",
+    "prazo": "nov./2026",
+    "instrumento": "RICD, art. 17.",
+    "resultado": "Votação antes do recesso.",
+    "riscos": "R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Acordo de procedimento",
+    "descricao": "Fechar o texto com líderes para evitar destaques.",
+    "prazo": "véspera da votação",
+    "instrumento": "RICD, art. 161.",
+    "resultado": "Aprovação sem alterações não pactuadas.",
+    "riscos": "R05"
+   },
+   {
+    "numero": "06",
+    "prioridade": "MÉDIA",
+    "titulo": "Preparar o Senado",
+    "descricao": "Identificar relator provável e apoio das bancadas do Norte, Nordeste e Centro-Oeste.",
+    "prazo": "após a votação",
+    "instrumento": "CF, art. 65.",
+    "resultado": "Tramitação ágil na Casa revisora.",
+    "riscos": "R06"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "adeq": {
+    "titulo": "Conof · Exame de adequação",
+    "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf"
+   },
+   "adi6303": {
+    "titulo": "STF · ADI 6.303",
+    "url": "https://jurisprudencia.stf.jus.br/pages/search?base=acordaos&queryString=ADI%206303"
+   },
+   "pl": {
+    "titulo": "PL 2.427/2026 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3131334"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625306"
+   },
+   "req": {
+    "titulo": "REQ 2888/2026 (urgência)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2625306"
+   },
+   "l7827": {
+    "titulo": "Lei 7.827/1989 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1989/lei-7827-27-setembro-1989-365476-normaatualizada-pl.html"
+   },
+   "mp2156": {
+    "titulo": "MP 2.156-5/2001 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/medpro/2001/medidaprovisoria-2156-5-24-agosto-2001-390564-normaatualizada-pe.html"
+   },
+   "lc231": {
+    "titulo": "LC 231/2026",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp231.htm"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificativa"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "urgência, relatoria e situação"
+   },
+   {
+    "fonte": "l7827",
+    "nota": "arts. 3º, 4º e 9º-A"
+   },
+   {
+    "fonte": "mp2156",
+    "nota": "art. 3º (FDNE)"
+   },
+   {
+    "fonte": "lc231",
+    "nota": "§ 7º do art. 3º da MP 2.156-5"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 65 e 159, I, “c”"
+   },
+   {
+    "fonte": "adct",
+    "nota": "estimativa de impacto"
+   },
+   {
+    "fonte": "adi6303",
+    "nota": "art. 113 do ADCT"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "gestão fiscal"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 17, 155 e 161"
+   }
+  ]
+ }
 }

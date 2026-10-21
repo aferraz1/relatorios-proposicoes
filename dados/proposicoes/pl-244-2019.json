@@ -952,5 +952,412 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 244/2019, com base no inteiro teor e nos pareceres aprovados na CSSF, na CFT (subemenda substitutiva) e na CCJC, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 244/2019 **concluiu a fase de comissões**: aprovado na CSSF (2021), na CFT (20/05/2026) e na CCJC (01/07/2026), sem recurso ao Plenário no prazo encerrado em 12/08/2026. Desde 17/08/2026 aguarda a **redação final na CCJC** (RICD, arts. 24, II, e 58, § 4º); feita a redação, segue ao Senado. É, entre as proposições do autor, a que está mais perto de deixar a Câmara.",
+   "O texto mudou de natureza na CFT: para superar óbices de adequação (vinculação de receitas, CF, art. 167, IV), a subemenda substitutiva **trocou o Fundo (FNCCAP) por um Programa Nacional (PNCCAP)** de caráter diretivo, com três artigos, prioridades gerais e regulamentação pelo Executivo. A troca garantiu a aprovação, mas esvaziou o instrumento financeiro que motivava o projeto.",
+   "O principal risco agora está fora da Câmara: a **Lei 14.758/2023 já instituiu a Política Nacional de Prevenção e Controle do Câncer no SUS**, com objetivos e diretrizes que cobrem as prioridades do PNCCAP. O parecer da CCJC não enfrentou essa sobreposição, que pode ser usada no Senado ou na sanção como fundamento de rejeição ou veto (LC 95, art. 7º, IV)."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "BAIXO",
+    "texto": "Aprovado nas comissões e sem recurso; falta apenas a redação final na CCJC para ir ao Senado."
+   },
+   {
+    "eixo": "JURIDICIDADE E COERÊNCIA",
+    "nivel": "ALTO",
+    "texto": "Sobreposição com a Política Nacional de Prevenção e Controle do Câncer (Lei 14.758/2023), não tratada nos pareceres."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Programa “no âmbito do Ministério da Saúde” pode ser lido como atribuição a órgão do Executivo (CF, art. 61, § 1º, II, “e”)."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "CFT concluiu pela não implicação após a conversão do fundo em programa."
+   },
+   {
+    "eixo": "EFETIVIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Texto programático, sem metas, recursos ou prazos; depende de regulamento."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Do fim das comissões ao Senado",
+    "itens": [
+     {
+      "texto": "Aprovado conclusivamente e sem recurso de 1/10 dos deputados no prazo de 5 sessões, o projeto vai à CCJC só para a redação final, sem reabrir o mérito.",
+      "fontes": [
+       "ricd",
+       "ficha"
+      ]
+     },
+     {
+      "texto": "A redação final está parada desde 17/08/2026; não há prazo regimental curto para ela, e o encaminhamento ao Senado depende da CCJC e da Mesa.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Não haverá arquivamento ao fim da 57ª Legislatura: o projeto tramitou por menos de três legislaturas completas (RICD, art. 105, VI).",
+      "fontes": [
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Pontos que o Senado pode reabrir",
+    "itens": [
+     {
+      "texto": "A competência concorrente em saúde (CF, art. 24, XII) e o art. 196 sustentam a iniciativa parlamentar de diretrizes programáticas, como reconheceu a CCJC.",
+      "fontes": [
+       "cf",
+       "prl_ccjc"
+      ]
+     },
+     {
+      "texto": "“Fica instituído, no âmbito do Ministério da Saúde, o Programa…” cria programa dentro de órgão do Executivo. A CCJC da Câmara costuma ver vício nesse tipo de comando; o STF admite lei parlamentar que gere despesa sem tratar de estrutura ou atribuições de órgãos (Tema 917).",
+      "fontes": [
+       "sum1",
+       "t917",
+       "cf"
+      ]
+     },
+     {
+      "texto": "A Lei 14.758/2023 já instituiu, no SUS, a Política Nacional de Prevenção e Controle do Câncer, com prevenção, rastreamento, diagnóstico, tratamento e reabilitação. Duas leis sobre o mesmo objeto contrariam a LC 95 (art. 7º, IV), salvo norma complementar com remissão expressa.",
+      "fontes": [
+       "l14758",
+       "lc95"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E ADEQUAÇÃO",
+    "titulo": "O que o texto aprovado entrega",
+    "itens": [
+     {
+      "texto": "A subemenda da CFT suprimiu o fundo, as fontes de receita e o conselho consultivo do substitutivo da CSSF; restaram objetivo, cinco prioridades e regulamentação pelo Executivo.",
+      "fontes": [
+       "sbe",
+       "prl_ccjc"
+      ]
+     },
+     {
+      "texto": "A conversão foi o preço da adequação: fundo com receitas vinculadas esbarrava no art. 167, IV, da CF e na LRF. O texto atual não cria despesa obrigatória.",
+      "fontes": [
+       "cf",
+       "lrf",
+       "sbe"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 244/2019",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º",
+     "problema": "Construção “promover ações de prevenção (...) e uma melhor qualidade de vida e saúde a todos os portadores” liga objetos de natureza distinta ao mesmo verbo.",
+     "fundamento": "LC 95, art. 11, I, “b” e “d”",
+     "correcao": "Na redação final: “promover ações de prevenção, diagnóstico precoce, tratamento e reabilitação do câncer e a melhoria da qualidade de vida das pessoas com câncer”."
+    },
+    {
+     "dispositivo": "Art. 1º",
+     "problema": "Programa autônomo sobre matéria já disciplinada pela Lei 14.758/2023.",
+     "fundamento": "LC 95, art. 7º, IV",
+     "correcao": "Converter em alteração da Lei 14.758/2023 ou remeter expressamente a ela."
+    },
+    {
+     "dispositivo": "Art. 2º, parágrafo único",
+     "problema": "Regulamentação “do disposto nesta Lei” sem prazo.",
+     "fundamento": "LC 95, art. 11",
+     "correcao": "Manter sem prazo (evita vício de iniciativa) ou prever regulamento no âmbito da política existente."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Sobreposição com a Lei 14.758/2023",
+    "descricao": "Relator no Senado ou o Executivo podem apontar redundância normativa e propor rejeição ou veto.",
+    "instancia": "SENADO · SANÇÃO",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "LC 95, art. 7º, IV; Lei 14.758/2023.",
+    "fontes": [
+     "l14758",
+     "lc95"
+    ],
+    "mitigacao": "Preparar emenda para o Senado convertendo o PNCCAP em acréscimo à Lei 14.758/2023 (prioridades e assistência ao portador)."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Redação final parada na CCJC",
+    "descricao": "Sem prazo curto, a redação final pode atrasar e empurrar o envio ao Senado para 2027.",
+    "instancia": "CCJC · MESA",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, arts. 24, II, e 58, § 4º.",
+    "fontes": [
+     "ricd",
+     "ficha"
+    ],
+    "mitigacao": "Pedir à presidência da CCJC a votação da redação final e à Mesa o envio imediato."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Veto por vício de iniciativa",
+    "descricao": "Programa “no âmbito do Ministério da Saúde” pode ser vetado como interferência na organização administrativa.",
+    "instancia": "SANÇÃO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, arts. 61, § 1º, II, “e”, e 84, VI; Súmula CCJC nº 1; Tema 917.",
+    "fontes": [
+     "cf",
+     "sum1",
+     "t917"
+    ],
+    "mitigacao": "No Senado, retirar “no âmbito do Ministério da Saúde” e redigir como diretrizes da política nacional."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Lei sem efeito prático",
+    "descricao": "Texto programático, sem metas nem recursos, depende integralmente de regulamento.",
+    "instancia": "EXECUTIVO",
+    "probabilidade": "ALTA",
+    "impacto": "BAIXO",
+    "fundamento": "Subemenda substitutiva da CFT.",
+    "fontes": [
+     "sbe"
+    ],
+    "mitigacao": "Articular com o Ministério da Saúde a incorporação das prioridades aos planos da política nacional."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Mudança de relatoria no Senado em 2027",
+    "descricao": "Nova legislatura no Senado redistribui relatorias.",
+    "instancia": "SENADO",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "Regimento Interno do Senado.",
+    "fontes": [
+     "ficha"
+    ],
+    "mitigacao": "Envio ainda em 2026 e articulação com a bancada do Maranhão no Senado."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Fase de comissões encerrada",
+    "descricao": "Não há mais mérito a deliberar na Câmara; basta a redação final.",
+    "como": "Acompanhamento diário com a secretaria da CCJC.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Correção pelo Senado",
+    "descricao": "Como Casa revisora, o Senado pode emendar o texto para integrá-lo à Lei 14.758/2023 e afastar a redundância.",
+    "como": "Levar minuta de emenda ao relator no Senado.",
+    "fontes": [
+     "l14758",
+     "cf"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda consolidada do câncer",
+    "descricao": "A política nacional de 2023 criou base política e técnica para acréscimos voltados à assistência ao portador.",
+    "como": "Diálogo com o Ministério da Saúde e entidades de pacientes oncológicos.",
+    "fontes": [
+     "l14758"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Aprovação unânime nas comissões",
+    "descricao": "Nenhuma emenda ou recurso foi apresentado na Câmara, sinal de baixa resistência.",
+    "como": "Usar o histórico de consenso na negociação no Senado.",
+    "fontes": [
+     "ficha"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Destravar a redação final",
+    "descricao": "Ofício à presidência da CCJC pedindo a votação da redação final e, em seguida, o envio dos autógrafos ao Senado.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "RICD, arts. 24, II, e 58, § 4º.",
+    "resultado": "Projeto remetido ao Senado em 2026.",
+    "riscos": "R02, R05"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Ajustes de redação na redação final",
+    "descricao": "Sugerir à CCJC a correção do art. 1º e o uso de “pessoas com câncer” em vez de “portadores”, sem alterar o mérito.",
+    "prazo": "na redação final",
+    "instrumento": "LC 95, art. 11.",
+    "resultado": "Texto mais claro na chegada ao Senado.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Emenda para o Senado",
+    "descricao": "Minuta que transforma o PNCCAP em capítulo ou diretrizes acrescidos à Lei 14.758/2023 e retira a vinculação ao Ministério da Saúde.",
+    "prazo": "nov./2026",
+    "instrumento": "LC 95, art. 7º, IV; CF, art. 61.",
+    "resultado": "Afastar redundância e vício de iniciativa.",
+    "riscos": "R01, R03"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Diálogo com o Ministério da Saúde",
+    "descricao": "Apresentar as prioridades do texto e pedir manifestação favorável na sanção.",
+    "prazo": "nov.–dez./2026",
+    "instrumento": "Lei 14.758/2023.",
+    "resultado": "Evitar veto.",
+    "riscos": "R03, R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Articulação no Senado",
+    "descricao": "Identificar relator provável e apoio da bancada do Maranhão e de frentes de saúde.",
+    "prazo": "após o envio",
+    "instrumento": "Regimento Interno do Senado.",
+    "resultado": "Tramitação ágil na Casa revisora.",
+    "riscos": "R05"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "sum1": {
+    "titulo": "Súmula CCJC nº 1",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ccjc/normas-internas/s1.pdf"
+   },
+   "t917": {
+    "titulo": "STF · Tema 917 (RE 878.911)",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=917"
+   },
+   "pl": {
+    "titulo": "PL 244/2019 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1707039"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2190754"
+   },
+   "sbe": {
+    "titulo": "SBE-A 1 CFT (texto aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2190754"
+   },
+   "prl_ccjc": {
+    "titulo": "PRL 1 CCJC (parecer aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2190754"
+   },
+   "l14758": {
+    "titulo": "Lei 14.758/2023 (Política Nacional de Prevenção e Controle do Câncer)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14758-19-dezembro-2023-795082-normaatualizada-pl.html"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto original"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "pareceres, prazo de recurso e redação final"
+   },
+   {
+    "fonte": "sbe",
+    "nota": "texto aprovado pela CFT"
+   },
+   {
+    "fonte": "prl_ccjc",
+    "nota": "fundamentação da CCJC"
+   },
+   {
+    "fonte": "l14758",
+    "nota": "política nacional vigente"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 24, 61, 84, 167 e 196"
+   },
+   {
+    "fonte": "t917",
+    "nota": "iniciativa parlamentar e despesa"
+   },
+   {
+    "fonte": "sum1",
+    "nota": "projetos autorizativos"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "vinculação de receitas"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 58 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }
