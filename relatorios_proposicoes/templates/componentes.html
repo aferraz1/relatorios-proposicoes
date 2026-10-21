@@ -38,7 +38,7 @@ class="{{ classes }}{{ ' aprovado' if aprovado }}" data-valor="{{ valor }}"
 {% macro cartao_parlamentar(p, cartao=true, rotulo_aria=none) %}
 <{{ 'article' if cartao else 'div' }} class="parlamentar{{ ' parlamentar--cartao vidro' if cartao }}"{% if rotulo_aria %} aria-label="{{ rotulo_aria }}"{% endif %}>
   <div class="parlamentar__foto">
-    <img src="{{ p.url_foto }}" alt="Fotografia oficial do {{ p.nome }}" width="84" height="112" loading="lazy">
+    <img src="{{ p.url_foto }}" alt="Fotografia oficial do {{ p.nome }}" width="84" height="112">
     <div class="cantoneira cantoneira--sup" aria-hidden="true"></div>
     <div class="cantoneira cantoneira--inf" aria-hidden="true"></div>
   </div>
