@@ -23,7 +23,7 @@ where = ["."]
 include = ["relatorios_proposicoes*"]
 
 [tool.setuptools.package-data]
-relatorios_proposicoes = ["templates/*.html", "estilos/*.css"]
+relatorios_proposicoes = ["templates/*.html", "estilos/*.css", "scripts/*.js", "recursos/capa/*", "recursos/fontes/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

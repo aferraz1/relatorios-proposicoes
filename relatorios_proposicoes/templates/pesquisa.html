@@ -1,0 +1,157 @@
+{# Pesquisa facetada sobre a base local; as listas e os resultados são montados por pesquisa.js. #}
+{% macro faceta(chave, rotulo, altura, filtro=none) %}
+<fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">{{ rotulo }}</legend>
+  {% if filtro %}
+  <input type="search" class="campo campo--compacto" data-filtro-faceta="{{ chave }}" aria-label="Filtrar {{ filtro }}" placeholder="Filtrar {{ filtro }}…">
+  {% endif %}
+  <div class="lista-opcoes" role="radiogroup" aria-label="{{ rotulo | capitalize }}" data-faceta="{{ chave }}" style="max-height: {{ altura }}px"></div>
+</fieldset>
+{% endmacro %}
+<!doctype html>
+<html lang="pt-BR" data-tema="{{ tema }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pesquisa de proposições legislativas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Geist:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<style>
+{{ estilos }}
+</style>
+</head>
+<body>
+<div class="pesquisa">
+  <header class="pesquisa__cabecalho">
+    <span class="rotulo-mono rotulo-mono--tinta">PESQUISA_DE_PROPOSIÇÕES · CÂMARA_DOS_DEPUTADOS</span>
+    <h1 class="pesquisa__titulo">Pesquisa de proposições legislativas</h1>
+    <p class="texto-suave">Combine os campos livremente. Os filtros são interligados: cada lista mostra apenas as opções compatíveis com o que já foi escolhido, com a quantidade de proposições resultante. Base local: {{ base.total }} {{ base.descricao_base }}, coletadas na API de Dados Abertos em {{ base.coleta.strftime("%d/%m/%Y") }}.</p>
+  </header>
+
+  <div class="pesquisa__corpo">
+    {# ---------- FORMULÁRIO ---------- #}
+    <form class="vidro-claro filtros" role="search" aria-label="Filtros da pesquisa" id="pq-filtros">
+      <div class="filtros__topo">
+        <h2 class="filtros__titulo">Filtros</h2>
+        <span class="rotulo-mono" data-saida="qtdFiltros">NENHUM ATIVO</span>
+      </div>
+
+      <label class="campo-rotulado">
+        <span class="rotulo-mono">ASSUNTO</span>
+        <input type="search" class="campo" name="q" placeholder="Ementa ou indexação (ex.: data center)">
+      </label>
+
+      {{ faceta("autor", "AUTOR", 200, filtro="autor") }}
+
+      <fieldset class="grupo-filtro">
+        <legend class="rotulo-mono">TIPO DA PROPOSIÇÃO</legend>
+        <div class="chips" aria-label="Tipos confirmados" data-tipos-confirmados hidden></div>
+        <input type="text" class="campo" id="pq-tipo" role="combobox" autocomplete="off" aria-autocomplete="list" aria-controls="pq-tp-lista" aria-expanded="false" aria-label="Tipo da proposição: digite a sigla ou o nome" placeholder="Digite a sigla ou o nome (ex.: PL, requerimento)">
+        <div class="autocompletar" data-autocompletar hidden>
+          <div class="autocompletar__topo">
+            <span class="rotulo-mono" data-saida="legendaTipos"></span>
+            <span class="autocompletar__acoes">
+              <button type="button" class="botao botao--mini" data-acao-tipo="todos">Selecionar todos</button>
+              <button type="button" class="botao botao--mini" data-acao-tipo="limpar">Limpar seleção</button>
+            </span>
+          </div>
+          <div id="pq-tp-lista" class="lista-opcoes" role="listbox" aria-multiselectable="true" aria-label="Sugestões de tipos" style="max-height: 264px"></div>
+          <div class="autocompletar__rodape">
+            <span class="texto-mini">↑ ↓ navegar · Ctrl+Espaço marcar · Enter confirmar · Esc cancelar</span>
+            <span class="autocompletar__confirmar">
+              <button type="button" class="botao botao--medio" data-acao-tipo="cancelar">Cancelar</button>
+              <button type="button" class="botao botao--medio botao--primario" data-acao-tipo="confirmar" data-saida="rotuloConfirmar">Confirmar seleção</button>
+            </span>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="filtros__par">
+        <label class="campo-rotulado">
+          <span class="rotulo-mono">NÚMERO</span>
+          <input type="text" inputmode="numeric" class="campo" name="numero" placeholder="ex.: 1680">
+        </label>
+        <label class="campo-rotulado">
+          <span class="rotulo-mono">ANO</span>
+          <input type="text" inputmode="numeric" class="campo" name="ano" placeholder="AAAA" maxlength="4">
+        </label>
+      </div>
+
+      {{ faceta("partido", "PARTIDO DO AUTOR", 160) }}
+      {{ faceta("uf", "UF DO AUTOR", 160) }}
+      {{ faceta("tema", "TEMA", 180) }}
+
+      <fieldset class="grupo-filtro">
+        <legend class="rotulo-mono">EM TRAMITAÇÃO</legend>
+        <div class="opcoes-linha" role="radiogroup" aria-label="Em tramitação" data-faceta="tram"></div>
+      </fieldset>
+
+      <details class="filtros__avancados">
+        <summary><span class="rotulo-mono rotulo-mono--tinta">FILTROS_AVANÇADOS</span><span class="rotulo-mono" data-saida="qtdAvancados"></span></summary>
+        <div class="filtros__grupo">
+          {{ faceta("situ", "SITUAÇÃO", 180) }}
+          {{ faceta("orgao", "ÓRGÃO ATUAL", 160) }}
+          {{ faceta("regime", "REGIME DE TRAMITAÇÃO", 140) }}
+          {{ faceta("aprec", "FORMA DE APRECIAÇÃO", 140) }}
+          <fieldset class="grupo-filtro">
+            <legend class="rotulo-mono">DATA DE APRESENTAÇÃO</legend>
+            <div class="filtros__par filtros__par--sem-borda">
+              <label class="campo-rotulado"><span class="rotulo-mono">DE</span><input type="date" class="campo" name="de"></label>
+              <label class="campo-rotulado"><span class="rotulo-mono">ATÉ</span><input type="date" class="campo" name="ate"></label>
+            </div>
+          </fieldset>
+        </div>
+      </details>
+
+      <div class="filtros__acoes">
+        <button type="submit" class="botao botao--primario filtros__pesquisar">Pesquisar</button>
+        <button type="button" class="botao filtros__limpar" data-limpar>Limpar</button>
+      </div>
+    </form>
+
+    {# ---------- RESULTADOS ---------- #}
+    <section class="resultados" id="pq-resultados" aria-label="Resultados da pesquisa" aria-live="polite">
+      <div class="vidro-claro resultados__topo">
+        <div class="resultados__total">
+          <span class="rotulo-mono">RESULTADOS</span>
+          <span class="resultados__numero" data-saida="totalTexto"></span>
+        </div>
+        <div class="resultados__ordem">
+          <span class="rotulo-mono" id="pq-ordem-rotulo">ORDENAR POR</span>
+          <span class="resultados__ordens" role="group" aria-labelledby="pq-ordem-rotulo">
+            <button type="button" class="botao botao--ordem" data-ordem="recentes">Mais recentes</button>
+            <button type="button" class="botao botao--ordem" data-ordem="antigas">Mais antigas</button>
+            <button type="button" class="botao botao--ordem" data-ordem="movimentacao">Última movimentação</button>
+          </span>
+        </div>
+      </div>
+
+      <div class="chips chips--ativos" data-filtros-ativos hidden></div>
+
+      <div class="vidro-claro resultados__vazio" data-sem-resultados hidden>
+        <span class="rotulo-mono">SEM_RESULTADOS</span>
+        <p>Nenhuma proposição atende a todos os filtros. Remova um filtro ativo ou amplie o período.</p>
+      </div>
+
+      <ol class="resultados__lista" data-lista-resultados></ol>
+
+      <div class="resultados__paginacao">
+        <span class="rotulo-mono" data-saida="paginaTexto"></span>
+        <button type="button" class="botao" data-mais hidden>Mostrar mais 20</button>
+      </div>
+
+      <div class="vidro-claro consulta-api">
+        <span class="rotulo-mono rotulo-mono--tinta">CONSULTA_EQUIVALENTE · API_DADOS_ABERTOS</span>
+        <p class="texto-mini texto-suave">{{ base.nota_cobertura }} Para pesquisar todo o acervo da Câmara com os filtros aceitos pela API (tipo, número, ano, autor, partido, UF, tema, assunto e período), abra a consulta equivalente:</p>
+        <a class="botao consulta-api__link" data-link-api href="https://dadosabertos.camara.leg.br/api/v2/proposicoes" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </section>
+  </div>
+</div>
+<script type="application/json" id="pq-dados">{{ dados }}</script>
+<script>
+{{ script }}
+</script>
+</body>
+</html>

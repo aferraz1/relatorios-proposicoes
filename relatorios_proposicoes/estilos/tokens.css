@@ -1,5 +1,9 @@
-/* Tokens do design system Glass HUD Legislativo (tema "Operação", escuro). */
+/* Tokens do design system Glass HUD Legislativo.
+   Tema "Operação" (escuro) no :root; tema claro em [data-tema="claro"].
+   Os trios RGB (--*-rgb) alimentam as transparências do vidro. */
 :root {
+  color-scheme: dark;
+
   /* Superfícies */
   --surface: #10131a;
   --surface-container-lowest: #0b0e15;
@@ -10,30 +14,56 @@
   --outline: #849495;
   --outline-variant: #3b494b;
 
-  /* Primária (cyan) */
+  /* Primária (cyan): tinta, ação e contraste sobre a ação */
   --primary: #dbfcff;
   --on-primary: #00363a;
   --primary-container: #00f0ff;
   --primary-fixed: #7df4ff;
   --primary-fixed-dim: #00dbe9;
+  --acao-hover: #7df4ff;
+  --on-acao-hover: #002022;
+  --acao-press: #00dbe9;
 
-  /* Terciária (alertas) */
+  /* Terciária (alertas), violeta (normas) e âmbar (nível médio) */
   --tertiary-fixed-dim: #ffb2b8;
+  --violeta: #d1bcff;
+  --ambar: #ffcf70;
+
+  /* Trios RGB */
+  --tinta-rgb: 0, 219, 233;
+  --acao-rgb: 0, 240, 255;
+  --container-rgb: 29, 31, 39;
+  --alto-rgb: 39, 42, 50;
+  --variante-rgb: 59, 73, 75;
+  --violeta-rgb: 209, 188, 255;
+  --hover-rgb: 125, 244, 255;
+  --primaria-rgb: 219, 252, 255;
+  --veu-rgb: 11, 14, 21;
+  --popover-rgb: 44, 47, 55;
+  --janela-rgb: 50, 53, 61;
+  --seta-rgb: 58, 62, 71;
+  --brilho-rgb: 0, 240, 255;
+  --sombra-press: rgba(0, 0, 0, 0.45);
 
   /* Vidro */
-  --glass-1: rgba(29, 31, 39, 0.4);
-  --glass-2: rgba(29, 31, 39, 0.6);
-  --glass-stage: rgba(29, 31, 39, 0.55);
-  --glass-button: rgba(39, 42, 50, 0.7);
-  --hairline: rgba(0, 219, 233, 0.2);
-  --hairline-strong: rgba(0, 219, 233, 0.35);
-  --grid-line: rgba(59, 73, 75, 0.35);
+  --glass-1: rgba(var(--container-rgb), 0.4);
+  --glass-2: rgba(var(--container-rgb), 0.6);
+  --glass-stage: rgba(var(--container-rgb), 0.62);
+  --glass-button: rgba(var(--alto-rgb), 0.7);
+  --hairline: rgba(var(--tinta-rgb), 0.2);
+  --hairline-strong: rgba(var(--tinta-rgb), 0.35);
+  --grid-line: rgba(var(--variante-rgb), 0.35);
   --blur-1: 12px;
+  --campo: rgba(25, 27, 35, 0.8);
 
   /* Sombras luminosas */
-  --glow-soft: 0 0 24px 0 rgba(0, 219, 233, 0.16);
-  --glow-dot: 0 0 12px 0 rgba(0, 240, 255, 0.45);
-  --glow-focus: 0 0 0 2px #00f0ff, 0 0 12px 0 rgba(0, 240, 255, 0.45);
+  --glow-soft: 0 0 24px 0 rgba(var(--tinta-rgb), 0.16);
+  --glow-dot: 0 0 12px 0 rgba(var(--acao-rgb), 0.45);
+  --glow-focus: 0 0 0 2px var(--primary-container), 0 0 12px 0 rgba(var(--acao-rgb), 0.45);
+  --brilho-interno: inset 0 1px 0 0 rgba(var(--acao-rgb), 0.18);
+
+  /* Movimento */
+  --curva: cubic-bezier(0.2, 0, 0, 1);
 
   /* Tipografia */
   --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
@@ -56,5 +86,49 @@
   --radius-base: 4px;
   --radius-md: 6px;
   --radius-lg: 8px;
+  --radius-xl: 12px;
   --radius-full: 9999px;
+}
+
+/* Tema claro (padrão do relatório) */
+[data-tema="claro"] {
+  color-scheme: light;
+
+  --surface: #f5f7fa;
+  --surface-container-lowest: #ffffff;
+  --surface-container: #ffffff;
+  --surface-container-high: #e2e7ed;
+  --on-surface: #161c24;
+  --on-surface-variant: #3a4749;
+  --outline: #566668;
+  --outline-variant: #b9c7c9;
+
+  --primary: #00363a;
+  --on-primary: #ffffff;
+  --primary-container: #006970;
+  --primary-fixed: #004f54;
+  --primary-fixed-dim: #00777f;
+  --acao-hover: #00575d;
+  --on-acao-hover: #ffffff;
+  --acao-press: #004f54;
+
+  --tertiary-fixed-dim: #a8003a;
+  --violeta: #6a2ee0;
+  --ambar: #875400;
+
+  --tinta-rgb: 0, 119, 127;
+  --acao-rgb: 0, 105, 112;
+  --container-rgb: 255, 255, 255;
+  --alto-rgb: 255, 255, 255;
+  --variante-rgb: 185, 199, 201;
+  --violeta-rgb: 106, 46, 224;
+  --hover-rgb: 0, 79, 84;
+  --primaria-rgb: 0, 54, 58;
+  --veu-rgb: 22, 28, 36;
+  --popover-rgb: 255, 255, 255;
+  --janela-rgb: 255, 255, 255;
+  --seta-rgb: 255, 255, 255;
+  --brilho-rgb: 0, 178, 189;
+  --sombra-press: rgba(22, 28, 36, 0.16);
+  --campo: rgba(255, 255, 255, 0.75);
 }

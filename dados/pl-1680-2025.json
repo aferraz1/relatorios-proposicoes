@@ -13,9 +13,11 @@
       { "rotulo": "APRECIAÇÃO", "valor": "Conclusiva pelas comissões" }
     ],
     "apresentacao": "2025-04-14",
-    "rotulo_apreciacao": "APRECIAÇÃO CONCLUSIVA · ART. 24, II, RICD",
-    "nota_apreciacao": "Por tramitar em regime conclusivo, o projeto só vai ao Plenário se houver recurso de 1/10 dos deputados no prazo de 5 sessões após a última comissão (Art. 132, § 2º, RICD). Sem recurso, segue direto ao Senado Federal.",
-    "emendas_apresentadas": 0
+    "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III) · APRECIAÇÃO CONCLUSIVA (ART. 24, II) · RICD",
+    "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: regime ordinário (art. 151, III) e apreciação conclusiva pelas comissões (art. 24, II). Concluída a CCJC, com a redação final, a Mesa envia o projeto ao Senado Federal, encerrando a fase da Câmara. Etapas eventuais, que dependem de iniciativa específica, como o recurso ao Plenário (arts. 58, § 1º, e 132, § 2º), só passam a constar desta lista se efetivamente ocorrerem.",
+    "emendas_apresentadas": 0,
+    "temas": ["Administração Pública", "Ciência, Tecnologia e Inovação", "Economia", "Indústria, Comércio e Serviços"],
+    "keywords": "Alteração, Lei de Licitações e Contratos Administrativos (2021), criação, Política Nacional para Processamento e Armazenamento Digitais, Zona Especial de Processamento e Armazenamento Digitais (ZEPAD), instalação, empresa, cadeia produtiva, processamento digital de dados, armazenamento de dados, diretrizes, prioridade, licitação, infraestrutura, Zona Especial de Processamento e Armazenamento Digitais (ZEPAD)."
   },
   "autor": {
     "id": 122974,
@@ -50,7 +52,7 @@
       "fim": "2026-06-10",
       "estado": "concluido",
       "comissao": true,
-      "documento": { "codteor": "3132208", "nome": "PARECER APROVADO" }
+      "documento": { "codteor": "3132208", "nome": "PARECER APROVADO", "id": 2625725 }
     },
     {
       "sigla": "CFT",
@@ -63,20 +65,14 @@
     {
       "sigla": "CCJC",
       "nome": "Constituição e Justiça e de Cidadania",
-      "papel": "Constitucionalidade e juridicidade (Art. 54)",
+      "papel": "Constitucionalidade, juridicidade e técnica legislativa (Art. 54) e redação final (Art. 32, IV, \"q\")",
       "estado": "pendente",
       "comissao": true
     },
     {
-      "sigla": "SF",
-      "nome": "Senado Federal",
-      "papel": "Casa revisora",
-      "estado": "pendente"
-    },
-    {
-      "sigla": "PR",
-      "nome": "Presidência da República",
-      "papel": "Sanção ou veto",
+      "sigla": "REMESSA",
+      "nome": "Mesa Diretora",
+      "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
       "estado": "pendente"
     }
   ],
@@ -91,9 +87,9 @@
     "resumo_inicio": "Designado em 11/06/2025, então pelo UNIÃO-SP. Apresentou três versões de parecer, todas pela aprovação com substitutivo:",
     "resumo_fim": "O PRL 3 foi aprovado em 10/06/2026.",
     "pareceres": [
-      { "sigla": "PRL 1", "nome": "Parecer do Relator · PRL 1 CCTI", "data": "16/12/2025", "codteor": "3068812", "aprovado": false },
-      { "sigla": "PRL 2", "nome": "Parecer do Relator · PRL 2 CCTI", "data": "07/04/2026", "codteor": "3109615", "aprovado": false },
-      { "sigla": "PRL 3", "nome": "Parecer do Relator · PRL 3 CCTI", "data": "19/05/2026 · aprovado em 10/06/2026", "codteor": "3132208", "aprovado": true }
+      { "sigla": "PRL 1", "nome": "Parecer do Relator · PRL 1 CCTI", "data": "16/12/2025", "codteor": "3068812", "aprovado": false, "id": 2597334 },
+      { "sigla": "PRL 2", "nome": "Parecer do Relator · PRL 2 CCTI", "data": "07/04/2026", "codteor": "3109615", "aprovado": false, "id": 2614024 },
+      { "sigla": "PRL 3", "nome": "Parecer do Relator · PRL 3 CCTI", "data": "19/05/2026 · aprovado em 10/06/2026", "codteor": "3132208", "aprovado": true, "id": 2625725 }
     ]
   },
   "fases": [
@@ -101,7 +97,7 @@
       "sigla": "MESA",
       "nome": "Apresentação e distribuição",
       "eventos": [
-        { "data_hora": "2025-04-14T15:24", "titulo": "Apresentação de Proposição", "texto": "Apresentado pelo Dep. Pedro Lucas Fernandes (UNIÃO/MA).", "tipo": "marco", "etiqueta": "INÍCIO", "documento": { "codteor": "2886348", "nome": "Inteiro teor · PL 1680/2025" } },
+        { "data_hora": "2025-04-14T15:24", "titulo": "Apresentação de Proposição", "texto": "Apresentado pelo Dep. Pedro Lucas Fernandes (UNIÃO/MA).", "tipo": "marco", "etiqueta": "INÍCIO", "documento": { "codteor": "2886348", "nome": "Inteiro teor · PL 1680/2025", "id": 2497586 } },
         { "data_hora": "2025-05-23T17:43", "titulo": "Distribuição", "texto": "Às comissões CCTI, CFT (mérito e Art. 54) e CCJC (Art. 54). Apreciação conclusiva pelas comissões (Art. 24, II).", "tipo": "marco", "documento": { "codteor": "2909504", "nome": "Despacho de distribuição" } },
         { "data_hora": "2025-05-26T00:00", "titulo": "Publicação de Proposição", "texto": "Publicação inicial em avulso e no DCD de 27/05/2025 (CCP).", "tipo": "rotina" }
       ]
@@ -113,27 +109,27 @@
         { "data_hora": "2025-05-26T13:17", "titulo": "Recebimento", "texto": "Recebimento pela CCTI.", "tipo": "rotina" },
         { "data_hora": "2025-06-11T00:00", "titulo": "Designação de Relator(a)", "texto": "Designado relator o Dep. David Soares (UNIÃO-SP).", "tipo": "marco" },
         { "data_hora": "2025-06-12T00:00", "titulo": "Abertura de Prazo", "texto": "Prazo para emendas ao projeto: 5 sessões a partir de 13/06/2025.", "tipo": "rotina" },
-        { "data_hora": "2025-06-23T11:26", "titulo": "Apresentação de Requerimento", "texto": "REQ 29/2025, do Dep. David Soares: audiência pública sobre desafios e oportunidades dos data centers.", "tipo": "rotina", "documento": { "codteor": "2939519", "nome": "REQ 29/2025 CCTI" } },
+        { "data_hora": "2025-06-23T11:26", "titulo": "Apresentação de Requerimento", "texto": "REQ 29/2025, do Dep. David Soares: audiência pública sobre desafios e oportunidades dos data centers.", "tipo": "rotina", "documento": { "codteor": "2939519", "nome": "REQ 29/2025 CCTI", "id": 2527380 } },
         { "data_hora": "2025-06-26T13:03", "titulo": "Encerramento de Prazo", "texto": "Encerrado o prazo de 5 sessões. Não foram apresentadas emendas ao projeto.", "tipo": "rotina" },
         { "data_hora": "2025-08-13T11:00", "titulo": "Aprovação de Requerimento", "texto": "Aprovado o REQ 29/2025 (audiência pública).", "tipo": "rotina" },
         { "data_hora": "2025-09-03T00:00", "titulo": "Notificações", "texto": "1ª audiência pública realizada, com convidados do setor, entre eles a Abrint.", "tipo": "rotina" },
-        { "data_hora": "2025-12-16T15:53", "titulo": "Recebimento - Relator(a)", "texto": "Apresentação do PRL 1 CCTI pelo Dep. David Soares (UNIÃO/SP).", "tipo": "rotina", "documento": { "codteor": "3068812", "nome": "PRL 1 CCTI" } },
-        { "data_hora": "2025-12-16T15:54", "titulo": "Parecer do(a) Relator(a)", "texto": "Parecer pela aprovação, com substitutivo.", "tipo": "marco", "etiqueta": "PRL 1", "documento": { "codteor": "3068812", "nome": "PRL 1 CCTI" } },
+        { "data_hora": "2025-12-16T15:53", "titulo": "Recebimento - Relator(a)", "texto": "Apresentação do PRL 1 CCTI pelo Dep. David Soares (UNIÃO/SP).", "tipo": "rotina", "documento": { "codteor": "3068812", "nome": "PRL 1 CCTI", "id": 2597334 } },
+        { "data_hora": "2025-12-16T15:54", "titulo": "Parecer do(a) Relator(a)", "texto": "Parecer pela aprovação, com substitutivo.", "tipo": "marco", "etiqueta": "PRL 1", "documento": { "codteor": "3068812", "nome": "PRL 1 CCTI", "id": 2597334 } },
         { "data_hora": "2025-12-17T00:00", "titulo": "Abertura de Prazo", "texto": "Prazo para emendas ao substitutivo: 5 sessões a partir de 18/12/2025.", "tipo": "rotina" },
         { "data_hora": "2026-02-25T20:38", "titulo": "Encerramento de Prazo", "texto": "Encerrado o prazo. Não foram apresentadas emendas ao substitutivo.", "tipo": "rotina" },
         { "data_hora": "2026-04-06T23:59", "titulo": "Saída de Relator(a) da Comissão", "texto": "O relator deixou de ser membro da comissão, com parecer apresentado.", "tipo": "alerta", "etiqueta": "SAÍDA" },
         { "data_hora": "2026-04-07T00:00", "titulo": "Designação de Relator(a)", "texto": "Redesignado relator o Dep. David Soares (UNIÃO-SP).", "tipo": "alerta", "etiqueta": "REDESIGNAÇÃO" },
-        { "data_hora": "2026-04-07T18:29", "titulo": "Recebimento - Relator(a)", "texto": "Apresentação do PRL 2 CCTI pelo Dep. David Soares (UNIÃO/SP).", "tipo": "rotina", "documento": { "codteor": "3109615", "nome": "PRL 2 CCTI" } },
-        { "data_hora": "2026-04-07T18:29", "titulo": "Parecer do(a) Relator(a)", "texto": "Parecer pela aprovação, com substitutivo.", "tipo": "marco", "etiqueta": "PRL 2", "documento": { "codteor": "3109615", "nome": "PRL 2 CCTI" } },
+        { "data_hora": "2026-04-07T18:29", "titulo": "Recebimento - Relator(a)", "texto": "Apresentação do PRL 2 CCTI pelo Dep. David Soares (UNIÃO/SP).", "tipo": "rotina", "documento": { "codteor": "3109615", "nome": "PRL 2 CCTI", "id": 2614024 } },
+        { "data_hora": "2026-04-07T18:29", "titulo": "Parecer do(a) Relator(a)", "texto": "Parecer pela aprovação, com substitutivo.", "tipo": "marco", "etiqueta": "PRL 2", "documento": { "codteor": "3109615", "nome": "PRL 2 CCTI", "id": 2614024 } },
         { "data_hora": "2026-04-08T10:00", "titulo": "Retirada de Pauta", "texto": "Retirado de pauta, de ofício, em razão do pedido do relator.", "tipo": "alerta", "etiqueta": "1ª RETIRADA" },
         { "data_hora": "2026-04-15T09:30", "titulo": "Retirada de Pauta", "texto": "Retirado de pauta, de ofício, a pedido do relator.", "tipo": "alerta", "etiqueta": "2ª RETIRADA" },
         { "data_hora": "2026-05-13T09:30", "titulo": "Retirada de Pauta", "texto": "Retirado de pauta, de ofício, a pedido do relator.", "tipo": "alerta", "etiqueta": "3ª RETIRADA" },
-        { "data_hora": "2026-05-19T12:42", "titulo": "Recebimento - Relator(a)", "texto": "Apresentação do PRL 3 CCTI pelo Dep. David Soares (PODE/SP).", "tipo": "rotina", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI" } },
-        { "data_hora": "2026-05-19T12:42", "titulo": "Parecer do(a) Relator(a)", "texto": "Parecer pela aprovação, com substitutivo.", "tipo": "marco", "etiqueta": "PRL 3", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI" } },
+        { "data_hora": "2026-05-19T12:42", "titulo": "Recebimento - Relator(a)", "texto": "Apresentação do PRL 3 CCTI pelo Dep. David Soares (PODE/SP).", "tipo": "rotina", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI", "id": 2625725 } },
+        { "data_hora": "2026-05-19T12:42", "titulo": "Parecer do(a) Relator(a)", "texto": "Parecer pela aprovação, com substitutivo.", "tipo": "marco", "etiqueta": "PRL 3", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI", "id": 2625725 } },
         { "data_hora": "2026-05-20T10:00", "titulo": "Retirada de Pauta", "texto": "Retirado de pauta, de ofício, a pedido do relator.", "tipo": "alerta", "etiqueta": "4ª RETIRADA" },
         { "data_hora": "2026-05-27T10:00", "titulo": "Retirada de Pauta", "texto": "Retirado de pauta, de ofício, a pedido do relator.", "tipo": "alerta", "etiqueta": "5ª RETIRADA" },
-        { "data_hora": "2026-06-10T10:00", "titulo": "Leitura e publicação do Parecer", "texto": "Lido o parecer pelo relator, Dep. David Soares.", "tipo": "rotina", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI (lido)" } },
-        { "data_hora": "2026-06-10T10:00", "titulo": "Aprovação do Parecer", "texto": "Aprovado o parecer na CCTI: aprovação com substitutivo.", "tipo": "marco", "etiqueta": "APROVADO", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI (aprovado)" } }
+        { "data_hora": "2026-06-10T10:00", "titulo": "Leitura e publicação do Parecer", "texto": "Lido o parecer pelo relator, Dep. David Soares.", "tipo": "rotina", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI (lido)", "id": 2625725 } },
+        { "data_hora": "2026-06-10T10:00", "titulo": "Aprovação do Parecer", "texto": "Aprovado o parecer na CCTI: aprovação com substitutivo.", "tipo": "marco", "etiqueta": "APROVADO", "documento": { "codteor": "3132208", "nome": "PRL 3 CCTI (aprovado)", "id": 2625725 } }
       ]
     },
     {
@@ -152,5 +148,344 @@
     { "titulo": "Análise na CCJC", "descricao": "Constitucionalidade, juridicidade e técnica legislativa (Art. 54, RICD)." },
     { "titulo": "Prazo de recurso ao Plenário", "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)." },
     { "titulo": "Remessa ao Senado Federal", "descricao": "Sem recurso, o projeto segue à Casa revisora." }
-  ]
+  ],
+  "versao_valida": {
+    "sigla": "SBT-A 1 CCTI",
+    "titulo": "SBT-A 1 CCTI · Substitutivo adotado pela Comissão",
+    "selo": "APROVADO NA CCTI · 10/06/2026",
+    "rotulo_botao": "TEXTO VIGENTE · SBT-A",
+    "ementa": "Institui a Política Nacional de Data Center, dispõe sobre o regime de Embaixada de Dados, altera a Lei nº 9.074, de 7 de julho de 1995, para assegurar prioridade no acesso aos sistemas de transmissão e distribuição de energia elétrica, e dá outras providências.",
+    "descricao": "Versão válida e atualizada do PL 1.680/2025: é o texto de referência para as próximas tramitações e análises na CFT e na CCJC. Resulta do parecer aprovado do relator (PRL 3 CCTI) e foi publicada com o parecer da comissão (PAR 1 CCTI) em 03/07/2026. Os substitutivos SBT 1, 2 e 3 estão superados.",
+    "documento": { "codteor": "3156039", "nome": "SBT-A 1 CCTI", "id": 2636782 },
+    "parecer": { "codteor": "3156037", "nome": "PAR 1 CCTI", "id": 2636781 }
+  },
+  "arvore": {
+    "raiz": { "sigla": "PL 1680/2025", "tipo": "Projeto de Lei", "data": "Apresentado em 14/04/2025", "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)", "texto": "Institui a Política Nacional para Processamento e Armazenamento Digitais. Altera a Lei nº 14.133, de 1º de abril de 2021.", "id": 2497586, "codteor": "2886348", "situacao": "EM TRAMITAÇÃO" },
+    "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+    "apensados": [],
+    "grupos": [
+      {
+        "rotulo": "PARECERES E SUBSTITUTIVOS · CCTI",
+        "plural": "pareceres e substitutivos",
+        "itens": [
+          { "sigla": "PRL 1 CCTI", "tipo": "Parecer do Relator", "data": "16/12/2025", "autor": "Dep. David Soares (UNIÃO/SP)", "texto": "Pela aprovação, com substitutivo.", "id": 2597334, "codteor": "3068812", "superado": true },
+          { "sigla": "SBT 1 CCTI", "tipo": "Substitutivo", "data": "16/12/2025", "autor": "Dep. David Soares (UNIÃO/SP)", "texto": "Institui a Política Nacional para Processamento e Armazenamento Digitais.", "id": 2597336, "codteor": "3068812", "superado": true },
+          { "sigla": "PRL 2 CCTI", "tipo": "Parecer do Relator", "data": "07/04/2026", "autor": "Dep. David Soares (UNIÃO/SP)", "texto": "Pela aprovação, com substitutivo.", "id": 2614024, "codteor": "3109615", "superado": true },
+          { "sigla": "SBT 2 CCTI", "tipo": "Substitutivo", "data": "08/04/2026", "autor": "Dep. David Soares (UNIÃO/SP)", "id": 2614089, "codteor": "3109615", "superado": true },
+          { "sigla": "PRL 3 CCTI", "tipo": "Parecer do Relator", "data": "19/05/2026", "autor": "Dep. David Soares (PODE/SP)", "texto": "Pela aprovação, com substitutivo.", "id": 2625725, "codteor": "3132208", "destaque": "PARECER APROVADO", "nota": "Aprovado pela CCTI em 10/06/2026. Deu origem ao texto vigente (SBT-A 1 CCTI)." },
+          { "sigla": "SBT 3 CCTI", "tipo": "Substitutivo", "data": "19/05/2026", "autor": "Dep. David Soares (PODE/SP)", "id": 2625729, "codteor": "3132208", "superado": true },
+          { "sigla": "PAR 1 CCTI", "tipo": "Parecer de Comissão", "data": "02/07/2026", "autor": "Comissão de Ciência, Tecnologia e Inovação", "texto": "Parecer da Comissão (CCTI) ao PL 1680/2025.", "id": 2636781, "codteor": "3156037", "destaque": "PARECER DA COMISSÃO", "nota": "Parecer oficial da CCTI, publicado em avulso e no DCD de 03/07/2026, Letra A." },
+          {
+            "sigla": "SBT-A 1 CCTI",
+            "tipo": "Substitutivo adotado pela Comissão",
+            "data": "02/07/2026",
+            "autor": "Comissão de Ciência, Tecnologia e Inovação",
+            "texto": "Institui a Política Nacional de Data Center, dispõe sobre o regime de Embaixada de Dados, altera a Lei nº 9.074, de 7 de julho de 1995, para assegurar prioridade no acesso aos sistemas de transmissão e distribuição de energia elétrica, e dá outras providências.",
+            "id": 2636782,
+            "codteor": "3156039",
+            "destaque": "TEXTO VIGENTE",
+            "nota": "Versão válida e atualizada do projeto: texto de referência para as próximas tramitações e análises na CFT e na CCJC."
+          }
+        ]
+      },
+      {
+        "rotulo": "REQUERIMENTOS · CCTI",
+        "plural": "requerimentos",
+        "sigla_vinculados": "RPD",
+        "plural_vinculados": "requerimentos de retirada de pauta",
+        "itens": [
+          {
+            "sigla": "REQ 29/2025 CCTI",
+            "tipo": "Requerimento de Audiência Pública",
+            "data": "23/06/2025",
+            "autor": "Dep. David Soares (UNIÃO/SP)",
+            "texto": "Requer a realização de Audiência Pública na CCTI para debater os desafios e oportunidades dos data centers e a criação da Política Nacional para Processamento e Armazenamento Digitais com o PL nº 1.680/2025.",
+            "id": 2527380,
+            "codteor": "2939519",
+            "situacao": "ARQUIVADO",
+            "vinculados": [
+              { "sigla": "RPD 1 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "02/07/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 29/2025 CCTI.", "id": 2530156 },
+              { "sigla": "RPD 2 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "02/07/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 29/2025 CCTI.", "id": 2530160 },
+              { "sigla": "RPD 3 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "06/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 29/2025 CCTI.", "id": 2540031 },
+              { "sigla": "RPD 4 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "06/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 29/2025 CCTI.", "id": 2540100 },
+              { "sigla": "RPD 5 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 29/2025 CCTI.", "id": 2543868 },
+              { "sigla": "RPD 6 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 29/2025 CCTI.", "id": 2543883 }
+            ]
+          },
+          {
+            "sigla": "REQ 31/2025 CCTI",
+            "tipo": "Requerimento de Audiência Pública",
+            "data": "26/06/2025",
+            "autor": "Dep. Vitor Lippi (PSDB/SP)",
+            "texto": "Requer inclusão de convidado em audiência pública na CCTI para debater os desafios e oportunidades dos data centers e o PL nº 1.680/2025.",
+            "id": 2529123,
+            "vinculados": [
+              { "sigla": "RPD 1 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "02/07/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 31/2025 CCTI.", "id": 2530179 },
+              { "sigla": "RPD 2 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "02/07/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 31/2025 CCTI.", "id": 2530183 },
+              { "sigla": "RPD 3 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 31/2025 CCTI.", "id": 2543906 },
+              { "sigla": "RPD 4 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 31/2025 CCTI.", "id": 2543911 }
+            ]
+          },
+          {
+            "sigla": "REQ 34/2025 CCTI",
+            "tipo": "Requerimento de Audiência Pública",
+            "data": "01/07/2025",
+            "autor": "Dep. Vitor Lippi (PSDB/SP)",
+            "texto": "Requer inclusão de convidado em audiência pública na CCTI para debater os desafios e oportunidades dos data centers e o PL nº 1.680/2025.",
+            "id": 2529491,
+            "vinculados": [
+              { "sigla": "RPD 1 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "02/07/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 34/2025 CCTI.", "id": 2530193 },
+              { "sigla": "RPD 2 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "02/07/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 34/2025 CCTI.", "id": 2530194 },
+              { "sigla": "RPD 3 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "06/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 34/2025 CCTI.", "id": 2540055 },
+              { "sigla": "RPD 4 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "06/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 34/2025 CCTI.", "id": 2540098 },
+              { "sigla": "RPD 5 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 34/2025 CCTI.", "id": 2543918 },
+              { "sigla": "RPD 6 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 34/2025 CCTI.", "id": 2543931 }
+            ]
+          },
+          {
+            "sigla": "REQ 36/2025 CCTI",
+            "tipo": "Requerimento de Audiência Pública",
+            "data": "03/07/2025",
+            "autor": "Dep. Julio Cesar Ribeiro (REPUBLIC/DF)",
+            "texto": "Requer o aditamento do REQ 29/2025 CCTI para inclusão de convidado em audiência pública.",
+            "id": 2532311,
+            "vinculados": [
+              { "sigla": "RPD 1 CCTI", "tipo": "Requerimento de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Requerimento de retirada de matéria da pauta: REQ 36/2025 CCTI.", "id": 2543984 },
+              { "sigla": "RPD 2 CCTI", "tipo": "Votação nominal de retirada de pauta", "data": "13/08/2025", "autor": "Dep. Cabo Gilberto Silva (PL/PB)", "texto": "Votação nominal do requerimento de retirada de pauta do REQ 36/2025 CCTI.", "id": 2543986 }
+            ]
+          },
+          { "sigla": "REQ 39/2025 CCTI", "tipo": "Requerimento de Audiência Pública", "data": "19/08/2025", "autor": "Dep. Márcio Marinho (REPUBLIC/BA)", "texto": "Requer aditamento ao REQ 29/2025 para incluir o Dr. Gustavo Tadeu Zaniboni na lista de convidados das audiências públicas sobre data centers e o PL nº 1.680/2025.", "id": 2549106 },
+          { "sigla": "REQ 43/2025 CCTI", "tipo": "Requerimento de Audiência Pública", "data": "25/08/2025", "autor": "Dep. Vitor Lippi (PSDB/SP)", "texto": "Requer o aditamento ao REQ 31/2025 da CCTI para debater “Desafios e oportunidades dos data centers no Brasil e o PL 1.680/2025”.", "id": 2551893 },
+          { "sigla": "REQ 44/2025 CCTI", "tipo": "Requerimento de Audiência Pública", "data": "25/08/2025", "autor": "Dep. Vitor Lippi (PSDB/SP)", "texto": "Requer, em aditamento ao REQ 29/2025 CCTI, a inclusão de convidado em audiência pública.", "id": 2552055 },
+          { "sigla": "REQ 45/2025 CCTI", "tipo": "Requerimento de Audiência Pública", "data": "01/09/2025", "autor": "Dep. Vitor Lippi (PSDB/SP)", "texto": "Requer o aditamento ao REQ 29/2025 da CCTI para debater “Desafios e oportunidades dos data centers no Brasil e o PL 1.680/2025”.", "id": 2555389 },
+          { "sigla": "REQ 46/2025 CCTI", "tipo": "Requerimento de Audiência Pública", "data": "01/09/2025", "autor": "Dep. Vitor Lippi (PSDB/SP)", "texto": "Requer o aditamento ao REQ 29/2025 da CCTI para debater “Desafios e oportunidades dos data centers no Brasil e o PL 1.680/2025”.", "id": 2555391 }
+        ]
+      }
+    ]
+  },
+  "anexos": [
+    {
+      "titulo": "Avulsos",
+      "subtitulo": "Avulso consolidado da proposição",
+      "selo": "PDF",
+      "itens": [
+        { "sigla": "Avulso PL 1680/2025", "tipo": "Avulso", "texto": "Avulso da proposição, na versão mais recente publicada pela Câmara.", "codteor": "3156437" }
+      ]
+    },
+    {
+      "titulo": "Legislação Citada",
+      "subtitulo": "Normas referenciadas no texto original",
+      "selo": "PDF",
+      "itens": [
+        { "sigla": "Legislação Citada · PL 1680/2025", "tipo": "Legislação citada", "data": "Anexo ao texto original", "texto": "Norma alterada pelo projeto: Lei nº 14.133, de 1º de abril de 2021 (Lei de Licitações e Contratos Administrativos).", "codteor": "2886818" }
+      ]
+    },
+    { "titulo": "Mensagens, Ofícios e Requerimentos", "subtitulo": "Comissão de Ciência, Tecnologia e Inovação (CCTI)", "referencias": ["REQ 29/2025 CCTI"] },
+    { "titulo": "Destaques", "subtitulo": "Destaques para votação em separado", "itens": [] },
+    { "titulo": "Histórico de Pareceres, Substitutivos e Votos", "subtitulo": "Comissão de Ciência, Tecnologia e Inovação (CCTI)", "referencias": ["PRL 1 CCTI", "SBT 1 CCTI", "PRL 2 CCTI", "SBT 2 CCTI", "PRL 3 CCTI", "SBT 3 CCTI", "PAR 1 CCTI", "SBT-A 1 CCTI"] },
+    { "titulo": "Relatório de conferência de assinaturas", "subtitulo": "Conferência de assinaturas de apoiamento", "selo": "N/D", "itens": [], "mensagem_vazio": "Documento não disponível na ficha de tramitação até {data_consulta}." },
+    { "titulo": "Emendas", "subtitulo": "Emendas ao Projeto (0) · Emendas ao Substitutivo (0)", "itens": [], "mensagem_vazio": "Nenhuma emenda apresentada. Os prazos de emendas ao projeto (12 a 26/06/2025) e ao substitutivo (17/12/2025 a 25/02/2026) se encerraram sem emendas." },
+    { "titulo": "Recursos", "subtitulo": "Recursos contra a apreciação conclusiva", "itens": [] },
+    {
+      "titulo": "Histórico de Despachos",
+      "subtitulo": "Despachos da Mesa Diretora",
+      "itens": [
+        { "sigla": "Despacho de 23/05/2025", "tipo": "Despacho", "data": "23/05/2025", "autor": "Mesa Diretora", "texto": "Às Comissões de Ciência, Tecnologia e Inovação; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (Art. 24, II). Regime de tramitação: Ordinário (Art. 151, III, RICD).", "codteor": "2909504" }
+      ]
+    },
+    { "titulo": "Redação Final", "subtitulo": "Texto final aprovado", "selo": "N/D", "itens": [], "mensagem_vazio": "Ainda não há redação final: a proposição segue em análise nas comissões." }
+  ],
+  "analise": {
+    "introducao": "Análise técnica do gabinete sobre o texto vigente (SBT-A 1 CCTI), o parecer aprovado (PRL 3 CCTI) e as etapas pendentes (CFT e CCJC, apreciação conclusiva). Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se validar os precedentes do STF no portal oficial antes de citá-los em documento formal.",
+    "sintese": [
+      "O PL 1.680/2025 mudou de natureza na CCTI. O texto original criava zonas especiais (ZEPAD) e alterava a Lei de Licitações; o substitutivo adotado (SBT-A 1) virou uma **lei-quadro de data centers**: princípios e diretrizes, prioridade de acesso à rede elétrica (Lei 9.074/1995), regime de Embaixada de Dados, localização obrigatória de dados estratégicos e exclusão de responsabilidade do operador. A mudança ampliou o alcance político do projeto, mas trouxe dispositivos com **risco constitucional e de juridicidade concentrado na CCJC**, cujo parecer é terminativo (RICD, art. 54, I).",
+      "O gargalo imediato é a **CFT, sem relator desde 02/07/2026**. O caminho mais curto ali é demonstrar **não implicação orçamentária**: os incentivos fiscais saíram do texto (o tema foi absorvido pela Lei 15.504/2026, Redata) e a expansão de rede por consumidores (§ 6º-B) é custeada integralmente pelos interessados. O risco financeiro remanescente está nos deveres impostos ao Executivo (arts. 11, 12 e 13), saneáveis por emenda.",
+      "O calendário é favorável, mas não folgado: o projeto **não será arquivado** ao fim da legislatura (RICD, art. 105, VI, na redação da Res. 33/2022) e o autor foi reeleito; ainda assim, a recomposição das comissões em 2027 tende a reiniciar relatorias. A meta realista é **parecer da CFT antes do recesso de dezembro** e chegada à CCJC já com emendas de saneamento prontas."
+    ],
+    "semaforo": [
+      { "eixo": "CALENDÁRIO E TRAMITAÇÃO", "nivel": "ALTO", "texto": "CFT sem relator desde 02/07/2026; recesso a partir de 23/12; recomposição das comissões em 2027." },
+      { "eixo": "CONSTITUCIONALIDADE (CCJC)", "nivel": "ALTO", "texto": "Arts. 2º VIII, 9º–10 (Embaixada de Dados) e 15 (comitê autorizativo) concentram o risco de parecer terminativo." },
+      { "eixo": "JURIDICIDADE E COERÊNCIA", "nivel": "MÉDIO", "texto": "Art. 8º (exclusão de responsabilidade), art. 5º II (aprovação tácita) e sobreposição com PNAST e Redata." },
+      { "eixo": "ADEQUAÇÃO FINANCEIRA (CFT)", "nivel": "MÉDIO", "texto": "Sem incentivo fiscal; deveres do Executivo (arts. 11–13) e localização de dados (art. 12) pedem emenda de adequação." },
+      { "eixo": "TÉCNICA LEGISLATIVA", "nivel": "BAIXO", "texto": "Inconsistências de grafia, numeração e vigência; todas saneáveis por emenda de redação na CCJC." }
+    ],
+    "diagnostico": [
+      {
+        "rotulo": "PROCESSO LEGISLATIVO · RICD",
+        "titulo": "Onde o projeto está e o que vem pela frente",
+        "itens": [
+          { "texto": "Regime ordinário e apreciação conclusiva pelas comissões (RICD, art. 24, II). Restam CFT (mérito e art. 54) e CCJC (art. 54). Os pareceres de adequação (CFT) e de constitucionalidade e juridicidade (CCJC) são terminativos (RICD, art. 54).", "fontes": ["ricd", "ficha"] },
+          { "texto": "Aprovado nas comissões, o projeto vai direto ao Senado, salvo recurso de 1/10 dos deputados (52) em 5 sessões (RICD, arts. 58, § 1º, e 132, § 2º). Parecer terminativo contrário também admite recurso (RICD, art. 144).", "fontes": ["ricd", "guia"] },
+          { "texto": "Não haverá arquivamento ao fim da 57ª Legislatura: proposições com menos de três legislaturas completas ficam preservadas (RICD, art. 105, VI, na redação da Res. 33/2022). O autor foi reeleito para 2027–2030.", "fontes": ["res33", "eleicao"] },
+          { "texto": "Como a primeira comissão de mérito (CCTI) já se pronunciou, novas proposições sobre o tema não podem mais ser apensadas na conclusiva, o que protege o texto de perder precedência.", "fontes": ["guia", "ricd"] },
+          { "texto": "O prazo regimental da comissão no regime ordinário é de 40 sessões (RICD, art. 52, III); esgotado, o Presidente da Câmara pode enviar a proposição à comissão seguinte (RICD, art. 52, § 6º).", "fontes": ["ricd"] }
+        ]
+      },
+      {
+        "rotulo": "CONSTITUCIONALIDADE",
+        "titulo": "Competência, iniciativa e soberania",
+        "itens": [
+          { "texto": "Competência legislativa da União sobre energia, informática e telecomunicações (CF, art. 22, IV) e proteção de dados (CF, art. 22, XXX, EC 115/2022): matéria formalmente adequada à lei federal de iniciativa parlamentar (CF, art. 61, caput).", "fontes": ["cf"] },
+          { "texto": "Art. 15 (\"Fica autorizada a criação do Comitê Interministerial\"): lei autorizativa sobre organização da administração é tida por inconstitucional pela CCJC (Súmula nº 1) e invade a iniciativa e a competência do Presidente (CF, arts. 61, § 1º, II, \"e\", e 84, VI, \"a\").", "fontes": ["sum1", "cf"] },
+          { "texto": "Arts. 11, 12 e 13 criam deveres ao Executivo (sistema de informações, padrões de cibersegurança, formulário). O STF admite lei parlamentar que crie despesa sem tratar de estrutura ou atribuição de órgãos (Tema 917), o que favorece o texto, desde que se evite detalhar órgãos e competências.", "fontes": ["t917", "cf"] },
+          { "texto": "Embaixada de Dados (arts. 2º, VIII, 9º e 10): tratar dados como \"extensão do território nacional de origem\" tensiona a soberania (CF, art. 1º, I) e a jurisdição; o acordo internacional exige resolução definitiva do Congresso quando gerar compromissos (CF, arts. 49, I, e 84, VIII), o que o texto não explicita.", "fontes": ["cf", "sbta"] },
+          { "texto": "Afastar a LGPD na Embaixada de Dados (art. 10) precisa conviver com o direito fundamental à proteção de dados (CF, art. 5º, LXXIX; STF, ADI 6.387). A própria LGPD já exclui dados vindos do exterior que não sejam compartilhados no Brasil (art. 4º, IV): remeter a esse dispositivo reduz o risco.", "fontes": ["cf", "lgpd", "adi6387"] }
+        ]
+      },
+      {
+        "rotulo": "JURIDICIDADE · COERÊNCIA DO ORDENAMENTO",
+        "titulo": "Encaixe com LGPD, setor elétrico e Redata",
+        "itens": [
+          { "texto": "Art. 8º isenta o proprietário do data center de responsabilidade civil, criminal e pela LGPD quando o contrato impedir acesso aos dados. A responsabilidade penal é pessoal e não se afasta por contrato; na LGPD, o correto é qualificar o papel do agente (controlador/operador, arts. 5º, VI e VII, e 42), não criar imunidade.", "fontes": ["lgpd", "sbta"] },
+          { "texto": "Art. 5º, II, remete ao prazo de aprovação tácita da Lei da Liberdade Econômica (art. 3º, IX) para acesso ao Sistema Interligado Nacional, cuja análise é técnica (ONS/ANEEL) e envolve segurança elétrica: risco de incompatibilidade e de veto.", "fontes": ["l13874", "sbta"] },
+          { "texto": "Prioridade de acesso (§ 6º-A) e expansão de rede por consumidores (§ 6º-B) entram no art. 15 da Lei 9.074/1995 e coexistem com a Política Nacional de Acesso ao Sistema de Transmissão (Decreto 12.772/2025), em regulamentação pela ANEEL na CP 36/2026 (contribuições até 22/11/2026).", "fontes": ["l9074", "pnast"] },
+          { "texto": "A Lei 15.504/2026 (Redata) já define \"serviços de datacenter\" (art. 11-A, § 1º) e fixa contrapartidas de energia renovável e eficiência hídrica. O SBT-A usa outra definição (art. 2º, III): a dupla conceituação fere a uniformidade exigida pela LC 95 (arts. 7º, IV, e 11).", "fontes": ["l15504", "lc95"] },
+          { "texto": "O voto do relator na CCTI afirma que o projeto \"resta prejudicado\" pela política do Executivo e justifica apenas a alteração da Lei 9.074; não fundamenta Embaixada de Dados, art. 8º nem art. 12. A fragilidade de motivação será explorada por quem se opuser na CCJC ou em recurso.", "fontes": ["prl3"] }
+        ]
+      },
+      {
+        "rotulo": "ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA · CFT",
+        "titulo": "Caminho para \"não implicação\"",
+        "itens": [
+          { "texto": "Proposição que não afeta receita nem despesa recebe da CFT o reconhecimento de não implicação, e o mérito pode ser apreciado (Norma Interna CFT, art. 9º). Inadequação impede o exame de mérito e é terminativa (NI-CFT, art. 10; RICD, art. 54, II).", "fontes": ["nicft", "adeq", "ricd"] },
+          { "texto": "O SBT-A não concede benefício tributário (renúncia saiu do texto; o tema está na Lei 15.504/2026) e o § 6º-B atribui integralmente aos consumidores os custos da rede, vedando rateio: argumentos centrais para a não implicação.", "fontes": ["sbta", "l15504"] },
+          { "texto": "Pontos de atenção: art. 12 (dados de defesa, segurança pública e investigação só em data centers no país) pode gerar despesa obrigatória para órgãos que usam nuvem no exterior; arts. 11 e 13 exigem sistemas. Despesa obrigatória sem estimativa contraria o art. 113 do ADCT e os arts. 16 e 17 da LRF; o STF aplica o art. 113 a toda proposição (ADI 6.303).", "fontes": ["adct", "lrf", "adi6303"] },
+          { "texto": "Solução de baixo custo político: emenda condicionando os deveres à regulamentação e à disponibilidade orçamentária, com prazo de transição, preservando o mérito.", "fontes": ["nicft", "lrf"] }
+        ]
+      }
+    ],
+    "legistica": {
+      "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO SBT-A 1 CCTI",
+      "achados": [
+        { "dispositivo": "Ementa × arts. 3º e 4º", "problema": "Ementa e art. 1º falam em \"Política Nacional de Data Center\"; arts. 3º e 4º, em \"Política Nacional de Data Centers\".", "fundamento": "LC 95, art. 11, II, \"b\" (mesmas palavras para a mesma ideia)", "correcao": "Uniformizar a denominação em todo o texto." },
+        { "dispositivo": "Ementa", "problema": "Encerra com \"e dá outras providências\", sem explicitar o objeto (dados estratégicos, responsabilidade, comitê).", "fundamento": "LC 95, art. 5º (ementa explicita o objeto)", "correcao": "Substituir por enumeração concisa do objeto ou suprimir a expressão." },
+        { "dispositivo": "Art. 4º", "problema": "Articulação corrompida (\"I - Art. 4º …\", \"II - I – …\").", "fundamento": "LC 95, art. 10 (articulação)", "correcao": "Corrigir caput e numeração dos incisos I a VIII." },
+        { "dispositivo": "Arts. 3º, 6º, 13 e outros", "problema": "Grafia variável (\"Data Center\", \"data center\", \"centros de Data Center\", \"De Data Center\", \"data centers,ressalvado\").", "fundamento": "LC 95, art. 11, I e II", "correcao": "Adotar \"data center\" em minúsculas e corrigir pontuação." },
+        { "dispositivo": "Art. 5º, II", "problema": "\"Sistema Interligado de Energia\" convive com \"Sistema Interligado Nacional\".", "fundamento": "LC 95, art. 11, II, \"b\"", "correcao": "Usar \"Sistema Interligado Nacional (SIN)\" em todo o texto." },
+        { "dispositivo": "Art. 2º, VIII", "problema": "Ficção de \"extensão do território nacional de origem do dado\", sem precisão jurídica.", "fundamento": "LC 95, art. 11, I, \"a\", e II, \"a\"", "correcao": "Definir pelo regime aplicável (inviolabilidade nos termos do tratado aprovado pelo Congresso)." },
+        { "dispositivo": "Art. 15", "problema": "Dispositivo autorizativo (\"Fica autorizada a criação\").", "fundamento": "Súmula CCJC nº 1; CF, art. 61, § 1º, II, \"e\"", "correcao": "Suprimir ou converter em diretriz de coordenação, sem criar órgão." },
+        { "dispositivo": "Art. 2º, III", "problema": "Definição de data center diversa da Lei 15.504/2026 (art. 11-A, § 1º).", "fundamento": "LC 95, art. 7º, IV", "correcao": "Harmonizar ou remeter à definição da Lei 15.504/2026." },
+        { "dispositivo": "Art. 16", "problema": "Data com zero à esquerda (\"07 de julho\"); inserção no art. 15 da Lei 9.074, dedicado à opção de compra dos consumidores.", "fundamento": "LC 95, arts. 11 e 12, III, \"b\"", "correcao": "Grafar \"7 de julho\" e avaliar inserção em dispositivo próprio sobre acesso à rede." },
+        { "dispositivo": "Art. 17", "problema": "Vigência imediata em norma de grande repercussão (energia, dados, LGPD).", "fundamento": "LC 95, art. 8º (vigência imediata só para pequena repercussão)", "correcao": "Vacatio legis de 180 dias, com regras de transição." }
+      ]
+    },
+    "riscos": [
+      { "id": "R01", "nivel": "ALTO", "titulo": "Paralisia na CFT", "descricao": "Sem relator há mais de 100 dias; o prazo do regime ordinário (40 sessões) tende a se esgotar sem parecer.", "instancia": "CFT", "probabilidade": "ALTA", "impacto": "ALTO", "fundamento": "RICD, art. 52, III e § 6º.", "fontes": ["ricd", "ficha"], "mitigacao": "Ofício e articulação da liderança com a presidência da CFT para designação imediata; nota técnica pronta para o relator; como último recurso, requerimento do art. 52, § 6º." },
+      {
+        "id": "R02",
+        "nivel": "ALTO",
+        "titulo": "Parecer terminativo de inconstitucionalidade na CCJC",
+        "descricao": "Embaixada de Dados como \"extensão do território\", afastamento da LGPD e acordo sem aprovação do Congresso; comitê autorizativo no art. 15.",
+        "instancia": "CCJC",
+        "probabilidade": "MÉDIA",
+        "impacto": "ALTO",
+        "fundamento": "CF, arts. 1º, I, 5º, LXXIX, 49, I, 61, § 1º, II, \"e\", 84, VI e VIII; Súmula CCJC nº 1; RICD, art. 54, I.",
+        "fontes": ["cf", "sum1", "adi6387", "ricd"],
+        "mitigacao": "Emendas de saneamento entregues ao relator da CCJC: suprimir art. 15, retirar a ficção territorial, condicionar a tratado aprovado pelo Congresso e remeter ao art. 4º, IV, da LGPD."
+      },
+      { "id": "R03", "nivel": "ALTO", "titulo": "Inadequação orçamentária (parecer terminativo)", "descricao": "Art. 12 (localização obrigatória de dados públicos) e arts. 11 e 13 podem ser lidos como despesa obrigatória sem estimativa de impacto.", "instancia": "CFT", "probabilidade": "MÉDIA", "impacto": "ALTO", "fundamento": "ADCT, art. 113; LRF, arts. 16 e 17; NI-CFT, arts. 9º e 10; STF, ADI 6.303.", "fontes": ["adct", "lrf", "nicft", "adi6303"], "mitigacao": "Emenda de adequação: deveres sujeitos a regulamento e à disponibilidade orçamentária, com transição; sustentar a não implicação." },
+      { "id": "R04", "nivel": "MÉDIO", "titulo": "Excludente de responsabilidade do art. 8º", "descricao": "Imunidade civil, penal e perante a LGPD por cláusula contratual é vista como privilégio setorial e mobiliza oposição e a ANPD.", "instancia": "CCJC · PLENÁRIO", "probabilidade": "ALTA", "impacto": "MÉDIO", "fundamento": "LGPD, arts. 5º, VI e VII, e 42 a 45; responsabilidade penal é pessoal.", "fontes": ["lgpd", "sbta"], "mitigacao": "Reescrever como regra de qualificação do agente (quem não acessa o conteúdo não é controlador nem operador), mantendo deveres de segurança e colaboração." },
+      {
+        "id": "R05",
+        "nivel": "MÉDIO",
+        "titulo": "Conflito com a política de acesso à transmissão (PNAST)",
+        "descricao": "Prioridade legal a data centers e rede custeada por consumidores podem colidir com as Temporadas de Acesso do Decreto 12.772/2025 e com a regulação da ANEEL.",
+        "instancia": "CFT · SENADO · SANÇÃO",
+        "probabilidade": "MÉDIA",
+        "impacto": "ALTO",
+        "fundamento": "Lei 9.074/1995, art. 15, § 6º; CP ANEEL 36/2026; CF, arts. 21, XII, \"b\", e 175.",
+        "fontes": ["l9074", "pnast", "cf"],
+        "mitigacao": "Remeter os critérios à regulamentação compatível com a PNAST; contribuir na CP 36/2026 até 22/11/2026."
+      },
+      { "id": "R06", "nivel": "MÉDIO", "titulo": "Aprovação tácita para acesso ao SIN (art. 5º, II)", "descricao": "Aplicar o silêncio positivo da Lei da Liberdade Econômica a pedido de conexão elétrica é tecnicamente inviável e tende ao veto.", "instancia": "CCJC · SANÇÃO", "probabilidade": "MÉDIA", "impacto": "MÉDIO", "fundamento": "Lei 13.874/2019, art. 3º, IX.", "fontes": ["l13874", "sbta"], "mitigacao": "Substituir por prazo máximo de resposta fixado em regulamento da ANEEL, com publicidade dos motivos." },
+      { "id": "R07", "nivel": "MÉDIO", "titulo": "Recurso ao Plenário após as comissões", "descricao": "Temas sensíveis (LGPD, imunidade, dados estrangeiros) facilitam a coleta de 52 assinaturas, retirando a conclusividade e atrasando o envio ao Senado.", "instancia": "PLENÁRIO", "probabilidade": "MÉDIA", "impacto": "MÉDIO", "fundamento": "RICD, arts. 58, § 1º, e 132, § 2º.", "fontes": ["ricd"], "mitigacao": "Negociar o texto com lideranças e governo antes da CCJC; remover os pontos que mobilizam oposição." },
+      { "id": "R08", "nivel": "MÉDIO", "titulo": "Motivação frágil do parecer da CCTI", "descricao": "O voto declara o projeto \"prejudicado\" e não justifica a maior parte do substitutivo.", "instancia": "CCJC · PLENÁRIO", "probabilidade": "MÉDIA", "impacto": "MÉDIO", "fundamento": "PRL 3 CCTI; RICD (parecer com relatório, voto e conclusão).", "fontes": ["prl3", "ricd"], "mitigacao": "Suprir a motivação nos pareceres da CFT e da CCJC e em nota técnica do autor." },
+      { "id": "R09", "nivel": "MÉDIO", "titulo": "Recomposição das comissões em 2027", "descricao": "Mesmo sem arquivamento, relatorias e pautas recomeçam com a nova composição, e o tema pode perder prioridade.", "instancia": "CFT · CCJC", "probabilidade": "ALTA", "impacto": "MÉDIO", "fundamento": "RICD, art. 105, VI (Res. 33/2022).", "fontes": ["res33", "ricd"], "mitigacao": "Concluir a CFT antes do recesso; em 2027, garantir relatores aliados e reapresentar requerimentos." },
+      { "id": "R10", "nivel": "MÉDIO", "titulo": "Sobreposição com Redata e com a política do MDIC", "descricao": "Definições e objetivos concorrentes com a Lei 15.504/2026 e com a Política Nacional de Datacenters do Executivo alimentam a tese de \"matéria já tratada\".", "instancia": "CFT · SENADO · SANÇÃO", "probabilidade": "MÉDIA", "impacto": "MÉDIO", "fundamento": "LC 95, art. 7º, IV; Lei 15.504/2026, art. 11-A.", "fontes": ["lc95", "l15504", "mdic"], "mitigacao": "Posicionar o projeto como marco não tributário (energia, segurança, soberania) e remeter às definições do Redata." },
+      { "id": "R11", "nivel": "BAIXO", "titulo": "Dados de segurança pública de estados e municípios (art. 12)", "descricao": "A obrigação de localização pode ser lida como interferência na autonomia administrativa dos entes.", "instancia": "CCJC", "probabilidade": "BAIXA", "impacto": "MÉDIO", "fundamento": "CF, arts. 18 e 22, XXX.", "fontes": ["cf"], "mitigacao": "Delimitar o art. 12 a dados sob gestão da União ou prever adesão dos entes." },
+      { "id": "R12", "nivel": "BAIXO", "titulo": "Indexação e keywords desatualizadas", "descricao": "A ficha ainda descreve ZEPAD e alteração da Lei 14.133, retiradas do texto, o que reduz a localização do projeto em buscas.", "instancia": "MESA · CEDI", "probabilidade": "ALTA", "impacto": "BAIXO", "fundamento": "Ficha de tramitação (indexação).", "fontes": ["ficha"], "mitigacao": "Solicitar a atualização da indexação conforme o texto vigente." }
+    ],
+    "oportunidades": [
+      { "id": "O01", "tipo": "CELERIDADE", "titulo": "Conclusividade blindada contra apensação", "descricao": "Com o pronunciamento da CCTI, propostas concorrentes não podem mais ser apensadas na conclusiva, e o PL mantém o protagonismo do autor.", "como": "Manter o regime conclusivo, evitando urgência que levaria a matéria ao Plenário com textos concorrentes.", "fontes": ["guia", "ricd"] },
+      { "id": "O02", "tipo": "SEGURANÇA", "titulo": "Continuidade em 2027 sem desarquivamento", "descricao": "O PL atravessa a mudança de legislatura (art. 105, VI) e o autor foi reeleito, o que preserva a autoria e a articulação.", "como": "Usar o calendário: CFT até dezembro; CCJC no início da sessão legislativa de 2027.", "fontes": ["res33", "eleicao"] },
+      { "id": "O03", "tipo": "CELERIDADE", "titulo": "Não implicação na CFT", "descricao": "A retirada dos incentivos fiscais e o custeio privado da rede (§ 6º-B) permitem parecer de não implicação, que libera o mérito.", "como": "Entregar ao relator nota técnica e emenda de adequação para os arts. 11 a 13.", "fontes": ["nicft", "sbta"] },
+      { "id": "O04", "tipo": "QUALIDADE", "titulo": "Saneamento na CCJC em vez de rejeição", "descricao": "A CCJC pode corrigir vícios de constitucionalidade, juridicidade e técnica legislativa por emenda, sem reabrir o mérito.", "como": "Levar ao relator da CCJC pacote de emendas pronto (arts. 2º, 5º, 8º, 9º, 10, 15, 17 e redação).", "fontes": ["ricd", "lc95"] },
+      { "id": "O05", "tipo": "CONVERGÊNCIA", "titulo": "Complementaridade com o Redata", "descricao": "O Redata dá incentivo tributário; o PL pode ser o marco de energia, segurança e soberania de dados que o Redata não cobre.", "como": "Narrativa e material de uma página: \"Redata incentiva; PL 1.680 dá infraestrutura e segurança jurídica\".", "fontes": ["l15504", "mdic"] },
+      { "id": "O06", "tipo": "CONVERGÊNCIA", "titulo": "Janela regulatória da PNAST", "descricao": "A CP 36/2026 da ANEEL está aberta até 22/11/2026: é o momento de alinhar a prioridade de acesso do PL às Temporadas de Acesso.", "como": "Contribuição técnica (direta ou por associações do setor) e diálogo com MME e ANEEL.", "fontes": ["pnast", "l9074"] },
+      { "id": "O07", "tipo": "ARTICULAÇÃO", "titulo": "Posição política do autor", "descricao": "O autor é líder da bancada do União na Câmara em 2026 e, na avaliação do gabinete, conta com a presidência da CCJC como aliada.", "como": "Pautar a designação de relatores e a inclusão em pauta por meio da liderança.", "fontes": ["lider"] },
+      { "id": "O08", "tipo": "QUALIDADE", "titulo": "Texto pactuado antes do Senado", "descricao": "Resolver na Câmara as objeções do Executivo (MDIC, MME, GSI, ANPD, Casa Civil) reduz o risco de veto e acelera a Casa revisora.", "como": "Rodada de reuniões técnicas e registro das concordâncias em nota anexa ao parecer.", "fontes": ["mdic", "pnsic"] }
+    ],
+    "plano": [
+      { "numero": "01", "prioridade": "CRÍTICA", "titulo": "Destravar a relatoria na CFT", "descricao": "Ofício do Dep. Pedro Lucas à presidência da CFT pedindo designação de relator, com sugestão de nomes aliados; reforço pela liderança.", "prazo": "até 24/10/2026", "instrumento": "Ofício; articulação de liderança. RICD, art. 52.", "resultado": "Relator designado e prazo de emendas aberto (5 sessões).", "riscos": "R01, R09" },
+      { "numero": "02", "prioridade": "CRÍTICA", "titulo": "Nota técnica de não implicação", "descricao": "Documento de 2 a 3 páginas para o relator da CFT, demonstrando a ausência de impacto e propondo a emenda de adequação dos arts. 11 a 13.", "prazo": "até 31/10/2026", "instrumento": "NI-CFT, arts. 1º, 9º e 10; ADCT, art. 113; LRF, arts. 16 e 17.", "resultado": "Parecer pela não implicação e aprovação no mérito.", "riscos": "R03" },
+      { "numero": "03", "prioridade": "CRÍTICA", "titulo": "Pacote de emendas de saneamento", "descricao": "Minutas para os arts. 2º, VIII, 5º, II, 8º, 9º, 10, 15 e 17, com as correções de redação da tabela de legística.", "prazo": "até 07/11/2026", "instrumento": "CF; LGPD, art. 4º, IV; LC 95, arts. 5º, 7º, 8º, 10 e 11; Súmula CCJC nº 1.", "resultado": "Texto pronto para a CCJC, sem vícios terminativos.", "riscos": "R02, R04, R06, R11" },
+      { "numero": "04", "prioridade": "ALTA", "titulo": "Contribuição à CP ANEEL 36/2026", "descricao": "Contribuição própria ou articulada com associações do setor, alinhando os §§ 6º-A a 6º-C à PNAST.", "prazo": "até 22/11/2026", "instrumento": "CP ANEEL 36/2026; Decreto 12.772/2025.", "resultado": "Regulação e lei convergentes; menor risco de veto.", "riscos": "R05" },
+      { "numero": "05", "prioridade": "ALTA", "titulo": "Rodada com o Executivo", "descricao": "Reuniões técnicas com MDIC, MME/ANEEL/ONS, GSI (PNSIC), ANPD e Casa Civil para mapear objeções e incorporar ajustes.", "prazo": "nov./2026", "instrumento": "Política Nacional de Datacenters (MDIC); Decreto 9.573/2018.", "resultado": "Mapa de posições e redação pactuada.", "riscos": "R05, R07, R10" },
+      { "numero": "06", "prioridade": "ALTA", "titulo": "Prevenção de recurso ao Plenário", "descricao": "Identificar lideranças e frentes que poderiam subscrever recurso (52 assinaturas) e negociar os pontos sensíveis.", "prazo": "nov.–dez./2026", "instrumento": "RICD, arts. 58, § 1º, e 132, § 2º.", "resultado": "Tramitação conclusiva preservada.", "riscos": "R07" },
+      { "numero": "07", "prioridade": "ALTA", "titulo": "Relatoria e pauta na CCJC", "descricao": "Ao chegar à CCJC, pedir à presidência designação imediata de relator e entregar o pacote de emendas.", "prazo": "após parecer da CFT", "instrumento": "RICD, arts. 32, IV, e 54, I.", "resultado": "Parecer favorável com emendas de saneamento.", "riscos": "R02, R09" },
+      { "numero": "08", "prioridade": "MÉDIA", "titulo": "Plano B regimental", "descricao": "Se a CFT não designar relator até o fim do prazo, avaliar requerimento ao Presidente da Câmara para envio à comissão seguinte, ponderando o caráter obrigatório do exame de adequação.", "prazo": "dez./2026", "instrumento": "RICD, art. 52, § 6º.", "resultado": "Evitar paralisia prolongada.", "riscos": "R01" },
+      { "numero": "09", "prioridade": "MÉDIA", "titulo": "Atualizar indexação e keywords", "descricao": "Solicitar a revisão da indexação para refletir o texto vigente (data center, embaixada de dados, acesso à rede, Lei 9.074).", "prazo": "nov./2026", "instrumento": "Ficha de tramitação.", "resultado": "Melhor localização do projeto em buscas e clipping.", "riscos": "R12" },
+      { "numero": "10", "prioridade": "MÉDIA", "titulo": "Monitoramento automatizado", "descricao": "Alertas diários pela API de Dados Abertos (tramitações, pautas da CFT e CCJC, prazos de emendas).", "prazo": "contínuo", "instrumento": "API Dados Abertos; MCP do gabinete.", "resultado": "Reação no mesmo dia a qualquer movimentação.", "riscos": "R01, R07, R09" },
+      { "numero": "11", "prioridade": "MÉDIA", "titulo": "Preparar o Senado", "descricao": "Mapear comissões prováveis e potenciais relatores; buscar apoio da bancada do Maranhão.", "prazo": "1º sem./2027", "instrumento": "Regimento Interno do Senado.", "resultado": "Tramitação ágil na Casa revisora.", "riscos": "R05, R10" },
+      { "numero": "12", "prioridade": "MÉDIA", "titulo": "Comunicação de uma página", "descricao": "Material comparando PL 1.680 e Redata, com dados de demanda de energia e soberania digital.", "prazo": "até 15/11/2026", "instrumento": "Lei 15.504/2026; SBT-A 1 CCTI.", "resultado": "Apoio de parlamentares e do setor.", "riscos": "R10" }
+    ],
+    "fontes": {
+      "cf": { "titulo": "Constituição Federal", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
+      "adct": { "titulo": "ADCT, art. 113", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct" },
+      "lc95": { "titulo": "LC 95/1998", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm" },
+      "lrf": { "titulo": "LC 101/2000 (LRF)", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm" },
+      "lgpd": { "titulo": "Lei 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" },
+      "l9074": { "titulo": "Lei 9.074/1995", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9074cons.htm" },
+      "l13874": { "titulo": "Lei 13.874/2019", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm" },
+      "l15504": { "titulo": "Lei 15.504/2026 (Redata)", "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15504.htm" },
+      "pnsic": { "titulo": "Decreto 9.573/2018 (PNSIC)", "url": "https://www2.camara.leg.br/legin/fed/decret/2018/decreto-9573-22-novembro-2018-787352-publicacaooriginal-156754-pe.html" },
+      "ricd": { "titulo": "RICD (Res. 17/1989)", "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados" },
+      "res33": { "titulo": "Res. CD 33/2022 (art. 105 RICD)", "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html" },
+      "guia": { "titulo": "Câmara · Tramitação das proposições", "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/tramitacao-das-proposicoes" },
+      "sum1": { "titulo": "Súmula CCJC nº 1", "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ccjc/normas-internas/s1.pdf" },
+      "nicft": { "titulo": "Norma Interna CFT (1996)", "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf" },
+      "adeq": { "titulo": "Conof · Exame de adequação", "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf" },
+      "sbta": { "titulo": "SBT-A 1 CCTI (texto vigente)", "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3156039" },
+      "prl3": { "titulo": "PRL 3 CCTI (voto do relator)", "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3132208" },
+      "pl": { "titulo": "PL 1.680/2025 (texto original)", "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2886348" },
+      "ficha": { "titulo": "Ficha de tramitação", "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2497586" },
+      "t917": { "titulo": "STF · Tema 917 (RE 878.911)", "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=917" },
+      "adi6303": { "titulo": "STF · ADI 6.303", "url": "https://jurisprudencia.stf.jus.br/pages/search?base=acordaos&queryString=ADI%206303" },
+      "adi6387": { "titulo": "STF · ADI 6.387 MC-Ref", "url": "https://jurisprudencia.stf.jus.br/pages/search?base=acordaos&queryString=ADI%206387" },
+      "adc51": { "titulo": "STF · ADC 51", "url": "https://jurisprudencia.stf.jus.br/pages/search?base=acordaos&queryString=ADC%2051" },
+      "mdic": { "titulo": "MDIC · Política Nacional de Datacenters", "url": "https://www.gov.br/mdic/pt-br/assuntos/sdic/inovacao/politica-nacional-de-datacenters-1" },
+      "pnast": { "titulo": "ANEEL · CP 36/2026 (PNAST, Decreto 12.772/2025)", "url": "https://cenarioenergia.com.br/2026/10/06/aneel-abre-consulta-para-adequar-regras-de-transmissao-a-pnast/" },
+      "lider": { "titulo": "O Imparcial · liderança do União em 2026", "url": "https://oimparcial.com.br/noticias/2025/12/uniao-brasil-mantem-pedro-lucas-na-lideranca-da-bancada-na-camara-em-2026/" },
+      "eleicao": { "titulo": "TSE via O Tempo · eleição 2026", "url": "https://www.otempo.com.br/eleicoes/2026/deputados-federais/2026/10/5/tse-confirma-eleicao-de-pedro-lucas-fernandes-para-deputado-federal-por-maranhao-nas-eleicoes-2026" }
+    },
+    "fontes_consultadas": [
+      { "fonte": "sbta", "nota": "texto vigente analisado" },
+      { "fonte": "prl3", "nota": "fundamentação do parecer aprovado" },
+      { "fonte": "pl", "nota": "texto original" },
+      { "fonte": "ficha", "nota": "situação, indexação e documentos" },
+      { "fonte": "cf", "nota": "arts. 1º, 5º, 18, 21, 22, 49, 61, 66, 84 e 175" },
+      { "fonte": "adct", "nota": "estimativa de impacto de proposições" },
+      { "fonte": "lc95", "nota": "técnica legislativa" },
+      { "fonte": "lrf", "nota": "arts. 14, 16 e 17" },
+      { "fonte": "lgpd", "nota": "arts. 4º, 5º e 42 a 45" },
+      { "fonte": "l9074", "nota": "art. 15" },
+      { "fonte": "l13874", "nota": "art. 3º, IX" },
+      { "fonte": "l15504", "nota": "Redata" },
+      { "fonte": "pnsic", "nota": "infraestruturas críticas" },
+      { "fonte": "ricd", "nota": "arts. 24, 32, 52, 54, 58, 105, 132 e 144" },
+      { "fonte": "res33", "nota": "nova redação do art. 105" },
+      { "fonte": "guia", "nota": "conclusividade, apensação e urgência" },
+      { "fonte": "sum1", "nota": "projetos autorizativos" },
+      { "fonte": "nicft", "nota": "compatibilidade e adequação" },
+      { "fonte": "adeq", "nota": "roteiro da Consultoria de Orçamento" },
+      { "fonte": "t917", "nota": "iniciativa parlamentar e despesa" },
+      { "fonte": "adi6303", "nota": "art. 113 do ADCT" },
+      { "fonte": "adi6387", "nota": "proteção de dados como direito fundamental" },
+      { "fonte": "adc51", "nota": "acesso a dados no exterior" },
+      { "fonte": "mdic", "nota": "política do Executivo" },
+      { "fonte": "pnast", "nota": "PNAST e consulta pública" },
+      { "fonte": "eleicao", "nota": "reeleição do autor (dados TSE)" },
+      { "fonte": "lider", "nota": "liderança da bancada" }
+    ]
+  }
 }

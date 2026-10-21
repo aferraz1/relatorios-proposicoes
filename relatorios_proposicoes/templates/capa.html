@@ -1,0 +1,84 @@
+{# Capa A4 do relatório: fundo e textos em SVG (fiéis na impressão), contatos em HTML. #}
+{% set direita = 733.21875 %}
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capa · Relatório de proposições legislativas</title>
+<style>
+@font-face { font-family: "Capa Arial"; font-weight: 400; font-display: swap; src: url("{{ fontes['liberation-sans-400'] }}") format("woff2"); }
+@font-face { font-family: "Capa Arial"; font-weight: 700; font-display: swap; src: url("{{ fontes['liberation-sans-700'] }}") format("woff2"); }
+@font-face { font-family: "Capa Mono"; font-weight: 400; font-display: swap; src: url("{{ fontes['dejavu-sans-mono-400'] }}") format("woff2"); }
+@font-face { font-family: "Capa Mono"; font-weight: 700; font-display: swap; src: url("{{ fontes['dejavu-sans-mono-700'] }}") format("woff2"); }
+{{ estilos }}
+</style>
+</head>
+<body>
+<main class="capa">
+  <svg class="capa__arte" xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 793.6875 1122.515625" role="img" aria-labelledby="capa-titulo">
+    <title id="capa-titulo">{{ c.titulo | join(" ") }}</title>
+    <defs>
+      <pattern id="textura-capa" width="600" height="280" patternUnits="userSpaceOnUse">
+        <image width="600" height="280" preserveAspectRatio="none" href="{{ imagens.textura }}"></image>
+      </pattern>
+      <clipPath id="recorte-faixa">
+        <rect x="0" y="330.609375" width="793.6875" height="236.359375"></rect>
+      </clipPath>
+      <linearGradient id="sombra-faixa" x1="0" y1="0" x2="793.6875" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#111d31"></stop>
+        <stop offset="0.43" stop-color="#111d31" stop-opacity="0.909803921569"></stop>
+        <stop offset="1" stop-color="#111d31" stop-opacity="0"></stop>
+      </linearGradient>
+    </defs>
+    <rect width="793.6875" height="1122.515625" fill="#eee"></rect>
+    <rect width="793.6875" height="1122.515625" fill="url(#textura-capa)"></rect>
+    <image x="468.65625" y="26.453125" width="264.5625" height="39.28125" preserveAspectRatio="none" href="{{ imagens.regua }}" aria-hidden="true"></image>
+    <image x="487.5625" y="298.578125" width="245.65625" height="46.53125" preserveAspectRatio="none" href="{{ imagens.pontos }}" aria-hidden="true"></image>
+    <image x="60.46875" y="102.046875" width="294.796875" height="47.15625" preserveAspectRatio="none" href="{{ imagens.escritorio }}" role="img" aria-label="{{ c.escritorio }}"></image>
+    <g class="capa__mono" font-size="13" fill="#203e69">
+      {% for linha in c.area %}
+      <text x="498.890625" y="{{ 120.125 + loop.index0 * 19.5 }}">{{ linha }}</text>
+      {% endfor %}
+    </g>
+    <g clip-path="url(#recorte-faixa)">
+      <rect x="0" y="330.609375" width="793.6875" height="236.359375" fill="#15233a"></rect>
+      <image x="207.198752332" y="330.609375" width="586.488747668" height="236.359375" preserveAspectRatio="none" href="{{ imagens.faixa }}" aria-hidden="true"></image>
+      <rect x="0" y="330.609375" width="793.6875" height="236.359375" fill="url(#sombra-faixa)"></rect>
+    </g>
+    <g class="capa__sans" font-size="30" font-weight="700" fill="#fff">
+      {% for linha in c.titulo %}
+      <text x="56.6875" y="{{ 403.953125 + loop.index0 * 36 }}">{{ linha }}</text>
+      {% endfor %}
+    </g>
+    <text class="capa__mono" x="56.6875" y="518.625" font-size="13" fill="#fff">Data de emissão: {{ c.data_emissao | data_br }}</text>
+    <image class="capa__multiplicar" x="45.34375" y="657.625" width="207.859375" height="218.796875" preserveAspectRatio="none" href="{{ imagens.atomo }}" aria-hidden="true"></image>
+    <g class="capa__mono" font-size="19" font-weight="700" fill="#203e69" text-anchor="end">
+      {% for linha in c.destaque %}
+      <text x="{{ direita }}" y="{{ 670.109375 + loop.index0 * 26.59375 }}">{{ linha }}</text>
+      {% endfor %}
+    </g>
+    <text class="capa__sans" x="{{ direita }}" y="739.1875" font-size="15" fill="#253348" text-anchor="end">{{ c.parlamentar.cargo }} <tspan font-weight="700">{{ c.parlamentar.nome }}</tspan></text>
+    <image class="capa__multiplicar" x="332.59375" y="996.234375" width="128.5" height="69.59375" preserveAspectRatio="none" href="{{ imagens.partido }}" role="img" aria-label="{{ c.partido }}"></image>
+    <text class="capa__mono" x="{{ direita }}" y="1096.84375" text-anchor="end" font-size="11" fill="#536278">Atualizado em {{ c.data_emissao | data_br }}</text>
+  </svg>
+
+  {% set a = c.assessor %}
+  <address class="capa__contato">
+    <span>{{ a.cargo }} <strong>{{ a.nome }}</strong></span>
+    {% if a.email %}
+    <span class="capa__linha">
+      <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#203e69" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3.5 6.5 8.5 6.5 8.5-6.5"></path></svg>
+      <a href="mailto:{{ a.email }}" aria-label="Enviar e-mail para {{ a.email }}">{{ a.email }}</a>
+    </span>
+    {% endif %}
+    {% if a.telefone %}
+    <span class="capa__linha">
+      <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#203e69" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"></rect><path d="M11 18h2"></path></svg>
+      <a href="{{ a.url_whatsapp }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir conversa no WhatsApp com {{ a.telefone }}, em nova aba">{{ a.telefone }}</a>
+    </span>
+    {% endif %}
+  </address>
+</main>
+</body>
+</html>
