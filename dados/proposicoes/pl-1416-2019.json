@@ -1,0 +1,804 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2193762,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.416/2019",
+  "ementa": "Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1719157",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "13/03/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2019-03-13",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 3,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Esporte e Lazer"
+  ],
+  "keywords": "Alteração, Lei Pelé, garantia, igualdade entre os sexos, valor, pagamento, atleta, sexo feminino, mulher,sexo masculino, premiação, competição esportiva, recursos públicos."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Apreciação pelo Senado Federal",
+  "estado": "NO SENADO",
+  "orgao_sigla": "PLEN",
+  "orgao_nome": "Plenário",
+  "desde": "2021-04-28",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-03-13",
+   "fim": "2019-03-13",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1723756",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "inicio": "2019-03-27",
+   "fim": "2019-06-26",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CESPO",
+   "nome": "Esporte",
+   "papel": "Mérito",
+   "inicio": "2019-07-03",
+   "fim": "2019-08-21",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "inicio": "2019-08-22",
+   "fim": "2021-04-08",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-03-13",
+   "fim": "2021-04-28",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "concluido"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CCJC",
+  "relator": {
+   "id": 75431,
+   "nome": "Dep. Maurício Dziedricki",
+   "descricao": "Deputado Federal · PODE/RS",
+   "rotulo": "RELATOR(A) · CCJC"
+  },
+  "resumo_inicio": "Designação em 30/09/2019. Apresentou 2 versões de parecer:",
+  "resumo_fim": "",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CCJC",
+    "data": "29/11/2019",
+    "codteor": "1839554",
+    "aprovado": false,
+    "id": 2231366
+   },
+   {
+    "sigla": "PRL 2",
+    "nome": "Parecer do Relator · PRL 2 CCJC",
+    "data": "04/12/2019",
+    "codteor": "1841525",
+    "aprovado": false,
+    "id": 2232013
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-03-13T15:22",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1416/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1719157",
+      "nome": "Inteiro teor · PL 1416/2019",
+      "id": 2193762
+     }
+    },
+    {
+     "data_hora": "2019-03-13T00:00",
+     "titulo": "Não Informado",
+     "texto": "Proposição fora da numeração sequencial em razão da implantação eletrônica no Sistema em 13/03/2019 (revisão do Sileg).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-03-27T11:44",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Esporte e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1723756",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2019-03-27T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 28/03/19 PÁG 395. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1760562",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-03-29T17:25",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMULHER.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-04-03T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Marília Arraes (PT-PE)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-04-04T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 05/04/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-04-16T18:59",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo para emendas ao projeto. Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-06-18T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvida à Relatora, Dep. Marília Arraes (PT-PE), para reexame",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2019-06-18T18:33",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CMULHER, pela Deputada Marília Arraes (PT-PE).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1766440",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2019-06-18T18:33",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da relatora, Dep. Marília Arraes, pela aprovação, com emenda.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1766893",
+      "nome": "PRL 1 CMULHER",
+      "id": 2208662
+     }
+    },
+    {
+     "data_hora": "2019-06-26T14:00",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiram a Matéria: Dep. Margarete Coelho (PP-PI), Dep. Carmen Zanotto (CIDADANIA-SC), Dep. Marreca Filho (PATRIOTA-MA) e Dep. Delegado Antônio Furtado (PSL-RJ).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-06-26T00:00",
+     "titulo": "Aprovação",
+     "texto": "Aprovado por Unanimidade o Parecer.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1773090",
+      "nome": "Aprovação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CESPO",
+   "nome": "Comissão do Esporte",
+   "eventos": [
+    {
+     "data_hora": "2019-07-03T09:52",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-07-03T15:16",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CESPO.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-07-03T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Mulher Publicado em avulso e no DCD de 04/07/19 PÁG 259, Letra A. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1782920",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-07-11T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Felipe Carreras (PSB-PE)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-07-12T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 15/07/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-08-07T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo para emendas ao projeto. Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-08-08T11:10",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CESPO, pelo Deputado Felipe Carreras (PSB-PE).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1786629",
+      "nome": "PRL 1 CESPO",
+      "id": 2214209
+     }
+    },
+    {
+     "data_hora": "2019-08-08T11:10",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Felipe Carreras (PSB-PE), pela aprovação deste, e da Emenda Adotada pela Comissão 1 da CMULHER.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1786629",
+      "nome": "PRL 1 CESPO",
+      "id": 2214209
+     }
+    },
+    {
+     "data_hora": "2019-08-14T13:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta pelo Relator.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2019-08-21T13:00",
+     "titulo": "Aprovação",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2019-08-22T16:29",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-08-22T16:40",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-08-26T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão do Esporte Publicado em avulso e no DCD de 27/08/19, PÁG 166, Letra B. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1801359",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-09-30T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Adriana Ventura (NOVO-SP)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-10-01T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 02/10/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-15T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 01/10/2019 a 15/10/2019). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-11-29T12:19",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CCJC, pela Deputada Adriana Ventura (NOVO-SP).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1839554",
+      "nome": "PRL 1 CCJC",
+      "id": 2231366
+     }
+    },
+    {
+     "data_hora": "2019-11-29T12:19",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Adriana Ventura (NOVO-SP).",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1839554",
+      "nome": "PRL 1 CCJC",
+      "id": 2231366
+     }
+    },
+    {
+     "data_hora": "2019-12-04T16:11",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator, PRL 2 CCJC, pela Dep. Adriana Ventura",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1841525",
+      "nome": "PRL 2 CCJC",
+      "id": 2232013
+     }
+    },
+    {
+     "data_hora": "2019-12-04T16:11",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Adriana Ventura (NOVO-SP), pela constitucionalidade, juridicidade e técnica legislativa deste e da Emenda da Comissão de Defesa dos Direitos da Mulher, com subemenda.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1841525",
+      "nome": "PRL 2 CCJC",
+      "id": 2232013
+     }
+    },
+    {
+     "data_hora": "2019-12-16T14:30",
+     "titulo": "Adiamento de Discussão",
+     "texto": "Proferido o Parecer.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-12-16T00:00",
+     "titulo": "Aprovação",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1851190",
+      "nome": "Aprovação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-12-17T13:33",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-12-20T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Constituição e Justiça e de Cidadania Publicado em avulso e no DCD de 21/12/19 PÁG 216, Letra C. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1876744",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-12-23T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para apresentação de recurso, nos termos do § 1º do art. 58 combinado com o § 2º do art. 132 do RICD (5 sessões a partir de 03/02/2020).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2020-02-13T11:22",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerramento automático do Prazo de Recurso 13/02/2020 11:22:00. Não foram apresentados recursos.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2020-02-18T16:09",
+     "titulo": "Envio para a redação Final",
+     "texto": "Ofício SGM-P 68/2020 à CCJC encaminhando este projeto para elaboração da Redação Final, nos termos do Artigo 58, §4 e Artigo 24, II, do RICD.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2020-02-18T16:09",
+     "titulo": "Encaminhamento",
+     "texto": "Encaminhado à CCP",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2020-02-19T12:19",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-04-07T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator da Redação Final, Dep. Maurício Dziedricki (PTB-RS)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-04-07T18:18",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação da Redação Final n. 1 CCJC, pelo Deputado Maurício Dziedricki (PTB/RS).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1987403",
+      "nome": "Recebimento - Redação Final"
+     }
+    },
+    {
+     "data_hora": "2021-04-08T00:00",
+     "titulo": "Aprovação da Redação Final",
+     "texto": "Aprovada a Redação Final.",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-04-28T16:04",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Autógrafo n. 1 MESA, pela CÂMARA DOS DEPUTADOS.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2000387",
+      "nome": "AA 1",
+      "id": 2279599
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-04-28T00:00",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Remessa ao Senado Federal por meio do Of. nº 24/2021/PS-GSE",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "2000187",
+      "nome": "Apresentação de Proposição"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Apreciação pelo Senado Federal",
+   "descricao": "A proposição está na Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1416/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 13/03/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+   "id": 2193762,
+   "situacao": "AGUARDANDO APRECIAÇÃO PELO SENADO FEDERAL",
+   "codteor": "1719157"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "18/06/2019",
+      "id": 2208662,
+      "texto": "Parecer da relatora, Dep. Marília Arraes, pela aprovação, com emenda.",
+      "codteor": "1766893"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "26/06/2019",
+      "id": 2209519,
+      "texto": "Aprovado por Unanimidade o Parecer.. Parecer da relatora, Dep. Marília Arraes, pela aprovação, com emenda.",
+      "codteor": "1769914"
+     },
+     {
+      "sigla": "PRL 1 CESPO",
+      "tipo": "Parecer do Relator",
+      "data": "08/08/2019",
+      "id": 2214209,
+      "texto": "Parecer do Relator, Dep. Felipe Carreras (PSB-PE), pela aprovação deste, e da Emenda Adotada pela Comissão 1 da CMULHER.",
+      "codteor": "1786629"
+     },
+     {
+      "sigla": "PAR 1 (id 2216583)",
+      "tipo": "Parecer de Comissão",
+      "data": "21/08/2019",
+      "id": 2216583,
+      "texto": "Aprovado o Parecer.. Parecer do Relator, Dep. Felipe Carreras (PSB-PE), pela aprovação deste, e da Emenda Adotada pela Comissão 1 da CMULHER.",
+      "codteor": "1794348"
+     },
+     {
+      "sigla": "PRL 1 CCJC",
+      "tipo": "Parecer do Relator",
+      "data": "29/11/2019",
+      "id": 2231366,
+      "texto": "Parecer da Relatora, Dep. Adriana Ventura (NOVO-SP).",
+      "codteor": "1839554"
+     },
+     {
+      "sigla": "PRL 2 CCJC",
+      "tipo": "Parecer do Relator",
+      "data": "04/12/2019",
+      "id": 2232013,
+      "texto": "Parecer da Relatora, Dep. Adriana Ventura (NOVO-SP), pela constitucionalidade, juridicidade e técnica legislativa deste e da Emenda da Comissão de Defesa dos Direitos da Mulher, com subemenda.",
+      "codteor": "1841525"
+     },
+     {
+      "sigla": "SBR 1",
+      "tipo": "Subemenda de Relator",
+      "data": "04/12/2019",
+      "id": 2232187,
+      "texto": "Altera a Lei nº 6.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+      "codteor": "1841525"
+     },
+     {
+      "sigla": "PAR 1 (id 2234217)",
+      "tipo": "Parecer de Comissão",
+      "data": "16/12/2019",
+      "id": 2234217,
+      "texto": "Aprovado o Parecer.. Parecer da Relatora, Dep. Adriana Ventura (NOVO-SP), pela constitucionalidade, juridicidade e técnica legislativa deste e da Emenda da Comissão de Defesa dos Direitos da Mulher, com subemenda.",
+      "codteor": "1847079"
+     },
+     {
+      "sigla": "SBE-A 1",
+      "tipo": "Subemenda Adotada pela Comissão",
+      "data": "16/12/2019",
+      "id": 2234228,
+      "texto": "Altera a Lei nº 6.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+      "codteor": "1847098"
+     },
+     {
+      "sigla": "PARF 1",
+      "tipo": "Parecer de Comissão para Redação Final",
+      "data": "20/04/2021",
+      "id": 2278878,
+      "texto": "Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+      "codteor": "1996214"
+     }
+    ]
+   },
+   {
+    "rotulo": "EMENDAS",
+    "plural": "emendas",
+    "itens": [
+     {
+      "sigla": "EMR 1",
+      "tipo": "Emenda de Relator",
+      "data": "19/06/2019",
+      "id": 2208768,
+      "codteor": "1766893"
+     },
+     {
+      "sigla": "EMC-A 1",
+      "tipo": "Emenda Adotada pela Comissão",
+      "data": "03/07/2019",
+      "id": 2210375,
+      "texto": "Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+      "codteor": "1772994"
+     },
+     {
+      "sigla": "EMR 1 (id 2231383)",
+      "tipo": "Emenda de Relator",
+      "data": "29/11/2019",
+      "id": 2231383,
+      "texto": "Altera a Lei nº 6.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.",
+      "codteor": "1839554"
+     }
+    ]
+   },
+   {
+    "rotulo": "REDAÇÃO FINAL E AUTÓGRAFOS",
+    "plural": "documentos de redação final e autógrafos",
+    "itens": [
+     {
+      "sigla": "RDF 1",
+      "tipo": "Redação Final",
+      "data": "07/04/2021",
+      "id": 2277324,
+      "texto": "Altera a Lei nº 9.615, de 24 de março de 1998, para garantir isonomia entre homens e mulheres com relação às premiações nas competições esportivas em que haja emprego de recursos públicos.",
+      "codteor": "1987400"
+     },
+     {
+      "sigla": "AA 1",
+      "tipo": "Autógrafo",
+      "data": "28/04/2021",
+      "id": 2279599,
+      "codteor": "2000387"
+     }
+    ]
+   },
+   {
+    "rotulo": "OUTROS DOCUMENTOS",
+    "plural": "outros documentos",
+    "itens": [
+     {
+      "sigla": "DOC 195/2021",
+      "tipo": "Ofício da Primeira-Secretaria",
+      "data": "28/04/2021",
+      "id": 2279563,
+      "texto": "Of. nº 24/2021/PS-GSE Of. 24-21 que encaminha ao Senado Federal o PL 1416/2019.",
+      "codteor": "2000185"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1416/2019",
+     "tipo": "Texto original",
+     "codteor": "1719157"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CMULHER",
+    "PAR 1",
+    "PRL 1 CESPO",
+    "PAR 1 (id 2216583)",
+    "PRL 1 CCJC",
+    "PRL 2 CCJC",
+    "SBR 1",
+    "PAR 1 (id 2234217)",
+    "SBE-A 1",
+    "PARF 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [
+    "EMR 1",
+    "EMC-A 1",
+    "EMR 1 (id 2231383)"
+   ],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 27/03/2019",
+     "tipo": "Despacho",
+     "data": "27/03/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Esporte e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1723756"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [
+    "RDF 1",
+    "AA 1"
+   ],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

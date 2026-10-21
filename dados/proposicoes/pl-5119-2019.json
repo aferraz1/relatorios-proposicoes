@@ -1,0 +1,285 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2220673,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 5.119/2019",
+  "ementa": "Altera a Lei nº 13.787, de 27 de dezembro de 2018, para determinar que os resultados de exames complementares do sistema único de saúde (SUS) sejam disponibilizados digitalmente.",
+  "explicacao": "Tramita em conjunto com o PL 5.642/2016, à qual está apensada.",
+  "codteor_inteiro_teor": "1808323",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "17/09/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 5.642/2016"
+   }
+  ],
+  "apresentacao": "2019-09-17",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Saúde"
+  ],
+  "keywords": "Alteração, Lei Federal, obrigatoriedade, Sistema Único de Saúde (SUS), resultado, Exame médico, Meio eletrônico."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Encaminhamento",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "PLEN",
+  "orgao_nome": "Plenário",
+  "desde": "2024-02-20",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-09-17",
+   "fim": "2019-10-11",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2019-10-11",
+   "fim": "2019-10-11",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-10-23",
+   "estado": "atual"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-09-17T19:36",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 5119/2019, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Altera a Lei nº 13.787, de 27 de dezembro de 2018, para determinar que os resultados de exames complementares do sistema único de saúde (SUS) sejam disponibilizados digitalmente\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1808324",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-10T11:56",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-5642/2016. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1819339",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2019-10-11T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 12/10/19 PÁG 24. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1852805",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-11T15:31",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-10-23T16:23",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 2775/2019, pela Deputada Adriana Ventura (NOVO/SP), que \"Requer, com base no art. 142 do RICD, a desapensação do Projeto de Lei nº 5.119/2019 do Projeto de Lei nº 10.106/2018\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1825267",
+      "nome": "REQ 2775/2019",
+      "id": 2226733
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-11-11T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indeferido o Requerimento n. 2.775/2019, conforme despacho do seguinte teor; \"Indefiro o Requerimento n. 2.775/2019, nos termos do art. 142, caput, do Regimento Interno da Câmara dos Deputados, por entender que o Projeto de Lei n. 5.119/2019 e o Projeto de Lei n. 10.106/2018 integram um bloco que trata de matérias correlatas. Publique-se. Oficie-se.\"",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2024-02-20T17:30",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Aprovado requerimento n. 1884/2023 do Sr. Fábio Macedo e outros que requer urgência para o PL 10106/2018, do Senado Federal, que “altera a Lei nº 8.080, de 19 de setembro de 1990, para dispor sobre a obrigatoriedade de publicação na internet de listas de pacientes que serão submetidos a procedimentos cirúrgicos eletivos no âmbito do Sistema Único de Saúde (SUS), e a Lei nº 8.429, de 2 de junho de 1992 (Lei de Improbidade Administrativa), para caracterizar o descumprimento dessa disposição como ato de improbidade administrativa”.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-02-21T00:00",
+     "titulo": "Arquivamento",
+     "texto": "Matéria aprovada na forma da Subemenda Substitutiva Global ao Projeto de Lei nº 10.106, de 2018, adotada pelo relator da Comissão de Saúde (Sessão Deliberativa Extraordinária de 21/02/2024 – 13h55 - 5ª Sessão). Esta proposição e as demais apensadas ficam prejudicadas, na forma do art. 191, do RICD.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 5.642/2016",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 5119/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 17/09/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 13.787, de 27 de dezembro de 2018, para determinar que os resultados de exames complementares do sistema único de saúde (SUS) sejam disponibilizados digitalmente.",
+   "id": 2220673,
+   "situacao": "AGUARDANDO ENCAMINHAMENTO",
+   "codteor": "1808323"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 2775/2019",
+      "tipo": "Requerimento de Desapensação",
+      "data": "23/10/2019",
+      "id": 2226733,
+      "texto": "Requer, com base no art. 142 do RICD, a desapensação do Projeto de Lei nº 5.119/2019 do Projeto de Lei nº 10.106/2018.",
+      "codteor": "1825267"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 5119/2019",
+     "tipo": "Texto original",
+     "codteor": "1808323"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 2775/2019"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 10/10/2019",
+     "tipo": "Despacho",
+     "data": "10/10/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-5642/2016. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1819339"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

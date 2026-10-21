@@ -1,0 +1,267 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2433834,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.827/2024",
+  "ementa": "Altera a Lei nº 13.636, de 20 de março de 2018, para criar linha de crédito favorecida para empreendedores beneficiários do Programa Bolsa Família no âmbito do Programa Nacional de Microcrédito Produtivo Orientado - PNMPO.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2423847",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "15/05/2024"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2024-05-15",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Economia",
+   "Finanças Públicas e Orçamento",
+   "Indústria, Comércio e Serviços"
+  ],
+  "keywords": "Alteração, Legislação, Programa Nacional de Microcrédito Produtivo Orientado (PNMPO), criação, facilitação, Linha de crédito, fixação, Taxa de juros indexados, Sistema Especial de Liquidação e de Custódia (Selic), Microcrédito, Empreendedor, Beneficiário, Bolsa Família, incentivo, Microempreendedor Individual (MEI)."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "CDHMIR",
+  "orgao_nome": "Comissão de Direitos Humanos, Minorias e Igualdade Racial",
+  "desde": "2024-05-17",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2024-05-15",
+   "fim": "2024-05-17",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2424913",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CDHMIR",
+   "nome": "Direitos Humanos, Minorias e Igualdade Racial",
+   "papel": "Mérito",
+   "inicio": "2024-05-17",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CDHMIR",
+  "relator": {
+   "id": 204453,
+   "nome": "Dep. Natália Bonavides",
+   "descricao": "Deputada Federal · PT/RN",
+   "rotulo": "RELATOR(A) · CDHMIR"
+  },
+  "resumo_inicio": "Designação em 11/08/2025.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-05-15T09:30",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 1827/2024 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Altera a Lei nº 13.636, de 20 de março de 2018, para criar linha de crédito favorecida para empreendedores beneficiários do Programa Bolsa Família no âmbito do Programa Nacional de Microcrédito Produtivo Orientado - PNMPO\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2423847",
+      "nome": "Inteiro teor · PL 1827/2024",
+      "id": 2433834
+     }
+    },
+    {
+     "data_hora": "2024-05-16T18:01",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Direitos Humanos, Minorias e Igualdade Racial; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2424913",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CDHMIR",
+   "nome": "Comissão de Direitos Humanos, Minorias e Igualdade Racial",
+   "eventos": [
+    {
+     "data_hora": "2024-05-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/05/2024 PAG 207 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2846948",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2024-05-20T14:20",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CDHMIR.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-08-11T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Natália Bonavides (PT-RN)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-08-12T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 13/08/2025)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-08-21T14:19",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 12/08/2025 a 21/08/2025). Não foram apresentadas emendas.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CDHMIR",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1827/2024",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 15/05/2024",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 13.636, de 20 de março de 2018, para criar linha de crédito favorecida para empreendedores beneficiários do Programa Bolsa Família no âmbito do Programa Nacional de Microcrédito Produtivo Orientado - PNMPO.",
+   "id": 2433834,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "2423847"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1827/2024",
+     "tipo": "Texto original",
+     "codteor": "2423847"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 16/05/2024",
+     "tipo": "Despacho",
+     "data": "16/05/2024",
+     "autor": "MESA",
+     "texto": "Às Comissões de Direitos Humanos, Minorias e Igualdade Racial; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2424913"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

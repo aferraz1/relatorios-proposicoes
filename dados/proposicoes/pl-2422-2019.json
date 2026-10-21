@@ -1,0 +1,841 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2198832,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.422/2019",
+  "ementa": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1735456",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "22/04/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2019-04-22",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública",
+   "Defesa e Segurança"
+  ],
+  "keywords": "Alteração, Lei do Serviço Voluntário na Polícia Militar e Corpo de Bombeiros, Serviço voluntário, Reservista, Serviço militar obrigatório, Policiamento preventivo, comunidade, segurança pública."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2023-08-09",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-04-22",
+   "fim": "2019-05-27",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1750981",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Relações Exteriores e de Defesa Nacional",
+   "papel": "Mérito",
+   "inicio": "2019-05-27",
+   "fim": "2022-08-05",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2183214",
+    "nome": "PARECER APROVADO",
+    "id": 2326631
+   }
+  },
+  {
+   "sigla": "CSPCCO",
+   "nome": "Segurança Pública e Combate ao Crime Organizado",
+   "papel": "Mérito",
+   "inicio": "2022-08-08",
+   "fim": "2023-08-08",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2275623",
+    "nome": "PARECER APROVADO",
+    "id": 2363753
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "inicio": "2023-08-09",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2022-06-14",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CCJC",
+  "relator": {
+   "id": 204479,
+   "nome": "Dep. Nicoletti",
+   "descricao": "Deputado Federal · PL/RR",
+   "rotulo": "RELATOR(A) · CCJC"
+  },
+  "resumo_inicio": "Designação em 28/05/2026.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-04-22T00:00",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2422/2019, pelo Deputado Pedro Lucas Fernandes PTB, que:\"Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas\". (SEPRO(SGM))",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1735457",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-05-24T14:46",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Relações Exteriores e de Defesa Nacional; Segurança Pública e Combate ao Crime Organizado e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1750981",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "eventos": [
+    {
+     "data_hora": "2019-05-27T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 28/05/19 PÁG 95. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1797964",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-05-28T17:07",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CREDN.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-24T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Coronel Armando (PSL-SC)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-03-25T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 26/03/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-04-13T20:23",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 25/03/2021 a 13/04/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-06-16T16:57",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CREDN, pelo Deputado Coronel Armando (PSL/SC).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2030171",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-06-16T16:57",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Coronel Armando (PSL-SC), pela aprovação, com Substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2030169",
+      "nome": "PRL 1 CREDN",
+      "id": 2287497
+     }
+    },
+    {
+     "data_hora": "2021-06-18T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 21/06/2021)",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-06-18T12:58",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-829/2021.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2028440",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "eventos": [
+    {
+     "data_hora": "2021-06-29T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 18/06/2021 a 29/06/2021). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-07-01T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Coronel Armando (PSL-SC)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-04-27T09:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Coronel Armando, não integrava a Comissão na data da instalação (deixou de ser membro em 02/02/2022)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-06-02T16:53",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 2 CREDN, pelo Deputado Coronel Armando (PL/SC).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2183217",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2022-06-02T16:53",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Coronel Armando (PL-SC), pela aprovação deste, com Substitutivo, e pela rejeição do PL 829/2021, apensado.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2183214",
+      "nome": "PRL 2 CREDN",
+      "id": 2326631
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2022-06-14T10:30",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 1037/2022, pelo Deputado Nereu Crispim (PSD/RS), que \"Requer a desapensação do Projeto de Lei nº 829, de 2021, que tramita conjuntamente com o PL nº 2.422, de 2019\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2186280",
+      "nome": "REQ 1037/2022",
+      "id": 2327824
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "eventos": [
+    {
+     "data_hora": "2022-06-14T09:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício..",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-06-28T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indefiro o Requerimento n. 1.037/2022, nos termos do artigo 142 do Regimento Interno da Câmara dos Deputados, porquanto os Projetos de Lei n. 829/2021 e n. 2.422/2019 tratam de matérias correlatas. Publique-se. Oficie-se.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "eventos": [
+    {
+     "data_hora": "2022-08-03T09:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    },
+    {
+     "data_hora": "2022-08-05T15:20",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação do Parecer de Comissão n. 1 CREDN, pela Comissão de Relações Exteriores e de Defesa Nacional.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2201882",
+      "nome": "PAR 1",
+      "id": 2333820
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSPCCO",
+   "nome": "Comissão de Segurança Pública e Combate ao Crime Organizado",
+   "eventos": [
+    {
+     "data_hora": "2022-08-08T07:35",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-08-08T12:20",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSPCCO, com a proposição PL-829/2021 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-08-08T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Relações Exteriores e de Defesa Nacional Publicado em avulso e no DCD de 09/08/2022, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-08-29T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Sanderson (PL-RS)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-08-30T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 31/08/2022)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-10-18T19:29",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 30/08/2022 a 18/10/2022). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Fim de Legislatura) O Relator, Dep. Sanderson, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2023-03-23T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Nicoletti (UNIÃO-RR)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-03-27T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Reabertura do Prazo para Emendas ao Projeto - Art. 166 do RICD (5 sessões a partir de 28/03/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-04-12T21:58",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 27/03/2023 a 12/04/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-05-18T17:09",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CSPCCO (Parecer do Relator), pelo Deputado Nicoletti (UNIÃO/RR).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2275623",
+      "nome": "PRL 1 CSPCCO",
+      "id": 2363753
+     }
+    },
+    {
+     "data_hora": "2023-05-18T17:09",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Nicoletti (UNIÃO-RR), pela aprovação deste, com substitutivo, e pela rejeição do PL 829/2021, apensado.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2275623",
+      "nome": "PRL 1 CSPCCO",
+      "id": 2363753
+     }
+    },
+    {
+     "data_hora": "2023-05-19T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 22/05/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-01T13:03",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 19/05/2023 a 01/06/2023). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-06T14:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, por acordo, por solicitação do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "2ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-06-13T14:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pelo Relator",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-13T14:00",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiram a Matéria: Dep. Alberto Fraga (PL-DF), Dep. Nicoletti (UNIÃO-RR) e Dep. Duda Salabert (PDT-MG).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-13T14:00",
+     "titulo": "Pedido de Vista",
+     "texto": "Vista conjunta aos Deputados Alberto Fraga e Capitão Augusto.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-20T22:45",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Prazo de Vista Encerrado",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-27T14:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício.",
+     "tipo": "alerta",
+     "etiqueta": "3ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-08-01T14:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, por acordo, por solicitação do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "4ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-08-08T13:00",
+     "titulo": "Aprovação de Requerimento",
+     "texto": "Aprovado o Requerimento de Inversão de Pauta apresentado pelo deputado Nicoletti.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-08-08T13:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lida a Complementação de Voto pelo Relator.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-08T12:02",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação da CVO n. 1 CSPCCO (Complementação de Voto), pelo Deputado Nicoletti (UNIÃO/RR).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2307587",
+      "nome": "CVO 1 CSPCCO",
+      "id": 2376361
+     }
+    },
+    {
+     "data_hora": "2023-08-08T13:00",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiram a Matéria: Dep. Nicoletti (UNIÃO-RR), Dep. Coronel Assis (UNIÃO-MT) e Dep. Sargento Fahur (PSD-PR).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-08T12:02",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer com Complementação de Voto, Dep. Nicoletti (UNIÃO-RR), pela aprovação deste, com substitutivo, e pela rejeição do PL 829/2021, apensado.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2307587",
+      "nome": "CVO 1 CSPCCO",
+      "id": 2376361
+     }
+    },
+    {
+     "data_hora": "2023-08-08T13:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer com Complementação de Voto.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2023-08-09T14:21",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-09T15:16",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC, com a proposição PL-829/2021 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-09T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Segurança Pública e Combate ao Crime Organizado Publicado em avulso e no DCD de 10/08/2023, Letra B. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-28T13:47",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Nicoletti (PL-RR).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-29T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 01/06/2026)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-06-16T22:15",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 29/05/2026 a 16/06/2026). Não foram apresentadas emendas.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2422/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 22/04/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas.",
+   "id": 2198832,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "1735456"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 829/2021",
+    "tipo": "Projeto de Lei",
+    "data": "10/03/2021",
+    "id": 2273532,
+    "texto": "Altera a redação da Lei nº 9.608, de 18 de fevereiro de 1998, para instituir o serviço voluntário de prevenção de crimes (programas de vigilância de bairro ou sentinela voluntário).",
+    "codteor": "1973784",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CREDN",
+      "tipo": "Parecer do Relator",
+      "data": "16/06/2021",
+      "id": 2287497,
+      "texto": "Parecer do Relator, Dep. Coronel Armando (PSL-SC), pela aprovação, com Substitutivo.",
+      "codteor": "2030169"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "17/06/2021",
+      "id": 2287499,
+      "texto": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas.",
+      "codteor": "2030169"
+     },
+     {
+      "sigla": "PRL 2 CREDN",
+      "tipo": "Parecer do Relator",
+      "data": "02/06/2022",
+      "id": 2326631,
+      "texto": "Parecer do Relator, Dep. Coronel Armando (PL-SC), pela aprovação deste, com Substitutivo, e pela rejeição do PL 829/2021, apensado.",
+      "codteor": "2183214"
+     },
+     {
+      "sigla": "SBT 2",
+      "tipo": "Substitutivo",
+      "data": "08/06/2022",
+      "id": 2326648,
+      "texto": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas das Forças Armadas nas Polícias Militares e nos Corpos de Bombeiros Militares.",
+      "codteor": "2183214"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "05/08/2022",
+      "id": 2333820,
+      "texto": "Parecer da CREDN pela aprovação deste, com Substitutivo, e pela rejeição do PL 829/2021, apensado.",
+      "codteor": "2201882"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "05/08/2022",
+      "id": 2333821,
+      "texto": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas das Forças Armadas nas Polícias Militares e nos Corpos de Bombeiros Militares.",
+      "codteor": "2201884"
+     },
+     {
+      "sigla": "PRL 1 CSPCCO",
+      "tipo": "Parecer do Relator",
+      "data": "18/05/2023",
+      "id": 2363753,
+      "texto": "Parecer do Relator, Dep. Nicoletti (UNIÃO-RR), pela aprovação deste, com substitutivo, e pela rejeição do PL 829/2021, apensado.",
+      "codteor": "2275623"
+     },
+     {
+      "sigla": "SBT 1 (id 2363781)",
+      "tipo": "Substitutivo",
+      "data": "18/05/2023",
+      "id": 2363781,
+      "codteor": "2275623"
+     },
+     {
+      "sigla": "CVO 1 CSPCCO",
+      "tipo": "Complementação de Voto",
+      "data": "08/08/2023",
+      "id": 2376361,
+      "texto": "Parecer com Complementação de Voto, Dep. Nicoletti (UNIÃO-RR), pela aprovação deste, com substitutivo, e pela rejeição do PL 829/2021, apensado.",
+      "codteor": "2307587"
+     },
+     {
+      "sigla": "SBT 2 (id 2376397)",
+      "tipo": "Substitutivo",
+      "data": "08/08/2023",
+      "id": 2376397,
+      "codteor": "2307587"
+     },
+     {
+      "sigla": "SBT-A 1 (id 2376932)",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "09/08/2023",
+      "id": 2376932,
+      "texto": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas.",
+      "codteor": "2308549"
+     },
+     {
+      "sigla": "PAR 1 (id 2376923)",
+      "tipo": "Parecer de Comissão",
+      "data": "09/08/2023",
+      "id": 2376923,
+      "texto": "Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas.",
+      "codteor": "2308533"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1037/2022",
+      "tipo": "Requerimento de Desapensação",
+      "data": "14/06/2022",
+      "id": 2327824,
+      "texto": "Requer a desapensação do Projeto de Lei nº 829, de 2021, que tramita conjuntamente com o PL nº 2.422, de 2019.",
+      "codteor": "2186280"
+     },
+     {
+      "sigla": "REQ 1037/2022 (id 2327824)",
+      "tipo": "Requerimento de Desapensação",
+      "data": "14/06/2022",
+      "id": 2327824,
+      "texto": "Requer a desapensação do Projeto de Lei nº 829, de 2021, que tramita conjuntamente com o PL nº 2.422, de 2019.",
+      "codteor": "2186280"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "13/06/2023",
+      "id": 2368526,
+      "texto": "Requerimento de Inversão da Pauta - PL 2422/2019",
+      "codteor": "2286467"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "08/08/2023",
+      "id": 2376229,
+      "texto": "Requerimento de Inversão da Pauta - PL 2422/2019",
+      "codteor": "2307414"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2422/2019",
+     "tipo": "Texto original",
+     "codteor": "1735456"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1037/2022",
+    "REQ 1037/2022 (id 2327824)"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CREDN",
+    "SBT 1",
+    "PRL 2 CREDN",
+    "SBT 2",
+    "PAR 1",
+    "SBT-A 1",
+    "PRL 1 CSPCCO",
+    "SBT 1 (id 2363781)",
+    "CVO 1 CSPCCO",
+    "SBT 2 (id 2376397)",
+    "SBT-A 1 (id 2376932)",
+    "PAR 1 (id 2376923)"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 24/05/2019",
+     "tipo": "Despacho",
+     "data": "24/05/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Relações Exteriores e de Defesa Nacional; Segurança Pública e Combate ao Crime Organizado e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1750981"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

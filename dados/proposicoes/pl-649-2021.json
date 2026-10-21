@@ -1,0 +1,223 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2271138,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 649/2021",
+  "ementa": "Altera a Lei nº 12.965, de 23 de abril de 2014, para dispor sobre direito de ampla defesa e contraditório pela indisponibilização ou qualquer intervenção sem ordem judicial do provedor de aplicações sobre conteúdo gerado por terceiros.",
+  "explicacao": "Tramita em conjunto com o PL 2.883/2020, à qual está apensada.",
+  "codteor_inteiro_teor": "1968646",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "02/03/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 154, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 2.883/2020"
+   }
+  ],
+  "apresentacao": "2021-03-02",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 154, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Comunicações"
+  ],
+  "keywords": "Alteração, Marco Civil da Internet, Direito à ampla defesa, garantia ao contraditório, indisponibilização, intervenção, Ordem judicial, provedor de aplicações, conteúdo digital, geração, terceiro."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CCTI",
+  "orgao_nome": "Comissão de Ciência, Tecnologia e Inovação",
+  "desde": "2021-04-27",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-03-02",
+   "fim": "2021-04-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CCTI",
+   "nome": "Ciência, Tecnologia e Inovação",
+   "papel": "Mérito",
+   "inicio": "2021-04-27",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-03-02T10:28",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 649/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Altera a Lei nº 12.965, de 23 de abril de 2014, para dispor sobre direito de ampla defesa e contraditório pela indisponibilização ou qualquer intervenção sem ordem judicial do provedor de aplicações sobre conteúdo gerado por terceiros\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1968647",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-26T12:06",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-2883/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1972007",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCTI",
+   "nome": "Comissão de Ciência, Tecnologia e Inovação",
+   "eventos": [
+    {
+     "data_hora": "2021-04-27T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 28/04/21 PÅG 557 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2014208",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-27T17:04",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCTCI.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 2.883/2020",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CCTI",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 649/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 02/03/2021",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 12.965, de 23 de abril de 2014, para dispor sobre direito de ampla defesa e contraditório pela indisponibilização ou qualquer intervenção sem ordem judicial do provedor de aplicações sobre conteúdo gerado por terceiros.",
+   "id": 2271138,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1968646"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 649/2021",
+     "tipo": "Texto original",
+     "codteor": "1968646"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 26/04/2021",
+     "tipo": "Despacho",
+     "data": "26/04/2021",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-2883/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1972007"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

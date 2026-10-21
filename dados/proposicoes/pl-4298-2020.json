@@ -1,0 +1,232 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2260764,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 4.298/2020",
+  "ementa": "Dispõe sobre a proibição do corte de energia elétrica em razão de Estado de Calamidade Pública nos casos de crises ordem social, econômica, financeira e da economia popular.",
+  "explicacao": "Tramita em conjunto com o PL 723/2020, à qual está apensada.",
+  "codteor_inteiro_teor": "1924276",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "20/08/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 723/2020"
+   }
+  ],
+  "apresentacao": "2020-08-20",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Defesa do Consumidor",
+   "Energia, Recursos Hídricos e Minerais"
+  ],
+  "keywords": "Proibição, suspensão, corte, energia elétrica, inadimplemento, unidade consumidora de energia, decorrência, calamidade pública, crise econômico-financeira."
+ },
+ "autor": {
+  "id": 198783,
+  "nome": "Dep. Emanuel Pinheiro Neto",
+  "descricao": "Deputado Federal · PSD/MT",
+  "rotulo": "AUTOR · 11 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2020-12-17",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-08-20",
+   "fim": "2020-12-17",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito",
+   "inicio": "2020-12-17",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-08-20T16:36",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 4298/2020, pelo Deputado Emanuel Pinheiro Neto (PTB/MT) e outros, que \"Dispõe sobre a proibição do corte de energia elétrica em razão de Estado de Calamidade Pública nos casos de crises ordem social, econômica, financeira e da economia popular\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1924277",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-12-17T12:41",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-723/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1924363",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2020-12-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/12/2020. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-02-10T12:00",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC, apensado ao PL-723/2020",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-12-06T00:00",
+     "titulo": "Notificações",
+     "texto": "Devolvido ao Relator, Dep. Gerlen Diniz (PP-AC), para o PL 7239/2010, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-20T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Luiz Philippe de Orleans e Bragança (PL-SP), para o PL 7239/2010, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 723/2020",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 4298/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 20/08/2020",
+   "autor": "Dep. Emanuel Pinheiro Neto (PSD/MT)",
+   "texto": "Dispõe sobre a proibição do corte de energia elétrica em razão de Estado de Calamidade Pública nos casos de crises ordem social, econômica, financeira e da economia popular.",
+   "id": 2260764,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1924276"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Emanuel Pinheiro Neto (PSD/MT)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 4298/2020",
+     "tipo": "Texto original",
+     "codteor": "1924276"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 17/12/2020",
+     "tipo": "Despacho",
+     "data": "17/12/2020",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-723/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1924363"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

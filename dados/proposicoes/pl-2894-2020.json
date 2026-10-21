@@ -1,0 +1,338 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2253703,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.894/2020",
+  "ementa": "Institui Programa no âmbito das instituições financeiras federais para a concessão de empréstimos favorecidos para hospitais privados com e sem fins lucrativos pequenos e médios – PPMH, bem como altera a Lei nº 13.483, de 21 de setembro de 2017, e a Lei nº 13.979, de 6 de fevereiro de 2020, para permitir a redução de taxas de juros em financiamentos a pequenos e médios hospitais com base na Taxa de Longo Prazo – TLP e sua taxa de juros prefixada.",
+  "explicacao": "Tramita em conjunto com o PL 762/2020, à qual está apensada.",
+  "codteor_inteiro_teor": "1897600",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "26/05/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 762/2020"
+   }
+  ],
+  "apresentacao": "2020-05-26",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Economia",
+   "Saúde"
+  ],
+  "keywords": "Criação, Programa no âmbito das instituições financeiras federais oficiais para a concessão de empréstimos favorecidos para hospitais privados com e sem fins lucrativos pequenos e médios ( PPMH), financiamento, capital de giro, folha de pagamento, investimento, leito hospitalar, Unidade de Terapia Intensiva (UTI), Taxa de Longo Prazo (TLP). _Alteração, lei federal, critério, redução, taxa de juros, Taxa de Longo Prazo (TLP). _Alteração, lei federal, enfrentamento, Emergência de Saúde Pública de Importância Internacional (ESPII), redução, taxa de juros, Taxa de Longo Prazo (TLP), financiamento, hospital, calamidade pública, pandemia, coronavírus"
+ },
+ "autor": {
+  "id": 204500,
+  "nome": "Dep. Eduardo Costa",
+  "descricao": "Deputado Federal · PSD/PA",
+  "rotulo": "AUTOR · 12 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CSAUDE",
+  "orgao_nome": "Comissão de Saúde",
+  "desde": "2021-04-15",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-05-26",
+   "fim": "2020-05-26",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2021-04-15",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-05-26",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-05-26T11:31",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2894/2020, pelo Deputado Eduardo Costa (PTB/PA) e outros, que \"Institui Programa no âmbito das instituições financeiras federais para a concessão de empréstimos favorecidos para hospitais privados com e sem fins lucrativos pequenos e médios – PPMH, bem como altera a Lei nº 13.483, de 21 de setembro de 2017, e a Lei nº 13.979, de 6 de fevereiro de 2020, para permitir a redução de taxas de juros em financiamentos a pequenos e médios hospitais com base na Taxa de Longo Prazo – TLP e sua taxa de juros prefixada\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1897600",
+      "nome": "Inteiro teor · PL 2894/2020",
+      "id": 2253703
+     }
+    },
+    {
+     "data_hora": "2020-05-29T10:02",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 1336/2020, pelo Deputado Antonio Brito (PSD/BA) e outros, que \"Requeiro com base no Regimento Interno da Câmara dos Deputados, a coautoria ao PL 2.894/2020\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1899127",
+      "nome": "REQ 1336/2020",
+      "id": 2254051
+     }
+    },
+    {
+     "data_hora": "2020-06-02T16:52",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 1383/2020, pelo Deputado Emanuel Pinheiro Neto (PTB/MT) e outros, que \"Requeiro com base no Regimento Interno da Câmara dos Deputados, a coautoria ao PL 2.894/2020\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1900034",
+      "nome": "REQ 1383/2020",
+      "id": 2254328
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-06-04T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 1.336/2020, conforme despacho do seguinte teor: \"Defiro. Publique-se.\"",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2020-06-15T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 1.383/2020, conforme despacho do seguinte teor: \"Defiro. Publique-se.\"",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-02-09T19:05",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Urgência (Art. 155 do RICD) n. 136/2021, pelo Deputado Eduardo Costa (PTB/PA) e outros, que \"Requer, nos termos do artigo 155 do Regimento Interno, tramitação sob o regime urgência do “Projeto de Lei nº 2.894/2020”.\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1962293",
+      "nome": "Apresentação de Requerimento"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-04-13T17:33",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-762/2020. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1923311",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2021-04-15T13:02",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-04-15T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 16/04/21 PÅG 703 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2009547",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-11-12T11:25",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF, apensado ao PL-762/2020",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 762/2020",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CSAUDE",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2894/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 26/05/2020",
+   "autor": "Dep. Eduardo Costa (PSD/PA)",
+   "texto": "Institui Programa no âmbito das instituições financeiras federais para a concessão de empréstimos favorecidos para hospitais privados com e sem fins lucrativos pequenos e médios – PPMH, bem como altera a Lei nº 13.483, de 21 de setembro de 2017, e a Lei nº 13.979, de 6 de fevereiro de 2020, para permitir a redução de taxas de juros em financiamentos a pequenos e médios hospitais com base na Taxa de Longo Prazo – TLP e sua taxa de juros prefixada.",
+   "id": 2253703,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1897600"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Eduardo Costa (PSD/PA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1336/2020",
+      "tipo": "Requerimento",
+      "data": "29/05/2020",
+      "id": 2254051,
+      "texto": "Requeiro com base no Regimento Interno da Câmara dos Deputados, a coautoria ao PL 2.894/2020.",
+      "codteor": "1899127"
+     },
+     {
+      "sigla": "REQ 1383/2020",
+      "tipo": "Requerimento",
+      "data": "02/06/2020",
+      "id": 2254328,
+      "texto": "Requeiro com base no Regimento Interno da Câmara dos Deputados, a coautoria ao PL 2.894/2020.",
+      "codteor": "1900034"
+     },
+     {
+      "sigla": "REQ 136/2021",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "09/02/2021",
+      "id": 2269863,
+      "texto": "Requer, nos termos do artigo 155 do Regimento Interno, tramitação sob o regime urgência do “Projeto de Lei nº 2.894/2020”.",
+      "codteor": "1962291"
+     },
+     {
+      "sigla": "REQ 694/2021",
+      "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+      "data": "06/04/2021",
+      "id": 2276635,
+      "texto": "Requer a inclusão na Ordem do Dia do Requerimento de Urgência (Art. 155 do RICD) n. 136, de 2021, para apreciação do “Projeto de Lei nº 2.894/2020”.",
+      "codteor": "1985485"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2894/2020",
+     "tipo": "Texto original",
+     "codteor": "1897600"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1336/2020",
+    "REQ 1383/2020",
+    "REQ 136/2021",
+    "REQ 694/2021"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 13/04/2021",
+     "tipo": "Despacho",
+     "data": "13/04/2021",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-762/2020. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1923311"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2565441,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 4.822/2025",
+  "ementa": "Altera a Lei nº 9.096, de 19 de setembro de 1995, para dispor sobre a responsabilidade individualizada de cada órgão dos partidos políticos pela execução de sanções pecuniárias e vedar descontos de cotas do Fundo Partidário de órgãos distintos, regulamentando a forma de cumprimento, parcelamento e fiscalização dessas obrigações, aplicadas aos órgãos nacionais, órgãos estaduais, distrital e municipais das agremiações, de acordo com o artigo 15-A e § 3º do artigo 28 da Lei n.º 9.096, de 19 de setembro de 1995, bem como a decisão do Supremo Tribunal Federal na Ação Direta de Constitucionalidade 31.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "3009561",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "30/09/2025"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   }
+  ],
+  "apresentacao": "2025-09-30",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Finanças Públicas e Orçamento",
+   "Política, Partidos e Eleições"
+  ],
+  "keywords": "Alteração, Lei Orgânica dos Partidos Políticos (1995), Responsabilidade pessoal, Órgão partidário, pagamento, Multa administrativa pecuniária, penalidade, Justiça Eleitoral, decisão judicial, trânsito em julgado, diretrizes."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · 3 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Apreciação pelo Senado Federal",
+  "estado": "NO SENADO",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2026-05-19",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2025-09-30",
+   "fim": "2025-10-28",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "3012833",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2025-10-28",
+   "fim": "2026-05-19",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2026-05-19",
+   "fim": "2026-05-19",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "inicio": "2026-06-17",
+   "fim": "2026-06-17",
+   "estado": "concluido"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "PLEN",
+  "relator": {
+   "id": 220641,
+   "nome": "Dep. Rodrigo Gambale",
+   "descricao": "Deputado Federal · PODE/SP",
+   "rotulo": "RELATOR(A) · PLEN"
+  },
+  "resumo_inicio": "Designação em 19/05/2026.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-09-30T10:10",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 4822/2025 (Projeto de Lei), pelos Deputado Pedro Lucas Fernandes (UNIÃO/MA) e outros, que \"Altera a Lei nº 9.096, de 19 de setembro de 1995, para dispor sobre a responsabilidade individualizada de cada órgão dos partidos políticos pela execução de sanções pecuniárias e vedar descontos de cotas do Fundo Partidário de órgãos distintos, regulamentando a forma de cumprimento, parcelamento e fiscalização dessas obrigações, aplicadas aos órgãos nacionais, órgãos estaduais, distrital e municipais das agremiações, de acordo com o artigo 15-A e § 3º do artigo 28 da Lei n.º 9.096, de 19 de setembro de 1995, bem como a decisão do Supremo Tribunal Federal na Ação Direta de Constitucionalidade 31\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "3009561",
+      "nome": "Inteiro teor · PL 4822/2025",
+      "id": 2565441
+     }
+    },
+    {
+     "data_hora": "2025-09-30T18:36",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 3983/2025 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputado Pedro Lucas Fernandes (UNIÃO/MA) e outros, que \"Requer, nos termos do artigo 155 do Regimento Interno da Câmara dos Deputados, que seja incluído automaticamente na Ordem do Dia o PL 4822/2025, que “Altera a Lei nº 9.096, de 19 de setembro de 1995, para dispor sobre a responsabilidade individualizada de cada órgão dos partidos políticos pela execução de sanções pecuniárias e vedar descontos de cotas do Fundo Partidário de órgãos distintos, regulamentando a forma de cumprimento, parcelamento e fiscalização dessas obrigações, aplicadas aos órgãos nacionais, órgãos estaduais, distrital e municipais das agremiações, de acordo com o artigo 15-A e § 3º do artigo 28 da Lei n.º 9.096, de 19 de setembro de 1995, bem como a decisão do Supremo Tribunal Federal na Ação Direta de Constitucionalidade 31”\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3010098",
+      "nome": "REQ 3983/2025",
+      "id": 2565804
+     }
+    },
+    {
+     "data_hora": "2025-10-28T13:36",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do PlenárioRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3012833",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2025-10-28T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 29/10/2025. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-28T20:01",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CFT.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2026-05-19T15:28",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Rodrigo Gambale (PODE-SP).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Aprovado o requerimento nº 3983/2025,do Sr. Pedro Lucas Fernandes, que solicita urgência (art. 155) para o PL 4822/2025.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 3983/2025.",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-05-19T18:19",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRLP n. 1 PLEN (Parecer Preliminar de Plenário), pelo Deputado Rodrigo Gambale (PODE/SP).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3132666",
+      "nome": "PPP 1",
+      "id": 2625981
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Discussão (Plenário)",
+     "texto": "Discussão em turno único.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer proferido em Plenário pelo Relator, Dep. Rodrigo Gambale (PODE-SP) pela:• Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa públicas, não cabendo pronunciamento quanto à adequação financeira ou orçamentária; e, no mérito, pela aprovação do Projeto de Lei 4.822, de 2025, na forma do Substitutivo adotado pelo relator da Comissão de Constituição e Justiça e de Cidadania.• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa da matéria; e, no mérito, pela aprovação do Projeto de Lei nº 4.822, de 2025, na forma do Substitutivo adotado.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3132666",
+      "nome": "PPP 1",
+      "id": 2625981
+     }
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiram a Matéria: Dep. Adriana Ventura (NOVO-SP), Dep. Kim Kataguiri (MISSÃO-SP), Dep. Fernanda Melchionna (PSOL-RS) e Dep. Chico Alencar (PSOL-RJ).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Encerramento de Discussão",
+     "texto": "Encerrada a discussão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação em turno único.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Encaminhamento da Votação",
+     "texto": "Encaminharam a Votação da Matéria: Dep. Adriana Ventura (NOVO-SP) e Dep. Kim Kataguiri (MISSÃO-SP).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovado o Substitutivo ao Projeto de Lei nº 4.822, de 2025, adotado pelo relator da Comissão de Constituição e Justiça e de Cidadania, ressalvado o destaque.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Prejudicialidade (Plenário)",
+     "texto": "Em consequência, fica prejudicada a proposição inicial.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Obstruçao Votação (Plenário)",
+     "texto": "Votação do Requerimento do Dep. Gilson Marques, que solicita votação nominal para o DTQ 1.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Encaminhamento da Votação",
+     "texto": "Encaminhou a Votação a Dep. Adriana Ventura (NOVO-SP).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Rejeição de Proposição (Plenário)",
+     "texto": "Rejeitado o Requerimento.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Destaques (Plenário)",
+     "texto": "Votação do DTQ 1 (NOVO): Destaque para Votação em Separado do Art. 29 da Lei n. 9.096/1995, alterado pelo art. 2° do Substitutivo, com fins de supressão, apresentado ao PL 4822/2025 (161, I).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Encaminhamento da Votação",
+     "texto": "Encaminhou a Votação a Dep. Adriana Ventura (NOVO-SP).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Manutenção do texto (Plenário)",
+     "texto": "Mantido o texto.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação da Redação Final.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovada a Redação Final assinada pelo relator, Dep. Rodrigo Gambale (PODE/SP).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-19T13:55",
+     "titulo": "Encaminhamento (Plenário)",
+     "texto": "A matéria vai ao Senado Federal (PL 4.822-A/2025).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2026-05-19T22:40",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolução à CCP",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-05-19T00:00",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Rodrigo Gambale (PODE/SP).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3151648",
+      "nome": "RDF 1",
+      "id": 2634827
+     }
+    },
+    {
+     "data_hora": "2026-06-17T00:00",
+     "titulo": "Expedição de Documento",
+     "texto": "Apresentação do autógrafo.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3147396",
+      "nome": "Expedição de Documento"
+     }
+    },
+    {
+     "data_hora": "2026-06-17T00:00",
+     "titulo": "Expedição de Documento",
+     "texto": "Remessa ao Senado Federal por meio do Of. nº 122/2026/PS-GSE.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "3147182",
+      "nome": "Expedição de Documento"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Apreciação pelo Senado Federal",
+   "descricao": "A proposição está na Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 4822/2025",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 30/09/2025",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 9.096, de 19 de setembro de 1995, para dispor sobre a responsabilidade individualizada de cada órgão dos partidos políticos pela execução de sanções pecuniárias e vedar descontos de cotas do Fundo Partidário de órgãos distintos, regulamentando a forma de cumprimento, parcelamento e fiscalização dessas obrigações, aplicadas aos órgãos nacionais, órgãos estaduais, distrital e municipais das agremiações, de acordo com o artigo 15-A e § 3º do artigo 28 da Lei n.º 9.096, de 19 de setembro de 1995, bem como a decisão do Supremo Tribunal Federal na Ação Direta de Constitucionalidade 31.",
+   "id": 2565441,
+   "situacao": "AGUARDANDO APRECIAÇÃO PELO SENADO FEDERAL",
+   "codteor": "3009561"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PPP 1",
+      "tipo": "Parecer Proferido em Plenário",
+      "data": "19/05/2026",
+      "id": 2625981,
+      "texto": "Parecer proferido em Plenário pelo Relator, Dep. Rodrigo Gambale (PODE-SP) pela: • Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa públicas, não cabendo pronunciamento quanto à adequação financeira ou orçamentária; e, no mérito, pela aprovação do Projeto de Lei 4.822, de 2025, na forma do Substitutivo adotado pelo relator da Comissão de Constituição e Justiça e de Cidadania. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa da matéria; e, no mérito, pela aprovação do Projeto de Lei nº 4.822, de 2025, na forma do Substitutivo adotado.",
+      "codteor": "3132666"
+     },
+     {
+      "sigla": "PRLP 1",
+      "tipo": "Parecer Preliminar de Plenário",
+      "data": "19/05/2026",
+      "id": 2625941,
+      "texto": "PARECER PRELIMINAR DE PLENÁRIO PELAS COMISÕES DE FINANCAS E TRIBUTAÇÃO E DE CONSTITUIÇÃO E JUSTIÇA E DE CIDADANIA AO PROJETO DE LEI Nº 4.822, DE 2025.",
+      "codteor": "3132666"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "19/05/2026",
+      "id": 2625985,
+      "codteor": "3132729"
+     }
+    ]
+   },
+   {
+    "rotulo": "DESTAQUES",
+    "plural": "destaques",
+    "itens": [
+     {
+      "sigla": "DTQ 1",
+      "tipo": "Destaque para Votação em Separado",
+      "data": "19/05/2026",
+      "id": 2625973,
+      "texto": "Destaque para Votação em Separado - PL 4822/2025",
+      "codteor": "3132715"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 3983/2025",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "30/09/2025",
+      "id": 2565804,
+      "texto": "Requer, nos termos do artigo 155 do Regimento Interno da Câmara dos Deputados, que seja incluído automaticamente na Ordem do Dia o PL 4822/2025, que “Altera a Lei nº 9.096, de 19 de setembro de 1995, para dispor sobre a responsabilidade individualizada de cada órgão dos partidos políticos pela execução de sanções pecuniárias e vedar descontos de cotas do Fundo Partidário de órgãos distintos, regulamentando a forma de cumprimento, parcelamento e fiscalização dessas obrigações, aplicadas aos órgãos nacionais, órgãos estaduais, distrital e municipais das agremiações, de acordo com o artigo 15-A e § 3º do artigo 28 da Lei n.º 9.096, de 19 de setembro de 1995, bem como a decisão do Supremo Tribunal Federal na Ação Direta de Constitucionalidade 31”.",
+      "codteor": "3010098"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "19/05/2026",
+      "id": 2625872,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 4822/2025",
+      "codteor": "3132501"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "19/05/2026",
+      "id": 2625873,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 4822/2025-Requerimento de Retirada de Matéria da Pauta - PL 4822/2025",
+      "codteor": "3132502"
+     },
+     {
+      "sigla": "RPD 3",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "19/05/2026",
+      "id": 2625880,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 4822/2025",
+      "codteor": "3132520"
+     },
+     {
+      "sigla": "RPD 4",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "19/05/2026",
+      "id": 2625882,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 4822/2025-Requerimento de Retirada de Matéria da Pauta - PL 4822/2025",
+      "codteor": "3132522"
+     },
+     {
+      "sigla": "RPD 5",
+      "tipo": "Votação Nominal do Destaque para Votação em Separado",
+      "data": "19/05/2026",
+      "id": 2625974,
+      "texto": "Votação Nominal do Destaque para Votação em Separado - PL 4822/2025-Destaque para Votação em Separado - PL 4822/2025",
+      "codteor": "3132716"
+     }
+    ]
+   },
+   {
+    "rotulo": "REDAÇÃO FINAL E AUTÓGRAFOS",
+    "plural": "documentos de redação final e autógrafos",
+    "itens": [
+     {
+      "sigla": "RDF 1",
+      "tipo": "Redação Final",
+      "data": "19/05/2026",
+      "id": 2634827,
+      "texto": "Redação Final ao PL 4822/2025",
+      "codteor": "3151648"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 4822/2025",
+     "tipo": "Texto original",
+     "codteor": "3009561"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 3983/2025"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PPP 1",
+    "PRLP 1",
+    "SBT 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": [
+    "DTQ 1"
+   ]
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 28/10/2025",
+     "tipo": "Despacho",
+     "data": "28/10/2025",
+     "autor": "MESA",
+     "texto": "Às Comissões de Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do PlenárioRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "3012833"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [
+    "RDF 1"
+   ],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

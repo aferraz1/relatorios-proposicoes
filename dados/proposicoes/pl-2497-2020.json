@@ -1,0 +1,506 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2252010,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.497/2020",
+  "ementa": "Altera as Leis no 9.433, de 8 de janeiro de 1997, que institui a Política Nacional de Recursos Hídricos, e 11.445, de 5 de janeiro de 2007, que estabelece as diretrizes nacionais para o saneamento básico, para dispensar de outorga e do pagamento de taxa ou de tarifa o uso de recursos hídricos em propriedades não atendidas por rede pública de abastecimento.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1891690",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "08/05/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2020-05-08",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Cidades e Desenvolvimento Urbano",
+   "Energia, Recursos Hídricos e Minerais"
+  ],
+  "keywords": "Alteração, Lei de Gestão de Recursos Hídricos, Lei de Saneamento Básico, dispensa, outorga, pagamento, taxa, tarifa, extração, água subterrânea, aquífero, destinação, esgoto sanitário, propriedade rural, propriedade urbana, inexistência, serviços públicos, abastecimento de água. saneamento básico."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2025-05-09",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-05-08",
+   "fim": "2020-11-04",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1914773",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CME",
+   "nome": "Minas e Energia",
+   "papel": "Mérito",
+   "inicio": "2020-11-04",
+   "fim": "2023-06-07",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CDU",
+   "nome": "Desenvolvimento Urbano",
+   "papel": "Mérito",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CME",
+  "relator": {
+   "id": 141398,
+   "nome": "Dep. Carlos Zarattini",
+   "descricao": "Deputado Federal · PT/SP",
+   "rotulo": "RELATOR(A) · CME"
+  },
+  "resumo_inicio": "Designação em 16/03/2021. Apresentou 2 versões de parecer:",
+  "resumo_fim": "",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CME",
+    "data": "19/11/2021",
+    "codteor": "2108724",
+    "aprovado": false,
+    "id": 2307953
+   },
+   {
+    "sigla": "PRL 2",
+    "nome": "Parecer do Relator · PRL 2 CME",
+    "data": "15/06/2022",
+    "codteor": "2188642",
+    "aprovado": false,
+    "id": 2329220
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-05-08T15:42",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2497/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Altera as Leis no 9.433, de 8 de janeiro de 1997, que institui a Política Nacional de Recursos Hídricos, e 11.445, de 5 de janeiro de 2007, que estabelece as diretrizes nacionais para o saneamento básico, para dispensar de outorga e do pagamento de taxa ou de tarifa o uso de recursos hídricos em propriedades não atendidas por rede pública de abastecimento\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1891691",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-11-03T14:30",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Minas e Energia; Desenvolvimento Urbano; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD). Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1914773",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CME",
+   "nome": "Comissão de Minas e Energia",
+   "eventos": [
+    {
+     "data_hora": "2020-11-04T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 05/11/20 PÅG 168. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1944348",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-03-11T11:56",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CME.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-16T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Carlos Zarattini (PT-SP)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-03-17T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 18/03/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-31T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 17/03/2021 a 31/03/2021 15:18:00). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-11-19T17:38",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CME, pelo Deputado Carlos Zarattini (PT/SP).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2108726",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-11-19T17:38",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Carlos Zarattini (PT-SP), pela aprovação, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2108724",
+      "nome": "PRL 1 CME",
+      "id": 2307953
+     }
+    },
+    {
+     "data_hora": "2021-11-22T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 23/11/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-12-01T21:02",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 22/11/2021 a 01/12/2021). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-05-04T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, a requerimento do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-05-04T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Carlos Zarattini (PT-SP)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-06-15T17:27",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 2 CME, pelo Deputado Carlos Zarattini (PT/SP).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2188643",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2022-06-15T17:27",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Carlos Zarattini (PT-SP), pela rejeição.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2188642",
+      "nome": "PRL 2 CME",
+      "id": 2329220
+     }
+    },
+    {
+     "data_hora": "2022-06-29T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, a Requerimento aprovado do Autor.",
+     "tipo": "alerta",
+     "etiqueta": "2ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-11-23T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta a Requerimento aprovado dos Deputados Pedro Lucas Fernandes e Danilo Forte.",
+     "tipo": "alerta",
+     "etiqueta": "3ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-11-30T10:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Não deliberado em virtude da ausência do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "4ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-12-07T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Não deliberado em virtude da ausência do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "5ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Com Parecer Apresentado",
+     "texto": "(Fim de Legislatura) O Relator, Dep. Carlos Zarattini, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2023-05-25T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Carlos Zarattini (PT-SP)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-05-26T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Reabertura do Prazo para Emendas ao Projeto - Art. 166 do RICD (5 sessões a partir de 29/05/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-07T12:59",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 26/05/2023 a 07/06/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-05-09T17:14",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-1277/2025.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2878515",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2025-05-09T17:32",
+     "titulo": "Apensação",
+     "texto": "Apensação da proposição PL-1277/2025 à proposição PL-2497/2020.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CDU",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2497/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 08/05/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera as Leis no 9.433, de 8 de janeiro de 1997, que institui a Política Nacional de Recursos Hídricos, e 11.445, de 5 de janeiro de 2007, que estabelece as diretrizes nacionais para o saneamento básico, para dispensar de outorga e do pagamento de taxa ou de tarifa o uso de recursos hídricos em propriedades não atendidas por rede pública de abastecimento.",
+   "id": 2252010,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "1891690"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 1277/2025",
+    "tipo": "Projeto de Lei",
+    "data": "26/03/2025",
+    "id": 2490447,
+    "texto": "Altera as Leis nº 9.433, de 8 de janeiro de 1997, que institui a Política Nacional de Recursos Hídricos, e 11.445, de 5 de janeiro de 2007, que estabelece as diretrizes nacionais para o saneamento básico, para vedar a cobrança sobre serviços de abastecimento de água e esgotamento sanitário em edificações urbanas sem conexão à rede pública de saneamento e para instituir desconto sobre usos outorgados de recursos hídricos sem ligação com a infraestrutura pública de abastecimento de água.",
+    "codteor": "2874105",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CME",
+      "tipo": "Parecer do Relator",
+      "data": "19/11/2021",
+      "id": 2307953,
+      "texto": "Parecer do Relator, Dep. Carlos Zarattini (PT-SP), pela aprovação, com substitutivo.",
+      "codteor": "2108724"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "19/11/2021",
+      "id": 2307954,
+      "texto": "Parecer pela aprovação do Projeto de Lei nº 2.497, de 2020, na forma do Substitutivo apresentado",
+      "codteor": "2108724"
+     },
+     {
+      "sigla": "PRL 2 CME",
+      "tipo": "Parecer do Relator",
+      "data": "15/06/2022",
+      "id": 2329220,
+      "texto": "Parecer do Relator, Dep. Carlos Zarattini (PT-SP), pela rejeição.",
+      "codteor": "2188642"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "23/11/2022",
+      "id": 2339283,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2497/2020",
+      "codteor": "2217314"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "30/11/2022",
+      "id": 2340289,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2497/2020",
+      "codteor": "2219375"
+     },
+     {
+      "sigla": "RPD 3",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "07/12/2022",
+      "id": 2341417,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2497/2020",
+      "codteor": "2221593"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2497/2020",
+     "tipo": "Texto original",
+     "codteor": "1891690"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CME",
+    "SBT 1",
+    "PRL 2 CME"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 03/11/2020",
+     "tipo": "Despacho",
+     "data": "03/11/2020",
+     "autor": "MESA",
+     "texto": "Às Comissões de Minas e Energia; Desenvolvimento Urbano; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD). Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1914773"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

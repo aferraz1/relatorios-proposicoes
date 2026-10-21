@@ -1,0 +1,368 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2336317,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.679/2022",
+  "ementa": "Acrescenta inciso ao art. 20 da Lei nº 8.036, de 11 maio de 1990, para permitir a movimentação do saldo da conta vinculada para a aquisição de veículo automotor para o titular da conta vinculada.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2211715",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "25/10/2022"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2022-10-25",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública",
+   "Finanças Públicas e Orçamento",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Alteração, Lei do FGTS, autorização, trabalhador, movimentação, Conta vinculada do FGTS, aquisição, Veículo automotor."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CTRAB",
+  "orgao_nome": "Comissão de Trabalho",
+  "desde": "2023-08-02",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CTRAB"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2022-10-25",
+   "fim": "2022-11-16",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2246302",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2022-11-16",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Administração e Serviço Público",
+   "papel": "Mérito",
+   "inicio": "2023-03-28",
+   "fim": "2023-08-01",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-10-25T16:30",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2679/2022, pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Acrescenta inciso ao art. 20 da Lei nº 8.036, de 11 maio de 1990, para permitir a movimentação do saldo da conta vinculada para a aquisição de veículo automotor para o titular da conta vinculada\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2211715",
+      "nome": "Inteiro teor · PL 2679/2022",
+      "id": 2336317
+     }
+    },
+    {
+     "data_hora": "2022-11-11T12:14",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2303571",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2022-11-16T14:21",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-11-16T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 17/11/2022. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-03-15T00:00",
+     "titulo": "Distribuição",
+     "texto": "Decisão da Presidência de 15/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição...\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução\". (ATUALIZAÇÃO DE DESPACHO: Às Comissões de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD)).",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2246302",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2023-03-24T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolvido à CCP, conforme solicitado no Memo. 015/2023 - COPER.",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Comissão de Administração e Serviço Público",
+   "eventos": [
+    {
+     "data_hora": "2023-03-28T09:46",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CASP.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-08-01T14:04",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-3332/2023.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2302673",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2023-08-01T15:49",
+     "titulo": "Distribuição",
+     "texto": "Apense-se a este(a) o(a) PL-3332/2023. Por oportuno, revejo o despacho de distribuição da matéria, encaminhando-a à CTRAB em substituição à CASP. Às Comissões de Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Comissão de Administração e Serviço Público",
+   "eventos": [
+    {
+     "data_hora": "2023-08-01T00:00",
+     "titulo": "Notificações",
+     "texto": "Devolvido à CCP, em razão de revisão do despacho de distribuição do projeto, conforme o Memorando nº 083/2023 COPER.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2303617",
+      "nome": "Notificações"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2023-08-02T12:20",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTRAB, com a proposição PL-3332/2023 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-03T14:33",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTRAB, com a proposição PL-3332/2023 apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CTRAB",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CTRAB",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2679/2022",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 25/10/2022",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Acrescenta inciso ao art. 20 da Lei nº 8.036, de 11 maio de 1990, para permitir a movimentação do saldo da conta vinculada para a aquisição de veículo automotor para o titular da conta vinculada.",
+   "id": 2336317,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "2211715"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 3332/2023",
+    "tipo": "Projeto de Lei",
+    "data": "03/07/2023",
+    "id": 2372127,
+    "texto": "Altera a Lei nº 8.036, de 11 de maio de 1990, para permitir a movimentação do Fundo de Garantia do Tempo de Serviço para financiamento e aquisição de veículo.",
+    "codteor": "2295366",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2679/2022",
+     "tipo": "Texto original",
+     "codteor": "2211715"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 11/11/2022",
+     "tipo": "Despacho",
+     "data": "11/11/2022",
+     "autor": "MESA",
+     "texto": "Às Comissões de Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2303571"
+    },
+    {
+     "sigla": "Distribuição de 15/03/2023",
+     "tipo": "Despacho",
+     "data": "15/03/2023",
+     "autor": "MESA",
+     "texto": "Decisão da Presidência de 15/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição...\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução\". (ATUALIZAÇÃO DE DESPACHO: Às Comissões de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD)).",
+     "codteor": "2246302"
+    },
+    {
+     "sigla": "Distribuição de 01/08/2023",
+     "tipo": "Despacho",
+     "data": "01/08/2023",
+     "autor": "MESA",
+     "texto": "Apense-se a este(a) o(a) PL-3332/2023. Por oportuno, revejo o despacho de distribuição da matéria, encaminhando-a à CTRAB em substituição à CASP. Às Comissões de Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

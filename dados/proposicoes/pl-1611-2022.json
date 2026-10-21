@@ -1,0 +1,334 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2327205,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.611/2022",
+  "ementa": "Altera as Leis nº 9.656, de 3 de junho de 1998 e no 9.961 de 28 de janeiro de 2000, para definir que o Rol apresentado pela Agência Nacional de Saúde Suplementar – ANS é exemplificativo para todos os efeitos legais.",
+  "explicacao": "Tramita em conjunto com o PL 1.573/2022, à qual está apensada.",
+  "codteor_inteiro_teor": "2185091",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "13/06/2022"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 1.573/2022"
+   }
+  ],
+  "apresentacao": "2022-06-13",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Defesa do Consumidor",
+   "Saúde"
+  ],
+  "keywords": "Alteração, Lei dos Planos de Saúde, obrigatoriedade, Plano de Saúde, cobertura assistencial, procedimento médico, indicação médica, odontologia._ Alteração, Lei da ANS, Agência Nacional de Saúde Suplementar (ANS), Rol de Procedimentos e Eventos em Saúde, caráter exemplificativo, proibição, restrição, tratamento médico, medicamento, prescrição médica, dentista."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2022-07-05",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2022-06-13",
+   "fim": "2022-06-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2022-06-27",
+   "fim": "2022-06-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-06-13T11:27",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1611/2022, pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Altera as Leis nº 9.656, de 3 de junho de 1998 e no 9.961 de 28 de janeiro de 2000, para definir que o Rol apresentado pela Agência Nacional de Saúde Suplementar – ANS é exemplificativo para todos os efeitos legais\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2185091",
+      "nome": "Inteiro teor · PL 1611/2022",
+      "id": 2327205
+     }
+    },
+    {
+     "data_hora": "2022-06-20T17:41",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-1573/2022. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Urgência (Art. 155, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2185853",
+      "nome": "Despacho de Apensação"
+     }
+    },
+    {
+     "data_hora": "2022-06-20T18:02",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-1656/2022.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2187745",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2022-06-20T18:02",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-1666/2022.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2187807",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2022-06-21T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 22/06/2022 PAG 1007 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2212616",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2022-06-23T08:29",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-1720/2022.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2190207",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2022-06-27T09:58",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Desapensação n. 1105/2022, pela Deputada Professora Dorinha Seabra Rezende (UNIÃO/TO), que \"Requer a desapensação de vários projetos de lei ao PL 7419/2006\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2191542",
+      "nome": "REQ 1105/2022",
+      "id": 2330266
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-07-05T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Despacho exarado no Requerimento n. 1.105/2022, conforme o seguinte teor: “Indefiro o Requerimento n. 1.105/2022 quanto aos Projetos de Lei n. 4.076/2001, 6.033/2016 e 9.720/2018, nos termos do art. 142, caput, do RICD. Em relação aos demais projetos, julgo prejudicado o Requerimento n. 1.105/2022, com base no art. 164, I, do RICD. Publique-se. Oficie-se”.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 1.573/2022",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1611/2022",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 13/06/2022",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera as Leis nº 9.656, de 3 de junho de 1998 e no 9.961 de 28 de janeiro de 2000, para definir que o Rol apresentado pela Agência Nacional de Saúde Suplementar – ANS é exemplificativo para todos os efeitos legais.",
+   "id": 2327205,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "2185091"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 1656/2022",
+    "tipo": "Projeto de Lei",
+    "data": "14/06/2022",
+    "id": 2328561,
+    "texto": "Altera as Leis nº 9.656 de 3 de junho de 1998 e 9.961 de 28 de janeiro de 2000, para determinar que o Rol de Procedimentos e Eventos em Saúde da Agência Nacional de Saúde Suplementar – ANS, não possa ser interpretado como taxativo.",
+    "codteor": "2187208",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   },
+   {
+    "sigla": "PL 1666/2022",
+    "tipo": "Projeto de Lei",
+    "data": "14/06/2022",
+    "id": 2328942,
+    "texto": "Altera as Leis nº 9.656 de 3 de junho de 1998 e nº 9.961 de 28 de janeiro de 2000, para determinar que o Rol de Procedimentos e Eventos em Saúde da Agência Nacional de Saúde Suplementar – ANS, seja uma lista exemplificativa.",
+    "codteor": "2187792",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   },
+   {
+    "sigla": "PL 1720/2022",
+    "tipo": "Projeto de Lei",
+    "data": "21/06/2022",
+    "id": 2329733,
+    "texto": "Altera a Lei n° 9.656, de 3 de junho de 1998, que dispõe sobre os planos e seguros privados de assistência à saúde; e a Lei nº 9.961, de 28 de janeiro de 2000, que cria a Agência Nacional de Saúde Suplementar – ANS, para estabelecer que o rol de procedimentos e eventos em saúde tem natureza exemplificativa.",
+    "codteor": "2189760",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1105/2022",
+      "tipo": "Requerimento de Desapensação",
+      "data": "27/06/2022",
+      "id": 2330266,
+      "texto": "Requer a desapensação de vários projetos de lei ao PL 7419/2006.",
+      "codteor": "2191542"
+     },
+     {
+      "sigla": "REQ 1105/2022 (id 2330266)",
+      "tipo": "Requerimento de Desapensação",
+      "data": "27/06/2022",
+      "id": 2330266,
+      "texto": "Requer a desapensação de vários projetos de lei ao PL 7419/2006.",
+      "codteor": "2191542"
+     },
+     {
+      "sigla": "REQ 1105/2022 (id 2330266)",
+      "tipo": "Requerimento de Desapensação",
+      "data": "27/06/2022",
+      "id": 2330266,
+      "texto": "Requer a desapensação de vários projetos de lei ao PL 7419/2006.",
+      "codteor": "2191542"
+     },
+     {
+      "sigla": "REQ 1105/2022 (id 2330266)",
+      "tipo": "Requerimento de Desapensação",
+      "data": "27/06/2022",
+      "id": 2330266,
+      "texto": "Requer a desapensação de vários projetos de lei ao PL 7419/2006.",
+      "codteor": "2191542"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1611/2022",
+     "tipo": "Texto original",
+     "codteor": "2185091"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1105/2022",
+    "REQ 1105/2022 (id 2330266)",
+    "REQ 1105/2022 (id 2330266)",
+    "REQ 1105/2022 (id 2330266)"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 20/06/2022",
+     "tipo": "Despacho",
+     "data": "20/06/2022",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-1573/2022. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Urgência (Art. 155, RICD)",
+     "codteor": "2185853"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2256634,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.596/2020",
+  "ementa": "Altera a Lei nº 13.869, de 2019, para estabelecer novas hipóteses de crime de abuso de autoridade no que diz respeito à atuação de magistrados nas redes sociais ou em qualquer outro meio de comunicação.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1909447",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "01/07/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   }
+  ],
+  "apresentacao": "2020-07-01",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Justiça",
+   "Direito Penal e Processual Penal",
+   "Política, Partidos e Eleições"
+  ],
+  "keywords": "Alteração, Lei do Abuso de Autoridade (2019), abuso de autoridade, manifestação, magistrado, opinião, processo judicial, pendência, julgamento, rede social, mídia, detenção, multa. _Abuso de autoridade, Magistrado, manifestação, opinião, atividade político-partidária, crítica, candidato a cargo eletivo, rede social, mídia, detenção, multa."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · 7 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2020-12-09",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CCJC"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-07-01",
+   "fim": "2020-12-09",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1909716",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2020-12-09",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-07-01T19:54",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 3596/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA) e outros, que \"Altera a Lei nº 13.869, de 2019, para estabelecer novas hipóteses de crime de abuso de autoridade no que diz respeito à atuação de magistrados nas redes sociais ou em qualquer outro meio de comunicação\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1909448",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-12-07T15:42",
+     "titulo": "Distribuição",
+     "texto": "À Comissão de Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1909716",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2020-12-09T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 10/12/20 PÅG 366. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1970801",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-02-10T13:20",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CCJC",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3596/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 01/07/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 13.869, de 2019, para estabelecer novas hipóteses de crime de abuso de autoridade no que diz respeito à atuação de magistrados nas redes sociais ou em qualquer outro meio de comunicação.",
+   "id": 2256634,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1909447"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3596/2020",
+     "tipo": "Texto original",
+     "codteor": "1909447"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 07/12/2020",
+     "tipo": "Despacho",
+     "data": "07/12/2020",
+     "autor": "MESA",
+     "texto": "À Comissão de Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1909716"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

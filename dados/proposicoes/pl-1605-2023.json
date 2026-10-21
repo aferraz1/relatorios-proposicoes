@@ -1,0 +1,248 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2354896,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.605/2023",
+  "ementa": "Altera a Lei nº 8.742, de 07 de dezembro de 1993, para estabelecer que, a mãe de filho com deficiência que recebe o Benefício de Prestação Continuada (BPC), em caso de falecimento desse filho, tenha direito ao recebimento do benefício, de maneira imediata e contínua.",
+  "explicacao": "Tramita em conjunto com o PL 2.782/2021, à qual está apensada.",
+  "codteor_inteiro_teor": "2255105",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "04/04/2023"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 2.782/2021"
+   }
+  ],
+  "apresentacao": "2023-04-04",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Previdência e Assistência Social"
+  ],
+  "keywords": "Alteração, Lei Orgânica da Assistência Social, critério, continuidade, pagamento, Benefício de Prestação Continuada (BPC), mãe, falecimento, filho, pessoa com deficiência, beneficiário."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2024-12-05",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2023-04-04",
+   "fim": "2023-05-17",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Previdência, Assis. Social, Infância, Adolescência e Família",
+   "papel": "Mérito",
+   "inicio": "2023-05-17",
+   "fim": "2024-10-22",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito",
+   "inicio": "2024-12-05",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-04-04T13:30",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1605/2023, pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Altera a Lei nº 8.742, de 07 de dezembro de 1993, para estabelecer que, a mãe de filho com deficiência que recebe o Benefício de Prestação Continuada (BPC), em caso de falecimento desse filho, tenha direito ao recebimento do benefício, de maneira imediata e contínua\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2255105",
+      "nome": "Inteiro teor · PL 1605/2023",
+      "id": 2354896
+     }
+    },
+    {
+     "data_hora": "2023-05-16T16:46",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-2782/2021. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2272609",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+   "eventos": [
+    {
+     "data_hora": "2023-05-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/05/2023. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-05-18T10:07",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CPASF.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-03-12T00:00",
+     "titulo": "Notificações",
+     "texto": "Designada Relatora, Dep. Flávia Morais (PDT-GO), para o PL 4764/2020, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-10-22T00:00",
+     "titulo": "Notificações",
+     "texto": "Devolvida à Relatora, Dep. Flávia Morais (PDT-GO), em virtude da apensação do PL 3649/2024., para o PL 4764/2020, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T17:54",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, apensado ao PL-2782/2021",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 2.782/2021",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1605/2023",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 04/04/2023",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 8.742, de 07 de dezembro de 1993, para estabelecer que, a mãe de filho com deficiência que recebe o Benefício de Prestação Continuada (BPC), em caso de falecimento desse filho, tenha direito ao recebimento do benefício, de maneira imediata e contínua.",
+   "id": 2354896,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "2255105"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1605/2023",
+     "tipo": "Texto original",
+     "codteor": "2255105"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 16/05/2023",
+     "tipo": "Despacho",
+     "data": "16/05/2023",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-2782/2021. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2272609"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

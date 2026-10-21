@@ -1,0 +1,290 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2241964,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PLP 48/2020",
+  "ementa": "Institui o mecanismo de leilão reverso para a destinação de recursos adicionais às Instituições Financeiras para realização de renegociação de dívidas com clientes PJ e PF.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1870360",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "25/03/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   }
+  ],
+  "apresentacao": "2020-03-25",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Economia",
+   "Finanças Públicas e Orçamento"
+  ],
+  "keywords": "Leilão reverso, Banco Central do Brasil (Bacen), Fundo Garantidor de Crédito (FGC), adicional, recursos financeiros, instituição financeira, negociação, crédito, pessoa física, pessoa jurídica."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2020-10-22",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CFT"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-03-25",
+   "fim": "2020-03-25",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1879410",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2020-10-22",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-03-25",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CFT",
+  "relator": {
+   "id": 198783,
+   "nome": "Dep. Emanuel Pinheiro Neto",
+   "descricao": "Deputado Federal · PSD/MT",
+   "rotulo": "RELATOR(A) · CFT"
+  },
+  "resumo_inicio": "Designação em 08/12/2021.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-03-25T12:48",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei Complementar n. 48/2020, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Institui o mecanismo de leilão reverso para a destinação de recursos adicionais às Instituições Financeiras para realização de renegociação de dívidas com clientes PJ e PF\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1870360",
+      "nome": "Inteiro teor · PLP 48/2020",
+      "id": 2241964
+     }
+    },
+    {
+     "data_hora": "2020-03-26T00:00",
+     "titulo": "Não Informado",
+     "texto": "Proposição fora da numeração sequencial em razão da implantação eletrônica no Sistema em 26/03/2020 (revisão do Sileg).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-10-22T12:46",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1879410",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2020-10-22T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 23/10/20 PÅG 15. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1941520",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-11-20T11:26",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-12-08T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Júlio Cesar (PSD-PI)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-05-10T17:39",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-10-24T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Emanuel Pinheiro Neto (MDB-MT)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-04-23T23:59",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "O Relator, Dep. Emanuel Pinheiro Neto, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2024-04-24T15:30",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CFT",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PLP 48/2020",
+   "tipo": "Projeto de Lei Complementar",
+   "data": "Apresentado em 25/03/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Institui o mecanismo de leilão reverso para a destinação de recursos adicionais às Instituições Financeiras para realização de renegociação de dívidas com clientes PJ e PF.",
+   "id": 2241964,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1870360"
+  },
+  "descricao_raiz": "Projeto de Lei Complementar · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PLP 48/2020",
+     "tipo": "Texto original",
+     "codteor": "1870360"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 22/10/2020",
+     "tipo": "Despacho",
+     "data": "22/10/2020",
+     "autor": "MESA",
+     "texto": "Às Comissões de Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1879410"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

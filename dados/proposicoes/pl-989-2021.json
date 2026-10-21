@@ -1,0 +1,320 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2274504,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 989/2021",
+  "ementa": "Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1978038",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "19/03/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   }
+  ],
+  "apresentacao": "2021-03-19",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito Penal e Processual Penal",
+   "Saúde"
+  ],
+  "keywords": "Alteração, Código Penal, Periclitação da Vida e da Saúde, tipicidade penal, Deixar de prestar assistência hospitalar, ocultação, existência, leito hospitalar, internação hospitalar, detenção, multa."
+ },
+ "autor": {
+  "id": 75431,
+  "nome": "Dep. Maurício Dziedricki",
+  "descricao": "Deputado Federal · PODE/RS",
+  "rotulo": "AUTOR · 10 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2021-05-05",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CCJC"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-03-19",
+   "fim": "2021-03-19",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1981650",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2021-05-05",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2021-03-19",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-03-19T17:09",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 989/2021, pelo Deputado Maurício Dziedricki (PTB/RS), que \"Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1978038",
+      "nome": "Inteiro teor · PL 989/2021",
+      "id": 2274504
+     }
+    },
+    {
+     "data_hora": "2021-03-25T10:08",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 594/2021, pelo Deputado Maurício Dziedricki (PTB/RS) e outros, que \"Subscrição ao PL 989/2021 - Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1980825",
+      "nome": "Apresentação de Requerimento"
+     }
+    },
+    {
+     "data_hora": "2021-03-25T10:10",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Urgência (Art. 155 do RICD) n. 595/2021, pelo Deputado Maurício Dziedricki (PTB/RS) e outros, que \"PL 989/21 - Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1980826",
+      "nome": "REQ 595/2021",
+      "id": 2275387
+     }
+    },
+    {
+     "data_hora": "2021-03-25T13:48",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 601/2021, pelos Deputados Maurício Dziedricki (PTB/RS) e Nivaldo Albuquerque PTB, que \"Que Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1980950",
+      "nome": "REQ 601/2021",
+      "id": 2275428
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-04-08T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 594/2021, conforme despacho do seguinte teor: \"Defiro. Publique-se\".",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-04-08T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 601/2021, conforme despacho do seguinte teor: \"Defiro. Publique-se\".",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-05-05T12:58",
+     "titulo": "Distribuição",
+     "texto": "À Comissão de Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1981650",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2021-05-05T16:48",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    },
+    {
+     "data_hora": "2021-05-05T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 06/05/20 PÅG 617 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2021716",
+      "nome": "Publicação de Proposição"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CCJC",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 989/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 19/03/2021",
+   "autor": "Dep. Maurício Dziedricki (PODE/RS)",
+   "texto": "Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências.",
+   "id": 2274504,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1978038"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Maurício Dziedricki (PODE/RS)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 594/2021",
+      "tipo": "Requerimento",
+      "data": "25/03/2021",
+      "id": 2275386,
+      "texto": "Subscrição ao PL 989/2021 - Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências.",
+      "codteor": "1980823"
+     },
+     {
+      "sigla": "REQ 595/2021",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "25/03/2021",
+      "id": 2275387,
+      "texto": "Requeremos urgência urgentíssima ao PL 989/21, que Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 Código Penal Brasileiro. Senhor Presidente,",
+      "codteor": "1980826"
+     },
+     {
+      "sigla": "REQ 601/2021",
+      "tipo": "Requerimento",
+      "data": "25/03/2021",
+      "id": 2275428,
+      "texto": "Requer subscrição no PL 989/2021 que Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 - Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências.",
+      "codteor": "1980950"
+     },
+     {
+      "sigla": "REQ 618/2021",
+      "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+      "data": "29/03/2021",
+      "id": 2275745,
+      "texto": "Requer a inclusão na Ordem do Dia do Requerimento de Urgência (Art. 155 do RICD) nº. 595, de 2021, para apreciação do Projeto de Lei nº 989/2021.",
+      "codteor": "1982097"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 989/2021",
+     "tipo": "Texto original",
+     "codteor": "1978038"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 594/2021",
+    "REQ 595/2021",
+    "REQ 601/2021",
+    "REQ 618/2021"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 05/05/2021",
+     "tipo": "Despacho",
+     "data": "05/05/2021",
+     "autor": "MESA",
+     "texto": "À Comissão de Constituição e Justiça e de Cidadania (Mérito e Art. 54, RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1981650"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

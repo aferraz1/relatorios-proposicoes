@@ -1,0 +1,223 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2287380,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.219/2021",
+  "ementa": "Dispõe sobre o custeio das despesas com o resgate e o tratamento de animal submetido a maus-tratos.",
+  "explicacao": "Tramita em conjunto com o PL 4.029/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "2029807",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "17/06/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 4.029/2019"
+   }
+  ],
+  "apresentacao": "2021-06-17",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Meio Ambiente e Desenvolvimento Sustentável"
+  ],
+  "keywords": "Alteração, Lei dos Crimes Ambientais, custeio, despesa, regate, tratamento, animal, submissão, maus-tratos, responsabilidade, agente, prática abusiva."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Notificações",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "CICS",
+  "orgao_nome": "Comissão de Indústria, Comércio e Serviços",
+  "desde": "2021-07-01",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-06-17",
+   "fim": "2021-07-01",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CICS",
+   "nome": "Indústria, Comércio e Serviços",
+   "papel": "Mérito",
+   "inicio": "2021-07-01",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-06-17T11:05",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2219/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Dispõe sobre o custeio das despesas com o resgate e o tratamento de animal submetido a maus-tratos\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2029808",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-06-30T16:15",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-4029/2019. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2030405",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CICS",
+   "nome": "Comissão de Indústria, Comércio e Serviços",
+   "eventos": [
+    {
+     "data_hora": "2021-07-01T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 02/07/21 PAG 450 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2049582",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2024-05-09T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Josenildo (PDT-AP), para o PL 11210/2018, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 4.029/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CICS",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2219/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 17/06/2021",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Dispõe sobre o custeio das despesas com o resgate e o tratamento de animal submetido a maus-tratos.",
+   "id": 2287380,
+   "situacao": "NOTIFICAÇÕES",
+   "codteor": "2029807"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2219/2021",
+     "tipo": "Texto original",
+     "codteor": "2029807"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 30/06/2021",
+     "tipo": "Despacho",
+     "data": "30/06/2021",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-4029/2019. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "2030405"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

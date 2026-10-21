@@ -1,0 +1,1137 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2287383,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.220/2021",
+  "ementa": "Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2029816",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "17/06/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   }
+  ],
+  "apresentacao": "2021-06-17",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Saúde"
+  ],
+  "keywords": "Alteração, lei federal, violência contra a mulher, garantia, vítima, prioridade, exame toxicológico, intoxicação involuntária, abuso sexual."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Apreciação pelo Senado Federal",
+  "estado": "NO SENADO",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2024-12-05",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-06-17",
+   "fim": "2021-07-01",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2031934",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "inicio": "2021-07-01",
+   "fim": "2022-06-02",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2169958",
+    "nome": "PARECER APROVADO",
+    "id": 2323120
+   }
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2022-06-02",
+   "fim": "2023-10-25",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2339201",
+    "nome": "PARECER APROVADO",
+    "id": 2392970
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "inicio": "2023-10-25",
+   "fim": "2024-12-05",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2024-12-05",
+   "fim": "2024-12-05",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "inicio": "2024-12-13",
+   "fim": "2024-12-13",
+   "estado": "concluido"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "PLEN",
+  "relator": {
+   "id": 107970,
+   "nome": "Dep. Ana Paula Leão",
+   "descricao": "Deputada Federal · PP/MG",
+   "rotulo": "RELATOR(A) · PLEN"
+  },
+  "resumo_inicio": "Designação em 05/12/2024.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-06-17T11:05",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2220/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência. \".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2029817",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-06-30T16:15",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Seguridade Social e Família e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2031934",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2021-07-01T13:10",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMULHER.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-07-01T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 02/07/21 PAG 454 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2049583",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-08-20T11:44",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Flávia Morais (PDT-GO)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-08-20T11:53",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 24/08/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-01T21:39",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 23/08/2021 a 01/09/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-05-02T17:19",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CMULHER, pela Deputada Flávia Morais (PDT/GO).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2163453",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2022-05-02T17:19",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da relatora, Dep. Flávia Morais (PDT-GO), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2163451",
+      "nome": "PRL 1 CMULHER",
+      "id": 2321283
+     }
+    },
+    {
+     "data_hora": "2022-05-11T13:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência da Relatora.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-05-11T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvida à Relatora, Dep. Flávia Morais, para reexame.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-05-13T15:56",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 2 CMULHER, pela Deputada Flávia Morais (PDT/GO).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2169960",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2022-05-13T15:56",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Flávia Morais (PDT-GO), pela aprovação, com Substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2169958",
+      "nome": "PRL 2 CMULHER",
+      "id": 2323120
+     }
+    },
+    {
+     "data_hora": "2022-05-13T19:02",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 17/05/2022)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-05-25T23:39",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 16/05/2022 a 25/05/2022). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-01T14:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pela Relatora.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-01T14:00",
+     "titulo": "Discussão (Inicio e Continuacao)",
+     "texto": "Iniciada a Discussão",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-01T14:00",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiram a Matéria: Dep. Delegado Antônio Furtado (UNIÃO-RJ) e Dep. Carmen Zanotto (CIDADANIA-SC).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-01T14:00",
+     "titulo": "Encerramento de Discussão",
+     "texto": "Encerrada Discussão",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-01T14:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    },
+    {
+     "data_hora": "2022-06-02T11:18",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação do Parecer de Comissão n. 1 CMULHER, pela DIREITOS DA MULHER.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2180474",
+      "nome": "Recebimento - Redação Final"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2022-06-02T11:34",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-02T11:44",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-02T14:49",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Eduardo Costa (PSD-PA)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-06-02T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Mulher Publicado em avulso e no DCD de 03/06/2022, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-02T14:50",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 06/06/2022)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-14T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 03/06/2022 a 14/06/2022). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-07-07T11:21",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CSSF, pelo Deputado Eduardo Costa (PSD/PA).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2195969",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2022-07-07T11:21",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Eduardo Costa (PSD-PA), pela aprovação, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2195968",
+      "nome": "PRL 1 CSAUDE",
+      "id": 2331755
+     }
+    },
+    {
+     "data_hora": "2022-07-07T12:32",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 11/07/2022)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-08-02T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 08/07/2022 a 02/08/2022). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-11-23T09:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, a requerimento dos Deputados Alexandre Padilha e Vivi Reis.",
+     "tipo": "alerta",
+     "etiqueta": "2ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-11-30T09:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, a requerimento dos Deputados Alexandre Padilha e Vivi Reis.",
+     "tipo": "alerta",
+     "etiqueta": "3ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-12-07T09:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, a requerimento da Deputada Vivi Reis.",
+     "tipo": "alerta",
+     "etiqueta": "4ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Com Parecer Apresentado",
+     "texto": "(Fim de Legislatura) O Relator, Dep. Eduardo Costa, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2023-06-21T11:13",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Dr. Benjamim (UNIÃO-MA)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-06-21T11:14",
+     "titulo": "Abertura de Prazo",
+     "texto": "Reabertura do Prazo para Emendas ao Projeto - Art. 166 do RICD (5 sessões a partir de 23/06/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-07-07T18:51",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 22/06/2023 a 07/07/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-24T12:41",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 2 CSAUDE (Parecer do Relator), pelo Deputado Dr. Benjamim (UNIÃO/MA).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2318332",
+      "nome": "PRL 2 CSAUDE",
+      "id": 2382754
+     }
+    },
+    {
+     "data_hora": "2023-08-24T12:41",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Dr. Benjamim (UNIÃO-MA), pela aprovação, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2318332",
+      "nome": "PRL 2 CSAUDE",
+      "id": 2382754
+     }
+    },
+    {
+     "data_hora": "2023-08-25T09:12",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 29/08/2023).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-09-05T21:26",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 28/08/2023 a 05/09/2023). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-09-13T09:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, a requerimento da Deputada Ana Pimentel.",
+     "tipo": "alerta",
+     "etiqueta": "5ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-10-03T20:08",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 3 CSAUDE (Parecer do Relator), pelo Deputado Dr. Benjamim (UNIÃO/MA).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2339201",
+      "nome": "PRL 3 CSAUDE",
+      "id": 2392970
+     }
+    },
+    {
+     "data_hora": "2023-10-03T20:08",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Dr. Benjamim (UNIÃO-MA), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2339201",
+      "nome": "PRL 3 CSAUDE",
+      "id": 2392970
+     }
+    },
+    {
+     "data_hora": "2023-10-25T09:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pelo Relator.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-10-25T09:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2023-10-25T14:58",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-10-25T16:56",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-10-26T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Saúde Publicado em avulso e no DCD de 27/10/2023, Letra B. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-08-27T20:59",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Átila Lira (PP-PI)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-08-27T20:59",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 29/08/2024)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-09-10T23:59",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "O Relator, Dep. Átila Lira, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2024-09-12T11:04",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 28/08/2024 12:00:00 a 12/09/2024). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-12-04T19:22",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 4751/2024 (Requerimento de Urgência (Art. 155 do RICD)), pela Deputada Soraya Santos (PL/RJ) e outros, que \"Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 2220/2021\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2834009",
+      "nome": "REQ 4751/2024",
+      "id": 2476024
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Ana Paula Leão (PP-MG)",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T10:30",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRLP n. 1 PLEN (Parecer Preliminar de Plenário), pela Deputada Ana Paula Leão (PP/MG).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2834622",
+      "nome": "PPP 1",
+      "id": 2476379
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Aprovado o requerimento nº 4751/2024,da Sra. Soraya Santos, que solicita urgência (art. 155) para o PL 2220/2021.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4751/2024.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Discussão (Plenário)",
+     "texto": "Discussão em turno único.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer proferido em Plenário pela Relatora, Dep. Ana Paula Leão (PP-MG) pela:• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 2.220, de 2021, na forma das Emendas apresentadas, e do Substitutivo da Comissão de Defesa dos Direitos da Mulher, na forma das Subemendas apresentadas.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2834622",
+      "nome": "PPP 1",
+      "id": 2476379
+     }
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Encerramento de Discussão",
+     "texto": "Encerrada a discussão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação em turno único.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovado o Substitutivo ao Projeto de Lei nº 2.220, de 2021, da Comissão de Defesa dos Direitos da Mulher.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Prejudicialidade (Plenário)",
+     "texto": "Em consequência, ficam prejudicadas a proposição inicial e as emendas apresentadas.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação das Subemendas 1 e 2 ao Substitutivo do Projeto de Lei nº 2.220, de 2021, oferecidas pela relatora da Comissão de Constituição e Justiça e de Cidadania.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovadas as Subemendas 1 e 2.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação da Redação Final.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovada a Redação Final assinada pela relatora, Ana Paula Leão (PP/MG).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-12-05T09:00",
+     "titulo": "Encaminhamento (Plenário)",
+     "texto": "A Matéria vai ao Senado Federal (PL 2.220-C/2021).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T00:00",
+     "titulo": "Notificação de Encaminhamento Fora de Fluxo",
+     "texto": "Realizar o Encaminhamento para CCP - COORDENAÇÃO DE COMISSÕES PERMANENTES",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-05T00:00",
+     "titulo": "Encaminhamento",
+     "texto": "Encaminhado à(ao) CCP através da guia de Remessa (GR/CCJC) nº 249/2024.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T00:00",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação da RDF n. 1 PLEN (Redação Final), pela Deputada Ana Paula Leão (PP/MG).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2839368",
+      "nome": "RDF 1",
+      "id": 2478777
+     }
+    },
+    {
+     "data_hora": "2024-12-06T00:00",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCP. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-13T00:00",
+     "titulo": "Expedição de Documento",
+     "texto": "Apresentação do Autógrafo.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2841342",
+      "nome": "Expedição de Documento"
+     }
+    },
+    {
+     "data_hora": "2024-12-13T00:00",
+     "titulo": "Expedição de Documento",
+     "texto": "Remessa ao Senado Federal por meio do Of. nº 196/2024/SGM-P.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "2841343",
+      "nome": "Expedição de Documento"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Apreciação pelo Senado Federal",
+   "descricao": "A proposição está na Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2220/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 17/06/2021",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.",
+   "id": 2287383,
+   "situacao": "AGUARDANDO APRECIAÇÃO PELO SENADO FEDERAL",
+   "codteor": "2029816"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "02/05/2022",
+      "id": 2321283,
+      "texto": "Parecer da relatora, Dep. Flávia Morais (PDT-GO), pela aprovação.",
+      "codteor": "2163451"
+     },
+     {
+      "sigla": "PRL 2 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "13/05/2022",
+      "id": 2323120,
+      "texto": "Parecer da Relatora, Dep. Flávia Morais (PDT-GO), pela aprovação, com Substitutivo.",
+      "codteor": "2169958"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "13/05/2022",
+      "id": 2323121,
+      "codteor": "2169958"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "02/06/2022",
+      "id": 2325863,
+      "texto": "Parecer da Comissão de Defesa dos Direitos da Mulher ao Projeto de Lei 2220/2021.",
+      "codteor": "2180472"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "02/06/2022",
+      "id": 2325864,
+      "texto": "Substitutivo adotado pela Comissão de Defesa dos Direitos da Mulher ao Projeto de Lei 2220/2021.",
+      "codteor": "2180475"
+     },
+     {
+      "sigla": "PRL 1 CSAUDE",
+      "tipo": "Parecer do Relator",
+      "data": "07/07/2022",
+      "id": 2331755,
+      "texto": "Parecer do Relator, Dep. Eduardo Costa (PSD-PA), pela aprovação, com substitutivo.",
+      "codteor": "2195968"
+     },
+     {
+      "sigla": "SBT 1 (id 2331783)",
+      "tipo": "Substitutivo",
+      "data": "07/07/2022",
+      "id": 2331783,
+      "texto": "Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.",
+      "codteor": "2195968"
+     },
+     {
+      "sigla": "PRL 2 CSAUDE",
+      "tipo": "Parecer do Relator",
+      "data": "24/08/2023",
+      "id": 2382754,
+      "texto": "Parecer do Relator, Dep. Dr. Benjamim (UNIÃO-MA), pela aprovação, com substitutivo.",
+      "codteor": "2318332"
+     },
+     {
+      "sigla": "SBT 2",
+      "tipo": "Substitutivo",
+      "data": "25/08/2023",
+      "id": 2382755,
+      "codteor": "2318332"
+     },
+     {
+      "sigla": "PRL 3 CSAUDE",
+      "tipo": "Parecer do Relator",
+      "data": "03/10/2023",
+      "id": 2392970,
+      "texto": "Parecer do Relator, Dep. Dr. Benjamim (UNIÃO-MA), pela aprovação.",
+      "codteor": "2339201"
+     },
+     {
+      "sigla": "PAR 1 (id 2399139)",
+      "tipo": "Parecer de Comissão",
+      "data": "25/10/2023",
+      "id": 2399139,
+      "texto": "Aprovado o Parecer. Parecer do Relator, Dep. Dr. Benjamim (UNIÃO-MA), pela aprovação.",
+      "codteor": "2350086"
+     },
+     {
+      "sigla": "PPP 1",
+      "tipo": "Parecer Proferido em Plenário",
+      "data": "05/12/2024",
+      "id": 2476379,
+      "texto": "Parecer proferido em Plenário pela Relatora, Dep. Ana Paula Leão (PP-MG) pela: • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 2.220, de 2021, na forma das Emendas apresentadas, e do Substitutivo da Comissão de Defesa dos Direitos da Mulher, na forma das Subemendas apresentadas.",
+      "codteor": "2834622"
+     },
+     {
+      "sigla": "PRLP 1",
+      "tipo": "Parecer Preliminar de Plenário",
+      "data": "05/12/2024",
+      "id": 2476297,
+      "texto": "Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.",
+      "codteor": "2834622"
+     },
+     {
+      "sigla": "SBE 1",
+      "tipo": "Subemenda",
+      "data": "05/12/2024",
+      "id": 2476514,
+      "texto": "Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.",
+      "codteor": "2835146"
+     },
+     {
+      "sigla": "SBE 2",
+      "tipo": "Subemenda",
+      "data": "05/12/2024",
+      "id": 2476515,
+      "texto": "Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.",
+      "codteor": "2835147"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 4751/2024",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "04/12/2024",
+      "id": 2476024,
+      "texto": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 2220/2021.",
+      "codteor": "2834009"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 3",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "23/11/2022",
+      "id": 2339237,
+      "texto": "Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2217266"
+     },
+     {
+      "sigla": "RPD 4",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "23/11/2022",
+      "id": 2339240,
+      "texto": "Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2217269"
+     },
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "23/11/2022",
+      "id": 2339191,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2217218"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "23/11/2022",
+      "id": 2339227,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2217255"
+     },
+     {
+      "sigla": "RPD 5",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "30/11/2022",
+      "id": 2340069,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2219134"
+     },
+     {
+      "sigla": "RPD 6",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "30/11/2022",
+      "id": 2340132,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2219197"
+     },
+     {
+      "sigla": "RPD 7",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "07/12/2022",
+      "id": 2341299,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2221470"
+     },
+     {
+      "sigla": "RPD 8",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "14/12/2022",
+      "id": 2342566,
+      "texto": "Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2223815"
+     },
+     {
+      "sigla": "RPD 9",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "13/09/2023",
+      "id": 2387084,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2327027"
+     },
+     {
+      "sigla": "RPD 10",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "04/10/2023",
+      "id": 2393006,
+      "texto": "Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2339320"
+     },
+     {
+      "sigla": "RPD 11",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "18/10/2023",
+      "id": 2396658,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2345963"
+     },
+     {
+      "sigla": "RPD 14",
+      "tipo": "Requerimento de Votação pelo Processo Nominal",
+      "data": "18/10/2023",
+      "id": 2396848,
+      "texto": "Requerimento de Votação Nominal-Requerimento de Retirada de Matéria da Pauta - PL 2220/2021",
+      "codteor": "2346155"
+     },
+     {
+      "sigla": "RPD 13",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "18/10/2023",
+      "id": 2396714,
+      "texto": "Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2346019"
+     },
+     {
+      "sigla": "RPD 15",
+      "tipo": "Requerimento de Votação pelo Processo Nominal",
+      "data": "18/10/2023",
+      "id": 2396875,
+      "texto": "Requerimento de Votação Nominal-Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2346184"
+     },
+     {
+      "sigla": "RPD 12",
+      "tipo": "Requerimento de Adiamento da Votação",
+      "data": "18/10/2023",
+      "id": 2396705,
+      "texto": "Requerimento de Adiamento da Votação - PL 2220/2021",
+      "codteor": "2346010"
+     },
+     {
+      "sigla": "RPD 16",
+      "tipo": "Requerimento de Votação pelo Processo Nominal",
+      "data": "18/10/2023",
+      "id": 2396926,
+      "texto": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2220/2021",
+      "codteor": "2346235"
+     },
+     {
+      "sigla": "RPD 17",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "25/10/2023",
+      "id": 2398763,
+      "texto": "Requerimento de Inversão da Pauta - PL 2220/2021",
+      "codteor": "2349434"
+     }
+    ]
+   },
+   {
+    "rotulo": "REDAÇÃO FINAL E AUTÓGRAFOS",
+    "plural": "documentos de redação final e autógrafos",
+    "itens": [
+     {
+      "sigla": "RDF 1",
+      "tipo": "Redação Final",
+      "data": "05/12/2024",
+      "id": 2478777,
+      "texto": "Altera a Lei nº 10.778, de 24 de novembro de 2003, a fim de estabelecer prioridade à mulher vítima de violência para a realização de exames toxicológicos.",
+      "codteor": "2839368"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2220/2021",
+     "tipo": "Texto original",
+     "codteor": "2029816"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 4751/2024"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CMULHER",
+    "PRL 2 CMULHER",
+    "SBT 1",
+    "PAR 1",
+    "SBT-A 1",
+    "PRL 1 CSAUDE",
+    "SBT 1 (id 2331783)",
+    "PRL 2 CSAUDE",
+    "SBT 2",
+    "PRL 3 CSAUDE",
+    "PAR 1 (id 2399139)",
+    "PPP 1",
+    "PRLP 1",
+    "SBE 1",
+    "SBE 2"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 30/06/2021",
+     "tipo": "Despacho",
+     "data": "30/06/2021",
+     "autor": "MESA",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Seguridade Social e Família e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "2031934"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [
+    "RDF 1"
+   ],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

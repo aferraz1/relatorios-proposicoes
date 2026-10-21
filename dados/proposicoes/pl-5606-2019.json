@@ -1,0 +1,703 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2226261,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 5.606/2019",
+  "ementa": "Altera a Lei nº 12.527, de 18 de novembro de 2011, para vedar a divulgação de dados profissionais de mulheres vítimas de violência doméstica.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1824251",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "22/10/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2019-10-22",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 1,
+  "temas": [
+   "Administração Pública",
+   "Direitos Humanos e Minorias"
+  ],
+  "keywords": "Alteração, Lei de Acesso à Informação, proibição, divulgação, internet, dados, remuneração, lotação, servidor público, empregado público, mulher, medida protetiva, vítima, violência doméstica, violência contra a mulher."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2026-03-27",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CCJC"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-10-22",
+   "fim": "2019-10-30",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2245628",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "inicio": "2019-10-30",
+   "fim": "2022-07-01",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2178458",
+    "nome": "PARECER APROVADO",
+    "id": 2325347
+   }
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2022-07-01",
+   "fim": "2023-03-23",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Administração e Serviço Público",
+   "papel": "Mérito",
+   "inicio": "2023-03-23",
+   "fim": "2026-02-24",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "3056083",
+    "nome": "PARECER APROVADO",
+    "id": 2590127
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito",
+   "inicio": "2026-03-27",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CASP",
+  "relator": {
+   "id": 204535,
+   "nome": "Dep. Sâmia Bomfim",
+   "descricao": "Deputada Federal · PSOL/SP",
+   "rotulo": "RELATOR(A) · CASP"
+  },
+  "resumo_inicio": "Designação em 23/04/2024. Apresentou uma versão de parecer:",
+  "resumo_fim": "O último parecer foi aprovado na comissão.",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CASP",
+    "data": "01/12/2025 · aprovado",
+    "codteor": "3056083",
+    "aprovado": true,
+    "id": 2590127
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-10-22T16:28",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 5606/2019, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Altera a Lei nº 12.527, de 18 de novembro de 2011, para vedar a divulgação de dados profissionais de mulheres vítimas de violência doméstica\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1824252",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-30T13:54",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Trabalho, de Administração e Serviço Público e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1826725",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2019-10-30T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 31/10/19 PÁG 415 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1853446",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-31T16:50",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMULHER.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-11-08T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Luisa Canziani (PTB-PR)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-11-11T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 12/11/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-11-26T21:15",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 11/11/2019 a 26/11/2019). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-12-05T18:25",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CMULHER, pela Deputada Luisa Canziani (PTB-PR).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1842712",
+      "nome": "PRL 1 CMULHER",
+      "id": 2232478
+     }
+    },
+    {
+     "data_hora": "2019-12-05T18:25",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da relatora, Dep. Luisa Canziani, pela aprovação, com emenda.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1842712",
+      "nome": "PRL 1 CMULHER",
+      "id": 2232478
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-12-14T13:25",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-3988/2020.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1917991",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2021-03-11T09:00",
+     "titulo": "Saída de Relator(a) da Comissão - Com Parecer Apresentado",
+     "texto": "(Instalação da Comissão) A Relatora, Dep. Luisa Canziani, não integrava a Comissão na data da instalação (deixou de ser membro em 03/02/2020)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-03-24T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Celina Leão (PP-DF)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-04-27T15:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) A Relatora, Dep. Celina Leão, não integrava a Comissão na data da instalação (deixou de ser membro em 02/02/2022)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-05-09T00:00",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pela Relatora sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-05-25T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Delegado Antônio Furtado (UNIÃO-RJ)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-05-31T11:22",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 2 CMULHER, pelo Deputado Delegado Antônio Furtado (UNIÃO/RJ).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2178460",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2022-05-31T11:22",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Delegado Antônio Furtado, pela aprovação do Projeto de Lei 5606/2019 e do PL 3988/2020, apensado, com Substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2178458",
+      "nome": "PRL 2 CMULHER",
+      "id": 2325347
+     }
+    },
+    {
+     "data_hora": "2022-06-01T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 02/06/2022)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-13T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 01/06/2022 a 13/06/2022). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-21T10:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, por solicitação do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-06-29T13:30",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pelo Relator",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-29T13:30",
+     "titulo": "Discussão (Inicio e Continuacao)",
+     "texto": "Iniciada a Discussão",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-29T13:30",
+     "titulo": "Encerramento de Discussão",
+     "texto": "Encerrada Discussão",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-06-29T13:30",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    },
+    {
+     "data_hora": "2022-07-01T09:49",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação do Parecer de Comissão n. 1 CMULHER, pela Comissão de Defesa dos Direitos da Mulher.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2193903",
+      "nome": "Recebimento - Redação Final"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2022-07-01T10:16",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-07-01T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Mulher Publicado em avulso e no DCD de 02/07/2022, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-07-04T10:31",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP, com a proposição PL-3988/2020 apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-03-17T17:00",
+     "titulo": "Distribuição",
+     "texto": "Decisão da Presidência de 17/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição.\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.\".",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2245628",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2023-03-23T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolvido à CCP, conforme solicitado no Memo. 009/2023 - COPER.",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Comissão de Administração e Serviço Público",
+   "eventos": [
+    {
+     "data_hora": "2023-03-23T17:07",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CASP, com a proposição PL-3988/2020 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-04-23T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Sâmia Bomfim (PSOL-SP)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-04-24T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 25/04/2024)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-05-15T21:06",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 24/04/2024 a 15/05/2024). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-12-01T12:09",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CASP (Parecer do Relator), pela Deputada Sâmia Bomfim (PSOL/SP -Fdr PSOL-REDE).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3056083",
+      "nome": "PRL 1 CASP",
+      "id": 2590127
+     }
+    },
+    {
+     "data_hora": "2025-12-01T12:09",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Sâmia Bomfim (PSOL-SP), pela aprovação do PL nº 5.606/2019 e do PL nº 3.988/2020, no forma do Substitutivo adotado pela Comissão dos Direitos da Mulher, com Subemenda Substitutiva.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3056083",
+      "nome": "PRL 1 CASP",
+      "id": 2590127
+     }
+    },
+    {
+     "data_hora": "2026-02-24T14:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pela Relatora.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-02-24T14:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2026-03-27T17:04",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC, com a proposição PL-3988/2020 apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    },
+    {
+     "data_hora": "2026-03-30T08:48",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-03-31T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Administração e Serviço Público Publicado em avulso e no DCD de 01/04/2026, Letra B. (CCP)",
+     "tipo": "rotina"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CCJC",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 5606/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 22/10/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 12.527, de 18 de novembro de 2011, para vedar a divulgação de dados profissionais de mulheres vítimas de violência doméstica.",
+   "id": 2226261,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1824251"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 3988/2020",
+    "tipo": "Projeto de Lei",
+    "data": "29/07/2020",
+    "id": 2258885,
+    "texto": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, e a Lei nº 12.527, de 18 de novembro de 2011 – Lei de acesso à informação, para garantir o sigilo das informações divulgadas no Portal da Transparência ou nos sítios oficiais dos órgãos e entidades da administração direta e indireta e dá outras providências.",
+    "codteor": "1917412",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "05/12/2019",
+      "id": 2232478,
+      "texto": "Parecer da relatora, Dep. Luisa Canziani, pela aprovação, com emenda.",
+      "codteor": "1842712"
+     },
+     {
+      "sigla": "PRL 2 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "31/05/2022",
+      "id": 2325347,
+      "texto": "Parecer do Relator, Dep. Delegado Antônio Furtado, pela aprovação do Projeto de Lei 5606/2019 e do PL 3988/2020, apensado, com Substitutivo.",
+      "codteor": "2178458"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "31/05/2022",
+      "id": 2325354,
+      "codteor": "2178458"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "01/07/2022",
+      "id": 2331056,
+      "texto": "Parecer da Comissão de Defesa dos Direitos da Mulher ao Projeto de Lei nº 5606/2019.",
+      "codteor": "2193902"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "01/07/2022",
+      "id": 2331057,
+      "texto": "Substitutivo adotado pela Comissão de Defesa dos Direitos da Mulher ao Projeto de Lei nº 5.606/2019.",
+      "codteor": "2193909"
+     },
+     {
+      "sigla": "PRL 1 CASP",
+      "tipo": "Parecer do Relator",
+      "data": "01/12/2025",
+      "id": 2590127,
+      "texto": "Parecer da Relatora, Dep. Sâmia Bomfim (PSOL-SP), pela aprovação do PL nº 5.606/2019 e do PL nº 3.988/2020, no forma do Substitutivo adotado pela Comissão dos Direitos da Mulher, com Subemenda Substitutiva.",
+      "codteor": "3056083"
+     },
+     {
+      "sigla": "PAR 1 CASP",
+      "tipo": "Parecer de Comissão",
+      "data": "27/03/2026",
+      "id": 2612597,
+      "texto": "Parecer da Comissão (CASP) ao PL 5606/2019",
+      "codteor": "3106352"
+     },
+     {
+      "sigla": "SBR 1",
+      "tipo": "Subemenda de Relator",
+      "data": "30/03/2026",
+      "id": 2612697,
+      "codteor": "3056083"
+     },
+     {
+      "sigla": "SBE-A 1",
+      "tipo": "Subemenda Adotada pela Comissão",
+      "data": "30/03/2026",
+      "id": 2612745,
+      "texto": "Subemenda Adotada pela Comissão ao PL 5606/2019",
+      "codteor": "3106730"
+     }
+    ]
+   },
+   {
+    "rotulo": "EMENDAS",
+    "plural": "emendas",
+    "itens": [
+     {
+      "sigla": "EMR 1",
+      "tipo": "Emenda de Relator",
+      "data": "05/12/2019",
+      "id": 2232479,
+      "codteor": "1842712"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 5606/2019",
+     "tipo": "Texto original",
+     "codteor": "1824251"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CMULHER",
+    "PRL 2 CMULHER",
+    "SBT 1",
+    "PAR 1",
+    "SBT-A 1",
+    "PRL 1 CASP",
+    "PAR 1 CASP",
+    "SBR 1",
+    "SBE-A 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [
+    "EMR 1"
+   ],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 30/10/2019",
+     "tipo": "Despacho",
+     "data": "30/10/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Trabalho, de Administração e Serviço Público e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1826725"
+    },
+    {
+     "sigla": "Distribuição de 17/03/2023",
+     "tipo": "Despacho",
+     "data": "17/03/2023",
+     "autor": "MESA",
+     "texto": "Decisão da Presidência de 17/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição.\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.\".",
+     "codteor": "2245628"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

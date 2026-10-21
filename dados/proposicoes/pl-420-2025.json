@@ -1,0 +1,1038 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2483863,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 420/2025",
+  "ementa": "Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2854749",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "12/02/2025"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2025-02-12",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Cidades e Desenvolvimento Urbano",
+   "Indústria, Comércio e Serviços",
+   "Meio Ambiente e Desenvolvimento Sustentável",
+   "Viação, Transporte e Mobilidade"
+  ],
+  "keywords": "Criação, Programa Nacional de Infraestruturas Sustentáveis e Resilientes (PNISR), diretrizes, incentivo, empreendimento, sustentabilidade, infraestrutura, Selo de Sustentabilidade e Resiliência da Infraestrutura, critério, elegibilidade, recebimento, recursos, Fundo Nacional sobre Mudança do Clima (FNMC)."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Apreciação pelo Senado Federal",
+  "estado": "NO SENADO",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2025-11-05",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2025-02-12",
+   "fim": "2025-03-17",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2863120",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Meio Ambiente e Desenvolvimento Sustentável",
+   "papel": "Mérito",
+   "inicio": "2025-03-17",
+   "fim": "2025-09-17",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2998518",
+    "nome": "PARECER APROVADO",
+    "id": 2560253
+   }
+  },
+  {
+   "sigla": "CDU",
+   "nome": "Desenvolvimento Urbano",
+   "papel": "Mérito",
+   "inicio": "2025-09-18",
+   "fim": "2025-11-03",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2025-10-23",
+   "fim": "2025-11-05",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "inicio": "2025-11-11",
+   "fim": "2025-11-11",
+   "estado": "concluido"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "PLEN",
+  "relator": {
+   "id": 178986,
+   "nome": "Dep. Nilto Tatto",
+   "descricao": "Deputado Federal · PT/SP",
+   "rotulo": "RELATOR(A) · PLEN"
+  },
+  "resumo_inicio": "Designação em 23/10/2025.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-02-12T16:43",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 420/2025 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2854749",
+      "nome": "Inteiro teor · PL 420/2025",
+      "id": 2483863
+     }
+    },
+    {
+     "data_hora": "2025-03-14T00:00",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Meio Ambiente e Desenvolvimento Sustentável; Desenvolvimento Urbano; Finanças e Tributação (Art. 54 RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2863120",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2025-03-17T18:01",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMADS.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-03-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/03/2025 PÁG 252. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2912090",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2025-04-04T10:49",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Nilto Tatto (PT-SP).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-04-07T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 08/04/2025)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-04-15T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 07/04/2025 a 15/04/2025). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-06-27T10:50",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CMADS (Parecer do Relator), pelo Deputado Nilto Tatto (PT/SP -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2943036",
+      "nome": "PRL 1 CMADS",
+      "id": 2528866
+     }
+    },
+    {
+     "data_hora": "2025-06-27T10:50",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Nilto Tatto (PT-SP), pela aprovação deste, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2943036",
+      "nome": "PRL 1 CMADS",
+      "id": 2528866
+     }
+    },
+    {
+     "data_hora": "2025-06-30T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 01/07/2025)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-07-09T22:01",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 30/06/2025 a 09/07/2025). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-08-13T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, por acordo.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2025-09-02T10:14",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Nilto Tatto (PT-SP), a pedido.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-09-09T17:14",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 2 CMADS (Parecer do Relator), pelo Deputado Nilto Tatto (PT/SP -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2998518",
+      "nome": "PRL 2 CMADS",
+      "id": 2560253
+     }
+    },
+    {
+     "data_hora": "2025-09-09T17:14",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Nilto Tatto (PT-SP), pela aprovação deste, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2998518",
+      "nome": "PRL 2 CMADS",
+      "id": 2560253
+     }
+    },
+    {
+     "data_hora": "2025-09-17T10:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pelo Relator.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-09-17T10:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CDU",
+   "nome": "Comissão de Desenvolvimento Urbano",
+   "eventos": [
+    {
+     "data_hora": "2025-09-18T18:05",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-09-19T10:49",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CDU.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-09-19T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Meio Ambiente e Desenvolvimento Sustentável Publicado em avulso e no DCD de 20/09/2025, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-09-24T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Rafael Simoes (UNIÃO-MG)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-10-02T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 03/10/2025)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-16T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 02/10/2025 a 16/10/2025). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-22T14:23",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CDU (Parecer do Relator), pelo Deputado Rafael Simoes (UNIÃO/MG).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3027468",
+      "nome": "PRL 1 CDU",
+      "id": 2574994
+     }
+    },
+    {
+     "data_hora": "2025-10-22T14:23",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Rafael Simoes (UNIÃO-MG), pela aprovação, na forma do Substitutivo adotado pela Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3027468",
+      "nome": "PRL 1 CDU",
+      "id": 2574994
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-10-22T16:44",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 4381/2025 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputado Pedro Lucas Fernandes (UNIÃO/MA) e outros, que \"Requer, nos termos do artigo 155 do Regimento Interno da Câmara dos Deputados, que seja incluído automaticamente na Ordem do Dia o PL 420/2025, que “Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências”\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3027589",
+      "nome": "REQ 4381/2025",
+      "id": 2575077
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2025-10-23T16:29",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Nilto Tatto (PT-SP).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-10-27T18:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Sessão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-28T09:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Sessão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-28T15:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Sessão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-29T09:00",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Aprovado o requerimento nº 4381/2025,do Sr. Pedro Lucas Fernandes, que solicita urgência (art. 155) para o PL 420/2025.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-10-29T09:00",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4381/2025.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-10-29T09:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Ordem do Dia.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-10-30T11:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Sessão.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-11-03T13:40",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRLP n. 1 PLEN (Parecer Preliminar de Plenário), pelo Deputado Nilto Tatto (PT/SP -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3036584",
+      "nome": "PRLP 1",
+      "id": 2580017
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CDU",
+   "nome": "Comissão de Desenvolvimento Urbano",
+   "eventos": [
+    {
+     "data_hora": "2025-11-03T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolução à CCP",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-11-03T16:52",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRLP n. 2 PLEN (Parecer Preliminar de Plenário), pelo Deputado Nilto Tatto (PT/SP -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3036771",
+      "nome": "PPP 1",
+      "id": 2581722
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2025-11-03T18:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Sessão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-04T10:00",
+     "titulo": "Encerramentos",
+     "texto": "Matéria não apreciada em face do encerramento da Ordem do Dia.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Discussão (Plenário)",
+     "texto": "Discussão em turno único.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T00:00",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer proferido em Plenário pelo Relator, Dep. Nilto Tatto (PT-SP) pela:• Comissão de Desenvolvimento Urbano, que conclui pela aprovação do Projeto de Lei nº 420, de 2025, na forma do projeto original apresentado pelo autor, rejeitando-se o Substitutivo da Comissão de Meio Ambiente e Desenvolvimento Sustentável.• Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa pública, não cabendo pronunciamento quanto à adequação financeira ou orçamentária do Projeto de Lei nº 420, de 2025, e do Substitutivo da Comissão de Meio Ambiente e Desenvolvimento Sustentável.• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 420, de 2025, e do Substitutivo da Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3036771",
+      "nome": "PPP 1",
+      "id": 2581722
+     }
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiu a Matéria o Dep. Bohn Gass (PT-RS).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Encerramento de Discussão",
+     "texto": "Encerrada a discussão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Obstruçao Votação (Plenário)",
+     "texto": "Votação do Requerimento do Dep. Sóstenes Cavalcante, que solicita o adiamento da votação por uma sessão.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Rejeição de Proposição (Plenário)",
+     "texto": "Rejeitado o Requerimento.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Destaques (Plenário)",
+     "texto": "Votação do DTQ 3 (UNIÃO, PP, PSD, REPUBLICANOS, MDB, Federação PSDB CIDADANIA, PODE): Destaque de Preferência da votação do PL original em relação ao substitutivo apresentado pela Comissão de Meio Ambiente e Desenvolvimento Sustentável ao PL 420/2025 (161, IV).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Encaminhamento da Votação",
+     "texto": "Encaminhou a Votação o Dep. Pedro Lucas Fernandes (UNIÃO-MA).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovada a Preferência.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação em turno único.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovado o Projeto de Lei nº 420, de 2025, ressalvado o destaque.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Prejudicialidade (Plenário)",
+     "texto": "Em consequência, fica prejudicado o Substitutivo da Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Destaques (Plenário)",
+     "texto": "Votação do DTQ 5 (NOVO): Destaque para Votação em Separadodo(a) Art. 6° do texto original, apresentado ao PL 420/2025 (161, I).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Manutenção do texto (Plenário)",
+     "texto": "Mantido o texto. Sim: 382; Não: 17; Total: 399.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Prejudicialidade (Plenário)",
+     "texto": "Prejudicado o DTQ 1 (PL, UNIÃO, PP, PSD, REPUBLICANOS, MDB, Federação PSDB CIDADANIA, PODE): Destaque para Votação em Separado do art. 4° do Substitutivo, apresentado ao PL 420/2025 (161, I).",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Prejudicialidade (Plenário)",
+     "texto": "Prejudicado o DTQ 2 (PL, UNIÃO, PP, PSD, REPUBLICANOS, MDB, Federação PSDB CIDADANIA, PODE): Destaque para Votação em Separado do art 5° do Substitutivo, apresentado ao PL 420/2025 (161, I).",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Prejudicialidade (Plenário)",
+     "texto": "Prejudicado o DTQ 4 (NOVO): Destaque para Votação em Separado do art. 6º do substitutivo da CMADS, apresentado ao PL 420/2025 (161, I).",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Votação (Plenário)",
+     "texto": "Votação da Redação Final.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Aprovação de Proposição (Plenário)",
+     "texto": "Aprovada a Redação Final assinada pelo relator, Dep. Nilto Tatto (PT/SP).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-11-05T10:00",
+     "titulo": "Encaminhamento (Plenário)",
+     "texto": "A matéria vai ao Senado Federal (PL 420-B/2025).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-11-05T17:13",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Nilto Tatto (PT/SP -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3040400",
+      "nome": "RDF 1",
+      "id": 2582147
+     }
+    },
+    {
+     "data_hora": "2025-11-11T00:00",
+     "titulo": "Expedição de Documento",
+     "texto": "Apresentação do Autógrafo.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3040314",
+      "nome": "Expedição de Documento"
+     }
+    },
+    {
+     "data_hora": "2025-11-11T00:00",
+     "titulo": "Expedição de Documento",
+     "texto": "Remessa ao Senado Federal por meio do Of. nº 293/2025/SGM-P.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "3040318",
+      "nome": "Expedição de Documento"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Apreciação pelo Senado Federal",
+   "descricao": "A proposição está na Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 420/2025",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 12/02/2025",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.",
+   "id": 2483863,
+   "situacao": "AGUARDANDO APRECIAÇÃO PELO SENADO FEDERAL",
+   "codteor": "2854749"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CMADS",
+      "tipo": "Parecer do Relator",
+      "data": "27/06/2025",
+      "id": 2528866,
+      "texto": "Parecer do Relator, Dep. Nilto Tatto (PT-SP), pela aprovação deste, com substitutivo.",
+      "codteor": "2943036"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "27/06/2025",
+      "id": 2528875,
+      "texto": "Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.",
+      "codteor": "2943036"
+     },
+     {
+      "sigla": "PRL 2 CMADS",
+      "tipo": "Parecer do Relator",
+      "data": "09/09/2025",
+      "id": 2560253,
+      "texto": "Parecer do Relator, Dep. Nilto Tatto (PT-SP), pela aprovação deste, com substitutivo.",
+      "codteor": "2998518"
+     },
+     {
+      "sigla": "SBT 2",
+      "tipo": "Substitutivo",
+      "data": "09/09/2025",
+      "id": 2560254,
+      "texto": "Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.",
+      "codteor": "2998518"
+     },
+     {
+      "sigla": "PAR 1 CMADS",
+      "tipo": "Parecer de Comissão",
+      "data": "18/09/2025",
+      "id": 2562350,
+      "texto": "Parecer da Comissão (CMADS) ao PL 420/2025",
+      "codteor": "3002745"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "18/09/2025",
+      "id": 2562351,
+      "texto": "Substitutivo adotado pela Comissão ao PL 420/2025",
+      "codteor": "3002746"
+     },
+     {
+      "sigla": "PRL 1 CDU",
+      "tipo": "Parecer do Relator",
+      "data": "22/10/2025",
+      "id": 2574994,
+      "texto": "Parecer do Relator, Dep. Rafael Simoes (UNIÃO-MG), pela aprovação, na forma do Substitutivo adotado pela Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+      "codteor": "3027468"
+     },
+     {
+      "sigla": "PRLP 1",
+      "tipo": "Parecer Preliminar de Plenário",
+      "data": "03/11/2025",
+      "id": 2580017,
+      "texto": "Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.",
+      "codteor": "3036584"
+     },
+     {
+      "sigla": "PRLP 2",
+      "tipo": "Parecer Preliminar de Plenário",
+      "data": "03/11/2025",
+      "id": 2580088,
+      "texto": "Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.",
+      "codteor": "3036771"
+     },
+     {
+      "sigla": "PPP 1",
+      "tipo": "Parecer Proferido em Plenário",
+      "data": "05/11/2025",
+      "id": 2581722,
+      "texto": "Parecer proferido em Plenário pelo Relator, Dep. Nilto Tatto (PT-SP) pela: • Comissão de Desenvolvimento Urbano, que conclui pela aprovação do Projeto de Lei nº 420, de 2025, na forma do projeto original apresentado pelo autor, rejeitando-se o Substitutivo apresentado na Comissão de Meio Ambiente e Desenvolvimento Sustentável. • Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa pública, não cabendo pronunciamento quanto à adequação financeira ou orçamentária do Projeto de Lei nº 420, de 2025, e do Substitutivo da Comissão de Meio Ambiente e Desenvolvimento Sustentável. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 420, de 2025, e do Substitutivo da Comissão de Meio Ambiente e Desenvolvimento Sustentável.",
+      "codteor": "3036771"
+     }
+    ]
+   },
+   {
+    "rotulo": "DESTAQUES",
+    "plural": "destaques",
+    "itens": [
+     {
+      "sigla": "DTQ 1",
+      "tipo": "Destaque para Votação em Separado",
+      "data": "28/10/2025",
+      "id": 2578465,
+      "texto": "Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3033235"
+     },
+     {
+      "sigla": "DTQ 2",
+      "tipo": "Destaque para Votação em Separado",
+      "data": "28/10/2025",
+      "id": 2578466,
+      "texto": "Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3033236"
+     },
+     {
+      "sigla": "DTQ 3",
+      "tipo": "Destaque de Preferência",
+      "data": "03/11/2025",
+      "id": 2580071,
+      "texto": "Destaque de Preferência - PL 420/2025",
+      "codteor": "3036724"
+     },
+     {
+      "sigla": "DTQ 4",
+      "tipo": "Destaque para Votação em Separado",
+      "data": "03/11/2025",
+      "id": 2580186,
+      "texto": "Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3037174"
+     },
+     {
+      "sigla": "DTQ 5",
+      "tipo": "Destaque para Votação em Separado",
+      "data": "05/11/2025",
+      "id": 2581761,
+      "texto": "Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3039824"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 4381/2025",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "22/10/2025",
+      "id": 2575077,
+      "texto": "Requer, nos termos do artigo 155 do Regimento Interno da Câmara dos Deputados, que seja incluído automaticamente na Ordem do Dia o PL 420/2025, que “Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências”.",
+      "codteor": "3027589"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Votação Nominal do Requerimento de Inversão da Pauta",
+      "data": "13/08/2025",
+      "id": 2543317,
+      "texto": "Votação Nominal do Requerimento de Inversão da Pauta - PL 420/2025-Requerimento de Inversão da Pauta - PL 420/2025",
+      "codteor": "2971900"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "13/08/2025",
+      "id": 2543553,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "2972139"
+     },
+     {
+      "sigla": "RPD 3",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "13/08/2025",
+      "id": 2543556,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 420/2025-Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "2972142"
+     },
+     {
+      "sigla": "RPD 1 (id 2576771)",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "27/10/2025",
+      "id": 2576771,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "3030578"
+     },
+     {
+      "sigla": "RPD 2 (id 2576772)",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "27/10/2025",
+      "id": 2576772,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 420/2025-Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "3030579"
+     },
+     {
+      "sigla": "RPD 3 (id 2577463)",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "28/10/2025",
+      "id": 2577463,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "3031583"
+     },
+     {
+      "sigla": "RPD 4",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "28/10/2025",
+      "id": 2577468,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 420/2025-Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "3031588"
+     },
+     {
+      "sigla": "RPD 5",
+      "tipo": "Votação Nominal do Destaque para Votação em Separado",
+      "data": "28/10/2025",
+      "id": 2578467,
+      "texto": "Votação Nominal do Destaque para Votação em Separado - PL 420/2025-Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3033237"
+     },
+     {
+      "sigla": "RPD 6",
+      "tipo": "Votação Nominal do Destaque para Votação em Separado",
+      "data": "28/10/2025",
+      "id": 2578469,
+      "texto": "Votação Nominal do Destaque para Votação em Separado - PL 420/2025-Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3033239"
+     },
+     {
+      "sigla": "RPD 7",
+      "tipo": "Votação Nominal do Destaque para Votação em Separado",
+      "data": "03/11/2025",
+      "id": 2580187,
+      "texto": "Votação Nominal do Destaque para Votação em Separado - PL 420/2025-Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3037175"
+     },
+     {
+      "sigla": "RPD 8",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "03/11/2025",
+      "id": 2580227,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "3037215"
+     },
+     {
+      "sigla": "RPD 9",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "03/11/2025",
+      "id": 2580229,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 420/2025-Requerimento de Retirada de Matéria da Pauta - PL 420/2025",
+      "codteor": "3037217"
+     },
+     {
+      "sigla": "RPD 10",
+      "tipo": "Votação Nominal do Destaque de Preferência",
+      "data": "04/11/2025",
+      "id": 2580806,
+      "texto": "Votação Nominal do Destaque de Preferência - PL 420/2025",
+      "codteor": "3038400"
+     },
+     {
+      "sigla": "RPD 11",
+      "tipo": "Requerimento de Adiamento de Votação de Matéria Urgente",
+      "data": "05/11/2025",
+      "id": 2581756,
+      "texto": "Requerimento de Adiamento da Votação Matéria Urgente - PL 420/2025",
+      "codteor": "3039817"
+     },
+     {
+      "sigla": "RPD 12",
+      "tipo": "Votação Nominal do Requerimento de Adiamento da Votação (matéria urgente)",
+      "data": "05/11/2025",
+      "id": 2581757,
+      "texto": "Votação Nominal do Requerimento de Adiamento da Votação Matéria Urgente - PL 420/2025-Requerimento de Adiamento da Votação Matéria Urgente - PL 420/2025",
+      "codteor": "3039819"
+     },
+     {
+      "sigla": "RPD 13",
+      "tipo": "Requerimento de Votação pelo Processo Nominal",
+      "data": "05/11/2025",
+      "id": 2581758,
+      "texto": "Requerimento de Votação Nominal - PL 420/2025",
+      "codteor": "3039820"
+     },
+     {
+      "sigla": "RPD 14",
+      "tipo": "Votação Nominal do Destaque para Votação em Separado",
+      "data": "05/11/2025",
+      "id": 2581765,
+      "texto": "Votação Nominal do Destaque para Votação em Separado - PL 420/2025-Destaque para Votação em Separado - PL 420/2025",
+      "codteor": "3039828"
+     },
+     {
+      "sigla": "RPDR 12/2025",
+      "tipo": "Requerimento Procedimental Genérico de Sessão/Reunião",
+      "data": "05/11/2025",
+      "id": 2581770,
+      "texto": "Requerimento Procedimental Genérico - PL 420/2025",
+      "codteor": "3039835"
+     }
+    ]
+   },
+   {
+    "rotulo": "REDAÇÃO FINAL E AUTÓGRAFOS",
+    "plural": "documentos de redação final e autógrafos",
+    "itens": [
+     {
+      "sigla": "RDF 1",
+      "tipo": "Redação Final",
+      "data": "05/11/2025",
+      "id": 2582147,
+      "texto": "Redação Final ao PL 420/2025",
+      "codteor": "3040400"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 420/2025",
+     "tipo": "Texto original",
+     "codteor": "2854749"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 4381/2025"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CMADS",
+    "SBT 1",
+    "PRL 2 CMADS",
+    "SBT 2",
+    "PAR 1 CMADS",
+    "SBT-A 1",
+    "PRL 1 CDU",
+    "PRLP 1",
+    "PRLP 2",
+    "PPP 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": [
+    "DTQ 1",
+    "DTQ 2",
+    "DTQ 3",
+    "DTQ 4",
+    "DTQ 5"
+   ]
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 14/03/2025",
+     "tipo": "Despacho",
+     "data": "14/03/2025",
+     "autor": "MESA",
+     "texto": "Às Comissões de Meio Ambiente e Desenvolvimento Sustentável; Desenvolvimento Urbano; Finanças e Tributação (Art. 54 RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2863120"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [
+    "RDF 1"
+   ],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

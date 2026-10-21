@@ -1,0 +1,956 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2190754,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 244/2019",
+  "ementa": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1707039",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "04/02/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2019-02-04",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Saúde"
+  ],
+  "keywords": "Criação, Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP), Conselho consultivo, prevenção, controle, combate, câncer, tratamento de saúde, fonte de recursos, benefício fiscal, pessoa jurídica, pessoa física, doação."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Redação Final",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2026-08-17",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-02-04",
+   "fim": "2019-02-04",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1708854",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2019-02-18",
+   "fim": "2021-09-15",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2039639",
+    "nome": "PARECER APROVADO",
+    "id": 2289739
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2021-09-16",
+   "fim": "2026-05-20",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "3132115",
+    "nome": "PARECER APROVADO",
+    "id": 2625677
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "inicio": "2026-05-25",
+   "estado": "atual",
+   "comissao": true,
+   "documento": {
+    "codteor": "3148501",
+    "nome": "PARECER APROVADO",
+    "id": 2633152
+   }
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-02-04",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CCJC",
+  "relator": {
+   "id": 123086,
+   "nome": "Dep. Átila Lira",
+   "descricao": "Deputado Federal · PP/PI",
+   "rotulo": "RELATOR(A) · CCJC"
+  },
+  "resumo_inicio": "Designação em 27/05/2026. Apresentou uma versão de parecer:",
+  "resumo_fim": "O último parecer foi aprovado na comissão.",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CCJC",
+    "data": "16/06/2026 · aprovado",
+    "codteor": "3148501",
+    "aprovado": true,
+    "id": 2633152
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-02-04T18:39",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 244/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1707039",
+      "nome": "Inteiro teor · PL 244/2019",
+      "id": 2190754
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-02-14T10:29",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Seguridade Social e Família; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1708854",
+      "nome": "Distribuição"
+     }
+    },
+    {
+     "data_hora": "2019-02-14T10:47",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-252/2019.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1709996",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2019-02-18T16:58",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF, com a proposição PL-252/2019 apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-02-19T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 20/02/19 PÁG 308. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1732831",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-04-10T19:39",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Urgência (Art. 155 do RICD) n. 1167/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Requer regime de urgência para a apreciação do Projeto de Lei nº 244, de 2019, que 'Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências. '\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1731438",
+      "nome": "REQ 1167/2019 FNCCAP",
+      "id": 2197728
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2019-04-11T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Celina Leão (PP-DF)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-04-12T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 15/04/2019)",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-04-17T11:47",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Urgência (Art. 155 do RICD) n. 1261/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Requer regime de urgência para a apreciação do Projeto de Lei nº 244, de 2019, que 'Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências. '\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1734515",
+      "nome": "REQ 1261/2019 FNCCAP",
+      "id": 2198596
+     }
+    },
+    {
+     "data_hora": "2019-04-24T12:05",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Inclusão na Ordem do Dia n. 1300/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Requer inclusão na Ordem do Dia do PL nº 244, de 2019, que 'Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências. '\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1736545",
+      "nome": "REQ 1300/2019 FNCCAP",
+      "id": 2199131
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2019-04-24T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo para emendas ao projeto. Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-06-07T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indeferido o Requerimento n. 1.300/2019, conforme despacho do seguinte teor: \"Indefiro o Requerimento n. 1.300/2019, tendo em vista que o Projeto de Lei n. 244/2019 está sujeito à apreciação conclusiva pelas Comissões. Publique-se.\"",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2021-07-06T14:45",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CSSF, pela Deputada Celina Leão (PP/DF).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2039641",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-07-06T14:45",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Celina Leão (PP-DF), pela aprovação deste, e do PL 252/2019, apensado, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2039639",
+      "nome": "PRL 1 CSAUDE",
+      "id": 2289739
+     }
+    },
+    {
+     "data_hora": "2021-07-07T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 08/07/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-08-03T21:44",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 07/07/2021 a 03/08/2021). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-15T09:30",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pela Relatora.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-15T09:30",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    },
+    {
+     "data_hora": "2021-09-15T17:57",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação do Parecer de Comissão n. 1 CSSF, pela SEGURIDADE SOCIAL E FAMÍLIA.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2073958",
+      "nome": "PAR 1",
+      "id": 2298871
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2021-09-16T07:43",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-16T12:30",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, com a proposição PL-252/2019 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-16T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Seguridade Social e Família Publicado em avulso e no DCD de 17/09/2021, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-23T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Jerônimo Goergen (PP-RS)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-09-24T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 27/09/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-01T10:49",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 24/09/2021 a 01/10/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-04-27T09:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Jerônimo Goergen, não integrava a Comissão na data da instalação (deixou de ser membro em 02/02/2022)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-04-27T16:05",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-05-11T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Enio Verri (PT-PR)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Fim de Legislatura) O Relator, Dep. Enio Verri, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-06-20T13:32",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 2019/2023 (Requerimento de Apensação), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Requer a apensação do Projeto de Lei nº 4434/2021 ao Projeto de Lei nº 244/2019, por tratarem de matérias correlatas e se encontrarem em fase em que se permite apensação, nos termos regimentais\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2291014",
+      "nome": "REQ 2019/2023",
+      "id": 2370340
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2023-06-21T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Merlong Solano (PT-PI)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-06-22T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Reabertura do Prazo para Emendas ao Projeto - Art. 166 do RICD (5 sessões a partir de 23/06/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-07-07T18:51",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 22/06/2023 a 07/07/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-04-28T18:01",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CFT (Parecer do Relator), pelo Deputado Merlong Solano (PT/PI -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3119894",
+      "nome": "PRL 1 CFT",
+      "id": 2619377
+     }
+    },
+    {
+     "data_hora": "2026-04-28T18:02",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Merlong Solano (PT-PI), pela não implicação da matéria em aumento ou diminuição da receita ou da despesa públicas, não cabendo pronunciamento quanto à adequação financeira e orçamentária do PL 244/19, do PL 252/19, apensado, e do substitutivo adotado pela Comissão de Saúde - CSAUDE; e, no mérito, pela aprovação do PL 244/19, do PL 252/19, apensado, na forma do substitutivo adotado pela CSAUDE, com subemenda.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3119894",
+      "nome": "PRL 1 CFT",
+      "id": 2619377
+     }
+    },
+    {
+     "data_hora": "2026-05-06T00:00",
+     "titulo": "Notificações",
+     "texto": "Informativo Conof.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3124500",
+      "nome": "Notificações"
+     }
+    },
+    {
+     "data_hora": "2026-05-19T12:13",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 2 CFT (Parecer do Relator), pelo Deputado Merlong Solano (PT/PI -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3132115",
+      "nome": "PRL 2 CFT",
+      "id": 2625677
+     }
+    },
+    {
+     "data_hora": "2026-05-19T12:13",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Merlong Solano (PT-PI), pela não implicação da matéria em aumento ou diminuição da receita ou da despesa públicas, não cabendo pronunciamento quanto à adequação financeira e orçamentária do PL 244/2019, do PL 252/2019, apensado e do Substitutivo adotado pela Comissão de Saúde, com subemenda substitutiva; e, no mérito, pela aprovação do PL 244/2019, do PL 252/2019, apensado, e do Substitutivo adotado CSAUDE,com Subemenda substitutiva.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3132115",
+      "nome": "PRL 2 CFT",
+      "id": 2625677
+     }
+    },
+    {
+     "data_hora": "2026-05-20T11:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2026-05-25T11:46",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-25T12:55",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CCJC, com a proposição PL-252/2019 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-25T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Finanças e Tributação Publicado em avulso e no DCD de 26/05/2026, Letra B. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-27T11:47",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Átila Lira (PP-PI).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-05-28T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 29/05/2026)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-06-16T22:15",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 28/05/2026 a 16/06/2026). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-06-16T19:12",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CCJC (Parecer do Relator), pelo Deputado Átila Lira (PP/PI).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3148501",
+      "nome": "PRL 1 CCJC",
+      "id": 2633152
+     }
+    },
+    {
+     "data_hora": "2026-06-16T19:12",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Átila Lira (PP-PI), pela constitucionalidade, juridicidade e técnica legislativa do PL 244/2019 e do PL 252/2019, apensado, na forma do Substitutivo da Comissão de Seguridade Social e Família, com Subemenda Substitutiva da Comissão de Finanças e Tributação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3148501",
+      "nome": "PRL 1 CCJC",
+      "id": 2633152
+     }
+    },
+    {
+     "data_hora": "2026-07-01T10:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pelo Relator, Deputado Átila Lira.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-07-01T10:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-07-02T15:45",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-07-06T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Constituição e Justiça e de Cidadania Publicado em avulso e no DCD de 07/07/2026, Letra C. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-07-07T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para apresentação de recurso, nos termos do § 1º do art. 58 combinado com o § 2º do art. 132 do RICD (5 sessões a partir de 08/07/2026).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-08-12T20:31",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerramento automático do Prazo de Recurso 12/08/2026 20:31:00. Não foram apresentados recursos.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-08-17T11:03",
+     "titulo": "Envio para a redação Final",
+     "texto": "Ofício SGM-P 197/2026 à CCJC encaminhando este projeto para elaboração da Redação Final, nos termos do Artigo 58, §4 e Artigo 24, II, do RICD.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3172218",
+      "nome": "Envio para a redação Final"
+     }
+    },
+    {
+     "data_hora": "2026-08-17T11:03",
+     "titulo": "Encaminhamento",
+     "texto": "Encaminhado à CCP",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2026-08-17T16:32",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CCJC, com a proposição PL-252/2019 apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 244/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 04/02/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+   "id": 2190754,
+   "situacao": "AGUARDANDO REDAÇÃO FINAL",
+   "codteor": "1707039"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 252/2019 FNPCC",
+    "tipo": "Projeto de Lei",
+    "data": "04/02/2019",
+    "id": 2190760,
+    "texto": "Institui o Fundo Nacional de Prevenção e Combate ao Câncer (FNPCC), vinculado ao Instituto Nacional do Câncer (INCA) e dá outras providências",
+    "codteor": "1707045",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CSAUDE",
+      "tipo": "Parecer do Relator",
+      "data": "06/07/2021",
+      "id": 2289739,
+      "texto": "Parecer da Relatora, Dep. Celina Leão (PP-DF), pela aprovação deste, e do PL 252/2019, apensado, com substitutivo.",
+      "codteor": "2039639"
+     },
+     {
+      "sigla": "SBT 1 FNCCAP",
+      "tipo": "Substitutivo",
+      "data": "06/07/2021",
+      "id": 2289743,
+      "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+      "codteor": "2039639"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "15/09/2021",
+      "id": 2298871,
+      "texto": "Aprovado o Parecer. Parecer da Relatora, Deputada Celina Leão (PP-DF), pela aprovação deste e do PL 252/2019, apensado, com substitutivo.",
+      "codteor": "2073958"
+     },
+     {
+      "sigla": "SBT-A 1 FNCCAP",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "15/09/2021",
+      "id": 2298880,
+      "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+      "codteor": "2073985"
+     },
+     {
+      "sigla": "PRL 1 CFT",
+      "tipo": "Parecer do Relator",
+      "data": "28/04/2026",
+      "id": 2619377,
+      "texto": "Parecer do Relator, Dep. Merlong Solano (PT-PI), pela não implicação da matéria em aumento ou diminuição da receita ou da despesa públicas, não cabendo pronunciamento quanto à adequação financeira e orçamentária do PL 244/19, do PL 252/19, apensado, e do substitutivo adotado pela Comissão de Saúde - CSAUDE; e, no mérito, pela aprovação do PL 244/19, do PL 252/19, apensado, na forma do substitutivo adotado pela CSAUDE, com subemenda.",
+      "codteor": "3119894"
+     },
+     {
+      "sigla": "SBR 1 FNCCAP",
+      "tipo": "Subemenda de Relator",
+      "data": "28/04/2026",
+      "id": 2619389,
+      "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+      "codteor": "3119894"
+     },
+     {
+      "sigla": "SBR 1 FNCCAP (id 2619389)",
+      "tipo": "Subemenda de Relator",
+      "data": "28/04/2026",
+      "id": 2619389,
+      "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+      "codteor": "3119894"
+     },
+     {
+      "sigla": "PRL 2 CFT",
+      "tipo": "Parecer do Relator",
+      "data": "19/05/2026",
+      "id": 2625677,
+      "texto": "Parecer do Relator, Dep. Merlong Solano (PT-PI), pela não implicação da matéria em aumento ou diminuição da receita ou da despesa públicas, não cabendo pronunciamento quanto à adequação financeira e orçamentária do PL 244/2019, do PL 252/2019, apensado e do Substitutivo adotado pela Comissão de Saúde, com subemenda substitutiva; e, no mérito, pela aprovação do PL 244/2019, do PL 252/2019, apensado, e do Substitutivo adotado CSAUDE,com Subemenda substitutiva.",
+      "codteor": "3132115"
+     },
+     {
+      "sigla": "SBR 2 FNCCAP",
+      "tipo": "Subemenda de Relator",
+      "data": "19/05/2026",
+      "id": 2625688,
+      "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+      "codteor": "3132115"
+     },
+     {
+      "sigla": "SBR 2 FNCCAP (id 2625688)",
+      "tipo": "Subemenda de Relator",
+      "data": "19/05/2026",
+      "id": 2625688,
+      "texto": "Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.",
+      "codteor": "3132115"
+     },
+     {
+      "sigla": "PAR 1 (id 2627271)",
+      "tipo": "Parecer de Comissão",
+      "data": "22/05/2026",
+      "id": 2627271,
+      "texto": "Aprovado o parecer.",
+      "codteor": "3135273"
+     },
+     {
+      "sigla": "SBE-A 1 PNCCAP",
+      "tipo": "Subemenda Adotada pela Comissão",
+      "data": "22/05/2026",
+      "id": 2627278,
+      "texto": "Institui Programa Nacional de Combate ao Câncer e de Assistência a Portadores (PNCCAP).",
+      "codteor": "3135294"
+     },
+     {
+      "sigla": "PRL 1 CCJC",
+      "tipo": "Parecer do Relator",
+      "data": "16/06/2026",
+      "id": 2633152,
+      "texto": "Parecer do Relator, Dep. Átila Lira (PP-PI), pela constitucionalidade, juridicidade e técnica legislativa do PL 244/2019 e do PL 252/2019, apensado, na forma do Substitutivo da Comissão de Seguridade Social e Família, com Subemenda Substitutiva da Comissão de Finanças e Tributação.",
+      "codteor": "3148501"
+     },
+     {
+      "sigla": "PAR 1 CCJC",
+      "tipo": "Parecer de Comissão",
+      "data": "02/07/2026",
+      "id": 2636739,
+      "texto": "Parecer da Comissão (CCJC) ao PL 244/2019",
+      "codteor": "3155992"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1167/2019 FNCCAP",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "10/04/2019",
+      "id": 2197728,
+      "texto": "Requer regime de urgência para a apreciação do Projeto de Lei nº 244, de 2019, que \"Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências. \"",
+      "codteor": "1731438"
+     },
+     {
+      "sigla": "REQ 1261/2019 FNCCAP",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "17/04/2019",
+      "id": 2198596,
+      "texto": "Requer regime de urgência para a apreciação do Projeto de Lei nº 244, de 2019, que \"Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências. \"",
+      "codteor": "1734515"
+     },
+     {
+      "sigla": "REQ 1300/2019 FNCCAP",
+      "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
+      "data": "24/04/2019",
+      "id": 2199131,
+      "texto": "Requer inclusão na Ordem do Dia do PL nº 244, de 2019, que \"Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências. \"",
+      "codteor": "1736545"
+     },
+     {
+      "sigla": "REQ 2019/2023",
+      "tipo": "Requerimento de Apensação",
+      "data": "20/06/2023",
+      "id": 2370340,
+      "texto": "Requer a apensação do Projeto de Lei nº 4434/2021 ao Projeto de Lei nº 244/2019, por tratarem de matérias correlatas e se encontrarem em fase em que se permite apensação, nos termos regimentais.",
+      "codteor": "2291014"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "01/07/2026",
+      "id": 2635950,
+      "texto": "Requerimento de Inversão da Pauta - PL 244/2019",
+      "codteor": "3154665"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "01/07/2026",
+      "id": 2635972,
+      "texto": "Requerimento de Inversão da Pauta - PL 244/2019",
+      "codteor": "3154690"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 244/2019",
+     "tipo": "Texto original",
+     "codteor": "1707039"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1167/2019 FNCCAP",
+    "REQ 1261/2019 FNCCAP",
+    "REQ 1300/2019 FNCCAP",
+    "REQ 2019/2023"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CSAUDE",
+    "SBT 1 FNCCAP",
+    "PAR 1",
+    "SBT-A 1 FNCCAP",
+    "PRL 1 CFT",
+    "SBR 1 FNCCAP",
+    "SBR 1 FNCCAP (id 2619389)",
+    "PRL 2 CFT",
+    "SBR 2 FNCCAP",
+    "SBR 2 FNCCAP (id 2625688)",
+    "PAR 1 (id 2627271)",
+    "SBE-A 1 PNCCAP",
+    "PRL 1 CCJC",
+    "PAR 1 CCJC"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 14/02/2019",
+     "tipo": "Despacho",
+     "data": "14/02/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Seguridade Social e Família; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1708854"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

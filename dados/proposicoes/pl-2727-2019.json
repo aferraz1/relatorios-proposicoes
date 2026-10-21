@@ -1,0 +1,235 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2200684,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.727/2019",
+  "ementa": "Proíbe a comercialização de artigos e embalagens descartáveis de plástico em estabelecimentos comerciais instalados em praias, rios e áreas ambientais protegidas.",
+  "explicacao": "Tramita em conjunto com o PL 10.764/2018, à qual está apensada.",
+  "codteor_inteiro_teor": "1743242",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "08/05/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 10.764/2018"
+   }
+  ],
+  "apresentacao": "2019-05-08",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Meio Ambiente e Desenvolvimento Sustentável"
+  ],
+  "keywords": "Proibição, embalagem do produto, produto descartável, estabelecimento comercial, praia, Rio (curso d'água), Área de Proteção Ambiental (APA)."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CMADS",
+  "orgao_nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+  "desde": "2019-06-11",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-05-08",
+   "fim": "2019-06-11",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Meio Ambiente e Desenvolvimento Sustentável",
+   "papel": "Mérito",
+   "inicio": "2019-06-11",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-05-08T16:02",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2727/2019, pelo Deputado Pedro Lucas Fernandes PTB, que:\"Proíbe a comercialização de artigos e embalagens descartáveis de plástico em estabelecimentos comerciais instalados em praias, rios e áreas ambientais protegidas\". (SEPRO(SGM))",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1743243",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-06-10T15:09",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-10764/2018. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1761048",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2019-06-11T16:44",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMADS.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-06-11T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 12/06/19 PÁG 93. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1772627",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2024-06-05T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Coronel Chrisóstomo (PL-RO), para o PL 612/2007, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-03-11T18:28",
+     "titulo": "Notificacao para Publicação Intermediária",
+     "texto": "Designado Relator, Dep. Coronel Chrisóstomo (PL-RO), para o PL 612/2007, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 10.764/2018",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CMADS",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2727/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 08/05/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Proíbe a comercialização de artigos e embalagens descartáveis de plástico em estabelecimentos comerciais instalados em praias, rios e áreas ambientais protegidas.",
+   "id": 2200684,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1743242"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2727/2019",
+     "tipo": "Texto original",
+     "codteor": "1743242"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 10/06/2019",
+     "tipo": "Despacho",
+     "data": "10/06/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-10764/2018. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1761048"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

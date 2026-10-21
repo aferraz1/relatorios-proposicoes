@@ -1,0 +1,231 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2192410,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 904/2019",
+  "ementa": "Acresce o parágrafo 7º a Lei nº 8.0778, de 11 de setembro de 1990, que dispõe sobre a proteção do consumidor e dá outras providências, para determinar o tempo máximo de inclusão de devedores nos Bancos de Dados e Cadastros de Consumidores.",
+  "explicacao": "Tramita em conjunto com o PL 6.573/2009, à qual está apensada.",
+  "codteor_inteiro_teor": "1712248",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "19/02/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 6.573/2009"
+   }
+  ],
+  "apresentacao": "2019-02-19",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Defesa do Consumidor"
+  ],
+  "keywords": "Alteração, Código de Defesa do Consumidor, prazo, credor, comunicação, dívida, consumidor, banco de dados, Serviço de Proteção ao Crédito (SPC)."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2019-03-15",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-02-19",
+   "fim": "2019-02-19",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito",
+   "inicio": "2019-03-15",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-02-19",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-02-19T17:57",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 904/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Acresce o parágrafo 7º a Lei nº 8.0778, de 11 de setembro de 1990, que dispõe sobre a proteção do consumidor e dá outras providências, para determinar o tempo máximo de inclusão de devedores nos Bancos de Dados e Cadastros de Consumidores\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1712248",
+      "nome": "Inteiro teor · PL 904/2019",
+      "id": 2192410
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-03-14T15:16",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-6573/2009. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1718245",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2019-03-15T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 16/03/19 PÁG 95. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1740076",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-03-15T16:40",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 6.573/2009",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 904/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 19/02/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Acresce o parágrafo 7º a Lei nº 8.0778, de 11 de setembro de 1990, que dispõe sobre a proteção do consumidor e dá outras providências, para determinar o tempo máximo de inclusão de devedores nos Bancos de Dados e Cadastros de Consumidores.",
+   "id": 2192410,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1712248"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 904/2019",
+     "tipo": "Texto original",
+     "codteor": "1712248"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 14/03/2019",
+     "tipo": "Despacho",
+     "data": "14/03/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-6573/2009. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1718245"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

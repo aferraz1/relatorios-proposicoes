@@ -1,0 +1,279 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2294289,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.822/2021",
+  "ementa": "Altera a Lei nº 8.212, de 24 de julho de 1991, ficam equiparadas as alíquotas de contribuição previdenciária, patronal e do funcionalismo vinculado às prefeituras municipais, e estabelecer limite para multas em caso de inadimplemento.",
+  "explicacao": "Tramita em conjunto com o PL 9.117/2017, à qual está apensada.",
+  "codteor_inteiro_teor": "2057434",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "16/08/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 9.117/2017"
+   }
+  ],
+  "apresentacao": "2021-08-16",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Previdência e Assistência Social"
+  ],
+  "keywords": "Alteração, Lei Orgânica da Seguridade Social, fixação, alíquota, contribuição previdenciária patronal, contribuição previdenciária, empregado público, vinculação, prefeitura municipal."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2023-09-14",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-08-16",
+   "fim": "2021-08-16",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2021-09-20",
+   "fim": "2021-09-21",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Previdência, Assis. Social, Infância, Adolescência e Família",
+   "papel": "Mérito",
+   "inicio": "2023-03-27",
+   "fim": "2023-03-27",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito",
+   "inicio": "2023-09-14",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2021-08-16",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-08-16T00:00",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2822/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Altera a Lei nº 8.212, de 24 de julho de 1991, ficam equiparadas em cinquenta por cento as alíquotas de contribuição previdenciária, patronal e do funcionalismo vinculado às prefeituras municipais, e estabelecer limite para multas em caso de inadimplemento\". Ver Inteiro Teor atualizado no registro da proposição.",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2057434",
+      "nome": "Inteiro teor · PL 2822/2021",
+      "id": 2294289
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-09-17T13:45",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-9117/2017. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2073735",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2021-09-20T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 21/09/2021. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-21T09:42",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+   "eventos": [
+    {
+     "data_hora": "2023-03-27T15:48",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CPASF, apensado ao PL-9117/2017",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2023-09-14T16:49",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, apensado ao PL-9117/2017",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-12-22T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Paulo Guedes (PT-MG), para o PL 6110/2013, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 9.117/2017",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2822/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 16/08/2021",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 8.212, de 24 de julho de 1991, ficam equiparadas as alíquotas de contribuição previdenciária, patronal e do funcionalismo vinculado às prefeituras municipais, e estabelecer limite para multas em caso de inadimplemento.",
+   "id": 2294289,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "2057434"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2822/2021",
+     "tipo": "Texto original",
+     "codteor": "2057434"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 17/09/2021",
+     "tipo": "Despacho",
+     "data": "17/09/2021",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-9117/2017. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "2073735"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

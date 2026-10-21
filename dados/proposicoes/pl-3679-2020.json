@@ -1,0 +1,562 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2256940,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.679/2020",
+  "ementa": "Dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1910611",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "07/07/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2020-07-07",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública",
+   "Economia",
+   "Finanças Públicas e Orçamento"
+  ],
+  "keywords": "Responsabilidade civil, recebimento, má-fé, fraude, apropriação indébita, crédito, instituição financeira, recursos, Poder público, Dano coletivo, prejuízo, Fazenda pública, procedimento, restituição."
+ },
+ "autor": {
+  "id": 198783,
+  "nome": "Dep. Emanuel Pinheiro Neto",
+  "descricao": "Deputado Federal · PSD/MT",
+  "rotulo": "AUTOR · 9 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2026-05-12",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CFT"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-07-07",
+   "fim": "2020-07-07",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2249301",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2020-12-10",
+   "fim": "2023-01-31",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Previdência, Assis. Social, Infância, Adolescência e Família",
+   "papel": "Mérito",
+   "inicio": "2023-03-27",
+   "fim": "2026-05-06",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2883343",
+    "nome": "PARECER APROVADO",
+    "id": 2496034
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito",
+   "inicio": "2026-05-12",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-07-07",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CPASF",
+  "relator": {
+   "id": 220545,
+   "nome": "Dep. Filipe Martins",
+   "descricao": "Deputado Federal · PL/TO",
+   "rotulo": "RELATOR(A) · CPASF"
+  },
+  "resumo_inicio": "Designação em 11/04/2023. Apresentou uma versão de parecer:",
+  "resumo_fim": "O último parecer foi aprovado na comissão.",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CPASF",
+    "data": "09/04/2025 · aprovado",
+    "codteor": "2883343",
+    "aprovado": true,
+    "id": 2496034
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-07-07T15:34",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 3679/2020, pelo Deputado Emanuel Pinheiro Neto (PTB/MT), que \"Dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto. \".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1910611",
+      "nome": "Inteiro teor · PL 3679/2020",
+      "id": 2256940
+     }
+    },
+    {
+     "data_hora": "2020-08-05T18:30",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 2089/2020, pelo Deputado Emanuel Pinheiro Neto (PTB/MT) e outros, que \"Requer a coautoria do PL nº 3679 de 2020, que dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto, de minha autoria. \".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1920210",
+      "nome": "REQ 2089/2020",
+      "id": 2259641
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-08-13T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 2.089/2020, conforme despacho do seguinte teor: \"Defiro. Publique-se\".",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2020-12-09T13:39",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Seguridade Social e Família; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1910983",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2020-12-10T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 11/12/2020. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-11T16:26",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-04-15T17:29",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 778/2021, pelo Deputado Emanuel Pinheiro Neto (PTB/MT), que \"Requeiro, nos termos do inciso I, do art. 139 e no art. 142 do Regimento Interno, apensar a tramitação do PL nº 3679 de 2020 ao PL nº 1654 de 2020, por tratarem de temas similares e de relevância com a relação de ambos tratarem sobre saques fraudulentos de benefícios previdenciários\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1993278",
+      "nome": "REQ 778/2021",
+      "id": 2278263
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-07-16T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indeferido o Requerimento n. 778/2021, conforme despacho do seguinte teor: \"Indefiro o Requerimento n. 778/2021, com fundamento no caput do art. 142 do Regimento Interno da Câmara dos Deputados. Oficie-se. Publique-se.\"",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2021-09-01T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Pedro Westphalen (PP-RS)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-09-02T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 03/09/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-16T15:37",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 02/09/2021 a 16/09/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Fim de Legislatura) O Relator, Dep. Pedro Westphalen, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-03-24T17:59",
+     "titulo": "Distribuição",
+     "texto": "Decisão da Presidência de 24/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1/2023 [...], criando a Comissão de Previdência, Assistência Social, Infância, Adolescência e Família e a Comissão de Saúde, revejo o despacho de distribuição aposto...\"...\"para o fim de determinar sua redistribuição à Comissão de Previdência, Assistência Social, Infância, Adolescência e Família, em substituição à Comissão de Seguridade Social e Família, extinta pela mesma Resolução.\"",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2249301",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+   "eventos": [
+    {
+     "data_hora": "2023-03-27T00:00",
+     "titulo": "Notificações",
+     "texto": "À CSAUDE, o Memo nº 16/2023, informando que a proposição foi redistribuída à CPASF. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2249943",
+      "nome": "Notificações"
+     }
+    },
+    {
+     "data_hora": "2023-03-27T15:53",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CPASF.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-04-11T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Filipe Martins (PL-TO)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-04-12T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 13/04/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-04-26T20:58",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 12/04/2023 a 26/04/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-04-09T11:34",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CPASF (Parecer do Relator), pelo Deputado Filipe Martins (PL/TO).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2883343",
+      "nome": "PRL 1 CPASF",
+      "id": 2496034
+     }
+    },
+    {
+     "data_hora": "2025-04-09T11:34",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Filipe Martins (PL-TO), pela aprovação, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2883343",
+      "nome": "PRL 1 CPASF",
+      "id": 2496034
+     }
+    },
+    {
+     "data_hora": "2025-04-10T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 11/04/2025)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-04-23T20:43",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 10/04/2025 a 23/04/2025). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-04-23T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 10/04/2025 a 23/04/2025). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-06T14:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer do Relator, Deputado Filipe Martins (PL-TO), pelo Deputado Silvio Antonio (PL-MA)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-06T14:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2026-05-12T16:45",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-13T08:24",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    },
+    {
+     "data_hora": "2026-05-13T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família Publicado em avulso e no DCD de 14/05/2026, Letra A. (CCP)",
+     "tipo": "rotina"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CFT",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3679/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 07/07/2020",
+   "autor": "Dep. Emanuel Pinheiro Neto (PSD/MT)",
+   "texto": "Dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto.",
+   "id": 2256940,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1910611"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Emanuel Pinheiro Neto (PSD/MT)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CPASF",
+      "tipo": "Parecer do Relator",
+      "data": "09/04/2025",
+      "id": 2496034,
+      "texto": "Parecer do Relator, Dep. Filipe Martins (PL-TO), pela aprovação, com substitutivo.",
+      "codteor": "2883343"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "09/04/2025",
+      "id": 2496035,
+      "texto": "Dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto.",
+      "codteor": "2883343"
+     },
+     {
+      "sigla": "PAR 1 CPASF",
+      "tipo": "Parecer de Comissão",
+      "data": "12/05/2026",
+      "id": 2623867,
+      "texto": "Parecer da Comissão (CPASF) ao PL 3679/2020",
+      "codteor": "3127653"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "12/05/2026",
+      "id": 2623869,
+      "texto": "Substitutivo adotado pela Comissão ao PL 3679/2020",
+      "codteor": "3127655"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 2089/2020",
+      "tipo": "Requerimento",
+      "data": "05/08/2020",
+      "id": 2259641,
+      "texto": "Requer a coautoria do PL nº 3679 de 2020, que dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto, de minha autoria.",
+      "codteor": "1920210"
+     },
+     {
+      "sigla": "REQ 778/2021",
+      "tipo": "Requerimento de Apensação",
+      "data": "15/04/2021",
+      "id": 2278263,
+      "texto": "Requeiro, nos termos do inciso I, do art. 139 e no art. 142 do Regimento Interno, apensar a tramitação do PL nº 3679 de 2020 ao PL nº 1654 de 2020, por tratarem de temas similares e de relevância com a relação de ambos tratarem sobre saques fraudulentos de benefícios previdenciários.",
+      "codteor": "1993278"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3679/2020",
+     "tipo": "Texto original",
+     "codteor": "1910611"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 2089/2020",
+    "REQ 778/2021"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CPASF",
+    "SBT 1",
+    "PAR 1 CPASF",
+    "SBT-A 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 09/12/2020",
+     "tipo": "Despacho",
+     "data": "09/12/2020",
+     "autor": "MESA",
+     "texto": "Às Comissões de Seguridade Social e Família; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1910983"
+    },
+    {
+     "sigla": "Distribuição de 24/03/2023",
+     "tipo": "Despacho",
+     "data": "24/03/2023",
+     "autor": "MESA",
+     "texto": "Decisão da Presidência de 24/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1/2023 [...], criando a Comissão de Previdência, Assistência Social, Infância, Adolescência e Família e a Comissão de Saúde, revejo o despacho de distribuição aposto...\"...\"para o fim de determinar sua redistribuição à Comissão de Previdência, Assistência Social, Infância, Adolescência e Família, em substituição à Comissão de Seguridade Social e Família, extinta pela mesma Resolução.\"",
+     "codteor": "2249301"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

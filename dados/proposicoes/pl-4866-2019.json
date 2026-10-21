@@ -1,0 +1,773 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2218630,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 4.866/2019",
+  "ementa": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1802145",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "04/09/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Anulada"
+   }
+  ],
+  "apresentacao": "2019-09-04",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO ANULADA",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 1,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Esporte e Lazer"
+  ],
+  "keywords": "Implementação, medida protetiva, assistência psicológica, mulher, atleta, vítima, violência física, violência sexual."
+ },
+ "autor": {
+  "id": 74052,
+  "nome": "Dep. Bosco Costa",
+  "descricao": "Deputado Federal · PL/SE",
+  "rotulo": "AUTOR · 2 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Autorização do Despacho",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2023-12-13",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-09-04",
+   "fim": "2019-09-04",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1806447",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CESPO",
+   "nome": "Esporte",
+   "papel": "Mérito",
+   "inicio": "2019-09-16",
+   "fim": "2021-10-06",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2027653",
+    "nome": "PARECER APROVADO",
+    "id": 2286818
+   }
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "inicio": "2021-10-06",
+   "fim": "2023-12-06",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2329699",
+    "nome": "PARECER APROVADO",
+    "id": 2388458
+   }
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-09-04",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CMULHER",
+  "relator": {
+   "id": 220625,
+   "nome": "Dep. Delegada Ione",
+   "descricao": "Deputada Federal · PL/MG",
+   "rotulo": "RELATOR(A) · CMULHER"
+  },
+  "resumo_inicio": "Designação em 28/10/2021. Apresentou uma versão de parecer:",
+  "resumo_fim": "O último parecer foi aprovado na comissão.",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CMULHER",
+    "data": "19/09/2023 · aprovado",
+    "codteor": "2329699",
+    "aprovado": true,
+    "id": 2388458
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-09-04T12:55",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 4866/2019, pelo Deputado Bosco Costa (PL/SE), que \"Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1802145",
+      "nome": "Inteiro teor · PL 4866/2019",
+      "id": 2218630
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-09-13T14:43",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Esporte; Defesa dos Direitos da Mulher; Seguridade Social e Família e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1806447",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CESPO",
+   "nome": "Comissão do Esporte",
+   "eventos": [
+    {
+     "data_hora": "2019-09-16T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 17/09/19 PÁG 200. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1841369",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-09-16T17:04",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CESPO.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-09T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Flordelis (PSD-RJ)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-10-10T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 11/10/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-24T11:58",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 10/10/2019 a 24/10/2019). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-02-23T11:27",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 251/2021, pelos Deputados Pedro Lucas Fernandes (PTB/MA) e Bosco Costa PL, que \"Requer inclusão na coautoria do PL 4.866/2019\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1965690",
+      "nome": "REQ 251/2021",
+      "id": 2270656
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CESPO",
+   "nome": "Comissão do Esporte",
+   "eventos": [
+    {
+     "data_hora": "2021-03-12T10:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) A Relatora, Dep. Flordelis, não integrava a Comissão na data da instalação (deixou de ser membro em 03/02/2020)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-03-12T15:33",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-03-17T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 251/2021, conforme o despacho do seguinte teor: \"Defiro. Publique-se\".",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CESPO",
+   "nome": "Comissão do Esporte",
+   "eventos": [
+    {
+     "data_hora": "2021-03-18T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Flávia Morais (PDT-GO)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-06-14T17:55",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CESPO, pela Deputada Flávia Morais (PDT/GO).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2027655",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-06-14T17:55",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Flávia Morais (PDT-GO), pela aprovação, com Substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2027653",
+      "nome": "PRL 1 CESPO",
+      "id": 2286818
+     }
+    },
+    {
+     "data_hora": "2021-06-16T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 17/06/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-06-24T15:47",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 16/06/2021 a 24/06/2021). Foi apresentada uma emenda ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-06-25T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvida à Relatora, Dep. Flávia Morais (PDT-GO)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-08-25T13:03",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer às Emendas Apresentadas ao Substitutivo do Relator n. 1 CESPO, pela Deputada Flávia Morais (PDT/GO).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2063812",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-08-25T13:03",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer à Emenda Apresentada ao Substitutivo da Relatora, Dep. Flávia Morais (PDT-GO), pela aprovação deste e da Emenda ao Substitutivo 1 CESPO, com Substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2063810",
+      "nome": "PES 1 CESPO",
+      "id": 2296286
+     }
+    },
+    {
+     "data_hora": "2021-08-31T13:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência da Relatora, no momento da apreciação.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2021-09-21T13:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência da Relatora.",
+     "tipo": "alerta",
+     "etiqueta": "2ª RETIRADA"
+    },
+    {
+     "data_hora": "2021-09-28T13:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência da Relatora.",
+     "tipo": "alerta",
+     "etiqueta": "3ª RETIRADA"
+    },
+    {
+     "data_hora": "2021-10-05T13:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pela Relatora.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-05T13:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    },
+    {
+     "data_hora": "2021-10-06T15:04",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação do Parecer de Comissão n. 1 CESPO, pela Comissão do Esporte.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2085743",
+      "nome": "Recebimento - Redação Final"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2021-10-06T15:14",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMULHER.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-06T15:22",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-07T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão do Esporte Publicado em avulso e no DCD de 08/10/2021, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-28T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Chris Tonietto (PSL-RJ)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-10-29T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 01/11/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-11-10T14:30",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 29/10/2021 a 10/11/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Fim de Legislatura) A Relatora, Dep. Chris Tonietto, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2023-03-24T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Delegada Ione (AVANTE-MG)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-03-27T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Reabertura do Prazo para Emendas ao Projeto - Art. 166 do RICD (5 sessões a partir de 28/03/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-04-12T21:58",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 27/03/2023 a 12/04/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-09-19T10:17",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CMULHER (Parecer do Relator), pela Deputada Delegada Ione (AVANTE/MG).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2329699",
+      "nome": "PRL 1 CMULHER",
+      "id": 2388458
+     }
+    },
+    {
+     "data_hora": "2023-09-19T10:17",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da relatora, Dep. Delegada Ione, pela aprovação do PL 4866/2019 na forma do Substitutivo da Comissão do Esporte, com submenda substitutiva.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2329699",
+      "nome": "PRL 1 CMULHER",
+      "id": 2388458
+     }
+    },
+    {
+     "data_hora": "2023-10-18T13:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício.",
+     "tipo": "alerta",
+     "etiqueta": "4ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-11-08T13:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência da Relatora.",
+     "tipo": "alerta",
+     "etiqueta": "5ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-11-29T13:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício.",
+     "tipo": "alerta",
+     "etiqueta": "6ª RETIRADA"
+    },
+    {
+     "data_hora": "2023-12-06T13:30",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pela Relatora",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-12-06T13:30",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-12-13T13:55",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-12-14T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Mulher Publicado em avulso e no DCD de 15/12/2023, Letra B. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-12-21T15:46",
+     "titulo": "Despacho",
+     "texto": "Despacho de ofício ao PL 4866/2019, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1/2023, revejo o despacho de distribuição aposto ao Projeto de Lei n. 4.866/2019, para determinar a sua redistribuição à Comissão de Saúde, em substituição à Comissão de Seguridade Social e Família, extinta pela mesma Resolução, mantidos válidos e eficazes eventuais pareceres aprovados. Publique-se.[ATUALIZAÇÃO DO DESPACHO DO PL N. 4.866/2019: CESPO, CSAUDE, CMULHER e CCJC (art. 54 do RICD). Proposição sujeita à apreciação conclusiva pelas Comissões (art. 24, II, do RICD). Regime de tramitação: ordinário (art. 151, III, do RICD)]\"",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "2380683",
+      "nome": "Despacho"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 4866/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 04/09/2019",
+   "autor": "Dep. Bosco Costa (PL/SE)",
+   "texto": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+   "id": 2218630,
+   "situacao": "AGUARDANDO AUTORIZAÇÃO DO DESPACHO",
+   "codteor": "1802145"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Bosco Costa (PL/SE)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CESPO",
+      "tipo": "Parecer do Relator",
+      "data": "14/06/2021",
+      "id": 2286818,
+      "texto": "Parecer da Relatora, Dep. Flávia Morais (PDT-GO), pela aprovação, com Substitutivo.",
+      "codteor": "2027653"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "15/06/2021",
+      "id": 2286819,
+      "texto": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+      "codteor": "2027653"
+     },
+     {
+      "sigla": "PES 1 CESPO",
+      "tipo": "Parecer às Emendas Apresentadas ao Substitutivo do Relator",
+      "data": "25/08/2021",
+      "id": 2296286,
+      "texto": "Parecer à Emenda Apresentada ao Substitutivo da Relatora, Dep. Flávia Morais (PDT-GO), pela aprovação deste e da Emenda ao Substitutivo 1 CESPO, com Substitutivo.",
+      "codteor": "2063810"
+     },
+     {
+      "sigla": "SBT 2",
+      "tipo": "Substitutivo",
+      "data": "25/08/2021",
+      "id": 2296287,
+      "texto": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+      "codteor": "2063810"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "06/10/2021",
+      "id": 2301851,
+      "texto": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+      "codteor": "2085741"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "06/10/2021",
+      "id": 2301858,
+      "texto": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+      "codteor": "2085765"
+     },
+     {
+      "sigla": "PRL 1 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "19/09/2023",
+      "id": 2388458,
+      "texto": "Parecer da relatora, Dep. Delegada Ione, pela aprovação do PL 4866/2019 na forma do Substitutivo da Comissão do Esporte, com submenda substitutiva.",
+      "codteor": "2329699"
+     },
+     {
+      "sigla": "SBR 1",
+      "tipo": "Subemenda de Relator",
+      "data": "19/09/2023",
+      "id": 2413131,
+      "codteor": "2329699"
+     },
+     {
+      "sigla": "PAR 1 (id 2413116)",
+      "tipo": "Parecer de Comissão",
+      "data": "13/12/2023",
+      "id": 2413116,
+      "texto": "Parecer da Comissão de Defesa dos Direitos da Mulher ao Projeto de Lei nº 4.866/2019.",
+      "codteor": "2375532"
+     },
+     {
+      "sigla": "SBE-A 1",
+      "tipo": "Subemenda Adotada pela Comissão",
+      "data": "13/12/2023",
+      "id": 2413118,
+      "texto": "Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.",
+      "codteor": "2375534"
+     }
+    ]
+   },
+   {
+    "rotulo": "EMENDAS",
+    "plural": "emendas",
+    "itens": [
+     {
+      "sigla": "ESB 1",
+      "tipo": "Emenda ao Substitutivo",
+      "data": "17/06/2021",
+      "id": 2287391,
+      "texto": "Dê-se ao §1º e ao inc. IV do §2º do art.1º e do Substitutivo ao Projeto de Lei n. 4.866, de 2019 nova redação:",
+      "codteor": "2029831"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 251/2021",
+      "tipo": "Requerimento",
+      "data": "23/02/2021",
+      "id": 2270656,
+      "texto": "Requer inclusão na coautoria do PL 4.866/2019.",
+      "codteor": "1965690"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "27/09/2023",
+      "id": 2391295,
+      "texto": "Requerimento de Inversão da Pauta - PL 4866/2019",
+      "codteor": "2335020"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Votação pelo Processo Nominal",
+      "data": "27/09/2023",
+      "id": 2391297,
+      "texto": "Requerimento de Votação Nominal-Requerimento de Inversão da Pauta - PL 4866/2019",
+      "codteor": "2335023"
+     },
+     {
+      "sigla": "RPD 3",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "06/12/2023",
+      "id": 2410226,
+      "texto": "Requerimento de Inversão da Pauta - PL 4866/2019",
+      "codteor": "2371016"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 4866/2019",
+     "tipo": "Texto original",
+     "codteor": "1802145"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 251/2021"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CESPO",
+    "SBT 1",
+    "PES 1 CESPO",
+    "SBT 2",
+    "PAR 1",
+    "SBT-A 1",
+    "PRL 1 CMULHER",
+    "SBR 1",
+    "PAR 1 (id 2413116)",
+    "SBE-A 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [
+    "ESB 1"
+   ],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 13/09/2019",
+     "tipo": "Despacho",
+     "data": "13/09/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Esporte; Defesa dos Direitos da Mulher; Seguridade Social e Família e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1806447"
+    },
+    {
+     "sigla": "Despacho de 21/12/2023",
+     "tipo": "Despacho",
+     "data": "21/12/2023",
+     "autor": "MESA",
+     "texto": "Despacho de ofício ao PL 4866/2019, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1/2023, revejo o despacho de distribuição aposto ao Projeto de Lei n. 4.866/2019, para determinar a sua redistribuição à Comissão de Saúde, em substituição à Comissão de Seguridade Social e Família, extinta pela mesma Resolução, mantidos válidos e eficazes eventuais pareceres aprovados. Publique-se.[ATUALIZAÇÃO DO DESPACHO DO PL N. 4.866/2019: CESPO, CSAUDE, CMULHER e CCJC (art. 54 do RICD). Proposição sujeita à apreciação conclusiva pelas Comissões (art. 24, II, do RICD). Regime de tramitação: ordinário (art. 151, III, do RICD)]\"",
+     "codteor": "2380683"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

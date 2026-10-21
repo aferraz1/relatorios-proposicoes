@@ -1,0 +1,565 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2190751,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 245/2019",
+  "ementa": "Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1707036",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "04/02/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2019-02-04",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direitos Humanos e Minorias"
+  ],
+  "keywords": "Criação, Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara (FDCCQA), desenvolvimento econômico, desenvolvimento cultural, desenvolvimento social, Quilombolas, Comunidade tradicional, prejuízo, instalação, Centro de Lançamento de Alcântara (CLA), Alcântara (MA), Maranhão, fonte de recursos, benefício fiscal, pessoa física, pessoa jurídica, doação, comitê gestor, composição."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2021-10-28",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CFT"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-02-04",
+   "fim": "2019-02-04",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1721651",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Relações Exteriores e de Defesa Nacional",
+   "papel": "Mérito",
+   "inicio": "2019-03-22",
+   "fim": "2019-10-16",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CDHMIR",
+   "nome": "Direitos Humanos, Minorias e Igualdade Racial",
+   "papel": "Mérito",
+   "inicio": "2019-10-17",
+   "fim": "2021-10-28",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2068391",
+    "nome": "PARECER APROVADO",
+    "id": 2297425
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2021-10-28",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-02-04",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CDHMIR",
+  "relator": {
+   "id": 204352,
+   "nome": "Dep. Camilo Capiberibe",
+   "descricao": "Deputado Federal · PSB/AP",
+   "rotulo": "RELATOR(A) · CDHMIR"
+  },
+  "resumo_inicio": "Designação em 23/10/2019. Apresentou uma versão de parecer:",
+  "resumo_fim": "O último parecer foi aprovado na comissão.",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CDHMIR",
+    "data": "01/09/2021 · aprovado",
+    "codteor": "2068391",
+    "aprovado": true,
+    "id": 2297425
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-02-04T18:38",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 245/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara O Congresso Nacional decreta:\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1707036",
+      "nome": "Inteiro teor · PL 245/2019",
+      "id": 2190751
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-03-22T10:36",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Relações Exteriores e de Defesa Nacional; Direitos Humanos e Minorias; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1721651",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "eventos": [
+    {
+     "data_hora": "2019-03-22T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 23/03/19 PÁG 71. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1740984",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-03-22T17:07",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CREDN.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-04-24T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Aluisio Mendes (PODE-MA)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-04-25T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 26/04/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-05-14T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo para emendas ao projeto. Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-09-13T14:55",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-4878/2019.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1804385",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CREDN",
+   "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+   "eventos": [
+    {
+     "data_hora": "2019-09-25T16:30",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CREDN, pelo Deputado Aluisio Mendes (PSC-MA).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1812272",
+      "nome": "PRL 1 CREDN",
+      "id": 2221902
+     }
+    },
+    {
+     "data_hora": "2019-09-25T16:30",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Aluisio Mendes (PSC-MA), pela aprovação deste, e do PL 4878/2019, apensado, com Substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1812272",
+      "nome": "PRL 1 CREDN",
+      "id": 2221902
+     }
+    },
+    {
+     "data_hora": "2019-09-26T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 27/09/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-10T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo para apresentação de emendas ao Substitutivo. Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-16T00:00",
+     "titulo": "Aprovação",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1823335",
+      "nome": "Aprovação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CDHMIR",
+   "nome": "Comissão de Direitos Humanos, Minorias e Igualdade Racial",
+   "eventos": [
+    {
+     "data_hora": "2019-10-17T18:02",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CDHM, com a proposição PL-4878/2019 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-17T18:06",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-21T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Relações Exteriores e de Defesa Nacional Publicado em avulso e no DCD de 22/10/19 PÁG 236, Letra A. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1852895",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-23T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Camilo Capiberibe (PSB-AP)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-10-31T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 01/11/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-11-12T17:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 31/10/2019 a 12/11/2019). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-09-01T20:47",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CDHM, pelo Deputado Camilo Capiberibe (PSB/AP).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2068393",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-09-01T20:47",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Camilo Capiberibe (PSB-AP), pela aprovação deste e do PL 4878/2019, apensado, na forma do Substitutivo adotado pela CREDN.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2068391",
+      "nome": "PRL 1 CDHMIR",
+      "id": 2297425
+     }
+    },
+    {
+     "data_hora": "2021-10-27T13:00",
+     "titulo": "Rejeição de Requerimento",
+     "texto": "Rejeitado o Requerimento de Retirada de Pauta de autoria do deputado Junio Amaral.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-10-27T13:00",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pelo Relator.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-27T13:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    },
+    {
+     "data_hora": "2021-10-28T14:44",
+     "titulo": "Recebimento - Redação Final",
+     "texto": "Apresentação do Parecer de Comissão n. 1 CDHM, pela Comissão de Direitos Humanos e Minorias.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2097299",
+      "nome": "Recebimento - Redação Final"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2021-10-28T14:53",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-28T15:30",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, com a proposição PL-4878/2019 apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    },
+    {
+     "data_hora": "2021-10-28T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Direitos Humanos e Minorias Publicado em avulso e no DCD de 29/10/2021, Letra B. (CCP)",
+     "tipo": "rotina"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CFT",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 245/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 04/02/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara.",
+   "id": 2190751,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1707036"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 4878/2019",
+    "tipo": "Projeto de Lei",
+    "data": "04/09/2019",
+    "id": 2218688,
+    "texto": "Estabelece a concessão do benefício temporário de assistência financeira às comunidades quilombolas atingida pelo funcionamento da base espacial em atividade no Brasil",
+    "codteor": "1802368",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CREDN",
+      "tipo": "Parecer do Relator",
+      "data": "25/09/2019",
+      "id": 2221902,
+      "texto": "Parecer do Relator, Dep. Aluisio Mendes (PSC-MA), pela aprovação deste, e do PL 4878/2019, apensado, com Substitutivo.",
+      "codteor": "1812272"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "25/09/2019",
+      "id": 2222063,
+      "texto": "Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara.",
+      "codteor": "1812272"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "16/10/2019",
+      "id": 2225553,
+      "texto": "Aprovado o Parecer.. Parecer do Relator, Dep. Aluisio Mendes (PSC-MA), pela aprovação deste, e do PL 4878/2019, apensado, com Substitutivo.",
+      "codteor": "1821710"
+     },
+     {
+      "sigla": "SBT-A 1",
+      "tipo": "Substitutivo adotado pela Comissão",
+      "data": "18/10/2019",
+      "id": 2225950,
+      "texto": "Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara.",
+      "codteor": "1823129"
+     },
+     {
+      "sigla": "PRL 1 CDHMIR",
+      "tipo": "Parecer do Relator",
+      "data": "01/09/2021",
+      "id": 2297425,
+      "texto": "Parecer do Relator, Dep. Camilo Capiberibe (PSB-AP), pela aprovação deste e do PL 4878/2019, apensado, na forma do Substitutivo adotado pela CREDN.",
+      "codteor": "2068391"
+     },
+     {
+      "sigla": "PAR 1 (id 2304949)",
+      "tipo": "Parecer de Comissão",
+      "data": "28/10/2021",
+      "id": 2304949,
+      "texto": "Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara.",
+      "codteor": "2097297"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 245/2019",
+     "tipo": "Texto original",
+     "codteor": "1707036"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CREDN",
+    "SBT 1",
+    "PAR 1",
+    "SBT-A 1",
+    "PRL 1 CDHMIR",
+    "PAR 1 (id 2304949)"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 22/03/2019",
+     "tipo": "Despacho",
+     "data": "22/03/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Relações Exteriores e de Defesa Nacional; Direitos Humanos e Minorias; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1721651"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}
