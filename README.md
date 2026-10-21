@@ -39,12 +39,12 @@ dependem de avaliação humana e não são geradas.
 
 ```bash
 # um relatório por proposição da base de pesquisa, ligando-os à página de pesquisa
-python -m relatorios_proposicoes.coleta --ids-de dados/pesquisa-pedro-lucas.json --manter 2497586 \
+python -m relatorios_proposicoes.coleta --ids-de dados/pesquisa-pedro-lucas.json --manter 2497586 2271138 \
     -o dados/proposicoes --pesquisa dados/pesquisa-pedro-lucas.json
-python -m relatorios_proposicoes dados/proposicoes/*.json dados/pl-1680-2025.json dados/pesquisa-pedro-lucas.json
+python -m relatorios_proposicoes dados/proposicoes/*.json dados/pl-1680-2025.json dados/pl-649-2021.json dados/pesquisa-pedro-lucas.json
 ```
 
-`--manter` preserva relatórios curados à mão (como o do PL 1.680/2025, com a análise estratégica).
+`--manter` preserva relatórios curados à mão (como os do PL 1.680/2025 e do PL 649/2021, com a análise estratégica).
 
 A chave `"pagina"` do JSON escolhe a página (`"capa"` ou `"pesquisa"`); sem ela, o arquivo é um
 relatório de tramitação. A capa é sempre clara, para impressão. A pesquisa abre o relatório de
