@@ -1,0 +1,1009 @@
+{
+  "data_consulta": "2026-10-21",
+  "proposicao": {
+    "id": 2271138,
+    "casa": "Câmara dos Deputados",
+    "identificacao": "PL 649/2021",
+    "ementa": "Garante ampla defesa e contraditório ao usuário quando a plataforma remove ou restringe conteúdo sem ordem judicial.",
+    "explicacao": "Acrescenta o art. 20-A ao Marco Civil da Internet (Lei nº 12.965/2014): o provedor de aplicações que indisponibilizar ou intervir em conteúdo de terceiros sem ordem judicial deve informar ao usuário os motivos, apontar a cláusula dos termos de uso aplicada e oferecer ferramenta de contestação; a pedido do usuário, o conteúdo removido é substituído pela motivação.",
+    "codteor_inteiro_teor": "1968646",
+    "metadados": [
+      {
+        "rotulo": "APRESENTAÇÃO",
+        "valor": "02/03/2021"
+      },
+      {
+        "rotulo": "REGIME",
+        "valor": "Urgência (Art. 154, RICD)"
+      },
+      {
+        "rotulo": "APRECIAÇÃO",
+        "valor": "Plenário"
+      }
+    ],
+    "apresentacao": "2021-03-02",
+    "rotulo_apreciacao": "TRAMITA EM CONJUNTO COM O PL 2630/2020 · URGÊNCIA (ART. 154) · PLENÁRIO · RICD",
+    "nota_apreciacao": "O PL 649/2021 não tramita sozinho: foi apensado ao PL 2883/2020, que integra a cadeia de apensação encabeçada pelo PL 2630/2020 (\"PL das Fake News\", oriundo do Senado). Com a urgência aprovada em 25/04/2023, o conjunto é apreciado diretamente pelo Plenário, com parecer de relator designado em Plenário. Aprovado com alterações, o texto volta ao Senado Federal, Casa iniciadora, para apreciar as modificações (CF, art. 65, parágrafo único), e segue à sanção.",
+    "emendas_apresentadas": 0,
+    "temas": [
+      "Comunicações"
+    ],
+    "keywords": "Alteração, Marco Civil da Internet, Direito à ampla defesa, garantia ao contraditório, indisponibilização, intervenção, Ordem judicial, provedor de aplicações, conteúdo digital, geração, terceiro."
+  },
+  "autor": {
+    "id": 122974,
+    "nome": "Dep. Pedro Lucas Fernandes",
+    "descricao": "Deputado Federal · UNIÃO/MA (PTB/MA na apresentação)",
+    "rotulo": "AUTOR · PROPONENTE"
+  },
+  "situacao": {
+    "descricao": "Tramitando em Conjunto (apensado ao PL 2883/2020)",
+    "estado": "APENSADO",
+    "orgao_sigla": "PLEN",
+    "orgao_nome": "Plenário, com o PL 2630/2020 pronto para pauta",
+    "desde": "2021-04-26",
+    "rotulo_tempo": "APENSADO HÁ",
+    "rotulo_indicador": "DIAS APENSADO"
+  },
+  "estagios": [
+    {
+      "sigla": "MESA",
+      "nome": "Mesa Diretora",
+      "papel": "Apresentação, despacho e apensação ao PL 2883/2020",
+      "inicio": "2021-03-02",
+      "fim": "2021-04-26",
+      "estado": "concluido",
+      "documento": {
+        "codteor": "1972007",
+        "nome": "DESPACHO"
+      }
+    },
+    {
+      "sigla": "CCTI",
+      "nome": "Ciência, Tecnologia e Inovação",
+      "papel": "Recebido com o conjunto; exame substituído pelo parecer em Plenário após a urgência",
+      "inicio": "2021-04-27",
+      "fim": "2023-04-25",
+      "estado": "concluido"
+    },
+    {
+      "sigla": "PLEN",
+      "nome": "Plenário",
+      "papel": "Parecer do relator de Plenário e votação do conjunto do PL 2630/2020",
+      "inicio": "2023-04-25",
+      "estado": "atual",
+      "documento": {
+        "codteor": "2265334",
+        "nome": "PARECER PRELIMINAR"
+      }
+    },
+    {
+      "sigla": "SF",
+      "nome": "Senado Federal",
+      "papel": "Casa iniciadora do PL 2630/2020: aprecia as alterações da Câmara (CF, art. 65, parágrafo único)",
+      "estado": "pendente"
+    },
+    {
+      "sigla": "SANÇÃO",
+      "nome": "Presidência da República",
+      "papel": "Sanção ou veto (CF, art. 66)",
+      "estado": "pendente"
+    }
+  ],
+  "relatoria": {
+    "orgao_sigla": "PLEN",
+    "relator": {
+      "id": 178987,
+      "nome": "Dep. Orlando Silva",
+      "descricao": "Deputado Federal · PCdoB/SP",
+      "rotulo": "RELATOR DE PLENÁRIO · PL 2630/2020"
+    },
+    "resumo_inicio": "Designado em 25/04/2023, após a aprovação da urgência do PL 2630/2020. Apresentou parecer preliminar pela aprovação do PL 649/2021, na forma do substitutivo:",
+    "resumo_fim": "O parecer não foi votado: a matéria foi retirada de pauta em 02/05/2023.",
+    "pareceres": [
+      {
+        "sigla": "PRLP 1",
+        "nome": "Parecer Preliminar de Plenário · PRLP 1 PLEN",
+        "data": "27/04/2023",
+        "codteor": "2265334",
+        "aprovado": false,
+        "status": "NÃO VOTADO"
+      }
+    ]
+  },
+  "fases": [
+    {
+      "sigla": "MESA",
+      "nome": "PL 649/2021 · apresentação e apensação",
+      "eventos": [
+        {
+          "data_hora": "2021-03-02T10:28",
+          "titulo": "Apresentação de Proposição",
+          "texto": "Apresentado pelo Dep. Pedro Lucas Fernandes (PTB/MA).",
+          "tipo": "marco",
+          "etiqueta": "INÍCIO",
+          "documento": {
+            "codteor": "1968646",
+            "nome": "Inteiro teor · PL 649/2021",
+            "id": 2271138
+          }
+        },
+        {
+          "data_hora": "2021-04-26T12:06",
+          "titulo": "Despacho de Apensação",
+          "texto": "Apense-se ao PL 2883/2020. Proposição sujeita à apreciação do Plenário.",
+          "tipo": "marco",
+          "etiqueta": "APENSAÇÃO",
+          "documento": {
+            "codteor": "1972007",
+            "nome": "Despacho de apensação"
+          }
+        },
+        {
+          "data_hora": "2021-04-27T00:00",
+          "titulo": "Publicação de Proposição",
+          "texto": "Publicação inicial em avulso e no DCD de 28/04/2021 (CCP).",
+          "tipo": "rotina",
+          "documento": {
+            "codteor": "1999594",
+            "nome": "Avulso · PL 649/2021"
+          }
+        },
+        {
+          "data_hora": "2021-04-27T17:04",
+          "titulo": "Recebimento",
+          "texto": "Recebimento pela CCTCI, com o conjunto.",
+          "tipo": "rotina"
+        }
+      ]
+    },
+    {
+      "sigla": "CONJ",
+      "nome": "PL 2630/2020 · proposição principal do conjunto",
+      "eventos": [
+        {
+          "data_hora": "2021-04-15T10:25",
+          "titulo": "Distribuição",
+          "texto": "PL 2630/2020 distribuído à CCTCI, à CFT (mérito e art. 54) e à CCJC (mérito e art. 54).",
+          "tipo": "rotina",
+          "documento": {
+            "codteor": "1991887",
+            "nome": "Despacho de distribuição · PL 2630/2020"
+          }
+        },
+        {
+          "data_hora": "2021-04-19T00:00",
+          "titulo": "Designação de Relator(a)",
+          "texto": "Designado relator na CCTCI o Dep. Paulo Ganime (NOVO-RJ).",
+          "tipo": "rotina"
+        },
+        {
+          "data_hora": "2021-05-05T00:00",
+          "titulo": "Notificação de Apensação",
+          "texto": "O PL 1676/2015, que encabeçava a cadeia em que está o PL 649/2021, é apensado ao PL 2630/2020.",
+          "tipo": "marco",
+          "etiqueta": "CONJUNTO",
+          "documento": {
+            "codteor": "2004827",
+            "nome": "Despacho · apensação do PL 1676/2015"
+          }
+        },
+        {
+          "data_hora": "2021-05-17T00:00",
+          "titulo": "Notificação de Despacho",
+          "texto": "Indeferido o REQ 811/2021, de desapensação do PL 2883/2020: as matérias são correlatas ao PL 2630/2020 (RICD, art. 142).",
+          "tipo": "alerta",
+          "etiqueta": "DESAPENSAÇÃO NEGADA"
+        },
+        {
+          "data_hora": "2021-06-21T00:00",
+          "titulo": "Notificações",
+          "texto": "Audiência pública na CCTCI sobre o PL 2630/2020 (1º evento da série).",
+          "tipo": "rotina"
+        },
+        {
+          "data_hora": "2021-12-07T16:48",
+          "titulo": "Apresentação de Requerimento",
+          "texto": "REQ 2721/2021, do Dep. Orlando Silva e outros: urgência (RICD, art. 154, II).",
+          "tipo": "rotina",
+          "documento": {
+            "codteor": "2119563",
+            "nome": "REQ 2721/2021 · urgência"
+          }
+        },
+        {
+          "data_hora": "2023-04-25T00:00",
+          "titulo": "Designação de Relator(a)",
+          "texto": "Designado relator de Plenário o Dep. Orlando Silva (PCdoB-SP).",
+          "tipo": "marco"
+        },
+        {
+          "data_hora": "2023-04-25T13:55",
+          "titulo": "Aprovação de Urgência",
+          "texto": "Aprovado o REQ 2721/2021: o conjunto passa ao regime de urgência e à apreciação direta pelo Plenário.",
+          "tipo": "marco",
+          "etiqueta": "URGÊNCIA"
+        },
+        {
+          "data_hora": "2023-04-27T22:09",
+          "titulo": "Recebimento - Relator(a)",
+          "texto": "Parecer Preliminar de Plenário nº 1: aprovação do PL 649/2021 e de outros apensados, na forma do substitutivo.",
+          "tipo": "marco",
+          "etiqueta": "PARECER",
+          "documento": {
+            "codteor": "2265334",
+            "nome": "PRLP 1 PLEN"
+          }
+        },
+        {
+          "data_hora": "2023-05-02T18:00",
+          "titulo": "Retirada de Pauta",
+          "texto": "Retirado de pauta, de ofício.",
+          "tipo": "alerta",
+          "etiqueta": "RETIRADA"
+        },
+        {
+          "data_hora": "2023-05-02T19:15",
+          "titulo": "Distribuição",
+          "texto": "Revisto o despacho: CCOM, CFT e CCJC (mérito e art. 54), mantidos a urgência e a apreciação pelo Plenário.",
+          "tipo": "rotina"
+        },
+        {
+          "data_hora": "2024-04-24T15:57",
+          "titulo": "Apresentação de Requerimento",
+          "texto": "REQ 1358/2024 (apensação do PL 847/2019). Última movimentação registrada; o conjunto segue pronto para pauta.",
+          "tipo": "atual",
+          "etiqueta": "ESTÁGIO ATUAL",
+          "documento": {
+            "codteor": "2413634",
+            "nome": "REQ 1358/2024"
+          }
+        }
+      ]
+    }
+  ],
+  "proximos_marcos": [
+    {
+      "titulo": "Inclusão do PL 2630/2020 na pauta do Plenário",
+      "descricao": "Depende da Presidência da Câmara; o conjunto está pronto para pauta desde 2023."
+    },
+    {
+      "titulo": "Parecer de Plenário em versão final",
+      "descricao": "Novo parecer ou complementação do PRLP 1 sobre o mérito e as emendas de Plenário."
+    },
+    {
+      "titulo": "Votação do substitutivo",
+      "descricao": "Aprovado o substitutivo, os apensados ficam prejudicados ou são aprovados na forma dele."
+    },
+    {
+      "titulo": "Retorno ao Senado Federal",
+      "descricao": "Casa iniciadora aprecia as alterações da Câmara (CF, art. 65, parágrafo único)."
+    },
+    {
+      "titulo": "Sanção ou veto",
+      "descricao": "Prazo de 15 dias úteis (CF, art. 66, § 1º)."
+    }
+  ],
+  "arvore": {
+    "raiz": {
+      "sigla": "PL 649/2021",
+      "tipo": "Projeto de Lei",
+      "data": "Apresentado em 02/03/2021",
+      "autor": "Dep. Pedro Lucas Fernandes (PTB/MA)",
+      "texto": "Altera a Lei nº 12.965, de 23 de abril de 2014, para dispor sobre direito de ampla defesa e contraditório pela indisponibilização ou qualquer intervenção sem ordem judicial do provedor de aplicações sobre conteúdo gerado por terceiros.",
+      "id": 2271138,
+      "codteor": "1968646",
+      "situacao": "TRAMITANDO EM CONJUNTO"
+    },
+    "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (PTB/MA)",
+    "apensados": [],
+    "grupos": [
+      {
+        "rotulo": "CADEIA DE APENSAÇÃO · ATÉ A PRINCIPAL",
+        "plural": "proposições na cadeia de apensação",
+        "itens": [
+          {
+            "sigla": "PL 2883/2020",
+            "tipo": "Projeto de Lei · recebe o PL 649/2021",
+            "data": "26/05/2020",
+            "autor": "Dep. Filipe Barros (PSL/PR)",
+            "texto": "Altera o Marco Civil da Internet (Lei nº 12.965/2014) e a Lei do Sistema Brasileiro de Defesa da Concorrência (Lei nº 12.529/2011).",
+            "id": 2253673,
+            "codteor": "1897472",
+            "situacao": "APENSADO"
+          },
+          {
+            "sigla": "PL 283/2020",
+            "tipo": "Projeto de Lei",
+            "data": "12/02/2020",
+            "autor": "Dep. Cássio Andrade",
+            "texto": "Dispõe sobre o rito sumário para a retirada de conteúdos ilegais de redes sociais.",
+            "id": 2237042,
+            "codteor": "1857645",
+            "situacao": "APENSADO"
+          },
+          {
+            "sigla": "PL 2712/2015",
+            "tipo": "Projeto de Lei",
+            "data": "19/08/2015",
+            "autor": "Dep. Jefferson Campos",
+            "texto": "Modifica o Marco Civil da Internet, obrigando os provedores de aplicações a remover, por solicitação do interessado, referências a registros sobre sua pessoa, nas condições que especifica.",
+            "id": 1672348,
+            "codteor": "1374249",
+            "situacao": "APENSADO"
+          },
+          {
+            "sigla": "PL 1676/2015",
+            "tipo": "Projeto de Lei",
+            "data": "26/05/2015",
+            "autor": "Dep. Veneziano Vital do Rêgo",
+            "texto": "Tipifica a captação não autorizada de imagem e voz e dispõe sobre a desvinculação de nome e imagem publicados na internet relativos a fatos sem interesse público.",
+            "id": 1295741,
+            "codteor": "1339457",
+            "situacao": "APENSADO"
+          },
+          {
+            "sigla": "PL 2630/2020",
+            "tipo": "Projeto de Lei · proposição principal",
+            "data": "03/07/2020",
+            "autor": "Senado Federal · Sen. Alessandro Vieira",
+            "texto": "Institui a Lei Brasileira de Liberdade, Responsabilidade e Transparência na Internet.",
+            "id": 2256735,
+            "codteor": "1909983",
+            "situacao": "PRONTA PARA PAUTA"
+          }
+        ]
+      },
+      {
+        "rotulo": "PARECERES · PLENÁRIO",
+        "plural": "parecer de Plenário",
+        "itens": [
+          {
+            "sigla": "PRLP 1 PLEN",
+            "tipo": "Parecer Preliminar de Plenário",
+            "data": "27/04/2023",
+            "autor": "Dep. Orlando Silva (PCdoB/SP)",
+            "texto": "Pela constitucionalidade, juridicidade e boa técnica legislativa e, no mérito, pela aprovação do PL 2630/2020 e de apensados, entre eles o PL 649/2021, na forma do substitutivo. Os arts. 16 a 19 do substitutivo tratam da notificação do usuário e do devido processo na moderação de conteúdo.",
+            "codteor": "2265334",
+            "situacao": "NÃO VOTADO"
+          }
+        ]
+      }
+    ]
+  },
+  "anexos": [
+    {
+      "titulo": "Avulsos",
+      "subtitulo": "Avulso da proposição",
+      "selo": "PDF",
+      "itens": [
+        {
+          "sigla": "Avulso PL 649/2021",
+          "tipo": "Avulso",
+          "texto": "Avulso publicado no DCD de 28/04/2021.",
+          "codteor": "1999594"
+        }
+      ]
+    },
+    {
+      "titulo": "Legislação Citada",
+      "subtitulo": "Normas referenciadas no texto original",
+      "selo": "PDF",
+      "itens": [
+        {
+          "sigla": "Legislação Citada · PL 649/2021",
+          "tipo": "Legislação citada",
+          "data": "Anexo ao texto original",
+          "texto": "Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet).",
+          "codteor": "1970161"
+        }
+      ]
+    },
+    {
+      "titulo": "Mensagens, Ofícios e Requerimentos",
+      "subtitulo": "Requerimentos vinculados ao PL 649/2021",
+      "itens": []
+    },
+    {
+      "titulo": "Destaques",
+      "subtitulo": "Destaques para votação em separado",
+      "itens": []
+    },
+    {
+      "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+      "subtitulo": "Na ficha do PL 649/2021 (0); o parecer de Plenário está no PL 2630/2020",
+      "selo": "0",
+      "referencias": [
+        "PRLP 1 PLEN"
+      ]
+    },
+    {
+      "titulo": "Relatório de conferência de assinaturas",
+      "subtitulo": "Conferência de assinaturas de apoiamento",
+      "selo": "N/D",
+      "itens": [],
+      "mensagem_vazio": "Documento não disponível na ficha de tramitação até {data_consulta}."
+    },
+    {
+      "titulo": "Emendas",
+      "subtitulo": "Emendas ao Projeto (0) · Emendas ao Substitutivo (0)",
+      "itens": [],
+      "mensagem_vazio": "Nenhuma emenda apresentada ao PL 649/2021. As emendas de Plenário do conjunto tramitam no PL 2630/2020."
+    },
+    {
+      "titulo": "Recursos",
+      "subtitulo": "Recursos",
+      "itens": []
+    },
+    {
+      "titulo": "Histórico de Despachos",
+      "subtitulo": "Despachos da Mesa Diretora",
+      "itens": [
+        {
+          "sigla": "Despacho de 26/04/2021",
+          "tipo": "Despacho",
+          "data": "26/04/2021",
+          "autor": "Mesa Diretora",
+          "texto": "Apense-se à(ao) PL-2883/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD).",
+          "codteor": "1972007"
+        }
+      ]
+    },
+    {
+      "titulo": "Redação Final",
+      "subtitulo": "Texto final aprovado",
+      "selo": "N/D",
+      "itens": [],
+      "mensagem_vazio": "Ainda não há redação final: o conjunto aguarda votação no Plenário."
+    }
+  ],
+  "analise": {
+    "introducao": "Análise técnica do gabinete sobre o PL 649/2021, apensado ao conjunto encabeçado pelo PL 2630/2020, considerando o parecer preliminar de Plenário (PRLP 1 PLEN) e o regime de responsabilidade dos provedores após o julgamento dos Temas 987 e 533 pelo STF. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se validar no portal do STF a redação final das teses antes de citá-las em documento formal.",
+    "sintese": [
+      "O PL 649/2021 propõe um **devido processo mínimo para a moderação privada de conteúdo**: quando a plataforma remove ou restringe conteúdo sem ordem judicial, deve informar os motivos, apontar a cláusula dos termos de uso aplicada e oferecer meio de contestação (novo art. 20-A do Marco Civil). Hoje o art. 20 do Marco Civil só garante essa informação quando a remoção decorre de ordem judicial.",
+      "O projeto **não tramita sozinho**: está no fim de uma cadeia de apensação (PL 2883/2020 → PL 283/2020 → PL 2712/2015 → PL 1676/2015) que leva ao **PL 2630/2020**, pronto para pauta no Plenário desde 2023 e sem movimentação desde 24/04/2024. O relator de Plenário votou **pela aprovação do PL 649/2021 na forma do substitutivo**, cujos arts. 16 a 19 incorporam o núcleo da proposta (notificação, fundamentação com indicação dos termos de uso e revisão da decisão).",
+      "O cenário mudou com o **julgamento do STF sobre o art. 19 do Marco Civil (Temas 987 e 533, 2025)**, que, segundo a comunicação oficial do Tribunal, passou a exigir dos provedores autorregulação com sistema de notificações, devido processo e relatórios de transparência. Isso **reforça o mérito** do PL 649/2021, mas transfere a disputa para a definição legislativa dos detalhes. A estratégia realista é **garantir que o texto final do conjunto preserve e detalhe os deveres do art. 20-A** (prazos, exceções e revisão), em vez de buscar a tramitação autônoma."
+    ],
+    "semaforo": [
+      {
+        "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+        "nivel": "ALTO",
+        "texto": "Conjunto parado no Plenário desde 2023; desapensação já foi negada a proposição da mesma cadeia (REQ 811/2021)."
+      },
+      {
+        "eixo": "CONSTITUCIONALIDADE",
+        "nivel": "BAIXO",
+        "texto": "Matéria de direito civil e informática, de iniciativa parlamentar (CF, arts. 22, I e IV, e 61); concretiza o contraditório (CF, art. 5º, LV)."
+      },
+      {
+        "eixo": "JURIDICIDADE E COERÊNCIA",
+        "nivel": "MÉDIO",
+        "texto": "Precisa dialogar com o art. 20 do Marco Civil, com o regime fixado pelo STF em 2025 e com o substitutivo do PL 2630/2020."
+      },
+      {
+        "eixo": "ADEQUAÇÃO FINANCEIRA",
+        "nivel": "BAIXO",
+        "texto": "Obrigações recaem sobre provedores privados; sem impacto no orçamento da União."
+      },
+      {
+        "eixo": "TÉCNICA LEGISLATIVA",
+        "nivel": "MÉDIO",
+        "texto": "Vigência imediata, conceito aberto de \"intervenção\", ausência de prazos e de exceções para conteúdos gravemente ilícitos."
+      }
+    ],
+    "diagnostico": [
+      {
+        "rotulo": "PROCESSO LEGISLATIVO · RICD",
+        "titulo": "Onde o projeto está e o que vem pela frente",
+        "itens": [
+          {
+            "texto": "Apensado ao PL 2883/2020 em 26/04/2021. A cadeia chega ao PL 2630/2020, que encabeça o conjunto e define a tramitação de todos os apensados (RICD, arts. 142 e 143).",
+            "fontes": [
+              "desp",
+              "ficha",
+              "ricd"
+            ]
+          },
+          {
+            "texto": "Com a urgência aprovada em 25/04/2023 (REQ 2721/2021), o conjunto é votado diretamente pelo Plenário, com parecer de relator designado em Plenário em substituição às comissões (RICD, arts. 154 e 157).",
+            "fontes": [
+              "ficha2630",
+              "ricd"
+            ]
+          },
+          {
+            "texto": "O pedido de desapensação do PL 2883/2020, da mesma cadeia, foi indeferido em 17/05/2021 por tratar de matéria correlata ao PL 2630/2020: precedente desfavorável a separar o PL 649/2021.",
+            "fontes": [
+              "ficha2630",
+              "ricd"
+            ]
+          },
+          {
+            "texto": "O PL 2630/2020 é do Senado. Aprovado na Câmara com substitutivo, volta ao Senado apenas para apreciar as alterações (CF, art. 65, parágrafo único), o que limita mudanças posteriores no texto.",
+            "fontes": [
+              "cf",
+              "guia"
+            ]
+          }
+        ]
+      },
+      {
+        "rotulo": "CONSTITUCIONALIDADE",
+        "titulo": "Competência, iniciativa e direitos fundamentais",
+        "itens": [
+          {
+            "texto": "Competência privativa da União para legislar sobre direito civil e informática (CF, art. 22, I e IV), com iniciativa parlamentar livre (CF, art. 61, caput). O Marco Civil, alterado pelo projeto, é lei ordinária federal.",
+            "fontes": [
+              "cf",
+              "mci"
+            ]
+          },
+          {
+            "texto": "O projeto concretiza, nas relações entre usuário e plataforma, o contraditório e a ampla defesa (CF, art. 5º, LV) e a liberdade de expressão (CF, arts. 5º, IV e IX, e 220), sem impor censura prévia nem controle estatal de conteúdo.",
+            "fontes": [
+              "cf"
+            ]
+          },
+          {
+            "texto": "Os deveres de informação e de canal de contestação são compatíveis com a livre iniciativa (CF, art. 170) por serem procedimentais e proporcionais; o substitutivo do relator limita obrigações análogas aos provedores com mais de 10 milhões de usuários.",
+            "fontes": [
+              "cf",
+              "prlp"
+            ]
+          }
+        ]
+      },
+      {
+        "rotulo": "JURIDICIDADE · COERÊNCIA DO ORDENAMENTO",
+        "titulo": "Encaixe com o Marco Civil, o STF e o substitutivo",
+        "itens": [
+          {
+            "texto": "O art. 20 do Marco Civil já obriga o provedor a comunicar ao usuário os motivos da indisponibilização quando cumpre ordem judicial. O art. 20-A estende essa lógica às remoções voluntárias, preenchendo lacuna do sistema.",
+            "fontes": [
+              "mci",
+              "pl"
+            ]
+          },
+          {
+            "texto": "No julgamento dos Temas 987 e 533 (2025), o STF declarou a inconstitucionalidade parcial do art. 19 do Marco Civil e, segundo a comunicação oficial do Tribunal, determinou que os provedores editem autorregulação com sistema de notificações, devido processo e relatórios anuais de transparência. A lei pode detalhar esse devido processo.",
+            "fontes": [
+              "t987",
+              "t533",
+              "mci"
+            ]
+          },
+          {
+            "texto": "O substitutivo do PRLP 1 PLEN (arts. 16 a 19) contém regras mais amplas que o PL 649/2021: notificação com natureza da medida, fundamentação com cláusulas dos termos de uso, informação sobre decisão automatizada, pedido de revisão com resposta fundamentada e reversão imediata em caso de erro.",
+            "fontes": [
+              "prlp"
+            ]
+          },
+          {
+            "texto": "O § 5º (substituir o conteúdo removido pela motivação, a pedido do usuário) precisa de salvaguardas: a motivação pode expor dados de terceiros (LGPD, art. 6º, III) ou reproduzir o próprio conteúdo ilícito.",
+            "fontes": [
+              "pl",
+              "lgpd"
+            ]
+          }
+        ]
+      },
+      {
+        "rotulo": "REFERÊNCIA INTERNACIONAL",
+        "titulo": "Paralelo com o Digital Services Act europeu",
+        "itens": [
+          {
+            "texto": "O DSA exige declaração de motivos ao usuário afetado por restrição de conteúdo (art. 17) e sistema interno de reclamação gratuito, com decisões não exclusivamente automatizadas (art. 20), além de resolução extrajudicial de litígios (art. 21): modelo próximo ao art. 20-A, mais detalhado em prazos e exceções.",
+            "fontes": [
+              "dsa"
+            ]
+          },
+          {
+            "texto": "O DSA dispensa microempresas e pequenas empresas de parte das obrigações (art. 19): referência útil para calibrar o alcance do caput do art. 20-A, hoje aplicável a qualquer provedor de aplicações.",
+            "fontes": [
+              "dsa"
+            ]
+          }
+        ]
+      }
+    ],
+    "legistica": {
+      "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 649/2021",
+      "achados": [
+        {
+          "dispositivo": "Art. 1º, caput",
+          "problema": "Fórmula \"passa a vigorar com o acréscimo do seguinte artigo\" não identifica o artigo acrescido.",
+          "fundamento": "LC 95, art. 12, III",
+          "correcao": "\"passa a vigorar acrescida do seguinte art. 20-A:\"."
+        },
+        {
+          "dispositivo": "Art. 20-A, caput",
+          "problema": "\"Qualquer intervenção\" é conceito aberto (redução de alcance, desmonetização, suspensão de conta?).",
+          "fundamento": "LC 95, art. 11, I, \"a\", e II, \"a\"",
+          "correcao": "Enumerar as medidas abrangidas, como faz o art. 18 do substitutivo do PRLP 1."
+        },
+        {
+          "dispositivo": "Art. 20-A, § 4º",
+          "problema": "Prevê ferramenta de contestação sem prazo de resposta nem dever de reverter a medida em caso de erro.",
+          "fundamento": "LC 95, art. 11, II, \"a\" (precisão)",
+          "correcao": "Fixar prazo de resposta fundamentada e reversão imediata quando constatado equívoco."
+        },
+        {
+          "dispositivo": "Art. 20-A (exceções)",
+          "problema": "Não ressalva hipóteses em que notificar o usuário pode frustrar investigação ou expor vítimas (abuso sexual infantil, terrorismo, ordens sigilosas).",
+          "fundamento": "LC 95, art. 11, II, \"c\" (exceções em parágrafos)",
+          "correcao": "Incluir parágrafo com exceções e diferimento da notificação."
+        },
+        {
+          "dispositivo": "Art. 20-A, § 5º",
+          "problema": "Substituição do conteúdo pela motivação pode divulgar dados pessoais de terceiros ou o próprio conteúdo ilícito.",
+          "fundamento": "LGPD, art. 6º, III; LC 95, art. 11, II, \"a\"",
+          "correcao": "Condicionar a substituição à proteção de dados de terceiros e à natureza do conteúdo."
+        },
+        {
+          "dispositivo": "Art. 2º",
+          "problema": "Vigência imediata para obrigações que exigem adaptação de sistemas e termos de uso.",
+          "fundamento": "LC 95, art. 8º (vigência imediata só para pequena repercussão)",
+          "correcao": "Vacatio legis de 90 a 180 dias."
+        }
+      ]
+    },
+    "riscos": [
+      {
+        "id": "R01",
+        "nivel": "ALTO",
+        "titulo": "Paralisia do conjunto do PL 2630/2020",
+        "descricao": "Pronto para pauta desde 2023 e sem movimentação desde 24/04/2024; o PL 649/2021 depende inteiramente da pauta do conjunto.",
+        "instancia": "PLEN",
+        "probabilidade": "ALTA",
+        "impacto": "ALTO",
+        "fundamento": "RICD, arts. 142, 143 e 154.",
+        "fontes": [
+          "ficha2630",
+          "ricd"
+        ],
+        "mitigacao": "Articulação da liderança com a Presidência da Câmara; acompanhar qualquer novo texto ou grupo de trabalho sobre a regulação das plataformas e propor a inclusão do art. 20-A."
+      },
+      {
+        "id": "R02",
+        "nivel": "ALTO",
+        "titulo": "Novo texto sem o devido processo do PL 649/2021",
+        "descricao": "Um substitutivo diferente do PRLP 1 pode reduzir ou suprimir as regras de notificação e revisão, prejudicando os apensados.",
+        "instancia": "PLEN",
+        "probabilidade": "MÉDIA",
+        "impacto": "ALTO",
+        "fundamento": "RICD (prejudicialidade dos apensados após a votação do substitutivo).",
+        "fontes": [
+          "prlp",
+          "ricd"
+        ],
+        "mitigacao": "Emenda de Plenário ou acordo com o relator para manter os arts. 16 a 19 do substitutivo, com os ajustes de prazo e exceções."
+      },
+      {
+        "id": "R03",
+        "nivel": "MÉDIO",
+        "titulo": "Esvaziamento pela decisão do STF",
+        "descricao": "Parte do conteúdo passou a ser exigida pela tese do STF (autorregulação com devido processo), o que alimenta o argumento de que a lei seria desnecessária.",
+        "instancia": "PLEN · STF",
+        "probabilidade": "MÉDIA",
+        "impacto": "MÉDIO",
+        "fundamento": "STF, Temas 987 e 533; Marco Civil, arts. 19 a 21.",
+        "fontes": [
+          "t987",
+          "t533",
+          "mci"
+        ],
+        "mitigacao": "Apresentar o projeto como a lei que dá segurança jurídica e detalha o devido processo exigido pelo STF (prazos, revisão humana, exceções)."
+      },
+      {
+        "id": "R04",
+        "nivel": "MÉDIO",
+        "titulo": "Notificação que frustra investigações",
+        "descricao": "Sem exceções, avisar o usuário pode alertar autores de crimes graves ou expor vítimas.",
+        "instancia": "PLEN · SANÇÃO",
+        "probabilidade": "MÉDIA",
+        "impacto": "MÉDIO",
+        "fundamento": "Marco Civil, arts. 13 a 15 (guarda de registros); precedente do DSA, art. 17.",
+        "fontes": [
+          "mci",
+          "dsa"
+        ],
+        "mitigacao": "Prever exceções e diferimento da notificação para conteúdos gravemente ilícitos ou ordens sigilosas."
+      },
+      {
+        "id": "R05",
+        "nivel": "MÉDIO",
+        "titulo": "Exposição de dados no § 5º",
+        "descricao": "A motivação publicada no lugar do conteúdo pode conter dados pessoais de terceiros ou reproduzir o ilícito.",
+        "instancia": "PLEN",
+        "probabilidade": "MÉDIA",
+        "impacto": "MÉDIO",
+        "fundamento": "LGPD, art. 6º, III.",
+        "fontes": [
+          "lgpd",
+          "pl"
+        ],
+        "mitigacao": "Restringir a motivação pública a informação genérica (cláusula violada e tipo de medida)."
+      },
+      {
+        "id": "R06",
+        "nivel": "BAIXO",
+        "titulo": "Ônus desproporcional a pequenos provedores",
+        "descricao": "O caput alcança qualquer provedor de aplicações; o substitutivo e o DSA calibram obrigações pelo porte.",
+        "instancia": "PLEN",
+        "probabilidade": "BAIXA",
+        "impacto": "MÉDIO",
+        "fundamento": "CF, art. 170; DSA, art. 19.",
+        "fontes": [
+          "cf",
+          "dsa"
+        ],
+        "mitigacao": "Escalonar deveres por porte ou número de usuários."
+      },
+      {
+        "id": "R07",
+        "nivel": "BAIXO",
+        "titulo": "Vigência imediata",
+        "descricao": "Obrigações exigem mudança de sistemas e termos de uso.",
+        "instancia": "SANÇÃO",
+        "probabilidade": "MÉDIA",
+        "impacto": "BAIXO",
+        "fundamento": "LC 95, art. 8º.",
+        "fontes": [
+          "lc95"
+        ],
+        "mitigacao": "Prever vacatio legis."
+      }
+    ],
+    "oportunidades": [
+      {
+        "id": "O01",
+        "tipo": "CONVERGÊNCIA",
+        "titulo": "Conteúdo já acolhido pelo relator",
+        "descricao": "O PRLP 1 PLEN vota pela aprovação do PL 649/2021 na forma do substitutivo, cujos arts. 16 a 19 contemplam notificação, fundamentação e revisão.",
+        "como": "Registrar publicamente a origem das regras e defender sua manutenção em qualquer versão posterior do texto.",
+        "fontes": [
+          "prlp"
+        ]
+      },
+      {
+        "id": "O02",
+        "tipo": "SEGURANÇA JURÍDICA",
+        "titulo": "Lei para detalhar a tese do STF",
+        "descricao": "A exigência de devido processo fixada pelo STF depende hoje da autorregulação de cada plataforma; a lei pode uniformizar prazos, exceções e revisão.",
+        "como": "Nota técnica comparando o art. 20-A, a tese do STF e o substitutivo, com proposta de redação consolidada.",
+        "fontes": [
+          "t987",
+          "t533",
+          "mci"
+        ]
+      },
+      {
+        "id": "O03",
+        "tipo": "QUALIDADE",
+        "titulo": "Modelo testado no DSA",
+        "descricao": "Declaração de motivos, reclamação interna e resolução extrajudicial já funcionam na União Europeia.",
+        "como": "Usar os arts. 17, 20 e 21 do DSA como referência para emendas de prazo e de revisão não automatizada.",
+        "fontes": [
+          "dsa"
+        ]
+      },
+      {
+        "id": "O04",
+        "tipo": "CONSENSO",
+        "titulo": "Tema de baixa polarização no conjunto",
+        "descricao": "Transparência e contraditório na moderação são defendidos tanto por quem teme censura privada quanto por quem defende regulação: ponto de convergência num debate polarizado.",
+        "como": "Propor o devido processo como núcleo mínimo de acordo caso o conjunto seja desmembrado ou substituído.",
+        "fontes": [
+          "prlp",
+          "pl"
+        ]
+      },
+      {
+        "id": "O05",
+        "tipo": "ARTICULAÇÃO",
+        "titulo": "Posição política do autor",
+        "descricao": "O autor lidera a bancada do União na Câmara em 2026, o que favorece a negociação de pauta e de texto.",
+        "como": "Usar a liderança para levar o tema às reuniões de líderes sobre a regulação das plataformas.",
+        "fontes": [
+          "lider"
+        ]
+      }
+    ],
+    "plano": [
+      {
+        "numero": "01",
+        "prioridade": "CRÍTICA",
+        "titulo": "Monitorar o conjunto e qualquer novo texto",
+        "descricao": "Acompanhar o PL 2630/2020, a pauta do Plenário e eventual novo relator ou grupo de trabalho sobre plataformas.",
+        "prazo": "contínuo",
+        "instrumento": "API Dados Abertos; ficha de tramitação.",
+        "resultado": "Reação no mesmo dia a qualquer movimentação.",
+        "riscos": "R01, R02"
+      },
+      {
+        "numero": "02",
+        "prioridade": "CRÍTICA",
+        "titulo": "Nota técnica ao relator",
+        "descricao": "Documento de 2 a 3 páginas mostrando a origem dos arts. 16 a 19 do substitutivo no PL 649/2021 e propondo os ajustes de prazo, exceções e alcance.",
+        "prazo": "até 20/11/2026",
+        "instrumento": "PRLP 1 PLEN; Marco Civil, arts. 19 a 21; STF, Temas 987 e 533.",
+        "resultado": "Manutenção do devido processo em qualquer versão do texto.",
+        "riscos": "R02, R03"
+      },
+      {
+        "numero": "03",
+        "prioridade": "ALTA",
+        "titulo": "Minuta de emenda de Plenário",
+        "descricao": "Emenda pronta com o art. 20-A revisado (prazos, exceções, porte do provedor, salvaguarda de dados e vacatio legis).",
+        "prazo": "até 30/11/2026",
+        "instrumento": "RICD (emendas de Plenário); LC 95, arts. 8º, 11 e 12.",
+        "resultado": "Texto disponível para apresentação assim que a matéria for pautada.",
+        "riscos": "R02, R04, R05, R06, R07"
+      },
+      {
+        "numero": "04",
+        "prioridade": "ALTA",
+        "titulo": "Articulação na reunião de líderes",
+        "descricao": "Levar o devido processo como ponto de consenso no debate sobre a regulação das plataformas.",
+        "prazo": "nov.–dez./2026",
+        "instrumento": "Liderança da bancada.",
+        "resultado": "Compromisso de inclusão no texto final.",
+        "riscos": "R01, R02"
+      },
+      {
+        "numero": "05",
+        "prioridade": "MÉDIA",
+        "titulo": "Não insistir na desapensação",
+        "descricao": "O indeferimento do REQ 811/2021 (matéria correlata) indica baixa chance; priorizar a atuação dentro do conjunto.",
+        "prazo": "—",
+        "instrumento": "RICD, art. 142.",
+        "resultado": "Esforço concentrado onde há chance de êxito.",
+        "riscos": "R01"
+      },
+      {
+        "numero": "06",
+        "prioridade": "MÉDIA",
+        "titulo": "Plano B: proposição autônoma atualizada",
+        "descricao": "Se o conjunto continuar parado em 2027, avaliar novo projeto restrito ao devido processo, atualizado pela tese do STF, ciente do risco de nova apensação.",
+        "prazo": "1º sem./2027",
+        "instrumento": "RICD, arts. 139 e 142.",
+        "resultado": "Vetor legislativo próprio para o tema.",
+        "riscos": "R01, R03"
+      },
+      {
+        "numero": "07",
+        "prioridade": "MÉDIA",
+        "titulo": "Comunicação de uma página",
+        "descricao": "Material explicando o direito do usuário de saber por que seu conteúdo foi removido e de contestar a decisão.",
+        "prazo": "até 15/12/2026",
+        "instrumento": "Marco Civil; DSA; STF.",
+        "resultado": "Apoio da sociedade e de parlamentares.",
+        "riscos": "R03"
+      }
+    ],
+    "fontes": {
+      "pl": {
+        "titulo": "PL 649/2021 (inteiro teor)",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1968646"
+      },
+      "ficha": {
+        "titulo": "Ficha de tramitação do PL 649/2021",
+        "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2271138"
+      },
+      "ficha2630": {
+        "titulo": "Ficha de tramitação do PL 2630/2020",
+        "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2256735"
+      },
+      "prlp": {
+        "titulo": "PRLP 1 PLEN (parecer preliminar e substitutivo)",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2265334"
+      },
+      "desp": {
+        "titulo": "Despacho de apensação (26/04/2021)",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1972007"
+      },
+      "mci": {
+        "titulo": "Lei 12.965/2014 (Marco Civil da Internet)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm"
+      },
+      "cf": {
+        "titulo": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+      },
+      "ricd": {
+        "titulo": "RICD (Res. 17/1989)",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+      },
+      "lc95": {
+        "titulo": "LC 95/1998",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm"
+      },
+      "lgpd": {
+        "titulo": "Lei 13.709/2018 (LGPD)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+      },
+      "t987": {
+        "titulo": "STF · Tema 987 (RE 1.037.396)",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=987"
+      },
+      "t533": {
+        "titulo": "STF · Tema 533 (RE 1.057.258)",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=533"
+      },
+      "dsa": {
+        "titulo": "Regulamento (UE) 2022/2065 (DSA)",
+        "url": "https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32022R2065"
+      },
+      "guia": {
+        "titulo": "Câmara · Tramitação das proposições",
+        "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/tramitacao-das-proposicoes"
+      },
+      "lider": {
+        "titulo": "O Imparcial · liderança do União em 2026",
+        "url": "https://oimparcial.com.br/noticias/2025/12/uniao-brasil-mantem-pedro-lucas-na-lideranca-da-bancada-na-camara-em-2026/"
+      }
+    },
+    "fontes_consultadas": [
+      {
+        "fonte": "pl",
+        "nota": "texto analisado"
+      },
+      {
+        "fonte": "ficha",
+        "nota": "situação, despacho e documentos"
+      },
+      {
+        "fonte": "desp",
+        "nota": "apensação ao PL 2883/2020"
+      },
+      {
+        "fonte": "ficha2630",
+        "nota": "tramitação do conjunto"
+      },
+      {
+        "fonte": "prlp",
+        "nota": "voto e substitutivo, arts. 16 a 19"
+      },
+      {
+        "fonte": "mci",
+        "nota": "arts. 13 a 15 e 19 a 21"
+      },
+      {
+        "fonte": "cf",
+        "nota": "arts. 5º, 22, 61, 65, 66, 170 e 220"
+      },
+      {
+        "fonte": "ricd",
+        "nota": "arts. 139, 142, 143, 154 e 157"
+      },
+      {
+        "fonte": "lc95",
+        "nota": "técnica legislativa"
+      },
+      {
+        "fonte": "lgpd",
+        "nota": "art. 6º"
+      },
+      {
+        "fonte": "t987",
+        "nota": "art. 19 do Marco Civil"
+      },
+      {
+        "fonte": "t533",
+        "nota": "responsabilidade de provedores"
+      },
+      {
+        "fonte": "dsa",
+        "nota": "arts. 17, 19, 20 e 21"
+      },
+      {
+        "fonte": "guia",
+        "nota": "apensação e revisão bicameral"
+      },
+      {
+        "fonte": "lider",
+        "nota": "liderança da bancada"
+      }
+    ]
+  }
+}

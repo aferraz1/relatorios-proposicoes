@@ -60,3 +60,13 @@ def test_cli_gera_varias_paginas(tmp_path, monkeypatch, capsys):
     assert capsys.readouterr().out.count("Página gerada em") == 2
     with pytest.raises(SystemExit):
         main([str(PASTA_DADOS / "capa.json"), str(PASTA_DADOS / "pl-1680-2025.json"), "-o", "x.html"])
+
+
+def test_relatorio_pl_649_2021():
+    relatorio = carregar_pagina(PASTA_DADOS / "pl-649-2021.json")
+    assert relatorio.versao_valida is None and not relatorio.documentos_aprovados
+    assert relatorio.relatoria.pareceres[0].rotulo_status == "NÃO VOTADO"
+    assert relatorio.arvore.localizar("PL 2630/2020").situacao == "PRONTA PARA PAUTA"
+    html = renderizar(relatorio)
+    assert "NÃO VOTADO" in html and "SUPERADO" not in html
+    assert "2004 dias" in html and 'id="popover-versao"' not in html
