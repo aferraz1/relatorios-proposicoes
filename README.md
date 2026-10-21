@@ -14,7 +14,8 @@ Gera páginas HTML autocontidas no visual do design system **Glass HUD Legislati
    - árvore de apensados e documentos acessórios, e documentos anexos, cada item com uma janela de detalhes;
    - análise estratégica: síntese, diagnóstico técnico, legística, matriz de riscos, oportunidades,
      plano de ação e fontes oficiais.
-3. **Pesquisa** facetada sobre uma base local de proposições: filtros interligados com contagens,
+3. **Sumário**: lista numerada com links para os relatórios, da apresentação mais recente para a mais antiga.
+4. **Pesquisa** facetada sobre uma base local de proposições: filtros interligados com contagens,
    autocompletar de tipos, ordenação, painel de detalhes e a consulta equivalente na API.
 
 Na página de tramitação, passar o mouse (ou o foco) sobre um documento acende todos os componentes
@@ -41,12 +42,13 @@ dependem de avaliação humana e não são geradas.
 # um relatório por proposição da base de pesquisa, ligando-os à página de pesquisa
 python -m relatorios_proposicoes.coleta --ids-de dados/pesquisa-pedro-lucas.json --manter 2497586 2271138 \
     -o dados/proposicoes --pesquisa dados/pesquisa-pedro-lucas.json
-python -m relatorios_proposicoes dados/proposicoes/*.json dados/pl-1680-2025.json dados/pl-649-2021.json dados/pesquisa-pedro-lucas.json
+python -m relatorios_proposicoes dados/proposicoes/*.json dados/pl-1680-2025.json dados/pl-649-2021.json \
+    dados/pesquisa-pedro-lucas.json dados/sumario.json dados/capa.json
 ```
 
 `--manter` preserva relatórios curados à mão (como os do PL 1.680/2025 e do PL 649/2021, com a análise estratégica).
 
-A chave `"pagina"` do JSON escolhe a página (`"capa"` ou `"pesquisa"`); sem ela, o arquivo é um
+A chave `"pagina"` do JSON escolhe a página (`"capa"`, `"pesquisa"` ou `"sumario"`); sem ela, o arquivo é um
 relatório de tramitação. A capa é sempre clara, para impressão. A pesquisa abre o relatório de
 detalhes das proposições listadas em `detalhes` (gere os dois na mesma pasta).
 
@@ -56,7 +58,7 @@ detalhes das proposições listadas em `detalhes` (gere os dois na mesma pasta).
 | --- | --- |
 | `dados/*.json` | Dados de cada página (um arquivo por página) |
 | `relatorios_proposicoes/modelos.py` | Modelos do relatório (`Relatorio`, `Estagio`, `Evento`, `Arvore`, `Analise`…) e leitura do JSON |
-| `relatorios_proposicoes/capa.py`, `pesquisa.py` | Modelos da capa e da base de pesquisa |
+| `relatorios_proposicoes/capa.py`, `pesquisa.py`, `sumario.py` | Modelos da capa, da base de pesquisa e do sumário |
 | `relatorios_proposicoes/coleta.py` | Coleta na API de Dados Abertos e montagem do JSON de tramitação |
 | `relatorios_proposicoes/indicadores.py` | Contagens e durações derivadas dos dados |
 | `relatorios_proposicoes/gerador.py` | Renderização Jinja2, filtros e escolha da página |
@@ -94,6 +96,13 @@ Seções opcionais:
   da árvore); `selo` substitui a contagem (`PDF`, `N/D`) e `mensagem_vazio` aceita `{data_consulta}`;
 - `analise`: textos da análise estratégica; trechos entre `**` ficam em negrito e as fontes são
   citadas pela chave do catálogo `fontes`.
+
+### Sumário
+
+`dados/sumario.json` lista em `relatorios` os JSONs de tramitação (padrões de arquivo relativos à
+pasta do próprio JSON). Um id repetido fica com o primeiro arquivo encontrado, por isso os relatórios
+curados vêm antes de `proposicoes/*.json`. `descricao` aceita `{total}` e `{tipos}`. Os links apontam
+para `<tipo>-<número>-<ano>.html`, então gere o sumário na mesma pasta dos relatórios.
 
 ### Pesquisa
 

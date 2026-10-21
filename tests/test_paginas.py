@@ -70,3 +70,28 @@ def test_relatorio_pl_649_2021():
     html = renderizar(relatorio)
     assert "NÃO VOTADO" in html and "SUPERADO" not in html
     assert "2004 dias" in html and 'id="popover-versao"' not in html
+
+
+def test_sumario():
+    from relatorios_proposicoes.sumario import Sumario, nome_arquivo
+
+    sumario = carregar_pagina(PASTA_DADOS / "sumario.json")
+    assert isinstance(sumario, Sumario)
+    assert len(sumario.itens) == 64 and sumario.tipos == "PL e PLP"
+    datas = [i.apresentacao for i in sumario.itens]
+    assert datas == sorted(datas, reverse=True)
+    # O relatório curado do PL 1.680/2025 entra uma única vez, com o seu arquivo.
+    assert [i.arquivo for i in sumario.itens].count("pl-1680-2025.html") == 1
+    assert nome_arquivo("PLP 157/2020") == "plp-157-2020"
+    html = renderizar(sumario)
+    assert "64 proposições (PL e PLP) em tramitação" in html
+    assert html.count('class="sumario__item"') == 64
+    assert html.index('href="pl-3507-2026.html"') < html.index('href="pl-245-2019.html"')
+    assert '<span class="sumario__numero rotulo" aria-hidden="true">01</span>' in html
+
+
+def test_sumario_sem_relatorios(tmp_path):
+    from relatorios_proposicoes.sumario import Sumario
+
+    with pytest.raises(ValueError, match="Nenhum relatório"):
+        Sumario.de_dict({"sobre": "", "descricao": "", "relatorios": ["*.json"]}, tmp_path)
