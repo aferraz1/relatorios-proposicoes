@@ -166,20 +166,37 @@ def apreciacao_curta(apreciacao: str | None) -> str:
     return texto or "Indefinida"
 
 
+# Comissões extintas pela Res. CD 1/2023 que ainda aparecem em despachos antigos, com a sucessora
+# indicada nas decisões da Presidência. O nome completo evita que trechos dele (“Desenvolvimento
+# Econômico”, “Trabalho”) sejam lidos como comissões atuais.
+COMISSOES_EXTINTAS = {
+    "Desenvolvimento Econômico, Indústria, Comércio e Serviços": "CDE",
+    "Trabalho, de Administração e Serviço Público": "CTRAB",
+}
+MARCA_ATUALIZACAO = "ATUALIZAÇÃO DE DESPACHO"
+SAIDAS_RELATOR = ("Saída de Relator", "Recebimento - Relator(a) (Sem Manifestação)")
+
+
 def comissoes_do_despacho(despacho: str, apelidos: dict[str, str]) -> list[tuple[str, str]]:
     """Comissões citadas no despacho de distribuição, na ordem do texto, com o papel entre parênteses.
 
     ``apelidos`` mapeia o nome curto da comissão (ex.: ``Finanças e Tributação``) para a sigla.
+    Em despacho revisto, vale só a lista após “ATUALIZAÇÃO DE DESPACHO”; nomes de comissões
+    extintas são trocados pela sucessora e têm prioridade sobre nomes mais curtos contidos neles.
     """
+    if MARCA_ATUALIZACAO in despacho:
+        despacho = despacho.split(MARCA_ATUALIZACAO, 1)[1]
+    nomes = sorted({**apelidos, **COMISSOES_EXTINTAS}.items(), key=lambda par: -len(par[0]))
+    ocupado = [False] * len(despacho)
     achados = []
-    for apelido, sigla in apelidos.items():
-        pos = despacho.find(apelido)
-        if pos < 0:
-            continue
-        resto = despacho[pos + len(apelido):]
-        m = re.match(r"\s*\(([^)]*)\)", resto)
-        papel = m.group(1).replace(", RICD", "").replace(" RICD", "").strip() if m else "Mérito"
-        achados.append((pos, sigla, papel))
+    for nome, sigla in nomes:
+        for m in re.finditer(re.escape(nome), despacho):
+            if any(ocupado[m.start():m.end()]):
+                continue
+            ocupado[m.start():m.end()] = [True] * (m.end() - m.start())
+            p = re.match(r"\s*\(([^)]*)\)", despacho[m.end():])
+            papel = p.group(1).replace(", RICD", "").replace(" RICD", "").strip() if p else "Mérito"
+            achados.append((m.start(), sigla, papel))
     achados.sort()
     vistos: set[str] = set()
     return [(s, p) for _, s, p in achados if not (s in vistos or vistos.add(s))]
@@ -387,7 +404,9 @@ class MontadorRelatorio:
             visitas[sig]["fim"] = self._dia(t)
             visitas[sig]["tramites"].append(t)
 
-        despacho = next((limpar(t["despacho"]) for t, _ in reversed(efetivos) if t["descricaoTramitacao"].startswith("Distribuição")), "")
+        # O despacho vigente é a última distribuição ou a última revisão (que pode vir num despacho de apensação).
+        despacho = next((limpar(t["despacho"]) for t, _ in reversed(efetivos)
+                         if t["descricaoTramitacao"].startswith("Distribuição") or MARCA_ATUALIZACAO in t["despacho"]), "")
         previstas = comissoes_do_despacho(despacho, self.apelidos)
         papeis = dict(previstas)
 
@@ -517,9 +536,18 @@ class MontadorRelatorio:
             return None
         ultima = next(((t, o) for t, o in reversed(efetivos) if t["descricaoTramitacao"].startswith("Designação de Relator")), None)
         orgao = ultima[1]["sigla"] if ultima else st.get("siglaOrgao")
-        # Data da primeira designação na comissão da última relatoria.
-        designacao = next(((t, o) for t, o in efetivos if t["descricaoTramitacao"].startswith("Designação de Relator") and o["sigla"] == orgao), None)
-        relator = self.parlamentar(id_relator, f"RELATOR(A) · {orgao}")
+        # Data da primeira designação na comissão da última relatoria, contada a partir da saída do relator anterior.
+        anteriores = efetivos[:efetivos.index(ultima)] if ultima else efetivos
+        corte = max((i for i, (t, o) in enumerate(anteriores) if o["sigla"] == orgao
+                     and t["descricaoTramitacao"].startswith(SAIDAS_RELATOR)), default=-1)
+        designacao = next(((t, o) for t, o in efetivos[corte + 1:] if t["descricaoTramitacao"].startswith("Designação de Relator") and o["sigla"] == orgao), None)
+        # Relator que deixou a comissão ou devolveu a matéria sem parecer depois da última designação.
+        saida = None
+        if ultima:
+            posteriores = efetivos[efetivos.index(ultima) + 1:]
+            saida = next((t for t, o in posteriores if o["sigla"] == orgao
+                          and t["descricaoTramitacao"].startswith(SAIDAS_RELATOR)), None)
+        relator = self.parlamentar(id_relator, f"{'EX-' if saida else ''}RELATOR(A) · {orgao}")
         if relator is None:
             return None
         aprovado = any(t["descricaoTramitacao"].startswith("Aprovação do Parecer") and o["sigla"] == orgao for t, o in efetivos)
@@ -545,7 +573,9 @@ class MontadorRelatorio:
             "orgao_sigla": orgao,
             "relator": relator,
             "resumo_inicio": inicio,
-            "resumo_fim": "O último parecer foi aprovado na comissão." if aprovado and pareceres else "",
+            "resumo_fim": (f"Deixou a relatoria em {data_br(saida['dataHora'])} sem parecer votado; a comissão aguarda nova designação."
+                           if saida and not aprovado else
+                           "O último parecer foi aprovado na comissão." if aprovado and pareceres else ""),
             "pareceres": pareceres,
         }
 

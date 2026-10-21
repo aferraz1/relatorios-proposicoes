@@ -837,5 +837,382 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 2.422/2019, com base no inteiro teor e nos pareceres aprovados na CREDN e na CSPCCO (substitutivos) e na relatoria em curso na CCJC, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 2.422/2019 altera a Lei 10.029/2000 para incluir os **reservistas que concluíram o serviço militar inicial** entre os voluntários das Polícias Militares e dos Corpos de Bombeiros Militares e, no texto original, permitir que **só eles façam policiamento preventivo comunitário**, como exceção à vedação de porte de arma e de poder de polícia. Foi aprovado com substitutivo na **CREDN** (03/08/2022) e na **CSPCCO** (08/08/2023), com rejeição do PL 829/2021 apensado. Está na **CCJC (art. 54)**, com o **Dep. Nicoletti (PL-RR)** relator desde 28/05/2026, o mesmo que relatou na CSPCCO; o prazo de emendas terminou em 16/06/2026 sem emendas.",
+   "O substitutivo da CSPCCO **abandonou o policiamento**: afirma a **natureza civil** do serviço, mantém só atividades administrativas, de saúde e de defesa civil, amplia a duração para **até 4 anos**, eleva o teto do auxílio de dois para **quatro salários mínimos**, dá preferência a reservistas e prevê capacitação (art. 6º-A). A mudança aproxima o texto da jurisprudência do STF: na **ADI 4.173** a Corte validou a Lei 10.029/2000 por tratar de serviço auxiliar sem vínculo, e em 2024 (Informativo 1.145) declarou inconstitucionais leis estaduais que davam a voluntários **atividades de guarda e policiamento**.",
+   "O risco na CCJC está nos detalhes do substitutivo: o novo art. 3º **deixa de admitir homens não reservistas** e mantém todas as mulheres, o que pode ser lido como quebra de isonomia; a duração e o auxílio maiores enfraquecem o caráter indenizatório que sustentou a ADI 4.173. Com relator favorável já designado, a recomendação é **entregar emendas de juridicidade e pedir pauta ainda em 2026**. O projeto não será arquivado ao fim da 57ª Legislatura (duas legislaturas completas, abaixo do limite do art. 105, VI, do RICD)."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "BAIXO",
+    "texto": "Mérito vencido; relator na CCJC é o mesmo que aprovou o texto na CSPCCO."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "MÉDIO",
+    "texto": "Texto original contraria o STF (policiamento por voluntário); substitutivo corrige, mas cria questão de isonomia."
+   },
+   {
+    "eixo": "JURIDICIDADE E COERÊNCIA",
+    "nivel": "MÉDIO",
+    "texto": "Dois substitutivos diferentes aprovados (CREDN e CSPCCO); duração e auxílio ampliados exigem cautela."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Auxílio pago pelos estados, de forma facultativa; sem despesa da União."
+   },
+   {
+    "eixo": "ARTICULAÇÃO",
+    "nivel": "BAIXO",
+    "texto": "Aprovação simbólica nas duas comissões de mérito, sem emendas."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Situação na CCJC",
+    "itens": [
+     {
+      "texto": "Despacho: CREDN e CSPCCO (mérito) e CCJC (art. 54), conclusivo. A CREDN aprovou substitutivo em 03/08/2022 e a CSPCCO outro, com complementação de voto, em 08/08/2023; ambos rejeitaram o PL 829/2021 (vigilância voluntária de bairro), cuja desapensação foi indeferida em 2022.",
+      "fontes": [
+       "ficha",
+       "par_credn",
+       "sbt_cspcco"
+      ]
+     },
+     {
+      "texto": "Na CCJC desde 09/08/2023, o projeto só ganhou relator em 28/05/2026. A CCJC examinará o original e os dois substitutivos quanto à constitucionalidade, juridicidade e técnica legislativa.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Não houve arquivamento ao fim da 56ª Legislatura e não haverá ao fim da 57ª (RICD, art. 105, VI); a recomposição da CCJC em 2027 pode, porém, trocar o relator.",
+      "fontes": [
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE",
+    "titulo": "Limites fixados pelo STF",
+    "itens": [
+     {
+      "texto": "Na ADI 4.173 (2018), o STF reconheceu a competência da União para normas gerais sobre o serviço voluntário (CF, arts. 22, XXI, e 144, § 7º) e afastou ofensa ao art. 37, II e IX, porque o auxílio é indenizatório e não gera vínculo; declarou inconstitucional apenas o limite “e menores de vinte e três anos” do art. 3º, I.",
+      "fontes": [
+       "adi4173",
+       "l10029"
+      ]
+     },
+     {
+      "texto": "Em 2024, o STF julgou inconstitucionais leis estaduais que permitiam guarda e policiamento por voluntários: essas funções são exclusivas dos órgãos do art. 144 da CF. O art. 5º, parágrafo único, do texto original (policiamento preventivo por reservistas) esbarra nesse entendimento; o substitutivo da CSPCCO o suprime.",
+      "fontes": [
+       "inf1145",
+       "cf",
+       "pl"
+      ]
+     },
+     {
+      "texto": "O art. 3º do substitutivo admite “reservistas oriundos do Serviço Militar” e “mulheres maiores de dezoito anos”: exclui os homens dispensados de incorporação, hoje admitidos pelo art. 3º, I, da Lei 10.029/2000, sem justificativa ligada à função (CF, art. 5º, I).",
+      "fontes": [
+       "sbt_cspcco",
+       "l10029",
+       "cf"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E ADEQUAÇÃO",
+    "titulo": "O que muda na Lei 10.029/2000",
+    "itens": [
+     {
+      "texto": "Hoje o serviço dura um ano, prorrogável uma vez (art. 2º), e o auxílio é de até dois salários mínimos (art. 6º, § 1º). O substitutivo passa a até 4 anos e a até quatro salários mínimos, o que aproxima o voluntariado de contratação temporária e pode reabrir o debate do art. 37, II e IX, da CF.",
+      "fontes": [
+       "l10029",
+       "sbt_cspcco",
+       "adi4173"
+      ]
+     },
+     {
+      "texto": "A lei é facultativa para os estados (“poderão instituir”) e o auxílio é fixado por eles; não há despesa obrigatória para a União, e o projeto não foi distribuído à CFT.",
+      "fontes": [
+       "l10029",
+       "ficha"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 2.422/2019",
+   "achados": [
+    {
+     "dispositivo": "Texto original, cláusula de vigência",
+     "problema": "Artigo sem número (“Art. Esta lei entra em vigor...”).",
+     "fundamento": "LC 95, art. 10, I",
+     "correcao": "Numerar como art. 3º (o substitutivo já corrige, como art. 4º)."
+    },
+    {
+     "dispositivo": "Substitutivo CSPCCO, art. 2º da Lei 10.029/2000",
+     "problema": "“Duração máxima de 4 (quatro) anos, prorrogável anualmente” admite duas leituras: teto de 4 anos ou 4 anos com prorrogações sucessivas; o § 2º condiciona a prorrogação à “capacitação técnica ou superior”, expressão incompleta.",
+     "fundamento": "LC 95, art. 11, II, “a” e “c”",
+     "correcao": "“A prestação voluntária terá duração de até um ano, prorrogável anualmente até o limite total de quatro anos.” e “condicionada à conclusão de capacitação técnica”."
+    },
+    {
+     "dispositivo": "Substitutivo CSPCCO, art. 3º da Lei 10.029/2000",
+     "problema": "“Somente poderão ser admitidos (...) observada a seguinte ordem de preferência” mistura requisito de admissão e critério de preferência; o art. 6º-A acrescido não fecha aspas.",
+     "fundamento": "LC 95, art. 11, II, “a”, e III, “c”",
+     "correcao": "Separar: caput com os admitidos (homens e mulheres maiores de 18 anos) e parágrafo com a preferência aos reservistas; fechar as aspas do art. 6º-A."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "MÉDIO",
+    "titulo": "Inconstitucionalidade por quebra de isonomia",
+    "descricao": "A exclusão dos homens não reservistas pode levar a emenda supressiva na CCJC ou a veto.",
+    "instancia": "CCJC · SANÇÃO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, art. 5º, I; ADI 4.173.",
+    "fontes": [
+     "cf",
+     "adi4173"
+    ],
+    "mitigacao": "Emenda: admitir homens e mulheres maiores de 18 anos, com preferência aos reservistas."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Voluntariado como contratação disfarçada",
+    "descricao": "Até 4 anos e auxílio de até quatro salários mínimos podem ser lidos como burla ao concurso público.",
+    "instancia": "CCJC · SENADO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, art. 37, II e IX; ADI 4.173.",
+    "fontes": [
+     "adi4173",
+     "l10029"
+    ],
+    "mitigacao": "Reduzir o teto do auxílio (por exemplo, três salários mínimos) e deixar claro o caráter indenizatório."
+   },
+   {
+    "id": "R03",
+    "nivel": "BAIXO",
+    "titulo": "Retomada do policiamento por voluntários",
+    "descricao": "Se a CCJC ou o Senado voltarem ao texto original, o projeto contraria o STF e tende ao veto ou à ADI.",
+    "instancia": "CCJC · SENADO",
+    "probabilidade": "BAIXA",
+    "impacto": "ALTO",
+    "fundamento": "CF, art. 144; Informativo STF 1.145.",
+    "fontes": [
+     "inf1145",
+     "cf"
+    ],
+    "mitigacao": "Defender o substitutivo da CSPCCO como base, sem atividades de policiamento."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Troca de relator em 2027",
+    "descricao": "A recomposição da CCJC pode tirar o Dep. Nicoletti da relatoria.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Buscar parecer e votação ainda em 2026."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Relator conhece o projeto",
+    "descricao": "O Dep. Nicoletti relatou e aprovou o substitutivo na CSPCCO; o parecer na CCJC pode sair rápido.",
+    "como": "Entregar minuta de parecer e emendas de juridicidade ao relator.",
+    "fontes": [
+     "ficha",
+     "sbt_cspcco"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Ajuste à jurisprudência do STF",
+    "descricao": "Corrigir isonomia e duração deixa o texto alinhado à ADI 4.173 e ao Informativo 1.145.",
+    "como": "Emendas pontuais no parecer da CCJC.",
+    "fontes": [
+     "adi4173",
+     "inf1145"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Apoio da bancada da segurança",
+    "descricao": "Aprovação simbólica na CSPCCO, com ampla presença de parlamentares da área.",
+    "como": "Pedir pauta à presidência da CCJC com apoio da bancada.",
+    "fontes": [
+     "sbt_cspcco"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Adesão facultativa dos estados",
+    "descricao": "A Lei 10.029/2000 só autoriza os estados a instituir o serviço; a capacitação do art. 6º-A dá contrapartida ao reservista e torna o programa mais atrativo.",
+    "como": "Ouvir comandos-gerais de PMs e CBMs sobre duração e auxílio.",
+    "fontes": [
+     "l10029",
+     "sbt_cspcco"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Reunião com o relator na CCJC",
+    "descricao": "Apresentar emendas de juridicidade (isonomia, duração, auxílio) e pedir apresentação do parecer.",
+    "prazo": "até 06/11/2026",
+    "instrumento": "RICD, art. 54.",
+    "resultado": "Parecer pela constitucionalidade com emendas.",
+    "riscos": "R01, R02, R04"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de emendas",
+    "descricao": "Admitir homens e mulheres maiores de 18 anos com preferência aos reservistas; duração de um ano prorrogável até quatro; revisar o teto do auxílio; corrigir a técnica do art. 6º-A.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "LC 95, art. 11; ADI 4.173.",
+    "resultado": "Texto sem vício aparente.",
+    "riscos": "R01, R02"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Pauta na CCJC",
+    "descricao": "Pedir inclusão em pauta logo após o parecer e acompanhar o prazo de recurso de 5 sessões.",
+    "prazo": "nov.–dez./2026",
+    "instrumento": "RICD, arts. 58, § 1º, e 132, § 2º.",
+    "resultado": "Envio ao Senado no início de 2027.",
+    "riscos": "R04"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Nota técnica para o Senado",
+    "descricao": "Explicar que o texto final não atribui policiamento a voluntários e segue a ADI 4.173.",
+    "prazo": "dez./2026",
+    "instrumento": "CF, art. 144; Informativo STF 1.145.",
+    "resultado": "Evitar retrocesso ao texto original.",
+    "riscos": "R03"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "pl": {
+    "titulo": "PL 2.422/2019 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1735456"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2198832"
+   },
+   "par_credn": {
+    "titulo": "PAR 1 CREDN (substitutivo aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2198832"
+   },
+   "sbt_cspcco": {
+    "titulo": "SBT-A 1 CSPCCO (texto aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2198832"
+   },
+   "l10029": {
+    "titulo": "Lei 10.029/2000",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l10029.htm"
+   },
+   "adi4173": {
+    "titulo": "STF · ADI 4.173 (ementa e decisão)",
+    "url": "https://legis.senado.leg.br/norma/30791329/publicacao/30862382"
+   },
+   "inf1145": {
+    "titulo": "STF · Informativo 1.145 (resumo)",
+    "url": "https://juris.damasio.com.br/jurisprudencia/julgado/1145/policia-militar-e-corpo-de-bombeiros-militar-reparticao-de-competencias-e-servico-auxiliar-voluntario"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto original"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "pareceres, apensação e relatoria na CCJC"
+   },
+   {
+    "fonte": "par_credn",
+    "nota": "parecer da CREDN"
+   },
+   {
+    "fonte": "sbt_cspcco",
+    "nota": "texto aprovado pela CSPCCO"
+   },
+   {
+    "fonte": "l10029",
+    "nota": "texto vigente"
+   },
+   {
+    "fonte": "adi4173",
+    "nota": "constitucionalidade da Lei 10.029/2000"
+   },
+   {
+    "fonte": "inf1145",
+    "nota": "policiamento por voluntários"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 5º, 22, 37 e 144"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 54, 58 e 132"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

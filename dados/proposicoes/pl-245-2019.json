@@ -561,5 +561,459 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 245/2019, com base no inteiro teor e nos pareceres aprovados na CREDN (substitutivo) e na CDHM, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 245/2019 cria o **Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara (FDCCQA)**, alimentado por dotações da União, doações e **1% das receitas da União com contratos de uso, pesquisa ou lançamento no Centro de Lançamento de Alcântara**, com conselho gestor e ao menos 50% dos recursos para as comunidades quilombolas. O mérito foi aprovado na **CREDN** (16/10/2019, substitutivo que incorporou o PL 4.878/2019 e criou **benefício temporário de um salário mínimo**) e na **CDHM** (27/10/2021). Desde 28/10/2021 está na **CFT, sem relator**, há quase cinco anos; depois vai à CCJC, em regime conclusivo.",
+   "A CFT é o obstáculo central. Desde a **EC 109/2021**, o art. 167, XIV, da CF **veda criar fundo público** quando o objetivo puder ser alcançado por vinculação de receitas ou execução orçamentária direta; o benefício de um salário mínimo é **despesa obrigatória de caráter continuado** sem estimativa de impacto nem compensação (ADCT, art. 113; LRF, arts. 16 e 17); e o incentivo às doações remete à **Lei 7.505/1986**, cujos benefícios para pessoas jurídicas foram suspensos pela Lei 8.034/1990. Na CCJC, pesam ainda as atribuições fixadas para a Aeronáutica, a Fundação Palmares e o Executivo, com prazo de 90 dias para regulamentar.",
+   "O contexto mudou a favor do tema: em **21/11/2024 a Corte Interamericana condenou o Brasil** no caso Comunidades Quilombolas de Alcântara, determinando titulação coletiva de 78.105 hectares, mesa de diálogo permanente, consulta prévia e indenizações. A recomendação é **reformular o projeto como programa ou diretriz de aplicação de recursos**, sem fundo autônomo nem benefício sem fonte, e alinhado ao cumprimento da sentença. O projeto não será arquivado ao fim da 57ª Legislatura (duas legislaturas completas, abaixo do limite do art. 105, VI, do RICD)."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Sem relator na CFT desde 28/10/2021; faltam ainda CFT e CCJC."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "ALTO",
+    "texto": "Criação de fundo (CF, art. 167, XIV), benefício continuado sem estimativa (ADCT, art. 113) e incentivo fiscal sem base vigente."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Atribuições a órgãos do Executivo e prazo para regulamentar (CF, arts. 61, § 1º, II, “e”, e 84, VI)."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "BAIXO",
+    "texto": "Aprovado em duas comissões; reforçado pela sentença da Corte IDH de 2024."
+   },
+   {
+    "eixo": "ARTICULAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Tema de interesse da bancada do Maranhão, mas dependente do Executivo para viabilidade fiscal."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Paralisação na CFT",
+    "itens": [
+     {
+      "texto": "Despacho: CREDN, CDHM, CFT (mérito e art. 54) e CCJC (art. 54), conclusivo. Mérito aprovado na CREDN (substitutivo) e na CDHM (na forma do substitutivo da CREDN), sem emendas.",
+      "fontes": [
+       "ficha",
+       "sbt_credn",
+       "par_cdhm"
+      ]
+     },
+     {
+      "texto": "Na CFT desde 28/10/2021 sem designação de relator. O parecer de adequação é terminativo: se a CFT concluir pela inadequação, o projeto é arquivado, salvo recurso (RICD, art. 54, II, e art. 144).",
+      "fontes": [
+       "ficha",
+       "ricd",
+       "nicft"
+      ]
+     },
+     {
+      "texto": "Não houve arquivamento ao fim da 56ª Legislatura e não haverá ao fim da 57ª (RICD, art. 105, VI); a nova composição da CFT em 2027 é a próxima janela para relatoria.",
+      "fontes": [
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+    "titulo": "Pontos que a CFT examinará",
+    "itens": [
+     {
+      "texto": "O art. 167, XIV, da CF (EC 109/2021) veda a criação de fundo público quando os objetivos puderem ser alcançados por vinculação de receitas ou execução direta; o FDCCQA não demonstra por que precisa ser fundo. O art. 2º, § 1º (saldos que não revertem à União) contraria a lógica de unidade de tesouraria que a emenda reforçou.",
+      "fontes": [
+       "cf",
+       "adeq",
+       "sbt_credn"
+      ]
+     },
+     {
+      "texto": "O art. 9º do substitutivo (benefício de um salário mínimo a quem sofrer restrição territorial e marítima) é despesa obrigatória continuada, sem estimativa de impacto, sem compensação e sem cláusula de vigência condicionada.",
+      "fontes": [
+       "adct",
+       "lrf",
+       "nicft"
+      ]
+     },
+     {
+      "texto": "O art. 2º, § 2º, concede às doações “os benefícios da Lei nº 7.505, de 1986”; a Lei 8.034/1990 (art. 1º, III) suspendeu esses benefícios para pessoas jurídicas. A remissão, além de inócua, configura renúncia sem estimativa (LRF, art. 14).",
+      "fontes": [
+       "l7505",
+       "l8034",
+       "lrf"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E CONTEXTO",
+    "titulo": "Iniciativa e sentença internacional",
+    "itens": [
+     {
+      "texto": "O texto fixa atribuições ao Comando da Aeronáutica (previsão de receita e regulamentação em 90 dias), à Fundação Palmares e à AEB e cria conselho gestor: a CCJC costuma ver vício de iniciativa nesses comandos; o STF admite lei parlamentar que gere despesa sem tratar de estrutura ou atribuições de órgãos (Tema 917).",
+      "fontes": [
+       "cf",
+       "sum1",
+       "t917"
+      ]
+     },
+     {
+      "texto": "A Corte IDH (sentença de 21/11/2024) declarou o Brasil responsável por violações a 171 comunidades quilombolas de Alcântara e ordenou titulação coletiva, mesa de diálogo permanente, consulta prévia, livre e informada e indenização. Um conselho gestor com três representantes quilombolas, regulamentado pela Aeronáutica, pode ser questionado à luz da consulta prévia.",
+      "fontes": [
+       "cidh",
+       "sbt_credn"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 245/2019",
+   "achados": [
+    {
+     "dispositivo": "Preâmbulo, art. 2º, art. 3º e art. 8º (texto original)",
+     "problema": "Ementa e preâmbulo repetem “O Congresso Nacional decreta”; a sigla varia entre FDCCQA e FDCQA; o art. 8º chama o fundo de “Fundo de Desenvolvimento das Comunidades Quilombolas de Alcântara” (o erro permanece no substitutivo).",
+     "fundamento": "LC 95, arts. 5º, 6º e 11, II, “b” e “e”",
+     "correcao": "Uniformizar o nome e a sigla (FDCCQA) e corrigir o art. 8º."
+    },
+    {
+     "dispositivo": "Art. 6º (texto original) e art. 10 (texto original)",
+     "problema": "Dois incisos IV, e cláusula “Revogam-se as disposições em contrário”.",
+     "fundamento": "LC 95, arts. 9º e 10, IV",
+     "correcao": "Renumerar como V (o substitutivo corrige) e suprimir a cláusula genérica de revogação."
+    },
+    {
+     "dispositivo": "Art. 2º, IV, e § 2º",
+     "problema": "“01% (um por cento)” e remissão a lei cujos benefícios estão suspensos.",
+     "fundamento": "LC 95, art. 11, I, “a”, e II, “f”",
+     "correcao": "“um por cento”; suprimir o § 2º ou remeter a incentivo vigente, com estimativa de renúncia."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Parecer pela inadequação na CFT",
+    "descricao": "A criação de fundo e o benefício sem fonte tendem a levar à inadequação, que é terminativa.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "CF, art. 167, XIV; ADCT, art. 113; LRF, arts. 16 e 17; RICD, art. 54, II.",
+    "fontes": [
+     "cf",
+     "adct",
+     "lrf",
+     "nicft"
+    ],
+    "mitigacao": "Substitutivo que converta o fundo em programa com diretrizes de aplicação e retire o benefício automático."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Paralisação indefinida",
+    "descricao": "Cinco anos sem relator na CFT; a mudança de composição em 2027 não garante designação.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, arts. 52 e 105, VI.",
+    "fontes": [
+     "ficha",
+     "res33"
+    ],
+    "mitigacao": "Pedir relator à presidência da CFT, com apoio da bancada do Maranhão."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Vício de iniciativa na CCJC",
+    "descricao": "Atribuições à Aeronáutica, AEB e Fundação Palmares, conselho gestor e prazo de 90 dias para regulamentar.",
+    "instancia": "CCJC · SANÇÃO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, arts. 61, § 1º, II, “e”, e 84, VI; Súmula CCJC nº 1; Tema 917.",
+    "fontes": [
+     "cf",
+     "sum1",
+     "t917"
+    ],
+    "mitigacao": "Redigir como diretrizes, sem nomear órgãos nem fixar prazo ao Executivo."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Desalinhamento com a sentença da Corte IDH",
+    "descricao": "Modelo de gestão sem consulta prévia às comunidades pode ser criticado pelas próprias entidades quilombolas.",
+    "instancia": "CFT · CCJC · SENADO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Corte IDH, Caso Comunidades Quilombolas de Alcântara (2024).",
+    "fontes": [
+     "cidh"
+    ],
+    "mitigacao": "Ouvir as associações quilombolas de Alcântara antes de apresentar o novo texto."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Incentivo fiscal inexistente",
+    "descricao": "A remissão à Lei 7.505/1986 pode ser apontada como erro técnico e enfraquecer o texto.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "BAIXO",
+    "fundamento": "Lei 8.034/1990, art. 1º, III.",
+    "fontes": [
+     "l7505",
+     "l8034"
+    ],
+    "mitigacao": "Suprimir o § 2º do art. 2º."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Obrigações internacionais do Estado",
+    "descricao": "A sentença da Corte IDH de 2024 exige medidas de reparação e diálogo permanente com as comunidades de Alcântara, o que dá urgência política ao tema.",
+    "como": "Apresentar o projeto reformulado como instrumento de cumprimento da sentença.",
+    "fontes": [
+     "cidh"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Substitutivo na CFT",
+    "descricao": "O relator na CFT pode converter o fundo em programa com destinação prioritária de recursos, superando o art. 167, XIV, da CF.",
+    "como": "Levar minuta de substitutivo ao relator designado.",
+    "fontes": [
+     "cf",
+     "adeq"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Mérito aprovado em duas comissões",
+    "descricao": "CREDN e CDHM aprovaram o texto sem emendas, com parecer de deputados de partidos distintos.",
+    "como": "Usar os pareceres para pedir relatoria na CFT.",
+    "fontes": [
+     "sbt_credn",
+     "par_cdhm"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "CELERIDADE",
+    "titulo": "Janela de 2027",
+    "descricao": "A recomposição das comissões permite indicar relator aliado na CFT.",
+    "como": "Negociar a relatoria com a liderança do partido antes da instalação da CFT.",
+    "fontes": [
+     "res33"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Relatoria na CFT",
+    "descricao": "Pedir à presidência da CFT designação de relator; se não houver em 2026, preparar a indicação para a instalação de 2027.",
+    "prazo": "até 13/11/2026 e mar./2027",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Relator designado.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo para a CFT",
+    "descricao": "Programa de desenvolvimento das comunidades de Alcântara, com prioridade de aplicação de dotações e de parcela das receitas do CLA conforme a LOA, sem fundo autônomo, sem benefício automático e sem remissão à Lei 7.505/1986.",
+    "prazo": "até 30/11/2026",
+    "instrumento": "CF, art. 167, XIV; ADCT, art. 113; LRF, arts. 14, 16 e 17.",
+    "resultado": "Parecer pela adequação.",
+    "riscos": "R01, R05"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Escuta das comunidades",
+    "descricao": "Reunião com as associações quilombolas de Alcântara sobre o modelo de gestão e as prioridades.",
+    "prazo": "nov.–dez./2026",
+    "instrumento": "Corte IDH, sentença de 21/11/2024.",
+    "resultado": "Texto legitimado e alinhado à consulta prévia.",
+    "riscos": "R04"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Diálogo com o Executivo",
+    "descricao": "Consultar a Casa Civil, o Ministério da Igualdade Racial e o Comando da Aeronáutica sobre a compatibilidade com as medidas de cumprimento da sentença.",
+    "prazo": "dez./2026",
+    "instrumento": "CF, art. 61, § 1º.",
+    "resultado": "Evitar oposição do governo na CFT e na sanção.",
+    "riscos": "R01, R03"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Ajustes de iniciativa para a CCJC",
+    "descricao": "Retirar nomes de órgãos e o prazo de 90 dias; prever regulamentação sem prazo.",
+    "prazo": "com o substitutivo",
+    "instrumento": "Súmula CCJC nº 1; Tema 917.",
+    "resultado": "Constitucionalidade sem ressalvas.",
+    "riscos": "R03"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "adeq": {
+    "titulo": "Conof · Exame de adequação",
+    "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf"
+   },
+   "sum1": {
+    "titulo": "Súmula CCJC nº 1",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ccjc/normas-internas/s1.pdf"
+   },
+   "t917": {
+    "titulo": "STF · Tema 917 (RE 878.911)",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=917"
+   },
+   "pl": {
+    "titulo": "PL 245/2019 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1707036"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2190751"
+   },
+   "sbt_credn": {
+    "titulo": "SBT-A 1 CREDN (texto aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2190751"
+   },
+   "par_cdhm": {
+    "titulo": "PAR 1 CDHM (parecer aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2190751"
+   },
+   "l7505": {
+    "titulo": "Lei 7.505/1986",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l7505.htm"
+   },
+   "l8034": {
+    "titulo": "Lei 8.034/1990 (art. 1º, III)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8034.htm"
+   },
+   "cidh": {
+    "titulo": "Corte IDH · Caso Comunidades Quilombolas de Alcântara vs. Brasil (2024)",
+    "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_548_por.pdf"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto original"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e paralisação na CFT"
+   },
+   {
+    "fonte": "sbt_credn",
+    "nota": "texto aprovado (com o PL 4.878/2019)"
+   },
+   {
+    "fonte": "par_cdhm",
+    "nota": "parecer da CDHM"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 61, 84 e 167, XIV"
+   },
+   {
+    "fonte": "adct",
+    "nota": "estimativa de impacto"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "arts. 14, 16 e 17"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "adeq",
+    "nota": "exame de adequação"
+   },
+   {
+    "fonte": "l7505",
+    "nota": "incentivo citado"
+   },
+   {
+    "fonte": "l8034",
+    "nota": "suspensão dos benefícios"
+   },
+   {
+    "fonte": "cidh",
+    "nota": "sentença de 2024"
+   },
+   {
+    "fonte": "sum1",
+    "nota": "atribuições ao Executivo"
+   },
+   {
+    "fonte": "t917",
+    "nota": "iniciativa parlamentar e despesa"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 52, 54, 105 e 144"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }
