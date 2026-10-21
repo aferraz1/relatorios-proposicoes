@@ -6,8 +6,33 @@
 {%- elif extra %}<path d="M9 13h6"></path><path d="M9 17h4"></path>{% endif %}</svg>
 {%- endmacro %}
 
+{% macro icone_check(tamanho=14) -%}
+<svg aria-hidden="true" width="{{ tamanho }}" height="{{ tamanho }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>
+{%- endmacro %}
+
+{% macro icone_fechar(tamanho=20) -%}
+<svg aria-hidden="true" width="{{ tamanho }}" height="{{ tamanho }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg>
+{%- endmacro %}
+
+{% macro icone_seta(tamanho=18) -%}
+<svg aria-hidden="true" width="{{ tamanho }}" height="{{ tamanho }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>
+{%- endmacro %}
+
 {% macro aria_pdf(nome) -%}
 Abrir {{ nome }} em PDF, em nova aba
+{%- endmacro %}
+
+{#
+  Atributos de interação de um componente ligado a um documento:
+  - data-valor: chave compartilhada; hover/foco acende todos com a mesma chave;
+  - classe "aprovado" e data-origem: documento aprovado, aciona o popover da versão válida;
+  - data-janela: id da janela de detalhes que o clique abre (botões).
+#}
+{% macro interacao(valor, aprovados, classes, janela=none, detalhe=none) -%}
+{%- set aprovado = aprovados.get(valor) -%}
+class="{{ classes }}{{ ' aprovado' if aprovado }}" data-valor="{{ valor }}"
+{%- if aprovado %} data-origem="{{ aprovado.rotulo_acionador }}" aria-haspopup="dialog"{% if detalhe %} data-detalhe="{{ detalhe }}"{% endif %}
+{%- elif janela %} data-janela="{{ janela }}" aria-haspopup="dialog"{% endif %}
 {%- endmacro %}
 
 {% macro cartao_parlamentar(p, cartao=true, rotulo_aria=none) %}
@@ -26,8 +51,8 @@ Abrir {{ nome }} em PDF, em nova aba
 </{{ 'article' if cartao else 'div' }}>
 {% endmacro %}
 
-{% macro link_documento(doc) %}
-<a class="link-doc evento__doc" href="{{ doc.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(doc.nome) }}" title="{{ doc.nome }}">
+{% macro link_documento(doc, aprovados) %}
+<a {{ interacao(doc.valor, aprovados, 'link-doc liquido evento__doc') }} href="{{ doc.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(doc.nome) }}" title="{{ doc.nome }}">
   {{ icone_documento(20, pdf=true) }}
   <span class="link-doc__textos">
     <span class="rotulo rotulo--destaque">PDF</span>
@@ -35,3 +60,68 @@ Abrir {{ nome }} em PDF, em nova aba
   </span>
 </a>
 {% endmacro %}
+
+{# Cartão de documento dentro de uma janela de detalhes. #}
+{% macro documento_vinculado(it, aprovados) %}
+<article class="documento{{ ' aprovado' if it.destaque }}" data-valor="{{ it.valor }}">
+  <div class="documento__linha">
+    <span class="documento__sigla">{{ it.sigla }}</span>
+    <span class="selo-tipo rotulo">{{ it.tipo }}</span>
+    {% if it.destaque %}<span class="selo-ok rotulo">{{ icone_check() }}{{ it.destaque }}</span>{% endif %}
+    {% if it.superado %}<span class="selo-superado rotulo">SUPERADO</span>{% endif %}
+    {% if it.situacao %}<span class="selo-tinta rotulo">{{ it.situacao }}</span>{% endif %}
+  </div>
+  {% if it.meta %}<div class="rotulo rotulo--suave numeros">{{ it.meta }}</div>{% endif %}
+  {% if it.nota %}<div class="documento__nota">{{ it.nota }}</div>{% endif %}
+  {% if it.texto %}<p class="documento__texto">{{ it.texto }}</p>{% endif %}
+  {% if it.url_teor or it.url_ficha %}
+  <div class="documento__acoes">
+    {% if it.url_teor %}
+    <a {{ interacao(it.valor, aprovados, 'documento__acao liquido rotulo') }} href="{{ it.url_teor }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir inteiro teor de {{ it.sigla }} em PDF, em nova aba">{{ icone_documento(18, extra=false) }}INTEIRO TEOR · PDF</a>
+    {% endif %}
+    {% if it.url_ficha %}
+    <a class="documento__acao documento__acao--ficha liquido rotulo" data-valor="{{ it.valor }}" href="{{ it.url_ficha }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir ficha de tramitação de {{ it.sigla }}, em nova aba">{{ icone_seta() }}FICHA DE TRAMITAÇÃO</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</article>
+{% endmacro %}
+
+{# Janela (dialog nativo) com os registros de um documento ou categoria. #}
+{% macro janela(id, rotulo, titulo, subtitulo, itens, aprovados, rodape, mensagem_vazio) %}
+<dialog class="janela" id="{{ id }}" aria-labelledby="{{ id }}-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">{{ rotulo }}</span>
+      <h2 class="janela__titulo" id="{{ id }}-titulo">{{ titulo }}</h2>
+      <span class="texto-sm">{{ subtitulo }}</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela">{{ icone_fechar() }}</button>
+  </div>
+  <div class="janela__corpo">
+    {% for it in itens %}
+    {{ documento_vinculado(it, aprovados) }}
+    {% else %}
+    <div class="janela__vazio">
+      <span class="rotulo rotulo--suave">SEM_REGISTROS</span>
+      <span class="janela__vazio-texto">{{ mensagem_vazio }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="janela__rodape rotulo">{{ rodape }}</div>
+</dialog>
+{% endmacro %}
+
+{# Links das fontes oficiais citadas em um argumento da análise. #}
+{% macro fontes(lista) %}
+<span class="analise__fontes">
+  {% for f in lista %}
+  <a class="analise__fonte rotulo" href="{{ f.url }}" target="_blank" rel="noopener noreferrer">{{ f.titulo }} ↗</a>
+  {% endfor %}
+</span>
+{% endmacro %}
+
+{# Pílula de nível (risco, semáforo) ou de prioridade (plano de ação, sem o ponto). #}
+{% macro nivel(texto, ponto=true) -%}
+<span class="nivel nivel--{{ texto | classe_nivel }} rotulo">{% if ponto %}<span class="nivel__ponto" aria-hidden="true"></span>{% endif %}{{ texto }}</span>
+{%- endmacro %}

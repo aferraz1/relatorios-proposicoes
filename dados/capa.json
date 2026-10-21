@@ -1,0 +1,16 @@
+{
+  "pagina": "capa",
+  "data_emissao": "2026-10-20",
+  "titulo": ["Relatório de gestão e", "acompanhamento de proposições", "legislativas"],
+  "area": ["Gestão de Processo", "Legislativo"],
+  "destaque": ["Projetos de lei prioritários nas", "comissões"],
+  "parlamentar": { "cargo": "Deputado", "nome": "Pedro Lucas Fernandes" },
+  "assessor": {
+    "cargo": "Assessor legislativo",
+    "nome": "Alexandre Ferraz",
+    "email": "alexandre.ferraz@gmail.com",
+    "telefone": "+55 (61) 98211-8822"
+  },
+  "escritorio": "Alexandre Ferraz Advocacia",
+  "partido": "União Brasil"
+}

@@ -1,0 +1,41 @@
+/* Capa A4 (794 × 1123 px). Paleta institucional azul-marinho, independente do tema do relatório. */
+@page { size: A4; margin: 0; }
+
+html, body { margin: 0; background: #eee; }
+body { display: flex; justify-content: center; }
+
+.capa {
+  position: relative;
+  width: 794px;
+  height: 1123px;
+  overflow: hidden;
+  background: #eee;
+  color: #253348;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.capa__arte { display: block; isolation: isolate; }
+.capa__sans { font-family: "Capa Arial", "Liberation Sans", Arial, Helvetica, sans-serif; }
+.capa__mono { font-family: "Capa Mono", "DejaVu Sans Mono", monospace; }
+.capa__multiplicar { mix-blend-mode: multiply; }
+
+/* Bloco de contatos alinhado à direita, na mesma margem dos textos do SVG. */
+.capa__contato {
+  position: absolute;
+  top: 813.1px;
+  right: 60.47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Capa Arial", "Liberation Sans", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 20.4px;
+  font-style: normal;
+  color: #253348;
+}
+.capa__contato strong { font-weight: 700; }
+.capa__linha { display: flex; gap: 4.8px; align-items: center; }
+.capa__linha svg { flex: 0 0 auto; }
+.capa__contato a { color: #203e69; text-decoration: underline; text-underline-offset: 3px; }
+.capa__contato a:hover, .capa__contato a:focus-visible { color: #15233a; }
+.capa__contato a:focus-visible { outline: 2px solid #203e69; outline-offset: 2px; }

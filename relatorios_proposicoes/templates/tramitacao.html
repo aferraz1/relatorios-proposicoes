@@ -1,7 +1,12 @@
 {% extends "base.html" %}
-{% from "componentes.html" import icone_documento, aria_pdf, cartao_parlamentar, link_documento %}
+{% from "componentes.html" import icone_documento, icone_check, icone_fechar, icone_seta, aria_pdf, interacao, cartao_parlamentar, link_documento, janela, fontes, nivel %}
 {% set prop = r.proposicao %}
+{% set aprovados = r.documentos_aprovados %}
+{% set vv = r.versao_valida %}
 {% set rotulos_estado = {"concluido": "CONCLUÍDA", "atual": "EM CURSO", "pendente": "PENDENTE"} %}
+{% set sigla_ficha = r.arvore.raiz.sigla if r.arvore else prop.identificacao %}
+{% set rodape_janela = "FONTE: " ~ (prop.casa | upper) ~ " · FICHA DE TRAMITAÇÃO DO " ~ sigla_ficha ~ " · CONSULTA " ~ (r.data_consulta | data_br) %}
+{% set vazio_padrao = "Nenhum registro na ficha de tramitação até " ~ (r.data_consulta | data_br) ~ "." %}
 
 {% block titulo %}Tramitação do {{ prop.identificacao }}{% endblock %}
 
@@ -22,10 +27,16 @@
               <span class="meta__valor">{{ m.valor }}</span>
             </div>
             {% endfor %}
-            <a class="botao botao--primario" href="{{ prop.url_inteiro_teor }}" target="_blank" rel="noopener noreferrer">
+            <a {{ interacao(prop.valor, aprovados, 'botao liquido') }} href="{{ prop.url_inteiro_teor }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir texto original do {{ sigla_ficha }} em PDF, em nova aba">
               {{ icone_documento(20) }}
-              INTEIRO TEOR
+              {{ "TEXTO ORIGINAL" if vv else "INTEIRO TEOR" }}
             </a>
+            {% if vv %}
+            <a {{ interacao(vv.documento.valor, aprovados, 'botao liquido liquido--primario') }} href="{{ vv.documento.url }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir texto vigente, {{ vv.sigla }}, em PDF, em nova aba">
+              {{ icone_check() }}
+              {{ vv.rotulo_botao }}
+            </a>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -71,7 +82,7 @@
             <div class="estagio__nome">{{ s.nome }}</div>
             <div class="texto-sm">{{ s.papel }}</div>
             {% if s.documento %}
-            <a class="link-doc link-doc--compacto rotulo" href="{{ s.documento.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(s.documento.nome) }}">
+            <a {{ interacao(s.documento.valor, aprovados, 'link-doc link-doc--compacto liquido rotulo') }} href="{{ s.documento.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(s.documento.nome) }}">
               {{ icone_documento(18, pdf=true) }}
               {{ s.documento.nome }}
             </a>
@@ -123,7 +134,7 @@
                 </div>
                 <div class="texto-sm">{{ e.texto }}</div>
               </div>
-              {% if e.documento %}{{ link_documento(e.documento) }}{% endif %}
+              {% if e.documento %}{{ link_documento(e.documento, aprovados) }}{% endif %}
             </div>
           </div>
           {% endfor %}
@@ -140,14 +151,14 @@
           <div class="texto-sm">
             {{ rel.resumo_inicio }}
             {% for p in rel.pareceres -%}
-            <a class="link-inline" href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(p.sigla ~ ' ' ~ rel.orgao_sigla) }}">{{ icone_documento(14, extra=false) }}{{ p.sigla }}</a>
-            {%- if loop.revindex == 2 %} e {% elif not loop.last %}, {% else %}.{% endif %}
+            <span class="sem-quebra"><a {{ interacao(p.valor, aprovados, 'link-inline liquido-inline') }} href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(p.sigla ~ ' ' ~ rel.orgao_sigla) }}">{{ icone_documento(14, extra=false) }}{{ p.sigla }}</a>
+            {%- if loop.revindex == 2 %}</span> e {% elif not loop.last %},</span> {% else %}.</span>{% endif %}
             {% endfor %}
             {{ rel.resumo_fim }}
           </div>
           <div class="pareceres">
             {% for p in rel.pareceres %}
-            <a class="parecer{{ ' parecer--aprovado' if p.aprovado }}" href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(p.nome) }}">
+            <a {{ interacao(p.valor, aprovados, 'parecer liquido' ~ (' parecer--aprovado' if p.aprovado else '')) }} href="{{ p.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ aria_pdf(p.nome) }}">
               {{ icone_documento(20, pdf=true) }}
               <span class="parecer__textos">
                 <span class="parecer__nome">{{ p.nome }}</span>
@@ -157,6 +168,27 @@
             </a>
             {% endfor %}
           </div>
+        </section>
+        {% endif %}
+
+        {% if prop.temas or prop.keywords %}
+        {% set termos = prop.termos_indexacao %}
+        <section class="indexacao vidro vidro--painel" aria-label="Temas e indexação">
+          {% if prop.temas %}
+          <div class="indexacao__bloco">
+            <h2 class="rotulo rotulo--secao">TEMAS_DA_PROPOSIÇÃO</h2>
+            <p class="indexacao__texto">{{ prop.temas | join("; ") }}.</p>
+          </div>
+          {% endif %}
+          {% if termos %}
+          <div class="indexacao__bloco">
+            <div class="cabeca-secao">
+              <h2 class="rotulo rotulo--secao">KEYWORDS</h2>
+              <span class="rotulo rotulo--suave">{{ termos | length }} TERMOS</span>
+            </div>
+            <p class="indexacao__texto">{{ termos | join("; ") }}.</p>
+          </div>
+          {% endif %}
         </section>
         {% endif %}
 
@@ -202,8 +234,274 @@
       </aside>
     </div>
 
+    {# ---------- ÁRVORE DE APENSADOS + DOCUMENTOS ANEXOS ---------- #}
+    {% if r.arvore or r.anexos %}
+    <div class="vinculos">
+      {% if r.arvore %}
+      {% set av = r.arvore %}
+      <section class="vinculos__painel vidro" aria-label="Árvore de apensados">
+        <div class="vinculos__cabeca">
+          <span class="rotulo rotulo--destaque">ÁRVORE_DE_APENSADOS</span>
+          <h2 class="titulo-lg">Árvore de Apensados</h2>
+          <p class="texto-sm">{{ av.resumo }}</p>
+        </div>
+        <button type="button" {{ interacao(av.raiz.valor, aprovados, 'arvore__no arvore__no--raiz liquido', janela='janela-raiz') }}>
+          <span class="arvore__sigla">{{ av.raiz.sigla }}</span>
+          <span class="arvore__tipo">{{ av.descricao_raiz }}</span>
+        </button>
+        <ul class="arvore__lista arvore__lista--raiz">
+          <li class="arvore__ramo">
+            <div class="arvore__rotulo rotulo">APENSADOS ({{ av.apensados | length }})</div>
+            {% if av.apensados %}
+            <ul class="arvore__lista">
+              {% for it in av.apensados %}
+              <li class="arvore__ramo">
+                <button type="button" {{ interacao(it.valor, aprovados, 'arvore__no liquido', janela='janela-apensado-' ~ loop.index, detalhe='janela-apensado-' ~ loop.index) }} aria-label="Abrir detalhes de {{ it.sigla }}">
+                  <span class="arvore__sigla">{{ it.sigla }}</span>
+                  <span class="arvore__tipo">{{ it.tipo }}</span>
+                </button>
+              </li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <div class="arvore__vazio">Nenhuma proposição apensada a esta matéria.</div>
+            {% endif %}
+          </li>
+          {% for g in av.grupos %}
+          {% set ig = loop.index %}
+          <li class="arvore__ramo">
+            <div class="arvore__rotulo rotulo">{{ g.rotulo }} ({{ g.itens | length }})</div>
+            <ul class="arvore__lista">
+              {% for it in g.itens %}
+              {% set id_janela = "janela-" ~ ig ~ "-" ~ loop.index %}
+              <li class="arvore__ramo">
+                <button type="button" {{ interacao(it.valor, aprovados, 'arvore__no liquido' ~ (' arvore__no--superado' if it.superado else ''), janela=id_janela, detalhe=id_janela) }} aria-label="Abrir detalhes de {{ it.sigla }}{% if it.destaque %} ({{ it.destaque }}){% endif %}{% if it.superado %} (superado){% endif %}">
+                  <span class="arvore__sigla">{{ it.sigla }}</span>
+                  <span class="arvore__tipo">{{ it.tipo }}</span>
+                  {% if it.vinculados %}<span class="selo-violeta rotulo">+{{ it.vinculados | length }} {{ g.sigla_vinculados }}</span>{% endif %}
+                  {% if it.destaque %}<span class="selo-ok rotulo">{{ icone_check() }}{{ it.destaque }}</span>{% endif %}
+                  {% if it.superado %}<span class="selo-superado rotulo">SUPERADO</span>{% endif %}
+                </button>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+
+      {% if r.anexos %}
+      <section class="vinculos__painel vidro" aria-label="Documentos anexos e referenciados">
+        <div class="vinculos__cabeca">
+          <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+          <h2 class="titulo-lg">Documentos Anexos e Referenciados</h2>
+          <p class="texto-sm">Cada item abre uma janela com todos os registros do respectivo documento.</p>
+        </div>
+        <div class="anexos">
+          {% for c in r.anexos %}
+          <button type="button" class="anexo liquido{{ ' anexo--vazio' if c.vazia }}" data-janela="janela-anexo-{{ loop.index }}" aria-haspopup="dialog" aria-label="Abrir {{ c.titulo }} ({{ c.contador }})">
+            <span class="anexo__icone">{{ icone_documento(18, extra=false) }}</span>
+            <span class="anexo__titulo">{{ c.titulo }}</span>
+            <span class="anexo__contador rotulo numeros">{{ c.contador }}</span>
+          </button>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {# ---------- ANÁLISE ESTRATÉGICA ---------- #}
+    {% if r.analise %}
+    {% set an = r.analise %}
+    <section class="analise vidro" aria-label="Análise estratégica">
+      <div class="analise__cabeca">
+        <span class="rotulo rotulo--destaque">ANÁLISE_ESTRATÉGICA · DATA_BASE {{ r.data_consulta | data_br }}</span>
+        <h2 class="titulo-lg">Análise da situação atual, riscos, oportunidades e plano de ação</h2>
+        <p class="texto-sm">{{ an.introducao }}</p>
+      </div>
+
+      <details open>
+        <summary><h3 class="analise__titulo">1. Síntese executiva</h3><span class="rotulo rotulo--suave">ABRIR / FECHAR</span></summary>
+        <div class="analise__secao">
+          {% for paragrafo in an.sintese %}
+          <p class="analise__paragrafo">{{ paragrafo | negrito }}</p>
+          {% endfor %}
+          <div class="analise__grade analise__grade--semaforo">
+            {% for s in an.semaforo %}
+            <div class="analise__cartao analise__cartao--semaforo">
+              <span class="rotulo rotulo--suave">{{ s.eixo }}</span>
+              {{ nivel(s.nivel) }}
+              <p class="texto-sm">{{ s.texto }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </details>
+
+      <details open>
+        <summary><h3 class="analise__titulo">2. Diagnóstico técnico</h3><span class="rotulo rotulo--suave">ABRIR / FECHAR</span></summary>
+        <div class="analise__secao">
+          <div class="analise__grade analise__grade--diagnostico">
+            {% for b in an.diagnostico %}
+            <article class="analise__cartao analise__cartao--diagnostico">
+              <span class="rotulo rotulo--destaque">{{ b.rotulo }}</span>
+              <h4 class="analise__subtitulo">{{ b.titulo }}</h4>
+              <ul class="analise__lista">
+                {% for i in b.itens %}
+                <li>{{ i.texto }} {{ fontes(i.fontes) }}</li>
+                {% endfor %}
+              </ul>
+            </article>
+            {% endfor %}
+          </div>
+          {% if an.legistica %}
+          <span class="rotulo rotulo--destaque">{{ an.rotulo_legistica }}</span>
+          <div class="tabela-rolagem">
+            <table class="tabela tabela--legistica">
+              <thead><tr><th scope="col">DISPOSITIVO</th><th scope="col">PROBLEMA</th><th scope="col">FUNDAMENTO</th><th scope="col">CORREÇÃO SUGERIDA</th></tr></thead>
+              <tbody>
+                {% for a in an.legistica %}
+                <tr>
+                  <td class="rotulo sem-quebra">{{ a.dispositivo }}</td>
+                  <td>{{ a.problema }}</td>
+                  <td class="suave">{{ a.fundamento }}</td>
+                  <td>{{ a.correcao }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          {% endif %}
+        </div>
+      </details>
+
+      <details open>
+        <summary><h3 class="analise__titulo">3. Matriz de riscos</h3><span class="rotulo rotulo--suave">{{ an.riscos | length }} RISCOS · {{ an.riscos | selectattr("nivel", "equalto", "ALTO") | list | length }} ALTOS</span></summary>
+        <div class="analise__secao">
+          <p class="texto-sm">Probabilidade e impacto em três níveis (BAIXO, MÉDIO, ALTO). O nível do risco combina os dois; a instância indica onde o risco se materializa.</p>
+          <div class="tabela-rolagem">
+            <table class="tabela tabela--riscos">
+              <thead><tr><th scope="col">ID · NÍVEL</th><th scope="col">RISCO</th><th scope="col">INSTÂNCIA</th><th scope="col">PROB. / IMPACTO</th><th scope="col">FUNDAMENTO</th><th scope="col">MITIGAÇÃO</th></tr></thead>
+              <tbody>
+                {% for k in an.riscos %}
+                <tr>
+                  <td class="sem-quebra"><span class="tabela__empilhado"><span class="rotulo">{{ k.id }}</span>{{ nivel(k.nivel) }}</span></td>
+                  <td><strong>{{ k.titulo }}</strong><br><span class="suave">{{ k.descricao }}</span></td>
+                  <td class="rotulo">{{ k.instancia }}</td>
+                  <td class="rotulo sem-quebra">P: {{ k.probabilidade }}<br>I: {{ k.impacto }}</td>
+                  <td class="suave">{{ k.fundamento }} {{ fontes(k.fontes) }}</td>
+                  <td>{{ k.mitigacao }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
+
+      <details open>
+        <summary><h3 class="analise__titulo">4. Oportunidades</h3><span class="rotulo rotulo--suave">{{ an.oportunidades | length }} OPORTUNIDADES</span></summary>
+        <div class="analise__secao">
+          <div class="analise__grade analise__grade--oportunidades">
+            {% for o in an.oportunidades %}
+            <article class="analise__cartao">
+              <span class="rotulo rotulo--destaque">{{ o.id }} · {{ o.tipo }}</span>
+              <h4 class="analise__subtitulo">{{ o.titulo }}</h4>
+              <p class="analise__paragrafo">{{ o.descricao }}</p>
+              <p class="texto-sm"><strong class="analise__forte">Como aproveitar:</strong> {{ o.como }}</p>
+              {{ fontes(o.fontes) }}
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+      </details>
+
+      <details open>
+        <summary><h3 class="analise__titulo">5. Plano de ação · Assessoria Legislativa</h3><span class="rotulo rotulo--suave">{{ an.plano | length }} AÇÕES · {{ an.plano | selectattr("prioridade", "equalto", "CRÍTICA") | list | length }} CRÍTICAS</span></summary>
+        <div class="analise__secao">
+          <div class="tabela-rolagem">
+            <table class="tabela tabela--plano">
+              <thead><tr><th scope="col">Nº · PRIORIDADE</th><th scope="col">AÇÃO</th><th scope="col">PRAZO</th><th scope="col">INSTRUMENTO · FUNDAMENTO</th><th scope="col">RESULTADO ESPERADO</th></tr></thead>
+              <tbody>
+                {% for a in an.plano %}
+                <tr>
+                  <td class="sem-quebra"><span class="tabela__empilhado"><span class="rotulo">{{ a.numero }}</span>{{ nivel(a.prioridade, ponto=false) }}</span></td>
+                  <td><strong>{{ a.titulo }}</strong><br><span class="suave">{{ a.descricao }}</span><br><span class="rotulo rotulo--destaque">RISCOS: {{ a.riscos }}</span></td>
+                  <td class="rotulo sem-quebra">{{ a.prazo }}</td>
+                  <td class="suave">{{ a.instrumento }}</td>
+                  <td>{{ a.resultado }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary><h3 class="analise__titulo">6. Fontes oficiais consultadas</h3><span class="rotulo rotulo--suave">{{ an.fontes | length }} FONTES</span></summary>
+        <ol class="analise__fontes-lista">
+          {% for f in an.fontes %}
+          <li><a href="{{ f.fonte.url }}" target="_blank" rel="noopener noreferrer">{{ f.fonte.titulo }}</a> <span class="texto-sm">— {{ f.nota }}</span></li>
+          {% endfor %}
+        </ol>
+      </details>
+    </section>
+    {% endif %}
+
     <footer class="rodape rotulo">
       <span>FONTE: API DADOS ABERTOS · {{ prop.casa | upper }} · ID_PROPOSIÇÃO {{ prop.id }}</span>
       <span class="numeros">CONSULTA {{ r.data_consulta | data_br }}{% if ultima_movimentacao %} · ÚLTIMA MOVIMENTAÇÃO {{ ultima_movimentacao | data_br }}{% endif %}</span>
     </footer>
+{% endblock %}
+
+{% block extra %}
+  {# ---------- JANELAS DE DETALHES ---------- #}
+  {% if r.arvore %}
+  {% set av = r.arvore %}
+  {{ janela("janela-raiz", "PROPOSIÇÃO_PRINCIPAL", av.raiz.sigla, "Raiz da árvore · " ~ ("nenhuma proposição apensada" if not av.apensados else (av.apensados | length) ~ " apensada(s)"), [av.raiz], aprovados, rodape_janela, vazio_padrao) }}
+  {% for it in av.apensados %}
+  {{ janela("janela-apensado-" ~ loop.index, "PROPOSIÇÃO_APENSADA", it.sigla, it.tipo ~ " · " ~ sigla_ficha, [it] + it.vinculados, aprovados, rodape_janela, vazio_padrao) }}
+  {% endfor %}
+  {% for g in av.grupos %}
+  {% set ig = loop.index %}
+  {% for it in g.itens %}
+  {% set sub = it.tipo ~ (" · " ~ (it.vinculados | length) ~ " " ~ g.plural_vinculados ~ " vinculados" if it.vinculados else " · " ~ sigla_ficha) %}
+  {{ janela("janela-" ~ ig ~ "-" ~ loop.index, "DOCUMENTO_APROVADO" if it.destaque else "DOCUMENTO_VINCULADO", it.sigla, sub, [it] + it.vinculados, aprovados, rodape_janela, vazio_padrao) }}
+  {% endfor %}
+  {% endfor %}
+  {% endif %}
+  {% for c in r.anexos %}
+  {{ janela("janela-anexo-" ~ loop.index, "DOCUMENTOS_ANEXOS", c.titulo, c.subtitulo, c.itens, aprovados, rodape_janela, c.mensagem_vazio or vazio_padrao) }}
+  {% endfor %}
+
+  {# ---------- POPOVER: VERSÃO VÁLIDA ---------- #}
+  {% if vv %}
+  {# "Ver detalhes" abre a janela do documento acionador, ou a do texto vigente. #}
+  <div class="popover" id="popover-versao" role="dialog" aria-label="Versão válida do projeto" data-valor-versao="{{ vv.documento.valor }}" hidden>
+    <span class="popover__seta" aria-hidden="true"></span>
+    <div class="popover__topo">
+      <div class="popover__selos">
+        <span class="rotulo rotulo--destaque">VERSÃO_VÁLIDA · TEXTO_DE_REFERÊNCIA</span>
+        <span class="selo-ok rotulo">{{ icone_check() }}{{ vv.selo }}</span>
+      </div>
+      <button type="button" class="fechar liquido" data-fechar-popover aria-label="Fechar versão válida">{{ icone_fechar(18) }}</button>
+    </div>
+    <section class="popover__conteudo">
+      <div class="popover__textos">
+        <span class="rotulo rotulo--suave">ACIONADO_POR: <span data-origem-texto></span></span>
+        <h2 class="popover__titulo">{{ vv.titulo }}</h2>
+        <p class="analise__paragrafo">{{ vv.ementa }}</p>
+        <p class="texto-sm">{{ vv.descricao }}</p>
+      </div>
+      <div class="popover__acoes">
+        <a class="botao liquido liquido--primario" href="{{ vv.documento.url }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir texto vigente, {{ vv.sigla }}, em PDF, em nova aba">{{ icone_documento(18, extra=false) }}TEXTO VIGENTE · PDF</a>
+        <a class="botao liquido rotulo" href="{{ vv.parecer.url }}" target="_blank" rel="noopener noreferrer" aria-label="Abrir parecer da comissão, {{ vv.parecer.nome }}, em PDF, em nova aba">{{ icone_documento(18, extra=false) }}PARECER DA COMISSÃO · {{ vv.parecer.nome }}</a>
+        <button type="button" class="botao liquido botao--neutro rotulo" data-ver-detalhes aria-haspopup="dialog">{{ icone_seta() }}VER DETALHES</button>
+      </div>
+    </section>
+  </div>
+  {% endif %}
 {% endblock %}
