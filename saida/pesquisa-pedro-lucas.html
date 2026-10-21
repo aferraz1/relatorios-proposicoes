@@ -1,0 +1,1163 @@
+<!doctype html>
+<html lang="pt-BR" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pesquisa de proposições legislativas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Geist:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<style>
+/* Tokens do design system Glass HUD Legislativo.
+   Tema "Operação" (escuro) no :root; tema claro em [data-tema="claro"].
+   Os trios RGB (--*-rgb) alimentam as transparências do vidro. */
+:root {
+  color-scheme: dark;
+
+  /* Superfícies */
+  --surface: #10131a;
+  --surface-container-lowest: #0b0e15;
+  --surface-container: #1d1f27;
+  --surface-container-high: #272a32;
+  --on-surface: #e1e2ec;
+  --on-surface-variant: #b9cacb;
+  --outline: #849495;
+  --outline-variant: #3b494b;
+
+  /* Primária (cyan): tinta, ação e contraste sobre a ação */
+  --primary: #dbfcff;
+  --on-primary: #00363a;
+  --primary-container: #00f0ff;
+  --primary-fixed: #7df4ff;
+  --primary-fixed-dim: #00dbe9;
+  --acao-hover: #7df4ff;
+  --on-acao-hover: #002022;
+  --acao-press: #00dbe9;
+
+  /* Terciária (alertas), violeta (normas) e âmbar (nível médio) */
+  --tertiary-fixed-dim: #ffb2b8;
+  --violeta: #d1bcff;
+  --ambar: #ffcf70;
+
+  /* Trios RGB */
+  --tinta-rgb: 0, 219, 233;
+  --acao-rgb: 0, 240, 255;
+  --container-rgb: 29, 31, 39;
+  --alto-rgb: 39, 42, 50;
+  --variante-rgb: 59, 73, 75;
+  --violeta-rgb: 209, 188, 255;
+  --hover-rgb: 125, 244, 255;
+  --primaria-rgb: 219, 252, 255;
+  --veu-rgb: 11, 14, 21;
+  --popover-rgb: 44, 47, 55;
+  --janela-rgb: 50, 53, 61;
+  --seta-rgb: 58, 62, 71;
+  --brilho-rgb: 0, 240, 255;
+  --sombra-press: rgba(0, 0, 0, 0.45);
+
+  /* Vidro */
+  --glass-1: rgba(var(--container-rgb), 0.4);
+  --glass-2: rgba(var(--container-rgb), 0.6);
+  --glass-stage: rgba(var(--container-rgb), 0.62);
+  --glass-button: rgba(var(--alto-rgb), 0.7);
+  --hairline: rgba(var(--tinta-rgb), 0.2);
+  --hairline-strong: rgba(var(--tinta-rgb), 0.35);
+  --grid-line: rgba(var(--variante-rgb), 0.35);
+  --blur-1: 12px;
+  --campo: rgba(25, 27, 35, 0.8);
+
+  /* Sombras luminosas */
+  --glow-soft: 0 0 24px 0 rgba(var(--tinta-rgb), 0.16);
+  --glow-dot: 0 0 12px 0 rgba(var(--acao-rgb), 0.45);
+  --glow-focus: 0 0 0 2px var(--primary-container), 0 0 12px 0 rgba(var(--acao-rgb), 0.45);
+  --brilho-interno: inset 0 1px 0 0 rgba(var(--acao-rgb), 0.18);
+
+  /* Movimento */
+  --curva: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Tipografia */
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Geist", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Espaçamento (base 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --touch-target: 44px;
+  --max-width: 1440px;
+
+  /* Raios */
+  --radius-base: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+}
+
+/* Tema claro (padrão do relatório) */
+[data-tema="claro"] {
+  color-scheme: light;
+
+  --surface: #f5f7fa;
+  --surface-container-lowest: #ffffff;
+  --surface-container: #ffffff;
+  --surface-container-high: #e2e7ed;
+  --on-surface: #161c24;
+  --on-surface-variant: #3a4749;
+  --outline: #566668;
+  --outline-variant: #b9c7c9;
+
+  --primary: #00363a;
+  --on-primary: #ffffff;
+  --primary-container: #006970;
+  --primary-fixed: #004f54;
+  --primary-fixed-dim: #00777f;
+  --acao-hover: #00575d;
+  --on-acao-hover: #ffffff;
+  --acao-press: #004f54;
+
+  --tertiary-fixed-dim: #a8003a;
+  --violeta: #6a2ee0;
+  --ambar: #875400;
+
+  --tinta-rgb: 0, 119, 127;
+  --acao-rgb: 0, 105, 112;
+  --container-rgb: 255, 255, 255;
+  --alto-rgb: 255, 255, 255;
+  --variante-rgb: 185, 199, 201;
+  --violeta-rgb: 106, 46, 224;
+  --hover-rgb: 0, 79, 84;
+  --primaria-rgb: 0, 54, 58;
+  --veu-rgb: 22, 28, 36;
+  --popover-rgb: 255, 255, 255;
+  --janela-rgb: 255, 255, 255;
+  --seta-rgb: 255, 255, 255;
+  --brilho-rgb: 0, 178, 189;
+  --sombra-press: rgba(22, 28, 36, 0.16);
+  --campo: rgba(255, 255, 255, 0.75);
+}
+
+/* Pesquisa facetada de proposições. Depende de tokens.css. */
+
+html, body { margin: 0; width: 100%; max-width: 100%; overflow-x: hidden; background: var(--surface); }
+*, *::before, *::after { box-sizing: border-box; }
+a { color: var(--primary-fixed-dim); }
+a:hover { color: var(--primary-fixed); }
+h1, h2, p { margin: 0; }
+
+.pesquisa {
+  width: 100%;
+  padding: var(--space-8) clamp(16px, 3vw, 32px) var(--space-12);
+  background-color: var(--surface);
+  background-image:
+    linear-gradient(rgba(var(--tinta-rgb), 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(var(--tinta-rgb), 0.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+  color: var(--on-surface);
+  font-family: var(--font-body);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+/* ---------- Tipografia ---------- */
+.rotulo-mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--on-surface-variant);
+}
+.rotulo-mono--tinta { color: var(--primary-fixed-dim); }
+.texto-suave { font-size: 14px; line-height: 22px; color: var(--on-surface-variant); }
+.texto-mini { font-size: 12px; line-height: 16px; color: var(--on-surface-variant); }
+.texto-mini.texto-suave { font-size: 13px; line-height: 20px; }
+
+.pesquisa__cabecalho { display: flex; flex-direction: column; gap: var(--space-2); }
+.pesquisa__titulo { font-family: var(--font-display); font-size: clamp(24px, 4vw, 32px); line-height: 1.2; font-weight: 700; color: var(--primary); }
+.pesquisa__corpo { display: flex; flex-wrap: wrap; gap: var(--space-6); align-items: flex-start; }
+
+/* ---------- Vidro ---------- */
+.vidro-claro {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(var(--tinta-rgb), 0.22);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.06) 40%, rgba(var(--tinta-rgb), 0.03) 100%),
+    rgba(var(--container-rgb), 0.6);
+  -webkit-backdrop-filter: blur(var(--blur-1)) saturate(170%);
+  backdrop-filter: blur(var(--blur-1)) saturate(170%);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+}
+
+/* ---------- Formulário ---------- */
+.filtros { flex: 1 1 min(320px, 100%); min-width: 0; padding: var(--space-5); display: flex; flex-direction: column; gap: 14px; }
+.filtros__topo { display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-2); }
+.filtros__titulo { font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 600; }
+.filtros__par {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--outline-variant);
+}
+.filtros__par--sem-borda { padding-top: 0; border-top: 0; }
+.filtros__avancados { display: flex; flex-direction: column; gap: 14px; border-top: 1px solid var(--outline-variant); padding-top: var(--space-3); }
+.filtros__avancados > summary { display: flex; justify-content: space-between; align-items: center; min-height: var(--touch-target); cursor: pointer; list-style: none; }
+.filtros__avancados > summary::-webkit-details-marker { display: none; }
+.filtros__grupo { display: flex; flex-direction: column; gap: 14px; }
+.filtros__acoes { display: flex; flex-wrap: wrap; gap: var(--space-2); padding-top: var(--space-3); border-top: 1px solid var(--outline-variant); }
+.filtros__pesquisar { flex: 1 1 140px; }
+.filtros__limpar { flex: 1 1 100px; }
+
+.campo-rotulado { display: flex; flex-direction: column; gap: 6px; }
+.campo {
+  width: 100%;
+  min-height: var(--touch-target);
+  padding: 10px var(--space-3);
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline);
+  background: var(--campo);
+  color: var(--on-surface);
+  font: inherit;
+  font-size: 14px;
+}
+.campo--compacto { min-height: 40px; padding: var(--space-2) var(--space-3); }
+.campo::placeholder { color: var(--outline); }
+.campo--solicitacao { resize: vertical; font-family: var(--font-mono); font-size: 12px; line-height: 18px; }
+
+.grupo-filtro { margin: 0; padding: var(--space-3) 0 0; border: 0; border-top: 1px solid var(--outline-variant); display: flex; flex-direction: column; gap: var(--space-2); min-width: 0; }
+.grupo-filtro legend { padding: 0 0 var(--space-1); float: left; width: 100%; }
+
+.lista-opcoes {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px;
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline-variant);
+  background: var(--campo);
+}
+.opcoes-linha { display: flex; flex-wrap: wrap; gap: var(--space-1); }
+.opcoes-linha .opcao { flex: 1 1 auto; }
+.opcoes-linha .opcao__texto { overflow-wrap: normal; white-space: nowrap; }
+
+.opcao {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 36px;
+  padding: var(--space-1) 10px;
+  border-radius: var(--radius-base);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--on-surface);
+  transition: background-color 160ms var(--curva);
+}
+.opcao:hover { background: rgba(var(--tinta-rgb), 0.10); }
+.opcao--marcada { background: rgba(var(--acao-rgb), 0.12); box-shadow: inset 3px 0 0 0 var(--primary-container); font-weight: 600; }
+.opcao--inativa { opacity: 0.38; cursor: not-allowed; }
+.opcao--ativa { background: rgba(var(--tinta-rgb), 0.16); box-shadow: inset 0 0 0 1px rgba(var(--tinta-rgb), 0.6); }
+.opcao--marcada.opcao--ativa { box-shadow: inset 3px 0 0 0 var(--primary-container), inset 0 0 0 1px rgba(var(--tinta-rgb), 0.6); }
+.opcao--zero .opcao__total { opacity: 0.55; }
+.opcao input { accent-color: var(--primary-container); width: 16px; height: 16px; flex: none; margin: 0; }
+.opcao__texto { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+.opcao__texto strong { font-weight: 600; }
+.opcao__total { flex: none; font-family: var(--font-mono); font-size: 12px; color: var(--on-surface-variant); font-variant-numeric: tabular-nums; }
+.opcao__sub { display: block; font-size: 12px; line-height: 16px; font-weight: 400; color: var(--on-surface-variant); }
+.opcao mark { background: rgba(var(--tinta-rgb), 0.22); color: inherit; border-radius: 2px; padding: 0 1px; }
+.lista-opcoes__vazia { padding: 10px; font-size: 13px; color: var(--on-surface-variant); }
+
+/* Foco visível */
+.campo:focus-visible, .opcao:focus-within, .botao:focus-visible, .chip:focus-visible,
+.filtros__avancados > summary:focus-visible, .resultado__sigla:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-container), 0 0 12px 0 rgba(var(--acao-rgb), 0.35);
+}
+
+/* ---------- Autocompletar de tipos ---------- */
+.autocompletar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: 10px;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(var(--tinta-rgb), 0.45);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.08) 45%),
+    rgba(var(--container-rgb), 0.82);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  backdrop-filter: blur(16px) saturate(170%);
+  box-shadow: 0 0 0 1px rgba(var(--tinta-rgb), 0.12), 0 12px 32px -12px rgba(var(--tinta-rgb), 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.55);
+}
+.autocompletar[hidden] { display: none; }
+.autocompletar__topo { display: flex; flex-wrap: wrap; gap: 6px var(--space-3); align-items: center; justify-content: space-between; }
+.autocompletar__acoes { display: flex; gap: var(--space-2); }
+.autocompletar__rodape { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; justify-content: space-between; }
+.autocompletar__confirmar { display: flex; gap: var(--space-2); flex: 1 1 220px; justify-content: flex-end; }
+
+/* ---------- Botões e chips ---------- */
+.botao {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--touch-target);
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline);
+  background: transparent;
+  color: var(--on-surface);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 160ms var(--curva), border-color 160ms var(--curva);
+}
+.botao:hover { background: rgba(var(--tinta-rgb), 0.10); border-color: var(--primary-fixed-dim); color: var(--on-surface); }
+.botao--primario { background: var(--primary-container); border-color: var(--primary-container); color: var(--on-primary); }
+.botao--primario:hover { background: var(--primary-container); filter: brightness(0.92); color: var(--on-primary); }
+.botao--mini { min-height: 32px; padding: 0 10px; font-size: 13px; }
+.botao--medio { min-height: 40px; }
+.botao--ordem { min-height: 36px; padding: 0 10px; font-size: 13px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chips[hidden] { display: none; }
+.chips--ativos { gap: var(--space-2); }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 2px 6px 2px 10px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(var(--tinta-rgb), 0.5);
+  background: rgba(var(--tinta-rgb), 0.08);
+  color: var(--on-surface);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.chip:hover { border-color: var(--primary-fixed-dim); background: rgba(var(--tinta-rgb), 0.16); }
+.chip strong { font-weight: 600; }
+.chip__total { font-family: var(--font-mono); font-size: 11px; color: var(--on-surface-variant); }
+
+/* ---------- Resultados ---------- */
+.resultados { flex: 999 1 min(520px, 100%); min-width: 0; display: flex; flex-direction: column; gap: var(--space-4); }
+.resultados__topo { padding: var(--space-4) var(--space-5); display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-6); align-items: center; justify-content: space-between; }
+.resultados__total { display: flex; flex-direction: column; gap: 2px; }
+.resultados__numero { font-family: var(--font-display); font-size: 24px; line-height: 32px; font-weight: 600; color: var(--primary); font-variant-numeric: tabular-nums; }
+.resultados__ordem { display: flex; align-items: center; gap: var(--space-2); }
+.resultados__ordens { display: inline-flex; gap: var(--space-1); flex-wrap: wrap; }
+.resultados__vazio { padding: var(--space-8) var(--space-5); text-align: center; display: flex; flex-direction: column; gap: var(--space-2); align-items: center; }
+.resultados__vazio[hidden] { display: none; }
+.resultados__vazio p { font-size: 14px; line-height: 22px; }
+.resultados__lista { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: var(--space-3); }
+.resultados__paginacao { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; justify-content: space-between; }
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--outline-variant);
+  background: rgba(var(--container-rgb), 0.7);
+  transition: border-color 160ms var(--curva), box-shadow 160ms var(--curva);
+}
+.resultado:hover { border-color: var(--primary-fixed-dim); box-shadow: 0 0 24px 0 rgba(var(--tinta-rgb), 0.14); }
+.resultado__topo { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-3); align-items: baseline; justify-content: space-between; }
+.resultado__sigla {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 2px 10px 2px 0;
+  border: 0;
+  border-radius: var(--radius-base);
+  background: transparent;
+  color: var(--primary-fixed-dim);
+  font-family: var(--font-display);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 160ms var(--curva), padding 160ms var(--curva), background-color 160ms var(--curva);
+}
+.resultado__sigla:hover, .resultado__sigla[aria-expanded="true"], .resultado__sigla:focus-visible { color: var(--primary-fixed); background: rgba(var(--tinta-rgb), 0.10); padding-left: 10px; }
+.resultado__sigla svg { transition: transform 160ms var(--curva); }
+.resultado__sigla[aria-expanded="true"] svg { transform: rotate(90deg); }
+.resultado__ementa {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--on-surface);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.resultado__autor { font-size: 13px; line-height: 20px; color: var(--on-surface-variant); }
+.resultado__autor strong { color: var(--on-surface); font-weight: 600; }
+.resultado__selos { display: flex; flex-wrap: wrap; gap: 6px; }
+.resultado__rodape { font-size: 12px; line-height: 18px; color: var(--on-surface-variant); }
+
+.selo-situacao, .selo-orgao, .selo-regime { padding: 2px var(--space-2); }
+.selo-situacao { border-radius: var(--radius-full); border: 1px solid currentColor; color: var(--outline); }
+.selo-situacao--fora { color: var(--tertiary-fixed-dim); }
+.selo-situacao--norma { color: var(--violeta); }
+.selo-situacao--andamento { color: var(--primary-container); }
+.selo-orgao { border-radius: var(--radius-base); border: 1px solid var(--outline); color: var(--on-surface); }
+.selo-regime { border-radius: var(--radius-base); border: 1px solid var(--outline-variant); }
+
+/* Painel de detalhes (pipeline de coleta e análise) */
+.detalhes {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-1);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(var(--tinta-rgb), 0.5);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.08) 45%),
+    rgba(var(--container-rgb), 0.85);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  backdrop-filter: blur(16px) saturate(170%);
+  box-shadow: 0 0 0 1px rgba(var(--tinta-rgb), 0.12), 0 12px 32px -12px rgba(var(--tinta-rgb), 0.4), inset 0 1px 0 0 rgba(255, 255, 255, 0.55);
+}
+.detalhes__topo { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-3); align-items: center; justify-content: space-between; }
+.detalhes__texto { font-size: 14px; line-height: 22px; }
+.detalhes__acoes { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.estado-detalhes { padding: 2px var(--space-2); border-radius: var(--radius-full); border: 1px solid var(--outline); color: var(--on-surface-variant); }
+.estado-detalhes--ok { border-color: var(--primary-container); color: var(--primary-container); background: rgba(var(--acao-rgb), 0.08); }
+.etapas { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 6px; }
+.etapa { display: flex; gap: 10px; align-items: flex-start; padding: var(--space-2) 10px; border-radius: var(--radius-base); border: 1px solid var(--outline-variant); font-size: 13px; line-height: 18px; color: var(--on-surface); }
+.etapa strong { font-weight: 600; }
+.etapa--ok { border-color: rgba(var(--acao-rgb), 0.55); background: rgba(var(--acao-rgb), 0.08); }
+.etapa__numero {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--outline);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--on-surface-variant);
+}
+.etapa--ok .etapa__numero { background: var(--primary-container); border-color: var(--primary-container); color: var(--on-primary); }
+
+.consulta-api { padding: var(--space-4) var(--space-5); display: flex; flex-direction: column; gap: var(--space-2); }
+.consulta-api__link {
+  align-self: flex-start;
+  height: auto;
+  padding: var(--space-2) var(--space-3);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opcao, .botao, .resultado, .resultado__sigla, .resultado__sigla svg { transition: none; }
+}
+
+</style>
+</head>
+<body>
+<div class="pesquisa">
+  <header class="pesquisa__cabecalho">
+    <span class="rotulo-mono rotulo-mono--tinta">PESQUISA_DE_PROPOSIÇÕES · CÂMARA_DOS_DEPUTADOS</span>
+    <h1 class="pesquisa__titulo">Pesquisa de proposições legislativas</h1>
+    <p class="texto-suave">Combine os campos livremente. Os filtros são interligados: cada lista mostra apenas as opções compatíveis com o que já foi escolhido, com a quantidade de proposições resultante. Base local: 64 proposições (PL e PLP) em tramitação de autoria ou coautoria do Dep. Pedro Lucas Fernandes (UNIÃO/MA) apresentadas desde 2019, coletadas na API de Dados Abertos em 21/10/2026.</p>
+  </header>
+
+  <div class="pesquisa__corpo">
+    <form class="vidro-claro filtros" role="search" aria-label="Filtros da pesquisa" id="pq-filtros">
+      <div class="filtros__topo">
+        <h2 class="filtros__titulo">Filtros</h2>
+        <span class="rotulo-mono" data-saida="qtdFiltros">NENHUM ATIVO</span>
+      </div>
+
+      <label class="campo-rotulado">
+        <span class="rotulo-mono">ASSUNTO</span>
+        <input type="search" class="campo" name="q" placeholder="Ementa ou indexação (ex.: data center)">
+      </label>
+
+      <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">AUTOR</legend>
+  <input type="search" class="campo campo--compacto" data-filtro-faceta="autor" aria-label="Filtrar autor" placeholder="Filtrar autor…">
+  <div class="lista-opcoes" role="radiogroup" aria-label="Autor" data-faceta="autor" style="max-height: 200px"></div>
+</fieldset>
+
+
+      <fieldset class="grupo-filtro">
+        <legend class="rotulo-mono">TIPO DA PROPOSIÇÃO</legend>
+        <div class="chips" aria-label="Tipos confirmados" data-tipos-confirmados hidden></div>
+        <input type="text" class="campo" id="pq-tipo" role="combobox" autocomplete="off" aria-autocomplete="list" aria-controls="pq-tp-lista" aria-expanded="false" aria-label="Tipo da proposição: digite a sigla ou o nome" placeholder="Digite a sigla ou o nome (ex.: PL, requerimento)">
+        <div class="autocompletar" data-autocompletar hidden>
+          <div class="autocompletar__topo">
+            <span class="rotulo-mono" data-saida="legendaTipos"></span>
+            <span class="autocompletar__acoes">
+              <button type="button" class="botao botao--mini" data-acao-tipo="todos">Selecionar todos</button>
+              <button type="button" class="botao botao--mini" data-acao-tipo="limpar">Limpar seleção</button>
+            </span>
+          </div>
+          <div id="pq-tp-lista" class="lista-opcoes" role="listbox" aria-multiselectable="true" aria-label="Sugestões de tipos" style="max-height: 264px"></div>
+          <div class="autocompletar__rodape">
+            <span class="texto-mini">↑ ↓ navegar · Ctrl+Espaço marcar · Enter confirmar · Esc cancelar</span>
+            <span class="autocompletar__confirmar">
+              <button type="button" class="botao botao--medio" data-acao-tipo="cancelar">Cancelar</button>
+              <button type="button" class="botao botao--medio botao--primario" data-acao-tipo="confirmar" data-saida="rotuloConfirmar">Confirmar seleção</button>
+            </span>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="filtros__par">
+        <label class="campo-rotulado">
+          <span class="rotulo-mono">NÚMERO</span>
+          <input type="text" inputmode="numeric" class="campo" name="numero" placeholder="ex.: 1680">
+        </label>
+        <label class="campo-rotulado">
+          <span class="rotulo-mono">ANO</span>
+          <input type="text" inputmode="numeric" class="campo" name="ano" placeholder="AAAA" maxlength="4">
+        </label>
+      </div>
+
+      <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">PARTIDO DO AUTOR</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Partido do autor" data-faceta="partido" style="max-height: 160px"></div>
+</fieldset>
+
+      <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">UF DO AUTOR</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Uf do autor" data-faceta="uf" style="max-height: 160px"></div>
+</fieldset>
+
+      <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">TEMA</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Tema" data-faceta="tema" style="max-height: 180px"></div>
+</fieldset>
+
+
+      <fieldset class="grupo-filtro">
+        <legend class="rotulo-mono">EM TRAMITAÇÃO</legend>
+        <div class="opcoes-linha" role="radiogroup" aria-label="Em tramitação" data-faceta="tram"></div>
+      </fieldset>
+
+      <details class="filtros__avancados">
+        <summary><span class="rotulo-mono rotulo-mono--tinta">FILTROS_AVANÇADOS</span><span class="rotulo-mono" data-saida="qtdAvancados"></span></summary>
+        <div class="filtros__grupo">
+          <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">SITUAÇÃO</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Situação" data-faceta="situ" style="max-height: 180px"></div>
+</fieldset>
+
+          <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">ÓRGÃO ATUAL</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Órgão atual" data-faceta="orgao" style="max-height: 160px"></div>
+</fieldset>
+
+          <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">REGIME DE TRAMITAÇÃO</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Regime de tramitação" data-faceta="regime" style="max-height: 140px"></div>
+</fieldset>
+
+          <fieldset class="grupo-filtro">
+  <legend class="rotulo-mono">FORMA DE APRECIAÇÃO</legend>
+  <div class="lista-opcoes" role="radiogroup" aria-label="Forma de apreciação" data-faceta="aprec" style="max-height: 140px"></div>
+</fieldset>
+
+          <fieldset class="grupo-filtro">
+            <legend class="rotulo-mono">DATA DE APRESENTAÇÃO</legend>
+            <div class="filtros__par filtros__par--sem-borda">
+              <label class="campo-rotulado"><span class="rotulo-mono">DE</span><input type="date" class="campo" name="de"></label>
+              <label class="campo-rotulado"><span class="rotulo-mono">ATÉ</span><input type="date" class="campo" name="ate"></label>
+            </div>
+          </fieldset>
+        </div>
+      </details>
+
+      <div class="filtros__acoes">
+        <button type="submit" class="botao botao--primario filtros__pesquisar">Pesquisar</button>
+        <button type="button" class="botao filtros__limpar" data-limpar>Limpar</button>
+      </div>
+    </form>
+
+    <section class="resultados" id="pq-resultados" aria-label="Resultados da pesquisa" aria-live="polite">
+      <div class="vidro-claro resultados__topo">
+        <div class="resultados__total">
+          <span class="rotulo-mono">RESULTADOS</span>
+          <span class="resultados__numero" data-saida="totalTexto"></span>
+        </div>
+        <div class="resultados__ordem">
+          <span class="rotulo-mono" id="pq-ordem-rotulo">ORDENAR POR</span>
+          <span class="resultados__ordens" role="group" aria-labelledby="pq-ordem-rotulo">
+            <button type="button" class="botao botao--ordem" data-ordem="recentes">Mais recentes</button>
+            <button type="button" class="botao botao--ordem" data-ordem="antigas">Mais antigas</button>
+            <button type="button" class="botao botao--ordem" data-ordem="movimentacao">Última movimentação</button>
+          </span>
+        </div>
+      </div>
+
+      <div class="chips chips--ativos" data-filtros-ativos hidden></div>
+
+      <div class="vidro-claro resultados__vazio" data-sem-resultados hidden>
+        <span class="rotulo-mono">SEM_RESULTADOS</span>
+        <p>Nenhuma proposição atende a todos os filtros. Remova um filtro ativo ou amplie o período.</p>
+      </div>
+
+      <ol class="resultados__lista" data-lista-resultados></ol>
+
+      <div class="resultados__paginacao">
+        <span class="rotulo-mono" data-saida="paginaTexto"></span>
+        <button type="button" class="botao" data-mais hidden>Mostrar mais 20</button>
+      </div>
+
+      <div class="vidro-claro consulta-api">
+        <span class="rotulo-mono rotulo-mono--tinta">CONSULTA_EQUIVALENTE · API_DADOS_ABERTOS</span>
+        <p class="texto-mini texto-suave">A base local cobre as PL e PLP em tramitação de autoria ou coautoria do Dep. Pedro Lucas Fernandes. Para pesquisar todo o acervo da Câmara com os filtros aceitos pela API (tipo, número, ano, autor, partido, UF, tema, assunto e período), abra a consulta equivalente:</p>
+        <a class="botao consulta-api__link" data-link-api href="https://dadosabertos.camara.leg.br/api/v2/proposicoes" target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    </section>
+  </div>
+</div>
+<script type="application/json" id="pq-dados">{"coleta":"2026-10-21","descricaoBase":"proposições (PL e PLP) em tramitação de autoria ou coautoria do Dep. Pedro Lucas Fernandes (UNIÃO/MA) apresentadas desde 2019","detalhes":{"2497586":{"arquivo":"pl-1680-2025.html","titulo":"Tramitação PL 1.680/2025","coleta":"2026-10-20"},"2271138":{"arquivo":"pl-649-2021.html","titulo":"Tramitação PL 649/2021","coleta":"2026-10-21"},"2637478":{"arquivo":"pl-3507-2026.html","titulo":"Tramitação PL 3.507/2026","coleta":"2026-10-21"},"2625306":{"arquivo":"pl-2427-2026.html","titulo":"Tramitação PL 2.427/2026","coleta":"2026-10-21"},"2613709":{"arquivo":"pl-1619-2026.html","titulo":"Tramitação PL 1.619/2026","coleta":"2026-10-21"},"2607723":{"arquivo":"pl-1072-2026.html","titulo":"Tramitação PL 1.072/2026","coleta":"2026-10-21"},"2565441":{"arquivo":"pl-4822-2025.html","titulo":"Tramitação PL 4.822/2025","coleta":"2026-10-21"},"2531914":{"arquivo":"pl-3239-2025.html","titulo":"Tramitação PL 3.239/2025","coleta":"2026-10-21"},"2483863":{"arquivo":"pl-420-2025.html","titulo":"Tramitação PL 420/2025","coleta":"2026-10-21"},"2448934":{"arquivo":"pl-2859-2024.html","titulo":"Tramitação PL 2.859/2024","coleta":"2026-10-21"},"2435229":{"arquivo":"pl-1967-2024.html","titulo":"Tramitação PL 1.967/2024","coleta":"2026-10-21"},"2433834":{"arquivo":"pl-1827-2024.html","titulo":"Tramitação PL 1.827/2024","coleta":"2026-10-21"},"2424834":{"arquivo":"pl-1110-2024.html","titulo":"Tramitação PL 1.110/2024","coleta":"2026-10-21"},"2354896":{"arquivo":"pl-1605-2023.html","titulo":"Tramitação PL 1.605/2023","coleta":"2026-10-21"},"2352233":{"arquivo":"pl-1287-2023.html","titulo":"Tramitação PL 1.287/2023","coleta":"2026-10-21"},"2337172":{"arquivo":"pl-2754-2022.html","titulo":"Tramitação PL 2.754/2022","coleta":"2026-10-21"},"2336317":{"arquivo":"pl-2679-2022.html","titulo":"Tramitação PL 2.679/2022","coleta":"2026-10-21"},"2327205":{"arquivo":"pl-1611-2022.html","titulo":"Tramitação PL 1.611/2022","coleta":"2026-10-21"},"2294289":{"arquivo":"pl-2822-2021.html","titulo":"Tramitação PL 2.822/2021","coleta":"2026-10-21"},"2287380":{"arquivo":"pl-2219-2021.html","titulo":"Tramitação PL 2.219/2021","coleta":"2026-10-21"},"2287383":{"arquivo":"pl-2220-2021.html","titulo":"Tramitação PL 2.220/2021","coleta":"2026-10-21"},"2287384":{"arquivo":"pl-2221-2021.html","titulo":"Tramitação PL 2.221/2021","coleta":"2026-10-21"},"2275740":{"arquivo":"pl-1103-2021.html","titulo":"Tramitação PL 1.103/2021","coleta":"2026-10-21"},"2275129":{"arquivo":"pl-1030-2021.html","titulo":"Tramitação PL 1.030/2021","coleta":"2026-10-21"},"2274504":{"arquivo":"pl-989-2021.html","titulo":"Tramitação PL 989/2021","coleta":"2026-10-21"},"2273942":{"arquivo":"pl-915-2021.html","titulo":"Tramitação PL 915/2021","coleta":"2026-10-21"},"2273427":{"arquivo":"pl-800-2021.html","titulo":"Tramitação PL 800/2021","coleta":"2026-10-21"},"2271080":{"arquivo":"pl-635-2021.html","titulo":"Tramitação PL 635/2021","coleta":"2026-10-21"},"2268678":{"arquivo":"pl-48-2021.html","titulo":"Tramitação PL 48/2021","coleta":"2026-10-21"},"2268693":{"arquivo":"pl-56-2021.html","titulo":"Tramitação PL 56/2021","coleta":"2026-10-21"},"2260764":{"arquivo":"pl-4298-2020.html","titulo":"Tramitação PL 4.298/2020","coleta":"2026-10-21"},"2257255":{"arquivo":"pl-3718-2020.html","titulo":"Tramitação PL 3.718/2020","coleta":"2026-10-21"},"2256940":{"arquivo":"pl-3679-2020.html","titulo":"Tramitação PL 3.679/2020","coleta":"2026-10-21"},"2256634":{"arquivo":"pl-3596-2020.html","titulo":"Tramitação PL 3.596/2020","coleta":"2026-10-21"},"2255122":{"arquivo":"pl-3272-2020.html","titulo":"Tramitação PL 3.272/2020","coleta":"2026-10-21"},"2254958":{"arquivo":"pl-3243-2020.html","titulo":"Tramitação PL 3.243/2020","coleta":"2026-10-21"},"2254587":{"arquivo":"plp-157-2020.html","titulo":"Tramitação PLP 157/2020","coleta":"2026-10-21"},"2254590":{"arquivo":"pl-3146-2020.html","titulo":"Tramitação PL 3.146/2020","coleta":"2026-10-21"},"2253902":{"arquivo":"pl-2943-2020.html","titulo":"Tramitação PL 2.943/2020","coleta":"2026-10-21"},"2253703":{"arquivo":"pl-2894-2020.html","titulo":"Tramitação PL 2.894/2020","coleta":"2026-10-21"},"2252010":{"arquivo":"pl-2497-2020.html","titulo":"Tramitação PL 2.497/2020","coleta":"2026-10-21"},"2242638":{"arquivo":"pl-1372-2020.html","titulo":"Tramitação PL 1.372/2020","coleta":"2026-10-21"},"2242347":{"arquivo":"pl-1244-2020.html","titulo":"Tramitação PL 1.244/2020","coleta":"2026-10-21"},"2241964":{"arquivo":"plp-48-2020.html","titulo":"Tramitação PLP 48/2020","coleta":"2026-10-21"},"2236550":{"arquivo":"pl-105-2020.html","titulo":"Tramitação PL 105/2020","coleta":"2026-10-21"},"2234260":{"arquivo":"pl-6461-2019.html","titulo":"Tramitação PL 6.461/2019","coleta":"2026-10-21"},"2230831":{"arquivo":"pl-6183-2019.html","titulo":"Tramitação PL 6.183/2019","coleta":"2026-10-21"},"2230961":{"arquivo":"pl-6210-2019.html","titulo":"Tramitação PL 6.210/2019","coleta":"2026-10-21"},"2230586":{"arquivo":"pl-6151-2019.html","titulo":"Tramitação PL 6.151/2019","coleta":"2026-10-21"},"2226261":{"arquivo":"pl-5606-2019.html","titulo":"Tramitação PL 5.606/2019","coleta":"2026-10-21"},"2221658":{"arquivo":"pl-5204-2019.html","titulo":"Tramitação PL 5.204/2019","coleta":"2026-10-21"},"2220673":{"arquivo":"pl-5119-2019.html","titulo":"Tramitação PL 5.119/2019","coleta":"2026-10-21"},"2218630":{"arquivo":"pl-4866-2019.html","titulo":"Tramitação PL 4.866/2019","coleta":"2026-10-21"},"2200684":{"arquivo":"pl-2727-2019.html","titulo":"Tramitação PL 2.727/2019","coleta":"2026-10-21"},"2198832":{"arquivo":"pl-2422-2019.html","titulo":"Tramitação PL 2.422/2019","coleta":"2026-10-21"},"2197170":{"arquivo":"pl-2131-2019.html","titulo":"Tramitação PL 2.131/2019","coleta":"2026-10-21"},"2194274":{"arquivo":"pl-1524-2019.html","titulo":"Tramitação PL 1.524/2019","coleta":"2026-10-21"},"2193762":{"arquivo":"pl-1416-2019.html","titulo":"Tramitação PL 1.416/2019","coleta":"2026-10-21"},"2193491":{"arquivo":"pl-1300-2019.html","titulo":"Tramitação PL 1.300/2019","coleta":"2026-10-21"},"2193315":{"arquivo":"pl-1193-2019.html","titulo":"Tramitação PL 1.193/2019","coleta":"2026-10-21"},"2192410":{"arquivo":"pl-904-2019.html","titulo":"Tramitação PL 904/2019","coleta":"2026-10-21"},"2191410":{"arquivo":"pl-539-2019.html","titulo":"Tramitação PL 539/2019","coleta":"2026-10-21"},"2190751":{"arquivo":"pl-245-2019.html","titulo":"Tramitação PL 245/2019","coleta":"2026-10-21"},"2190754":{"arquivo":"pl-244-2019.html","titulo":"Tramitação PL 244/2019","coleta":"2026-10-21"}},"TP":[["AA","Autógrafo",[]],["ADD","Adendo",[]],["AJECN","Ajuste de Emenda Orçamentária (CN)",[]],["ANEXO","Anexo",[]],["APJ","Anteprojeto",[]],["APM","Complemento de Apoiamento",[]],["ATA","Ata",[]],["ATACN","Ata (CN)",[]],["ATA_PRE","Ata Preparatória ",[]],["ATC","Ato Convocatório",[]],["AV","Demonstrativo de emissão do real",[]],["AVN","Aviso (CN)",[]],["CAC","Comunicado de Alteração do Controle Societário",[]],["CAE","Relatório de Atividades do Comitê de Admissibilidade de Emendas (CAE)",[]],["CCN","Consulta do Congresso Nacional",[]],["CFIS","Relatório de Atividades do Comitê de Avaliação, Fiscalização e Controle de Execução Orçamentária",[]],["CMC","Comunicação de Medida Cautelar",[]],["COI","Relatório do COI",[]],["CON","Consulta",[]],["CRVITAEDOC","Curriculum Vitae/Outro Documento",[]],["CST","Solicitação de Pronunciamento",[]],["CVO","Complementação de Voto",[]],["CVR","Contestação ao Voto do Relator",[]],["DCR","Denúncia por Crime de Responsabilidade",[]],["DEC","Decisão",[]],["DEF","Defesa Escrita",[]],["DEN","Denúncia",[]],["DIS","Discurso",[]],["DOC","Documento",[]],["DOCCPI","Documento de CPI",[]],["DTN","Destaque (CN)",[]],["DTQ","Destaque",[]],["DTS","Destaque Simples",[]],["DVT","Declaração de Voto",[]],["EAG","Emenda Substitutiva Aglutinativa Global",[]],["ECN","Emenda (CN)",[]],["EMA","Emenda Aglutinativa",[]],["EMC","Emenda na Comissão",[]],["EMC-A","Emenda Adotada pela Comissão",[]],["EMD","Emenda",[]],["EML","Emenda à LDO",[]],["EMO","Emenda ao Orçamento",[]],["EMP","Emenda de Plenário",[]],["EMPV","Emenda à Medida Provisória (CN)",[]],["EMR","Emenda de Relator",[]],["EMRP","Emenda de Relator Parcial",[]],["EMS","Emenda/Substitutivo do Senado",[]],["EPP","Emenda ao Plano Plurianual",[]],["ERD","Emenda de Redação",[]],["ERD-A","Emenda de Redação Adotada",[]],["ERR","Errata",[]],["ESB","Emenda ao Substitutivo",[]],["ESP","Emenda Substitutiva de Plenário",[]],["IAN","Indicação da ANC (1987-88)",[]],["INA","Indicação de Autoridade",[]],["INC","Indicação ",[]],["MAD","Manifestação do(a) Denunciado(a)",[]],["MAN","Manifestação do Relator",[]],["MCN","Mensagem (CN)",[]],["MIP","Minuta de Proposição Legislativa",[]],["MMP","Mensagem (MPU)",[]],["MPV","Medida Provisória",[]],["MSC","Mensagem",[]],["MSF","Mensagem (SF)",[]],["MSG","Mensagem (SF)",[]],["MST","Mensagem (STF)",[]],["MTC","Mensagem (TCU)",[]],["NIC","Norma Interna",[]],["OBJ","Objeto de Deliberação",[]],["OF","Ofício do Congresso Nacional",[]],["OFE","Ofício de Órgão do Poder Executivo",[]],["OFJ","Ofício de Órgão do Poder Judiciário",[]],["OFM","Ofício à Mesa",[]],["OFN","Ofício (CN)",[]],["OFS","Ofício do Senado Federal",[]],["P.C","Parecer (CD)",[]],["PAR","Parecer de Comissão",[]],["PARF","Parecer de Comissão para Redação Final",[]],["PCA","Parecer da ANC (1987-88)",[]],["PDA","Projeto de Decisão da ANC (1987-88)",[]],["PDC","Projeto de Decreto Legislativo",[]],["PDL","Projeto de Decreto Legislativo",[]],["PDN","Projeto de Decreto Legislativo (CN)",[]],["PDS","Projeto de Decreto Legislativo (SF)",[]],["PEA","Parecer à Emenda Aglutinativa",[]],["PEC","Proposta de Emenda à Constituição",[]],["PEP","Parecer às Emendas de Plenário",[]],["PES","Parecer às Emendas Apresentadas ao Substitutivo do Relator",[]],["PET","Petição",[]],["PFC","Proposta de Fiscalização e Controle",[]],["PIN","Proposta de Instrução Normativa",[]],["PL","Projeto de Lei",[]],["PLC","Projeto de Lei da Câmara dos Deputados (SF)",[]],["PLN","Projeto de Lei (CN)",[]],["PLP","Projeto de Lei Complementar",[]],["PLS","Projeto de Lei do Senado Federal",[]],["PLV","Projeto de Lei de Conversão",[]],["PPP","Parecer Proferido em Plenário",[]],["PPR","Parecer Reformulado de Plenário",[]],["PR/CNJ","Parecer do Conselho Nacional de Justiça",[]],["PR/CNMP","Parecer do Conselho Nacional do Ministério Público",[]],["PRA","Projeto de Resolução da ANC (1987-88)",[]],["PRC","Projeto de Resolução",[]],["PRF","Projeto de Resolução do Senado Federal",[]],["PRL","Parecer do Relator",[]],["PRLE","Parecer Preliminar às Emendas de Plenário",[]],["PRLP","Parecer Preliminar",[]],["PRLP(V)","Parecer Preliminar Vencedor",[]],["PRN","Projeto de Resolução do Congresso Nacional",[]],["PRO","Proposta",[]],["PROC","Processo Interno",[]],["PRP","Parecer do Relator Parcial",[]],["PRR","Parecer Reformulado",[]],["PRST","Parecer à Redação para o Segundo Turno",[]],["PRT","Parecer Técnico",[]],["PRV","Parecer Vencedor",[]],["PRVP","Proposta de Redação do Vencido em Primeiro Turno",[]],["PSS","Parecer às Emendas ou ao Substitutivo do Senado",[]],["QO","Questão de Ordem",[]],["R.C","Recurso do Congresso Nacional",[]],["RAT","Relatório Setorial",[]],["RCEL","Relatório de Comissão de Estudo Legislativo",[]],["RCEX","Relatório de Comissão Externa",[]],["RCM","Requerimento de Comissão Mista",[]],["RCP","Requerimento de Instituição de CPI",[]],["RDF","Redação Final",[]],["RDV","Redação do Vencido",[]],["REC","Recurso",[]],["REL","Relatório de Subcomissão",[]],["REL-A","Relatório Adotado pela Comissão",[]],["REM","Reclamação",[]],["REP","Representação",[]],["REQ","Requerimento",[]],["RFP","Refomulação de Parecer - art. 130, parágrafo único do RICD.",[]],["RGT","Relatório de Grupo de Trabalho",[]],["RIC","Requerimento de Informação",[]],["RIN","Requerimento de Resolução Interna",[]],["RLF","Relatório Final",[]],["RLG","Relatório Geral",[]],["RLP","Relatório Prévio",[]],["RLP(R)","Relatório Prévio Reformulado",[]],["RLP(V)","Relatório Prévio Vencedor",[]],["RPA","Relatório Parcial",[]],["RPD","Requerimento de Retirada da OD de proposições com pareceres favoraveis",[]],["RPDR","Requerimento Procedimental Genérico de Sessão/Reunião",[]],["RPL","Relatório Preliminar",[]],["RPLE","Relatório Preliminar Apresentado com Emendas",[]],["RPLOA","Relatório Preliminar",[]],["RQA","Requerimento de Informações da ANC (1987-88)",[]],["RQC","Requerimento de Convocação",[]],["RQN","Requerimento do Congresso Nacional",[]],["RRC","Relatório de Receita",[]],["RRL","Relatório do Relator (CMO)",[]],["RRR","Relatório Reformulado",[]],["RST","Redação para o segundo turno",[]],["RVC","Relatório Vencedor",[]],["SAP","Sustação de Andamento de Ação Penal",[]],["SBE","Subemenda",[]],["SBE-A","Subemenda Adotada pela Comissão",[]],["SBR","Subemenda de Relator",[]],["SBT","Substitutivo",[]],["SBT-A","Substitutivo adotado pela Comissão",[]],["SDL","Sugestão de Emenda à LDO - CLP",[]],["SGM","Ofício da Mesa",[]],["SIP","Solicitação para instauração de processo",[]],["SIT","Solicitação de Informação ao TCU",[]],["SLD","Sugestão de Emenda à LDO - Comissões",[]],["SOA","Sugestão de Emenda ao Orçamento - CLP",[]],["SOR","Sugestão de Emenda ao Orçamento - Comissões",[]],["SPA","Sugestão de Emenda ao PPA - CLP",[]],["SPA-R","Sugestão de Emenda ao PPA - revisão (CLP)",[]],["SPP","Sugestão de Emenda ao PPA - Comissões",[]],["SPP-R","Sugestão de Emenda ao PPA - revisão (Comissões)",[]],["SRL","Sugestão de Emenda a Relatório",[]],["SSP","Subemenda Substitutiva de Plenário",[]],["SUC","Sugestão a Projeto de Consolidação de Leis",[]],["SUG","Sugestão",[]],["SUM","Súmula",[]],["TER","Termo de Implementação",[]],["TVR","Ato de Concessão e Renovação de Concessão de Emissora de Rádio e Televisão",[]],["VTS","Voto em Separado",[]]],"S":["Aguardando Designação de Relator(a)","Pronta para Pauta","Aguardando Encaminhamento","Aguardando Parecer","Aguardando Apreciação pelo Senado Federal","Aguardando Despacho do Presidente da Câmara dos Deputados (Análise)","Tramitando em Conjunto","Sem situação registrada","Aguardando Autorização do Despacho","Aguardando Redação Final"],"O":["CCULT","PLEN","CCP","CSPCCO","MESA","CSAUDE","CDHMIR","CFT","CTRAB","CICS","CCJC","CCTI","CASP","CPASF","CMADS","CDC"],"T":["Arte, Cultura e Religião","Homenagens e Datas Comemorativas","Economia","Finanças Públicas e Orçamento","Turismo","Defesa e Segurança","Direitos Humanos e Minorias","Política, Partidos e Eleições","Administração Pública","Ciência, Tecnologia e Inovação","Indústria, Comércio e Serviços","Cidades e Desenvolvimento Urbano","Meio Ambiente e Desenvolvimento Sustentável","Viação, Transporte e Mobilidade","Saúde","Trabalho e Emprego","Previdência e Assistência Social","Esporte e Lazer","Direito e Defesa do Consumidor","Educação","Direito Penal e Processual Penal","Comunicações","Energia, Recursos Hídricos e Minerais","Direito e Justiça","Direito Constitucional","Agricultura, Pecuária, Pesca e Extrativismo"],"TC":["35","72","40","70","60","57","44","74","34","62","66","41","48","61","56","58","52","39","67","46","43","37","54","76","68","64"],"A":[["Pedro Lucas Fernandes","UNIÃO","MA","Deputado(a)"],["Adolfo Viana","PSDB","BA","Deputado(a)"],["Isnaldo Bulhões Jr.","MDB","AL","Deputado(a)"],["Kim Kataguiri","MISSÃO","SP","Deputado(a)"],["Zucco","PL","RS","Deputado(a)"],["Sargento Fahur","PL","PR","Deputado(a)"],["Rosangela Moro","PL","SP","Deputado(a)"],["Delegado Ramagem","PL","RJ","Deputado(a)"],["Giovani Cherini","PL","RS","Deputado(a)"],["Cristiane Lopes","PODE","RO","Deputado(a)"],["Delegado Paulo Bilynskyj","PL","SP","Deputado(a)"],["Evair Vieira de Melo","REPUBLICANOS","ES","Deputado(a)"],["Alceu Moreira","MDB","RS","Deputado(a)"],["Maurício Dziedricki","PODE","RS","Deputado(a)"],["Emanuel Pinheiro Neto","PSD","MT","Deputado(a)"],["Eduardo Costa","PSD","PA","Deputado(a)"],["Marcelo Moraes","PL","RS","Deputado(a)"],["Wilson Santiago","REPUBLICANOS","PB","Deputado(a)"],["Luisa Canziani","UNIÃO","PR","Deputado(a)"],["Paulo Bengtson","PTB","PA","Deputado(a)"],["Pedro Augusto Bezerra","PDT","CE","Deputado(a)"],["Nivaldo Albuquerque","UNIÃO","AL","Deputado(a)"],["Major Fabiana","PL","RJ","Deputado(a)"],["Eduardo Bismarck","PV","CE","Deputado(a)"],["Capitão Augusto","PL","SP","Deputado(a)"],["Jorge Solla","PT","BA","Deputado(a)"],["Rodrigo Coelho","PODE","SC","Deputado(a)"],["Santini","PTB","RS","Deputado(a)"],["Capitão Alberto Neto","PL","AM","Deputado(a)"],["Otoni de Paula","PSD","RJ","Deputado(a)"],["Carlos Sampaio","PSD","SP","Deputado(a)"],["Delegado Antônio Furtado","UNIÃO","RJ","Deputado(a)"],["Fernando Rodolfo","PRD","PE","Deputado(a)"],["Eduardo da Fonte","PP","PE","Deputado(a)"],["Guilherme Derrite","PP","SP","Deputado(a)"],["Lincoln Portela","PL","MG","Deputado(a)"],["Orlando Silva","PCdoB","SP","Deputado(a)"],["Neucimar Fraga","PP","ES","Deputado(a)"],["Capitão Wagner","UNIÃO","CE","Deputado(a)"],["Reginaldo Lopes","PT","MG","Deputado(a)"],["Pastor Eurico","PSDB","PE","Deputado(a)"],["Policial Katia Sastre","PL","SP","Deputado(a)"],["Subtenente Gonzaga","PSD","MG","Deputado(a)"],["Delegado Marcelo Freitas","UNIÃO","MG","Deputado(a)"],["Fábio Henrique","UNIÃO","SE","Deputado(a)"],["Da Vitoria","PP","ES","Deputado(a)"],["General Peternelli","UNIÃO","SP","Deputado(a)"],["Mauro Lopes","PP","MG","Deputado(a)"],["Flávia Arruda","PL","DF","Deputado(a)"],["Hugo Leal","PSD","RJ","Deputado(a)"],["Gonzaga Patriota","PSB","PE","Deputado(a)"],["Edna Henrique","REPUBLICANOS","PB","Deputado(a)"],["Pedro Lupion","REPUBLICANOS","PR","Deputado(a)"],["Magda Mofatto","PL","GO","Deputado(a)"],["João Campos","REPUBLICANOS","GO","Deputado(a)"],["Coronel Armando","PP","SC","Deputado(a)"],["Delegado Pablo","UNIÃO","AM","Deputado(a)"],["Junio Amaral","PL","MG","Deputado(a)"],["Nicoletti","PL","RR","Deputado(a)"],["Sanderson","PL","RS","Deputado(a)"],["General Girão","PL","RN","Deputado(a)"],["Bacelar","PV","BA","Deputado(a)"],["Paulo Teixeira","PT","SP","Deputado(a)"],["Alan Rick","UNIÃO","AC","Deputado(a)"],["Paes Landim","UNIÃO","PI","Deputado(a)"],["Celso Sabino","PDT","PA","Deputado(a)"],["Dra. Soraya Manato","PTB","ES","Deputado(a)"],["Carmen Zanotto","CIDADANIA","SC","Deputado(a)"],["Pedro Westphalen","PP","RS","Deputado(a)"],["Dr. Luiz Antonio Teixeira Jr.","PP","RJ","Deputado(a)"],["Antonio Brito","PSD","BA","Deputado(a)"],["André de Paula","PSD","PE","Deputado(a)"],["Arthur Lira","PP","AL","Deputado(a)"],["Baleia Rossi","MDB","SP","Deputado(a)"],["Joice Hasselmann","PSDB","SP","Deputado(a)"],["Jhonatan de Jesus","REPUBLICANOS","RR","Deputado(a)"],["Elmar Nascimento","UNIÃO","BA","Deputado(a)"],["José Nelto","UNIÃO","GO","Deputado(a)"],["Toninho Wandscheer","PP","PR","Deputado(a)"],["Daniel Coelho","CIDADANIA","PE","Deputado(a)"],["Fred Costa","PRD","MG","Deputado(a)"],["Wellington Roberto","PSD","PB","Deputado(a)"],["Tadeu Alencar","PSB","PE","Deputado(a)"],["André Figueiredo","PDT","CE","Deputado(a)"],["Augusto Coutinho","REPUBLICANOS","PE","Deputado(a)"],["Daniel Almeida","PCdoB","BA","Deputado(a)"],["Eduardo Braide","PODE","MA","Deputado(a)"],["Pedro Cunha Lima","PSDB","PB","Deputado(a)"],["Mariana Carvalho","REPUBLICANOS","RO","Deputado(a)"],["Rafael Motta","PSB","RN","Deputado(a)"],["Tabata Amaral","PSB","SP","Deputado(a)"],["Rose Modesto","UNIÃO","MS","Deputado(a)"],["Raul Henry","MDB","PE","Deputado(a)"],["Célio Studart","PSD","CE","Deputado(a)"],["Alessandro Molon","PSB","RJ","Deputado(a)"],["Alexandre Frota","PROS","SP","Deputado(a)"],["Erika Kokay","PT","DF","Deputado(a)"],["Aguinaldo Ribeiro","PP","PB","Deputado(a)"],["Zarattini","PT","SP","Deputado(a)"],["Zé Silva","UNIÃO","MG","Deputado(a)"],["Jandira Feghali","PCdoB","RJ","Deputado(a)"],["Joenia Wapichana","REDE","RR","Deputado(a)"],["Ivan Valente","PSOL","SP","Deputado(a)"],["Leandre","PSD","PR","Deputado(a)"],["Marcelo Ramos","PSD","AM","Deputado(a)"],["Paulão","PT","AL","Deputado(a)"],["Alice Portugal","PCdoB","BA","Deputado(a)"],["Rubens Otoni","PT","GO","Deputado(a)"],["Bira do Pindaré","PSB","MA","Deputado(a)"],["Lafayette de Andrada","PL","MG","Deputado(a)"],["Gilberto Abramo","REPUBLICANOS","MG","Deputado(a)"],["Célio Silveira","MDB","GO","Deputado(a)"],["Dr. Leonardo","REPUBLICANOS","MT","Deputado(a)"],["José Ricardo","PT","AM","Deputado(a)"],["Leônidas Cristino","PDT","CE","Deputado(a)"],["Patrus Ananias","PT","MG","Deputado(a)"],["Bosco Costa","PL","SE","Deputado(a)"],["Cacá Leão","PP","BA","Deputado(a)"],["Milton Vieira","REPUBLICANOS","SP","Deputado(a)"],["Wladimir Garotinho","PSD","RJ","Deputado(a)"],["Fábio Trad","PSD","MS","Deputado(a)"],["Assis Carvalho","PT","PI","Deputado(a)"],["Mário Heringer","PDT","MG","Deputado(a)"],["Diego Garcia","UNIÃO","PR","Deputado(a)"],["Denis Bezerra","PSB","CE","Deputado(a)"],["JHC","PSB","AL","Deputado(a)"],["Helder Salomão","PT","ES","Deputado(a)"],["José Guimarães","PT","CE","Deputado(a)"],["Gastão Vieira","PROS","MA","Deputado(a)"],["Vander Loubet","PT","MS","Deputado(a)"],["Carlos Veras","PT","PE","Deputado(a)"],["Enio Verri","PT","PR","Deputado(a)"],["Vavá Martins","REPUBLICANOS","PA","Deputado(a)"],["Zé Vitor","PL","MG","Deputado(a)"],["Henrique Fontana","PT","RS","Deputado(a)"],["Expedito Netto","PSD","RO","Deputado(a)"],["Carlos Henrique Gaguim","UNIÃO","TO","Deputado(a)"],["Alexandre Padilha","PT","SP","Deputado(a)"],["Rogério Correia","PT","MG","Deputado(a)"],["Darci de Matos","PSD","SC","Deputado(a)"],["Aliel Machado","PV","PR","Deputado(a)"],["Damião Feliciano","UNIÃO","PB","Deputado(a)"],["Pinheirinho","PP","MG","Deputado(a)"],["Bosco Saraiva","SOLIDARIEDADE","AM","Deputado(a)"],["Tito","AVANTE","BA","Deputado(a)"],["Natália Bonavides","PT","RN","Deputado(a)"],["Paulo Guedes","PT","MG","Deputado(a)"],["Roberto Pessoa","PSDB","CE","Deputado(a)"],["Leonardo Monteiro","PT","MG","Deputado(a)"],["Daniela do Waguinho","REPUBLICANOS","RJ","Deputado(a)"],["Cleber Verde","MDB","MA","Deputado(a)"],["Gutemberg Reis","MDB","RJ","Deputado(a)"],["Chico D'Angelo","PDT","RJ","Deputado(a)"],["Frei Anastacio Ribeiro","PT","PB","Deputado(a)"],["Airton Faleiro","PT","PA","Deputado(a)"],["Paulo Pimenta","PT","RS","Deputado(a)"],["Domingos Neto","PSD","CE","Deputado(a)"],["João Daniel","PT","SE","Deputado(a)"],["Hélio Costa","PSD","SC","Deputado(a)"],["Marco Bertaiolli","PSD","SP","Deputado(a)"],["Rui Falcão","PT","SP","Deputado(a)"],["Professora Rosa Neide","PT","MT","Deputado(a)"],["Marcon","PT","RS","Deputado(a)"],["Waldenor Pereira","PT","BA","Deputado(a)"],["José Nunes","PSD","BA","Deputado(a)"]],"AP":["Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II","Proposição Sujeita à Apreciação do Plenário","Indefinida","Anulada"],"RG":["Ordinário (Art. 151, III, RICD)","Urgência (Art. 155, RICD)",".","Prioridade (Art. 151, II, RICD)","Urgência (Art. 154, RICD)"],"L":[[2637478,"PL",3507,2026,"2026-07-07","Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.","Reconhecimento, artesanato, Maranhão, manifestação cultural, Conhecimento tradicional, valorização, Economia criativa.",0,0,0,0,"2026-09-08","Recebimento",[0],1,[0,1]],[2625306,"PL",2427,2026,"2026-05-18","Dispõe sobre a possibilidade dos fundos constitucionais de que trata o art. 159, inciso I, alínea c da Constituição Federal, e do Fundo de Desenvolvimento do Nordeste (FDNE), instituído pela Medida Provisória 2.156-5, de 24 de agosto de 2001, oferecerem garantias a operações de crédito voltadas à execução de projetos estruturantes.","Alteração, Lei dos Fundos Constitucionais (1989), Medida Provisória, Fundo Constitucional de Financiamento do Centro-Oeste (FCO), Fundo Constitucional de Financiamento do Nordeste (FNE), Fundo Constitucional de Financiamento do Norte (FNO), Fundo Constitucional do Distrito Federal (FCDF), Fundo de Desenvolvimento do Nordeste (FDNE), custeio, operação de crédito, Projeto estruturante, Cobertura de riscos, fundo garantidor.",1,1,0,1,"2026-06-30","Designação de Relator(a)",[0],1,[2,3]],[2613709,"PL",1619,2026,"2026-04-07","Institui o Programa Nacional de Apoio ao Turismo de Base (Pronatub).","Criação, ação governamental, âmbito nacional, incentivo, turismo sustentável, comunidade local, empreendedorismo sustentável, desenvolvimento sustentável, inclusão produtiva, sustentabilidade ambiental, promoção, patrimônio cultural, incentivo fiscal, imposto de renda, pessoa física, pessoa jurídica.",2,2,0,0,"2026-05-26","Publicação de Proposição",[0],1,[3,4]],[2607723,"PL",1072,2026,"2026-03-10","Altera a Lei nº 11.340, de 7 de agosto de 2006, para prever a integração de serviços de perícia médico-legal no atendimento prestado pelas unidades da Casa da Mulher Brasileira.","Alteração, Lei Maria da Penha (2006), garantia, prioridade, exame, perícia médica, Casas da Mulher Brasileira, vítima, violência contra a mulher, violência de gênero, violência doméstica, acolhimento (saúde), atendimento humanizado, corpo de delito, preservação, prova pericial, enfrentamento, revitimização, diretrizes.",3,3,0,0,"2026-05-20","Designação de Relator(a)",[0],1,[5,6]],[2565441,"PL",4822,2025,"2025-09-30","Altera a Lei nº 9.096, de 19 de setembro de 1995, para dispor sobre a responsabilidade individualizada de cada órgão dos partidos políticos pela execução de sanções pecuniárias e vedar descontos de cotas do Fundo Partidário de órgãos distintos, regulamentando a forma de cumprimento, parcelamento e fiscalização dessas obrigações, aplicadas aos órgãos nacionais, órgãos estaduais, distrital e municipais das agremiações, de acordo com o artigo 15-A e § 3º do artigo 28 da Lei n.º 9.096, de 19 de setembro de 1995, bem como a decisão do Supremo Tribunal Federal na Ação Direta de Constitucionalidade 31.","Alteração, Lei Orgânica dos Partidos Políticos (1995), Responsabilidade pessoal, Órgão partidário, pagamento, Multa administrativa pecuniária, penalidade, Justiça Eleitoral, decisão judicial, trânsito em julgado, diretrizes.",4,4,1,1,"2026-06-17","Expedição de Documento",[0,1,2],3,[3,7]],[2531914,"PL",3239,2025,"2025-07-03","Projeto de Lei que Institui o Dia Nacional da Palavra e dá outras providências.","Criação, Dia Nacional da Palavra, data comemorativa, novembro.",3,0,0,0,"2026-03-24","Designação de Relator(a)",[0],1,[0,1]],[2497586,"PL",1680,2025,"2025-04-14","Institui a Política Nacional para Processamento e Armazenamento Digitais.","Alteração, Lei de Licitações e Contratos Administrativos (2021), criação, Política Nacional para Processamento e Armazenamento Digitais, Zona Especial de Processamento e Armazenamento Digitais (ZEPAD), instalação, empresa, cadeia produtiva, processamento digital de dados, armazenamento de dados, diretrizes, prioridade, licitação, infraestrutura, Zona Especial de Processamento e Armazenamento Digitais (ZEPAD).",0,2,0,0,"2026-07-02","Publicação de Proposição",[0],1,[8,9,2,10]],[2483863,"PL",420,2025,"2025-02-12","Institui o Programa Nacional de Infraestruturas Sustentáveis e Resilientes – PNISR, cria o Selo de Sustentabilidade e Resiliência da Infraestrutura e dá outras providências.","Criação, Programa Nacional de Infraestruturas Sustentáveis e Resilientes (PNISR), diretrizes, incentivo, empreendimento, sustentabilidade, infraestrutura, Selo de Sustentabilidade e Resiliência da Infraestrutura, critério, elegibilidade, recebimento, recursos, Fundo Nacional sobre Mudança do Clima (FNMC).",4,4,0,1,"2025-11-11","Expedição de Documento",[0],1,[11,10,12,13]],[2448934,"PL",2859,2024,"2024-07-11","Altera a Lei nº 9.656, de 3 de junho de 1998, para estabelecer que a contratação de plano de segmentação hospitalar com obstetrícia pelo beneficiário-pai garante a cobertura da assistência ao parto.","Alteração, Lei dos Planos de Saúde (1998), Cobertura assistencial, Plano de saúde, Obstetrícia, Beneficiário, Pai, Período de carência, desassistência, Parto.",3,5,0,0,"2025-07-14","Encerramento de Prazo",[0],1,[10,14]],[2435229,"PL",1967,2024,"2024-05-21","Dispõe sobre a permissão de saque do saldo do FGTS para os residentes do Estado do Rio Grande do Sul no ano de 2024","Garantia, saque, Fundo de Garantia do Tempo de Serviço (FGTS), residente, Rio Grande do Sul, decorrência, enchente, calamidade pública.",5,4,2,2,"2024-05-21","Apresentação de Proposição",[3,4,0,5,6,7,8,9,10,11,12],11,[15]],[2433834,"PL",1827,2024,"2024-05-15","Altera a Lei nº 13.636, de 20 de março de 2018, para criar linha de crédito favorecida para empreendedores beneficiários do Programa Bolsa Família no âmbito do Programa Nacional de Microcrédito Produtivo Orientado - PNMPO.","Alteração, Legislação, Programa Nacional de Microcrédito Produtivo Orientado (PNMPO), criação, facilitação, Linha de crédito, fixação, Taxa de juros indexados, Sistema Especial de Liquidação e de Custódia (Selic), Microcrédito, Empreendedor, Beneficiário, Bolsa Família, incentivo, Microempreendedor Individual (MEI).",3,6,0,0,"2025-08-21","Encerramento de Prazo",[0],1,[2,3,10]],[2424834,"PL",1110,2024,"2024-04-08","Altera a Lei nº 14.690, de 3 de outubro de 2023, para priorizar agentes das forças de segurança no Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil.","Alteração, Lei Federal, critério, prioridade, atendimento, Profissional da segurança pública, Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes (Desenrola Brasil).",0,2,0,0,"2024-07-05","Publicação de Proposição",[0],1,[5,3]],[2354896,"PL",1605,2023,"2023-04-04","Altera a Lei nº 8.742, de 07 de dezembro de 1993, para estabelecer que, a mãe de filho com deficiência que recebe o Benefício de Prestação Continuada (BPC), em caso de falecimento desse filho, tenha direito ao recebimento do benefício, de maneira imediata e contínua.","Alteração, Lei Orgânica da Assistência Social, critério, continuidade, pagamento, Benefício de Prestação Continuada (BPC), mãe, falecimento, filho, pessoa com deficiência, beneficiário.",6,7,0,0,"2024-12-05","Recebimento",[0],1,[6,16]],[2352233,"PL",1287,2023,"2023-03-21","Acrescenta inciso ao art. 30 da Lei nº 13.756, de 12 dezembro de 2018, para que 0,5% do produto da arrecadação da loteria de apostas de quota fixa em meio físico ou virtual seja destinado a programas e projetos de prevenção, controle e combate ao câncer, e em ações destinadas ao tratamento adequado da doença.","Alteração, Lei Federal, destinação, percentagem, produto de arrecadação, Apostas de Quota Fixa, programa (administração), projeto (administração), prevenção, controle, combate, câncer, procedimento, tratamento, doença.",6,5,0,3,"2024-08-12","Notificações",[0],1,[14]],[2337172,"PL",2754,2022,"2022-11-09","Dispõe sobre a alteração do art. 186-A do Decreto n° 6.759 de 05 de fevereiro de 2009.","Alteração, Decreto federal, isenção, Imposto de Importação, equipamento esportivo, destinação, uso exclusivo, treinamento, preparação, atleta, competição esportiva, Jogos Olímpicos, Jogos Paralímpicos, Jogos Pan-Americanos, Jogos Parapan-Americanos.",0,2,0,0,"2025-06-06","Publicação de Proposição",[0],1,[17,3]],[2336317,"PL",2679,2022,"2022-10-25","Acrescenta inciso ao art. 20 da Lei nº 8.036, de 11 maio de 1990, para permitir a movimentação do saldo da conta vinculada para a aquisição de veículo automotor para o titular da conta vinculada.","Alteração, Lei do FGTS, autorização, trabalhador, movimentação, Conta vinculada do FGTS, aquisição, Veículo automotor.",0,8,0,0,"2023-08-03","Recebimento",[0],1,[8,3,15]],[2327205,"PL",1611,2022,"2022-06-13","Altera as Leis nº 9.656, de 3 de junho de 1998 e no 9.961 de 28 de janeiro de 2000, para definir que o Rol apresentado pela Agência Nacional de Saúde Suplementar – ANS é exemplificativo para todos os efeitos legais.","Alteração, Lei dos Planos de Saúde, obrigatoriedade, Plano de Saúde, cobertura assistencial, procedimento médico, indicação médica, odontologia._ Alteração, Lei da ANS, Agência Nacional de Saúde Suplementar (ANS), Rol de Procedimentos e Eventos em Saúde, caráter exemplificativo, proibição, restrição, tratamento médico, medicamento, prescrição médica, dentista.",6,4,0,0,"2022-07-05","Notificação de Despacho",[0],1,[18,14]],[2294289,"PL",2822,2021,"2021-08-16","Altera a Lei nº 8.212, de 24 de julho de 1991, ficam equiparadas as alíquotas de contribuição previdenciária, patronal e do funcionalismo vinculado às prefeituras municipais, e estabelecer limite para multas em caso de inadimplemento.","Alteração, Lei Orgânica da Seguridade Social, fixação, alíquota, contribuição previdenciária patronal, contribuição previdenciária, empregado público, vinculação, prefeitura municipal.",6,7,0,0,"2023-12-22","Notificações",[0],1,[16]],[2287380,"PL",2219,2021,"2021-06-17","Dispõe sobre o custeio das despesas  com o resgate e o tratamento de animal  submetido a maus-tratos.","Alteração, Lei dos Crimes Ambientais, custeio, despesa, regate, tratamento, animal, submissão, maus-tratos, responsabilidade, agente, prática abusiva.",7,9,1,3,"2024-05-09","Notificações",[0],1,[12]],[2287383,"PL",2220,2021,"2021-06-17","Dispõe Lei nº 10.778, de 24 de novembro de 2003, para estabelecer a prioridade na realização de exames toxicológicos de mulheres vítimas de violência.","Alteração, lei federal, violência contra a mulher, garantia, vítima, prioridade, exame toxicológico, intoxicação involuntária, abuso sexual.",4,4,1,1,"2024-12-13","Expedição de Documento",[0],1,[6,14]],[2287384,"PL",2221,2021,"2021-06-17","Cria o Programa “Banco de Empregos  para Mulheres Vítimas de Violência  Doméstica e Familiar” e dá outras \n providências.","Criação, Banco de Empregos para Mulheres Vítimas de Violência Doméstica e Familiar, educação e formação profissional, mulher, vítima, violência doméstica, reserva, vaga, emprego.",6,10,0,3,"2025-09-25","Recebimento",[0],1,[6,15]],[2275740,"PL",1103,2021,"2021-03-29","Dispõe sobre a prioridade na vacinação contra o Covid-19 das pessoas com Síndrome de Down ou Autismo.","Inclusão, pessoa, síndrome de Down, pessoa com transtorno do espectro autista, grupo prioritário, vacinação, contra coronavírus, Plano Nacional de Operacionalização da Vacinação contra a Covid-19.",2,5,0,3,"2022-12-08","Devolução à CCP",[0],1,[6,14]],[2275129,"PL",1030,2021,"2021-03-24","Determina a prioridade na vacinação contra a Covid 19 para profissionais da educação das redes pública e privada de ensino infantil, fundamental, médio, técnico, superior e profissionais de segurança pública.","Inclusão, profissional da educação, rede pública de ensino, rede particular de ensino, educação infantil, ensino fundamental, ensino médio, ensino técnico, educação superior, profissional da segurança pública. grupo prioritario, vacinação, contra, coronavírus, Plano Nacional de Operacionalização da Vacinação contra a Covid-19.",2,5,0,3,"2022-12-08","Devolução à CCP",[0],1,[5,19,14]],[2274504,"PL",989,2021,"2021-03-19","Acresce o art. 135-B ao Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal Brasileiro, para tipificar como crime a conduta de administradores ou dirigentes de unidades de atendimento hospitalar que ocultarem a disponibilidade de leitos das respectivas centrais de regulação e dá outras providências.","Alteração, Código Penal, Periclitação da Vida e da Saúde, tipicidade penal, Deixar de prestar assistência hospitalar, ocultação, existência, leito hospitalar, internação hospitalar, detenção, multa.",0,2,1,0,"2021-05-05","Publicação de Proposição",[13,14,15,0,16,17,18,19,20,21],10,[20,14]],[2273942,"PL",915,2021,"2021-03-16","Dispõe sobre a priorização dos profissionais de segurança pública para a Imunização contra a COVID-19.","Inclusão, profissional da segurança pública, grupo prioritário, vacinação, contra, coronavírus.",2,5,0,3,"2022-12-08","Devolução à CCP",[14,22,23,24,25,26,15,20,13,0,27,17,19,16,28,29,30,31,32,21,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,5,51,52,53,54,55,56,57,58,59,60],49,[14]],[2273427,"PL",800,2021,"2021-03-09","Determina a prioridade na vacinação contra a Covid-19 para os vigilantes.","Grupo prioritário, vacinação, coronavírus, vigilante, segurança privada.",2,5,0,3,"2022-12-08","Devolução à CCP",[61,0],2,[5,14,15]],[2271138,"PL",649,2021,"2021-03-02","Altera a Lei nº 12.965, de 23 de abril de 2014, para dispor sobre direito de ampla defesa e contraditório pela indisponibilização ou qualquer intervenção sem ordem judicial do provedor de aplicações sobre conteúdo gerado por terceiros.","Alteração, Marco Civil da Internet, Direito à ampla defesa, garantia ao contraditório, indisponibilização, intervenção, Ordem judicial, provedor de aplicações, conteúdo digital, geração, terceiro.",6,11,1,4,"2021-04-27","Recebimento",[0],1,[21]],[2271080,"PL",635,2021,"2021-03-01","Estabelece que o décimo terceiro salário, previsto no art. 7º, VIII, da Constituição Federal, fica isento do Imposto de Renda da Pessoa Física (IRPF) e não integra o salário de contribuição para efeito de cobrança da contribuição social do empregado.","Alteração, Legislação Tributária Federal, Décimo terceiro salário,  isenção, Imposto sobre a Renda da Pessoa Física (IRPF), ausência, incorporação, salário de contribuição, cobrança, contribuição social, empregado. _Alteração, Lei Orgânica da Seguridade Social, Décimo terceiro salário, ausência, incorporação, salário de contribuição.",0,8,0,0,"2024-10-29","Recebimento",[0],1,[8,3,15]],[2268678,"PL",48,2021,"2021-02-03","Altera a Lei nº 6.019, de 3 de janeiro de 1974, para introduzir nova possibilidade para contratação de trabalhadores de empresas prestadoras de serviços especializados","Alteração, Lei do Trabalho Temporário, contratação, trabalhador, empresas prestadoras de serviços especializados, isenção, prazo de carência, garantia, estabilidade de emprego, salário.",6,8,0,0,"2021-04-15","Recebimento",[0],1,[15]],[2268693,"PL",56,2021,"2021-02-03","Isenta do pagamento de taxa de inscrição em concursos públicos o candidato que participar da campanha nacional de vacinação imunizando-se contra a Covid-19.","Isenção, pagamento, taxa de inscrição, concurso público, candidato, participação, Campanha Nacional de Imunização contra SARS-CoV-2 (COVID-19).",0,12,0,3,"2023-03-23","Recebimento",[17,0],2,[8,14]],[2260764,"PL",4298,2020,"2020-08-20","Dispõe sobre a proibição do corte de energia elétrica em razão de Estado de Calamidade Pública nos casos de crises ordem social, econômica, financeira e da economia popular.","Proibição, suspensão, corte, energia elétrica, inadimplemento, unidade consumidora de energia, decorrência, calamidade pública, crise econômico-financeira.",6,10,1,3,"2024-12-20","Notificações",[14,15,13,18,27,16,0,19,17,21,20],11,[18,22]],[2257255,"PL",3718,2020,"2020-07-08","Altera a Lei nº 8.036, 11 de Maio de 1990, e a Lei nº 13.932, de 11 de Dezembro de 2019, para instituir as modalidades de saque-aniversário e de saque por interesse no Fundo de Garantia do Tempo de Serviço (FGTS).","Alteração, Lei do FGTS, Critério,  movimentação, Conta vinculada do FGTS, trabalhador, Saque-aniversário, saque por interesse.",6,8,0,0,"2021-03-10","Recebimento",[0,13,21,15,19,14,18,20,17],9,[6,15]],[2256940,"PL",3679,2020,"2020-07-07","Dispõe sobre a restituição de valores creditados em instituição financeira por ente público em desfavor dos interesses coletivos fundamentais e prevê aplicações de multa pela inobservância do sistema previsto.","Responsabilidade civil, recebimento, má-fé, fraude, apropriação indébita, crédito, instituição financeira, recursos, Poder público, Dano coletivo, prejuízo, Fazenda pública, procedimento, restituição.",0,2,0,0,"2026-05-13","Publicação de Proposição",[14,16,13,19,0,21,15,18,17],9,[8,2,3]],[2256634,"PL",3596,2020,"2020-07-01","Altera a Lei nº 13.869, de 2019, para estabelecer novas hipóteses de crime de abuso de autoridade no que diz respeito à atuação de magistrados nas redes sociais ou em qualquer outro meio de comunicação.","Alteração, Lei do Abuso de Autoridade (2019), abuso de autoridade, manifestação, magistrado, opinião, processo judicial, pendência, julgamento, rede social, mídia, detenção, multa.\r\n_Abuso de autoridade, Magistrado, manifestação, opinião, atividade político-partidária, crítica, candidato a cargo eletivo, rede social, mídia, detenção, multa.",0,10,1,0,"2021-02-10","Recebimento",[0,13,15,21,19,16,27],7,[23,20,7]],[2255122,"PL",3272,2020,"2020-06-12","Altera as Leis nº 8.212, de 24 de julho de 1991 e nº 8.213, de 24 de julho de 1991, para os aposentados que se interessam por retornar ao exercício de atividade sujeita ao Regime Geral de Previdência Social - RGPS.","Alteração, Lei da Seguridade Social,  aposentado, Regime Geral de Previdência Social (RGPS), retorno, atividade, mercado de trabalho, \r\nSegurado obrigatório.\r\n_Alteração, Lei de Benefícios da Previdência Social, benefício previdenciário, segurado obrigatório,  Regime Geral de Previdência Social (RGPS), retorno, atividade, mercado de trabalho.",6,7,0,3,"2025-04-30","Recebimento",[0,15,14,27,13,19,17,18],8,[16,15]],[2254958,"PL",3243,2020,"2020-06-10","Dispõe sobre a concepção do Portal Nacional de Preços para Produtos, Equipamentos e Serviços de Qualquer Natureza a ser utilizado como referência de valor monetário pela União, Estados e Municípios para compras ou contratações quando em situação de emergência ou em estado de calamidade pública.","Criação, Portal Nacional de Preços para Produtos, Equipamentos e Serviços de Qualquer Natureza Voltado à Situações de Emergência ou de Estado de Calamidade Pública , Preço de referência, órgão público, compra, produtos, equipamento, contratação, serviços, dispensa de licitação, situação de emergência, calamidade pública, pandemia, coronavírus",7,8,1,0,"2021-03-10","Recebimento",[13,15,0,14],4,[8]],[2254587,"PLP",157,2020,"2020-06-04","Suspende, por seis meses, o pagamento dos tributos federais e das parcelas dos programas de parcelamento de débitos no âmbito da Secretaria Especial da Receita Federal do Brasil ou da Procuradoria-Geral da Fazenda Nacional, às empresas que tenham sido obrigadas a suspender as suas atividades em razão das medidas implantadas para o combate à pandemia de COVID-19, declarada pela Organização Mundial da Saúde, e dá outras providências.","Suspensão, prazo determinado, pagamento, Débito tributário, Débito não tributário, Secretaria Especial da Receita Federal do Brasil, Procuradoria-Geral da Fazenda Nacional (PGFN), Tributo federal, empresa, interrupção, atividade econômica, quarentena (saúde), manutenção, emprego, trabalhador, pandemia, Coronavírus.",2,7,1,3,"2023-06-13","Devolução à CCP",[15,62,20,21,0,63,14,16,19,27,13,64,65],13,[8,3,10,15]],[2254590,"PL",3146,2020,"2020-06-04","Permite o parcelamento das contribuições sociais relativas aos meses de março e de abril de 2020 em até 24 meses, sem incidência de multa de mora.","Critério, parcelamento, Contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público (Contribuição PIS-Pasep), Contribuição para Financiamento da Seguridade Social (Cofins), Contribuição previdenciária patronal, pessoa jurídica, Crise econômica, pandemia, coronavírus, tributação.",7,4,0,0,"2023-05-16","Notificações",[15,62,20,21,0,63,14,16,19,27,13,64,65],13,[3,16]],[2253902,"PL",2943,2020,"2020-05-27","Institui o Programa Seguro Família","Criação, Programa Seguro Família, benefício, garantia, subsistência, família, critério, requisito, trabalhador desempregado, trabalhador informal.",6,13,1,0,"2025-05-08","Notificacao para Publicação Intermediária",[0,15,14,13,21,20,17,18,64,19,27],11,[6,16,15]],[2253703,"PL",2894,2020,"2020-05-26","Institui Programa no âmbito das instituições financeiras federais para a concessão de empréstimos favorecidos para hospitais privados com e sem fins lucrativos pequenos e médios – PPMH, bem como altera a Lei nº 13.483, de 21 de setembro de 2017, e a Lei nº 13.979, de 6 de fevereiro de 2020, para permitir a redução de taxas de juros em financiamentos a pequenos e médios hospitais com base na Taxa de Longo Prazo – TLP e sua taxa de juros prefixada.","Criação, Programa no âmbito das instituições financeiras federais oficiais para a concessão de empréstimos favorecidos para hospitais privados com e sem fins lucrativos pequenos e médios ( PPMH), financiamento, capital de giro, folha de pagamento, investimento, leito hospitalar, Unidade de Terapia Intensiva (UTI), Taxa de Longo Prazo (TLP).\r\n_Alteração, lei federal, critério, redução, taxa de juros, Taxa de Longo Prazo (TLP).\r\n_Alteração, lei federal, enfrentamento, Emergência de Saúde Pública de Importância Internacional (ESPII), redução, taxa de juros, Taxa de Longo Prazo (TLP), financiamento, hospital, calamidade pública, pandemia, coronavírus",6,5,1,1,"2021-11-12","Recebimento",[15,0,66,20,67,21,68,19,63,69,70,14],12,[2,14]],[2252010,"PL",2497,2020,"2020-05-08","Altera as Leis no 9.433, de 8 de janeiro de 1997, que institui a Política Nacional de Recursos Hídricos, e 11.445, de 5 de janeiro de 2007, que estabelece as diretrizes nacionais para o saneamento básico, para dispensar de outorga e do pagamento de taxa ou de tarifa o uso de recursos hídricos em propriedades não atendidas por rede pública de abastecimento.","Alteração, Lei de Gestão de Recursos Hídricos, Lei de Saneamento Básico, dispensa, outorga, pagamento, taxa, tarifa, extração, água subterrânea, aquífero, destinação, esgoto sanitário, propriedade rural, propriedade urbana, inexistência, serviços públicos, abastecimento de água. saneamento básico.",3,4,0,0,"2025-05-09","Apensação",[0],1,[11,22]],[2242638,"PL",1372,2020,"2020-04-01","Acrescenta dispositivos à Lei nº 8.080, de 19 de setembro de 1990, que \"dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências\", para instituir o Subsistema de Atenção à Saúde da Mulher Parturiente com Óbito Fetal.","Alteração, Lei Orgânica da Saúde, criação, Subsistema de Atenção à Saúde da Mulher Parturiente com Óbito Fetal.",6,10,0,0,"2026-05-12","Notificacao para Publicação Intermediária",[0],1,[6,14]],[2242347,"PL",1244,2020,"2020-03-30","Institui o Programa de Seguro Emprego- PSE.","Criação, diretrizes, Programa de Seguro Emprego (PSE), medida de emergência, preservação, emprego, calamidade pública, pandemia, coronavírus, emergência  social.",3,9,0,0,"2026-05-21","Designação de Relator(a)",[0,18,15,13,16,17,21,20,64,19,27],11,[10,14,15]],[2241964,"PLP",48,2020,"2020-03-25","Institui o mecanismo de leilão reverso para a destinação de recursos adicionais às Instituições Financeiras para realização de renegociação de dívidas com clientes PJ e PF.","Leilão reverso, Banco Central do Brasil (Bacen), Fundo Garantidor de Crédito (FGC), adicional, recursos financeiros, instituição financeira, negociação, crédito, pessoa física, pessoa jurídica.",0,7,1,3,"2024-04-24","Recebimento - Relator(a) (Sem Manifestação)",[0],1,[2,3]],[2236550,"PL",105,2020,"2020-02-05","Estabelece a senexão como o ato de colocar pessoa idosa em família substituta.","Alteração, Estatuto do Idoso, designação, senexão, colocação, idoso, situação, vulnerabilidade, abandono, família substituta, norma geral.",6,2,1,3,"2020-02-12","Publicação de Proposição",[0],1,[6]],[2234260,"PL",6461,2019,"2019-12-16","Institui o Estatuto do Aprendiz e dá outras providências.","Criação, Estatuto do Aprendiz, jovem aprendiz, Direito à profissionalização, Aprendizagem (direito do trabalho), Contrato de aprendizagem, contrato de trabalho, cota, Formação técnico-profissional metódica, jornada de trabalho, Fundo de Garantia do Tempo de Serviço (FGTS), férias, Vale-transporte, estabilidade provisória, gestante, Programa de aprendizagem, Certificado de qualificação profissional. \r\n_Alteração, Consolidação das Leis Trabalhistas (CLT), revogação, dispositivo legal, proteção, trabalho, menor de idade, jovem aprendiz. _Revogação, Lei da Aprendizagem.",4,4,1,1,"2026-08-28","Expedição de Documento",[71,72,73,0,74,30,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93],25,[15]],[2230831,"PL",6183,2019,"2019-11-27","Institui o Dia Nacional da Democracia.","Criação, Dia Nacional da Democracia, data comemorativa, dezembro.",6,10,0,3,"2025-04-08","Recebimento",[94,95,81,96,0,97,85,76,75,83,77,98,72,82,79,99,100,73,71,101,102,30,103,104,78],25,[24,1]],[2230961,"PL",6210,2019,"2019-11-27","Institui as diretrizes nacionais de promoção e defesa dos direitos humanos dos profissionais de segurança pública, na forma que menciona.","Criação, Diretrizes Nacionais de Promoção e Defesa dos Direitos Humanos dos Profissionais de Segurança Pública, procedimento, recursos financeiros.",2,1,1,1,"2022-11-22","Arquivamento",[105,106,107,108,109,110,111,112,44,113,21,114,115,116,117,36,118,119,120,121,85,122,123,33,61,124,125,29,126,127,128,129,130,131,132,133,134,135,136,137,138,139,50,140,141,81,62,142,39,143,83,144,145,146,147,148,149,96,2,150,151,152,0,153,154,155,156,157,158,159,160,25,78,161,162,163,164],77,[5,6]],[2230586,"PL",6151,2019,"2019-11-26","Dispõe sobre a obrigatoriedade dos fornecedores de produtos elétrico e eletrônicos a disponibilizar manuais e peças de reposição aos consumidores, e dá outras providências.","Obrigatoriedade, fornecedor, Eletrodoméstico, eletroeletrônico, reposição, Manual do usuário, Peça sobressalente, infração, penalidade administrativa.",6,4,1,3,"2021-10-26","Notificação de Despacho",[0],1,[18,10]],[2226261,"PL",5606,2019,"2019-10-22","Altera a Lei nº 12.527, de 18 de novembro de 2011, para vedar a divulgação de dados profissionais de mulheres vítimas de violência doméstica.","Alteração, Lei de Acesso à Informação, proibição, divulgação, internet, dados, remuneração, lotação, servidor público, empregado público, mulher, medida protetiva, vítima, violência doméstica, violência contra a mulher.",0,2,0,0,"2026-03-31","Publicação de Proposição",[0],1,[8,6]],[2221658,"PL",5204,2019,"2019-09-24","Dispõe sobre o acesso a informação ambiental.","Obrigatoriedade, órgão público, entidade pública, divulgação, internet, informação, matéria, meio ambiente.",0,14,0,0,"2026-03-12","Recebimento - Relator(a) (Sem Manifestação)",[0],1,[25,12]],[2220673,"PL",5119,2019,"2019-09-17","Altera a Lei nº 13.787, de 27 de dezembro de 2018, para determinar que os resultados de exames complementares do sistema único de saúde (SUS) sejam disponibilizados digitalmente.","Alteração, Lei Federal, obrigatoriedade, Sistema Único de Saúde (SUS), resultado, Exame médico, Meio eletrônico.",2,1,1,1,"2024-02-21","Arquivamento",[0],1,[14]],[2218630,"PL",4866,2019,"2019-09-04","Dispõe sobre a proteção e apoio psicológico à mulher atleta vítima de violência física ou sexual.","Implementação, medida protetiva, assistência psicológica, mulher, atleta, vítima, violência física, violência sexual.",8,4,3,0,"2023-12-21","Despacho",[116,0],2,[6,17]],[2200684,"PL",2727,2019,"2019-05-08","Proíbe a comercialização de artigos e embalagens descartáveis de plástico em estabelecimentos comerciais instalados em praias, rios e áreas ambientais protegidas.","Proibição, embalagem do produto, produto descartável, estabelecimento comercial, praia, Rio (curso d'água), Área de Proteção Ambiental (APA).",6,14,1,3,"2026-03-11","Notificacao para Publicação Intermediária",[0],1,[12]],[2198832,"PL",2422,2019,"2019-04-22","Altera a Lei nº 10.029, de 20 de outubro de 2000, para dispor sobre o serviço voluntário de reservistas.","Alteração, Lei do Serviço Voluntário na Polícia Militar e Corpo de Bombeiros, Serviço voluntário, Reservista, Serviço militar obrigatório, Policiamento preventivo, comunidade, segurança pública.",3,10,0,0,"2026-06-16","Encerramento de Prazo",[0],1,[8,5]],[2197170,"PL",2131,2019,"2019-04-09","Altera a Lei nº 12.244, de 24 de maio de 2010, que \"Dispõe sobre a universalização das bibliotecas nas instituições de ensino do país\", para incentivar a presença de títulos de autores locais nas bibliotecas escolares.","Alteração, Lei das Bibliotecas, incentivo, acervo bibliográfico, biblioteca escolar, livro, escritor, domicílio, Estado (ente federado), Município, escola.",6,7,0,0,"2025-10-15","Recebimento",[0],1,[0,19]],[2194274,"PL",1524,2019,"2019-03-19","Obriga produtores e fabricantes a inserir no corpo de seus produtos as informações referentes ao tempo de decomposição na natureza de suas embalagens e rótulos:","Obrigatoriedade, produtor, fabricante, produtos, inserção, informação, tempo de decomposição, meio ambiente, embalagem do produto, rótulo do produto.",6,14,1,0,"2023-10-25","Notificações",[0],1,[12]],[2193762,"PL",1416,2019,"2019-03-13","Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para garantir a isonomia das premiações, para homens e mulheres, nas competições esportivas em que haja emprego de recursos públicos.","Alteração, Lei Pelé, garantia, igualdade entre os sexos, valor, pagamento, atleta, sexo feminino, mulher,sexo masculino, premiação, competição esportiva, recursos públicos.",4,1,0,0,"2021-04-28","Apresentação de Proposição",[0],1,[6,17]],[2193491,"PL",1300,2019,"2019-03-12","Insere o §4º ao Art. 1º da Lei nº 9.008, de 21 de março de 1995.","Alteração, Lei Federal, destinação, percentual, recursos, arrecadação, Fundo de Defesa de Direitos Difusos (FDD),  projeto (administração), expansão, Defensoria pública",6,8,0,3,"2026-03-05","Notificacao para Publicação Intermediária",[0],1,[23]],[2193315,"PL",1193,2019,"2019-02-27","Dispõe sobre a divulgação dos incentivos para a instalação em propriedades rurais de sistemas de aproveitamento da energia solar e dos benefícios decorrentes do uso da tecnologia.","Divulgação, incentivo, instalação, propriedade rural, Sistema de energia solar fotovoltaica.",2,1,1,1,"2023-11-30","Arquivamento",[0],1,[22]],[2192410,"PL",904,2019,"2019-02-19","Acresce o parágrafo 7º a Lei nº 8.0778, de 11 de setembro de 1990, que dispõe sobre a proteção do consumidor e dá outras providências, para determinar o tempo máximo de inclusão de devedores nos Bancos de Dados e Cadastros de Consumidores.","Alteração, Código de Defesa do Consumidor, prazo, credor, comunicação, dívida, consumidor, banco de dados, Serviço de Proteção ao Crédito (SPC).",6,10,1,3,"2019-03-15","Recebimento",[0],1,[18]],[2191410,"PL",539,2019,"2019-02-06","Institui a modalidade de pré-pagamento do consumo de energia elétrica:","Normatização, modalidade, energia elétrica pré-paga.",6,15,0,0,"2024-03-14","Notificações",[0],1,[18,22]],[2190751,"PL",245,2019,"2019-02-04","Cria o Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara.","Criação, Fundo de Desenvolvimento das Comunidades Carentes e Quilombolas de Alcântara (FDCCQA), desenvolvimento econômico, desenvolvimento cultural, desenvolvimento social, Quilombolas, Comunidade tradicional, prejuízo, instalação, Centro de Lançamento de Alcântara (CLA), Alcântara (MA), Maranhão, fonte de recursos, benefício fiscal, pessoa física, pessoa jurídica, doação, comitê gestor, composição.",0,2,0,0,"2021-10-28","Publicação de Proposição",[0],1,[6]],[2190754,"PL",244,2019,"2019-02-04","Cria o Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP) e dá outras providências.","Criação, Fundo Nacional de Combate ao Câncer e de Assistência a Portadores (FNCCAP), Conselho consultivo, prevenção, controle, combate, câncer, tratamento de saúde, fonte de recursos, benefício fiscal, pessoa jurídica, pessoa física, doação.",9,10,0,0,"2026-08-17","Recebimento",[0],1,[14]]]}</script>
+<script>
+/* Pesquisa facetada sobre a base local de proposições.
+   Cada faceta conta os itens que passam por todos os outros filtros, de modo que as listas
+   só oferecem opções compatíveis com o que já foi escolhido. O tipo da proposição usa um
+   autocompletar sobre a lista oficial de tipos; a seleção só filtra depois de confirmada. */
+(function () {
+  "use strict";
+
+  var D = JSON.parse(document.getElementById("pq-dados").textContent);
+  var form = document.getElementById("pq-filtros");
+  var campoTipo = document.getElementById("pq-tipo");
+  var listaTipos = document.getElementById("pq-tp-lista");
+  var painelTipos = form.querySelector("[data-autocompletar]");
+
+  var FORA = ["Arquivada", "Transformado em Norma Jurídica", "Retirado pelo(a) Autor(a)", "Vetado totalmente", "Transformado em nova proposição", "Perdeu a eficácia"];
+  var LIMITE = 20;
+  var API = "https://dadosabertos.camara.leg.br/api/v2/proposicoes";
+  var FICHA = "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=";
+  var ETAPAS = [
+    ["Ficha e situação", "GET /proposicoes/{id} — ementa, regime, apreciação, status"],
+    ["Tramitações", "GET /proposicoes/{id}/tramitacoes — histórico com documentos"],
+    ["Autoria", "GET /proposicoes/{id}/autores e /deputados — foto, partido, UF"],
+    ["Relatoria e pareceres", "Relator, prazos, PRL/PAR/SBT e versão válida"],
+    ["Temas e indexação", "GET /proposicoes/{id}/temas e keywords"],
+    ["Apensados e documentos", "GET /proposicoes/{id}/relacionadas — árvore e anexos"],
+    ["Análise estratégica", "Riscos, oportunidades e plano de ação com fontes oficiais"],
+    ["Publicação", "Gera o relatório Detalhes de Proposições Legislativas"]
+  ];
+  var ROTULOS = { q: "Assunto", numero: "Número", ano: "Ano", partido: "Partido", uf: "UF", autor: "Autor", tema: "Tema", situ: "Situação", orgao: "Órgão", regime: "Regime", aprec: "Apreciação", de: "De", ate: "Até" };
+
+  function norm(x) {
+    return String(x || "").toLocaleLowerCase("pt-BR").normalize("NFD").replace(/[̀-ͯ]/g, "");
+  }
+  function fmt(iso) {
+    return iso ? iso.slice(8, 10) + "/" + iso.slice(5, 7) + "/" + iso.slice(0, 4) : "—";
+  }
+
+  /* ---------- Itens e tabelas ---------- */
+  var itens = D.L.map(function (l) {
+    var si = D.S[l[7]];
+    return {
+      id: l[0], tp: l[1], nu: l[2], an: l[3], dt: l[4], em: l[5], si: si, og: D.O[l[8]], ap: D.AP[l[9]], rg: D.RG[l[10]], ul: l[11],
+      aut: l[13].map(function (i) { return D.A[i]; }), na: l[14], te: l[15].map(function (i) { return D.T[i]; }),
+      txt: norm(l[5] + " " + l[6]), tram: FORA.indexOf(si) < 0 ? "sim" : "nao"
+    };
+  });
+  var tipos = D.TP.map(function (t) {
+    return { v: t[0], nome: t[1], chave: norm(t[0]), nomes: [t[1]].concat(t[2]).map(function (n) { return [n, norm(n)]; }) };
+  });
+  var nomeTipo = {};
+  tipos.forEach(function (t) { nomeTipo[t.v] = t.nome; });
+  var autorRot = {};
+  itens.forEach(function (x) {
+    x.aut.forEach(function (a) { autorRot[a[0]] = a[1] ? a[0] + " (" + a[1] + "-" + a[2] + ")" : a[0]; });
+  });
+
+  /* ---------- Estado ---------- */
+  function inicial() {
+    return { q: "", tp: [], numero: "", ano: "", partido: "", uf: "", autor: "", tema: "", situ: "", orgao: "", regime: "", aprec: "", tram: "todas", de: "", ate: "" };
+  }
+  function acInicial() {
+    return { txt: "", pend: [], aberto: false, ativo: 0 };
+  }
+  var st = { f: inicial(), filtroAutor: "", limite: LIMITE, ordem: "recentes", ac: acInicial(), det: 0, copiado: 0 };
+
+  function definir(patch) {
+    st.f = Object.assign({}, st.f, patch);
+    st.limite = LIMITE;
+    renderizar();
+  }
+
+  /* ---------- Filtros ---------- */
+  var testes = {
+    q: function (x, f) { return norm(f.q).split(/\s+/).filter(Boolean).every(function (t) { return x.txt.indexOf(t) >= 0; }); },
+    tp: function (x, f) { return !f.tp.length || f.tp.indexOf(x.tp) >= 0; },
+    numero: function (x, f) { return !f.numero || String(x.nu) === f.numero.trim(); },
+    ano: function (x, f) { return !f.ano || String(x.an) === f.ano.trim(); },
+    partido: function (x, f) { return !f.partido || x.aut.some(function (a) { return a[1] === f.partido; }); },
+    uf: function (x, f) { return !f.uf || x.aut.some(function (a) { return a[2] === f.uf; }); },
+    autor: function (x, f) { return !f.autor || x.aut.some(function (a) { return a[0] === f.autor; }); },
+    tema: function (x, f) { return !f.tema || x.te.indexOf(f.tema) >= 0; },
+    situ: function (x, f) { return !f.situ || x.si === f.situ; },
+    orgao: function (x, f) { return !f.orgao || x.og === f.orgao; },
+    regime: function (x, f) { return !f.regime || x.rg === f.regime; },
+    aprec: function (x, f) { return !f.aprec || x.ap === f.aprec; },
+    tram: function (x, f) { return f.tram === "todas" || x.tram === f.tram; },
+    de: function (x, f) { return !f.de || x.dt >= f.de; },
+    ate: function (x, f) { return !f.ate || x.dt <= f.ate; }
+  };
+  var chaves = Object.keys(testes);
+  function passa(x, exceto) {
+    return chaves.every(function (k) { return k === exceto || testes[k](x, st.f); });
+  }
+
+  /* Contagem de uma faceta com todos os filtros, menos o dela. */
+  function faceta(chave, valoresDe) {
+    var base = itens.filter(function (x) { return passa(x, chave); });
+    var cont = {};
+    base.forEach(function (x) {
+      Array.from(new Set(valoresDe(x))).forEach(function (v) { if (v) cont[v] = (cont[v] || 0) + 1; });
+    });
+    return { base: base.length, cont: cont };
+  }
+
+  function opcoes(chave, valoresDe, op) {
+    op = op || {};
+    var fc = faceta(chave, valoresDe), cont = fc.cont, atual = st.f[chave];
+    var vals = Object.keys(cont);
+    if (atual && vals.indexOf(atual) < 0) vals.push(atual);
+    vals.sort(op.ordem || function (a, b) { return (cont[b] || 0) - (cont[a] || 0) || a.localeCompare(b, "pt-BR"); });
+    var filtro = op.filtro ? norm(op.filtro) : "";
+    if (filtro) vals = vals.filter(function (v) { return norm(v).indexOf(filtro) >= 0 || v === atual; });
+    var lista = [{ v: "", t: op.todos || "Todos", n: fc.base, on: !atual, dis: false }];
+    vals.forEach(function (v) {
+      var n = cont[v] || 0, on = atual === v;
+      lista.push({ v: v, t: op.rot ? op.rot(v) : v, n: n, on: on, dis: !n && !on });
+    });
+    return lista;
+  }
+
+  /* ---------- Montagem de elementos ---------- */
+  function h(tag, attrs, filhos) {
+    var el = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      var v = attrs[k];
+      if (v === false || v === null || v === undefined) return;
+      if (k === "texto") el.textContent = v;
+      else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), v);
+      else if (v === true) el.setAttribute(k, "");
+      else el.setAttribute(k, v);
+    });
+    (filhos || []).forEach(function (f) {
+      if (f !== null && f !== undefined && f !== false) el.appendChild(typeof f === "string" ? document.createTextNode(f) : f);
+    });
+    return el;
+  }
+  function svg(caminhos, tamanho, largura) {
+    var NS = "http://www.w3.org/2000/svg";
+    var el = document.createElementNS(NS, "svg");
+    [["aria-hidden", "true"], ["width", tamanho], ["height", tamanho], ["viewBox", "0 0 24 24"], ["fill", "none"], ["stroke", "currentColor"], ["stroke-width", largura || "1.8"], ["stroke-linecap", "round"], ["stroke-linejoin", "round"]].forEach(function (a) { el.setAttribute(a[0], a[1]); });
+    caminhos.forEach(function (d) {
+      var p = document.createElementNS(NS, "path");
+      p.setAttribute("d", d);
+      el.appendChild(p);
+    });
+    return el;
+  }
+  function iconeRemover() { return svg(["M6 6l12 12", "M18 6L6 18"], 14); }
+  function trocar(alvo, filhos) {
+    alvo.replaceChildren.apply(alvo, filhos);
+  }
+  function saida(nome, texto) {
+    form.parentNode.querySelectorAll('[data-saida="' + nome + '"]').forEach(function (el) { el.textContent = texto; });
+  }
+
+  /* Mantém o foco no rádio marcado quando a lista é reconstruída. */
+  function preservandoFoco(fn) {
+    var ativo = document.activeElement;
+    var nome = ativo && ativo.type === "radio" ? ativo.name : null;
+    fn();
+    if (nome) {
+      var marcado = form.querySelector('input[type="radio"][name="' + nome + '"]:checked');
+      if (marcado) marcado.focus();
+    }
+  }
+
+  function listaRadios(chave, lista) {
+    var alvo = form.querySelector('[data-faceta="' + chave + '"]');
+    trocar(alvo, lista.map(function (o) {
+      return h("label", { class: "opcao" + (o.on ? " opcao--marcada" : "") + (o.dis ? " opcao--inativa" : "") }, [
+        h("input", { type: "radio", name: chave, value: o.v, checked: o.on, disabled: o.dis, onchange: function () { definir(chave === "tram" ? { tram: o.v } : objeto(chave, o.v)); } }),
+        h("span", { class: "opcao__texto", texto: o.t }),
+        h("span", { class: "opcao__total", texto: String(o.n) })
+      ]);
+    }));
+  }
+  function objeto(k, v) {
+    var o = {};
+    o[k] = v;
+    return o;
+  }
+
+  /* ---------- Autocompletar de tipos ---------- */
+  function sugestoesTipos(cont) {
+    var ac = st.ac, termo = norm(ac.txt.trim()), sug;
+    if (!termo) {
+      sug = tipos.filter(function (t) { return cont[t.v] || ac.pend.indexOf(t.v) >= 0 || st.f.tp.indexOf(t.v) >= 0; })
+        .map(function (t) { return { t: t, sub: "", rank: -(cont[t.v] || 0) }; });
+      sug.sort(function (a, b) { return a.rank - b.rank || a.t.v.localeCompare(b.t.v); });
+      return sug;
+    }
+    sug = [];
+    tipos.forEach(function (t) {
+      var rank = t.chave === termo ? 0 : t.chave.indexOf(termo) === 0 ? 1 : 9, sub = "";
+      t.nomes.forEach(function (par, i) {
+        var pos = par[1].indexOf(termo);
+        if (pos < 0) return;
+        var r = (pos === 0 || par[1][pos - 1] === " " ? 2 : 3) + (i ? 0.5 : 0);
+        if (r < rank) { rank = r; sub = i ? par[0] : ""; }
+      });
+      if (rank < 9) sug.push({ t: t, sub: sub, rank: rank });
+    });
+    sug.sort(function (a, b) {
+      return a.rank - b.rank || (cont[b.t.v] || 0) - (cont[a.t.v] || 0) || a.t.nome.length - b.t.nome.length || a.t.v.localeCompare(b.t.v);
+    });
+    return sug.slice(0, 40);
+  }
+
+  var sugAtuais = [];
+  function alternarTipo(v) {
+    var p = st.ac.pend;
+    st.ac.pend = p.indexOf(v) >= 0 ? p.filter(function (y) { return y !== v; }) : p.concat([v]);
+    renderizar();
+  }
+  function abrirTipos() {
+    if (st.ac.aberto) return;
+    st.ac = { txt: st.ac.txt, pend: st.f.tp.slice(), aberto: true, ativo: 0 };
+    renderizar();
+  }
+  function confirmarTipos(lista) {
+    st.ac = acInicial();
+    campoTipo.value = "";
+    definir({ tp: lista });
+  }
+  function cancelarTipos() {
+    st.ac = acInicial();
+    campoTipo.value = "";
+    renderizar();
+  }
+
+  function renderTipos(cont) {
+    var ac = st.ac, termo = norm(ac.txt.trim());
+    var sug = sugAtuais = ac.aberto ? sugestoesTipos(cont) : [];
+    var ativo = Math.min(ac.ativo, Math.max(sug.length - 1, 0));
+    st.ac.ativo = ativo;
+
+    var conf = form.querySelector("[data-tipos-confirmados]");
+    conf.hidden = !st.f.tp.length;
+    trocar(conf, st.f.tp.map(function (v) {
+      var nome = nomeTipo[v] || v;
+      return h("button", { type: "button", class: "chip", title: nome, "aria-label": "Remover tipo " + v + " — " + nome,
+        onclick: function () { definir({ tp: st.f.tp.filter(function (y) { return y !== v; }) }); } },
+        [h("strong", { texto: v }), h("span", { class: "chip__total", texto: String(cont[v] || 0) }), iconeRemover()]);
+    }));
+
+    painelTipos.hidden = !ac.aberto;
+    campoTipo.setAttribute("aria-expanded", ac.aberto ? "true" : "false");
+    if (ac.aberto && sug.length) campoTipo.setAttribute("aria-activedescendant", "pq-tp-" + ativo);
+    else campoTipo.removeAttribute("aria-activedescendant");
+    if (!ac.aberto) return;
+
+    saida("legendaTipos", termo ? sug.length + (sug.length === 1 ? " TIPO ENCONTRADO" : " TIPOS ENCONTRADOS") : "TIPOS PRESENTES NA BASE · DIGITE PARA VER OS " + D.TP.length);
+    saida("rotuloConfirmar", "Confirmar seleção" + (ac.pend.length ? " (" + ac.pend.length + ")" : ""));
+    var filhos = sug.map(function (o, i) {
+      var v = o.t.v, on = ac.pend.indexOf(v) >= 0, n = cont[v] || 0;
+      return h("label", { id: "pq-tp-" + i, class: "opcao" + (on ? " opcao--marcada" : "") + (i === ativo ? " opcao--ativa" : "") + (!n ? " opcao--zero" : ""),
+        role: "option", "aria-selected": on ? "true" : "false", onmouseenter: function () { if (st.ac.ativo !== i) { st.ac.ativo = i; renderizar(); } } }, [
+        h("input", { type: "checkbox", tabindex: "-1", value: v, checked: on, onchange: function () { alternarTipo(v); } }),
+        h("span", { class: "opcao__texto" }, [h("strong", { texto: v }), " · " + o.t.nome, o.sub ? h("span", { class: "opcao__sub", texto: o.sub }) : null]),
+        h("span", { class: "opcao__total", title: "Proposições na base com os demais filtros", texto: String(n) })
+      ]);
+    });
+    if (!sug.length) filhos.push(h("span", { class: "lista-opcoes__vazia", texto: "Nenhum tipo corresponde a “" + ac.txt + "”." }));
+    trocar(listaTipos, filhos);
+  }
+
+  campoTipo.addEventListener("focus", abrirTipos);
+  campoTipo.addEventListener("input", function () {
+    st.ac = { txt: campoTipo.value, aberto: true, ativo: 0, pend: st.ac.aberto ? st.ac.pend : st.f.tp.slice() };
+    renderizar();
+  });
+  campoTipo.addEventListener("keydown", function (e) {
+    var k = e.key, ac = st.ac, sug = sugAtuais, ativo = ac.ativo;
+    if (k === "ArrowDown" || k === "ArrowUp") {
+      e.preventDefault();
+      if (!ac.aberto) { abrirTipos(); return; }
+      st.ac.ativo = sug.length ? (ativo + (k === "ArrowDown" ? 1 : -1) + sug.length) % sug.length : 0;
+      renderizar();
+      var el = document.getElementById("pq-tp-" + st.ac.ativo);
+      if (el && el.scrollIntoView) el.scrollIntoView({ block: "nearest" });
+    } else if (k === " " && ac.aberto && sug[ativo] && (e.ctrlKey || !ac.txt)) {
+      e.preventDefault();
+      alternarTipo(sug[ativo].t.v);
+    } else if (k === "Enter") {
+      e.preventDefault();
+      if (!ac.aberto) { abrirTipos(); return; }
+      if (!ac.pend.length && sug[ativo]) { confirmarTipos([sug[ativo].t.v]); return; }
+      confirmarTipos(ac.pend.slice());
+    } else if (k === "Escape") {
+      e.preventDefault();
+      cancelarTipos();
+    }
+  });
+  painelTipos.addEventListener("click", function (e) {
+    var b = e.target.closest("[data-acao-tipo]");
+    if (!b) return;
+    var acao = b.dataset.acaoTipo;
+    if (acao === "todos") {
+      st.ac.pend = Array.from(new Set(st.ac.pend.concat(sugAtuais.map(function (o) { return o.t.v; }))));
+      renderizar();
+    } else if (acao === "limpar") {
+      st.ac.pend = [];
+      renderizar();
+    } else if (acao === "confirmar") {
+      confirmarTipos(st.ac.pend.slice());
+    } else {
+      cancelarTipos();
+    }
+  });
+
+  /* ---------- Resultados ---------- */
+  function corSituacao(s) {
+    if (/Arquivada|Retirado|Vetado|eficácia/.test(s)) return " selo-situacao--fora";
+    if (/Norma Jurídica/.test(s)) return " selo-situacao--norma";
+    if (/Pronta para Pauta|Aguardando Parecer/.test(s)) return " selo-situacao--andamento";
+    return "";
+  }
+
+  function solicitacao(x, sigla) {
+    return "Gerar o relatório “Detalhes de Proposições Legislativas” para o " + sigla + " (idProposicao " + x.id + "): executar o pipeline completo na API de Dados Abertos da Câmara (ficha, tramitações com documentos, autoria, relatoria e pareceres, temas e indexação, apensados e documentos anexos), produzir a análise estratégica com fontes oficiais e gerar o relatório com data de emissão de hoje.";
+  }
+
+  function copiar(texto, area, id) {
+    function ok() { st.copiado = id; renderizar(); }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(texto).then(ok, ok); return; }
+    } catch (err) { /* cai no modo manual */ }
+    if (area) {
+      area.focus();
+      area.select();
+      try { document.execCommand("copy"); } catch (err) { /* seleção manual */ }
+    }
+    ok();
+  }
+
+  function painelDetalhes(x, sigla) {
+    var pronto = D.detalhes[String(x.id)];
+    var fechar = function () { st.det = 0; st.copiado = 0; renderizar(); };
+    var filhos = [
+      h("div", { class: "detalhes__topo" }, [
+        h("span", { class: "rotulo-mono rotulo-mono--tinta", texto: "PIPELINE_DE_DETALHES · ID " + x.id }),
+        h("span", { class: "estado-detalhes rotulo-mono" + (pronto ? " estado-detalhes--ok" : ""), texto: pronto ? "DETALHES DISPONÍVEIS" : "DETALHES AINDA NÃO GERADOS" })
+      ]),
+      h("ol", { class: "etapas" }, ETAPAS.map(function (e, i) {
+        return h("li", { class: "etapa" + (pronto ? " etapa--ok" : "") }, [
+          h("span", { class: "etapa__numero", texto: String(i + 1) }),
+          h("span", {}, [h("strong", { texto: e[0] }), h("span", { class: "opcao__sub", texto: e[1].replace("{id}", x.id) })])
+        ]);
+      }))
+    ];
+    var acoes = [];
+    if (pronto) {
+      filhos.push(h("p", { class: "detalhes__texto" }, ["Os dados desta proposição já alimentam o relatório ", h("strong", { texto: "Detalhes de Proposições Legislativas" }), " (“" + pronto.titulo + "”), com coleta em " + fmt(pronto.coleta) + "."]));
+      acoes.push(h("a", { class: "botao botao--primario", href: pronto.arquivo, "aria-label": "Abrir o relatório de detalhes de " + sigla, texto: "Abrir relatório de detalhes" }));
+    } else {
+      var texto = solicitacao(x, sigla);
+      var area = h("textarea", { class: "campo campo--solicitacao", readonly: true, rows: "4", "aria-label": "Solicitação de geração para " + sigla, onfocus: function (e) { try { e.target.select(); } catch (err) { /* sem seleção */ } } });
+      area.value = texto;
+      filhos.push(h("div", { class: "detalhes__texto" }, [
+        h("p", { texto: "Esta página não executa o pipeline sozinha (ela não acessa a internet). Copie a solicitação abaixo e envie ao Claude: ele coleta os dados atualizados, faz a análise e gera o relatório de detalhes." }),
+        area
+      ]));
+      acoes.push(h("button", { type: "button", class: "botao botao--primario", onclick: function () { copiar(texto, area, x.id); }, texto: st.copiado === x.id ? "Solicitação copiada ✓" : "Copiar solicitação" }));
+    }
+    acoes.push(
+      h("a", { class: "botao", href: FICHA + x.id, target: "_blank", rel: "noopener noreferrer", "aria-label": "Abrir ficha de tramitação de " + sigla + " em nova aba", texto: "Ficha na Câmara ↗" }),
+      h("a", { class: "botao", href: API + "/" + x.id, target: "_blank", rel: "noopener noreferrer", "aria-label": "Abrir dados de " + sigla + " na API em nova aba", texto: "Dados na API ↗" }),
+      h("button", { type: "button", class: "botao", onclick: fechar, texto: "Fechar" })
+    );
+    filhos.push(h("div", { class: "detalhes__acoes" }, acoes));
+    return h("div", { id: "pq-det-" + x.id, class: "detalhes", role: "region", "aria-label": "Detalhes de " + sigla,
+      onkeydown: function (e) { if (e.key === "Escape") fechar(); } }, filhos);
+  }
+
+  function cartao(x) {
+    var sigla = x.tp + " " + x.nu + "/" + x.an, aberto = st.det === x.id;
+    var autores = x.aut.length ? x.aut.slice(0, 2).map(function (a) { return autorRot[a[0]] || a[0]; }).join(", ") + (x.na > 2 ? " e mais " + (x.na - 2) : "") : "—";
+    return h("li", { class: "resultado" }, [
+      h("div", { class: "resultado__topo" }, [
+        h("button", { type: "button", class: "resultado__sigla", "aria-expanded": aberto ? "true" : "false", "aria-controls": "pq-det-" + x.id, title: "Gerar ou abrir os detalhes desta proposição",
+          onclick: function () { st.det = aberto ? 0 : x.id; st.copiado = 0; renderizar(); } }, [sigla, svg(["M4 12h12", "M12 6l6 6-6 6"], 16)]),
+        h("span", { class: "rotulo-mono", texto: "APRESENTADA EM " + fmt(x.dt) })
+      ]),
+      h("p", { class: "resultado__ementa", title: x.em, texto: x.em }),
+      h("div", { class: "resultado__autor" }, [h("strong", { texto: "Autor:" }), " " + autores]),
+      h("div", { class: "resultado__selos" }, [
+        h("span", { class: "rotulo-mono selo-situacao" + corSituacao(x.si), texto: x.si.toUpperCase() }),
+        h("span", { class: "rotulo-mono selo-orgao", texto: "ÓRGÃO " + x.og }),
+        h("span", { class: "rotulo-mono selo-regime", texto: x.rg.replace(/ \(.*\)$/, "").toUpperCase() })
+      ]),
+      h("div", { class: "resultado__rodape", texto: "Temas: " + x.te.join(", ") + " · Última movimentação " + fmt(x.ul) }),
+      aberto ? painelDetalhes(x, sigla) : null
+    ]);
+  }
+
+  function urlApi() {
+    var f = st.f, ps = [];
+    f.tp.forEach(function (t) { ps.push("siglaTipo=" + t); });
+    if (f.numero) ps.push("numero=" + encodeURIComponent(f.numero.trim()));
+    if (f.ano) ps.push("ano=" + encodeURIComponent(f.ano.trim()));
+    if (f.autor) ps.push("autor=" + encodeURIComponent(f.autor));
+    if (f.partido) ps.push("siglaPartidoAutor=" + encodeURIComponent(f.partido));
+    if (f.uf) ps.push("siglaUfAutor=" + encodeURIComponent(f.uf));
+    if (f.tema) { var c = D.TC[D.T.indexOf(f.tema)]; if (c) ps.push("codTema=" + c); }
+    if (f.q) ps.push("keywords=" + encodeURIComponent(f.q.trim()));
+    if (f.de) ps.push("dataApresentacaoInicio=" + f.de);
+    if (f.ate) ps.push("dataApresentacaoFim=" + f.ate);
+    ps.push("ordem=DESC", "ordenarPor=id", "itens=100");
+    return API + "?" + ps.join("&");
+  }
+
+  function chipsAtivos() {
+    var f = st.f, chips = [];
+    Object.keys(ROTULOS).forEach(function (k) {
+      if (!f[k]) return;
+      var valor = k === "de" || k === "ate" ? fmt(f[k]) : k === "autor" ? autorRot[f[k]] || f[k] : f[k];
+      chips.push({ t: ROTULOS[k] + ": " + valor, tirar: function () { definir(objeto(k, "")); } });
+    });
+    f.tp.forEach(function (t) {
+      chips.push({ t: "Tipo: " + t + " — " + (nomeTipo[t] || t), tirar: function () { definir({ tp: st.f.tp.filter(function (y) { return y !== t; }) }); } });
+    });
+    if (f.tram !== "todas") chips.push({ t: "Em tramitação: " + (f.tram === "sim" ? "Sim" : "Não"), tirar: function () { definir({ tram: "todas" }); } });
+    return chips;
+  }
+
+  /* ---------- Renderização ---------- */
+  function renderizar() {
+    var f = st.f;
+    var filtrados = itens.filter(function (x) { return passa(x, null); });
+    var tpF = faceta("tp", function (x) { return [x.tp]; });
+
+    preservandoFoco(function () {
+      var tramF = faceta("tram", function (x) { return [x.tram]; });
+      listaRadios("tram", [["todas", "Todas", tramF.base], ["sim", "Sim", tramF.cont.sim || 0], ["nao", "Não", tramF.cont.nao || 0]].map(function (o) {
+        return { v: o[0], t: o[1], n: o[2], on: f.tram === o[0], dis: false };
+      }));
+      listaRadios("partido", opcoes("partido", function (x) { return x.aut.map(function (a) { return a[1]; }); }));
+      listaRadios("uf", opcoes("uf", function (x) { return x.aut.map(function (a) { return a[2]; }); }, { ordem: function (a, b) { return a.localeCompare(b); } }));
+      listaRadios("autor", opcoes("autor", function (x) { return x.aut.map(function (a) { return a[0]; }); }, { filtro: st.filtroAutor, rot: function (v) { return autorRot[v] || v; } }));
+      listaRadios("tema", opcoes("tema", function (x) { return x.te; }));
+      listaRadios("situ", opcoes("situ", function (x) { return [x.si]; }, { todos: "Todas" }));
+      listaRadios("orgao", opcoes("orgao", function (x) { return [x.og]; }));
+      listaRadios("regime", opcoes("regime", function (x) { return [x.rg]; }));
+      listaRadios("aprec", opcoes("aprec", function (x) { return [x.ap]; }, { todos: "Todas" }));
+    });
+    renderTipos(tpF.cont);
+
+    var ord = st.ordem;
+    var lista = filtrados.slice().sort(
+      ord === "antigas" ? function (a, b) { return a.dt.localeCompare(b.dt) || a.nu - b.nu; }
+        : ord === "movimentacao" ? function (a, b) { return b.ul.localeCompare(a.ul) || b.dt.localeCompare(a.dt); }
+          : function (a, b) { return b.dt.localeCompare(a.dt) || b.nu - a.nu; });
+    var raizResultados = document.getElementById("pq-resultados");
+    trocar(raizResultados.querySelector("[data-lista-resultados]"), lista.slice(0, st.limite).map(cartao));
+    raizResultados.querySelector("[data-sem-resultados]").hidden = filtrados.length > 0;
+    raizResultados.querySelector("[data-mais]").hidden = filtrados.length <= st.limite;
+    raizResultados.querySelectorAll("[data-ordem]").forEach(function (b) {
+      var on = b.dataset.ordem === ord;
+      b.classList.toggle("botao--primario", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+
+    var chips = chipsAtivos();
+    var ativos = raizResultados.querySelector("[data-filtros-ativos]");
+    ativos.hidden = !chips.length;
+    trocar(ativos, chips.length ? [h("span", { class: "rotulo-mono", texto: "FILTROS_ATIVOS" })].concat(chips.map(function (c) {
+      return h("button", { type: "button", class: "chip", "aria-label": "Remover filtro " + c.t, onclick: c.tirar }, [c.t, iconeRemover()]);
+    })) : []);
+
+    var url = urlApi();
+    var link = raizResultados.querySelector("[data-link-api]");
+    link.href = url;
+    link.textContent = url.replace("https://dadosabertos.camara.leg.br", "") + " ↗";
+
+    var avancados = ["situ", "orgao", "regime", "aprec", "de", "ate"].filter(function (k) { return f[k]; }).length;
+    saida("totalTexto", filtrados.length.toLocaleString("pt-BR") + (filtrados.length === 1 ? " proposição" : " proposições"));
+    saida("paginaTexto", filtrados.length ? "EXIBINDO " + Math.min(st.limite, filtrados.length) + " DE " + filtrados.length : "");
+    saida("qtdFiltros", chips.length ? chips.length + (chips.length === 1 ? " ATIVO" : " ATIVOS") : "NENHUM ATIVO");
+    saida("qtdAvancados", avancados ? avancados + (avancados === 1 ? " ATIVO" : " ATIVOS") : "");
+    sincronizarCampos();
+  }
+
+  /* Reflete o estado nos campos de texto (ex.: após remover um chip ou limpar). */
+  function sincronizarCampos() {
+    ["q", "numero", "ano", "de", "ate"].forEach(function (k) {
+      var el = form.elements[k];
+      if (el && el.value !== st.f[k] && document.activeElement !== el) el.value = st.f[k];
+    });
+  }
+
+  /* ---------- Eventos do formulário ---------- */
+  var limpezas = { numero: function (v) { return v.replace(/\D/g, ""); }, ano: function (v) { return v.replace(/\D/g, "").slice(0, 4); } };
+  ["q", "numero", "ano", "de", "ate"].forEach(function (k) {
+    form.elements[k].addEventListener("input", function (e) {
+      var v = limpezas[k] ? limpezas[k](e.target.value) : e.target.value;
+      if (v !== e.target.value) e.target.value = v;
+      definir(objeto(k, v));
+    });
+  });
+  form.querySelector('[data-filtro-faceta="autor"]').addEventListener("input", function (e) {
+    st.filtroAutor = e.target.value;
+    renderizar();
+  });
+  form.querySelector("[data-limpar]").addEventListener("click", function () {
+    st = { f: inicial(), filtroAutor: "", limite: LIMITE, ordem: st.ordem, ac: acInicial(), det: 0, copiado: 0 };
+    form.querySelectorAll("input[type=search], input[type=text], input[type=date]").forEach(function (el) { el.value = ""; });
+    renderizar();
+  });
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var el = document.getElementById("pq-resultados");
+    if (el.scrollIntoView) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  document.querySelectorAll("[data-ordem]").forEach(function (b) {
+    b.addEventListener("click", function () { st.ordem = b.dataset.ordem; st.limite = LIMITE; renderizar(); });
+  });
+  document.querySelector("[data-mais]").addEventListener("click", function () { st.limite += LIMITE; renderizar(); });
+
+  renderizar();
+})();
+
+</script>
+</body>
+</html>

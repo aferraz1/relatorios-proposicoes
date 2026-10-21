@@ -1,0 +1,2018 @@
+<!doctype html>
+<html lang="pt-BR" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tramitação do PL 1.030/2021</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Geist:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap">
+<style>
+/* Tokens do design system Glass HUD Legislativo.
+   Tema "Operação" (escuro) no :root; tema claro em [data-tema="claro"].
+   Os trios RGB (--*-rgb) alimentam as transparências do vidro. */
+:root {
+  color-scheme: dark;
+
+  /* Superfícies */
+  --surface: #10131a;
+  --surface-container-lowest: #0b0e15;
+  --surface-container: #1d1f27;
+  --surface-container-high: #272a32;
+  --on-surface: #e1e2ec;
+  --on-surface-variant: #b9cacb;
+  --outline: #849495;
+  --outline-variant: #3b494b;
+
+  /* Primária (cyan): tinta, ação e contraste sobre a ação */
+  --primary: #dbfcff;
+  --on-primary: #00363a;
+  --primary-container: #00f0ff;
+  --primary-fixed: #7df4ff;
+  --primary-fixed-dim: #00dbe9;
+  --acao-hover: #7df4ff;
+  --on-acao-hover: #002022;
+  --acao-press: #00dbe9;
+
+  /* Terciária (alertas), violeta (normas) e âmbar (nível médio) */
+  --tertiary-fixed-dim: #ffb2b8;
+  --violeta: #d1bcff;
+  --ambar: #ffcf70;
+
+  /* Trios RGB */
+  --tinta-rgb: 0, 219, 233;
+  --acao-rgb: 0, 240, 255;
+  --container-rgb: 29, 31, 39;
+  --alto-rgb: 39, 42, 50;
+  --variante-rgb: 59, 73, 75;
+  --violeta-rgb: 209, 188, 255;
+  --hover-rgb: 125, 244, 255;
+  --primaria-rgb: 219, 252, 255;
+  --veu-rgb: 11, 14, 21;
+  --popover-rgb: 44, 47, 55;
+  --janela-rgb: 50, 53, 61;
+  --seta-rgb: 58, 62, 71;
+  --brilho-rgb: 0, 240, 255;
+  --sombra-press: rgba(0, 0, 0, 0.45);
+
+  /* Vidro */
+  --glass-1: rgba(var(--container-rgb), 0.4);
+  --glass-2: rgba(var(--container-rgb), 0.6);
+  --glass-stage: rgba(var(--container-rgb), 0.62);
+  --glass-button: rgba(var(--alto-rgb), 0.7);
+  --hairline: rgba(var(--tinta-rgb), 0.2);
+  --hairline-strong: rgba(var(--tinta-rgb), 0.35);
+  --grid-line: rgba(var(--variante-rgb), 0.35);
+  --blur-1: 12px;
+  --campo: rgba(25, 27, 35, 0.8);
+
+  /* Sombras luminosas */
+  --glow-soft: 0 0 24px 0 rgba(var(--tinta-rgb), 0.16);
+  --glow-dot: 0 0 12px 0 rgba(var(--acao-rgb), 0.45);
+  --glow-focus: 0 0 0 2px var(--primary-container), 0 0 12px 0 rgba(var(--acao-rgb), 0.45);
+  --brilho-interno: inset 0 1px 0 0 rgba(var(--acao-rgb), 0.18);
+
+  /* Movimento */
+  --curva: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Tipografia */
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Geist", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* Espaçamento (base 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --touch-target: 44px;
+  --max-width: 1440px;
+
+  /* Raios */
+  --radius-base: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+}
+
+/* Tema claro (padrão do relatório) */
+[data-tema="claro"] {
+  color-scheme: light;
+
+  --surface: #f5f7fa;
+  --surface-container-lowest: #ffffff;
+  --surface-container: #ffffff;
+  --surface-container-high: #e2e7ed;
+  --on-surface: #161c24;
+  --on-surface-variant: #3a4749;
+  --outline: #566668;
+  --outline-variant: #b9c7c9;
+
+  --primary: #00363a;
+  --on-primary: #ffffff;
+  --primary-container: #006970;
+  --primary-fixed: #004f54;
+  --primary-fixed-dim: #00777f;
+  --acao-hover: #00575d;
+  --on-acao-hover: #ffffff;
+  --acao-press: #004f54;
+
+  --tertiary-fixed-dim: #a8003a;
+  --violeta: #6a2ee0;
+  --ambar: #875400;
+
+  --tinta-rgb: 0, 119, 127;
+  --acao-rgb: 0, 105, 112;
+  --container-rgb: 255, 255, 255;
+  --alto-rgb: 255, 255, 255;
+  --variante-rgb: 185, 199, 201;
+  --violeta-rgb: 106, 46, 224;
+  --hover-rgb: 0, 79, 84;
+  --primaria-rgb: 0, 54, 58;
+  --veu-rgb: 22, 28, 36;
+  --popover-rgb: 255, 255, 255;
+  --janela-rgb: 255, 255, 255;
+  --seta-rgb: 255, 255, 255;
+  --brilho-rgb: 0, 178, 189;
+  --sombra-press: rgba(22, 28, 36, 0.16);
+  --campo: rgba(255, 255, 255, 0.75);
+}
+
+/* Componentes do relatório de tramitação. Depende de tokens.css. */
+
+html { background: var(--surface); -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--surface); overflow-x: hidden; }
+img, svg { max-width: 100%; }
+a { color: var(--primary-fixed-dim); }
+a:hover { color: var(--primary-fixed); }
+a:focus-visible { outline: none; box-shadow: var(--glow-focus); border-radius: var(--radius-base); }
+h1, h2, p, ol { margin: 0; }
+
+/* ---------- Estrutura ---------- */
+.pagina {
+  position: relative;
+  min-height: 100vh;
+  color: var(--on-surface);
+  font-family: var(--font-body);
+  background-color: var(--surface);
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.pagina__conteudo {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: var(--space-12) clamp(16px, 4vw, 32px) 64px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+/* ---------- Tipografia utilitária ---------- */
+.rotulo {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.rotulo--secao { font-size: 13px; line-height: 18px; letter-spacing: 0.06em; color: var(--primary-fixed-dim); }
+.rotulo--destaque { color: var(--primary-fixed-dim); }
+.rotulo--neon { color: var(--primary-container); }
+.rotulo--apagado { color: var(--outline); }
+.rotulo--suave { color: var(--on-surface-variant); }
+.texto-sm { font-size: 14px; line-height: 22px; color: var(--on-surface-variant); }
+.titulo-lg { font-family: var(--font-display); font-size: 24px; line-height: 32px; font-weight: 600; }
+.numeros { font-variant-numeric: tabular-nums; }
+.sem-quebra { white-space: nowrap; }
+
+/* ---------- Cartão de vidro ---------- */
+.vidro {
+  position: relative;
+  box-sizing: border-box;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--hairline);
+  background: var(--glass-1);
+  backdrop-filter: blur(var(--blur-1));
+  -webkit-backdrop-filter: blur(var(--blur-1));
+}
+.vidro--painel { padding: var(--space-6); display: flex; flex-direction: column; gap: var(--space-4); }
+.vidro--brilho { box-shadow: var(--glow-soft); }
+
+/* Cantoneiras neon decorativas */
+.cantoneira { position: absolute; width: 14px; height: 14px; border: 0 solid var(--primary-container); }
+.cantoneira--sup { top: 0; left: 0; border-top-width: 2px; border-left-width: 2px; }
+.cantoneira--inf { bottom: 0; right: 0; border-bottom-width: 2px; border-right-width: 2px; }
+.cantoneira--painel { width: 20px; height: 20px; }
+.cantoneira--painel.cantoneira--sup { top: -1px; left: -1px; border-top-left-radius: var(--radius-lg); }
+.cantoneira--painel.cantoneira--inf { bottom: -1px; right: -1px; border-bottom-right-radius: var(--radius-lg); }
+
+/* ---------- Botões e links de documento ---------- */
+.botao {
+  display: inline-flex;
+  gap: var(--space-2);
+  align-items: center;
+  min-height: var(--touch-target);
+  box-sizing: border-box;
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-base);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.link-doc {
+  display: inline-flex;
+  gap: var(--space-2);
+  align-items: center;
+  min-height: var(--touch-target);
+  box-sizing: border-box;
+  padding: var(--space-1) var(--space-3);
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline);
+  background: var(--glass-button);
+  color: var(--primary-fixed-dim);
+  text-decoration: none;
+}
+.link-doc--compacto { align-self: flex-start; padding: 0 var(--space-3); }
+.link-doc__textos { min-width: 0; display: flex; flex-direction: column; overflow-wrap: anywhere; }
+.link-inline { display: inline-flex; gap: var(--space-1); align-items: center; }
+
+/* ---------- Cabeçalho ---------- */
+.cabecalho { display: flex; flex-wrap: wrap; gap: var(--space-8); align-items: stretch; }
+.cabecalho__principal { flex: 999 1 min(560px, 100%); min-width: 0; display: flex; flex-direction: column; gap: var(--space-4); }
+.cabecalho__titulo {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 6vw, 56px);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+.cabecalho__ementa { max-width: 760px; color: var(--on-surface); }
+.cabecalho__explicacao { max-width: 820px; font-size: 16px; line-height: 24px; color: var(--on-surface-variant); }
+.cabecalho__linha { display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: stretch; padding-top: var(--space-2); }
+.cabecalho__meta { display: flex; flex-direction: column; justify-content: center; gap: var(--space-2); }
+
+.meta {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--outline-variant);
+  border-radius: var(--radius-base);
+  background: var(--glass-2);
+}
+.meta__valor { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+
+/* ---------- Cartão de parlamentar ---------- */
+.parlamentar { max-width: 100%; display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: center; }
+.parlamentar--cartao { padding: var(--space-3) var(--space-5) var(--space-3) var(--space-3); }
+.parlamentar__foto { position: relative; flex: 0 0 auto; padding: var(--space-1); }
+.parlamentar__foto img {
+  display: block;
+  width: 84px;
+  height: 112px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: var(--radius-base);
+  background: var(--surface-container-high);
+}
+.parlamentar__dados { flex: 1 1 140px; min-width: 0; display: flex; flex-direction: column; gap: var(--space-1); overflow-wrap: anywhere; }
+.parlamentar__nome { font-family: var(--font-display); font-size: 20px; line-height: 28px; font-weight: 600; color: var(--primary); }
+
+/* ---------- Situação atual ---------- */
+.situacao { flex: 1 1 min(340px, 100%); }
+.situacao__topo { display: flex; justify-content: space-between; align-items: center; }
+.situacao__estado { display: flex; gap: var(--space-2); align-items: center; }
+.ponto { width: 8px; height: 8px; border-radius: var(--radius-full); background: var(--primary-container); box-shadow: var(--glow-dot); }
+.situacao__descricao { color: var(--primary); }
+.situacao__dados {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(120px, 100%), 1fr));
+  gap: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--outline-variant);
+}
+.dado { display: flex; flex-direction: column; gap: var(--space-1); }
+.dado__valor { font-family: var(--font-mono); font-size: 28px; line-height: 32px; font-weight: 500; color: var(--on-surface); }
+.dado__valor--fluido { font-size: clamp(22px, 6vw, 28px); }
+
+/* ---------- Pipeline de estágios ---------- */
+.estagios { display: flex; flex-direction: column; gap: var(--space-5); }
+.cabeca-secao { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); justify-content: space-between; align-items: baseline; }
+.estagios__grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); gap: var(--space-4); }
+.estagio { display: flex; flex-direction: column; gap: var(--space-3); }
+.estagio__barra { height: 4px; border-radius: 2px; box-sizing: border-box; }
+.estagio--concluido .estagio__barra { background: var(--primary-fixed-dim); }
+.estagio--atual .estagio__barra {
+  background: repeating-linear-gradient(90deg, var(--primary-container) 0 12px, transparent 12px 18px);
+  box-shadow: var(--glow-soft);
+}
+.estagio--pendente .estagio__barra { border-top: 2px dotted var(--outline); }
+.estagio__cartao {
+  position: relative;
+  isolation: isolate;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--hairline);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.12) 38%, rgba(var(--tinta-rgb), 0.05) 100%),
+    var(--glass-stage);
+  -webkit-backdrop-filter: blur(var(--blur-1)) saturate(170%);
+  backdrop-filter: blur(var(--blur-1)) saturate(170%);
+  box-shadow: 0 2px 8px 0 rgba(63, 137, 142, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+/* Borda luminosa girando em volta do cartão de etapa */
+.estagio__cartao::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 2px;
+  pointer-events: none;
+  z-index: 2;
+  background: conic-gradient(from var(--angulo),
+    rgba(var(--brilho-rgb), 0) 0deg, rgba(var(--brilho-rgb), 1) 50deg, rgba(var(--tinta-rgb), 0.85) 95deg,
+    rgba(var(--brilho-rgb), 0) 150deg, rgba(var(--brilho-rgb), 0) 215deg, rgba(var(--brilho-rgb), 0.75) 265deg,
+    rgba(var(--brilho-rgb), 0) 320deg);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  animation: giro 8s linear infinite;
+  filter: drop-shadow(0 0 5px rgba(var(--brilho-rgb), 0.7));
+}
+.estagio__cartao::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 72px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(90% 100% at 20% 0%, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0) 70%);
+}
+.estagio--atual .estagio__cartao::before { animation-duration: 4s; filter: drop-shadow(0 0 8px rgba(var(--brilho-rgb), 0.85)); }
+.estagio--pendente .estagio__cartao::before { opacity: 0.45; animation-duration: 12s; }
+.estagio__topo { display: flex; justify-content: space-between; align-items: center; }
+.estagio__status { color: var(--outline); }
+.estagio--concluido .estagio__status { color: var(--primary-fixed-dim); }
+.estagio--atual .estagio__status { color: var(--primary-container); }
+.estagio__sigla { font-family: var(--font-display); font-size: 32px; line-height: 40px; font-weight: 600; color: var(--primary); }
+.estagio--pendente .estagio__sigla { color: var(--on-surface-variant); }
+.estagio__nome { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+.estagio__periodo {
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--outline-variant);
+  color: var(--on-surface-variant);
+}
+
+/* ---------- Corpo: histórico + painel lateral ---------- */
+.corpo { display: flex; flex-wrap: wrap; gap: var(--space-8); align-items: flex-start; }
+.historico {
+  flex: 999 1 min(600px, 100%);
+  min-width: 0;
+  padding: var(--space-8) clamp(12px, 3vw, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+.legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--outline-variant);
+}
+.legenda__item { display: flex; gap: var(--space-2); align-items: center; }
+
+.fase { display: flex; flex-direction: column; }
+.fase__cabeca { display: flex; gap: var(--space-3); align-items: center; padding: var(--space-2) 0 var(--space-4); }
+.selo {
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-base);
+  background: var(--surface-container-high);
+  border: 1px solid var(--outline);
+  color: var(--on-surface);
+}
+.fase__nome { font-family: var(--font-display); font-size: 16px; line-height: 22px; font-weight: 600; color: var(--on-surface); }
+
+.evento {
+  display: grid;
+  grid-template-columns: clamp(80px, 22vw, 104px) 24px minmax(0, 1fr);
+  gap: 0 clamp(8px, 2vw, 12px);
+}
+.evento__quando {
+  padding: 2px 0 var(--space-6);
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 20px;
+  color: var(--on-surface-variant);
+}
+.evento__hora { color: var(--outline); }
+.evento__trilho { position: relative; display: flex; justify-content: center; }
+.evento__trilho::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 1px);
+  width: 2px;
+  background: var(--outline-variant);
+}
+.evento__corpo {
+  padding-bottom: var(--space-6);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.evento__textos { flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: var(--space-1); }
+.evento__linha-titulo { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+.evento__titulo { font-size: 16px; line-height: 24px; font-weight: 600; color: var(--on-surface); }
+.evento--marco .evento__titulo, .evento--atual .evento__titulo { color: var(--primary); }
+.evento__doc { flex: 0 1 auto; max-width: 100%; min-width: 0; }
+
+.etiqueta {
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  border: 1px solid currentColor;
+  color: var(--primary-fixed-dim);
+}
+.evento--alerta .etiqueta { color: var(--tertiary-fixed-dim); }
+.evento--atual .etiqueta { color: var(--primary-container); }
+
+/* Marcadores da linha do tempo (também usados na legenda) */
+.marcador { position: relative; box-sizing: border-box; flex: 0 0 auto; }
+.evento .marcador { margin-top: 4px; }
+.marcador--marco { width: 14px; height: 14px; border-radius: var(--radius-full); background: var(--primary-container); box-shadow: var(--glow-soft); }
+.marcador--rotina { width: 14px; height: 14px; border-radius: var(--radius-full); border: 2px solid var(--outline); background: var(--surface); }
+.marcador--alerta { width: 13px; height: 13px; transform: rotate(45deg); border: 2px solid var(--tertiary-fixed-dim); background: var(--surface); }
+.marcador--atual {
+  width: 18px;
+  height: 18px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--primary-container);
+  background: var(--surface);
+  box-shadow: 0 0 0 2px rgba(var(--acao-rgb), 0.25), var(--glow-dot);
+}
+.evento .marcador--atual { margin-top: 2px; }
+.legenda .marcador { width: 12px; height: 12px; }
+.legenda .marcador--marco { box-shadow: none; }
+.legenda .marcador--atual { box-shadow: var(--glow-dot); }
+
+/* ---------- Painel lateral ---------- */
+.lateral { flex: 1 1 min(340px, 100%); min-width: 0; display: flex; flex-direction: column; gap: var(--space-8); }
+.pareceres { display: flex; flex-direction: column; gap: var(--space-2); }
+.parecer {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  min-height: var(--touch-target);
+  box-sizing: border-box;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline);
+  background: var(--surface-container-high);
+  color: var(--primary-fixed-dim);
+  text-decoration: none;
+}
+.parecer--aprovado { border-color: var(--primary-container); }
+.parecer__textos { flex: 1 1 auto; display: flex; flex-direction: column; }
+.parecer__nome { font-size: 14px; line-height: 22px; font-weight: 600; color: var(--on-surface); }
+.parecer__status { color: var(--outline); }
+.parecer--aprovado .parecer__status { color: var(--primary-container); }
+
+.indicadores { gap: var(--space-5); }
+.indicadores__grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(130px, 100%), 1fr)); gap: var(--space-4); }
+.indicador {
+  box-sizing: border-box;
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--surface-container-high);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.indicador__valor { font-family: var(--font-display); font-size: 32px; line-height: 40px; font-weight: 600; color: var(--primary); }
+
+.progresso { display: flex; flex-direction: column; gap: var(--space-2); }
+.progresso__topo { display: flex; justify-content: space-between; color: var(--on-surface-variant); }
+.progresso__valor { color: var(--on-surface); }
+.progresso__trilho {
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--surface-container-lowest);
+  border: 1px solid var(--outline-variant);
+  overflow: hidden;
+}
+.progresso__barra { height: 100%; background: var(--primary-container); }
+
+.marcos { padding: 0; list-style: none; display: flex; flex-direction: column; gap: var(--space-3); }
+.marcos__item {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--surface-container-high);
+}
+.marcos__numero {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-surface);
+}
+.marcos__textos { display: flex; flex-direction: column; gap: 2px; }
+.marcos__titulo { font-size: 14px; line-height: 22px; font-weight: 600; color: var(--on-surface); }
+
+/* ---------- Temas e indexação ---------- */
+.indexacao { gap: var(--space-5); }
+.indexacao__bloco { display: flex; flex-direction: column; gap: var(--space-3); }
+.indexacao__bloco + .indexacao__bloco { gap: var(--space-4); padding-top: var(--space-4); border-top: 1px solid var(--outline-variant); }
+.indexacao__texto { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+
+/* ---------- Vidro líquido: links e botões que levam a documentos ---------- */
+@property --angulo { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+@keyframes giro { to { --angulo: 360deg; } }
+
+.liquido {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  cursor: pointer;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.02) 46%, rgba(var(--tinta-rgb), 0.05) 100%),
+    rgba(var(--alto-rgb), 0.42);
+  border: 1px solid rgba(var(--tinta-rgb), 0.32);
+  -webkit-backdrop-filter: blur(var(--blur-1)) saturate(170%);
+  backdrop-filter: blur(var(--blur-1)) saturate(170%);
+  box-shadow: var(--brilho-interno);
+  transition: background-color 200ms var(--curva), border-color 200ms var(--curva), box-shadow 200ms var(--curva),
+    transform 160ms var(--curva), color 160ms var(--curva);
+}
+.liquido::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(120% 70% at 30% -10%, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0) 60%);
+  opacity: 0.7;
+  transition: opacity 200ms var(--curva), transform 240ms var(--curva);
+}
+.liquido::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--primary-container);
+  transform: scaleX(0);
+  transition: transform 200ms var(--curva);
+  pointer-events: none;
+}
+.liquido:hover,
+.liquido.aceso {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(var(--acao-rgb), 0.08) 50%, rgba(var(--tinta-rgb), 0.12) 100%),
+    rgba(var(--alto-rgb), 0.5);
+  border-color: var(--primary-fixed-dim);
+  color: var(--primary-fixed);
+  box-shadow: var(--brilho-interno), var(--glow-soft);
+}
+.liquido:hover { transform: translateY(-1px); }
+.liquido:hover::before,
+.liquido.aceso::before { opacity: 1; transform: translateX(6%); }
+.liquido:focus-visible { outline: none; box-shadow: var(--glow-focus); }
+.liquido:active {
+  transform: translateY(0) scale(0.97);
+  background:
+    linear-gradient(0deg, rgba(255, 255, 255, 0.10) 0%, rgba(var(--acao-rgb), 0.14) 100%),
+    rgba(var(--container-rgb), 0.6);
+  box-shadow: inset 0 2px 6px 0 var(--sombra-press), inset 0 -1px 0 0 rgba(var(--acao-rgb), 0.18);
+}
+.liquido:active::before { opacity: 0.35; }
+.liquido.selecionado {
+  border-color: var(--primary-container);
+  color: var(--primary-container);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(var(--acao-rgb), 0.10) 60%, rgba(var(--acao-rgb), 0.16) 100%),
+    rgba(var(--container-rgb), 0.55);
+  box-shadow: var(--brilho-interno), var(--glow-soft);
+}
+.liquido.selecionado::after,
+.liquido.aprovado::after { transform: scaleX(1); }
+/* Documento aprovado: destaque apenas visual */
+.liquido.aprovado {
+  border-color: var(--primary-container);
+  box-shadow: var(--brilho-interno), var(--glow-soft);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(var(--acao-rgb), 0.08) 55%, rgba(var(--acao-rgb), 0.14) 100%),
+    rgba(var(--container-rgb), 0.55);
+}
+.liquido.aprovado:hover,
+.liquido.aprovado.aceso { box-shadow: var(--brilho-interno), 0 0 0 1px var(--primary-container), var(--glow-soft); }
+
+.liquido--primario,
+.liquido--primario.aprovado,
+.liquido--primario.selecionado {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.08) 48%, rgba(var(--acao-rgb), 0) 52%),
+    var(--primary-container);
+  border-color: rgba(var(--primaria-rgb), 0.7);
+  color: var(--on-primary);
+}
+.liquido--primario:hover,
+.liquido--primario.aceso {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.14) 48%, rgba(var(--acao-rgb), 0) 52%),
+    var(--acao-hover);
+  color: var(--on-acao-hover);
+}
+.liquido--primario:active {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0%, rgba(var(--acao-rgb), 0) 60%), var(--acao-press);
+  color: var(--on-acao-hover);
+}
+.liquido--primario.selecionado::after { background: var(--on-primary); }
+
+.liquido-inline {
+  position: relative;
+  border-radius: var(--radius-base);
+  padding: 0 var(--space-1);
+  margin: 0 -2px;
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--tinta-rgb), 0.45);
+  text-underline-offset: 3px;
+  transition: background-color 160ms var(--curva), color 160ms var(--curva), box-shadow 160ms var(--curva);
+}
+.liquido-inline:hover,
+.liquido-inline.aceso {
+  color: var(--primary-fixed);
+  background: rgba(var(--acao-rgb), 0.12);
+  text-decoration-color: var(--primary-fixed);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.12), var(--glow-soft);
+}
+.liquido-inline:focus-visible { outline: none; box-shadow: var(--glow-focus); }
+.liquido-inline:active { background: rgba(var(--acao-rgb), 0.2); }
+.liquido-inline.aprovado { color: var(--primary-container); text-decoration-color: var(--primary-container); text-decoration-thickness: 2px; }
+.liquido-inline.selecionado {
+  color: var(--primary-container);
+  background: rgba(var(--acao-rgb), 0.14);
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--primary-container);
+}
+
+/* Botões de documento (cabeçalho e popover) */
+.botao.liquido { color: var(--primary-fixed-dim); }
+.botao.liquido--primario { color: var(--on-primary); }
+.botao.botao--neutro { color: var(--on-surface); font: inherit; }
+.botao.rotulo { font-family: var(--font-mono); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.05em; }
+
+/* Selos */
+.selo-ok {
+  display: inline-flex;
+  gap: var(--space-1);
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  background: var(--primary-container);
+  color: var(--on-primary);
+}
+.selo-superado { padding: 2px var(--space-2); border-radius: var(--radius-full); border: 1px dashed var(--outline); color: var(--on-surface-variant); }
+.selo-violeta { padding: 2px var(--space-2); border-radius: var(--radius-full); border: 1px solid var(--violeta); color: var(--violeta); }
+.selo-tinta { padding: 2px var(--space-2); border-radius: var(--radius-full); border: 1px solid var(--primary-fixed-dim); color: var(--primary-fixed-dim); }
+.selo-tipo { padding: 2px var(--space-2); border-radius: var(--radius-base); border: 1px solid var(--outline); color: var(--on-surface); }
+
+/* ---------- Árvore de apensados + documentos anexos ---------- */
+.vinculos { display: flex; flex-wrap: wrap; gap: var(--space-8); align-items: flex-start; }
+.vinculos__painel {
+  flex: 1 1 min(520px, 100%);
+  min-width: 0;
+  padding: var(--space-8) clamp(16px, 3vw, 32px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+.vinculos__cabeca { display: flex; flex-direction: column; gap: var(--space-1); }
+
+.arvore__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 var(--space-6);
+  border-left: 1px solid var(--outline-variant);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.arvore__lista--raiz { margin-left: var(--space-5); }
+.arvore__ramo { position: relative; padding-left: var(--space-4); min-width: 0; }
+.arvore__ramo::before {
+  content: "";
+  position: absolute;
+  left: -24px;
+  top: 22px;
+  width: 36px;
+  height: 1px;
+  background: var(--outline-variant);
+}
+.arvore__rotulo { padding: 14px 0 var(--space-2); color: var(--on-surface-variant); }
+.arvore__vazio { font-size: 14px; line-height: 22px; color: var(--outline); }
+.arvore__no {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-3);
+  align-items: center;
+  width: 100%;
+  min-height: var(--touch-target);
+  box-sizing: border-box;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-base);
+  text-align: left;
+  font: inherit;
+  color: var(--on-surface);
+}
+.arvore__no--raiz { border-color: var(--primary-container); }
+.arvore__no--superado { opacity: 0.72; }
+.arvore__no--superado:hover { opacity: 1; }
+.arvore__sigla { font-size: 14px; line-height: 22px; font-weight: 600; color: var(--on-surface); }
+.arvore__no--raiz .arvore__sigla { font-family: var(--font-display); font-size: 16px; color: var(--primary); }
+.arvore__tipo { flex: 1 1 160px; min-width: 0; font-size: 14px; line-height: 22px; color: var(--on-surface-variant); }
+
+.anexos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px, 100%), 1fr)); gap: var(--space-3); }
+.anexo {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+  min-height: 64px;
+  box-sizing: border-box;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  text-align: left;
+  font: inherit;
+  color: var(--on-surface);
+}
+.anexo__icone { flex: 0 0 auto; color: var(--primary-fixed-dim); display: flex; }
+.anexo__titulo { flex: 1 1 auto; min-width: 0; font-size: 14px; line-height: 20px; font-weight: 600; }
+.anexo__contador {
+  flex: 0 0 auto;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  border: 1px solid currentColor;
+  color: var(--primary-fixed-dim);
+}
+.anexo--vazio .anexo__icone,
+.anexo--vazio .anexo__contador { color: var(--outline); }
+.anexo--vazio .anexo__titulo { color: var(--on-surface-variant); }
+
+/* ---------- Janela de detalhes (dialog) ---------- */
+@keyframes janela-entra { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: none; } }
+@keyframes janela-fundo { from { opacity: 0; } to { opacity: 1; } }
+.janela {
+  isolation: isolate;
+  box-sizing: border-box;
+  width: min(760px, calc(100% - 32px));
+  max-width: none;
+  max-height: min(86vh, 880px);
+  margin: auto;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-xl);
+  overflow: visible;
+  color: var(--on-surface);
+  font-family: var(--font-body);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 28%, rgba(var(--tinta-rgb), 0.04) 100%),
+    rgba(var(--janela-rgb), 0.62);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: var(--brilho-interno), var(--glow-soft), 0 0 0 1px rgba(var(--tinta-rgb), 0.18);
+}
+.janela[open] { display: flex; flex-direction: column; animation: janela-entra 240ms var(--curva); }
+.janela::backdrop {
+  background:
+    radial-gradient(80% 60% at 50% 40%, rgba(var(--tinta-rgb), 0.08), rgba(var(--veu-rgb), 0.55) 70%),
+    rgba(var(--veu-rgb), 0.35);
+  -webkit-backdrop-filter: blur(20px) saturate(140%) brightness(0.75);
+  backdrop-filter: blur(20px) saturate(140%) brightness(0.75);
+  animation: janela-fundo 240ms var(--curva);
+}
+/* Borda luminosa girando (janela e popover) */
+.janela::before,
+.popover::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.5px;
+  pointer-events: none;
+  z-index: 2;
+  background: conic-gradient(from var(--angulo),
+    rgba(var(--acao-rgb), 0) 0deg, rgba(var(--acao-rgb), 0.95) 50deg, rgba(var(--violeta-rgb), 0.75) 95deg,
+    rgba(var(--acao-rgb), 0) 150deg, rgba(var(--acao-rgb), 0) 210deg, rgba(var(--hover-rgb), 0.8) 260deg,
+    rgba(var(--acao-rgb), 0) 320deg);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  animation: giro 7s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(var(--acao-rgb), 0.55));
+}
+.janela::after,
+.popover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 120px;
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(90% 100% at 20% 0%, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0) 70%);
+}
+.janela__topo {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  padding: var(--space-6) var(--space-6) var(--space-4);
+  border-bottom: 1px solid rgba(var(--tinta-rgb), 0.18);
+}
+.janela__titulos { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: var(--space-1); }
+.janela__titulo { font-family: var(--font-display); font-size: 24px; line-height: 32px; font-weight: 600; color: var(--primary); margin: 0; }
+.janela__corpo {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  min-height: 0;
+  padding: var(--space-5) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.janela__rodape { padding: var(--space-3) var(--space-6) var(--space-4); border-top: 1px solid rgba(var(--tinta-rgb), 0.18); color: var(--outline); }
+.fechar {
+  flex: 0 0 auto;
+  width: var(--touch-target);
+  height: var(--touch-target);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-surface);
+  font: inherit;
+}
+.janela__vazio {
+  padding: var(--space-8) var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--outline);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  align-items: center;
+  text-align: center;
+}
+.janela__vazio-texto { font-size: 16px; line-height: 24px; color: var(--on-surface); }
+
+.documento {
+  position: relative;
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(var(--tinta-rgb), 0.16);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0) 60%), rgba(var(--container-rgb), 0.55);
+  transition: border-color 200ms var(--curva), box-shadow 200ms var(--curva);
+}
+.documento.aceso { border-color: var(--primary-fixed-dim); box-shadow: var(--brilho-interno), var(--glow-soft); }
+.documento.aprovado {
+  border-color: var(--primary-container);
+  box-shadow: var(--brilho-interno), var(--glow-soft);
+  background: linear-gradient(180deg, rgba(var(--acao-rgb), 0.12) 0%, rgba(var(--acao-rgb), 0.03) 55%), rgba(var(--container-rgb), 0.6);
+}
+.documento.aprovado::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  border-radius: 2px;
+  background: var(--primary-container);
+}
+.documento__linha { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+.documento__sigla { font-family: var(--font-display); font-size: 16px; line-height: 22px; font-weight: 600; color: var(--primary); }
+.documento__nota {
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-base);
+  background: rgba(var(--acao-rgb), 0.10);
+  border: 1px solid rgba(var(--acao-rgb), 0.35);
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--primary);
+}
+.documento__texto { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+.documento__acoes { display: flex; flex-wrap: wrap; gap: var(--space-2); padding-top: var(--space-1); }
+.documento__acao {
+  display: inline-flex;
+  gap: var(--space-2);
+  align-items: center;
+  min-height: var(--touch-target);
+  box-sizing: border-box;
+  padding: 0 14px;
+  border-radius: var(--radius-base);
+  color: var(--primary-fixed-dim);
+  text-decoration: none;
+}
+.documento__acao--ficha { color: var(--on-surface); }
+
+/* ---------- Popover da versão válida ---------- */
+@keyframes popover-entra { from { opacity: 0; transform: translateY(var(--popover-dy, -6px)) scale(0.98); } to { opacity: 1; transform: none; } }
+.popover {
+  position: absolute;
+  z-index: 1100;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-xl);
+  color: var(--on-surface);
+  isolation: isolate;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 30%, rgba(var(--tinta-rgb), 0.05) 100%),
+    rgba(var(--popover-rgb), 0.9);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: var(--brilho-interno), var(--glow-soft), 0 0 0 1px rgba(var(--tinta-rgb), 0.22);
+  animation: popover-entra 200ms var(--curva);
+}
+.popover[hidden] { display: none; }
+.popover--acima { --popover-dy: 6px; }
+.popover::after { height: 110px; }
+.popover__seta {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg);
+  background: rgba(var(--seta-rgb), 0.96);
+  border: 1px solid rgba(var(--acao-rgb), 0.7);
+  z-index: 3;
+}
+.popover__seta--topo { top: -8px; border-bottom: 0; border-right: 0; }
+.popover__seta--base { bottom: -8px; border-top: 0; border-left: 0; }
+.popover__topo { display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-4) clamp(16px, 3vw, 24px) 0; }
+.popover__selos { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; flex: 1 1 auto; min-width: 0; }
+.popover__conteudo {
+  position: relative;
+  isolation: isolate;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  box-sizing: border-box;
+  padding: var(--space-3) clamp(16px, 3vw, 24px) var(--space-5);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  align-items: flex-start;
+}
+.popover__conteudo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(70% 90% at 10% 0%, rgba(var(--acao-rgb), 0.16), rgba(var(--acao-rgb), 0) 60%);
+}
+.popover__textos { flex: 999 1 min(320px, 100%); min-width: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.popover__titulo { font-family: var(--font-display); font-size: 20px; line-height: 28px; font-weight: 600; color: var(--primary); }
+.popover__acoes { flex: 1 1 min(220px, 100%); display: flex; flex-direction: column; gap: var(--space-2); }
+.popover__acoes > * { justify-content: center; }
+.popover__acoes .botao { width: 100%; }
+.popover__acoes .rotulo { font-weight: 500; letter-spacing: 0.05em; }
+
+/* ---------- Análise estratégica ---------- */
+.analise { padding: var(--space-6) clamp(16px, 3vw, 32px); display: flex; flex-direction: column; gap: var(--space-8); }
+.analise__cabeca { display: flex; flex-direction: column; gap: var(--space-2); }
+.analise strong { font-weight: 600; }
+.analise__forte { color: var(--on-surface); }
+.analise details { display: flex; flex-direction: column; gap: var(--space-4); }
+.analise summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  align-items: baseline;
+  justify-content: space-between;
+  min-height: var(--touch-target);
+  padding: var(--space-2) 0;
+}
+.analise summary::-webkit-details-marker { display: none; }
+.analise summary:focus-visible { outline: 2px solid var(--primary-container); outline-offset: 4px; border-radius: var(--radius-base); }
+.analise__titulo { display: inline; margin: 0; font-family: var(--font-display); font-size: 20px; line-height: 28px; font-weight: 600; color: var(--on-surface); }
+.analise__secao { display: flex; flex-direction: column; gap: var(--space-4); padding-top: var(--space-2); }
+.analise__paragrafo { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+.analise__grade { display: grid; gap: var(--space-3); }
+.analise__grade--semaforo { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); }
+.analise__grade--diagnostico { grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: var(--space-4); }
+.analise__grade--oportunidades { grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: var(--space-4); }
+.analise__cartao {
+  box-sizing: border-box;
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background: rgba(var(--container-rgb), 0.55);
+  border: 1px solid var(--outline-variant);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.analise__cartao--semaforo { gap: 6px; }
+.analise__cartao--diagnostico { gap: 10px; }
+.analise__subtitulo { margin: 0; font-family: var(--font-display); font-size: 16px; line-height: 22px; font-weight: 600; color: var(--on-surface); }
+.analise__lista { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: var(--space-2); }
+.analise__lista li { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+.analise__fontes { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); }
+.analise__fonte { color: var(--primary-fixed-dim); }
+.analise__fontes-lista { margin: 0; padding: var(--space-2) 0 0 22px; display: flex; flex-direction: column; gap: var(--space-2); }
+.analise__fontes-lista li { font-size: 14px; line-height: 22px; color: var(--on-surface); }
+
+.nivel {
+  display: inline-flex;
+  align-self: flex-start;
+  gap: 6px;
+  align-items: center;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-full);
+  border: 1px solid currentColor;
+}
+.nivel__ponto { width: 8px; height: 8px; border-radius: 2px; background: currentColor; }
+.nivel--alto { color: var(--tertiary-fixed-dim); }
+.nivel--medio { color: var(--ambar); }
+.nivel--baixo { color: var(--primary-fixed-dim); }
+
+.tabela-rolagem { overflow-x: auto; border-radius: var(--radius-md); border: 1px solid var(--outline-variant); }
+.tabela { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 20px; }
+.tabela--legistica { min-width: 760px; }
+.tabela--riscos { min-width: 980px; }
+.tabela--plano { min-width: 900px; }
+.tabela th {
+  padding: 10px var(--space-3);
+  text-align: left;
+  vertical-align: top;
+  background: rgba(var(--tinta-rgb), 0.08);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--on-surface-variant);
+}
+.tabela td { padding: 10px var(--space-3); vertical-align: top; border-top: 1px solid var(--outline-variant); color: var(--on-surface); }
+.tabela .suave { color: var(--on-surface-variant); }
+.tabela .rotulo { color: var(--on-surface); }
+.tabela__empilhado { display: flex; flex-direction: column; gap: 6px; }
+
+/* ---------- Rodapé ---------- */
+.rodape {
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--outline-variant);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+  color: var(--outline);
+}
+
+/* ---------- Movimento reduzido ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .estagio__cartao::before, .janela::before, .popover::before { animation: none; }
+  .janela[open], .janela::backdrop, .popover { animation: none; }
+  .liquido, .liquido::before, .liquido::after, .liquido-inline { transition: none; }
+  .liquido:hover, .liquido:active, .liquido:hover::before { transform: none; }
+}
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 1023px) {
+  .pagina__conteudo { padding-left: var(--space-4); padding-right: var(--space-4); }
+}
+@media (max-width: 600px) {
+  .pagina__conteudo { padding-top: var(--space-6); padding-bottom: var(--space-12); gap: var(--space-8); }
+  .historico { padding: var(--space-6) var(--space-4); }
+  .evento__doc { flex: 1 1 100%; }
+}
+
+</style>
+</head>
+<body>
+<div class="pagina">
+  <div class="pagina__conteudo">
+    <header class="cabecalho">
+      <div class="cabecalho__principal">
+        <div class="rotulo rotulo--secao">LINHA_DO_TEMPO_LEGISLATIVA · CÂMARA DOS DEPUTADOS</div>
+        <h1 class="cabecalho__titulo">PL 1.030/2021</h1>
+        <p class="cabecalho__ementa titulo-lg">Determina a prioridade na vacinação contra a Covid 19 para profissionais da educação das redes pública e privada de ensino infantil, fundamental, médio, técnico, superior e profissionais de segurança pública.</p>
+        <p class="cabecalho__explicacao"></p>
+        <div class="cabecalho__linha">
+          <article class="parlamentar parlamentar--cartao vidro" aria-label="Autor da proposição">
+  <div class="parlamentar__foto">
+    <img src="https://www.camara.leg.br/internet/deputado/bandep/122974.jpg" alt="Fotografia oficial do Dep. Pedro Lucas Fernandes" width="84" height="112">
+    <div class="cantoneira cantoneira--sup" aria-hidden="true"></div>
+    <div class="cantoneira cantoneira--inf" aria-hidden="true"></div>
+  </div>
+  <div class="parlamentar__dados">
+    <span class="rotulo rotulo--destaque">AUTOR · PROPONENTE</span>
+    <span class="parlamentar__nome">Dep. Pedro Lucas Fernandes</span>
+    <span class="texto-sm">Deputado Federal · UNIÃO/MA</span>
+    <span class="rotulo rotulo--apagado">ID_DEPUTADO 122974</span>
+  </div>
+</article>
+
+          <div class="cabecalho__meta">
+            <div class="meta">
+              <span class="rotulo rotulo--apagado">APRESENTAÇÃO</span>
+              <span class="meta__valor">24/03/2021</span>
+            </div>
+            <div class="meta">
+              <span class="rotulo rotulo--apagado">REGIME</span>
+              <span class="meta__valor">Prioridade (Art. 151, II, RICD)</span>
+            </div>
+            <div class="meta">
+              <span class="rotulo rotulo--apagado">APRECIAÇÃO</span>
+              <span class="meta__valor">Conclusiva pelas comissões</span>
+            </div>
+            <a class="botao liquido" data-valor="p2275129" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1979657" target="_blank" rel="noopener noreferrer" aria-label="Abrir texto original do PL 1030/2021 em PDF, em nova aba">
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M9 13h6"></path><path d="M9 17h4"></path></svg>
+              INTEIRO TEOR
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="situacao vidro vidro--painel vidro--brilho" aria-label="Situação atual">
+        <div class="cantoneira cantoneira--painel cantoneira--sup" aria-hidden="true"></div>
+        <div class="cantoneira cantoneira--painel cantoneira--inf" aria-hidden="true"></div>
+        <div class="situacao__topo">
+          <span class="rotulo rotulo--secao rotulo--suave">SITUAÇÃO_ATUAL</span>
+          <span class="situacao__estado rotulo rotulo--neon"><span class="ponto" aria-hidden="true"></span>EM ANDAMENTO</span>
+        </div>
+        <div class="situacao__descricao titulo-lg">Aguardando Encaminhamento</div>
+        <div class="situacao__dados">
+          <div class="dado">
+            <span class="rotulo rotulo--apagado">ÓRGÃO</span>
+            <span class="dado__valor">CSAUDE</span>
+          </div>
+          <div class="dado">
+            <span class="rotulo rotulo--apagado">NESTA SITUAÇÃO HÁ</span>
+            <span class="dado__valor dado__valor--fluido numeros">1413 dias</span>
+          </div>
+        </div>
+        <div class="texto-sm">Comissão de Saúde · recebido em 08/12/2022</div>
+      </section>
+    </header>
+
+    <section class="estagios" aria-label="Estágios da tramitação">
+      <div class="cabeca-secao">
+        <h2 class="rotulo rotulo--secao">ORDEM_DE_TRAMITAÇÃO</h2>
+        <span class="rotulo rotulo--suave">REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES</span>
+      </div>
+      <div class="estagios__grade">
+        <div class="estagio estagio--concluido">
+          <div class="estagio__barra" aria-hidden="true"></div>
+          <div class="estagio__cartao">
+            <div class="estagio__topo">
+              <span class="rotulo rotulo--apagado">ETAPA 01</span>
+              <span class="rotulo estagio__status">CONCLUÍDA</span>
+            </div>
+            <div class="estagio__sigla">MESA</div>
+            <div class="estagio__nome">Mesa Diretora</div>
+            <div class="texto-sm">Apresentação, despacho e publicação</div>
+            <div class="estagio__periodo rotulo numeros">24/03/21 → 24/03/21</div>
+          </div>
+        </div>
+        <div class="estagio estagio--atual">
+          <div class="estagio__barra" aria-hidden="true"></div>
+          <div class="estagio__cartao">
+            <div class="estagio__topo">
+              <span class="rotulo rotulo--apagado">ETAPA 02</span>
+              <span class="rotulo estagio__status">EM CURSO</span>
+            </div>
+            <div class="estagio__sigla">CSAUDE</div>
+            <div class="estagio__nome">Saúde</div>
+            <div class="texto-sm">Mérito</div>
+            <div class="estagio__periodo rotulo numeros">DESDE 08/04/21</div>
+          </div>
+        </div>
+        <div class="estagio estagio--pendente">
+          <div class="estagio__barra" aria-hidden="true"></div>
+          <div class="estagio__cartao">
+            <div class="estagio__topo">
+              <span class="rotulo rotulo--apagado">ETAPA 03</span>
+              <span class="rotulo estagio__status">PENDENTE</span>
+            </div>
+            <div class="estagio__sigla">REMESSA</div>
+            <div class="estagio__nome">Mesa Diretora</div>
+            <div class="texto-sm">Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)</div>
+            <div class="estagio__periodo rotulo numeros">A INICIAR</div>
+          </div>
+        </div>
+      </div>
+      <p class="texto-sm">Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).</p>
+    </section>
+
+    <div class="corpo">
+      <section class="historico vidro" aria-label="Histórico de tramitações">
+        <div class="cabeca-secao">
+          <h2 class="titulo-lg">Histórico de Tramitações</h2>
+          <span class="rotulo rotulo--suave">12 REGISTROS · 4 COM DOCUMENTO</span>
+        </div>
+
+        <div class="legenda texto-sm">
+          <span class="legenda__item"><span class="marcador marcador--marco" aria-hidden="true"></span>Marco decisivo</span>
+          <span class="legenda__item"><span class="marcador marcador--rotina" aria-hidden="true"></span>Ato de rotina</span>
+          <span class="legenda__item"><span class="marcador marcador--alerta" aria-hidden="true"></span>Atraso / retirada</span>
+          <span class="legenda__item"><span class="marcador marcador--atual" aria-hidden="true"></span>Posição atual</span>
+          <span class="legenda__item rotulo--destaque"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg><span class="texto-sm">Documento (abre em nova aba)</span></span>
+        </div>
+
+        <div class="fase">
+          <div class="fase__cabeca">
+            <span class="selo rotulo">PLEN</span>
+            <span class="fase__nome">Plenário</span>
+          </div>
+          <div class="evento evento--marco">
+            <div class="evento__quando rotulo numeros">
+              <span>24/03/2021</span>
+              <span class="evento__hora">09:50</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--marco" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Apresentação de Proposição</span>
+<span class="etiqueta rotulo">INÍCIO</span>                </div>
+                <div class="texto-sm">Apresentação do Projeto de Lei n. 1030/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que &#34;Determina a prioridade na vacinação contra a Covid 19 para profissionais da educação das redes pública e privada de ensino infantil, fundamental, médio, técnico, superior e profissionais de segurança pública&#34;.</div>
+              </div>
+<a class="link-doc liquido evento__doc" data-valor="p2275129" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1979657" target="_blank" rel="noopener noreferrer" aria-label="Abrir Inteiro teor · PL 1030/2021 em PDF, em nova aba" title="Inteiro teor · PL 1030/2021">
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M8.5 16.5v-4h1.25a1.25 1.25 0 0 1 0 2.5H8.5"></path><path d="M13 12.5v4h0.75a1.5 1.5 0 0 0 1.5-1.5v-1a1.5 1.5 0 0 0-1.5-1.5z"></path></svg>
+  <span class="link-doc__textos">
+    <span class="rotulo rotulo--destaque">PDF</span>
+    <span class="rotulo rotulo--suave">Inteiro teor · PL 1030/2021</span>
+  </span>
+</a>
+            </div>
+          </div>
+        </div>
+        <div class="fase">
+          <div class="fase__cabeca">
+            <span class="selo rotulo">MESA</span>
+            <span class="fase__nome">Mesa Diretora da Câmara dos Deputados</span>
+          </div>
+          <div class="evento evento--marco">
+            <div class="evento__quando rotulo numeros">
+              <span>07/04/2021</span>
+              <span class="evento__hora">10:27</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--marco" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Despacho de Apensação</span>
+                </div>
+                <div class="texto-sm">Apense-se à(ao) PL-5407/2020. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)</div>
+              </div>
+<a class="link-doc liquido evento__doc" data-valor="c1984940" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1984940" target="_blank" rel="noopener noreferrer" aria-label="Abrir Despacho de Apensação em PDF, em nova aba" title="Despacho de Apensação">
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M8.5 16.5v-4h1.25a1.25 1.25 0 0 1 0 2.5H8.5"></path><path d="M13 12.5v4h0.75a1.5 1.5 0 0 0 1.5-1.5v-1a1.5 1.5 0 0 0-1.5-1.5z"></path></svg>
+  <span class="link-doc__textos">
+    <span class="rotulo rotulo--destaque">PDF</span>
+    <span class="rotulo rotulo--suave">Despacho de Apensação</span>
+  </span>
+</a>
+            </div>
+          </div>
+        </div>
+        <div class="fase">
+          <div class="fase__cabeca">
+            <span class="selo rotulo">CSAUDE</span>
+            <span class="fase__nome">Comissão de Saúde</span>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>08/04/2021</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Publicação de Proposição</span>
+                </div>
+                <div class="texto-sm">Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 09/04/21 305.. (CCP)</div>
+              </div>
+<a class="link-doc liquido evento__doc" data-valor="c2003741" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2003741" target="_blank" rel="noopener noreferrer" aria-label="Abrir Publicação de Proposição em PDF, em nova aba" title="Publicação de Proposição">
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M8.5 16.5v-4h1.25a1.25 1.25 0 0 1 0 2.5H8.5"></path><path d="M13 12.5v4h0.75a1.5 1.5 0 0 0 1.5-1.5v-1a1.5 1.5 0 0 0-1.5-1.5z"></path></svg>
+  <span class="link-doc__textos">
+    <span class="rotulo rotulo--destaque">PDF</span>
+    <span class="rotulo rotulo--suave">Publicação de Proposição</span>
+  </span>
+</a>
+            </div>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>12/04/2021</span>
+              <span class="evento__hora">18:43</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Recebimento</span>
+                </div>
+                <div class="texto-sm">Recebimento pela CSSF.</div>
+              </div>
+            </div>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>30/06/2021</span>
+              <span class="evento__hora">09:52</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Recebimento</span>
+                </div>
+                <div class="texto-sm">Recebimento pela CSSF, apensado ao PL-5407/2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>29/06/2022</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Notificações</span>
+                </div>
+                <div class="texto-sm">Enviado Ofício n. 87/2022 à Mesa Diretora, informando a prejudicialidade da proposição, nos termos do Requerimento 119/2022 (CSSF), aprovado nesta data.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fase">
+          <div class="fase__cabeca">
+            <span class="selo rotulo">MESA</span>
+            <span class="fase__nome">Mesa Diretora da Câmara dos Deputados</span>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>17/11/2022</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Notificação de Despacho</span>
+                </div>
+                <div class="texto-sm">Ofício n. 87/2022-CSSF/DECOM/CD, do Senhor Deputado PINHEIRINHO, Presidente da Comissão de Seguridade Social e Família. Comunicação de declaração de prejudicialidade dos Projetos de Decreto Legislativo n. 131/2020 e n. 348/2020, e dos Projetos de Lei n. 834/2020, n. 885/2020, n. 913/2020, n. 945/2020, n. 984/2020, n. 1.118/2020, n. 1.134/2020, n. 1.152/2020, n. 1.210/2020, n. 1.253/2020, n. 1.292/2020, n. 1.307/2020, n. 1.310/2020, n. 1.336/2020, n. 1.386/2020, n. 1.418/2020, n. 1.422/2020, n. 1.478/2020, n. 1.528/2020, n. 1.609/2020, n. 1.611/2020, n. 1.615/2020, n. 1.667/2020, n. 1.695/2020, n. 1.698/2020, n. 1.733/2020, n. 1.764/2020, n. 1.828/2020, n. 1.833/2020, n. 1.864/2020, n. 1.894/2020, n. 1.905/2020, n. 1.910/2020, n. 1.911/2020, n. 1.929/2020, n. 1.960/2020, n. 1.983/2020, n. 1.999/2020, n. 2.044/2020, n. 2.045/2020, n. 2.088/2020, n. 2.091/2020, n. 2.092/2020, n. 2.104/2020, n. 2.129/2020, n. 2.132/2020, n. 2.151/2020, n. 2.162/2020, n. 2.191/2020, n. 2.198/2020, n. 2.206/2020, n. 2.223/2020, n. 2.225/2020, n. 2.264/2020, n. 2.270/2020, n. 2.271/2020, n. 2.301/2020, n. 2.302/2020, n. 2.333/2020, n. 2.342/2020, n. 2.357/2020, n. 2.441/2020, n. 2.472/2020, n. 2.531/2020, n. 2.541/2020, n. 2.548/2020, n. 2.579/2020, n. 2.609/2020, n. 2.636/2020, n. 2.661/2020, n. 2.668/2020, n. 2.685/2020, n. 2.691/2020, n. 2.758/2020, n. 2.759/2020, n. 2.799/2020, n. 2.862/2020, n. 2.893/2020, n. 2.905/2020, n. 2.915/2020, n; 2.916/2020, n. 2.924/2020, n. 2.926/2020, n. 3.065/2020, n. 3.143/2020, n. 3.154/2020, n. 3.161/2020, n. 3.165/2020, n. 3.171/2020, n. 3.210/2020, n. 3.252/2020, n. 3.382/2020, n. 3.416/2020, n. 3.469/2020, n. 3.470/2020, n. 3.499/2020, n. 3.551/2020, n. 3.660/2020, n. 3.662/2020, n. 3.666/2020, n. 3.688/2020, n. 3.756/2020, n. 3.815/2020, n. 3.936/2020, n. 4.153/2020, n. 4.163/2020, n. 4.169/2020, n. 4.216/2020, n. 4.317/2020, n. 4.389/2020, n. 4.832/2020, n. 4.874/2020, n. 5.600/2020, n. 60/2021, n. 202/2021, n. 230/2021, n. 878/2021, n. 1.158/2020, n. 2.469/2020, n. 2.818/2021, n. 3.793/2020, n. 1.210/2021, 4.174/2020, n. 5.630/2020, n. 2.044/2021, n. 1.181/2021, n. 1.228/2021, n. 2.311/2021, n. 1.490/2021, n. 2.796/2020, n. 711/2021, n. 1.180/2021, n. 1.317/2021, n. 431/2021, n. 1.581/2021, n. 933/2021, n. 1.030/2021, n. 1.304/2021, n. 679/2021, n. 2.132/2021, n. 800/2021, n. 2.659/2021, n. 228/2021, n. 2.027/2021, n. 1.159/2020, n. 4.424/2020, n. 4.798/2020, n. 5.378/2020, n. 5.524/2020, n. 5.532/2020, n. 5.577/2020, n. 70/2021, n. 310/2021, n. 584/2021, n. 1.103/2021, n. 1.125/2021, n. 1.312/2021, n. 1.405/2021, n. 1.491/2021, n. 1.802/2021, n. 1.834/2021, n. 1.865/2021, n. 1.937/2021, n. 2.113/2021, n. 2.177/2021, n. 2.854/2021, n. 3.243/2021, n. 5.462/2020, n. 328/2021, n. 1.183/2021, n. 1.493/2021, n. 1.510/2021, n. 1.656/2021, n. 1.792/2021, n. 1.832/2021, n. 1.872/2021, n. 1.954/2021, n. 2.055/2021, n. 2.506/2021, n. 311/2021, n. 368/2021, n. 464/2021, n. 1.131/2021, n. 230/2021, n. 5.480/2020, n. 1.258/2021, n. 1.289/2021, n. 1.309/2021, n. 1.195/2021, n. 1.866/2021, n. 4.023/2020, n. 5.407/2020, n. 203/2021, n. 275/2021, n. 555/2021, n. 559/2021, n. 590/2021, n. 903/2021, n. 915/2021, n. 955/2021, n. 1.002/2021, n. 1.006/2021, n. 1.007/2021, n. 1.008/2021, n. 1.052/2021, n. 1.073/2021, n. 1.092/2021, n. 1.118/2021, n. 1.120/2021, n. 1.154/2021, n. 1.155/2021, n. 1.159/2021, n. 1.160/2021, n. 1.166/2021, n. 1.186/2021, n. 1.194/2021, n. 1.373/2021, n. 1.375/2021, n. 1.438/2021, n. 1.441/2021, n. 1.476/2021, n. 1.549/2021, n. 1.669/2021, n. 1.684/2021, n. 1.759/2021, n. 1.766/2021, n. 1.859/2021, n. 1.909/2021, n. 1.978/2021, n. 2.007/2021, n. 2.036/2021, n. 2.096/2021, n. 2.375/2021, n. 2.910/2021, n. 4.615/2020, n. 370/2021, n. 1.014/2021, n. 1.152/2021, n. 1.182/2021, n. 1.185/2021, n. 1.189/2021, n. 1.190/2021, n. 1.191/2021, n. 1.192/2021, n. 1.193/2021, n. 1.196/2021, n. 1.203/2021, n. 1.209/2021, n. 1.213/2021, n. 1.218/2021, n. 1.234/2021, n. 1.306/2021, n. 1.328/2021, n. 1.345/2021, n. 1.371/2021, n. 1.505/2021, n. 1.546/2021, n. 1.979/2021, n. 1.998/2021, n. 2.095/2021, n. 2.098/2021, n. 2.178/2021, n. 2.190/2021, n. 1.398/2021 e n. 1.506/2021.Publique-se, nos termos do § 1º do art. 164 do Regimento Interno da Câmara dos Deputados. Transcorrido in albis o prazo recursal, arquivem-se as proposições em epígrafe.Em decorrência:Apense-se o Projeto de Lei n. 3.278/2020 ao Projeto de Lei n. 1.689/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 1.689/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família; de Viação e Transportes; de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Submeta-se o Projeto de Lei n. 3.687/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Desenvolvimento Econômico, Indústria, Comércio e Serviços; de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Submeta-se o Projeto de Lei n. 2.266/2021 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Submeta-se o Projeto de Lei n. 2.895/2021 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Submeta-se o Projeto de Lei n. 1.835/2020 e seu apensado, o Projeto de Lei n. 2.171/2020, à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 5.418/2020, 1.377/2021, 1.828/2021 e 1.490/2021 ao Projeto de Lei n. 5.340/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 5.340/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 1.137/2021, 1.201/2021, 1.251/2021 e 1.442/2021 ao Projeto de Lei n. 1.396/2020;Apensem-se os Projetos de Lei n. 2.180/2020, 2.807/2020, 379/2021, 2.726/2020 (com seu apensado, o Projeto de Lei n. 5.556/2020), 3.163/2020 e 3.197/2020 ao Projeto de Lei n. 1.622/2020;Submeta-se o Projeto de Lei n. 481/2022 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 1.051/2021 (com seus apensados, os Projetos de Lei n. 1.151/2021 e 1.784/2021), 1.222/2021 e 2.130/2021 ao Projeto de Lei n. 1.223/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 1.223/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 4.131/2020 e 4.565/2020 ao Projeto de Lei n. 2.278/2020. Submeta-se o Projeto de Lei n. 2.278/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família; de Trabalho, de Administração e Serviço Público e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 4.327/2020, 2.574/2020, 3.869/2020 e 5.257/2020 ao Projeto de Lei n. 1.714/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 1.714/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família; de Trabalho, de Administração e Serviço Público; e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 2.127/2020 e 533/2021 ao Projeto de Lei n. 1.016/2020;Apensem-se os Projetos de Lei n. 973/2020 (com seus apensados, os Projetos de Lei n. 1.664/2020, 3.807/2020 e 4.408/2020), 1.268/2020 e 1.651/2021 ao Projeto de Lei n. 729/2020;Submeta-se o Projeto de Lei n. 2.372/2021 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apensem-se os Projetos de Lei n. 1.327/2020 e 1.674/2020 ao Projeto de Lei n. 981/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 981/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família; de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Submeta-se o Projeto de Lei n. 2.415/2021 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Seguridade Social e Família e de Constituição e Justiça e de Cidadania (art. 54, RICD);Submeta-se o bloco encabeçado pelo Projeto de Lei n. 2.405/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação prioritário (art. 151, II, RICD) e ao exame das Comissões de Segurança Pública e Combate ao Crime Organizado; de Seguridade Social e Família; de Finanças e Tributação (art. 54, RICD); e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apense-se o Projeto de Lei n. 4.489/2020 ao Projeto de Lei n. 3.892/2020;Apense-se o Projeto de Lei n. 923/2021 ao Projeto de Lei n. 1.666/2020;Apensem-se os Projetos de Lei n. 2.071/2020 (com seus apensados), 879/2021, 2.052/2020, 2.172/2020, 1.184/2021 e 1.301/2021 ao Projeto de Lei n. 1.780/2020;Apensem-se o Projeto de Lei n. 4.263/2020 ao Projeto de Lei n. 3.246/2020 e o Projeto de Lei n. 5.650/2020 ao Projeto de Lei n. 2.283/2020.Apensem-se os Projetos de Lei n. 1.350/2020 e 4.644/2020 ao Projeto de Lei n. 6.370/2019. Publique-se.[ATUALIZAÇÃO DO DESPACHO DO PL N. 1.689/2020: CSSF, CVT, CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 3.687/2020: CDEICS, CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 2.266/2021: CSSF, CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 2.895/2021: CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 1.835/2020: CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 5.340/2020: CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 481/2022: CSSF e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 1.223/2020: CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 2.278/2020: CSSF, CTASP e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 1.714/2020: CSSF, CTASP e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 2.372/2021: CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 981/2020: CSSF, CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 2.415/2021: CSSF e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)][ATUALIZAÇÃO DO DESPACHO DO PL N. 2.405/2020: CSPCCO, CSSF, CFT (art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: prioridade (art. 151, II, RICD)]</div>
+              </div>
+<a class="link-doc liquido evento__doc" data-valor="c2211299" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2211299" target="_blank" rel="noopener noreferrer" aria-label="Abrir Notificação de Despacho em PDF, em nova aba" title="Notificação de Despacho">
+  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path><path d="M8.5 16.5v-4h1.25a1.25 1.25 0 0 1 0 2.5H8.5"></path><path d="M13 12.5v4h0.75a1.5 1.5 0 0 0 1.5-1.5v-1a1.5 1.5 0 0 0-1.5-1.5z"></path></svg>
+  <span class="link-doc__textos">
+    <span class="rotulo rotulo--destaque">PDF</span>
+    <span class="rotulo rotulo--suave">Notificação de Despacho</span>
+  </span>
+</a>
+            </div>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>17/11/2022</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Abertura de Prazo</span>
+                </div>
+                <div class="texto-sm">Sujeito a arquivamento, nos termos do § 4º do art. 164 do RICD. Prazo para apresentação de recurso, nos termos do § 2º do art. 164 do RICD (5 sessões a partir de 21/11/2022)</div>
+              </div>
+            </div>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>01/12/2022</span>
+              <span class="evento__hora">13:15</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Encerramento de Prazo</span>
+                </div>
+                <div class="texto-sm">Encerramento automático do Prazo de Recurso 01/12/2022 13:15:00. Não foram apresentados recursos.</div>
+              </div>
+            </div>
+          </div>
+          <div class="evento evento--rotina">
+            <div class="evento__quando rotulo numeros">
+              <span>01/12/2022</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--rotina" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Notificações</span>
+                </div>
+                <div class="texto-sm">Desapensação automática deste do PL 5407/2020, em face da declaração de prejudicialidade, encerramento do prazo de recurso e do seu consequente arquivamento.</div>
+              </div>
+            </div>
+          </div>
+          <div class="evento evento--alerta">
+            <div class="evento__quando rotulo numeros">
+              <span>01/12/2022</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--alerta" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Arquivamento</span>
+                </div>
+                <div class="texto-sm">Arquivado</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fase">
+          <div class="fase__cabeca">
+            <span class="selo rotulo">CSAUDE</span>
+            <span class="fase__nome">Comissão de Saúde</span>
+          </div>
+          <div class="evento evento--atual">
+            <div class="evento__quando rotulo numeros">
+              <span>08/12/2022</span>
+              <span class="evento__hora">00:00</span>
+            </div>
+            <div class="evento__trilho">
+              <div class="marcador marcador--atual" aria-hidden="true"></div>
+            </div>
+            <div class="evento__corpo">
+              <div class="evento__textos">
+                <div class="evento__linha-titulo">
+                  <span class="evento__titulo">Devolução à CCP</span>
+<span class="etiqueta rotulo">ESTÁGIO ATUAL</span>                </div>
+                <div class="texto-sm">Devolução à CCP.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="lateral">
+
+        <section class="indexacao vidro vidro--painel" aria-label="Temas e indexação">
+          <div class="indexacao__bloco">
+            <h2 class="rotulo rotulo--secao">TEMAS_DA_PROPOSIÇÃO</h2>
+            <p class="indexacao__texto">Defesa e Segurança; Educação; Saúde.</p>
+          </div>
+          <div class="indexacao__bloco">
+            <div class="cabeca-secao">
+              <h2 class="rotulo rotulo--secao">KEYWORDS</h2>
+              <span class="rotulo rotulo--suave">14 TERMOS</span>
+            </div>
+            <p class="indexacao__texto">Inclusão; profissional da educação; rede pública de ensino; rede particular de ensino; educação infantil; ensino fundamental; ensino médio; ensino técnico; educação superior; profissional da segurança pública. grupo prioritario; vacinação; contra; coronavírus; Plano Nacional de Operacionalização da Vacinação contra a Covid-19.</p>
+          </div>
+        </section>
+
+        <section class="indicadores vidro vidro--painel" aria-label="Indicadores">
+          <h2 class="rotulo rotulo--secao">INDICADORES_DE_TRAMITAÇÃO</h2>
+          <div class="indicadores__grade">
+            <div class="indicador">
+              <span class="indicador__valor numeros">2037</span>
+              <span class="rotulo rotulo--suave">DIAS EM TRAMITAÇÃO</span>
+            </div>
+            <div class="indicador">
+              <span class="indicador__valor numeros">1413</span>
+              <span class="rotulo rotulo--suave">DIAS NA SITUAÇÃO ATUAL</span>
+            </div>
+            <div class="indicador">
+              <span class="indicador__valor numeros">0</span>
+              <span class="rotulo rotulo--suave">RETIRADAS DE PAUTA</span>
+            </div>
+            <div class="indicador">
+              <span class="indicador__valor numeros">0</span>
+              <span class="rotulo rotulo--suave">EMENDAS APRESENTADAS</span>
+            </div>
+          </div>
+          <div class="progresso">
+            <div class="progresso__topo rotulo">
+              <span>COMISSÕES CONCLUÍDAS</span>
+              <span class="progresso__valor numeros">0 de 1 · 0%</span>
+            </div>
+            <div class="progresso__trilho" role="img" aria-label="0 de 1 comissões concluídas">
+              <div class="progresso__barra" style="width: 0.0%"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="vidro vidro--painel" aria-label="Próximos marcos">
+          <h2 class="rotulo rotulo--secao">PRÓXIMOS_MARCOS</h2>
+          <ol class="marcos">
+            <li class="marcos__item">
+              <span class="marcos__numero rotulo">01</span>
+              <div class="marcos__textos">
+                <span class="marcos__titulo">Parecer da CSAUDE</span>
+                <span class="texto-sm">Mérito.</span>
+              </div>
+            </li>
+            <li class="marcos__item">
+              <span class="marcos__numero rotulo">02</span>
+              <div class="marcos__textos">
+                <span class="marcos__titulo">Prazo de recurso ao Plenário</span>
+                <span class="texto-sm">5 sessões após a última comissão (Art. 132, § 2º, RICD).</span>
+              </div>
+            </li>
+            <li class="marcos__item">
+              <span class="marcos__numero rotulo">03</span>
+              <div class="marcos__textos">
+                <span class="marcos__titulo">Remessa ao Senado Federal</span>
+                <span class="texto-sm">Aprovado na Câmara, o projeto segue à Casa revisora.</span>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </aside>
+    </div>
+
+    <div class="vinculos">
+      <section class="vinculos__painel vidro" aria-label="Árvore de apensados">
+        <div class="vinculos__cabeca">
+          <span class="rotulo rotulo--destaque">ÁRVORE_DE_APENSADOS</span>
+          <h2 class="titulo-lg">Árvore de Apensados</h2>
+          <p class="texto-sm">Nenhuma proposição apensada.</p>
+        </div>
+        <button type="button" class="arvore__no arvore__no--raiz liquido" data-valor="p2275129" data-janela="janela-raiz" aria-haspopup="dialog">
+          <span class="arvore__sigla">PL 1030/2021</span>
+          <span class="arvore__tipo">Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)</span>
+        </button>
+        <ul class="arvore__lista arvore__lista--raiz">
+          <li class="arvore__ramo">
+            <div class="arvore__rotulo rotulo">APENSADOS (0)</div>
+            <div class="arvore__vazio">Nenhuma proposição apensada a esta matéria.</div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="vinculos__painel vidro" aria-label="Documentos anexos e referenciados">
+        <div class="vinculos__cabeca">
+          <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+          <h2 class="titulo-lg">Documentos Anexos e Referenciados</h2>
+          <p class="texto-sm">Cada item abre uma janela com todos os registros do respectivo documento.</p>
+        </div>
+        <div class="anexos">
+          <button type="button" class="anexo liquido" data-janela="janela-anexo-1" aria-haspopup="dialog" aria-label="Abrir Inteiro Teor (PDF)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Inteiro Teor</span>
+            <span class="anexo__contador rotulo numeros">PDF</span>
+          </button>
+          <button type="button" class="anexo liquido anexo--vazio" data-janela="janela-anexo-2" aria-haspopup="dialog" aria-label="Abrir Mensagens, Ofícios e Requerimentos (0)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Mensagens, Ofícios e Requerimentos</span>
+            <span class="anexo__contador rotulo numeros">0</span>
+          </button>
+          <button type="button" class="anexo liquido anexo--vazio" data-janela="janela-anexo-3" aria-haspopup="dialog" aria-label="Abrir Histórico de Pareceres, Substitutivos e Votos (0)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Histórico de Pareceres, Substitutivos e Votos</span>
+            <span class="anexo__contador rotulo numeros">0</span>
+          </button>
+          <button type="button" class="anexo liquido anexo--vazio" data-janela="janela-anexo-4" aria-haspopup="dialog" aria-label="Abrir Emendas (0)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Emendas</span>
+            <span class="anexo__contador rotulo numeros">0</span>
+          </button>
+          <button type="button" class="anexo liquido anexo--vazio" data-janela="janela-anexo-5" aria-haspopup="dialog" aria-label="Abrir Destaques (0)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Destaques</span>
+            <span class="anexo__contador rotulo numeros">0</span>
+          </button>
+          <button type="button" class="anexo liquido" data-janela="janela-anexo-6" aria-haspopup="dialog" aria-label="Abrir Histórico de Despachos (1)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Histórico de Despachos</span>
+            <span class="anexo__contador rotulo numeros">1</span>
+          </button>
+          <button type="button" class="anexo liquido anexo--vazio" data-janela="janela-anexo-7" aria-haspopup="dialog" aria-label="Abrir Redação Final (0)">
+            <span class="anexo__icone"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg></span>
+            <span class="anexo__titulo">Redação Final</span>
+            <span class="anexo__contador rotulo numeros">0</span>
+          </button>
+        </div>
+      </section>
+    </div>
+
+
+    <footer class="rodape rotulo">
+      <span>FONTE: API DADOS ABERTOS · CÂMARA DOS DEPUTADOS · ID_PROPOSIÇÃO 2275129</span>
+      <span class="numeros">CONSULTA 21/10/2026 · ÚLTIMA MOVIMENTAÇÃO 08/12/2022</span>
+    </footer>
+  </div>
+  <dialog class="janela" id="janela-raiz" aria-labelledby="janela-raiz-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">PROPOSIÇÃO_PRINCIPAL</span>
+      <h2 class="janela__titulo" id="janela-raiz-titulo">PL 1030/2021</h2>
+      <span class="texto-sm">Raiz da árvore · nenhuma proposição apensada</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <article class="documento" data-valor="p2275129">
+  <div class="documento__linha">
+    <span class="documento__sigla">PL 1030/2021</span>
+    <span class="selo-tipo rotulo">Projeto de Lei</span>
+<span class="selo-tinta rotulo">AGUARDANDO ENCAMINHAMENTO</span>  </div>
+<div class="rotulo rotulo--suave numeros">Apresentado em 24/03/2021 · Dep. Pedro Lucas Fernandes (UNIÃO/MA)</div><p class="documento__texto">Determina a prioridade na vacinação contra a Covid 19 para profissionais da educação das redes pública e privada de ensino infantil, fundamental, médio, técnico, superior e profissionais de segurança pública.</p>  <div class="documento__acoes">
+    <a class="documento__acao liquido rotulo" data-valor="p2275129" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1979657" target="_blank" rel="noopener noreferrer" aria-label="Abrir inteiro teor de PL 1030/2021 em PDF, em nova aba"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg>INTEIRO TEOR · PDF</a>
+    <a class="documento__acao documento__acao--ficha liquido rotulo" data-valor="p2275129" href="https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2275129" target="_blank" rel="noopener noreferrer" aria-label="Abrir ficha de tramitação de PL 1030/2021, em nova aba"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>FICHA DE TRAMITAÇÃO</a>
+  </div>
+</article>
+
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-1" aria-labelledby="janela-anexo-1-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-1-titulo">Inteiro Teor</h2>
+      <span class="texto-sm">Texto original da proposição</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <article class="documento" data-valor="c1979657">
+  <div class="documento__linha">
+    <span class="documento__sigla">Inteiro teor · PL 1030/2021</span>
+    <span class="selo-tipo rotulo">Texto original</span>
+  </div>
+  <div class="documento__acoes">
+    <a class="documento__acao liquido rotulo" data-valor="c1979657" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1979657" target="_blank" rel="noopener noreferrer" aria-label="Abrir inteiro teor de Inteiro teor · PL 1030/2021 em PDF, em nova aba"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg>INTEIRO TEOR · PDF</a>
+  </div>
+</article>
+
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-2" aria-labelledby="janela-anexo-2-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-2-titulo">Mensagens, Ofícios e Requerimentos</h2>
+      <span class="texto-sm">Requerimentos vinculados à proposição</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <div class="janela__vazio">
+      <span class="rotulo rotulo--suave">SEM_REGISTROS</span>
+      <span class="janela__vazio-texto">Nenhum registro na ficha de tramitação até 21/10/2026.</span>
+    </div>
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-3" aria-labelledby="janela-anexo-3-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-3-titulo">Histórico de Pareceres, Substitutivos e Votos</h2>
+      <span class="texto-sm">Pareceres, substitutivos e votos das comissões</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <div class="janela__vazio">
+      <span class="rotulo rotulo--suave">SEM_REGISTROS</span>
+      <span class="janela__vazio-texto">Nenhum registro na ficha de tramitação até 21/10/2026.</span>
+    </div>
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-4" aria-labelledby="janela-anexo-4-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-4-titulo">Emendas</h2>
+      <span class="texto-sm">Emendas ao projeto e ao substitutivo</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <div class="janela__vazio">
+      <span class="rotulo rotulo--suave">SEM_REGISTROS</span>
+      <span class="janela__vazio-texto">Nenhuma emenda apresentada até 21/10/2026.</span>
+    </div>
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-5" aria-labelledby="janela-anexo-5-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-5-titulo">Destaques</h2>
+      <span class="texto-sm">Destaques para votação em separado</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <div class="janela__vazio">
+      <span class="rotulo rotulo--suave">SEM_REGISTROS</span>
+      <span class="janela__vazio-texto">Nenhum registro na ficha de tramitação até 21/10/2026.</span>
+    </div>
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-6" aria-labelledby="janela-anexo-6-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-6-titulo">Histórico de Despachos</h2>
+      <span class="texto-sm">Despachos da Mesa Diretora</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <article class="documento" data-valor="c1984940">
+  <div class="documento__linha">
+    <span class="documento__sigla">Despacho de Apensação de 07/04/2021</span>
+    <span class="selo-tipo rotulo">Despacho</span>
+  </div>
+<div class="rotulo rotulo--suave numeros">07/04/2021 · MESA</div><p class="documento__texto">Apense-se à(ao) PL-5407/2020. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)</p>  <div class="documento__acoes">
+    <a class="documento__acao liquido rotulo" data-valor="c1984940" href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1984940" target="_blank" rel="noopener noreferrer" aria-label="Abrir inteiro teor de Despacho de Apensação de 07/04/2021 em PDF, em nova aba"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg>INTEIRO TEOR · PDF</a>
+  </div>
+</article>
+
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+  <dialog class="janela" id="janela-anexo-7" aria-labelledby="janela-anexo-7-titulo">
+  <div class="janela__topo">
+    <div class="janela__titulos">
+      <span class="rotulo rotulo--destaque">DOCUMENTOS_ANEXOS</span>
+      <h2 class="janela__titulo" id="janela-anexo-7-titulo">Redação Final</h2>
+      <span class="texto-sm">Texto final aprovado</span>
+    </div>
+    <button type="button" class="fechar liquido" data-fechar aria-label="Fechar janela"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></button>
+  </div>
+  <div class="janela__corpo">
+    <div class="janela__vazio">
+      <span class="rotulo rotulo--suave">SEM_REGISTROS</span>
+      <span class="janela__vazio-texto">Ainda não há redação final registrada até 21/10/2026.</span>
+    </div>
+  </div>
+  <div class="janela__rodape rotulo">FONTE: CÂMARA DOS DEPUTADOS · FICHA DE TRAMITAÇÃO DO PL 1030/2021 · CONSULTA 21/10/2026</div>
+</dialog>
+
+
+</div>
+<script>
+/* Interações do relatório de tramitação.
+   - Valor compartilhado: hover/foco em um componente com data-valor acende todos com o mesmo valor.
+   - Seleção: o último link ou botão de vidro clicado fica marcado (aria-current).
+   - Janelas: botões com data-janela abrem o <dialog> correspondente.
+   - Popover da versão válida: documentos aprovados (classe "aprovado" + data-origem) o abrem
+     no hover/foco; o clique o fixa até ser fechado. */
+(function () {
+  "use strict";
+
+  var raiz = document.querySelector(".pagina");
+  var popover = document.getElementById("popover-versao");
+  var tempoFecho = null;
+  var fixado = false;
+  var acionador = null;
+
+  /* ---------- Valor compartilhado ---------- */
+  function acender(valor, ligado) {
+    if (!valor) return;
+    document.querySelectorAll('[data-valor="' + valor + '"]').forEach(function (el) {
+      el.classList.toggle("aceso", ligado);
+    });
+  }
+
+  function componente(alvo) {
+    return alvo && alvo.closest ? alvo.closest("[data-valor]") : null;
+  }
+
+  /* Dentro das janelas o popover ficaria sob a camada do <dialog>: só acende. */
+  function acionaPopover(el) {
+    return el.dataset.origem && !el.closest("dialog");
+  }
+
+  ["mouseover", "focusin"].forEach(function (tipo) {
+    document.addEventListener(tipo, function (e) {
+      var el = componente(e.target);
+      if (!el) return;
+      acender(el.dataset.valor, true);
+      if (acionaPopover(el)) abrirPopover(el, false);
+    });
+  });
+  ["mouseout", "focusout"].forEach(function (tipo) {
+    document.addEventListener(tipo, function (e) {
+      var el = componente(e.target);
+      if (!el || (e.relatedTarget && el.contains(e.relatedTarget))) return;
+      acender(el.dataset.valor, false);
+      if (acionaPopover(el)) agendarFecho();
+    });
+  });
+
+  /* ---------- Seleção ---------- */
+  function selecionar(el) {
+    document.querySelectorAll(".selecionado").forEach(function (outro) {
+      outro.classList.remove("selecionado");
+      outro.removeAttribute("aria-current");
+    });
+    el.classList.add("selecionado");
+    el.setAttribute("aria-current", "true");
+  }
+
+  /* ---------- Janelas ---------- */
+  function abrirJanela(id) {
+    var janela = id && document.getElementById(id);
+    if (!janela || typeof janela.showModal !== "function") return;
+    fecharPopover();
+    janela.showModal();
+  }
+
+  document.querySelectorAll("dialog.janela").forEach(function (janela) {
+    // Clique no véu (fora da caixa) fecha a janela.
+    janela.addEventListener("click", function (e) {
+      if (e.target === janela) janela.close();
+    });
+  });
+
+  document.addEventListener("click", function (e) {
+    var fechar = e.target.closest("[data-fechar]");
+    if (fechar) {
+      fechar.closest("dialog").close();
+      return;
+    }
+    if (e.target.closest("[data-fechar-popover]")) {
+      fecharPopover();
+      return;
+    }
+    if (e.target.closest("[data-ver-detalhes]")) {
+      abrirJanela(janelaDetalhes());
+      return;
+    }
+    var el = e.target.closest(".liquido, .liquido-inline");
+    if (!el || el.closest("dialog, .popover")) return;
+    selecionar(el);
+    if (el.dataset.origem) {
+      // Documento aprovado: fixa o popover; links continuam abrindo o PDF.
+      abrirPopover(el, true);
+    } else if (el.dataset.janela) {
+      abrirJanela(el.dataset.janela);
+    }
+  });
+
+  /* ---------- Popover da versão válida ---------- */
+  function cancelarFecho() {
+    if (tempoFecho) {
+      clearTimeout(tempoFecho);
+      tempoFecho = null;
+    }
+  }
+
+  function agendarFecho() {
+    cancelarFecho();
+    tempoFecho = setTimeout(function () {
+      if (!fixado) fecharPopover();
+    }, 180);
+  }
+
+  function fecharPopover() {
+    cancelarFecho();
+    if (!popover) return;
+    popover.hidden = true;
+    fixado = false;
+    acionador = null;
+  }
+
+  function janelaDetalhes() {
+    if (acionador && acionador.dataset.detalhe) return acionador.dataset.detalhe;
+    var no = document.querySelector('.arvore__no[data-valor="' + popover.dataset.valorVersao + '"]');
+    return no ? no.dataset.detalhe || no.dataset.janela : "janela-raiz";
+  }
+
+  /* Posiciona o popover junto ao componente, sem sair da largura da tela. */
+  function abrirPopover(el, fixar) {
+    if (!popover || (!fixar && fixado)) {
+      cancelarFecho();
+      return;
+    }
+    cancelarFecho();
+    fixado = fixado || fixar;
+    acionador = el;
+    popover.querySelector("[data-origem-texto]").textContent = el.dataset.origem;
+
+    var r = el.getBoundingClientRect();
+    var rr = raiz.getBoundingClientRect();
+    var vw = document.documentElement.clientWidth || window.innerWidth;
+    var vh = window.innerHeight;
+    var largura = Math.min(640, vw - 32);
+    var esquerda = Math.max(16, Math.min(r.left + r.width / 2 - largura / 2, vw - largura - 16));
+    var abaixo = vh - r.bottom;
+    var acima = abaixo < 380 && r.top > abaixo;
+    var seta = Math.max(18, Math.min(r.left + r.width / 2 - esquerda - 7, largura - 32));
+    var topo = (acima ? r.top - 12 : r.bottom + 12) - rr.top;
+
+    popover.style.left = Math.round(esquerda - rr.left) + "px";
+    popover.style.top = Math.round(topo) + "px";
+    popover.style.width = Math.round(largura) + "px";
+    popover.style.maxHeight = Math.round(Math.max(240, (acima ? r.top : abaixo) - 28)) + "px";
+    popover.style.transform = acima ? "translateY(-100%)" : "";
+    popover.classList.toggle("popover--acima", acima);
+
+    var ponta = popover.querySelector(".popover__seta");
+    ponta.className = "popover__seta " + (acima ? "popover__seta--base" : "popover__seta--topo");
+    ponta.style.left = Math.round(seta) + "px";
+    popover.hidden = false;
+  }
+
+  if (popover) {
+    popover.addEventListener("mouseenter", cancelarFecho);
+    popover.addEventListener("focusin", cancelarFecho);
+    popover.addEventListener("mouseleave", agendarFecho);
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !popover.hidden) fecharPopover();
+    });
+    // Clique fora do popover fixado o fecha.
+    document.addEventListener("pointerdown", function (e) {
+      if (fixado && !popover.contains(e.target) && !(acionador && acionador.contains(e.target))) fecharPopover();
+    });
+  }
+})();
+
+</script>
+</body>
+</html>
