@@ -1,0 +1,314 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2254587,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PLP 157/2020",
+  "ementa": "Suspende, por seis meses, o pagamento dos tributos federais e das parcelas dos programas de parcelamento de débitos no âmbito da Secretaria Especial da Receita Federal do Brasil ou da Procuradoria-Geral da Fazenda Nacional, às empresas que tenham sido obrigadas a suspender as suas atividades em razão das medidas implantadas para o combate à pandemia de COVID-19, declarada pela Organização Mundial da Saúde, e dá outras providências.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1901037",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "04/06/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   }
+  ],
+  "apresentacao": "2020-06-04",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública",
+   "Finanças Públicas e Orçamento",
+   "Indústria, Comércio e Serviços",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Suspensão, prazo determinado, pagamento, Débito tributário, Débito não tributário, Secretaria Especial da Receita Federal do Brasil, Procuradoria-Geral da Fazenda Nacional (PGFN), Tributo federal, empresa, interrupção, atividade econômica, quarentena (saúde), manutenção, emprego, trabalhador, pandemia, Coronavírus."
+ },
+ "autor": {
+  "id": 204500,
+  "nome": "Dep. Eduardo Costa",
+  "descricao": "Deputado Federal · PSD/PA",
+  "rotulo": "AUTOR · 13 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Encaminhamento",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2023-06-13",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-06-04",
+   "fim": "2021-04-19",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1992025",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2021-04-19",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2022-12-12",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-06-04T18:12",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei Complementar n. 157/2020, pelo Deputado Eduardo Costa (PTB/PA) e outros, que \"Suspende, por seis meses, o pagamento dos tributos federais e das parcelas dos programas de parcelamento de débitos no âmbito da Secretaria Especial da Receita Federal do Brasil ou da Procuradoria-Geral da Fazenda Nacional, às empresas que tenham sido obrigadas a suspender as suas atividades em razão das medidas implantadas para o combate à pandemia de COVID-19, declarada pela Organização Mundial da Saúde, e dá outras providências. \".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1901038",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-15T15:38",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1992025",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2021-04-19T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 20/04/21 PÅG 21. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2009898",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-20T12:48",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2022-12-12T07:03",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Prejudicialidade n. 1601/2022, pelo Deputado Luiz Lima (PL/RJ), que \"Requer a declaração de prejudicialidade das proposições relativas à COVID-19\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2222594",
+      "nome": "REQ 1601/2022",
+      "id": 2341881
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-05-16T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Despacho exarado no Requerimento n. 1601/2022, conforme o seguinte teor: \"Preliminarmente, declaro prejudicado o pedido de declaração de prejudicialidade do Projeto de Lei n. 3.605/2020, nos termos do art. 164, I, do RICD, uma vez que a proposição encontra-se arquivada. Quanto as demais proposições, defiro parcialmente o Requerimento n. 1.601/2022. Assim, nos termos do art. 164, I, do Regimento Interno da Câmara dos Deputados (RICD), declaro prejudicadas as seguintes proposições: Projetos de Lei n. 714/2020, n. 760/2020, n. 796/2020, n. 815/2020, n. 829/2020, n. 952/2020, n. 895/2020, n. 925/2020, n. 933/2020, n. 950/2020, n. 947/2020, n. 1.156/2020, n. 1.149/2020, n. 1.296/2020, n. 1.313/2020, n. 1.406/2020, n. 1.411/2020, n. 1.388/2020, n. 1.415/2020, n. 1.417/2020, n. 1.445/2020, n. 1.471/2020, n.1.465/2020, n. 1.533/2020, n. 1.512/2020, n. 1.506/2020, n. 1.565/2020, n. 1.607/2020, n. 1.657/2020, n. 1.721/2020, n. 1.715/2020, n. 1.843/2020, n. 1.818/2020, n. 1.925/2020, n. 1.917/2020, n. 1.952/2020, n. 2.082/2020; n. 2.103/2020, n. 2.086/2020, n. 2.128/2020, n. 2.184/2020, n. 2.266/2020, n. 2.380/2020, n. 2.343/2020, n. 2.416/2020, n. 2.411/2020, n. 2.422/2020, n. 2.504/2020, n. 2.519/2020, n. 2.520/2020, n. 2.607/2020, n. 2.624/2020, n. 2.659/2020, n. 2.653/2020, n. 2.732/2020, n. 2.752/2020, n. 2.817/2020, n. 2.912/2020, n. 2.886/2020, n. 2.889/2020, n. 3.045/2020, n. 3.013/2020, n. 3.141/2020, n. 3.142/2020, n. 3.131/2020, n. 3.206/2020, n. 3.353/2020, n. 3.354/2020, n. 3.410/2020, n. 3.437/2020, n. 3.454/2020, n. 3.653/2020, n. 3.668/2020, n. 3.665/2020, n. 3.710/2020, n. 3.725/2020, n. 3.753/2020, n. 3.766/2020, n. 3.799/2020, n. 4.017/2020, n. 4.054/2020, n. 4.070/2020, n. 4.187/2020, n. 4.219/2020, n. 4.305/2020, n. 3.229/2020, n. 3.289/2020, n. 4.885/2020, n. 4.528/2020, n. 5.345/2020, n. 129/2021, n. 601/2021, n. 647/2021, n. 778/2021, n. 971/2021, n. 1.027/2021, n. 1.039/2021, n. 1.139/2021, n. 1.162/2021, n. 1.187/2021, n. 1.237/2021, n. 1.291/2021, n. 1.318/2021, n. 1.693/2021, n. 1.875/2021, n. 3.884/2020, n. 2.102/2021, n. 2.289/2021, n. 2.597/2021 n. 2.870/2021, n. 1.585/2021, n. 3.139/2021, n. 3.617/2021 e n. 183/2022; Projetos de Lei Complementar n. 75/2020, n. 85/2020, n. 90/2020, n. 107/2020, n. 115/2020, n. 128/2020, n. 130/2020, n. 142/2020, n. 151/2020, n. 157/2020, n. 159/2020, n. 161/2020, n. 172/2020, n. 48/2021 e n. 63/2021; e Projetos de Decreto Legislativo n. 566/2020 e n. 81/2021.Outrossim, declaro, de ofício, prejudicados, nos termos do art. 164, I, do Regimento Interno da Câmara dos Deputados, os Projetos de Lei n. 1.387/2020, n. 2.705/2020, n. 2.805/2020, n. 2.931/2020, n. 3.148/2020, n. 3.431/2020, n. 3.587/2020, n. 5.437/2020, n. 1.380/2021 e n. 1.488/2021.Transcorrido, in albis, o prazo recursal previsto no artigo 164, § 2º, do RICD, arquivem-se.Em decorrência:Apense-se o Projeto de Lei n. 1.657/2021 ao Projeto de Lei n. 4.085/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 4.085/2020 à apreciação do Plenário, ao regime de urgência (art. 155, RICD) e ao exame das Comissões de Trabalho; de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apense-se o Projeto de Lei n. 3.146/2020 ao Projeto de Lei n. 1.015/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 1.015/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD); Submeta-se o Projeto de Lei n. 1.541/2021 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Viação e Transportes e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apense-se o Projeto de Lei n. 3.719/2020 ao Projeto de Lei n. 3.140/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 3.140/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD); Publique-se. [ATUALIZAÇÃO DO DESPACHO DO PL N. 4.085/2020: CTRAB, CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação do Plenário. Regime de tramitação: Urgência (art. 155, RICD)]. [ATUALIZAÇÃO DO DESPACHO DO PL N. 1.015/2020: CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)].ATUALIZAÇÃO DO DESPACHO DO PL N. 1.541/2021: CVT e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)]. [ATUALIZAÇÃO DO DESPACHO DO PL N. 3.140/2020: CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)].\"",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2258746",
+      "nome": "Notificação de Despacho"
+     }
+    },
+    {
+     "data_hora": "2023-05-16T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Sujeito a arquivamento, nos termos do § 4º do art. 164 do RICD. Prazo para apresentação de recurso, nos termos do § 2º do art. 164 do RICD (5 sessões a partir de 18/05/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-01T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerramento automático do Prazo de Recurso 01/06/2023. Não foram apresentados recursos.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-06-01T00:00",
+     "titulo": "Arquivamento",
+     "texto": "Arquivado",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2023-06-13T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolvido à CCP, conforme solicitado no Memo. nº 53/2023 - COPER.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PLP 157/2020",
+   "tipo": "Projeto de Lei Complementar",
+   "data": "Apresentado em 04/06/2020",
+   "autor": "Dep. Eduardo Costa (PSD/PA)",
+   "texto": "Suspende, por seis meses, o pagamento dos tributos federais e das parcelas dos programas de parcelamento de débitos no âmbito da Secretaria Especial da Receita Federal do Brasil ou da Procuradoria-Geral da Fazenda Nacional, às empresas que tenham sido obrigadas a suspender as suas atividades em razão das medidas implantadas para o combate à pandemia de COVID-19, declarada pela Organização Mundial da Saúde, e dá outras providências.",
+   "id": 2254587,
+   "situacao": "AGUARDANDO ENCAMINHAMENTO",
+   "codteor": "1901037"
+  },
+  "descricao_raiz": "Projeto de Lei Complementar · Dep. Eduardo Costa (PSD/PA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1601/2022",
+      "tipo": "Requerimento de Prejudicialidade",
+      "data": "12/12/2022",
+      "id": 2341881,
+      "texto": "Requer a declaração de prejudicialidade das proposições relativas à COVID-19.",
+      "codteor": "2222594"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PLP 157/2020",
+     "tipo": "Texto original",
+     "codteor": "1901037"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1601/2022"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 15/04/2021",
+     "tipo": "Despacho",
+     "data": "15/04/2021",
+     "autor": "MESA",
+     "texto": "Às Comissões de Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1992025"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

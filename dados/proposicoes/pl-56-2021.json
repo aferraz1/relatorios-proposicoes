@@ -1,0 +1,362 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2268693,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 56/2021",
+  "ementa": "Isenta do pagamento de taxa de inscrição em concursos públicos o candidato que participar da campanha nacional de vacinação imunizando-se contra a Covid-19.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1959657",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "03/02/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2021-02-03",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública",
+   "Saúde"
+  ],
+  "keywords": "Isenção, pagamento, taxa de inscrição, concurso público, candidato, participação, Campanha Nacional de Imunização contra SARS-CoV-2 (COVID-19)."
+ },
+ "autor": {
+  "id": 74044,
+  "nome": "Dep. Wilson Santiago",
+  "descricao": "Deputado Federal · REPUBLICANOS/PB",
+  "rotulo": "AUTOR · 2 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CASP",
+  "orgao_nome": "Comissão de Administração e Serviço Público",
+  "desde": "2023-03-23",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CASP"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-02-03",
+   "fim": "2021-02-03",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2245628",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2021-04-12",
+   "fim": "2023-03-22",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Administração e Serviço Público",
+   "papel": "Mérito",
+   "inicio": "2023-03-23",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2021-02-03",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CTRAB",
+  "relator": {
+   "id": 204536,
+   "nome": "Dep. Kim Kataguiri",
+   "descricao": "Deputado Federal · MISSÃO/SP",
+   "rotulo": "RELATOR(A) · CTRAB"
+  },
+  "resumo_inicio": "Designação em 19/05/2021.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-02-03T16:26",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 56/2021, pelo Deputado Wilson Santiago (PTB/PB), que \"Isenta do pagamento de taxa de inscrição em concursos públicos o candidato que participar da campanha nacional de vacinação imunizando-se contra a Covid-19\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1959657",
+      "nome": "Inteiro teor · PL 56/2021",
+      "id": 2268693
+     }
+    },
+    {
+     "data_hora": "2021-03-17T10:50",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 490/2021, pelos Deputados Pedro Lucas Fernandes (PTB/MA) e Wilson Santiago PTB, que \"Requer a inclusão como coautor do Projeto de Lei nº 56/2021, que “isenta do pagamento de taxa de inscrição em concursos públicos o candidato que participar da campanha nacional de vacinação imunizando-se contra a Covid-19”\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1975888",
+      "nome": "REQ 490/2021",
+      "id": 2274067
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-03-29T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 490/2021, conforme despacho do seguinte teor: \"Defiro. Publique-se.\"",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-04-08T14:04",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Trabalho, de Administração e Serviço Público; Seguridade Social e Família; Finanças e Tributação (Art. 54 RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD). Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1974009",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2021-04-12T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 13/04/21 PÅG 265. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1998990",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-15T10:48",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-05-19T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Kim Kataguiri (DEM-SP)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-05-20T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 21/05/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-06-08T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 20/05/2021 a 08/06/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-10-29T00:00",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação, que comunico a impossibilidade de atuar como relator(a) do PL 56/2021",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-03-17T17:30",
+     "titulo": "Distribuição",
+     "texto": "Decisão da Presidência de 17/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição.\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.\".",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2245628",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2023-03-22T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolvido à CCP, conforme solicitado no Memo. 009/2023 - COPER.",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Comissão de Administração e Serviço Público",
+   "eventos": [
+    {
+     "data_hora": "2023-03-23T17:07",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CASP.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CASP",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CASP",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 56/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 03/02/2021",
+   "autor": "Dep. Wilson Santiago (REPUBLICANOS/PB)",
+   "texto": "Isenta do pagamento de taxa de inscrição em concursos públicos o candidato que participar da campanha nacional de vacinação imunizando-se contra a Covid-19.",
+   "id": 2268693,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1959657"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Wilson Santiago (REPUBLICANOS/PB)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 490/2021",
+      "tipo": "Requerimento",
+      "data": "17/03/2021",
+      "id": 2274067,
+      "texto": "Requer a inclusão como coautor do Projeto de Lei nº 56/2021, que “isenta do pagamento de taxa de inscrição em concursos públicos o candidato que participar da campanha nacional de vacinação imunizando-se contra a Covid-19”.",
+      "codteor": "1975888"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 56/2021",
+     "tipo": "Texto original",
+     "codteor": "1959657"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 490/2021"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 08/04/2021",
+     "tipo": "Despacho",
+     "data": "08/04/2021",
+     "autor": "MESA",
+     "texto": "Às Comissões de Trabalho, de Administração e Serviço Público; Seguridade Social e Família; Finanças e Tributação (Art. 54 RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD). Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1974009"
+    },
+    {
+     "sigla": "Distribuição de 17/03/2023",
+     "tipo": "Despacho",
+     "data": "17/03/2023",
+     "autor": "MESA",
+     "texto": "Decisão da Presidência de 17/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição.\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.\".",
+     "codteor": "2245628"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2613709,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.619/2026",
+  "ementa": "Institui o Programa Nacional de Apoio ao Turismo de Base (Pronatub).",
+  "explicacao": "Tramita em conjunto com o PL 4.706/2024, à qual está apensada.",
+  "codteor_inteiro_teor": "3109097",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "07/04/2026"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 4.706/2024"
+   }
+  ],
+  "apresentacao": "2026-04-07",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Finanças Públicas e Orçamento",
+   "Turismo"
+  ],
+  "keywords": "Criação, ação governamental, âmbito nacional, incentivo, turismo sustentável, comunidade local, empreendedorismo sustentável, desenvolvimento sustentável, inclusão produtiva, sustentabilidade ambiental, promoção, patrimônio cultural, incentivo fiscal, imposto de renda, pessoa física, pessoa jurídica."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Encaminhamento",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "CTUR",
+  "orgao_nome": "Comissão de Turismo",
+  "desde": "2026-05-26",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2026-04-07",
+   "fim": "2025-06-12",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CTUR",
+   "nome": "Turismo",
+   "papel": "Mérito",
+   "inicio": "2025-06-12",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "CTUR",
+   "nome": "Comissão de Turismo",
+   "eventos": [
+    {
+     "data_hora": "2025-06-12T11:52",
+     "titulo": "Notificacao para Publicação Intermediária",
+     "texto": "Designado Relator, Dep. Paulo Litro (PSD-PR), para o PL 4706/2024, ao qual esta proposição está apensada.",
+     "tipo": "rotina",
+     "etiqueta": "INÍCIO"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-04-07T12:16",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 1619/2026 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Institui o Programa Nacional de Apoio ao Turismo de Base (Pronatub)\".",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3109097",
+      "nome": "Inteiro teor · PL 1619/2026",
+      "id": 2613709
+     }
+    },
+    {
+     "data_hora": "2026-05-25T21:41",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL 4706/2024.Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3118685",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTUR",
+   "nome": "Comissão de Turismo",
+   "eventos": [
+    {
+     "data_hora": "2026-05-26T13:35",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CTUR.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-26T13:39",
+     "titulo": "Apensação",
+     "texto": "Apensação desta proposição ao PL 4706/2024.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    },
+    {
+     "data_hora": "2026-05-26T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 27/05/2026. (CCP)",
+     "tipo": "rotina"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 4.706/2024",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CTUR",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1619/2026",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 07/04/2026",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Institui o Programa Nacional de Apoio ao Turismo de Base (Pronatub).",
+   "id": 2613709,
+   "situacao": "AGUARDANDO ENCAMINHAMENTO",
+   "codteor": "3109097"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1619/2026",
+     "tipo": "Texto original",
+     "codteor": "3109097"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 25/05/2026",
+     "tipo": "Despacho",
+     "data": "25/05/2026",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL 4706/2024.Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "codteor": "3118685"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2230831,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 6.183/2019",
+  "ementa": "Institui o Dia Nacional da Democracia.",
+  "explicacao": "Tramita em conjunto com o PL 6.153/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1838041",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "27/11/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 6.153/2019"
+   }
+  ],
+  "apresentacao": "2019-11-27",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito Constitucional",
+   "Homenagens e Datas Comemorativas"
+  ],
+  "keywords": "Criação, Dia Nacional da Democracia, data comemorativa, dezembro."
+ },
+ "autor": {
+  "id": 160511,
+  "nome": "Dep. Alessandro Molon",
+  "descricao": "Deputado Federal · PSB/RJ",
+  "rotulo": "AUTOR · 25 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2025-04-08",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-11-27",
+   "fim": "2019-11-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Cultura",
+   "papel": "Mérito",
+   "inicio": "2019-12-18",
+   "fim": "2024-04-16",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito",
+   "inicio": "2025-04-08",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-11-27",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-11-27T12:29",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 6183/2019, pelo Deputado Alessandro Molon (PSB/RJ), que \"Institui o Dia Nacional da Democracia\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1838041",
+      "nome": "Inteiro teor · PL 6183/2019",
+      "id": 2230831
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-12-16T11:28",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-6153/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1845902",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Comissão de Cultura",
+   "eventos": [
+    {
+     "data_hora": "2019-12-18T16:31",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCULT, apensado ao PL-6153/2019",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-12-18T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 19/12/19 PÁG 183 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1874792",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-09-08T17:16",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Desapensação n. 2341/2020, pelo Deputado Alessandro Molon (PSB/RJ), que \"Requer a desapensação de proposição\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1928860",
+      "nome": "REQ 2341/2020",
+      "id": 2262393
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-02-21T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indeferido o REQ n. 2.341/2020, conforme despacho do seguinte teor: \"Indefiro o Requerimento n. 2.341/2020, nos termos do artigo 142 do Regimento Interno da Câmara dos Deputados, porquanto os Projetos de Lei n. 6.153/2019 e n. 6.183/2019 tratam de matérias correlatas. Publique-se. Oficie-se.\"",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Comissão de Cultura",
+   "eventos": [
+    {
+     "data_hora": "2024-03-26T00:00",
+     "titulo": "Notificações",
+     "texto": "Designada Relatora, Dep. Lídice da Mata (PSB-BA), para o PL 4762/2019, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-04-16T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Tarcísio Motta (PSOL-RJ), para o PL 4762/2019, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2025-04-08T22:59",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC, apensado ao PL-6153/2019",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 6.153/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 6183/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 27/11/2019",
+   "autor": "Dep. Alessandro Molon (PSB/RJ)",
+   "texto": "Institui o Dia Nacional da Democracia.",
+   "id": 2230831,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1838041"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Alessandro Molon (PSB/RJ)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 2341/2020",
+      "tipo": "Requerimento de Desapensação",
+      "data": "08/09/2020",
+      "id": 2262393,
+      "texto": "Requer a desapensação de proposição.",
+      "codteor": "1928860"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 6183/2019",
+     "tipo": "Texto original",
+     "codteor": "1838041"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 2341/2020"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 16/12/2019",
+     "tipo": "Despacho",
+     "data": "16/12/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-6153/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1845902"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

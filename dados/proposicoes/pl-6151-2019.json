@@ -1,0 +1,244 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2230586,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 6.151/2019",
+  "ementa": "Dispõe sobre a obrigatoriedade dos fornecedores de produtos elétrico e eletrônicos a disponibilizar manuais e peças de reposição aos consumidores, e dá outras providências.",
+  "explicacao": "Tramita em conjunto com o PL 5.421/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1837356",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "26/11/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 5.421/2019"
+   }
+  ],
+  "apresentacao": "2019-11-26",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Defesa do Consumidor",
+   "Indústria, Comércio e Serviços"
+  ],
+  "keywords": "Obrigatoriedade, fornecedor, Eletrodoméstico, eletroeletrônico, reposição, Manual do usuário, Peça sobressalente, infração, penalidade administrativa."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2021-10-26",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-11-26",
+   "fim": "2019-12-04",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-12-04",
+   "fim": "2021-10-14",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-11-26T16:21",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 6151/2019, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Dispõe sobre a obrigatoriedade dos fornecedores de produtos elétrico e eletrônicos a disponibilizar manuais e peças de reposição aos consumidores, e dá outras providências\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1837357",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-12-02T16:47",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-5421/2019. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1838903",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-12-04T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 05/12/19 PÁG 646. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1870735",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-10-14T15:43",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 2055/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Requer, nos termos do art. 142 do RICD, o desapensamento do Projeto Lei nº 6.151, de 2019, em relação ao Projeto de Lei nº 5.421, de 2019.\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2089693",
+      "nome": "REQ 2055/2021",
+      "id": 2302916
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-10-26T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Deferido o Requerimento n. 2.055/2021, conforme o despacho do seguinte teor: \"Indefiro o Requerimento n. 2.055/2021, nos termos do artigo 142 do Regimento Interno da Câmara dos Deputados, porquanto os Projetos de Lei n. 5.421/2019 e n. n. 6.151/2019 tratam de matérias correlatas. Publique-se. Oficie-se.\"",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 5.421/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 6151/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 26/11/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Dispõe sobre a obrigatoriedade dos fornecedores de produtos elétrico e eletrônicos a disponibilizar manuais e peças de reposição aos consumidores, e dá outras providências.",
+   "id": 2230586,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1837356"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 2055/2021",
+      "tipo": "Requerimento de Desapensação",
+      "data": "14/10/2021",
+      "id": 2302916,
+      "texto": "Requer, nos termos do art. 142 do RICD, o desapensamento do Projeto Lei nº 6.151, de 2019, em relação ao Projeto de Lei nº 5.421, de 2019.",
+      "codteor": "2089693"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 6151/2019",
+     "tipo": "Texto original",
+     "codteor": "1837356"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 2055/2021"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 02/12/2019",
+     "tipo": "Despacho",
+     "data": "02/12/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-5421/2019. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1838903"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

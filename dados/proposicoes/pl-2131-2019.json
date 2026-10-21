@@ -1,0 +1,310 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2197170,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.131/2019",
+  "ementa": "Altera a Lei nº 12.244, de 24 de maio de 2010, que \"Dispõe sobre a universalização das bibliotecas nas instituições de ensino do país\", para incentivar a presença de títulos de autores locais nas bibliotecas escolares.",
+  "explicacao": "Tramita em conjunto com o PL 6.959/2013, à qual está apensada.",
+  "codteor_inteiro_teor": "1729856",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "09/04/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 6.959/2013"
+   }
+  ],
+  "apresentacao": "2019-04-09",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Arte, Cultura e Religião",
+   "Educação"
+  ],
+  "keywords": "Alteração, Lei das Bibliotecas, incentivo, acervo bibliográfico, biblioteca escolar, livro, escritor, domicílio, Estado (ente federado), Município, escola."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2025-10-15",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-04-09",
+   "fim": "2019-04-09",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Cultura",
+   "papel": "Mérito",
+   "inicio": "2019-05-17",
+   "fim": "2019-05-21",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CE",
+   "nome": "Educação",
+   "papel": "Mérito",
+   "inicio": "2021-11-24",
+   "fim": "2021-11-24",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito",
+   "inicio": "2025-10-15",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-04-09",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-04-09T09:33",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2131/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Altera a Lei nº 12.244, de 24 de maio de 2010, que 'Dispõe sobre a universalização das bibliotecas nas instituições de ensino do país', para incentivar a presença de títulos de autores locais nas bibliotecas escolares\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1729856",
+      "nome": "Inteiro teor · PL 2131/2019",
+      "id": 2197170
+     }
+    },
+    {
+     "data_hora": "2019-04-09T00:00",
+     "titulo": "Não Informado",
+     "texto": "Proposição fora da numeração sequencial em razão da implantação eletrônica no Sistema em 09/04/2019 (revisão do Sileg).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-05-16T14:50",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-6959/2013. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1747277",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Comissão de Cultura",
+   "eventos": [
+    {
+     "data_hora": "2019-05-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/05/19 PÁG 77. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1769576",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-05-21T10:46",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCULT.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-12-21T10:07",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-4401/2020.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1927986",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CE",
+   "nome": "Comissão de Educação",
+   "eventos": [
+    {
+     "data_hora": "2021-11-24T09:31",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CE, apensado ao PL-6959/2013",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2025-10-15T19:49",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, apensado ao PL-6959/2013",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 6.959/2013",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2131/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 09/04/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 12.244, de 24 de maio de 2010, que \"Dispõe sobre a universalização das bibliotecas nas instituições de ensino do país\", para incentivar a presença de títulos de autores locais nas bibliotecas escolares.",
+   "id": 2197170,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1729856"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 4401/2020",
+    "tipo": "Projeto de Lei",
+    "data": "31/08/2020",
+    "id": 2261203,
+    "texto": "Dispõe sobre os requisitos mínimos para as bibliotecas escolares e amplia o prazo de universalização para 2022.",
+    "codteor": "1926168",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2131/2019",
+     "tipo": "Texto original",
+     "codteor": "1729856"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 16/05/2019",
+     "tipo": "Despacho",
+     "data": "16/05/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-6959/2013. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1747277"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

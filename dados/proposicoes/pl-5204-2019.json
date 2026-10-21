@@ -1,0 +1,642 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2221658,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 5.204/2019",
+  "ementa": "Dispõe sobre o acesso a informação ambiental.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1811615",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "24/09/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2019-09-24",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Agricultura, Pecuária, Pesca e Extrativismo",
+   "Meio Ambiente e Desenvolvimento Sustentável"
+  ],
+  "keywords": "Obrigatoriedade, órgão público, entidade pública, divulgação, internet, informação, matéria, meio ambiente."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CMADS",
+  "orgao_nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+  "desde": "2023-08-24",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CMADS"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-09-24",
+   "fim": "2019-10-17",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "1820706",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Meio Ambiente e Desenvolvimento Sustentável",
+   "papel": "Mérito",
+   "inicio": "2019-10-17",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2021-05-20",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CMADS",
+  "relator": {
+   "id": 157130,
+   "nome": "Dep. Túlio Gadêlha",
+   "descricao": "Deputado Federal · PSD/PE",
+   "rotulo": "RELATOR(A) · CMADS"
+  },
+  "resumo_inicio": "Designação em 05/11/2019. Apresentou 2 versões de parecer:",
+  "resumo_fim": "",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CMADS",
+    "data": "15/06/2021",
+    "codteor": "2028750",
+    "aprovado": false,
+    "id": 2287141
+   },
+   {
+    "sigla": "PRL 2",
+    "nome": "Parecer do Relator · PRL 2 CMADS",
+    "data": "01/07/2024",
+    "codteor": "2444203",
+    "aprovado": false,
+    "id": 2444186
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-09-24T17:29",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 5204/2019, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Dispõe sobre o acesso a informação ambiental\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1811617",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-16T10:53",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Meio Ambiente e Desenvolvimento Sustentável e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1820706",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2019-10-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/10/19 PÁG 170. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1852901",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-10-18T16:05",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMADS.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-11-05T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Chico D'Angelo (PDT-RJ)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2019-11-08T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 11/11/2019)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-11-21T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 08/11/2019 a 21/11/2019). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-12T10:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Chico D'Angelo, não integrava a Comissão na data da instalação (deixou de ser membro em 03/02/2020)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-03-18T11:11",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-05-07T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Professor Joziel (PSL-RJ).",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2021-05-20T14:59",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Redistribuição n. 1118/2021, pela Comissão de Meio Ambiente e Desenvolvimento Sustentável, que \"Requer a inclusão da Comissão de Finanças e Tributação no despacho inicial aposto ao Projeto de Lei nº 5.204, de 2019. \".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2015060",
+      "nome": "Apresentação de Requerimento"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2021-06-15T19:47",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CMADS, pelo Deputado Professor Joziel (PSL/RJ).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2028752",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-06-15T19:47",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Professor Joziel (PSL-RJ), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2028750",
+      "nome": "PRL 1 CMADS",
+      "id": 2287141
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-06-18T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indeferido o Requerimento n. 1.118/2021, conforme despacho do seguinte teor: \"Indefiro o Requerimento n. 1.118/2021, tendo em vista que a matéria versada no Projeto de Lei n. 5.204/2019 não se enquadra na competência da Comissão de Finanças e Tributação definida na alínea “h” do inciso X do art. 32 do RICD. Publique-se. Oficie-se\".",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2021-07-08T23:59",
+     "titulo": "Saída de Relator(a) da Comissão - Com Parecer Apresentado",
+     "texto": "O Relator, Dep. Professor Joziel , deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-12-02T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Evair Vieira de Melo (PP-ES)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-04-27T09:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Evair Vieira de Melo, não integrava a Comissão na data da instalação (deixou de ser membro em 02/02/2022)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-05-12T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Evair Vieira de Melo (PP-ES)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-01-31T00:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Fim de Legislatura) O Relator, Dep. Evair Vieira de Melo, deixou de ser membro da Comissão",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2023-08-23T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Túlio Gadêlha (REDE-PE)",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-08-23T18:01",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 2755/2023 (Requerimento de Urgência (Art. 155 do RICD)), pela Deputada Adriana Ventura (NOVO/SP) e outros, que \"Requeremos, nos termos do artigo 155, do Regimento Interno da Câmara dos Deputados, urgência para apreciação do Projeto de Lei nº 5204/2019, que dispõe sobre o acesso a informação ambiental\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2317256",
+      "nome": "REQ 2755/2023",
+      "id": 2382230
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2023-08-24T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Reabertura do Prazo para Emendas ao Projeto - Art. 166 do RICD (5 sessões a partir de 25/08/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-09-05T21:26",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 24/08/2023 a 05/09/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-07-01T15:37",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 2 CMADS (Parecer do Relator), pelo Deputado Túlio Gadêlha (REDE/PE -Fdr PSOL-REDE).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2444203",
+      "nome": "PRL 2 CMADS",
+      "id": 2444186
+     }
+    },
+    {
+     "data_hora": "2024-07-01T15:37",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Túlio Gadêlha (REDE-PE), pela aprovação, com substitutivo.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2444203",
+      "nome": "PRL 2 CMADS",
+      "id": 2444186
+     }
+    },
+    {
+     "data_hora": "2024-07-02T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Substitutivo (5 sessões a partir de 03/07/2024)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-07-11T19:39",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao substitutivo (de 02/07/2024 a 11/07/2024). Não foram apresentadas emendas ao substitutivo.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-08-14T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2024-08-28T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, de ofício, em virtude da ausência do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "2ª RETIRADA"
+    },
+    {
+     "data_hora": "2024-08-30T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Túlio Gadêlha (REDE-PE), a pedido.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2025-08-18T10:52",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Devolvida pelo Relator sem Alterações no Parecer.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-08-27T10:00",
+     "titulo": "Retirada de Pauta",
+     "texto": "Retirado de pauta, por acordo, a pedido do Relator.",
+     "tipo": "alerta",
+     "etiqueta": "3ª RETIRADA"
+    },
+    {
+     "data_hora": "2025-08-27T14:16",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Túlio Gadêlha (REDE-PE), a pedido.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2026-03-04T10:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Túlio Gadêlha, não integrava a Comissão na data da instalação (deixou de ser membro em 31/01/2026)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2026-03-12T11:22",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CMADS",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CMADS",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 5204/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 24/09/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Dispõe sobre o acesso a informação ambiental.",
+   "id": 2221658,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1811615"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CMADS",
+      "tipo": "Parecer do Relator",
+      "data": "15/06/2021",
+      "id": 2287141,
+      "texto": "Parecer do Relator, Dep. Professor Joziel (PSL-RJ), pela aprovação.",
+      "codteor": "2028750"
+     },
+     {
+      "sigla": "PRL 2 CMADS",
+      "tipo": "Parecer do Relator",
+      "data": "01/07/2024",
+      "id": 2444186,
+      "texto": "Parecer do Relator, Dep. Túlio Gadêlha (REDE-PE), pela aprovação, com substitutivo.",
+      "codteor": "2444203"
+     },
+     {
+      "sigla": "SBT 1",
+      "tipo": "Substitutivo",
+      "data": "01/07/2024",
+      "id": 2444187,
+      "codteor": "2444203"
+     }
+    ]
+   },
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1118/2021",
+      "tipo": "Requerimento de Redistribuição",
+      "data": "20/05/2021",
+      "id": 2283815,
+      "texto": "Requer a inclusão da Comissão de Finanças e Tributação no despacho inicial aposto ao Projeto de Lei nº 5.204, de 2019.",
+      "codteor": "2015058"
+     },
+     {
+      "sigla": "REQ 2755/2023",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "23/08/2023",
+      "id": 2382230,
+      "texto": "Requeremos, nos termos do artigo 155, do Regimento Interno da Câmara dos Deputados, urgência para apreciação do Projeto de Lei nº 5204/2019, que dispõe sobre o acesso a informação ambiental.",
+      "codteor": "2317256"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "14/08/2024",
+      "id": 2452736,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 5204/2019",
+      "codteor": "2464272"
+     },
+     {
+      "sigla": "RPD 2",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "28/08/2024",
+      "id": 2455668,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 5204/2019",
+      "codteor": "2470736"
+     },
+     {
+      "sigla": "RPD 3",
+      "tipo": "Votação Nominal do Requerimento de Adiamento da Votação",
+      "data": "27/08/2025",
+      "id": 2553098,
+      "texto": "Votação Nominal do Requerimento de Adiamento da Votação - PL 5204/2019-Requerimento de Adiamento da Votação - PL 5204/2019",
+      "codteor": "2986009"
+     },
+     {
+      "sigla": "RPD 4",
+      "tipo": "Requerimento de Adiamento da Discussão",
+      "data": "27/08/2025",
+      "id": 2553147,
+      "texto": "Requerimento de Adiamento da Discussão - PL 5204/2019",
+      "codteor": "2986057"
+     },
+     {
+      "sigla": "RPD 6",
+      "tipo": "Votação Nominal do Requerimento de Adiamento da Discussão",
+      "data": "27/08/2025",
+      "id": 2553224,
+      "texto": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 5204/2019-Requerimento de Adiamento da Discussão - PL 5204/2019",
+      "codteor": "2986134"
+     },
+     {
+      "sigla": "RPD 5",
+      "tipo": "Requerimento de Retirada de Pauta",
+      "data": "27/08/2025",
+      "id": 2553198,
+      "texto": "Requerimento de Retirada de Matéria da Pauta - PL 5204/2019",
+      "codteor": "2986108"
+     },
+     {
+      "sigla": "RPD 7",
+      "tipo": "Votação Nominal do Requerimento de Retirada de Matéria da Ordem do Dia",
+      "data": "27/08/2025",
+      "id": 2553296,
+      "texto": "Votação Nominal do Requerimento de Retirada de Pauta - PL 5204/2019-Requerimento de Retirada de Matéria da Pauta - PL 5204/2019",
+      "codteor": "2986207"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 5204/2019",
+     "tipo": "Texto original",
+     "codteor": "1811615"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1118/2021",
+    "REQ 2755/2023"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CMADS",
+    "PRL 2 CMADS",
+    "SBT 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 16/10/2019",
+     "tipo": "Despacho",
+     "data": "16/10/2019",
+     "autor": "MESA",
+     "texto": "Às Comissões de Meio Ambiente e Desenvolvimento Sustentável e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1820706"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

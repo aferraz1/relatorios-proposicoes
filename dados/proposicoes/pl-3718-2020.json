@@ -1,0 +1,232 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2257255,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.718/2020",
+  "ementa": "Altera a Lei nº 8.036, 11 de Maio de 1990, e a Lei nº 13.932, de 11 de Dezembro de 2019, para instituir as modalidades de saque-aniversário e de saque por interesse no Fundo de Garantia do Tempo de Serviço (FGTS).",
+  "explicacao": "Tramita em conjunto com o PL 3.438/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1911395",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "08/07/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 3.438/2019"
+   }
+  ],
+  "apresentacao": "2020-07-08",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Alteração, Lei do FGTS, Critério, movimentação, Conta vinculada do FGTS, trabalhador, Saque-aniversário, saque por interesse."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · 9 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CTRAB",
+  "orgao_nome": "Comissão de Trabalho",
+  "desde": "2020-12-10",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-07-08",
+   "fim": "2020-07-08",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2020-12-10",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-07-08",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-07-08T19:49",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 3718/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA) e outros, que \"Altera a Lei nº 8.036, 11 de Maio de 1990, e a Lei nº 13.932, de 11 de Dezembro de 2019, para instituir as modalidades de saque-aniversário e de saque por interesse no Fundo de Garantia do Tempo de Serviço (FGTS)\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1911395",
+      "nome": "Inteiro teor · PL 3718/2020",
+      "id": 2257255
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-12-09T13:34",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-3438/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1933031",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2020-12-10T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 11/12/2020. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-10T10:54",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 3.438/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CTRAB",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3718/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 08/07/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 8.036, 11 de Maio de 1990, e a Lei nº 13.932, de 11 de Dezembro de 2019, para instituir as modalidades de saque-aniversário e de saque por interesse no Fundo de Garantia do Tempo de Serviço (FGTS).",
+   "id": 2257255,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1911395"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3718/2020",
+     "tipo": "Texto original",
+     "codteor": "1911395"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 09/12/2020",
+     "tipo": "Despacho",
+     "data": "09/12/2020",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-3438/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1933031"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

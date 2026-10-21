@@ -1,0 +1,246 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2253902,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.943/2020",
+  "ementa": "Institui o Programa Seguro Família",
+  "explicacao": "Tramita em conjunto com o PL 4.856/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1898332",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "27/05/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 4.856/2019"
+   }
+  ],
+  "apresentacao": "2020-05-27",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Previdência e Assistência Social",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Criação, Programa Seguro Família, benefício, garantia, subsistência, família, critério, requisito, trabalhador desempregado, trabalhador informal."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · 11 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CPASF",
+  "orgao_nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+  "desde": "2025-05-08",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-05-27",
+   "fim": "2020-12-04",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2020-12-04",
+   "fim": "2021-03-11",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Previdência, Assis. Social, Infância, Adolescência e Família",
+   "papel": "Mérito",
+   "inicio": "2025-05-08",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-05-27T15:39",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 2943/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA) e outros, que \"Institui o Programa Seguro Família\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1898333",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-12-03T09:26",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-4856/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1923454",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2020-12-04T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 05/12/20 PÅG 78. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1956038",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-03-11T16:26",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+   "eventos": [
+    {
+     "data_hora": "2025-05-08T09:36",
+     "titulo": "Notificacao para Publicação Intermediária",
+     "texto": "Designada Relatora, Dep. Ana Paula Lima (PT-SC), para o PL 4856/2019, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 4.856/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CPASF",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2943/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 27/05/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Institui o Programa Seguro Família",
+   "id": 2253902,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1898332"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2943/2020",
+     "tipo": "Texto original",
+     "codteor": "1898332"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 03/12/2020",
+     "tipo": "Despacho",
+     "data": "03/12/2020",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-4856/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1923454"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

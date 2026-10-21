@@ -1,0 +1,330 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2625306,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.427/2026",
+  "ementa": "Dispõe sobre a possibilidade dos fundos constitucionais de que trata o art. 159, inciso I, alínea c da Constituição Federal, e do Fundo de Desenvolvimento do Nordeste (FDNE), instituído pela Medida Provisória 2.156-5, de 24 de agosto de 2001, oferecerem garantias a operações de crédito voltadas à execução de projetos estruturantes.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "3131334",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "18/05/2026"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2026-05-18",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Economia",
+   "Finanças Públicas e Orçamento"
+  ],
+  "keywords": "Alteração, Lei dos Fundos Constitucionais (1989), Medida Provisória, Fundo Constitucional de Financiamento do Centro-Oeste (FCO), Fundo Constitucional de Financiamento do Nordeste (FNE), Fundo Constitucional de Financiamento do Norte (FNO), Fundo Constitucional do Distrito Federal (FCDF), Fundo de Desenvolvimento do Nordeste (FDNE), custeio, operação de crédito, Projeto estruturante, Cobertura de riscos, fundo garantidor."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Pronta para Pauta",
+  "estado": "PRONTA PARA PAUTA",
+  "orgao_sigla": "PLEN",
+  "orgao_nome": "Plenário",
+  "desde": "2026-06-30",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2026-05-18",
+   "fim": "2026-06-02",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "3135741",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CINDRE",
+   "nome": "Integração Nacional e Desenvolvimento Regional",
+   "papel": "Mérito",
+   "inicio": "2026-06-02",
+   "fim": "2026-06-03",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2026-06-15",
+   "fim": "2026-06-15",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "inicio": "2026-06-15",
+   "fim": "2026-06-15",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2026-06-09",
+   "estado": "atual"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "PLEN",
+  "relator": {
+   "id": 62881,
+   "nome": "Dep. Danilo Forte",
+   "descricao": "Deputado Federal · PP/CE",
+   "rotulo": "RELATOR(A) · PLEN"
+  },
+  "resumo_inicio": "Designação em 30/06/2026.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-05-18T09:57",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 2427/2026 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Dispõe sobre a possibilidade dos fundos constitucionais de que trata o art. 159, inciso I, alínea c da Constituição Federal, e do Fundo de Desenvolvimento do Nordeste (FDNE), instituído pela Medida Provisória 2.156-5, de 24 de agosto de 2001, oferecerem garantias a operações de crédito voltadas à execução de projetos estruturantes\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "3131334",
+      "nome": "Inteiro teor · PL 2427/2026",
+      "id": 2625306
+     }
+    },
+    {
+     "data_hora": "2026-05-18T11:19",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 2888/2026 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputados Pedro Lucas Fernandes (UNIÃO/MA) e Isnaldo Bulhões Jr. MDB , que \"Nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, requeremos regime de urgência na apreciação do Projeto de Lei Nº 2427/2026, que “Dispõe sobre a possibilidade dos fundos constitucionais de que trata o art. 159, inciso I, alínea c da Constituição Federal, e do Fundo de Desenvolvimento do Nordeste (FDNE), instituído pela Medida Provisória 2.156-5, de 24 de agosto de 2001, oferecerem garantias a operações de crédito voltadas à execução de projetos estruturantes. ”\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3131350",
+      "nome": "REQ 2888/2026 FDNE",
+      "id": 2625320
+     }
+    },
+    {
+     "data_hora": "2026-06-01T17:02",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões deIntegração Nacional e Desenvolvimento Regional;Finanças e Tributação (Mérito e Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3135741",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CINDRE",
+   "nome": "Comissão de Integração Nacional e Desenvolvimento Regional",
+   "eventos": [
+    {
+     "data_hora": "2026-06-02T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 03/06/2026. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-06-03T13:26",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CINDRE.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2026-06-09T13:55",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Aprovado o requerimento nº 2888/2026,dos Srs. Pedro Lucas Fernandes e Isnaldo Bulhões Jr., que solicita urgência (art. 155) para o PL 2427/2026.",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-06-09T13:55",
+     "titulo": "Aprovação de Urgência (154, 155 ou 64 CF)",
+     "texto": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 2888/2026.",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2026-06-15T14:52",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2026-06-15T15:58",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CCJC.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2026-06-30T16:59",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Danilo Forte (PP-CE).",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2427/2026",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 18/05/2026",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Dispõe sobre a possibilidade dos fundos constitucionais de que trata o art. 159, inciso I, alínea c da Constituição Federal, e do Fundo de Desenvolvimento do Nordeste (FDNE), instituído pela Medida Provisória 2.156-5, de 24 de agosto de 2001, oferecerem garantias a operações de crédito voltadas à execução de projetos estruturantes.",
+   "id": 2625306,
+   "situacao": "PRONTA PARA PAUTA",
+   "codteor": "3131334"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 2888/2026 FDNE",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "18/05/2026",
+      "id": 2625320,
+      "texto": "Nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, requeremos regime de urgência na apreciação do Projeto de Lei Nº 2427/2026, que “Dispõe sobre a possibilidade dos fundos constitucionais de que trata o art. 159, inciso I, alínea c da Constituição Federal, e do Fundo de Desenvolvimento do Nordeste (FDNE), instituído pela Medida Provisória 2.156-5, de 24 de agosto de 2001, oferecerem garantias a operações de crédito voltadas à execução de projetos estruturantes. ”",
+      "codteor": "3131350"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2427/2026",
+     "tipo": "Texto original",
+     "codteor": "3131334"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 2888/2026 FDNE"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 01/06/2026",
+     "tipo": "Despacho",
+     "data": "01/06/2026",
+     "autor": "MESA",
+     "texto": "Às Comissões deIntegração Nacional e Desenvolvimento Regional;Finanças e Tributação (Mérito e Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "codteor": "3135741"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

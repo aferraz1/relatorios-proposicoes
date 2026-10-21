@@ -1,0 +1,285 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2607723,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.072/2026",
+  "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006, para prever a integração de serviços de perícia médico-legal no atendimento prestado pelas unidades da Casa da Mulher Brasileira.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "3094636",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "10/03/2026"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2026-03-10",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Defesa e Segurança",
+   "Direitos Humanos e Minorias"
+  ],
+  "keywords": "Alteração, Lei Maria da Penha (2006), garantia, prioridade, exame, perícia médica, Casas da Mulher Brasileira, vítima, violência contra a mulher, violência de gênero, violência doméstica, acolhimento (saúde), atendimento humanizado, corpo de delito, preservação, prova pericial, enfrentamento, revitimização, diretrizes."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "CSPCCO",
+  "orgao_nome": "Comissão de Segurança Pública e Combate ao Crime Organizado",
+  "desde": "2026-03-23",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2026-03-10",
+   "fim": "2026-03-23",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "3098925",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CSPCCO",
+   "nome": "Segurança Pública e Combate ao Crime Organizado",
+   "papel": "Mérito",
+   "inicio": "2026-03-23",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CSPCCO",
+  "relator": {
+   "id": 73692,
+   "nome": "Dep. Osmar Terra",
+   "descricao": "Deputado Federal · PL/RS",
+   "rotulo": "RELATOR(A) · CSPCCO"
+  },
+  "resumo_inicio": "Designação em 26/03/2026.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-03-10T15:00",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 1072/2026 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Altera a Lei nº 11.340, de 7 de agosto de 2006, para prever a integração de serviços de perícia médico-legal no atendimento prestado pelas unidades da Casa da Mulher Brasileira\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "3094636",
+      "nome": "Inteiro teor · PL 1072/2026",
+      "id": 2607723
+     }
+    },
+    {
+     "data_hora": "2026-03-17T15:52",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões deSegurança Pública e Combate ao Crime Organizado;Defesa dos Direitos da Mulher;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3098925",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSPCCO",
+   "nome": "Comissão de Segurança Pública e Combate ao Crime Organizado",
+   "eventos": [
+    {
+     "data_hora": "2026-03-23T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 24/03/2026. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-03-24T09:00",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CSPCCO.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-03-26T12:56",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Alexandre Leite (UNIÃO-SP).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2026-03-27T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 30/03/2026)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-04-15T21:55",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 27/03/2026 a 15/04/2026). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-12T18:52",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-20T20:25",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Osmar Terra (PL-RS).",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CSPCCO",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CMULHER",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1072/2026",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 10/03/2026",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 11.340, de 7 de agosto de 2006, para prever a integração de serviços de perícia médico-legal no atendimento prestado pelas unidades da Casa da Mulher Brasileira.",
+   "id": 2607723,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "3094636"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1072/2026",
+     "tipo": "Texto original",
+     "codteor": "3094636"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 17/03/2026",
+     "tipo": "Despacho",
+     "data": "17/03/2026",
+     "autor": "MESA",
+     "texto": "Às Comissões deSegurança Pública e Combate ao Crime Organizado;Defesa dos Direitos da Mulher;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "codteor": "3098925"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

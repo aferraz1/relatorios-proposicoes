@@ -1,0 +1,254 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2637478,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.507/2026",
+  "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "3157723",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "07/07/2026"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2026-07-07",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Arte, Cultura e Religião",
+   "Homenagens e Datas Comemorativas"
+  ],
+  "keywords": "Reconhecimento, artesanato, Maranhão, manifestação cultural, Conhecimento tradicional, valorização, Economia criativa."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CCULT",
+  "orgao_nome": "Comissão de Cultura",
+  "desde": "2026-09-04",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CCULT"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2026-07-07",
+   "fim": "2026-09-04",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "3161530",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Cultura",
+   "papel": "Mérito",
+   "inicio": "2026-09-04",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2026-07-07T09:17",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 3507/2026 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "3157723",
+      "nome": "Inteiro teor · PL 3507/2026",
+      "id": 2637478
+     }
+    },
+    {
+     "data_hora": "2026-07-07T10:11",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 3721/2026 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputados Pedro Lucas Fernandes (UNIÃO/MA) e Doutor Luizinho PP , que \"Nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, requeremos regime de urgência na apreciação do Projeto de Lei Nº 3507/2026, que “Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "3157742",
+      "nome": "REQ 3721/2026",
+      "id": 2637487
+     }
+    },
+    {
+     "data_hora": "2026-09-02T17:05",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões deCultura eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "3161530",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Comissão de Cultura",
+   "eventos": [
+    {
+     "data_hora": "2026-09-04T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 05/09/2026. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-09-08T10:32",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pelo(a) CCULT.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CCULT",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CCULT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3507/2026",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 07/07/2026",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+   "id": 2637478,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "3157723"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 3721/2026",
+      "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "data": "07/07/2026",
+      "id": 2637487,
+      "texto": "Nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, requeremos regime de urgência na apreciação do Projeto de Lei Nº 3507/2026, que “Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+      "codteor": "3157742"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3507/2026",
+     "tipo": "Texto original",
+     "codteor": "3157723"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 3721/2026"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 02/09/2026",
+     "tipo": "Despacho",
+     "data": "02/09/2026",
+     "autor": "MESA",
+     "texto": "Às Comissões deCultura eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+     "codteor": "3161530"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

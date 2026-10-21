@@ -30,6 +30,22 @@ python -m relatorios_proposicoes dados/pl-1680-2025.json -o relatorio.html --tem
 pytest
 ```
 
+### Relatórios a partir da API da Câmara
+
+`relatorios_proposicoes.coleta` monta o JSON de tramitação direto da API de Dados Abertos: ficha,
+autor, situação, etapas (pelo despacho de distribuição), histórico agrupado por órgão, relatoria,
+temas e keywords, árvore de documentos relacionados e anexos. Versão válida e análise estratégica
+dependem de avaliação humana e não são geradas.
+
+```bash
+# um relatório por proposição da base de pesquisa, ligando-os à página de pesquisa
+python -m relatorios_proposicoes.coleta --ids-de dados/pesquisa-pedro-lucas.json --manter 2497586 \
+    -o dados/proposicoes --pesquisa dados/pesquisa-pedro-lucas.json
+python -m relatorios_proposicoes dados/proposicoes/*.json dados/pl-1680-2025.json dados/pesquisa-pedro-lucas.json
+```
+
+`--manter` preserva relatórios curados à mão (como o do PL 1.680/2025, com a análise estratégica).
+
 A chave `"pagina"` do JSON escolhe a página (`"capa"` ou `"pesquisa"`); sem ela, o arquivo é um
 relatório de tramitação. A capa é sempre clara, para impressão. A pesquisa abre o relatório de
 detalhes das proposições listadas em `detalhes` (gere os dois na mesma pasta).
@@ -41,6 +57,7 @@ detalhes das proposições listadas em `detalhes` (gere os dois na mesma pasta).
 | `dados/*.json` | Dados de cada página (um arquivo por página) |
 | `relatorios_proposicoes/modelos.py` | Modelos do relatório (`Relatorio`, `Estagio`, `Evento`, `Arvore`, `Analise`…) e leitura do JSON |
 | `relatorios_proposicoes/capa.py`, `pesquisa.py` | Modelos da capa e da base de pesquisa |
+| `relatorios_proposicoes/coleta.py` | Coleta na API de Dados Abertos e montagem do JSON de tramitação |
 | `relatorios_proposicoes/indicadores.py` | Contagens e durações derivadas dos dados |
 | `relatorios_proposicoes/gerador.py` | Renderização Jinja2, filtros e escolha da página |
 | `relatorios_proposicoes/templates/` | `base.html`, `componentes.html` (macros), `tramitacao.html`, `capa.html` e `pesquisa.html` |

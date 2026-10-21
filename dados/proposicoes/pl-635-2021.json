@@ -1,0 +1,518 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2271080,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 635/2021",
+  "ementa": "Estabelece que o décimo terceiro salário, previsto no art. 7º, VIII, da Constituição Federal, fica isento do Imposto de Renda da Pessoa Física (IRPF) e não integra o salário de contribuição para efeito de cobrança da contribuição social do empregado.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1968420",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "01/03/2021"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2021-03-01",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública",
+   "Finanças Públicas e Orçamento",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Alteração, Legislação Tributária Federal, Décimo terceiro salário, isenção, Imposto sobre a Renda da Pessoa Física (IRPF), ausência, incorporação, salário de contribuição, cobrança, contribuição social, empregado. _Alteração, Lei Orgânica da Seguridade Social, Décimo terceiro salário, ausência, incorporação, salário de contribuição."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CTRAB",
+  "orgao_nome": "Comissão de Trabalho",
+  "desde": "2024-10-29",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CTRAB"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2021-03-01",
+   "fim": "2021-04-27",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2245628",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2021-04-27",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Administração e Serviço Público",
+   "papel": "Mérito",
+   "inicio": "2023-03-23",
+   "fim": "2024-10-23",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CTRAB",
+  "relator": {
+   "id": 90201,
+   "nome": "Dep. Pedro Augusto Bezerra",
+   "descricao": "Deputado Federal · PDT/CE",
+   "rotulo": "RELATOR(A) · CTRAB"
+  },
+  "resumo_inicio": "Designação em 19/05/2021. Apresentou uma versão de parecer:",
+  "resumo_fim": "",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CTRAB",
+    "data": "22/06/2021",
+    "codteor": "2032326",
+    "aprovado": false,
+    "id": 2287951
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-03-01T15:43",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 635/2021, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Estabelece que o décimo terceiro salário, previsto no art. 7º, VIII, da Constituição Federal, fica isento do Imposto de Renda da Pessoa Física (IRPF) e não integra o salário de contribuição para efeito de cobrança da contribuição social do empregado\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1968421",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-26T00:00",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1996933",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2021-04-27T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 28/04/21 PÅG 530 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2014185",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-28T10:30",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-05-19T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Pedro Augusto Bezerra (PTB-CE)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-05-20T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 21/05/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-06-08T00:00",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 20/05/2021 a 08/06/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-06-22T14:40",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CTASP, pelo Deputado Pedro Augusto Bezerra (PTB/CE).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2032328",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-06-22T14:40",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Pedro Augusto Bezerra (PTB-CE), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2032326",
+      "nome": "PRL 1 CTRAB",
+      "id": 2287951
+     }
+    },
+    {
+     "data_hora": "2021-06-29T09:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Aprovados os Requerimentos de Retiradas de Pauta dos Deputados Lucas Gonzalez e Sanderson.",
+     "tipo": "alerta",
+     "etiqueta": "1ª RETIRADA"
+    },
+    {
+     "data_hora": "2021-07-06T09:30",
+     "titulo": "Votação",
+     "texto": "Votação do Requerimento de Retirada de Pauta,",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-07-06T09:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Aprovado o Requerimento de Retirada de Pauta, do Deputado Lucas Gonzalez.",
+     "tipo": "alerta",
+     "etiqueta": "2ª RETIRADA"
+    },
+    {
+     "data_hora": "2021-08-17T09:30",
+     "titulo": "Retirada de Pauta",
+     "texto": "Aprovados os Requerimentos de Retiradas de Pauta, de autoria dos Deputados Lucas Gonzalez e Sanderson.",
+     "tipo": "alerta",
+     "etiqueta": "3ª RETIRADA"
+    },
+    {
+     "data_hora": "2022-04-27T09:00",
+     "titulo": "Saída de Relator(a) da Comissão - Com Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Pedro Augusto Bezerra, não integrava a Comissão na data da instalação (deixou de ser membro em 02/02/2022)",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-05-27T07:22",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-1277/2022.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2172383",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2023-03-17T00:00",
+     "titulo": "Distribuição",
+     "texto": "Decisão da Presidência de 17/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição.\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.\". (ATUALIZAÇÃO DE DESPACHO: Às Comissões de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2245628",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2023-03-22T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolvido à CCP, conforme solicitado no Memo. 009/2023 - COPER.",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Comissão de Administração e Serviço Público",
+   "eventos": [
+    {
+     "data_hora": "2023-03-23T17:07",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CASP, com a proposição PL-1277/2022 apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-07-03T14:37",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-2659/2023.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2294717",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2024-10-21T07:28",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-3624/2024.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2485790",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2024-10-21T00:00",
+     "titulo": "Distribuição",
+     "texto": "Apensação da proposição PL-3624/2024 à proposição PL-635/2021.Por oportuno, revejo o despacho aposto à matéria para determinar a substituição da CASP pela CTRAB; [ATUALIZAÇÃO DE DESPACHO:Às Comissões de Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Comissão de Administração e Serviço Público",
+   "eventos": [
+    {
+     "data_hora": "2024-10-23T00:00",
+     "titulo": "Notificações",
+     "texto": "Devolvido à CCP, conforme solicitado no Memo nº 133/2024 - COPER",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2488936",
+      "nome": "Notificações"
+     }
+    },
+    {
+     "data_hora": "2024-10-23T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolução à CCP",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2024-10-29T09:33",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTRAB, com as proposições PL-1277/2022, PL-2659/2023, PL-3624/2024 apensadas.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CTRAB",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CTRAB",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 635/2021",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 01/03/2021",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Estabelece que o décimo terceiro salário, previsto no art. 7º, VIII, da Constituição Federal, fica isento do Imposto de Renda da Pessoa Física (IRPF) e não integra o salário de contribuição para efeito de cobrança da contribuição social do empregado.",
+   "id": 2271080,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "1968420"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 1277/2022",
+    "tipo": "Projeto de Lei",
+    "data": "17/05/2022",
+    "id": 2323488,
+    "texto": "Dispõe sobre a incidência do imposto de renda e da contribuição previdenciária sobre o pagamento de horas extras ao trabalhador assalariado.",
+    "codteor": "2171325",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   },
+   {
+    "sigla": "PL 2659/2023 IRPF",
+    "tipo": "Projeto de Lei",
+    "data": "17/05/2023",
+    "id": 2363267,
+    "texto": "Institui isenção do Imposto de Renda da Pessoa Física (IRPF) incidente sobre o valor recebido a título de décimo terceiro salário, previsto no art. 7º, VIII, da Constituição Federal.",
+    "codteor": "2274737",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   },
+   {
+    "sigla": "PL 3624/2024",
+    "tipo": "Projeto de Lei",
+    "data": "18/09/2024",
+    "id": 2458645,
+    "texto": "Inclui um inc. XXIV ao art. 6º e revoga o art. 26 da Lei nº 7.713, de 22 de dezembro de 1988, para conceder isenção do imposto de renda incidente sobre o décimo terceiro salário; revoga o art. 16 da Lei nº 8.134, de 27 de dezembro de 1990.",
+    "codteor": "2478029",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CTRAB",
+      "tipo": "Parecer do Relator",
+      "data": "22/06/2021",
+      "id": 2287951,
+      "texto": "Parecer do Relator, Dep. Pedro Augusto Bezerra (PTB-CE), pela aprovação.",
+      "codteor": "2032326"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 635/2021",
+     "tipo": "Texto original",
+     "codteor": "1968420"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CTRAB"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 26/04/2021",
+     "tipo": "Despacho",
+     "data": "26/04/2021",
+     "autor": "MESA",
+     "texto": "Às Comissões de Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1996933"
+    },
+    {
+     "sigla": "Distribuição de 17/03/2023",
+     "tipo": "Despacho",
+     "data": "17/03/2023",
+     "autor": "MESA",
+     "texto": "Decisão da Presidência de 17/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 2023 [,..], criando a Comissão de Trabalho e a Comissão de Administração e Serviço Público, revejo o despacho de distribuição.\"...\"para o fim de determinar sua redistribuição à Comissão de Administração e Serviço Público, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.\". (ATUALIZAÇÃO DE DESPACHO: Às Comissões de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "2245628"
+    },
+    {
+     "sigla": "Distribuição de 21/10/2024",
+     "tipo": "Despacho",
+     "data": "21/10/2024",
+     "autor": "MESA",
+     "texto": "Apensação da proposição PL-3624/2024 à proposição PL-635/2021.Por oportuno, revejo o despacho aposto à matéria para determinar a substituição da CASP pela CTRAB; [ATUALIZAÇÃO DE DESPACHO:Às Comissões de Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

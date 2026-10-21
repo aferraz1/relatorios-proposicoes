@@ -1,0 +1,301 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2254590,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.146/2020",
+  "ementa": "Permite o parcelamento das contribuições sociais relativas aos meses de março e de abril de 2020 em até 24 meses, sem incidência de multa de mora.",
+  "explicacao": "Tramita em conjunto com o PL 1.015/2020, à qual está apensada.",
+  "codteor_inteiro_teor": "1901044",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "04/06/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 1.015/2020"
+   }
+  ],
+  "apresentacao": "2020-06-04",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Finanças Públicas e Orçamento",
+   "Previdência e Assistência Social"
+  ],
+  "keywords": "Critério, parcelamento, Contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público (Contribuição PIS-Pasep), Contribuição para Financiamento da Seguridade Social (Cofins), Contribuição previdenciária patronal, pessoa jurídica, Crise econômica, pandemia, coronavírus, tributação."
+ },
+ "autor": {
+  "id": 204500,
+  "nome": "Dep. Eduardo Costa",
+  "descricao": "Deputado Federal · PSD/PA",
+  "rotulo": "AUTOR · 13 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Notificações",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2023-05-16",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-06-04",
+   "fim": "2020-06-04",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2021-04-15",
+   "fim": "2021-04-16",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito",
+   "inicio": "2021-11-22",
+   "fim": "2021-11-22",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-06-04",
+   "fim": "2022-12-12",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-06-04T18:10",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 3146/2020, pelo Deputado Eduardo Costa (PTB/PA) e outros, que \"Permite o parcelamento das contribuições sociais relativas aos meses de março e de abril de 2020 em até 24 meses, sem incidência de multa de mora\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1901044",
+      "nome": "Inteiro teor · PL 3146/2020",
+      "id": 2254590
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2021-04-13T18:00",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-1388/2020. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1903023",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2021-04-15T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 16/04/21 PÅG 840 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2009594",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-04-16T13:12",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2021-11-22T09:53",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, apensado ao PL-1388/2020",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2022-12-12T07:03",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento de Prejudicialidade n. 1601/2022, pelo Deputado Luiz Lima (PL/RJ), que \"Requer a declaração de prejudicialidade das proposições relativas à COVID-19\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2222594",
+      "nome": "REQ 1601/2022",
+      "id": 2341881
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-05-16T00:00",
+     "titulo": "Notificações",
+     "texto": "Despacho exarado no Requerimento n. 1601/2022, conforme o seguinte teor: \"Preliminarmente, declaro prejudicado o pedido de declaração de prejudicialidade do Projeto de Lei n. 3.605/2020, nos termos do art. 164, I, do RICD, uma vez que a proposição encontra-se arquivada. Quanto as demais proposições, defiro parcialmente o Requerimento n. 1.601/2022. Assim, nos termos do art. 164, I, do Regimento Interno da Câmara dos Deputados (RICD), declaro prejudicadas as seguintes proposições: Projetos de Lei n. 714/2020, n. 760/2020, n. 796/2020, n. 815/2020, n. 829/2020, n. 952/2020, n. 895/2020, n. 925/2020, n. 933/2020, n. 950/2020, n. 947/2020, n. 1.156/2020, n. 1.149/2020, n. 1.296/2020, n. 1.313/2020, n. 1.406/2020, n. 1.411/2020, n. 1.388/2020, n. 1.415/2020, n. 1.417/2020, n. 1.445/2020, n. 1.471/2020, n.1.465/2020, n. 1.533/2020, n. 1.512/2020, n. 1.506/2020, n. 1.565/2020, n. 1.607/2020, n. 1.657/2020, n. 1.721/2020, n. 1.715/2020, n. 1.843/2020, n. 1.818/2020, n. 1.925/2020, n. 1.917/2020, n. 1.952/2020, n. 2.082/2020; n. 2.103/2020, n. 2.086/2020, n. 2.128/2020, n. 2.184/2020, n. 2.266/2020, n. 2.380/2020, n. 2.343/2020, n. 2.416/2020, n. 2.411/2020, n. 2.422/2020, n. 2.504/2020, n. 2.519/2020, n. 2.520/2020, n. 2.607/2020, n. 2.624/2020, n. 2.659/2020, n. 2.653/2020, n. 2.732/2020, n. 2.752/2020, n. 2.817/2020, n. 2.912/2020, n. 2.886/2020, n. 2.889/2020, n. 3.045/2020, n. 3.013/2020, n. 3.141/2020, n. 3.142/2020, n. 3.131/2020, n. 3.206/2020, n. 3.353/2020, n. 3.354/2020, n. 3.410/2020, n. 3.437/2020, n. 3.454/2020, n. 3.653/2020, n. 3.668/2020, n. 3.665/2020, n. 3.710/2020, n. 3.725/2020, n. 3.753/2020, n. 3.766/2020, n. 3.799/2020, n. 4.017/2020, n. 4.054/2020, n. 4.070/2020, n. 4.187/2020, n. 4.219/2020, n. 4.305/2020, n. 3.229/2020, n. 3.289/2020, n. 4.885/2020, n. 4.528/2020, n. 5.345/2020, n. 129/2021, n. 601/2021, n. 647/2021, n. 778/2021, n. 971/2021, n. 1.027/2021, n. 1.039/2021, n. 1.139/2021, n. 1.162/2021, n. 1.187/2021, n. 1.237/2021, n. 1.291/2021, n. 1.318/2021, n. 1.693/2021, n. 1.875/2021, n. 3.884/2020, n. 2.102/2021, n. 2.289/2021, n. 2.597/2021 n. 2.870/2021, n. 1.585/2021, n. 3.139/2021, n. 3.617/2021 e n. 183/2022; Projetos de Lei Complementar n. 75/2020, n. 85/2020, n. 90/2020, n. 107/2020, n. 115/2020, n. 128/2020, n. 130/2020, n. 142/2020, n. 151/2020, n. 157/2020, n. 159/2020, n. 161/2020, n. 172/2020, n. 48/2021 e n. 63/2021; e Projetos de Decreto Legislativo n. 566/2020 e n. 81/2021.Outrossim, declaro, de ofício, prejudicados, nos termos do art. 164, I, do Regimento Interno da Câmara dos Deputados, os Projetos de Lei n. 1.387/2020, n. 2.705/2020, n. 2.805/2020, n. 2.931/2020, n. 3.148/2020, n. 3.431/2020, n. 3.587/2020, n. 5.437/2020, n. 1.380/2021 e n. 1.488/2021.Transcorrido, in albis, o prazo recursal previsto no artigo 164, § 2º, do RICD, arquivem-se.Em decorrência:Apense-se o Projeto de Lei n. 1.657/2021 ao Projeto de Lei n. 4.085/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 4.085/2020 à apreciação do Plenário, ao regime de urgência (art. 155, RICD) e ao exame das Comissões de Trabalho; de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apense-se o Projeto de Lei n. 3.146/2020 ao Projeto de Lei n. 1.015/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 1.015/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD); Submeta-se o Projeto de Lei n. 1.541/2021 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Viação e Transportes e de Constituição e Justiça e de Cidadania (art. 54, RICD);Apense-se o Projeto de Lei n. 3.719/2020 ao Projeto de Lei n. 3.140/2020. Submeta-se o bloco encabeçado pelo Projeto de Lei n. 3.140/2020 à apreciação conclusiva pelas comissões (art. 24, II, RICD), ao regime de tramitação ordinário (art. 151, III, RICD) e ao exame das Comissões de Finanças e Tributação (mérito e art. 54, RICD) e de Constituição e Justiça e de Cidadania (art. 54, RICD); Publique-se. [ATUALIZAÇÃO DO DESPACHO DO PL N. 4.085/2020: CTRAB, CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação do Plenário. Regime de tramitação: Urgência (art. 155, RICD)]. [ATUALIZAÇÃO DO DESPACHO DO PL N. 1.015/2020: CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)].ATUALIZAÇÃO DO DESPACHO DO PL N. 1.541/2021: CVT e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)]. [ATUALIZAÇÃO DO DESPACHO DO PL N. 3.140/2020: CFT (mérito e art. 54, RICD) e CCJC (art. 54, RICD). Proposição sujeita à apreciação conclusiva pelas comissões (art. 24, II, RICD). Regime de tramitação: ordinário (art. 151, III, RICD)].\"",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "2258746",
+      "nome": "Notificações"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 1.015/2020",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3146/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 04/06/2020",
+   "autor": "Dep. Eduardo Costa (PSD/PA)",
+   "texto": "Permite o parcelamento das contribuições sociais relativas aos meses de março e de abril de 2020 em até 24 meses, sem incidência de multa de mora.",
+   "id": 2254590,
+   "situacao": "NOTIFICAÇÕES",
+   "codteor": "1901044"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Eduardo Costa (PSD/PA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1601/2022",
+      "tipo": "Requerimento de Prejudicialidade",
+      "data": "12/12/2022",
+      "id": 2341881,
+      "texto": "Requer a declaração de prejudicialidade das proposições relativas à COVID-19.",
+      "codteor": "2222594"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3146/2020",
+     "tipo": "Texto original",
+     "codteor": "1901044"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1601/2022"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 13/04/2021",
+     "tipo": "Despacho",
+     "data": "13/04/2021",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-1388/2020. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1903023"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

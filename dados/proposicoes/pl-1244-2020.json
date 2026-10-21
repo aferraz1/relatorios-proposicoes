@@ -1,0 +1,560 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2242347,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.244/2020",
+  "ementa": "Institui o Programa de Seguro Emprego- PSE.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "1871540",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "30/03/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2020-03-30",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Indústria, Comércio e Serviços",
+   "Saúde",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Criação, diretrizes, Programa de Seguro Emprego (PSE), medida de emergência, preservação, emprego, calamidade pública, pandemia, coronavírus, emergência social."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · 11 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "CICS",
+  "orgao_nome": "Comissão de Indústria, Comércio e Serviços",
+  "desde": "2024-08-01",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-03-30",
+   "fim": "2020-03-30",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2247460",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CDE",
+   "nome": "Desenvolvimento Econômico",
+   "papel": "Mérito",
+   "inicio": "2020-10-20",
+   "fim": "2024-07-29",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CICS",
+   "nome": "Indústria, Comércio e Serviços",
+   "papel": "Mérito",
+   "inicio": "2024-08-01",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CASP",
+   "nome": "Administração e Serviço Público",
+   "papel": "Mérito",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-03-30",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CICS",
+  "relator": {
+   "id": 220696,
+   "nome": "Dep. Ivoneide Caetano",
+   "descricao": "Deputada Federal · PT/BA",
+   "rotulo": "RELATOR(A) · CICS"
+  },
+  "resumo_inicio": "Designação em 17/09/2024.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-03-30T14:36",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1244/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Institui o Programa de Seguro Emprego- PSE\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1871540",
+      "nome": "Inteiro teor · PL 1244/2020",
+      "id": 2242347
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-10-19T17:01",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Desenvolvimento Econômico, Indústria, Comércio e Serviços; Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1894935",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CDE",
+   "nome": "Comissão de Desenvolvimento Econômico",
+   "eventos": [
+    {
+     "data_hora": "2020-10-20T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 21/10/20 PÅG 367. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1941301",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-03-10T11:08",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CDEICS.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-03-23T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Amaro Neto (REPUBLIC-ES)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2021-03-24T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 25/03/2021)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-04-13T20:23",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 24/03/2021 a 13/04/2021). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-08-18T14:17",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do Parecer do Relator n. 1 CDEICS, pelo Deputado Amaro Neto (REPUBLIC/ES).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2059437",
+      "nome": "Recebimento - Relator(a)"
+     }
+    },
+    {
+     "data_hora": "2021-08-18T14:17",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Amaro Neto (REPUBLIC-ES), pela rejeição.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2059435",
+      "nome": "PRL 1 CDE",
+      "id": 2294882
+     }
+    },
+    {
+     "data_hora": "2021-08-25T13:00",
+     "titulo": "Discussão (Inicio e Continuacao)",
+     "texto": "Retirado de pauta a requerimento dos Deputados Amaro Neto (REPUBLICANOS/ES) e Helder Salomão (PT/ES).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2021-08-25T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Amaro Neto (REPUBLIC-ES), para alterações no Parecer.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2021-08-26T00:00",
+     "titulo": "Devolução ao(à) Relator(a)",
+     "texto": "Devolvido ao Relator, Dep. Amaro Neto (REPUBLIC-ES), para alterações no Parecer.",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-04-27T09:00",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Amaro Neto, não integrava a Comissão na data da instalação (deixou de ser membro em 02/02/2022)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2022-04-27T14:01",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-05-04T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Sidney Leite (PSD-AM)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-10-31T17:39",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2022-11-08T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Otto Alencar Filho (PSD-BA)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2022-11-23T17:47",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-03-22T00:00",
+     "titulo": "Distribuição",
+     "texto": "Decisão da Presidência de 22/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1/2023 [...], criando a Comissão de Desenvolvimento Econômico e a Comissão de Indústria, Comércio e Serviços, revejo o despacho de distribuição aposto...\"...\"para o fim de determinar sua redistribuição à Comissão de Desenvolvimento Econômico, em substituição à Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços, extinta pela mesma Resolução.\" (ATUALIZAÇÃO DE DESPACHO: Às Comissões de Desenvolvimento Econômico; Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2247460",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CDE",
+   "nome": "Comissão de Desenvolvimento Econômico",
+   "eventos": [
+    {
+     "data_hora": "2023-04-12T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Bia Kicis (PL-DF)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2023-04-12T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 13/04/2023)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-04-26T20:58",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 12/04/2023 a 26/04/2023). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-07-17T13:07",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-2214/2024.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2436437",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2024-07-17T13:09",
+     "titulo": "Apensação",
+     "texto": "Apensação da proposição PL-2214/2024 à proposição PL-1244/2020.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-07-17T00:00",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-1244/2020.Por oportuno, revejo o despacho aposto ao PL N. 1244/2020 para determinar a substituição da Comissão de Desenvolvimento Econômico pela Comissão de Indústria, Comércio e Serviços, e, tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 08 de fevereiro de 2023, encaminho a matéria à Comissão de Trabalho, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.[ATUALIZAÇÃO DE DESPACHO: Às Comissões de Indústria, Comércio e Serviços; Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD].",
+     "tipo": "marco"
+    }
+   ]
+  },
+  {
+   "sigla": "CDE",
+   "nome": "Comissão de Desenvolvimento Econômico",
+   "eventos": [
+    {
+     "data_hora": "2024-07-29T00:00",
+     "titulo": "Devolução à CCP",
+     "texto": "Devolução à CCP",
+     "tipo": "alerta"
+    }
+   ]
+  },
+  {
+   "sigla": "CICS",
+   "nome": "Comissão de Indústria, Comércio e Serviços",
+   "eventos": [
+    {
+     "data_hora": "2024-08-01T19:03",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CICS, com a proposição PL-2214/2024 apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-09-17T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Luiz Gastão (PSD-CE)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-09-18T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 19/09/2024)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-10-29T20:27",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 18/09/2024 a 29/10/2024). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-04-14T15:30",
+     "titulo": "Saída de Relator(a) da Comissão - Sem Parecer Apresentado",
+     "texto": "(Instalação da Comissão) O Relator, Dep. Luiz Gastão, não integrava a Comissão na data da instalação (deixou de ser membro em 31/01/2026)",
+     "tipo": "alerta"
+    },
+    {
+     "data_hora": "2026-04-15T08:41",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-21T13:25",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Ivoneide Caetano (PT-BA).",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CICS",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CTRAB",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CASP",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1244/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 30/03/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Institui o Programa de Seguro Emprego- PSE.",
+   "id": 2242347,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "1871540"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 2214/2024 PSE",
+    "tipo": "Projeto de Lei",
+    "data": "05/06/2024",
+    "id": 2438466,
+    "texto": "Institui como política permanente de estado o Programa Seguro-Emprego (PSE).",
+    "codteor": "2433221",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CDE",
+      "tipo": "Parecer do Relator",
+      "data": "18/08/2021",
+      "id": 2294882,
+      "texto": "Parecer do Relator, Dep. Amaro Neto (REPUBLIC-ES), pela rejeição.",
+      "codteor": "2059435"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1244/2020",
+     "tipo": "Texto original",
+     "codteor": "1871540"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CDE"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 19/10/2020",
+     "tipo": "Despacho",
+     "data": "19/10/2020",
+     "autor": "MESA",
+     "texto": "Às Comissões de Desenvolvimento Econômico, Indústria, Comércio e Serviços; Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1894935"
+    },
+    {
+     "sigla": "Distribuição de 22/03/2023",
+     "tipo": "Despacho",
+     "data": "22/03/2023",
+     "autor": "MESA",
+     "texto": "Decisão da Presidência de 22/03/2023, conforme o seguinte teor: \"Tendo em vista a edição da Resolução da Câmara dos Deputados n. 1/2023 [...], criando a Comissão de Desenvolvimento Econômico e a Comissão de Indústria, Comércio e Serviços, revejo o despacho de distribuição aposto...\"...\"para o fim de determinar sua redistribuição à Comissão de Desenvolvimento Econômico, em substituição à Comissão de Desenvolvimento Econômico, Indústria, Comércio e Serviços, extinta pela mesma Resolução.\" (ATUALIZAÇÃO DE DESPACHO: Às Comissões de Desenvolvimento Econômico; Trabalho, de Administração e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD) - Art. 24, IIProposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "2247460"
+    },
+    {
+     "sigla": "Despacho de Apensação de 17/07/2024",
+     "tipo": "Despacho",
+     "data": "17/07/2024",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-1244/2020.Por oportuno, revejo o despacho aposto ao PL N. 1244/2020 para determinar a substituição da Comissão de Desenvolvimento Econômico pela Comissão de Indústria, Comércio e Serviços, e, tendo em vista a edição da Resolução da Câmara dos Deputados n. 1, de 08 de fevereiro de 2023, encaminho a matéria à Comissão de Trabalho, em substituição à Comissão de Trabalho, de Administração e Serviço Público, extinta pela mesma Resolução.[ATUALIZAÇÃO DE DESPACHO: Às Comissões de Indústria, Comércio e Serviços; Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinário (Art. 151, III, RICD]."
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

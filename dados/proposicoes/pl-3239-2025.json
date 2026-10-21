@@ -1,0 +1,263 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2531914,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.239/2025",
+  "ementa": "Projeto de Lei que Institui o Dia Nacional da Palavra e dá outras providências.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2948955",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "03/07/2025"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2025-07-03",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Arte, Cultura e Religião",
+   "Homenagens e Datas Comemorativas"
+  ],
+  "keywords": "Criação, Dia Nacional da Palavra, data comemorativa, novembro."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "CCULT",
+  "orgao_nome": "Comissão de Cultura",
+  "desde": "2025-07-22",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2025-07-03",
+   "fim": "2025-07-22",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2953378",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Cultura",
+   "papel": "Mérito",
+   "inicio": "2025-07-22",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CCULT",
+  "relator": {
+   "id": 220623,
+   "nome": "Dep. Duda Salabert",
+   "descricao": "Deputada Federal · PSOL/MG",
+   "rotulo": "RELATOR(A) · CCULT"
+  },
+  "resumo_inicio": "Designação em 29/08/2025.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2025-07-03T14:09",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 3239/2025 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Projeto de Lei que Institui o Dia Nacional da Palavra e dá outras providências\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2948955",
+      "nome": "Inteiro teor · PL 3239/2025",
+      "id": 2531914
+     }
+    },
+    {
+     "data_hora": "2025-07-18T12:23",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Cultura e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2953378",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CCULT",
+   "nome": "Comissão de Cultura",
+   "eventos": [
+    {
+     "data_hora": "2025-07-22T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 23/07/2025. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-07-23T13:23",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCULT.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-08-29T14:28",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Mauricio Marcon (PODE-RS).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-09-01T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 02/09/2025)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-09-03T13:33",
+     "titulo": "Recebimento - Relator(a) (Sem Manifestação)",
+     "texto": "Devolvida pelo Relator sem Manifestação.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-09-10T21:04",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 01/09/2025 a 10/09/2025). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-03-24T16:31",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Duda Salabert (PDT-MG).",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CCULT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3239/2025",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 03/07/2025",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Projeto de Lei que Institui o Dia Nacional da Palavra e dá outras providências.",
+   "id": 2531914,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "2948955"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3239/2025",
+     "tipo": "Texto original",
+     "codteor": "2948955"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 18/07/2025",
+     "tipo": "Despacho",
+     "data": "18/07/2025",
+     "autor": "MESA",
+     "texto": "Às Comissões de Cultura e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2953378"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

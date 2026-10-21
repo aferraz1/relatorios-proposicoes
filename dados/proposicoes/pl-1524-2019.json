@@ -1,0 +1,235 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2194274,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.524/2019",
+  "ementa": "Obriga produtores e fabricantes a inserir no corpo de seus produtos as informações referentes ao tempo de decomposição na natureza de suas embalagens e rótulos:",
+  "explicacao": "Tramita em conjunto com o PL 9.996/2018, à qual está apensada.",
+  "codteor_inteiro_teor": "1720161",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "19/03/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 9.996/2018"
+   }
+  ],
+  "apresentacao": "2019-03-19",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Meio Ambiente e Desenvolvimento Sustentável"
+  ],
+  "keywords": "Obrigatoriedade, produtor, fabricante, produtos, inserção, informação, tempo de decomposição, meio ambiente, embalagem do produto, rótulo do produto."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CMADS",
+  "orgao_nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+  "desde": "2019-04-10",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-03-19",
+   "fim": "2019-04-10",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Meio Ambiente e Desenvolvimento Sustentável",
+   "papel": "Mérito",
+   "inicio": "2019-04-10",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-03-19T10:32",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1524/2019, pela Deputadoa Pedro Lucas Fernandes PTB, que:\"Obriga produtores e fabricantes a inserir no corpo de seus produtos as informações referentes ao tempo de decomposição na natureza de suas embalagens e rótulos:\". (SEPRO(SGM))",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1720162",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-04-08T16:53",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-9996/2018. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1729389",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2019-04-10T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 11/04/19 PÁG 282. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1740332",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-04-10T16:53",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMADS.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-10-16T16:52",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMADS, apensado ao PL-9996/2018",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-10-25T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Zé Vitor (PL-MG), para o PL 2433/2011, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 9.996/2018",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CMADS",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1524/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 19/03/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Obriga produtores e fabricantes a inserir no corpo de seus produtos as informações referentes ao tempo de decomposição na natureza de suas embalagens e rótulos:",
+   "id": 2194274,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1720161"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1524/2019",
+     "tipo": "Texto original",
+     "codteor": "1720161"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 08/04/2019",
+     "tipo": "Despacho",
+     "data": "08/04/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-9996/2018. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1729389"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

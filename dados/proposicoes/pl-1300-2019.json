@@ -1,0 +1,357 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2193491,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.300/2019",
+  "ementa": "Insere o §4º ao Art. 1º da Lei nº 9.008, de 21 de março de 1995.",
+  "explicacao": "Tramita em conjunto com o PL 2.841/2015, à qual está apensada.",
+  "codteor_inteiro_teor": "1717621",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "12/03/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 2.841/2015"
+   }
+  ],
+  "apresentacao": "2019-03-12",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Justiça"
+  ],
+  "keywords": "Alteração, Lei Federal, destinação, percentual, recursos, arrecadação, Fundo de Defesa de Direitos Difusos (FDD), projeto (administração), expansão, Defensoria pública"
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CTRAB",
+  "orgao_nome": "Comissão de Trabalho",
+  "desde": "2026-03-05",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-03-12",
+   "fim": "2019-03-12",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2019-04-01",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-03-12",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-03-12T00:00",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1300/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Insere o §4º ao Art. 1º da Lei nº 9.008, de 21 de março de 1995\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1717621",
+      "nome": "Inteiro teor · PL 1300/2019",
+      "id": 2193491
+     }
+    },
+    {
+     "data_hora": "2019-03-12T00:00",
+     "titulo": "Não Informado",
+     "texto": "Proposição fora da numeração sequencial em razão da implantação eletrônica no Sistema em 12/03/2019 (revisão do Sileg).",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-04-01T13:22",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-2841/2015. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1725317",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2019-04-01T17:17",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-04-02T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 03/04/19 PÁG 337. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1761629",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-04-22T17:09",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do Requerimento n. 1282/2019, pela Deputadoa Pedro Lucas Fernandes PTB, que:\"Requer a desapensação do PL nº 1.300, de 2019, do PL nº 2.841, de 2015\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1735453",
+      "nome": "REQ 1282/2019",
+      "id": 2198830
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-05-07T00:00",
+     "titulo": "Notificação de Despacho",
+     "texto": "Indeferido o Requerimento n. 1.282/2019, conforme despacho do seguinte teor: \"Indefiro o Requerimento n. 1.282/2019, nos termos do art. 142, caput, do Regimento Interno da Câmara dos Deputados, por entender que o Projeto de Lei n. 1.300/2019 e o Projeto de Lei n. 2.841/2015 tratam de matérias correlatas. Publique-se. Oficie-se\".",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2023-08-29T14:43",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-2878/2019.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2315167",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2023-12-22T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Alexandre Lindenmeyer (PT-RS), para o PL 2841/2015, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-04-12T18:06",
+     "titulo": "Apresentação de Requerimento",
+     "texto": "Apresentação do REQ n. 1190/2024 (Requerimento de Desapensação), pelo Deputado Alexandre Lindenmeyer (PT/RS -Fdr PT-PCdoB-PV), que \"REQUER, nos termos do Regimento Interno da Câmara dos Deputados, a desapensação do Projeto de Lei nº 1300, de 2019 e seu apensado do Projeto de Lei 2841, de 2015\".",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2406762",
+      "nome": "REQ 1190/2024",
+      "id": 2426670
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2026-03-05T15:31",
+     "titulo": "Notificacao para Publicação Intermediária",
+     "texto": "Designado Relator, Dep. Alexandre Lindenmeyer (PT-RS), para o PL 2841/2015, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 2.841/2015",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CTRAB",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1300/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 12/03/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Insere o §4º ao Art. 1º da Lei nº 9.008, de 21 de março de 1995.",
+   "id": 2193491,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1717621"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 2878/2019 FDD",
+    "tipo": "Projeto de Lei",
+    "data": "16/08/2023",
+    "id": 2380432,
+    "texto": "Altera a Lei nº 9.008, de 21 de março de 1995, para destinar percentual dos recursos arrecadados pelo Fundo de Defesa de Direitos Difusos (FDD) aos fins que dispõe.",
+    "codteor": "2314163",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": [
+   {
+    "rotulo": "REQUERIMENTOS",
+    "plural": "requerimentos",
+    "itens": [
+     {
+      "sigla": "REQ 1282/2019",
+      "tipo": "Requerimento de Desapensação",
+      "data": "22/04/2019",
+      "id": 2198830,
+      "texto": "Requer a desapensação do Autoriza a criação da empresa pública NAV Brasil Serviços de Navegação Aérea S.A. do PL nº 2.841, de 2015.",
+      "codteor": "1735453"
+     },
+     {
+      "sigla": "REQ 1190/2024",
+      "tipo": "Requerimento de Desapensação",
+      "data": "12/04/2024",
+      "id": 2426670,
+      "texto": "REQUER, nos termos do Regimento Interno da Câmara dos Deputados, a desapensação do Projeto de Lei nº 1300, de 2019 e seu apensado do Projeto de Lei 2841, de 2015.",
+      "codteor": "2406762"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1300/2019",
+     "tipo": "Texto original",
+     "codteor": "1717621"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": [
+    "REQ 1282/2019",
+    "REQ 1190/2024"
+   ]
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 01/04/2019",
+     "tipo": "Despacho",
+     "data": "01/04/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-2841/2015. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1725317"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

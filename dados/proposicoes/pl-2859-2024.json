@@ -1,0 +1,397 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2448934,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 2.859/2024",
+  "ementa": "Altera a Lei nº 9.656, de 3 de junho de 1998, para estabelecer que a contratação de plano de segmentação hospitalar com obstetrícia pelo beneficiário-pai garante a cobertura da assistência ao parto.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2454186",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "11/07/2024"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2024-07-11",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Indústria, Comércio e Serviços",
+   "Saúde"
+  ],
+  "keywords": "Alteração, Lei dos Planos de Saúde (1998), Cobertura assistencial, Plano de saúde, Obstetrícia, Beneficiário, Pai, Período de carência, desassistência, Parto."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Parecer",
+  "estado": "EM ANÁLISE",
+  "orgao_sigla": "CSAUDE",
+  "orgao_nome": "Comissão de Saúde",
+  "desde": "2024-12-05",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2024-07-11",
+   "fim": "2024-08-19",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2460567",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "inicio": "2024-08-19",
+   "fim": "2024-12-04",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2825033",
+    "nome": "PARECER APROVADO",
+    "id": 2471091
+   }
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2024-12-05",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CSAUDE",
+  "relator": {
+   "id": 220556,
+   "nome": "Dep. Ana Paula Lima",
+   "descricao": "Deputada Federal · PT/SC",
+   "rotulo": "RELATOR(A) · CSAUDE"
+  },
+  "resumo_inicio": "Designação em 01/07/2025.",
+  "resumo_fim": "",
+  "pareceres": []
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-07-11T11:40",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 2859/2024 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Altera a Lei nº 9.656, de 3 de junho de 1998, para estabelecer que a contratação de plano de segmentação hospitalar com obstetrícia pelo beneficiário-pai garante a cobertura da assistência ao parto\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2454186",
+      "nome": "Inteiro teor · PL 2859/2024",
+      "id": 2448934
+     }
+    },
+    {
+     "data_hora": "2024-08-16T12:50",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Saúde e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2460567",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2024-08-19T15:30",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMULHER.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-08-19T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD 20/08/2024 PAG 113 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2859524",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2024-09-24T16:30",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Ana Pimentel (PT-MG)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-09-25T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 26/09/2024)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-10-29T20:27",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 25/09/2024 a 29/10/2024). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-11-21T18:09",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CMULHER (Parecer do Relator), pela Deputada Ana Pimentel (PT/MG -Fdr PT-PCdoB-PV).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2825033",
+      "nome": "PRL 1 CMULHER",
+      "id": 2471091
+     }
+    },
+    {
+     "data_hora": "2024-11-21T18:09",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Ana Pimentel (PT-MG), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2825033",
+      "nome": "PRL 1 CMULHER",
+      "id": 2471091
+     }
+    },
+    {
+     "data_hora": "2024-11-21T18:09",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer da Relatora, Dep. Ana Pimentel (PT-MG), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2825033",
+      "nome": "PRL 1 CMULHER",
+      "id": 2471091
+     }
+    },
+    {
+     "data_hora": "2024-12-04T13:30",
+     "titulo": "Leitura e publicação do Parecer",
+     "texto": "Lido o Parecer pela Relatora.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-04T13:30",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2024-12-05T12:31",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSAUDE.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-06T10:27",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-12-09T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Mulher Publicado em avulso e no DCD de 10/12/2024, Letra A. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-07-01T13:23",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designada Relatora, Dep. Ana Paula Lima (PT-SC).",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2025-07-02T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 03/07/2025).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2025-07-14T23:09",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 02/07/2025 a 14/07/2025). Não foram apresentadas emendas.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Parecer da CSAUDE",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 2859/2024",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 11/07/2024",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 9.656, de 3 de junho de 1998, para estabelecer que a contratação de plano de segmentação hospitalar com obstetrícia pelo beneficiário-pai garante a cobertura da assistência ao parto.",
+   "id": 2448934,
+   "situacao": "AGUARDANDO PARECER",
+   "codteor": "2454186"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CMULHER",
+      "tipo": "Parecer do Relator",
+      "data": "21/11/2024",
+      "id": 2471091,
+      "texto": "Parecer da Relatora, Dep. Ana Pimentel (PT-MG), pela aprovação.",
+      "codteor": "2825033"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "05/12/2024",
+      "id": 2476294,
+      "texto": "Altera a Lei nº 9.656, de 3 de junho de 1998, para estabelecer que a contratação de plano de segmentação hospitalar com obstetrícia pelo beneficiário-pai garante a cobertura da assistência ao parto.",
+      "codteor": "2834613"
+     }
+    ]
+   },
+   {
+    "rotulo": "RETIRADAS DE PAUTA",
+    "plural": "requerimentos de retirada de pauta",
+    "itens": [
+     {
+      "sigla": "RPD 1",
+      "tipo": "Requerimento de Inversão de Pauta",
+      "data": "04/12/2024",
+      "id": 2475485,
+      "texto": "Requerimento de Inversão da Pauta - PL 2859/2024",
+      "codteor": "2833128"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 2859/2024",
+     "tipo": "Texto original",
+     "codteor": "2454186"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CMULHER",
+    "PAR 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 16/08/2024",
+     "tipo": "Despacho",
+     "data": "16/08/2024",
+     "autor": "MESA",
+     "texto": "Às Comissões de Defesa dos Direitos da Mulher; Saúde e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2460567"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

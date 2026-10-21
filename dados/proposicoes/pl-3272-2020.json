@@ -1,0 +1,329 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2255122,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.272/2020",
+  "ementa": "Altera as Leis nº 8.212, de 24 de julho de 1991 e nº 8.213, de 24 de julho de 1991, para os aposentados que se interessam por retornar ao exercício de atividade sujeita ao Regime Geral de Previdência Social - RGPS.",
+  "explicacao": "Tramita em conjunto com o PL 2.567/2011, à qual está apensada.",
+  "codteor_inteiro_teor": "1903490",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "12/06/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 2.567/2011"
+   }
+  ],
+  "apresentacao": "2020-06-12",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Previdência e Assistência Social",
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Alteração, Lei da Seguridade Social, aposentado, Regime Geral de Previdência Social (RGPS), retorno, atividade, mercado de trabalho, Segurado obrigatório. _Alteração, Lei de Benefícios da Previdência Social, benefício previdenciário, segurado obrigatório, Regime Geral de Previdência Social (RGPS), retorno, atividade, mercado de trabalho."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · 8 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2025-04-30",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-06-12",
+   "fim": "2020-06-12",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CIDOSO",
+   "nome": "Defesa dos Direitos da Pessoa Idosa",
+   "papel": "Mérito",
+   "inicio": "2020-12-07",
+   "fim": "2021-03-03",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Previdência, Assis. Social, Infância, Adolescência e Família",
+   "papel": "Mérito",
+   "inicio": "2024-04-09",
+   "fim": "2024-05-17",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito",
+   "inicio": "2025-04-30",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-06-12",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-06-12T12:24",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 3272/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA) e outros, que \"Altera as Leis nº 8.212, de 24 de julho de 1991 e nº 8.213, de 24 de julho de 1991, para os aposentados que se interessam por retornar ao exercício de atividade sujeita ao Regime Geral de Previdência Social - RGPS\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1903490",
+      "nome": "Inteiro teor · PL 3272/2020",
+      "id": 2255122
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-12-04T08:51",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-2567/2011. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1906542",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CIDOSO",
+   "nome": "Comissão de Defesa dos Direitos da Pessoa Idosa",
+   "eventos": [
+    {
+     "data_hora": "2020-12-07T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 08/12/20 PÅG 1086. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1957742",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-03-03T14:46",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CIDOSO.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2022-10-05T14:57",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-2512/2022.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2208193",
+      "nome": "Notificação de Apensação"
+     }
+    },
+    {
+     "data_hora": "2022-12-22T16:18",
+     "titulo": "Notificação de Apensação",
+     "texto": "Apense-se a este(a) o(a) PL-3011/2022.",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2226661",
+      "nome": "Notificação de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+   "eventos": [
+    {
+     "data_hora": "2024-04-09T16:49",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CPASF, apensado ao PL-2567/2011",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-05-17T00:00",
+     "titulo": "Notificações",
+     "texto": "Designada Relatora, Dep. Laura Carneiro (PSD-RJ), para o PL 2567/2011, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2025-04-30T13:37",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT, apensado ao PL-2567/2011",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 2.567/2011",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3272/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 12/06/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera as Leis nº 8.212, de 24 de julho de 1991 e nº 8.213, de 24 de julho de 1991, para os aposentados que se interessam por retornar ao exercício de atividade sujeita ao Regime Geral de Previdência Social - RGPS.",
+   "id": 2255122,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1903490"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [
+   {
+    "sigla": "PL 2512/2022 RGPS",
+    "tipo": "Projeto de Lei",
+    "data": "23/09/2022",
+    "id": 2335163,
+    "texto": "Modifica as Leis nº 8.212, de 24 de julho de 1991, e nº 8.213, de 24 de julho de 1991, para estabelecer que o aposentado pelo Regime Geral de Previdência Social (RGPS) que exerce ou voltar a exercer atividade abrangida por aquele regime não é segurado obrigatório em relação a essa atividade.",
+    "codteor": "2207391",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   },
+   {
+    "sigla": "PL 3011/2022 RGPS",
+    "tipo": "Projeto de Lei",
+    "data": "15/12/2022",
+    "id": 2343381,
+    "texto": "Altera a Lei nº 8.212, de 24 de julho de 1991, para tornar facultativa a contribuição previdenciária ao aposentado pelo Regime Geral de Previdência Social (RGPS) que estiver exercendo ou que voltar a exercer atividade abrangida por aquele regime e garante ao optante pela contribuição a cumulação de seu benefício de aposentadoria com o auxílio doença ou auxílio acidente, limitado ao valor de um salário mínimo.",
+    "codteor": "2225029",
+    "situacao": "TRAMITANDO EM CONJUNTO"
+   }
+  ],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3272/2020",
+     "tipo": "Texto original",
+     "codteor": "1903490"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 04/12/2020",
+     "tipo": "Despacho",
+     "data": "04/12/2020",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-2567/2011. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1906542"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

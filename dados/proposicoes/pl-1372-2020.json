@@ -1,0 +1,395 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2242638,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.372/2020",
+  "ementa": "Acrescenta dispositivos à Lei nº 8.080, de 19 de setembro de 1990, que \"dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências\", para instituir o Subsistema de Atenção à Saúde da Mulher Parturiente com Óbito Fetal.",
+  "explicacao": "Tramita em conjunto com o PL 3.391/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1872332",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "01/04/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 3.391/2019"
+   }
+  ],
+  "apresentacao": "2020-04-01",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 10,
+  "temas": [
+   "Direitos Humanos e Minorias",
+   "Saúde"
+  ],
+  "keywords": "Alteração, Lei Orgânica da Saúde, criação, Subsistema de Atenção à Saúde da Mulher Parturiente com Óbito Fetal."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CCJC",
+  "orgao_nome": "Comissão de Constituição e Justiça e de Cidadania",
+  "desde": "2024-06-20",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-04-01",
+   "fim": "2020-10-22",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Defesa dos Direitos da Mulher",
+   "papel": "Mérito",
+   "inicio": "2020-10-22",
+   "fim": "2020-10-27",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2021-06-11",
+   "fim": "2021-06-11",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Previdência, Assis. Social, Infância, Adolescência e Família",
+   "papel": "Mérito",
+   "inicio": "2023-03-27",
+   "fim": "2024-03-15",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Mérito",
+   "inicio": "2024-06-20",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-04-02T16:02",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1372/2020, pelo Deputado Pedro Lucas Fernandes (PTB/MA), que \"Acrescenta dispositivos à Lei nº 8.080, de 19 de setembro de 1990, que 'dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências', para instituir o Subsistema de Atenção à Saúde da Mulher Parturiente com Óbito Fetal\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1872333",
+      "nome": "Apresentação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-10-22T13:12",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-3391/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1880170",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMULHER",
+   "nome": "Comissão de Defesa dos Direitos da Mulher",
+   "eventos": [
+    {
+     "data_hora": "2020-10-22T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 23/10/20 PÅG 64. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1941590",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2020-10-27T17:58",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMULHER.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2021-06-11T15:28",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF, apensado ao PL-3391/2019",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CPASF",
+   "nome": "Comissão de Previdência, Assistência Social, Infância, Adolescência e Família",
+   "eventos": [
+    {
+     "data_hora": "2023-03-27T15:52",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CPASF, apensado ao PL-3391/2019",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-03-15T00:00",
+     "titulo": "Notificações",
+     "texto": "Designada Relatora, Dep. Chris Tonietto (PL-RJ), para o PL 3391/2019, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Comissão de Constituição e Justiça e de Cidadania",
+   "eventos": [
+    {
+     "data_hora": "2024-06-20T14:32",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC, apensado ao PL-3391/2019",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-08-14T19:18",
+     "titulo": "Notificações",
+     "texto": "Designada Relatora, Dep. Chris Tonietto (PL-RJ), para o PL 3391/2019, ao qual esta proposição está apensada.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-11T16:21",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CCJC, apensado ao PL-3391/2019",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2026-05-12T13:49",
+     "titulo": "Notificacao para Publicação Intermediária",
+     "texto": "Designada Relatora da Redação Final, Dep. Chris Tonietto (PL-RJ), para o PL 3391/2019, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 3.391/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1372/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 01/04/2020",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Acrescenta dispositivos à Lei nº 8.080, de 19 de setembro de 1990, que \"dispõe sobre as condições para a promoção, proteção e recuperação da saúde, a organização e o funcionamento dos serviços correspondentes e dá outras providências\", para instituir o Subsistema de Atenção à Saúde da Mulher Parturiente com Óbito Fetal.",
+   "id": 2242638,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1872332"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "EMENDAS",
+    "plural": "emendas",
+    "itens": [
+     {
+      "sigla": "EMR 1",
+      "tipo": "Emenda de Relator",
+      "data": "18/10/2024",
+      "id": 2463358,
+      "codteor": "2485287"
+     },
+     {
+      "sigla": "EMR 2",
+      "tipo": "Emenda de Relator",
+      "data": "18/10/2024",
+      "id": 2463359,
+      "codteor": "2485287"
+     },
+     {
+      "sigla": "EMR 3",
+      "tipo": "Emenda de Relator",
+      "data": "18/10/2024",
+      "id": 2463362,
+      "codteor": "2485287"
+     },
+     {
+      "sigla": "EMR 4",
+      "tipo": "Emenda de Relator",
+      "data": "18/10/2024",
+      "id": 2463363,
+      "codteor": "2485287"
+     },
+     {
+      "sigla": "EMR 5",
+      "tipo": "Emenda de Relator",
+      "data": "05/03/2026",
+      "id": 2607183,
+      "codteor": "3093293"
+     },
+     {
+      "sigla": "EMR 6",
+      "tipo": "Emenda de Relator",
+      "data": "05/03/2026",
+      "id": 2607184,
+      "codteor": "3093293"
+     },
+     {
+      "sigla": "EMR 7",
+      "tipo": "Emenda de Relator",
+      "data": "20/03/2026",
+      "id": 2611090,
+      "codteor": "3102284"
+     },
+     {
+      "sigla": "EMR 8",
+      "tipo": "Emenda de Relator",
+      "data": "20/03/2026",
+      "id": 2611091,
+      "codteor": "3102284"
+     },
+     {
+      "sigla": "EMC-A 1",
+      "tipo": "Emenda Adotada pela Comissão",
+      "data": "15/04/2026",
+      "id": 2616528,
+      "texto": "Emenda Adotada pela Comissão ao PL 3391/2019",
+      "codteor": "3113856"
+     },
+     {
+      "sigla": "EMC-A 2",
+      "tipo": "Emenda Adotada pela Comissão",
+      "data": "15/04/2026",
+      "id": 2616529,
+      "texto": "Emenda Adotada pela Comissão ao PL 3391/2019",
+      "codteor": "3113857"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1372/2020",
+     "tipo": "Texto original",
+     "codteor": "1872332"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [
+    "EMR 1",
+    "EMR 2",
+    "EMR 3",
+    "EMR 4",
+    "EMR 5",
+    "EMR 6",
+    "EMR 7",
+    "EMR 8",
+    "EMC-A 1",
+    "EMC-A 2"
+   ],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 22/10/2020",
+     "tipo": "Despacho",
+     "data": "22/10/2020",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-3391/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1880170"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

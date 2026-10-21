@@ -1,0 +1,240 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2193315,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.193/2019",
+  "ementa": "Dispõe sobre a divulgação dos incentivos para a instalação em propriedades rurais de sistemas de aproveitamento da energia solar e dos benefícios decorrentes do uso da tecnologia.",
+  "explicacao": "Tramita em conjunto com o PL 2.335/2015, à qual está apensada.",
+  "codteor_inteiro_teor": "1715496",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "27/02/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 2.335/2015"
+   }
+  ],
+  "apresentacao": "2019-02-27",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Energia, Recursos Hídricos e Minerais"
+  ],
+  "keywords": "Divulgação, incentivo, instalação, propriedade rural, Sistema de energia solar fotovoltaica."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Encaminhamento",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "PLEN",
+  "orgao_nome": "Plenário",
+  "desde": "2023-11-30",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-02-27",
+   "fim": "2019-02-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Meio Ambiente e Desenvolvimento Sustentável",
+   "papel": "Mérito",
+   "inicio": "2019-04-08",
+   "fim": "2019-04-08",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-02-27",
+   "estado": "atual"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-02-27T14:03",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1193/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Dispõe sobre a divulgação dos incentivos para a instalação em propriedades rurais de sistemas de aproveitamento da energia solar e dos benefícios decorrentes do uso da tecnologia\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1715496",
+      "nome": "Inteiro teor · PL 1193/2019",
+      "id": 2193315
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-04-04T10:26",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-2335/2015. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1727903",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CMADS",
+   "nome": "Comissão de Meio Ambiente e Desenvolvimento Sustentável",
+   "eventos": [
+    {
+     "data_hora": "2019-04-08T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 09/04/19 PÁG 36. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1763682",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-04-08T16:54",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CMADS.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2023-11-30T00:00",
+     "titulo": "Arquivamento",
+     "texto": "Em face da aprovação da Subemenda Substitutiva Global ao Projeto de Lei nº 11.247, de 2018, proposição principal, adotada pelo relator da Comissão de Minas e Energia, esta proposição apensada fica prejudicada, na forma do art. 191, do RICD (Sessão Deliberativa Extraordinária de 29/11/2023 - 13h55 - 251ª Sessão).",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 2.335/2015",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1193/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 27/02/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Dispõe sobre a divulgação dos incentivos para a instalação em propriedades rurais de sistemas de aproveitamento da energia solar e dos benefícios decorrentes do uso da tecnologia.",
+   "id": 2193315,
+   "situacao": "AGUARDANDO ENCAMINHAMENTO",
+   "codteor": "1715496"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1193/2019",
+     "tipo": "Texto original",
+     "codteor": "1715496"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 04/04/2019",
+     "tipo": "Despacho",
+     "data": "04/04/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-2335/2015. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "1727903"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

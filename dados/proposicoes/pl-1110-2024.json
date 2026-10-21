@@ -1,0 +1,371 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2424834,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.110/2024",
+  "ementa": "Altera a Lei nº 14.690, de 3 de outubro de 2023, para priorizar agentes das forças de segurança no Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil.",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2403388",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "08/04/2024"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   }
+  ],
+  "apresentacao": "2024-04-08",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Defesa e Segurança",
+   "Finanças Públicas e Orçamento"
+  ],
+  "keywords": "Alteração, Lei Federal, critério, prioridade, atendimento, Profissional da segurança pública, Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes (Desenrola Brasil)."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Aguardando Designação de Relator(a)",
+  "estado": "PARADA",
+  "orgao_sigla": "CFT",
+  "orgao_nome": "Comissão de Finanças e Tributação",
+  "desde": "2024-07-05",
+  "rotulo_tempo": "SEM RELATOR HÁ",
+  "rotulo_indicador": "DIAS SEM RELATOR NA CFT"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2024-04-08",
+   "fim": "2024-04-17",
+   "estado": "concluido",
+   "documento": {
+    "codteor": "2405315",
+    "nome": "DESPACHO"
+   }
+  },
+  {
+   "sigla": "CSPCCO",
+   "nome": "Segurança Pública e Combate ao Crime Organizado",
+   "papel": "Mérito",
+   "inicio": "2024-04-17",
+   "fim": "2024-07-02",
+   "estado": "concluido",
+   "comissao": true,
+   "documento": {
+    "codteor": "2442155",
+    "nome": "PARECER APROVADO",
+    "id": 2442989
+   }
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Finanças e Tributação",
+   "papel": "Mérito e Art. 54",
+   "inicio": "2024-07-05",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "CCJC",
+   "nome": "Constituição e Justiça e de Cidadania",
+   "papel": "Art. 54",
+   "estado": "pendente",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": {
+  "orgao_sigla": "CSPCCO",
+  "relator": {
+   "id": 220534,
+   "nome": "Dep. Fred Linhares",
+   "descricao": "Deputado Federal · REPUBLICANOS/DF",
+   "rotulo": "RELATOR(A) · CSPCCO"
+  },
+  "resumo_inicio": "Designação em 18/04/2024. Apresentou uma versão de parecer:",
+  "resumo_fim": "O último parecer foi aprovado na comissão.",
+  "pareceres": [
+   {
+    "sigla": "PRL 1",
+    "nome": "Parecer do Relator · PRL 1 CSPCCO",
+    "data": "24/06/2024 · aprovado",
+    "codteor": "2442155",
+    "aprovado": true,
+    "id": 2442989
+   }
+  ]
+ },
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-04-08T13:20",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 1110/2024 (Projeto de Lei), pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Altera a Lei nº 14.690, de 3 de outubro de 2023, para priorizar agentes das forças de segurança no Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2403388",
+      "nome": "Inteiro teor · PL 1110/2024",
+      "id": 2424834
+     }
+    },
+    {
+     "data_hora": "2024-04-16T12:49",
+     "titulo": "Distribuição",
+     "texto": "Às Comissões de Segurança Pública e Combate ao Crime Organizado; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2405315",
+      "nome": "Distribuição"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSPCCO",
+   "nome": "Comissão de Segurança Pública e Combate ao Crime Organizado",
+   "eventos": [
+    {
+     "data_hora": "2024-04-17T12:20",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSPCCO.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-04-17T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 18/04/2024 PAG 407 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2477905",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2024-04-18T00:00",
+     "titulo": "Designação de Relator(a)",
+     "texto": "Designado Relator, Dep. Fred Linhares (REPUBLIC-DF)",
+     "tipo": "marco"
+    },
+    {
+     "data_hora": "2024-04-22T00:00",
+     "titulo": "Abertura de Prazo",
+     "texto": "Prazo para Emendas ao Projeto (5 sessões a partir de 23/04/2024)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-05-08T21:36",
+     "titulo": "Encerramento de Prazo",
+     "texto": "Encerrado o prazo de 5 sessões para apresentação de emendas ao projeto (de 22/04/2024 a 08/05/2024). Não foram apresentadas emendas.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-06-24T17:13",
+     "titulo": "Recebimento - Relator(a)",
+     "texto": "Apresentação do PRL n. 1 CSPCCO (Parecer do Relator), pelo Deputado Fred Linhares (REPUBLIC/DF).",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2442155",
+      "nome": "PRL 1 CSPCCO",
+      "id": 2442989
+     }
+    },
+    {
+     "data_hora": "2024-06-24T17:13",
+     "titulo": "Parecer do(a) Relator(a)",
+     "texto": "Parecer do Relator, Dep. Fred Linhares (REPUBLIC-DF), pela aprovação.",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2442155",
+      "nome": "PRL 1 CSPCCO",
+      "id": 2442989
+     }
+    },
+    {
+     "data_hora": "2024-07-02T14:00",
+     "titulo": "Discussão da Materia pelos(as) Deputados(as)",
+     "texto": "Discutiu a Matéria o Dep. Capitão Alden (PL-BA).",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-07-02T14:00",
+     "titulo": "Aprovação do Parecer",
+     "texto": "Aprovado o Parecer.",
+     "tipo": "marco",
+     "etiqueta": "APROVADO"
+    }
+   ]
+  },
+  {
+   "sigla": "CFT",
+   "nome": "Comissão de Finanças e Tributação",
+   "eventos": [
+    {
+     "data_hora": "2024-07-05T08:29",
+     "titulo": "Publicação de Proposição",
+     "texto": "Parecer recebido para publicação. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-07-05T09:44",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CFT.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    },
+    {
+     "data_hora": "2024-07-05T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Parecer da Comissão de Segurança Pública e Combate ao Crime Organizado Publicado em avulso e no DCD 06/07/2024 PAG 1552, Letra A. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2848915",
+      "nome": "Publicação de Proposição"
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Designação de relator(a) na CFT",
+   "descricao": "Passo que destrava a tramitação na comissão."
+  },
+  {
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1110/2024",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 08/04/2024",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Altera a Lei nº 14.690, de 3 de outubro de 2023, para priorizar agentes das forças de segurança no Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil.",
+   "id": 2424834,
+   "situacao": "AGUARDANDO DESIGNAÇÃO DE RELATOR(A)",
+   "codteor": "2403388"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": [
+   {
+    "rotulo": "PARECERES, SUBSTITUTIVOS E VOTOS",
+    "plural": "pareceres, substitutivos e votos",
+    "itens": [
+     {
+      "sigla": "PRL 1 CSPCCO",
+      "tipo": "Parecer do Relator",
+      "data": "24/06/2024",
+      "id": 2442989,
+      "texto": "Parecer do Relator, Dep. Fred Linhares (REPUBLIC-DF), pela aprovação.",
+      "codteor": "2442155"
+     },
+     {
+      "sigla": "PAR 1",
+      "tipo": "Parecer de Comissão",
+      "data": "04/07/2024",
+      "id": 2446749,
+      "texto": "Altera a Lei nº 14.690, de 3 de outubro de 2023, para priorizar agentes das forças de segurança no Programa Emergencial de Renegociação de Dívidas de Pessoas Físicas Inadimplentes – Desenrola Brasil.",
+      "codteor": "2449124"
+     }
+    ]
+   }
+  ]
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1110/2024",
+     "tipo": "Texto original",
+     "codteor": "2403388"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": [
+    "PRL 1 CSPCCO",
+    "PAR 1"
+   ]
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Distribuição de 16/04/2024",
+     "tipo": "Despacho",
+     "data": "16/04/2024",
+     "autor": "MESA",
+     "texto": "Às Comissões de Segurança Pública e Combate ao Crime Organizado; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 IIRegime de Tramitação: Ordinário (Art. 151, III, RICD)",
+     "codteor": "2405315"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

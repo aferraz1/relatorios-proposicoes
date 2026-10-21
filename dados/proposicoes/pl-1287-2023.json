@@ -1,0 +1,224 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2352233,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.287/2023",
+  "ementa": "Acrescenta inciso ao art. 30 da Lei nº 13.756, de 12 dezembro de 2018, para que 0,5% do produto da arrecadação da loteria de apostas de quota fixa em meio físico ou virtual seja destinado a programas e projetos de prevenção, controle e combate ao câncer, e em ações destinadas ao tratamento adequado da doença.",
+  "explicacao": "Tramita em conjunto com o PL 3.987/2015, à qual está apensada.",
+  "codteor_inteiro_teor": "2246562",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "21/03/2023"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Prioridade (Art. 151, II, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 3.987/2015"
+   }
+  ],
+  "apresentacao": "2023-03-21",
+  "rotulo_apreciacao": "REGIME PRIORIDADE (ART. 151, II, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Saúde"
+  ],
+  "keywords": "Alteração, Lei Federal, destinação, percentagem, produto de arrecadação, Apostas de Quota Fixa, programa (administração), projeto (administração), prevenção, controle, combate, câncer, procedimento, tratamento, doença."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CSAUDE",
+  "orgao_nome": "Comissão de Saúde",
+  "desde": "2023-04-27",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2023-03-21",
+   "fim": "2023-04-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2023-04-27",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2023-03-21T17:12",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 1287/2023, pelo Deputado Pedro Lucas Fernandes (UNIÃO/MA), que \"Acrescenta inciso ao art. 30 da Lei nº 13.756, de 12 dezembro de 2018, para que 0,5% do produto da arrecadação da loteria de apostas de quota fixa em meio físico ou virtual seja destinado a programas e projetos de prevenção, controle e combate ao câncer, e em ações destinadas ao tratamento adequado da doença\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "2246562",
+      "nome": "Inteiro teor · PL 1287/2023",
+      "id": 2352233
+     }
+    },
+    {
+     "data_hora": "2023-04-26T16:30",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-3987/2015. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "2254000",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2023-04-27T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 28/04/2023 PAG 499 (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "2383642",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2023-04-28T07:33",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSAUDE.",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-08-12T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Dr. Francisco (PT-PI), para o PL 5073/2016, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 3.987/2015",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CSAUDE",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1287/2023",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 21/03/2023",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Acrescenta inciso ao art. 30 da Lei nº 13.756, de 12 dezembro de 2018, para que 0,5% do produto da arrecadação da loteria de apostas de quota fixa em meio físico ou virtual seja destinado a programas e projetos de prevenção, controle e combate ao câncer, e em ações destinadas ao tratamento adequado da doença.",
+   "id": 2352233,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "2246562"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1287/2023",
+     "tipo": "Texto original",
+     "codteor": "2246562"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 26/04/2023",
+     "tipo": "Despacho",
+     "data": "26/04/2023",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-3987/2015. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Prioridade (Art. 151, II, RICD)",
+     "codteor": "2254000"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

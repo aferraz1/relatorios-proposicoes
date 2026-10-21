@@ -1,0 +1,231 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2254958,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 3.243/2020",
+  "ementa": "Dispõe sobre a concepção do Portal Nacional de Preços para Produtos, Equipamentos e Serviços de Qualquer Natureza a ser utilizado como referência de valor monetário pela União, Estados e Municípios para compras ou contratações quando em situação de emergência ou em estado de calamidade pública.",
+  "explicacao": "Tramita em conjunto com o PL 3.137/2020, à qual está apensada.",
+  "codteor_inteiro_teor": "1902834",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "10/06/2020"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 3.137/2020"
+   }
+  ],
+  "apresentacao": "2020-06-10",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Administração Pública"
+  ],
+  "keywords": "Criação, Portal Nacional de Preços para Produtos, Equipamentos e Serviços de Qualquer Natureza Voltado à Situações de Emergência ou de Estado de Calamidade Pública , Preço de referência, órgão público, compra, produtos, equipamento, contratação, serviços, dispensa de licitação, situação de emergência, calamidade pública, pandemia, coronavírus"
+ },
+ "autor": {
+  "id": 75431,
+  "nome": "Dep. Maurício Dziedricki",
+  "descricao": "Deputado Federal · PODE/RS",
+  "rotulo": "AUTOR · 4 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Recebimento",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "CTRAB",
+  "orgao_nome": "Comissão de Trabalho",
+  "desde": "2020-12-07",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2020-06-10",
+   "fim": "2020-06-10",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Trabalho",
+   "papel": "Mérito",
+   "inicio": "2020-12-07",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2020-06-10",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2020-06-10T11:26",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 3243/2020, pelo Deputado Maurício Dziedricki (PTB/RS) e outros, que \"Dispõe sobre a concepção do Portal Nacional de Preços para Produtos, Equipamentos e Serviços de Qualquer Natureza a ser utilizado como referência de valor monetário pela União, Estados e Municípios para compras ou contratações quando em situação de emergência ou em estado de calamidade pública\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1902834",
+      "nome": "Inteiro teor · PL 3243/2020",
+      "id": 2254958
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2020-12-03T10:37",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-3137/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1928685",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CTRAB",
+   "nome": "Comissão de Trabalho",
+   "eventos": [
+    {
+     "data_hora": "2020-12-07T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 08/12/20 PÅG 1078. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1957738",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2021-03-10T10:54",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CTASP, apensado ao PL-3137/2020",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 3.137/2020",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CTRAB",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 3243/2020",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 10/06/2020",
+   "autor": "Dep. Maurício Dziedricki (PODE/RS)",
+   "texto": "Dispõe sobre a concepção do Portal Nacional de Preços para Produtos, Equipamentos e Serviços de Qualquer Natureza a ser utilizado como referência de valor monetário pela União, Estados e Municípios para compras ou contratações quando em situação de emergência ou em estado de calamidade pública.",
+   "id": 2254958,
+   "situacao": "RECEBIMENTO",
+   "codteor": "1902834"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Maurício Dziedricki (PODE/RS)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 3243/2020",
+     "tipo": "Texto original",
+     "codteor": "1902834"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 03/12/2020",
+     "tipo": "Despacho",
+     "data": "03/12/2020",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-3137/2020. Proposição Sujeita à Apreciação do Plenário. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1928685"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

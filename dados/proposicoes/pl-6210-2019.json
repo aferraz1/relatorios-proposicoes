@@ -1,0 +1,241 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2230961,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 6.210/2019",
+  "ementa": "Institui as diretrizes nacionais de promoção e defesa dos direitos humanos dos profissionais de segurança pública, na forma que menciona.",
+  "explicacao": "Tramita em conjunto com o PL 797/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1838339",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "27/11/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Urgência (Art. 155, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Plenário"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 797/2019"
+   }
+  ],
+  "apresentacao": "2019-11-27",
+  "rotulo_apreciacao": "REGIME URGÊNCIA (ART. 155, RICD) · APRECIAÇÃO PLENÁRIO",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Defesa e Segurança",
+   "Direitos Humanos e Minorias"
+  ],
+  "keywords": "Criação, Diretrizes Nacionais de Promoção e Defesa dos Direitos Humanos dos Profissionais de Segurança Pública, procedimento, recursos financeiros."
+ },
+ "autor": {
+  "id": 171617,
+  "nome": "Dep. Paulão",
+  "descricao": "Deputado Federal · PT/AL",
+  "rotulo": "AUTOR · 77 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Encaminhamento",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "PLEN",
+  "orgao_nome": "Plenário",
+  "desde": "2022-11-22",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-11-27",
+   "fim": "2019-11-27",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Saúde",
+   "papel": "Mérito",
+   "inicio": "2019-12-03",
+   "fim": "2019-12-05",
+   "estado": "concluido",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-11-27",
+   "estado": "atual"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-11-27T17:33",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 6210/2019, pelo Deputado Paulão (PT/AL), que \"Institui as diretrizes nacionais de promoção e defesa dos direitos humanos dos profissionais de segurança pública, na forma que menciona\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1838339",
+      "nome": "Inteiro teor · PL 6210/2019",
+      "id": 2230961
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-12-02T16:56",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-797/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1839632",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CSAUDE",
+   "nome": "Comissão de Saúde",
+   "eventos": [
+    {
+     "data_hora": "2019-12-03T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 04/12/19 PÁG 350. (CCP)",
+     "tipo": "rotina",
+     "documento": {
+      "codteor": "1870572",
+      "nome": "Publicação de Proposição"
+     }
+    },
+    {
+     "data_hora": "2019-12-05T10:06",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CSSF.",
+     "tipo": "rotina"
+    }
+   ]
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2022-11-22T00:00",
+     "titulo": "Arquivamento",
+     "texto": "Declarado prejudicado em face da aprovação em Plenário do Substitutivo ao Projeto de Lei nº 4.815, de 2019, adotado pelo relator da Comissão de Trabalho, de Administração e Serviço Público (Sessão Deliberativa Extraordinária de 22/11/2022 - 13h55 - 154ª Sessão).",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 797/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 6210/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 27/11/2019",
+   "autor": "Dep. Paulão (PT/AL)",
+   "texto": "Institui as diretrizes nacionais de promoção e defesa dos direitos humanos dos profissionais de segurança pública, na forma que menciona.",
+   "id": 2230961,
+   "situacao": "AGUARDANDO ENCAMINHAMENTO",
+   "codteor": "1838339"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Paulão (PT/AL)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 6210/2019",
+     "tipo": "Texto original",
+     "codteor": "1838339"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 02/12/2019",
+     "tipo": "Despacho",
+     "data": "02/12/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-797/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1839632"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

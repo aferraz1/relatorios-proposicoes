@@ -1,0 +1,161 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2435229,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 1.967/2024",
+  "ementa": "Dispõe sobre a permissão de saque do saldo do FGTS para os residentes do Estado do Rio Grande do Sul no ano de 2024",
+  "explicacao": "",
+  "codteor_inteiro_teor": "2426774",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "21/05/2024"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "."
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Indefinida"
+   }
+  ],
+  "apresentacao": "2024-05-21",
+  "rotulo_apreciacao": "REGIME . · APRECIAÇÃO INDEFINIDA",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: após os pareceres das comissões, a proposição é apreciada pelo Plenário e, aprovada, segue ao Senado Federal.",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Trabalho e Emprego"
+  ],
+  "keywords": "Garantia, saque, Fundo de Garantia do Tempo de Serviço (FGTS), residente, Rio Grande do Sul, decorrência, enchente, calamidade pública."
+ },
+ "autor": {
+  "id": 204536,
+  "nome": "Dep. Kim Kataguiri",
+  "descricao": "Deputado Federal · MISSÃO/SP",
+  "rotulo": "AUTOR · 11 SIGNATÁRIOS"
+ },
+ "situacao": {
+  "descricao": "Aguardando Despacho do Presidente da Câmara dos Deputados (Análise)",
+  "estado": "EM ANDAMENTO",
+  "orgao_sigla": "MESA",
+  "orgao_nome": "Mesa Diretora da Câmara dos Deputados",
+  "desde": "2024-05-21",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2024-05-21",
+   "estado": "atual"
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2024-05-21T17:51",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do PL n. 1967/2024 (Projeto de Lei), pelo Deputado Kim Kataguiri (UNIÃO/SP) e outros, que \"Dispõe sobre a permissão de saque do saldo do FGTS para os residentes do Estado do Rio Grande do Sul no ano de 2024\".",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL",
+     "documento": {
+      "codteor": "2426774",
+      "nome": "Inteiro teor · PL 1967/2024",
+      "id": 2435229
+     }
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 1967/2024",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 21/05/2024",
+   "autor": "Dep. Kim Kataguiri (MISSÃO/SP)",
+   "texto": "Dispõe sobre a permissão de saque do saldo do FGTS para os residentes do Estado do Rio Grande do Sul no ano de 2024",
+   "id": 2435229,
+   "situacao": "AGUARDANDO DESPACHO DO PRESIDENTE DA CÂMARA DOS DEPUTADOS (ANÁLISE)",
+   "codteor": "2426774"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Kim Kataguiri (MISSÃO/SP)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 1967/2024",
+     "tipo": "Texto original",
+     "codteor": "2426774"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": []
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "data_consulta": "2026-10-21",
+ "proposicao": {
+  "id": 2191410,
+  "casa": "Câmara dos Deputados",
+  "identificacao": "PL 539/2019",
+  "ementa": "Institui a modalidade de pré-pagamento do consumo de energia elétrica:",
+  "explicacao": "Tramita em conjunto com o PL 151/2019, à qual está apensada.",
+  "codteor_inteiro_teor": "1708316",
+  "metadados": [
+   {
+    "rotulo": "APRESENTAÇÃO",
+    "valor": "06/02/2019"
+   },
+   {
+    "rotulo": "REGIME",
+    "valor": "Ordinário (Art. 151, III, RICD)"
+   },
+   {
+    "rotulo": "APRECIAÇÃO",
+    "valor": "Conclusiva pelas comissões"
+   },
+   {
+    "rotulo": "APENSADA A",
+    "valor": "PL 151/2019"
+   }
+  ],
+  "apresentacao": "2019-02-06",
+  "rotulo_apreciacao": "REGIME ORDINÁRIO (ART. 151, III, RICD) · APRECIAÇÃO CONCLUSIVA PELAS COMISSÕES",
+  "nota_apreciacao": "Etapas na Câmara dos Deputados conforme o RICD: apreciação conclusiva pelas comissões (art. 24, II). Concluída a última comissão, a Mesa envia o projeto ao Senado Federal, salvo recurso de 1/10 dos deputados para apreciação pelo Plenário (arts. 58, § 1º, e 132, § 2º).",
+  "emendas_apresentadas": 0,
+  "temas": [
+   "Direito e Defesa do Consumidor",
+   "Energia, Recursos Hídricos e Minerais"
+  ],
+  "keywords": "Normatização, modalidade, energia elétrica pré-paga."
+ },
+ "autor": {
+  "id": 122974,
+  "nome": "Dep. Pedro Lucas Fernandes",
+  "descricao": "Deputado Federal · UNIÃO/MA",
+  "rotulo": "AUTOR · PROPONENTE"
+ },
+ "situacao": {
+  "descricao": "Tramitando em Conjunto",
+  "estado": "APENSADA",
+  "orgao_sigla": "CDC",
+  "orgao_nome": "Comissão de Defesa do Consumidor",
+  "desde": "2019-02-12",
+  "rotulo_tempo": "NESTA SITUAÇÃO HÁ",
+  "rotulo_indicador": "DIAS NA SITUAÇÃO ATUAL"
+ },
+ "estagios": [
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora",
+   "papel": "Apresentação, despacho e publicação",
+   "inicio": "2019-02-06",
+   "fim": "2019-02-06",
+   "estado": "concluido"
+  },
+  {
+   "sigla": "CDC",
+   "nome": "Defesa do Consumidor",
+   "papel": "Mérito",
+   "inicio": "2019-02-12",
+   "estado": "atual",
+   "comissao": true
+  },
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "papel": "Discussão e votação da matéria",
+   "inicio": "2019-02-06",
+   "estado": "pendente"
+  },
+  {
+   "sigla": "REMESSA",
+   "nome": "Mesa Diretora",
+   "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
+   "estado": "pendente"
+  }
+ ],
+ "relatoria": null,
+ "fases": [
+  {
+   "sigla": "PLEN",
+   "nome": "Plenário",
+   "eventos": [
+    {
+     "data_hora": "2019-02-06T18:30",
+     "titulo": "Apresentação de Proposição",
+     "texto": "Apresentação do Projeto de Lei n. 539/2019, pelo Deputado Pedro Lucas Fernandes (PTB-MA), que: \"Institui a modalidade de pré-pagamento do consumo de energia elétrica:\".",
+     "tipo": "marco",
+     "etiqueta": "INÍCIO",
+     "documento": {
+      "codteor": "1708316",
+      "nome": "Inteiro teor · PL 539/2019",
+      "id": 2191410
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "MESA",
+   "nome": "Mesa Diretora da Câmara dos Deputados",
+   "eventos": [
+    {
+     "data_hora": "2019-02-12T11:06",
+     "titulo": "Despacho de Apensação",
+     "texto": "Apense-se à(ao) PL-151/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "tipo": "marco",
+     "documento": {
+      "codteor": "1708815",
+      "nome": "Despacho de Apensação"
+     }
+    }
+   ]
+  },
+  {
+   "sigla": "CDC",
+   "nome": "Comissão de Defesa do Consumidor",
+   "eventos": [
+    {
+     "data_hora": "2019-02-12T16:29",
+     "titulo": "Recebimento",
+     "texto": "Recebimento pela CDC, apensado ao PL-151/2019",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2019-02-12T00:00",
+     "titulo": "Publicação de Proposição",
+     "texto": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 13/02/2019. (CCP)",
+     "tipo": "rotina"
+    },
+    {
+     "data_hora": "2024-03-14T00:00",
+     "titulo": "Notificações",
+     "texto": "Designado Relator, Dep. Felipe Carreras (PSB-PE), para o PL 151/2019, ao qual esta proposição está apensada.",
+     "tipo": "atual",
+     "etiqueta": "ESTÁGIO ATUAL"
+    }
+   ]
+  }
+ ],
+ "proximos_marcos": [
+  {
+   "titulo": "Andamento do PL 151/2019",
+   "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CDC",
+   "descricao": "Mérito."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+  },
+  {
+   "titulo": "Prazo de recurso ao Plenário",
+   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+  },
+  {
+   "titulo": "Remessa ao Senado Federal",
+   "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."
+  }
+ ],
+ "arvore": {
+  "raiz": {
+   "sigla": "PL 539/2019",
+   "tipo": "Projeto de Lei",
+   "data": "Apresentado em 06/02/2019",
+   "autor": "Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+   "texto": "Institui a modalidade de pré-pagamento do consumo de energia elétrica:",
+   "id": 2191410,
+   "situacao": "TRAMITANDO EM CONJUNTO",
+   "codteor": "1708316"
+  },
+  "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
+  "apensados": [],
+  "grupos": []
+ },
+ "anexos": [
+  {
+   "titulo": "Inteiro Teor",
+   "subtitulo": "Texto original da proposição",
+   "selo": "PDF",
+   "itens": [
+    {
+     "sigla": "Inteiro teor · PL 539/2019",
+     "tipo": "Texto original",
+     "codteor": "1708316"
+    }
+   ]
+  },
+  {
+   "titulo": "Mensagens, Ofícios e Requerimentos",
+   "subtitulo": "Requerimentos vinculados à proposição",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Pareceres, Substitutivos e Votos",
+   "subtitulo": "Pareceres, substitutivos e votos das comissões",
+   "referencias": []
+  },
+  {
+   "titulo": "Emendas",
+   "subtitulo": "Emendas ao projeto e ao substitutivo",
+   "referencias": [],
+   "mensagem_vazio": "Nenhuma emenda apresentada até {data_consulta}."
+  },
+  {
+   "titulo": "Destaques",
+   "subtitulo": "Destaques para votação em separado",
+   "referencias": []
+  },
+  {
+   "titulo": "Histórico de Despachos",
+   "subtitulo": "Despachos da Mesa Diretora",
+   "itens": [
+    {
+     "sigla": "Despacho de Apensação de 12/02/2019",
+     "tipo": "Despacho",
+     "data": "12/02/2019",
+     "autor": "MESA",
+     "texto": "Apense-se à(ao) PL-151/2019. Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II. Regime de Tramitação: Ordinária (Art. 151, III, RICD)",
+     "codteor": "1708815"
+    }
+   ]
+  },
+  {
+   "titulo": "Redação Final",
+   "subtitulo": "Texto final aprovado",
+   "referencias": [],
+   "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
+  }
+ ]
+}
