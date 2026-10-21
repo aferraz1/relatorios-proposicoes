@@ -102,7 +102,8 @@ h1, h2, p { margin: 0; }
   background: var(--campo);
 }
 .opcoes-linha { display: flex; flex-wrap: wrap; gap: var(--space-1); }
-.opcoes-linha .opcao { flex: 1 1 80px; }
+.opcoes-linha .opcao { flex: 1 1 auto; }
+.opcoes-linha .opcao__texto { overflow-wrap: normal; white-space: nowrap; }
 
 .opcao {
   flex-shrink: 0;
