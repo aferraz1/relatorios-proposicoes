@@ -75,13 +75,6 @@
    "comissao": true
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2021-05-20",
-   "estado": "pendente"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
@@ -94,10 +87,10 @@
    "id": 157130,
    "nome": "Dep. Túlio Gadêlha",
    "descricao": "Deputado Federal · PSD/PE",
-   "rotulo": "RELATOR(A) · CMADS"
+   "rotulo": "EX-RELATOR(A) · CMADS"
   },
-  "resumo_inicio": "Designação em 05/11/2019. Apresentou 2 versões de parecer:",
-  "resumo_fim": "",
+  "resumo_inicio": "Designação em 23/08/2023. Apresentou 2 versões de parecer:",
+  "resumo_fim": "Deixou a relatoria em 04/03/2026 sem parecer votado; a comissão aguarda nova designação.",
   "pareceres": [
    {
     "sigla": "PRL 1",
@@ -434,10 +427,6 @@
   {
    "titulo": "Parecer da CCJC",
    "descricao": "Art. 54."
-  },
-  {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Prazo de recurso ao Plenário",

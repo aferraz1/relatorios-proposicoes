@@ -61,10 +61,9 @@
   {
    "sigla": "CSAUDE",
    "nome": "Saúde",
-   "papel": "Mérito",
+   "papel": "Mérito · parecer em Plenário",
    "inicio": "2019-10-11",
-   "fim": "2019-10-11",
-   "estado": "concluido",
+   "estado": "pendente",
    "comissao": true
   },
   {
@@ -185,6 +184,10 @@
   {
    "titulo": "Andamento do PL 5.642/2016",
    "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CSAUDE",
+   "descricao": "Mérito · parecer em Plenário."
   },
   {
    "titulo": "Votação em Plenário",

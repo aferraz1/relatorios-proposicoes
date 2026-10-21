@@ -86,13 +86,6 @@
    "comissao": true
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2020-06-12",
-   "estado": "pendente"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
@@ -225,10 +218,6 @@
    "descricao": "Mérito."
   },
   {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
-  },
-  {
    "titulo": "Prazo de recurso ao Plenário",
    "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
   },
@@ -251,7 +240,7 @@
   "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
   "apensados": [
    {
-    "sigla": "PL 2512/2022 RGPS",
+    "sigla": "PL 2512/2022",
     "tipo": "Projeto de Lei",
     "data": "23/09/2022",
     "id": 2335163,
@@ -260,7 +249,7 @@
     "situacao": "TRAMITANDO EM CONJUNTO"
    },
    {
-    "sigla": "PL 3011/2022 RGPS",
+    "sigla": "PL 3011/2022",
     "tipo": "Projeto de Lei",
     "data": "15/12/2022",
     "id": 2343381,

@@ -225,7 +225,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "2119823",
-      "nome": "REQ 1/2021 CIEE",
+      "nome": "REQ 1/2021",
       "id": 2310913
      }
     },
@@ -236,7 +236,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "2119826",
-      "nome": "REQ 2/2021 CNA",
+      "nome": "REQ 2/2021",
       "id": 2310914
      }
     },
@@ -247,7 +247,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "2119830",
-      "nome": "REQ 3/2021 SENAC",
+      "nome": "REQ 3/2021",
       "id": 2310915
      }
     },
@@ -280,7 +280,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "2119845",
-      "nome": "REQ 6/2021 MPT",
+      "nome": "REQ 6/2021",
       "id": 2310920
      }
     },
@@ -2129,7 +2129,7 @@
       "codteor": "2125736"
      },
      {
-      "sigla": "EMC 61 NR",
+      "sigla": "EMC 61",
       "tipo": "Emenda na Comissão",
       "data": "15/12/2021",
       "id": 2312679,
@@ -2137,7 +2137,7 @@
       "codteor": "2125742"
      },
      {
-      "sigla": "EMC 62 NR",
+      "sigla": "EMC 62",
       "tipo": "Emenda na Comissão",
       "data": "15/12/2021",
       "id": 2312680,
@@ -3433,7 +3433,7 @@
       "codteor": "2959152"
      },
      {
-      "sigla": "EMP 7 CLT",
+      "sigla": "EMP 7",
       "tipo": "Emenda de Plenário a Projeto com Urgência",
       "data": "16/07/2025",
       "id": 2537650,
@@ -3465,7 +3465,7 @@
       "codteor": "2959418"
      },
      {
-      "sigla": "EMP 11 CLT",
+      "sigla": "EMP 11",
       "tipo": "Emenda de Plenário a Projeto com Urgência",
       "data": "06/08/2025",
       "id": 2541270,
@@ -3829,7 +3829,7 @@
       "codteor": "2115399"
      },
      {
-      "sigla": "REQ 1/2021 CIEE",
+      "sigla": "REQ 1/2021",
       "tipo": "Requerimento de Audiência Pública",
       "data": "07/12/2021",
       "id": 2310913,
@@ -3837,7 +3837,7 @@
       "codteor": "2119823"
      },
      {
-      "sigla": "REQ 2/2021 CNA",
+      "sigla": "REQ 2/2021",
       "tipo": "Requerimento de Audiência Pública",
       "data": "07/12/2021",
       "id": 2310914,
@@ -3845,7 +3845,7 @@
       "codteor": "2119826"
      },
      {
-      "sigla": "REQ 3/2021 SENAC",
+      "sigla": "REQ 3/2021",
       "tipo": "Requerimento de Audiência Pública",
       "data": "07/12/2021",
       "id": 2310915,
@@ -3869,7 +3869,7 @@
       "codteor": "2119839"
      },
      {
-      "sigla": "REQ 6/2021 MPT",
+      "sigla": "REQ 6/2021",
       "tipo": "Requerimento de Audiência Pública",
       "data": "07/12/2021",
       "id": 2310920,
@@ -3893,7 +3893,7 @@
       "codteor": "2122813"
      },
      {
-      "sigla": "REQ 1/2022 ANAMATRA",
+      "sigla": "REQ 1/2022",
       "tipo": "Requerimento de Audiência Pública",
       "data": "08/02/2022",
       "id": 2314285,
@@ -5366,15 +5366,15 @@
    "subtitulo": "Requerimentos vinculados à proposição",
    "referencias": [
     "REQ 2588/2021",
-    "REQ 1/2021 CIEE",
-    "REQ 2/2021 CNA",
-    "REQ 3/2021 SENAC",
+    "REQ 1/2021",
+    "REQ 2/2021",
+    "REQ 3/2021",
     "REQ 4/2021",
     "REQ 5/2021",
-    "REQ 6/2021 MPT",
+    "REQ 6/2021",
     "REQ 7/2021",
     "REQ 8/2021",
-    "REQ 1/2022 ANAMATRA",
+    "REQ 1/2022",
     "REQ 3/2022",
     "REQ 4/2022",
     "REQ 5/2022",
@@ -5490,8 +5490,8 @@
     "EMC 58",
     "EMC 59",
     "EMC 60",
-    "EMC 61 NR",
-    "EMC 62 NR",
+    "EMC 61",
+    "EMC 62",
     "EMC 63",
     "EMC 64",
     "EMC 65",
@@ -5653,11 +5653,11 @@
     "EMP 4",
     "EMP 5",
     "EMP 6",
-    "EMP 7 CLT",
+    "EMP 7",
     "EMP 8",
     "EMP 9",
     "EMP 10",
-    "EMP 11 CLT",
+    "EMP 11",
     "EMP 12",
     "EMP 13",
     "EMP 14",

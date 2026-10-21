@@ -96,25 +96,11 @@
    "comissao": true
   },
   {
-   "sigla": "CICS",
-   "nome": "Indústria, Comércio e Serviços",
-   "papel": "Mérito",
-   "estado": "pendente",
-   "comissao": true
-  },
-  {
    "sigla": "CCJC",
    "nome": "Constituição e Justiça e de Cidadania",
    "papel": "Art. 54",
    "estado": "pendente",
    "comissao": true
-  },
-  {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2022-11-09",
-   "estado": "pendente"
   },
   {
    "sigla": "REMESSA",
@@ -131,7 +117,7 @@
    "descricao": "Deputado Federal · UNIÃO/BA",
    "rotulo": "RELATOR(A) · CESPO"
   },
-  "resumo_inicio": "Designação em 31/10/2023. Apresentou 3 versões de parecer:",
+  "resumo_inicio": "Designação em 19/03/2025. Apresentou 3 versões de parecer:",
   "resumo_fim": "O último parecer foi aprovado na comissão.",
   "pareceres": [
    {
@@ -597,16 +583,8 @@
    "descricao": "Mérito e Art. 54."
   },
   {
-   "titulo": "Parecer da CICS",
-   "descricao": "Mérito."
-  },
-  {
    "titulo": "Parecer da CCJC",
    "descricao": "Art. 54."
-  },
-  {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Prazo de recurso ao Plenário",

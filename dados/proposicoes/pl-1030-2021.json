@@ -65,13 +65,6 @@
    "comissao": true
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2021-03-24",
-   "estado": "pendente"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
@@ -206,10 +199,6 @@
   {
    "titulo": "Parecer da CSAUDE",
    "descricao": "Mérito."
-  },
-  {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Prazo de recurso ao Plenário",

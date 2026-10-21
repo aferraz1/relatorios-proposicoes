@@ -77,13 +77,6 @@
    "comissao": true
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2021-02-03",
-   "estado": "pendente"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
@@ -96,10 +89,10 @@
    "id": 204536,
    "nome": "Dep. Kim Kataguiri",
    "descricao": "Deputado Federal · MISSÃO/SP",
-   "rotulo": "RELATOR(A) · CTRAB"
+   "rotulo": "EX-RELATOR(A) · CTRAB"
   },
   "resumo_inicio": "Designação em 19/05/2021.",
-  "resumo_fim": "",
+  "resumo_fim": "Deixou a relatoria em 29/10/2021 sem parecer votado; a comissão aguarda nova designação.",
   "pareceres": []
  },
  "fases": [
@@ -250,10 +243,6 @@
   {
    "titulo": "Parecer da CASP",
    "descricao": "Mérito."
-  },
-  {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Prazo de recurso ao Plenário",

@@ -85,13 +85,6 @@
    "comissao": true
   },
   {
-   "sigla": "CASP",
-   "nome": "Administração e Serviço Público",
-   "papel": "Mérito",
-   "estado": "pendente",
-   "comissao": true
-  },
-  {
    "sigla": "CFT",
    "nome": "Finanças e Tributação",
    "papel": "Mérito e Art. 54",
@@ -104,13 +97,6 @@
    "papel": "Art. 54",
    "estado": "pendente",
    "comissao": true
-  },
-  {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2020-03-30",
-   "estado": "pendente"
   },
   {
    "sigla": "REMESSA",
@@ -127,7 +113,7 @@
    "descricao": "Deputada Federal · PT/BA",
    "rotulo": "RELATOR(A) · CICS"
   },
-  "resumo_inicio": "Designação em 17/09/2024.",
+  "resumo_inicio": "Designação em 21/05/2026.",
   "resumo_fim": "",
   "pareceres": []
  },
@@ -421,20 +407,12 @@
    "descricao": "Mérito."
   },
   {
-   "titulo": "Parecer da CASP",
-   "descricao": "Mérito."
-  },
-  {
    "titulo": "Parecer da CFT",
    "descricao": "Mérito e Art. 54."
   },
   {
    "titulo": "Parecer da CCJC",
    "descricao": "Art. 54."
-  },
-  {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Prazo de recurso ao Plenário",
@@ -459,7 +437,7 @@
   "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
   "apensados": [
    {
-    "sigla": "PL 2214/2024 PSE",
+    "sigla": "PL 2214/2024",
     "tipo": "Projeto de Lei",
     "data": "05/06/2024",
     "id": 2438466,
