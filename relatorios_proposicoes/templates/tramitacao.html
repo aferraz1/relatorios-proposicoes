@@ -164,7 +164,7 @@
                 <span class="parecer__nome">{{ p.nome }}</span>
                 <span class="rotulo rotulo--suave">{{ p.data }}</span>
               </span>
-              <span class="rotulo parecer__status">{{ "APROVADO" if p.aprovado else "SUPERADO" }}</span>
+              <span class="rotulo parecer__status">{{ p.rotulo_status }}</span>
             </a>
             {% endfor %}
           </div>

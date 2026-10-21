@@ -153,6 +153,12 @@ class Parecer:
     codteor: str
     aprovado: bool = False
     id: int | None = None
+    status: str | None = None
+
+    @property
+    def rotulo_status(self) -> str:
+        """Situação exibida no cartão: a informada nos dados, ou APROVADO/SUPERADO."""
+        return self.status or ("APROVADO" if self.aprovado else "SUPERADO")
 
     @property
     def url(self) -> str:
