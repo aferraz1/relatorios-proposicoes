@@ -26,6 +26,7 @@ from typing import Any, Callable
 from relatorios_proposicoes.sumario import nome_arquivo as nome_relatorio
 
 API = "https://dadosabertos.camara.leg.br/api/v2"
+SECOES_MANUAIS = ("versao_valida", "analise")
 
 # Tipos de órgão (referencias/orgaos/codTipoOrgao).
 TIPOS_COMISSAO = {2, 3, 13000}
@@ -184,15 +185,20 @@ def comissoes_do_despacho(despacho: str, apelidos: dict[str, str]) -> list[tuple
     return [(s, p) for _, s, p in achados if not (s in vistos or vistos.add(s))]
 
 
-def sigla_acessoria(item: dict[str, Any], ficha: dict[str, Any], orgao_numerador: str | None) -> str:
-    """Sigla de documento acessório, como ``PRL 1 CCTI`` ou ``REQ 29/2025 CCTI``."""
+def sigla_acessoria(item: dict[str, Any], ficha: dict[str, Any], orgao_numerador: str | None,
+                    orgaos: set[str] | None = None) -> str:
+    """Sigla de documento acessório, como ``PRL 1 CCTI`` ou ``REQ 29/2025 CCTI``.
+
+    Sem órgão numerador, procura na ementa uma sigla entre parênteses; com ``orgaos``, só aceita
+    siglas desse conjunto (evita tomar ``(FDNE)`` ou ``(SUS)`` por comissão).
+    """
     base = f"{item['siglaTipo']} {item['numero']}"
     if str(item.get("ano") or "0") != "0":
         base += f"/{item['ano']}"
     orgao = orgao_numerador
     if not orgao or orgao in ("MESA", "PLEN"):
-        m = re.search(r"\(([A-Z][A-Z0-9]{1,})\)", ficha.get("ementa") or item.get("ementa") or "")
-        orgao = m.group(1) if m else None
+        candidatas = re.findall(r"\(([A-Z][A-Z0-9]{1,})\)", ficha.get("ementa") or item.get("ementa") or "")
+        orgao = next((c for c in candidatas if orgaos is None or c in orgaos), None)
     return f"{base} {orgao}" if orgao else base
 
 
@@ -288,10 +294,11 @@ class MontadorRelatorio:
             autor["rotulo"] = f"AUTOR · {len(autores)} SIGNATÁRIOS"
 
         # Documentos acessórios (relacionadas), com codteor e órgão.
+        orgaos_conhecidos = set(self.apelidos.values()) | {o["sigla"] for _, o in efetivos}
         def detalhar(item: dict[str, Any]) -> dict[str, Any]:
             f = api.obter(f"/proposicoes/{item['id']}")
             numerador = self.orgao(f.get("uriOrgaoNumerador"))["sigla"] if f.get("uriOrgaoNumerador") else None
-            return {"item": item, "ficha": f, "sigla": sigla_acessoria(item, f, numerador)}
+            return {"item": item, "ficha": f, "sigla": sigla_acessoria(item, f, numerador, orgaos_conhecidos)}
 
         with ThreadPoolExecutor(8) as ex:
             docs = list(ex.map(detalhar, relacionadas))
@@ -416,21 +423,30 @@ class MontadorRelatorio:
             comissoes += [s for s, _ in previstas if s not in comissoes]
         for sig in comissoes:
             v = visitas.get(sig)
+            deliberou = bool(v) and any(t["descricaoTramitacao"].startswith("Aprovação do Parecer") for t in v["tramites"])
+            papel = papeis.get(sig, "Mérito")
             if sig == atual_sigla and not no_senado:
                 estado = "atual"
+            elif v and not deliberou and atual_sigla == "PLEN" and not no_senado:
+                # Em regime de urgência, o parecer da comissão é dado em Plenário.
+                estado, papel = "pendente", f"{papel} · parecer em Plenário"
             elif v:
                 estado = "concluido"
             else:
                 estado = "pendente"
             nome = v["orgao"].get("apelido") or v["orgao"]["nome"] if v else next((a for a, s in self.apelidos.items() if s == sig), sig)
             estagios.append({
-                "sigla": sig, "nome": nome, "papel": papeis.get(sig, "Mérito"),
+                "sigla": sig, "nome": nome, "papel": papel,
                 "inicio": v["inicio"] if v else None, "fim": v["fim"] if v and estado == "concluido" else None,
                 "estado": estado, "comissao": True,
                 "documento": doc(sig, "Aprovação do Parecer", "PARECER APROVADO") if v else None,
             })
 
-        if not conclusiva or "PLEN" in visitas:
+        # Em matéria conclusiva, o Plenário só entra como etapa se houver ato de mérito nele
+        # (urgência, discussão, votação, relatoria); apresentação e publicação não contam.
+        atos_plen = [t for t in visitas.get("PLEN", {}).get("tramites", [])
+                     if not t["descricaoTramitacao"].startswith(("Apresentação", "Publicação", "Notificação"))]
+        if not conclusiva or atos_plen:
             v = visitas.get("PLEN")
             em_comissao = any(e.get("comissao") and e["estado"] in ("atual", "pendente") for e in estagios)
             if atual_sigla == "PLEN" and not no_senado:
@@ -549,7 +565,8 @@ class MontadorRelatorio:
         if remessa["estado"] == "concluido":
             marcos.append({"titulo": "Apreciação pelo Senado Federal", "descricao": "A proposição está na Casa revisora."})
         else:
-            if conclusiva:
+            no_plenario = any(e["sigla"] == "PLEN" and e["estado"] == "atual" for e in estagios)
+            if conclusiva and not no_plenario:
                 marcos.append({"titulo": "Prazo de recurso ao Plenário", "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."})
             marcos.append({"titulo": "Remessa ao Senado Federal", "descricao": "Aprovado na Câmara, o projeto segue à Casa revisora."})
         return marcos
@@ -660,7 +677,12 @@ def main(argv: list[str] | None = None, cliente_fabrica: Callable[[], ClienteApi
     for i in ids:
         dados = montador.montar(i)
         nome = nome_arquivo(dados)
-        (args.saida / f"{nome}.json").write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        destino = args.saida / f"{nome}.json"
+        # Seções escritas à mão (análise estratégica, versão válida) sobrevivem à recoleta.
+        if destino.exists():
+            anterior = json.loads(destino.read_text(encoding="utf-8"))
+            dados.update({k: anterior[k] for k in SECOES_MANUAIS if k in anterior})
+        destino.write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         gerados[str(i)] = nome
         print(f"{dados['proposicao']['identificacao']}: {args.saida / nome}.json")
 

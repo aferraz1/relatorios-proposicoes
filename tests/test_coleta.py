@@ -99,6 +99,8 @@ def test_funcoes_auxiliares():
     item = {"siglaTipo": "PAR", "numero": "1", "ano": "0", "ementa": ""}
     assert sigla_acessoria(item, {"ementa": "Parecer da Comissão (CCTI) ao PL"}, None) == "PAR 1 CCTI"
     assert sigla_acessoria({"siglaTipo": "REQ", "numero": "29", "ano": "2025"}, {}, "CCTI") == "REQ 29/2025 CCTI"
+    urgencia = {"siglaTipo": "REQ", "numero": "2888", "ano": "2026"}
+    assert sigla_acessoria(urgencia, {"ementa": "Urgência para o fundo (FDNE)"}, None, {"CCTI", "CFT"}) == "REQ 2888/2026"
 
 
 def test_montagem(dados):
@@ -139,3 +141,38 @@ def test_cli_atualiza_detalhes_da_pesquisa(tmp_path, dados, monkeypatch):
     assert (tmp_path / "props" / "pl-1234-2025.json").exists()
     detalhes = json.loads(base.read_text(encoding="utf-8"))["detalhes"]
     assert detalhes == {"1": {"arquivo": "pl-1234-2025.html", "titulo": "Tramitação PL 1.234/2025", "coleta": "2025-04-10"}}
+
+
+def test_recoleta_preserva_analise(tmp_path, dados, monkeypatch):
+    pasta = tmp_path / "props"
+    pasta.mkdir()
+    (pasta / "pl-1234-2025.json").write_text(json.dumps({**dados, "analise": {"introducao": "manual"}}), encoding="utf-8")
+    monkeypatch.setattr(MontadorRelatorio, "montar", lambda self, i: dict(dados))
+    main(["1", "-o", str(pasta), "--data", "2025-04-10"], cliente_fabrica=lambda: None)
+    assert json.loads((pasta / "pl-1234-2025.json").read_text(encoding="utf-8"))["analise"] == {"introducao": "manual"}
+
+
+def test_urgencia_deixa_comissoes_para_o_plenario():
+    tramites = [
+        tramite(1, "2025-01-10T10:00", 4, "Apresentação de Proposição", "Apresentação", TEOR + "100"),
+        tramite(2, "2025-01-20T10:00", 4, "Distribuição", DESPACHO),
+        tramite(3, "2025-01-21T10:00", 2002, "Recebimento", "Recebimento pela CCTI."),
+        tramite(4, "2025-01-25T10:00", 180, "Aprovação de Urgência (154, 155 ou 64 CF)", "Aprovado o requerimento."),
+        tramite(5, "2025-01-26T10:00", 2010, "Recebimento", "Recebimento pela CFT."),
+        tramite(6, "2025-02-01T10:00", 180, "Designação de Relator(a)", "Designado relator."),
+    ]
+    dados = MontadorRelatorio(ClienteFalso(tramites), date(2025, 4, 10), apelidos=APELIDOS).montar(1)
+    etapas = {e["sigla"]: (e["estado"], e["papel"]) for e in dados["estagios"]}
+    assert etapas["CCTI"] == ("pendente", "Mérito · parecer em Plenário")
+    assert etapas["CFT"][0] == "pendente" and etapas["PLEN"][0] == "atual"
+    assert "Prazo de recurso ao Plenário" not in [m["titulo"] for m in dados["proximos_marcos"]]
+
+
+def test_apresentacao_no_plenario_nao_cria_etapa():
+    tramites = [
+        tramite(1, "2025-01-10T10:00", 180, "Apresentação de Proposição", "Apresentação", TEOR + "100"),
+        tramite(2, "2025-01-20T10:00", 4, "Distribuição", DESPACHO),
+        tramite(3, "2025-01-21T10:00", 2002, "Recebimento", "Recebimento pela CCTI."),
+    ]
+    dados = MontadorRelatorio(ClienteFalso(tramites), date(2025, 4, 10), apelidos=APELIDOS).montar(1)
+    assert "PLEN" not in [e["sigla"] for e in dados["estagios"]]

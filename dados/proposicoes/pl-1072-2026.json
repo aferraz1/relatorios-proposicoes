@@ -281,5 +281,375 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 1.072/2026, com base no inteiro teor e na relatoria em curso na CSPCCO, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 1.072/2026 acrescenta o **art. 35-A à Lei Maria da Penha** para que as unidades da **Casa da Mulher Brasileira** assegurem acesso prioritário a exames periciais médico-legais, por sala própria, equipes itinerantes ou fluxo prioritário nos institutos oficiais, com cooperação federativa e apoio técnico e financeiro facultativo da União. O despacho prevê **CSPCCO e CMULHER (mérito), CFT e CCJC (art. 54)**, em regime conclusivo.",
+   "A matéria está na **CSPCCO aguardando parecer do Dep. Osmar Terra** (PL-RS), designado em 20/05/2026 depois que o primeiro relator devolveu o projeto sem manifestação. Restam três comissões, o que torna improvável a conclusão na Câmara antes de 2027; a meta realista é o parecer da CSPCCO ainda em 2026.",
+   "Os pontos técnicos são **federativos e de juridicidade**: a Casa da Mulher Brasileira é programa criado por decreto e não aparece na Lei 11.340/2006, e a perícia oficial é serviço dos Estados. O verbo “deverão assegurar” impõe obrigação a unidades geridas por Estados e Municípios. Ajustes de redação resolvem os dois pontos sem perder o objetivo."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Relator na CSPCCO desde 20/05/2026, sem parecer; ainda faltam CMULHER, CFT e CCJC."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "MÉDIO",
+    "texto": "Obrigação imposta a unidades estaduais e municipais e à perícia oficial dos Estados pode ser vista como ofensa à autonomia federativa."
+   },
+   {
+    "eixo": "JURIDICIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Remissão a programa infralegal (Casa da Mulher Brasileira) sem definição na lei."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Apoio da União é facultativo (“poderá”); sem despesa obrigatória."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "BAIXO",
+    "texto": "Tema com apoio amplo: reduz revitimização e fortalece a prova pericial."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho do projeto",
+    "itens": [
+     {
+      "texto": "Despacho de 17/03/2026: CSPCCO e CMULHER (mérito), CFT e CCJC (art. 54), conclusivo. Prazo de emendas na CSPCCO encerrado sem emendas.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "O primeiro relator (Dep. Alexandre Leite) devolveu sem manifestação; o atual, Dep. Osmar Terra, foi designado em 20/05/2026.",
+      "fontes": [
+       "ficha"
+      ]
+     },
+     {
+      "texto": "Não há arquivamento ao fim da legislatura (RICD, art. 105, VI), mas a recomposição das comissões em 2027 pode trocar o relator.",
+      "fontes": [
+       "res33",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Pontos a sanear",
+    "itens": [
+     {
+      "texto": "A União legisla sobre direito processual e normas gerais de proteção (CF, arts. 22, I, e 24); a Lei 11.340/2006 já prevê, no art. 35, III, centros de perícia médico-legal especializados como faculdade dos entes.",
+      "fontes": [
+       "cf",
+       "l11340"
+      ]
+     },
+     {
+      "texto": "O caput do art. 35-A obriga as unidades a “assegurar” a perícia, mas a perícia oficial é organizada pelos Estados (CF, art. 144) e as unidades são geridas por entes subnacionais; a redação como diretriz e cooperação evita questionamento.",
+      "fontes": [
+       "cf",
+       "l11340"
+      ]
+     },
+     {
+      "texto": "A Casa da Mulher Brasileira não é definida na Lei 11.340/2006; a referência fica mais segura vinculada aos “centros de atendimento integral” do art. 35, I, “inclusive as unidades da Casa da Mulher Brasileira”.",
+      "fontes": [
+       "l11340",
+       "lc95"
+      ]
+     },
+     {
+      "texto": "O CPP já dá prioridade ao exame de corpo de delito em violência doméstica (art. 158, parágrafo único, incluído pela Lei 13.721/2018); o projeto avança ao levar a perícia ao local de acolhimento.",
+      "fontes": [
+       "l13721"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+    "titulo": "Exame da CFT",
+    "itens": [
+     {
+      "texto": "O apoio da União (§ 3º) é facultativo e depende de convênios; sem despesa obrigatória, cabe parecer de não implicação.",
+      "fontes": [
+       "nicft",
+       "adct"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 1.072/2026",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º",
+     "problema": "“acrescida do seguinte dispositivo” para um artigo com parágrafos e incisos.",
+     "fundamento": "LC 95, art. 12, III",
+     "correcao": "“acrescida do seguinte art. 35-A”."
+    },
+    {
+     "dispositivo": "Art. 35-A, caput",
+     "problema": "Remissão a programa infralegal (Casa da Mulher Brasileira) sem definição.",
+     "fundamento": "LC 95, art. 11, II, “a”",
+     "correcao": "Vincular aos centros do art. 35, I, “inclusive as unidades da Casa da Mulher Brasileira”."
+    },
+    {
+     "dispositivo": "Art. 2º",
+     "problema": "“O Poder Executivo federal promoverá a articulação” atribui tarefa ao Executivo.",
+     "fundamento": "Súmula CCJC nº 1; CF, art. 61, § 1º, II, “e”",
+     "correcao": "Suprimir ou converter em diretriz de cooperação."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "MÉDIO",
+    "titulo": "Parecer da CSPCCO não sai em 2026",
+    "descricao": "Relator designado há cinco meses sem parecer; fim da sessão legislativa pode adiar.",
+    "instancia": "CSPCCO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 52.",
+    "fontes": [
+     "ricd",
+     "ficha"
+    ],
+    "mitigacao": "Contato com o gabinete do relator com nota técnica e minuta de parecer."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Questionamento federativo na CCJC",
+    "descricao": "Obrigação a unidades e perícia estaduais pode levar a emenda ou parecer contrário ao caput.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, arts. 18 e 144.",
+    "fontes": [
+     "cf"
+    ],
+    "mitigacao": "Redigir como diretriz e cooperação, preservando a escolha da modalidade pelos entes."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Resistência dos órgãos estaduais de perícia",
+    "descricao": "Peritos e polícias científicas podem apontar falta de pessoal e de estrutura para salas nas unidades.",
+    "instancia": "CSPCCO · CMULHER",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 11.340/2006, art. 35, III.",
+    "fontes": [
+     "l11340"
+    ],
+    "mitigacao": "Ouvir representantes da perícia oficial e manter as três modalidades alternativas."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Redistribuição de relatoria em 2027",
+    "descricao": "A nova composição das comissões pode exigir nova designação.",
+    "instancia": "CSPCCO · CMULHER",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Concluir a CSPCCO em 2026 e indicar relatora aliada na CMULHER."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Saneamento já na CSPCCO",
+    "descricao": "O relator de mérito pode resolver os pontos federativos e de técnica num substitutivo.",
+    "como": "Entregar minuta de substitutivo ao Dep. Osmar Terra.",
+    "fontes": [
+     "lc95",
+     "cf"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda de enfrentamento à violência contra a mulher",
+    "descricao": "Tema com apoio suprapartidário e da bancada feminina.",
+    "como": "Buscar coautoria ou apoio da Secretaria da Mulher da Câmara para a CMULHER.",
+    "fontes": [
+     "l11340"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CELERIDADE",
+    "titulo": "Não implicação na CFT",
+    "descricao": "Com apoio da União facultativo, a CFT tende a parecer rápido.",
+    "como": "Nota técnica de não implicação pronta para o relator da CFT.",
+    "fontes": [
+     "nicft"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "QUALIDADE",
+    "titulo": "Prova pericial e prioridade do CPP",
+    "descricao": "O projeto complementa a prioridade do exame de corpo de delito já prevista no CPP.",
+    "como": "Usar o argumento no parecer de mérito.",
+    "fontes": [
+     "l13721"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Parecer na CSPCCO",
+    "descricao": "Nota técnica e minuta de substitutivo para o relator, com pedido de inclusão em pauta ainda em 2026.",
+    "prazo": "até 15/11/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Parecer aprovado na CSPCCO.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Ajuste federativo do texto",
+    "descricao": "Converter “deverão assegurar” em diretriz com cooperação e manter as três modalidades à escolha dos entes; suprimir o art. 2º.",
+    "prazo": "com a minuta",
+    "instrumento": "CF, arts. 18, 61 e 144; Súmula CCJC nº 1.",
+    "resultado": "Texto sem vício na CCJC.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Ouvir a perícia oficial",
+    "descricao": "Reunião com entidades de peritos e com o Ministério das Mulheres sobre a viabilidade das salas e equipes itinerantes.",
+    "prazo": "nov./2026",
+    "instrumento": "Lei 11.340/2006, art. 35.",
+    "resultado": "Apoio técnico ao texto.",
+    "riscos": "R03"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Relatoria na CMULHER",
+    "descricao": "Indicar relatora aliada assim que o projeto chegar à comissão.",
+    "prazo": "após a CSPCCO",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Tramitação contínua em 2027.",
+    "riscos": "R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Nota de não implicação para a CFT",
+    "descricao": "Demonstrar que o apoio da União é facultativo.",
+    "prazo": "antes da CFT",
+    "instrumento": "NI-CFT.",
+    "resultado": "Parecer rápido na CFT.",
+    "riscos": "R01"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "sum1": {
+    "titulo": "Súmula CCJC nº 1",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ccjc/normas-internas/s1.pdf"
+   },
+   "pl": {
+    "titulo": "PL 1.072/2026 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3094636"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2607723"
+   },
+   "l11340": {
+    "titulo": "Lei 11.340/2006 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11340-7-agosto-2006-545133-normaatualizada-pl.html"
+   },
+   "l13721": {
+    "titulo": "Lei 13.721/2018 (prioridade do exame de corpo de delito)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13721.htm"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e relatoria"
+   },
+   {
+    "fonte": "l11340",
+    "nota": "arts. 12, 35 e 36"
+   },
+   {
+    "fonte": "l13721",
+    "nota": "art. 158 do CPP"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 18, 22, 24, 61 e 144"
+   },
+   {
+    "fonte": "sum1",
+    "nota": "projetos autorizativos"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52 e 105"
+   }
+  ]
+ }
 }
