@@ -62,28 +62,25 @@
   {
    "sigla": "CINDRE",
    "nome": "Integração Nacional e Desenvolvimento Regional",
-   "papel": "Mérito",
+   "papel": "Mérito · parecer em Plenário",
    "inicio": "2026-06-02",
-   "fim": "2026-06-03",
-   "estado": "concluido",
+   "estado": "pendente",
    "comissao": true
   },
   {
    "sigla": "CFT",
    "nome": "Finanças e Tributação",
-   "papel": "Mérito e Art. 54",
+   "papel": "Mérito e Art. 54 · parecer em Plenário",
    "inicio": "2026-06-15",
-   "fim": "2026-06-15",
-   "estado": "concluido",
+   "estado": "pendente",
    "comissao": true
   },
   {
    "sigla": "CCJC",
    "nome": "Constituição e Justiça e de Cidadania",
-   "papel": "Art. 54",
+   "papel": "Art. 54 · parecer em Plenário",
    "inicio": "2026-06-15",
-   "fim": "2026-06-15",
-   "estado": "concluido",
+   "estado": "pendente",
    "comissao": true
   },
   {
@@ -136,7 +133,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "3131350",
-      "nome": "REQ 2888/2026 FDNE",
+      "nome": "REQ 2888/2026",
       "id": 2625320
      }
     },
@@ -228,12 +225,20 @@
  ],
  "proximos_marcos": [
   {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
+   "titulo": "Parecer da CINDRE",
+   "descricao": "Mérito · parecer em Plenário."
   },
   {
-   "titulo": "Prazo de recurso ao Plenário",
-   "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
+   "titulo": "Parecer da CFT",
+   "descricao": "Mérito e Art. 54 · parecer em Plenário."
+  },
+  {
+   "titulo": "Parecer da CCJC",
+   "descricao": "Art. 54 · parecer em Plenário."
+  },
+  {
+   "titulo": "Votação em Plenário",
+   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Remessa ao Senado Federal",
@@ -259,7 +264,7 @@
     "plural": "requerimentos",
     "itens": [
      {
-      "sigla": "REQ 2888/2026 FDNE",
+      "sigla": "REQ 2888/2026",
       "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
       "data": "18/05/2026",
       "id": 2625320,
@@ -287,7 +292,7 @@
    "titulo": "Mensagens, Ofícios e Requerimentos",
    "subtitulo": "Requerimentos vinculados à proposição",
    "referencias": [
-    "REQ 2888/2026 FDNE"
+    "REQ 2888/2026"
    ]
   },
   {
@@ -328,7 +333,7 @@
   }
  ],
  "analise": {
-  "introducao": "Análise técnica do gabinete sobre o PL 2.427/2026, com base no inteiro teor, a urgência aprovada (REQ 2888/2026) e a designação do relator de Plenário e na situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "introducao": "Análise técnica do gabinete sobre o PL 2.427/2026, com base no inteiro teor e na urgência aprovada (REQ 2888/2026), com relator de Plenário já designado, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
   "sintese": [
    "O PL 2.427/2026 autoriza os fundos constitucionais de financiamento (FNO, FNE e FCO) e o FDNE a **oferecer garantias**, inclusive por participação em fundo garantidor, a operações de crédito para infraestrutura econômica. A proposta é curta (quatro artigos) e altera a Lei 7.827/1989 e a MP 2.156-5/2001. É a proposição do autor **mais próxima de deliberação**: a urgência (art. 155 do RICD) foi aprovada em 09/06/2026 e o Dep. Danilo Forte foi designado relator de Plenário em 30/06/2026.",
    "Com a urgência, a matéria deixa a apreciação conclusiva e será votada em Plenário, com **parecer proferido em Plenário pelas três comissões** (CINDRE, CFT e CCJC). O ponto de maior risco é a **adequação financeira**: garantia prestada com recursos dos fundos cria passivo contingente e pode ser lida como nova despesa sem estimativa de impacto. A justificativa não traz números nem limites.",

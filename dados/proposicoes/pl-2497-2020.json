@@ -104,7 +104,7 @@
    "descricao": "Deputado Federal · PT/SP",
    "rotulo": "RELATOR(A) · CME"
   },
-  "resumo_inicio": "Designação em 16/03/2021. Apresentou 2 versões de parecer:",
+  "resumo_inicio": "Designação em 25/05/2023. Apresentou 2 versões de parecer:",
   "resumo_fim": "",
   "pareceres": [
    {
@@ -502,5 +502,411 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 2.497/2020, com base no inteiro teor e nos dois pareceres apresentados na CME (substitutivo em 2021 e rejeição em 2022) e no apensamento do PL 1.277/2025, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 2.497/2020 altera o **art. 12, II, da Lei 9.433/1997** para retirar da outorga a extração de água subterrânea nas propriedades não atendidas por rede pública e o **art. 45, § 1º, da Lei 11.445/2007** para vedar taxa ou tarifa nas soluções individuais de abastecimento. O despacho prevê **CME e CDU (mérito), CFT (mérito e art. 54) e CCJC (art. 54)**, em regime ordinário e conclusivo. O projeto segue na **primeira comissão (CME)**, onde o relator, Dep. Carlos Zarattini, foi redesignado em 25/05/2023 e o último parecer apresentado (PRL 2, de 15/06/2022) é **pela rejeição**; em 09/05/2025 foi apensado o PL 1.277/2025, de ementa idêntica, o que exige novo parecer.",
+   "O relator já mudou de posição uma vez: em 2021 apresentou **substitutivo restringindo a dispensa à pequena propriedade rural e ao uso residencial** e, em 2022, passou a votar pela rejeição, por entender que a medida alcançaria quase toda a área rural, inclusive a irrigação, e enfraqueceria o controle sobre poços. Esse argumento é forte porque o **art. 12, § 1º, da Lei 9.433/1997 já dispensa de outorga**, conforme regulamento, o uso por pequenos núcleos rurais e as captações insignificantes.",
+   "No saneamento, a alteração tem efeito prático reduzido: a **Lei 14.026/2020** reescreveu o art. 45 e o **art. 5º da Lei 11.445/2007** já diz que a solução individual operada pelo próprio usuário não é serviço público, de modo que não há tarifa a cobrar. O caminho viável é **recuperar o substitutivo de 2021**, reescrito como hipótese de dispensa no § 1º do art. 12, e separar com clareza a cobrança pelo uso da água (Lei 9.433) das tarifas de saneamento (Lei 11.445)."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Seis anos na primeira comissão; parecer vigente pela rejeição e apensado ainda não examinado; faltam CDU, CFT e CCJC."
+   },
+   {
+    "eixo": "MÉRITO (CME)",
+    "nivel": "ALTO",
+    "texto": "Relator entende que a dispensa ampla estimularia a exploração sem controle das águas subterrâneas."
+   },
+   {
+    "eixo": "JURIDICIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Sobreposição com o art. 12, § 1º, da Lei 9.433/1997 e com o art. 5º da Lei 11.445/2007."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Competência da União sobre águas (CF, art. 22, IV), mas as águas subterrâneas são bens dos Estados (CF, art. 26, I), que emitem as outorgas."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Não cria despesa; reduz receita de cobrança pelo uso, que não é receita tributária da União."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Situação na CME",
+    "itens": [
+     {
+      "texto": "Despacho de 03/11/2020: CME e CDU (mérito), CFT (mérito e art. 54) e CCJC (art. 54), conclusivo, regime ordinário. Prazos de emendas encerrados em 2021 e em 2023 sem emendas.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "O PRL 1 (19/11/2021) era pela aprovação com substitutivo; o PRL 2 (15/06/2022), pela rejeição. O projeto foi retirado de pauta a pedido do autor e, em 2022, não foi deliberado por ausência do relator; com o fim da legislatura o relator foi redesignado em 25/05/2023.",
+      "fontes": [
+       "prl1",
+       "prl2",
+       "ficha"
+      ]
+     },
+     {
+      "texto": "O apensamento do PL 1.277/2025 (09/05/2025) obriga o relator a se manifestar sobre os dois textos (RICD, arts. 139, I, e 142). Não há arquivamento ao fim da 57ª Legislatura (RICD, art. 105, VI), mas a recomposição da CME em 2027 pode trocar o relator.",
+      "fontes": [
+       "ricd",
+       "res33",
+       "ficha"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Encaixe nas leis vigentes",
+    "itens": [
+     {
+      "texto": "O art. 12 da Lei 9.433/1997 lista os usos sujeitos a outorga; o inciso II (água de aquífero subterrâneo) mantém a redação original. O § 1º já dispensa, conforme regulamento, pequenos núcleos rurais e usos e acumulações insignificantes, e o art. 20 vincula a cobrança aos usos outorgados.",
+      "fontes": [
+       "l9433"
+      ]
+     },
+     {
+      "texto": "A União legisla sobre águas e institui o sistema nacional de recursos hídricos (CF, arts. 21, XIX, e 22, IV), mas as águas subterrâneas são bens dos Estados (CF, art. 26, I) e a outorga é ato estadual (Lei 9.433, art. 14). Dispensa geral por lei federal tende a ser questionada à luz do dever de proteção ambiental (CF, art. 225).",
+      "fontes": [
+       "cf",
+       "l9433"
+      ]
+     },
+     {
+      "texto": "No saneamento, o art. 45, § 1º, da Lei 11.445/2007 já admite soluções individuais sem rede, e o art. 5º diz que não constitui serviço público a solução individual que não dependa de terceiros. A vedação de taxa ou tarifa é, em grande parte, redundante; o caput do art. 45 (Lei 14.026/2020) liga a cobrança à rede disponível.",
+      "fontes": [
+       "l11445",
+       "lc95"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E ADEQUAÇÃO",
+    "titulo": "O que pesa na CME e na CFT",
+    "itens": [
+     {
+      "texto": "O substitutivo de 2021 limitava a dispensa à pequena propriedade rural (até 4 módulos fiscais, Lei 8.629/1993, art. 4º) e ao uso residencial, quando não houver rede. É a base mais provável de acordo.",
+      "fontes": [
+       "prl1",
+       "l8629"
+      ]
+     },
+     {
+      "texto": "A cobrança pelo uso de recursos hídricos tem regime próprio (Lei 9.433, arts. 19 a 22), com valores aplicados prioritariamente na bacia em que foram gerados. A dispensa reduz essa arrecadação, sem criar despesa da União; a CFT tende à não implicação.",
+      "fontes": [
+       "l9433",
+       "nicft"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 2.497/2020",
+   "achados": [
+    {
+     "dispositivo": "Art. 2º (art. 12, II, da Lei 9.433)",
+     "problema": "A exceção foi inserida no rol de usos sujeitos a outorga, quando a lei concentra as dispensas no § 1º do mesmo artigo.",
+     "fundamento": "LC 95, art. 11, III, “c”",
+     "correcao": "Acrescentar inciso IV ao § 1º do art. 12: “a extração de água subterrânea na pequena propriedade rural ou para uso residencial, quando não houver rede pública de abastecimento disponível”."
+    },
+    {
+     "dispositivo": "Ementa e art. 3º",
+     "problema": "“Taxa ou tarifa” do saneamento é confundida com a cobrança pelo uso de recursos hídricos, que tem natureza e regime próprios na Lei 9.433.",
+     "fundamento": "LC 95, art. 11, I, “b”, e II, “a”",
+     "correcao": "Tratar a cobrança pelo uso da água no art. 20 da Lei 9.433 e suprimir a alteração do art. 45 da Lei 11.445, já coberta pelo art. 5º."
+    },
+    {
+     "dispositivo": "Arts. 2º e 3º",
+     "problema": "“Propriedades não atendidas por rede pública” não define o critério (rede existente, disponível ou ligada), enquanto o art. 45 da Lei 11.445 usa “disponíveis”.",
+     "fundamento": "LC 95, art. 11, II, “a”",
+     "correcao": "Usar “quando não houver rede pública de abastecimento disponível”, em harmonia com a Lei 11.445."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Rejeição na CME",
+    "descricao": "O parecer vigente é pela rejeição; aprovado, enfraquece o projeto nas comissões seguintes. Se todas as comissões de mérito rejeitarem, é tido como rejeitado; pareceres divergentes retiram o caráter conclusivo.",
+    "instancia": "CME",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, arts. 24, II, “g”, e 133.",
+    "fontes": [
+     "prl2",
+     "ricd"
+    ],
+    "mitigacao": "Negociar com o relator a volta ao substitutivo de 2021, ajustado, antes de qualquer pauta."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Argumento ambiental e de controle de poços",
+    "descricao": "Órgãos gestores e entidades ambientais tendem a apontar que a dispensa ampla inviabiliza o controle das águas subterrâneas.",
+    "instancia": "CME · CDU",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "Lei 9.433/1997, arts. 11 e 12; CF, art. 225.",
+    "fontes": [
+     "l9433",
+     "cf"
+    ],
+    "mitigacao": "Limitar a dispensa à pequena propriedade e ao uso residencial e manter cadastro dos poços."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Redundância normativa",
+    "descricao": "A CCJC pode apontar que o § 1º do art. 12 da Lei 9.433 e o art. 5º da Lei 11.445 já tratam das hipóteses.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "LC 95, art. 7º, IV.",
+    "fontes": [
+     "lc95",
+     "l11445"
+    ],
+    "mitigacao": "Reescrever como inciso novo do § 1º e suprimir a alteração da Lei 11.445."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Questionamento federativo",
+    "descricao": "Estados, titulares das águas subterrâneas, podem ver a dispensa federal como interferência na gestão de seus bens.",
+    "instancia": "CCJC · ESTADOS",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, arts. 22, IV, e 26, I; Lei 9.433, art. 14.",
+    "fontes": [
+     "cf",
+     "l9433"
+    ],
+    "mitigacao": "Redigir como norma geral, com remissão ao regulamento do órgão gestor."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Troca de relator em 2027",
+    "descricao": "A recomposição da CME pode exigir nova designação e novo parecer.",
+    "instancia": "CME",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Se não houver acordo com o relator atual, buscar relator aliado na nova composição."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Substitutivo de 2021 como base",
+    "descricao": "O próprio relator já admitiu a dispensa para pequena propriedade rural e uso residencial.",
+    "como": "Propor ao relator a retomada do PRL 1 com ajustes de técnica.",
+    "fontes": [
+     "prl1"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Novo parecer obrigatório",
+    "descricao": "O apensamento do PL 1.277/2025 exige novo parecer, ocasião para rever a conclusão de 2022.",
+    "como": "Entregar nota técnica com o texto ajustado ao § 1º do art. 12.",
+    "fontes": [
+     "ficha",
+     "l9433"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Agenda do pequeno produtor e do Nordeste",
+    "descricao": "Poços em pequenas propriedades sem rede são realidade no Maranhão e no semiárido; o tema une bancadas rurais e municipalistas.",
+    "como": "Buscar apoio da Frente Parlamentar da Agropecuária e da bancada do Nordeste.",
+    "fontes": [
+     "l8629"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "CELERIDADE",
+    "titulo": "Não implicação na CFT",
+    "descricao": "O projeto não cria despesa da União.",
+    "como": "Nota de não implicação pronta para a CFT.",
+    "fontes": [
+     "nicft"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Evitar a votação do parecer de rejeição",
+    "descricao": "Acompanhar a pauta da CME e, se necessário, pedir retirada de pauta enquanto se negocia o texto.",
+    "prazo": "permanente",
+    "instrumento": "Requerimento de retirada de pauta.",
+    "resultado": "Projeto preservado na CME.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Reunião com o relator",
+    "descricao": "Propor a retomada do substitutivo de 2021, reescrito como inciso do § 1º do art. 12 da Lei 9.433, e a análise conjunta com o PL 1.277/2025.",
+    "prazo": "até 13/11/2026",
+    "instrumento": "RICD, arts. 52 e 142.",
+    "resultado": "Novo parecer favorável.",
+    "riscos": "R01, R02"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Dispensa de outorga para pequena propriedade rural e uso residencial sem rede disponível, cadastro dos poços no órgão gestor e supressão da alteração da Lei 11.445.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "LC 95, arts. 7º e 11; Lei 9.433, art. 12.",
+    "resultado": "Texto sem redundância e com controle mínimo.",
+    "riscos": "R02, R03, R04"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Apoio técnico e político",
+    "descricao": "Ouvir a ANA e órgãos gestores estaduais e buscar apoio das frentes agropecuária e municipalista.",
+    "prazo": "nov.–dez./2026",
+    "instrumento": "Lei 9.433/1997.",
+    "resultado": "Reduzir resistência ambiental.",
+    "riscos": "R02, R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Relatoria em 2027",
+    "descricao": "Caso não haja acordo, pedir à presidência da CME a designação de relator aliado após a recomposição.",
+    "prazo": "fev.–mar./2027",
+    "instrumento": "RICD, art. 105, VI.",
+    "resultado": "Tramitação retomada na nova legislatura.",
+    "riscos": "R05"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "pl": {
+    "titulo": "PL 2.497/2020 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1891690"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2252010"
+   },
+   "prl1": {
+    "titulo": "PRL 1 CME, com substitutivo (19/11/2021)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2108724"
+   },
+   "prl2": {
+    "titulo": "PRL 2 CME, pela rejeição (15/06/2022)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2188642"
+   },
+   "l9433": {
+    "titulo": "Lei 9.433/1997 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9433-8-janeiro-1997-374778-normaatualizada-pl.html"
+   },
+   "l11445": {
+    "titulo": "Lei 11.445/2007 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2007/lei-11445-5-janeiro-2007-549031-normaatualizada-pl.html"
+   },
+   "l8629": {
+    "titulo": "Lei 8.629/1993 (pequena propriedade rural)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8629.htm"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho, relatoria e apensamento"
+   },
+   {
+    "fonte": "prl1",
+    "nota": "substitutivo de 2021"
+   },
+   {
+    "fonte": "prl2",
+    "nota": "fundamentos da rejeição"
+   },
+   {
+    "fonte": "l9433",
+    "nota": "arts. 12, 14 e 19 a 22"
+   },
+   {
+    "fonte": "l11445",
+    "nota": "arts. 5º e 45"
+   },
+   {
+    "fonte": "l8629",
+    "nota": "art. 4º"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 21, 22, 26 e 225"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 105, 133, 139 e 142"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

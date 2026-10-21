@@ -221,5 +221,385 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 3.596/2020, com base no inteiro teor e no despacho à CCJC e no texto compilado da Lei 13.869/2019, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 3.596/2020, apresentado pela então bancada do PTB, acrescenta os **arts. 38-A e 38-B à Lei 13.869/2019** para tipificar como abuso de autoridade a manifestação de opinião sobre processo pendente ou juízo depreciativo sobre decisões judiciais (38-A) e a manifestação político-partidária ou de apoio ou crítica a candidatos e partidos (38-B), com pena de **detenção de 1 a 4 anos e multa**. O texto reproduz vedações da LOMAN (art. 36, III), da CF (art. 95, parágrafo único, III) e da Resolução CNJ 305/2019.",
+   "O despacho (07/12/2020) prevê apenas a **CCJC (mérito e art. 54)**, com **apreciação pelo Plenário** e regime ordinário. Recebido pela CCJC em 10/02/2021, o projeto **nunca teve relator designado**. Não será arquivado ao fim da 57ª Legislatura, mas a nova composição da CCJC em 2027 recoloca a questão da relatoria.",
+   "O problema técnico central é que os tipos **não mencionam o magistrado**: pelo art. 2º da Lei 13.869/2019, o sujeito ativo seria qualquer agente público, inclusive membros do Executivo, do Legislativo e do Ministério Público, o que tornaria crime a manifestação político-partidária de qualquer servidor. Somam-se o **dolo específico** exigido pelo art. 1º, § 1º, a vagueza de expressões como “lideranças políticas” e a sobreposição com sanções disciplinares e com o crime de responsabilidade do art. 39, 3, da Lei 1.079/1950."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Quase seis anos na CCJC sem relator; depois do parecer ainda depende do Plenário."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "ALTO",
+    "texto": "Criminalizar opinião toca a liberdade de expressão (CF, arts. 5º, IV e IX, e 220) e exige tipos estritos (art. 5º, XXXIX)."
+   },
+   {
+    "eixo": "TIPICIDADE E TÉCNICA PENAL",
+    "nivel": "ALTO",
+    "texto": "Sujeito ativo aberto a qualquer agente público e elementos vagos no art. 38-B."
+   },
+   {
+    "eixo": "SOBREPOSIÇÃO NORMATIVA",
+    "nivel": "MÉDIO",
+    "texto": "Condutas já vedadas pela CF, pela LOMAN e pelo CNJ, e, para ministros do STF, já previstas como crime de responsabilidade."
+   },
+   {
+    "eixo": "VIABILIDADE POLÍTICA",
+    "nivel": "ALTO",
+    "texto": "Tema sensível na relação entre Poderes, com resistência previsível da magistratura."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho do projeto",
+    "itens": [
+     {
+      "texto": "Despacho de 07/12/2020: CCJC (mérito e art. 54), sujeito ao Plenário, regime ordinário. Recebido em 10/02/2021, sem designação de relator até hoje.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Por não ser conclusivo, o projeto depende de inclusão na Ordem do Dia após o parecer da CCJC, o que exige acordo de líderes.",
+      "fontes": [
+       "ricd",
+       "guia"
+      ]
+     },
+     {
+      "texto": "Não há arquivamento ao fim da legislatura (RICD, art. 105, VI); a recomposição da CCJC em 2027 é a próxima janela para pedir relator.",
+      "fontes": [
+       "res33",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Pontos que a CCJC tende a apontar",
+    "itens": [
+     {
+      "texto": "A União legisla sobre direito penal por lei ordinária (CF, art. 22, I), e a Lei 13.869/2019 já alcança membros do Judiciário (art. 2º, IV). Mas deveres funcionais da magistratura são matéria do Estatuto (CF, art. 93), já tratada pela LOMAN, o que abre o argumento de interferência no regime da magistratura.",
+      "fontes": [
+       "cf",
+       "l13869",
+       "lc35"
+      ]
+     },
+     {
+      "texto": "Os arts. 38-A e 38-B não indicam o sujeito ativo. Pelo art. 2º da Lei 13.869/2019, aplicam-se a qualquer agente público de qualquer Poder, o que estenderia a proibição de manifestação político-partidária a servidores e agentes políticos em geral.",
+      "fontes": [
+       "l13869",
+       "pl"
+      ]
+     },
+     {
+      "texto": "Todos os tipos da lei exigem finalidade específica de prejudicar, beneficiar ou satisfazer capricho (art. 1º, § 1º), requisito difícil de provar em manifestações de opinião; “lideranças políticas” e “juízo depreciativo” são elementos abertos diante do princípio da legalidade estrita.",
+      "fontes": [
+       "l13869",
+       "cf"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E SOBREPOSIÇÃO",
+    "titulo": "O que já existe",
+    "itens": [
+     {
+      "texto": "A CF veda ao juiz atividade político-partidária (art. 95, parágrafo único, III); a LOMAN veda opinião sobre processo pendente (art. 36, III); a Res. CNJ 305/2019 aplica as vedações às redes sociais com sanção disciplinar.",
+      "fontes": [
+       "cf",
+       "lc35",
+       "cnj305"
+      ]
+     },
+     {
+      "texto": "Para ministros do STF, “exercer atividade político-partidária” já é crime de responsabilidade (Lei 1.079/1950, art. 39, 3). O art. 38 da Lei 13.869/2019 já pune quem antecipa atribuição de culpa por rede social antes de concluídas as apurações.",
+      "fontes": [
+       "l1079",
+       "l13869"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 3.596/2020",
+   "achados": [
+    {
+     "dispositivo": "Art. 2º (arts. 38-A e 38-B)",
+     "problema": "Tipos sem sujeito ativo próprio; pela lei alterada, alcançam qualquer agente público.",
+     "fundamento": "LC 95, art. 11, II, “a”",
+     "correcao": "Iniciar os tipos por “Manifestar o magistrado…” ou acrescentar parágrafo restringindo o sujeito ativo aos membros do Poder Judiciário."
+    },
+    {
+     "dispositivo": "Art. 2º, caput",
+     "problema": "Acréscimo referido ao “Capítulo VI – Dos Crimes e das Penas” e data “05 de setembro”.",
+     "fundamento": "LC 95, art. 12, III",
+     "correcao": "“A Lei nº 13.869, de 5 de setembro de 2019, passa a vigorar acrescida dos seguintes arts. 38-A e 38-B:”."
+    },
+    {
+     "dispositivo": "Art. 3º",
+     "problema": "Vigência imediata para lei que cria tipos penais.",
+     "fundamento": "LC 95, art. 8º",
+     "correcao": "Prever vacatio legis de ao menos 45 dias."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Projeto segue sem relator",
+    "descricao": "Quase seis anos parado na CCJC, sem pedido de designação registrado.",
+    "instancia": "CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, art. 41, VI.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Decidir se o projeto será priorizado e, se for, pedir relator em 2027."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Parecer pela inconstitucionalidade",
+    "descricao": "Liberdade de expressão, legalidade estrita e o regime do art. 93 da CF podem levar a parecer contrário.",
+    "instancia": "CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "CF, arts. 5º, IV, IX e XXXIX, 93 e 220.",
+    "fontes": [
+     "cf"
+    ],
+    "mitigacao": "Substitutivo restrito ao magistrado, com condutas objetivas e vinculadas ao processo eleitoral ou a causa sob sua jurisdição."
+   },
+   {
+    "id": "R03",
+    "nivel": "ALTO",
+    "titulo": "Alcance indevido sobre outros agentes",
+    "descricao": "Sem restrição do sujeito ativo, o texto atingiria servidores, membros do MP e agentes políticos.",
+    "instancia": "CCJC · PLENÁRIO",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "Lei 13.869/2019, art. 2º.",
+    "fontes": [
+     "l13869"
+    ],
+    "mitigacao": "Restringir expressamente aos membros do Poder Judiciário."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Desgaste na relação com o Judiciário",
+    "descricao": "Associações de magistrados tendem a ver o projeto como retaliação, o que reduz apoio de líderes para pauta.",
+    "instancia": "PLENÁRIO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, art. 2º.",
+    "fontes": [
+     "cf",
+     "cnj305"
+    ],
+    "mitigacao": "Apresentar o texto como positivação das regras do CNJ, com diálogo prévio com o CNJ."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Redundância normativa",
+    "descricao": "O relator pode concluir que sanções disciplinares e crime de responsabilidade já bastam.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "LC 35/1979, art. 36, III; Lei 1.079/1950, art. 39.",
+    "fontes": [
+     "lc35",
+     "l1079"
+    ],
+    "mitigacao": "Demonstrar a lacuna penal para magistrados de instâncias inferiores."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Substitutivo enxuto",
+    "descricao": "Restringir o sujeito ativo, objetivar as condutas e prever vacatio afasta os vícios mais evidentes.",
+    "como": "Minuta do gabinete para o relator.",
+    "fontes": [
+     "lc95",
+     "l13869"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Base normativa do próprio Judiciário",
+    "descricao": "As condutas são copiadas da LOMAN e da Res. CNJ 305/2019, o que permite argumentar continuidade e não inovação.",
+    "como": "Usar o paralelo no parecer.",
+    "fontes": [
+     "lc35",
+     "cnj305"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Debate sobre conduta de agentes públicos nas redes",
+    "descricao": "O tema da atuação de autoridades nas redes sociais tem espaço na CCJC.",
+    "como": "Propor audiência pública com CNJ, AMB e OAB.",
+    "fontes": [
+     "cnj305",
+     "ricd"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Decisão de prioridade",
+    "descricao": "Avaliar com a liderança do partido se o projeto será impulsionado em 2027, considerando o custo político.",
+    "prazo": "até 30/11/2026",
+    "instrumento": "RICD, art. 105.",
+    "resultado": "Estratégia definida.",
+    "riscos": "R01, R04"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Restringir o sujeito ativo ao magistrado, objetivar as condutas, retirar “lideranças políticas” e prever vacatio legis.",
+    "prazo": "dez./2026",
+    "instrumento": "LC 95, arts. 8º e 11; CF, art. 5º, XXXIX.",
+    "resultado": "Texto defensável na CCJC.",
+    "riscos": "R02, R03"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Relator na CCJC",
+    "descricao": "Pedir à presidência da CCJC relator aliado após a instalação das comissões.",
+    "prazo": "mar./2027",
+    "instrumento": "RICD, art. 41, VI.",
+    "resultado": "Relator designado.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Interlocução institucional",
+    "descricao": "Apresentar o substitutivo ao CNJ e às associações de magistrados antes do parecer.",
+    "prazo": "abr./2027",
+    "instrumento": "Res. CNJ 305/2019.",
+    "resultado": "Menor resistência.",
+    "riscos": "R04, R05"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "guia": {
+    "titulo": "Câmara · Tramitação das proposições",
+    "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/tramitacao-das-proposicoes"
+   },
+   "pl": {
+    "titulo": "PL 3.596/2020 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1909447"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2256634"
+   },
+   "l13869": {
+    "titulo": "Lei 13.869/2019 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2019/lei-13869-5-setembro-2019-789094-normaatualizada-pl.html"
+   },
+   "lc35": {
+    "titulo": "LC 35/1979 (LOMAN)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp35.htm"
+   },
+   "l1079": {
+    "titulo": "Lei 1.079/1950 (crimes de responsabilidade)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm"
+   },
+   "cnj305": {
+    "titulo": "Resolução CNJ 305/2019",
+    "url": "https://atos.cnj.jus.br/atos/detalhar/3124"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e situação na CCJC"
+   },
+   {
+    "fonte": "l13869",
+    "nota": "arts. 1º, 2º e 38"
+   },
+   {
+    "fonte": "lc35",
+    "nota": "art. 36, III"
+   },
+   {
+    "fonte": "l1079",
+    "nota": "art. 39"
+   },
+   {
+    "fonte": "cnj305",
+    "nota": "uso de redes sociais por magistrados"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 5º, 22, 93, 95 e 220"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 41 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   },
+   {
+    "fonte": "guia",
+    "nota": "apreciação pelo Plenário"
+   }
+  ]
+ }
 }

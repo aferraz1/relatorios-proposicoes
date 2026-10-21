@@ -75,13 +75,6 @@
    "comissao": true
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2021-05-20",
-   "estado": "pendente"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
@@ -94,10 +87,10 @@
    "id": 157130,
    "nome": "Dep. Túlio Gadêlha",
    "descricao": "Deputado Federal · PSD/PE",
-   "rotulo": "RELATOR(A) · CMADS"
+   "rotulo": "EX-RELATOR(A) · CMADS"
   },
-  "resumo_inicio": "Designação em 05/11/2019. Apresentou 2 versões de parecer:",
-  "resumo_fim": "",
+  "resumo_inicio": "Designação em 23/08/2023. Apresentou 2 versões de parecer:",
+  "resumo_fim": "Deixou a relatoria em 04/03/2026 sem parecer votado; a comissão aguarda nova designação.",
   "pareceres": [
    {
     "sigla": "PRL 1",
@@ -436,10 +429,6 @@
    "descricao": "Art. 54."
   },
   {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
-  },
-  {
    "titulo": "Prazo de recurso ao Plenário",
    "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
   },
@@ -638,5 +627,392 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 5.204/2019, com base no inteiro teor e nos pareceres apresentados na CMADS (PRL 1, pela aprovação, e PRL 2, com substitutivo), considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 5.204/2019 obriga os órgãos públicos a divulgar na internet **47 categorias de informação ambiental e fundiária** (licenças, autos de infração, embargos, CAR, DOF, concessões florestais, TACs, terras indígenas e quilombolas, entre outras), inspiradas no ranking de transparência ambiental do MPF. Está **parado na CMADS, sem relator desde 12/03/2026**, quando o Dep. Túlio Gadêlha, que deixara a comissão, devolveu o projeto. Depois da CMADS segue à CCJC (art. 54), em regime conclusivo; o **REQ 2.755/2023, de urgência, não foi votado**.",
+   "O relator anterior apresentou **substitutivo (PRL 2, 01/07/2024)** que troca a lista por alterações pontuais na **Lei 10.650/2003 (Lei de Informação Ambiental)** e na **LAI**: novo inciso IX no art. 2º (desmatamento, queimadas e origem de produtos florestais), divulgação na internet das listagens do art. 4º, **consulta pública obrigatória de 30 dias** para atos normativos ambientais (art. 4º-A) e novo inciso VII no § 1º do art. 8º da LAI. A troca resolve a sobreposição com a lei de 2003, mas o parecer **saiu de pauta três vezes** (2024 e 2025), com votações nominais de requerimentos de adiamento e retirada em 27/08/2025, o que indica resistência organizada na comissão.",
+   "A estratégia recomendada é **pedir novo relator na CMADS** e negociar um texto que preserve o núcleo de transparência ativa (licenças, autos de infração, embargos, CAR) e reduza pontos de atrito, como a consulta pública obrigatória para todos os entes. O projeto **não será arquivado** ao fim da 57ª Legislatura (duas legislaturas completas, abaixo do limite de três do art. 105, VI, do RICD), mas a nova composição de 2027 reabre a disputa pela relatoria."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Sem relator na CMADS desde 12/03/2026; parecer anterior nunca votado e urgência sem deliberação."
+   },
+   {
+    "eixo": "POLÍTICO (CMADS)",
+    "nivel": "ALTO",
+    "texto": "Três retiradas de pauta e votações nominais de adiamento indicam oposição organizada."
+   },
+   {
+    "eixo": "JURIDICIDADE E COERÊNCIA",
+    "nivel": "MÉDIO",
+    "texto": "Texto original duplica a Lei 10.650/2003 e a LAI; o substitutivo corrige isso."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Consulta pública obrigatória para atos de todos os entes pode ser questionada na CCJC."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Mesa indeferiu a inclusão da CFT (2021) por falta de repercussão financeira."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Por que o projeto não sai da CMADS",
+    "itens": [
+     {
+      "texto": "Distribuído à CMADS (mérito) e à CCJC (art. 54), conclusivo. Teve quatro relatores na CMADS (cinco designações); dois pareceres favoráveis (2021 e 2024) foram apresentados e nenhum votado. O pedido de incluir a CFT (REQ 1.118/2021) foi indeferido.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "O PRL 2 foi retirado de pauta em 14/08/2024 e 28/08/2024 (ausência do relator) e em 27/08/2025, após votações nominais de requerimentos de adiamento de discussão e de votação. O relator deixou a comissão em 31/01/2026.",
+      "fontes": [
+       "ficha",
+       "prl2"
+      ]
+     },
+     {
+      "texto": "O REQ 2.755/2023 (urgência, art. 155) está pendente; aprovado, levaria o projeto ao Plenário com pareceres proferidos ali. Não há arquivamento ao fim da 57ª Legislatura (RICD, art. 105, VI).",
+      "fontes": [
+       "req2755",
+       "res33",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "JURIDICIDADE E ENCAIXE NORMATIVO",
+    "titulo": "Lei 10.650/2003 e LAI",
+    "itens": [
+     {
+      "texto": "A Lei 10.650/2003 já obriga os órgãos do Sisnama a dar acesso à informação ambiental (art. 2º, incisos I a VIII) e a publicar listagens de licenciamento, supressão de vegetação, autos de infração, TACs, recursos e EIAs (art. 4º), mas só no Diário Oficial e “no respectivo órgão”. O texto original cria lei autônoma sobre o mesmo assunto.",
+      "fontes": [
+       "l10650",
+       "lc95"
+      ]
+     },
+     {
+      "texto": "O substitutivo usa numeração livre: o art. 2º da Lei 10.650/2003 termina no inciso VIII (o IX proposto é novo) e o § 1º do art. 8º da LAI vai até o inciso VI, com “e” ao final do V, que precisaria ser deslocado.",
+      "fontes": [
+       "l10650",
+       "l12527",
+       "sbt"
+      ]
+     },
+     {
+      "texto": "O art. 2º do texto original remete às “penalidades previstas na Lei nº 12.527” sem indicar o infrator; a LAI tipifica condutas do agente público (art. 32) e já alcança a transparência ativa do art. 8º.",
+      "fontes": [
+       "pl",
+       "l12527"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E MÉRITO",
+    "titulo": "Pontos de atrito",
+    "itens": [
+     {
+      "texto": "Normas de acesso à informação de caráter nacional têm amparo nos arts. 5º, XXXIII, 37, § 3º, II, e 225 da CF. A lista do texto original inclui, porém, itens fora da matéria ambiental (lista de trabalho escravo, glebas, terras devolutas) e documentos estaduais (LAU, LAR, Guia Florestal), o que amplia o alcance federativo.",
+      "fontes": [
+       "cf",
+       "pl"
+      ]
+     },
+     {
+      "texto": "O art. 4º-A do substitutivo exige consulta pública de 30 dias para minutas de atos normativos ambientais de qualquer órgão ou entidade. Na CCJC, pode ser lido como interferência no poder regulamentar e na organização de outros entes; delimitar ao âmbito federal reduz o risco.",
+      "fontes": [
+       "sbt",
+       "cf"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 5.204/2019",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º, incisos I a XLVII (texto original)",
+     "problema": "Lista de 47 incisos com siglas sem explicitação (Autex, PBA, PAOF, PRADA), barras, grafia irregular (“Licença de Prévia”, “Ambienta”) e itens sem relação com o caput (Terras Indígenas, Territórios Quilombolas como “informações”).",
+     "fundamento": "LC 95, art. 11, I, “a”, e II, “e”",
+     "correcao": "Adotar o substitutivo; se mantida a lista, agrupar por categorias e explicitar siglas na primeira menção."
+    },
+    {
+     "dispositivo": "Texto original como lei autônoma",
+     "problema": "Disciplina o mesmo assunto da Lei 10.650/2003 e do art. 8º da LAI sem remissão expressa.",
+     "fundamento": "LC 95, art. 7º, IV",
+     "correcao": "Converter em alterações das duas leis, como faz o substitutivo."
+    },
+    {
+     "dispositivo": "Substitutivo, art. 3º (LAI, art. 8º, § 1º, VII)",
+     "problema": "Acrescenta inciso VII após o VI sem ajustar o conectivo “e” ao final do inciso V nem a pontuação do VI.",
+     "fundamento": "LC 95, art. 11, I, “e”, e art. 12, III",
+     "correcao": "Dar nova redação aos incisos V e VI (“; e” passa ao VI) e marcar o artigo com “(NR)” uma única vez."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Projeto sem relator na CMADS",
+    "descricao": "Sem designação, o projeto pode passar 2026 sem andamento e ficar sujeito à nova composição de 2027.",
+    "instancia": "CMADS",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, arts. 24, II, e 105, VI.",
+    "fontes": [
+     "ficha",
+     "res33"
+    ],
+    "mitigacao": "Pedir à presidência da CMADS designação imediata de relator."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Obstrução na comissão",
+    "descricao": "Requerimentos de adiamento e retirada já foram usados com votação nominal; a pauta pode voltar a ser travada.",
+    "instancia": "CMADS",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, arts. 117 e 52.",
+    "fontes": [
+     "ficha",
+     "prl2"
+    ],
+    "mitigacao": "Negociar previamente com os coordenadores das bancadas na CMADS um texto enxuto."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Objeção federativa ao art. 4º-A",
+    "descricao": "Consulta pública obrigatória para atos normativos de todos os entes pode ser apontada como inconstitucional.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, arts. 18 e 84, VI.",
+    "fontes": [
+     "cf",
+     "sbt"
+    ],
+    "mitigacao": "Restringir o art. 4º-A aos órgãos e entidades federais ou torná-lo diretriz."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Rejeição por redundância",
+    "descricao": "Relator novo pode concluir que a Lei 10.650/2003 e a LAI já bastam e votar pela rejeição.",
+    "instancia": "CMADS",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 10.650/2003, arts. 2º e 4º.",
+    "fontes": [
+     "l10650",
+     "l12527"
+    ],
+    "mitigacao": "Mostrar que o ganho está na divulgação na internet e nos itens que a lei de 2003 não cobre (CAR, DOF, embargos)."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Substitutivo pronto",
+    "descricao": "O PRL 2 já resolve a sobreposição com a lei de 2003 e pode ser reaproveitado pelo novo relator.",
+    "como": "Entregar ao novo relator o substitutivo com os ajustes de técnica indicados.",
+    "fontes": [
+     "sbt",
+     "l10650"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CELERIDADE",
+    "titulo": "Urgência já protocolada",
+    "descricao": "O REQ 2.755/2023 permite levar o projeto ao Plenário se houver acordo de líderes.",
+    "como": "Avaliar com os líderes a votação da urgência, se a CMADS seguir travada.",
+    "fontes": [
+     "req2755",
+     "ricd"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Apoio de campos diferentes",
+    "descricao": "A urgência foi pedida por deputada do NOVO e o substitutivo foi apresentado por deputado da REDE: transparência ambiental tem defensores à direita e à esquerda.",
+    "como": "Construir apoio suprapartidário em torno de um texto de transparência ativa.",
+    "fontes": [
+     "req2755",
+     "prl2"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "ADEQUAÇÃO",
+    "titulo": "Sem óbice financeiro",
+    "descricao": "A Mesa entendeu que a matéria não é de competência da CFT; a tramitação fica restrita a duas comissões.",
+    "como": "Destacar o baixo custo: dados já existem em sistemas eletrônicos.",
+    "fontes": [
+     "ficha"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Designação de relator na CMADS",
+    "descricao": "Conversa com a presidência da CMADS e indicação de deputado com perfil de consenso.",
+    "prazo": "até 06/11/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Relatoria definida em 2026.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Texto de consenso",
+    "descricao": "Partir do PRL 2, delimitar o art. 4º-A ao âmbito federal e manter o núcleo (licenças, autos de infração, embargos, CAR e origem florestal na internet).",
+    "prazo": "até 20/11/2026",
+    "instrumento": "LC 95, art. 7º, IV; Lei 10.650/2003.",
+    "resultado": "Reduzir objeções na CMADS e na CCJC.",
+    "riscos": "R02, R03, R04"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Negociação com as bancadas na CMADS",
+    "descricao": "Reunião com coordenadores das bancadas que obstruíram em 2025 para pactuar a votação.",
+    "prazo": "nov./2026",
+    "instrumento": "RICD, art. 117.",
+    "resultado": "Votação sem obstrução.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Avaliar a urgência",
+    "descricao": "Se não houver pauta na CMADS até dez./2026, levar o REQ 2.755/2023 ao Colégio de Líderes.",
+    "prazo": "dez./2026",
+    "instrumento": "RICD, art. 155.",
+    "resultado": "Alternativa de tramitação.",
+    "riscos": "R01, R02"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Relatoria em 2027",
+    "descricao": "Após a recomposição, reforçar o pedido de relator aliado e reapresentar o texto de consenso.",
+    "prazo": "fev.–mar./2027",
+    "instrumento": "RICD, art. 105, VI.",
+    "resultado": "Retomada rápida na nova composição.",
+    "riscos": "R01"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "pl": {
+    "titulo": "PL 5.204/2019 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1811615"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2221658"
+   },
+   "prl2": {
+    "titulo": "PRL 2 CMADS (parecer com substitutivo)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2221658"
+   },
+   "sbt": {
+    "titulo": "Substitutivo do PRL 2 CMADS",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2221658"
+   },
+   "req2755": {
+    "titulo": "REQ 2.755/2023 (urgência)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2221658"
+   },
+   "l10650": {
+    "titulo": "Lei 10.650/2003 (Lei de Informação Ambiental)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.650.htm"
+   },
+   "l12527": {
+    "titulo": "Lei 12.527/2011 (Lei de Acesso à Informação)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto original"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "relatorias, retiradas de pauta e requerimentos"
+   },
+   {
+    "fonte": "prl2",
+    "nota": "fundamentação do substitutivo"
+   },
+   {
+    "fonte": "sbt",
+    "nota": "texto proposto"
+   },
+   {
+    "fonte": "req2755",
+    "nota": "urgência pendente"
+   },
+   {
+    "fonte": "l10650",
+    "nota": "arts. 2º e 4º vigentes"
+   },
+   {
+    "fonte": "l12527",
+    "nota": "arts. 8º e 32 vigentes"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 5º, 18, 37, 84 e 225"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 105, 117 e 155"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

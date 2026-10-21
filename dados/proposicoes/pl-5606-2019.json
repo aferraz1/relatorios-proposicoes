@@ -699,5 +699,422 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 5.606/2019, com base no inteiro teor e nos pareceres aprovados na CMULHER (substitutivo) e na CASP (subemenda substitutiva), considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 5.606/2019 quer impedir que o agressor localize a vítima pelo portal da transparência, vedando a divulgação de **lotação e remuneração de servidoras e empregadas públicas sob medida protetiva** da Lei Maria da Penha. O mérito está **vencido nas duas comissões**: CMULHER (29/06/2022, substitutivo, com o PL 3.988/2020 apensado) e CASP (24/02/2026, subemenda substitutiva da Dep. Sâmia Bomfim). Desde 27/03/2026 o projeto está na **CCJC, sem relator**, para o exame do art. 54 do RICD, em regime conclusivo.",
+   "O texto aprovado na CASP mudou o eixo do projeto: em vez de um parágrafo na LAI, cria **nova medida protetiva (art. 23, VII, da Lei 11.340/2006)**, decretada pelo juiz, com ofício ao órgão de lotação, sigilo em 24 horas, extensão a familiares, revisão a cada cinco anos e acréscimo de um art. 22-A à LAI. A solução é coerente com a lei vigente (o art. 23 vai até o inciso VI e não tem parágrafos), mas traz **pontos que a CCJC tende a examinar**: a obrigação de instaurar PAD em todos os entes, a revisão quinquenal descolada da regra de vigência das medidas protetivas e um art. 22-A que pouco acrescenta ao art. 22 da LAI.",
+   "A prioridade é **obter a designação de relator na CCJC ainda em 2026** e oferecer ajustes de redação que preservem o mérito. Há concorrência no tema: o **PL 1.146/2026**, apresentado neste ano, trata do sigilo da lotação por outro mecanismo e tramita em separado. O projeto não será arquivado ao fim da 57ª Legislatura (terá tramitado por duas legislaturas completas, abaixo do limite de três do art. 105, VI, do RICD), mas a recomposição da CCJC em 2027 pode adiar a relatoria."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Mérito concluído; falta só a CCJC, sem relator desde 27/03/2026."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "MÉDIO",
+    "texto": "Ponderação publicidade x intimidade bem fundamentada; atenção à imposição de PAD a estados e municípios."
+   },
+   {
+    "eixo": "JURIDICIDADE E COERÊNCIA",
+    "nivel": "MÉDIO",
+    "texto": "Revisão quinquenal destoa do art. 19, § 6º, da Lei Maria da Penha; art. 22-A da LAI é redundante."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Obrigação administrativa de ocultar dados, sem despesa relevante; não distribuído à CFT."
+   },
+   {
+    "eixo": "ARTICULAÇÃO",
+    "nivel": "BAIXO",
+    "texto": "Aprovação simbólica nas duas comissões, com apoio de partidos de diferentes campos."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Do mérito à CCJC",
+    "itens": [
+     {
+      "texto": "Despacho original: CMULHER, CTASP e CCJC (art. 54), conclusivo. Com a Res. CD 1/2023, a CTASP foi desdobrada e o projeto passou à CASP, que aprovou a subemenda substitutiva em 24/02/2026. Na CCJC, o exame fica restrito a constitucionalidade, juridicidade e técnica legislativa.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Não houve arquivamento ao fim da 56ª Legislatura e não haverá ao fim da 57ª: apresentado em 2019, o projeto completa duas legislaturas em janeiro de 2027, abaixo das três do art. 105, VI, do RICD. A troca de membros da CCJC em 2027 pode, porém, empurrar a designação de relator.",
+      "fontes": [
+       "res33",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "O PL 1.146/2026 (sigilo da lotação, mediante requerimento da servidora e prazo de 48 horas) tramita em separado. A tramitação conjunta depende da Presidência e encontra limite no art. 142, parágrafo único, do RICD, porque a CMULHER já se pronunciou sobre o PL 5.606/2019.",
+      "fontes": [
+       "pl1146",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Encaixe na Lei Maria da Penha e na LAI",
+    "itens": [
+     {
+      "texto": "O STF considera legítima a divulgação nominal da remuneração de servidores (Tema 483). O projeto não contraria essa tese: cria exceção pontual, por ordem judicial, fundada na proteção da vida e da intimidade (CF, art. 5º, X), como reconheceu a CASP.",
+      "fontes": [
+       "t483",
+       "cf",
+       "prl_casp"
+      ]
+     },
+     {
+      "texto": "O art. 23 da Lei 11.340/2006 tem incisos I a VI (V pela Lei 13.882/2019 e VI pela Lei 14.674/2023) e nenhum parágrafo: o inciso VII e os §§ 1º a 7º da subemenda são numeração livre. A lei já prevê sigilo dos dados da ofendida em matrícula escolar (art. 9º, § 8º) e prioridade de remoção da servidora (art. 9º, § 2º, I), precedentes que reforçam o projeto.",
+      "fontes": [
+       "l11340",
+       "sbe"
+      ]
+     },
+     {
+      "texto": "O § 4º proposto obriga a instaurar processo disciplinar em qualquer ente. A CCJC pode ver nisso interferência no regime disciplinar dos servidores estaduais e municipais (CF, arts. 18 e 39); o § 6º (revisão a cada cinco anos) convive mal com o art. 19, § 6º, da Lei 11.340/2006, segundo o qual as medidas vigoram enquanto persistir o risco.",
+      "fontes": [
+       "cf",
+       "l11340",
+       "sbe"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E TEXTO APROVADO",
+    "titulo": "O que a subemenda da CASP entrega",
+    "itens": [
+     {
+      "texto": "A subemenda estende o sigilo a ascendentes, descendentes, dependentes e atual cônjuge ou companheiro (inspirada no art. 2º, § 1º, da Lei 9.807/1999), garante certidão da parte não sigilosa e fixa prazo de 24 horas para o órgão de lotação.",
+      "fontes": [
+       "sbe",
+       "prl_casp"
+      ]
+     },
+     {
+      "texto": "O art. 22-A acrescido à LAI apenas remete ao art. 23 da Lei 11.340/2006 e à Lei 9.807/1999; o art. 22 da LAI já ressalva “as demais hipóteses legais de sigilo”, e a remissão a “art. 23” pode ser confundida com o art. 23 da própria LAI (classificação de informações).",
+      "fontes": [
+       "l12527",
+       "sbe"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 5.606/2019",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º do texto original (art. 21, § 2º, da LAI)",
+     "problema": "Acrescenta “§ 2º” a artigo que só tem parágrafo único, sem renumerá-lo, e põe uma restrição de acesso no artigo que trata do acesso que não pode ser negado.",
+     "fundamento": "LC 95, arts. 10, III, e 11, III, “c”",
+     "correcao": "Superado pela subemenda; se o texto original for retomado, renumerar o parágrafo único como § 1º ou deslocar a regra para o art. 22 ou 31 da LAI."
+    },
+    {
+     "dispositivo": "Subemenda CASP, art. 1º e art. 3º",
+     "problema": "“Esta Lei altera as Lei nº” (concordância) e art. 22-A novo marcado com “(NR)”, sinal reservado a dispositivo com nova redação.",
+     "fundamento": "LC 95, arts. 7º e 12, III, “d”",
+     "correcao": "Corrigir para “altera a Lei nº 11.340 (...) e a Lei nº 12.527 (...)”; suprimir o art. 22-A ou, se mantido, dispensar o “(NR)”."
+    },
+    {
+     "dispositivo": "Subemenda CASP, art. 23, § 6º",
+     "problema": "“Revisão a cada 5 (cinco) anos” sem indicar quem revê, e sem vincular o sigilo à vigência da medida protetiva.",
+     "fundamento": "LC 95, art. 11, I e II",
+     "correcao": "“O sigilo vigorará enquanto vigente a medida protetiva, cabendo ao juiz comunicar ao órgão de lotação a sua revogação.”"
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Projeto sem relator na CCJC",
+    "descricao": "Sem designação desde 27/03/2026, o projeto pode atravessar 2026 parado e depender da nova composição da CCJC em 2027.",
+    "instancia": "CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, arts. 54 e 105, VI.",
+    "fontes": [
+     "ficha",
+     "res33"
+    ],
+    "mitigacao": "Pedir à presidência da CCJC a designação de relator ainda em 2026, de preferência deputada da bancada feminina."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Questionamento federativo do § 4º",
+    "descricao": "A obrigação de instaurar PAD em todos os entes pode ser apontada como invasão da autonomia disciplinar de estados e municípios.",
+    "instancia": "CCJC · SANÇÃO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, arts. 18 e 39.",
+    "fontes": [
+     "cf",
+     "sbe"
+    ],
+    "mitigacao": "Emenda de redação: “sujeita o agente público às sanções previstas na legislação aplicável”."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Concorrência do PL 1.146/2026",
+    "descricao": "Projeto mais recente sobre o mesmo objeto pode ganhar prioridade nas comissões e esvaziar o PL 5.606/2019.",
+    "instancia": "CASP · CMULHER",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, arts. 139, I, e 142.",
+    "fontes": [
+     "pl1146",
+     "ricd"
+    ],
+    "mitigacao": "Articular com o autor do PL 1.146/2026 para que suas ideias sejam incorporadas ao parecer da CCJC (por exemplo, o pedido direto da servidora)."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Resistência de defensores da transparência",
+    "descricao": "Entidades de controle social podem ver no texto precedente de ocultação de remunerações.",
+    "instancia": "CCJC · SENADO",
+    "probabilidade": "BAIXA",
+    "impacto": "MÉDIO",
+    "fundamento": "STF, Tema 483; LAI, art. 8º.",
+    "fontes": [
+     "t483",
+     "l12527"
+    ],
+    "mitigacao": "Destacar que o sigilo depende de ordem judicial, é individual e temporário, e que a parte não sigilosa continua acessível."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Incoerência com a vigência das medidas protetivas",
+    "descricao": "Revisão quinquenal pode manter sigilo após a revogação da medida, ou ser lida como prazo autônomo.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "Lei 11.340/2006, art. 19, § 6º.",
+    "fontes": [
+     "l11340"
+    ],
+    "mitigacao": "Vincular o sigilo à vigência da medida protetiva."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Mérito encerrado",
+    "descricao": "Restam apenas a CCJC e o prazo de recurso; com parecer em 2026, o projeto pode chegar ao Senado no início de 2027.",
+    "como": "Acompanhar a designação de relator e pedir pauta logo após o parecer.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Consenso amplo nas comissões",
+    "descricao": "Aprovação simbólica na CMULHER e na CASP, com relatoras e relatores de partidos distintos.",
+    "como": "Usar o histórico na conversa com a presidência da CCJC.",
+    "fontes": [
+     "par_cmulher",
+     "prl_casp"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "QUALIDADE",
+    "titulo": "Ajustes de técnica na CCJC",
+    "descricao": "A CCJC pode corrigir o § 4º, o § 6º e o art. 22-A por emenda de redação ou de juridicidade, sem reabrir o mérito.",
+    "como": "Entregar ao relator minuta de emendas pontuais.",
+    "fontes": [
+     "sbe",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Tema em evidência",
+    "descricao": "A apresentação do PL 1.146/2026 e leis estaduais sobre o mesmo problema mostram demanda atual.",
+    "como": "Comunicação conjunta com a bancada feminina sobre o projeto mais avançado.",
+    "fontes": [
+     "pl1146"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Designação de relator na CCJC",
+    "descricao": "Ofício e conversa com a presidência da CCJC pedindo relator(a) ainda nesta sessão legislativa.",
+    "prazo": "até 06/11/2026",
+    "instrumento": "RICD, art. 54.",
+    "resultado": "Relatoria definida em 2026.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de emendas de juridicidade e redação",
+    "descricao": "Ajustar o § 4º (sanções conforme a legislação de cada ente), vincular o sigilo à vigência da medida (§ 6º) e suprimir ou reescrever o art. 22-A da LAI.",
+    "prazo": "até 20/11/2026",
+    "instrumento": "LC 95, arts. 11 e 12; Lei 11.340/2006, art. 19, § 6º.",
+    "resultado": "Parecer pela constitucionalidade sem ressalvas.",
+    "riscos": "R02, R05"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Diálogo com o autor do PL 1.146/2026",
+    "descricao": "Propor convergência: o PL 5.606/2019, mais avançado, absorve o pedido direto da servidora ao órgão.",
+    "prazo": "nov./2026",
+    "instrumento": "RICD, art. 142.",
+    "resultado": "Evitar disputa entre textos.",
+    "riscos": "R03"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Votação na CCJC e prazo de recurso",
+    "descricao": "Pedir inclusão em pauta assim que o parecer for apresentado e acompanhar as 5 sessões de recurso.",
+    "prazo": "dez./2026 ou mar./2027",
+    "instrumento": "RICD, arts. 58, § 1º, e 132, § 2º.",
+    "resultado": "Envio ao Senado.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "05",
+    "prioridade": "BAIXA",
+    "titulo": "Nota técnica sobre transparência",
+    "descricao": "Preparar nota mostrando a compatibilidade com o Tema 483 e com a LAI.",
+    "prazo": "nov./2026",
+    "instrumento": "STF, Tema 483.",
+    "resultado": "Neutralizar objeções de entidades de controle.",
+    "riscos": "R04"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "pl": {
+    "titulo": "PL 5.606/2019 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1824251"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2226261"
+   },
+   "par_cmulher": {
+    "titulo": "PAR 1 CMULHER (substitutivo aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2226261"
+   },
+   "prl_casp": {
+    "titulo": "PRL 1 CASP (parecer aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2226261"
+   },
+   "sbe": {
+    "titulo": "SBE-A 1 CASP (texto aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2226261"
+   },
+   "l11340": {
+    "titulo": "Lei 11.340/2006 (Lei Maria da Penha)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11340-7-agosto-2006-545133-normaatualizada-pl.html"
+   },
+   "l12527": {
+    "titulo": "Lei 12.527/2011 (Lei de Acesso à Informação)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+   },
+   "t483": {
+    "titulo": "STF · Tema 483 (ARE 652.777)",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=483"
+   },
+   "pl1146": {
+    "titulo": "Agência Câmara · PL 1.146/2026",
+    "url": "https://www.camara.leg.br/noticias/1285520-projeto-protege-sigilo-do-local-de-trabalho-de-servidoras-com-medida-protetiva"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto original"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho, redistribuição e situação na CCJC"
+   },
+   {
+    "fonte": "par_cmulher",
+    "nota": "substitutivo da CMULHER"
+   },
+   {
+    "fonte": "prl_casp",
+    "nota": "fundamentação da CASP"
+   },
+   {
+    "fonte": "sbe",
+    "nota": "texto aprovado"
+   },
+   {
+    "fonte": "l11340",
+    "nota": "arts. 9º, 19 e 23 vigentes"
+   },
+   {
+    "fonte": "l12527",
+    "nota": "arts. 8º, 21, 22 e 31 vigentes"
+   },
+   {
+    "fonte": "t483",
+    "nota": "divulgação de remuneração"
+   },
+   {
+    "fonte": "pl1146",
+    "nota": "proposição concorrente"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 5º, 18, 37 e 39"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 54, 105 e 142"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

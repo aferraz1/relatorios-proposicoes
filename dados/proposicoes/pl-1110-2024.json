@@ -367,5 +367,399 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 1.110/2024, com base no inteiro teor e no parecer aprovado na CSPCCO e na Medida Provisória 1.393/2026 (Desenrola Brasil 3.0), considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 1.110/2024 acrescenta o **art. 35-A à Lei 14.690/2023** para dar **prioridade aos agentes das forças de segurança no Desenrola Brasil**, com publicidade específica para esse público. Foi **aprovado na CSPCCO** (02/07/2024, parecer do Dep. Fred Linhares) e está na **CFT aguardando designação de relator desde 05/07/2024**, há mais de dois anos; depois segue à CCJC, em regime conclusivo.",
+   "O programa a que o projeto se refere mudou. A fase original do Desenrola tinha **duração legal até 31/12/2023** (art. 1º, § 1º), e a **Medida Provisória 1.393, de 25/09/2026**, criou o **Desenrola Brasil 3.0** (arts. 31-A a 31-G), até 30/06/2028, baseado na **aquisição de carteiras de dívidas pela União** com deságio mínimo de 90%. O art. 31-C, § 2º, permite que ato do Ministério da Fazenda estabeleça **critérios adicionais de priorização dos devedores**.",
+   "A MP está na comissão mista, com prazo de emendas encerrado em 13/10/2026 e prazo de deliberação até 23/11/2026, prorrogável. A estratégia recomendada é **levar o conteúdo do projeto ao relator da MP**, para inclusão no projeto de lei de conversão como critério de priorização no Desenrola 3.0, e em paralelo **atualizar o PL na CFT** para remeter à nova modalidade e definir quem são os “agentes das forças de segurança”."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Sem relator na CFT desde 05/07/2024; ainda falta a CCJC."
+   },
+   {
+    "eixo": "ATUALIDADE DO OBJETO",
+    "nivel": "ALTO",
+    "texto": "Prioridade no Desenrola original perdeu objeto; a modalidade vigente é o Desenrola 3.0 da MP 1.393/2026."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "MÉDIO",
+    "texto": "Prioridade por categoria profissional precisa de justificativa à luz da isonomia (CF, art. 5º, caput)."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "BAIXO",
+    "texto": "Prioridade e publicidade não criam despesa obrigatória nova."
+   },
+   {
+    "eixo": "ARTICULAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Aprovação simbólica na CSPCCO e apoio da bancada da segurança; janela da MP 1.393/2026 é curta."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Situação nas comissões",
+    "itens": [
+     {
+      "texto": "Despacho de 16/04/2024: CSPCCO (mérito), CFT (mérito e art. 54) e CCJC (art. 54), conclusivo, regime ordinário. A CSPCCO aprovou o parecer pela aprovação, sem emendas, em votação simbólica.",
+      "fontes": [
+       "ficha",
+       "prl",
+       "par"
+      ]
+     },
+     {
+      "texto": "Na CFT, o projeto aguarda designação de relator desde 05/07/2024; não há prazo cumprido que force a pauta.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Não há arquivamento ao fim da legislatura (RICD, art. 105, VI); em 2027 a CFT terá nova composição.",
+      "fontes": [
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ENCAIXE NA LEI 14.690/2023",
+    "titulo": "O programa vigente",
+    "itens": [
+     {
+      "texto": "O art. 1º, § 1º, com redação da MP 1.393/2026, mantém a duração do Desenrola Brasil original até 31/12/2023; o § 2º fixa o Desenrola 3.0 até 30/06/2028.",
+      "fontes": [
+       "l14690",
+       "mp1393"
+      ]
+     },
+     {
+      "texto": "No Desenrola 3.0 a União adquire carteiras de credores por procedimento competitivo (art. 31-C) e reestrutura as dívidas (art. 31-D); o § 2º do art. 31-C prevê critérios adicionais de elegibilidade e priorização por ato do Ministério da Fazenda, o que acomoda a prioridade proposta.",
+      "fontes": [
+       "l14690",
+       "nt1393"
+      ]
+     },
+     {
+      "texto": "O art. 35-A proposto cairia no capítulo de disposições finais, logo após o art. 35, regra transitória de 2023; a referência genérica a “Programa Desenrola Brasil” não alcança com segurança a nova modalidade.",
+      "fontes": [
+       "l14690",
+       "lc95"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E MÉRITO",
+    "titulo": "Pontos a sanear",
+    "itens": [
+     {
+      "texto": "“Agentes das forças de segurança” não tem definição legal; a Lei 13.675/2018 (Susp), art. 9º, § 2º, lista os integrantes operacionais e pode servir de referência.",
+      "fontes": [
+       "l13675",
+       "lc95"
+      ]
+     },
+     {
+      "texto": "A prioridade por categoria deve se apoiar em critério objetivo (endividamento, risco da atividade) para resistir ao exame de isonomia na CCJC.",
+      "fontes": [
+       "cf",
+       "prl"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 1.110/2024",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º (art. 35-A)",
+     "problema": "Remissão a “Programa Desenrola Brasil” cuja fase original se encerrou; não menciona o Desenrola 3.0.",
+     "fundamento": "LC 95, art. 11, II, “a”",
+     "correcao": "Inserir como parágrafo do art. 31-C: “Entre os critérios de priorização de que trata o § 2º, incluem-se os integrantes operacionais do Susp (...)”."
+    },
+    {
+     "dispositivo": "Art. 35-A, caput",
+     "problema": "Termo “agentes das forças de segurança” sem definição.",
+     "fundamento": "LC 95, art. 11, I e II",
+     "correcao": "Remeter ao art. 9º, § 2º, da Lei 13.675/2018."
+    },
+    {
+     "dispositivo": "Art. 35-A, parágrafo único",
+     "problema": "“será realizada publicidade específica” não indica responsável nem forma.",
+     "fundamento": "LC 95, art. 11, II",
+     "correcao": "“A divulgação do Desenrola Brasil 3.0 contemplará ações dirigidas a esse público.”"
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Perda de objeto",
+    "descricao": "Relator da CFT pode concluir que a prioridade em programa encerrado é inócua e propor rejeição.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "Lei 14.690/2023, art. 1º, § 1º.",
+    "fontes": [
+     "l14690"
+    ],
+    "mitigacao": "Substitutivo que remeta ao Desenrola 3.0 (art. 31-C)."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Paralisia na CFT",
+    "descricao": "Mais de dois anos sem relator; sem iniciativa do autor o projeto não avança.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 52.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Pedir à presidência da CFT a designação de relator aliado."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Janela da MP se fechar",
+    "descricao": "Se a MP for votada sem o tema, a prioridade ficará restrita a ato do Ministério da Fazenda.",
+    "instancia": "COMISSÃO MISTA",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "MP 1.393/2026; CF, art. 62.",
+    "fontes": [
+     "mp1393",
+     "cf"
+    ],
+    "mitigacao": "Entregar sugestão de redação ao relator da comissão mista ainda em outubro."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Questionamento de isonomia",
+    "descricao": "Prioridade a uma categoria pode ser vista como privilégio sem critério objetivo.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, art. 5º, caput.",
+    "fontes": [
+     "cf"
+    ],
+    "mitigacao": "Justificar com dados de endividamento e vincular a critério objetivo."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Operacionalização no modelo de carteiras",
+    "descricao": "Na compra de carteiras pela União, identificar a categoria do devedor depende de dados que os credores podem não ter.",
+    "instancia": "EXECUTIVO",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "Lei 14.690/2023, art. 31-C.",
+    "fontes": [
+     "l14690"
+    ],
+    "mitigacao": "Prever priorização no atendimento e na divulgação, com regulamento do Ministério da Fazenda."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Projeto de lei de conversão da MP 1.393/2026",
+    "descricao": "O relator da comissão mista pode incorporar a prioridade como critério legal no Desenrola 3.0.",
+    "como": "Sugestão de redação e articulação com a bancada da segurança pública.",
+    "fontes": [
+     "mp1393",
+     "nt1393"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Apoio da CSPCCO",
+    "descricao": "Aprovação simbólica com ampla presença de deputados da área.",
+    "como": "Pedir à presidência da CSPCCO e à frente parlamentar apoio junto à CFT e à comissão mista.",
+    "fontes": [
+     "par"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "QUALIDADE",
+    "titulo": "Substitutivo na CFT",
+    "descricao": "O relator pode atualizar a remissão e definir o público com base no Susp.",
+    "como": "Minuta de substitutivo pronta para o relator.",
+    "fontes": [
+     "l13675",
+     "l14690"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Sugestão ao relator da MP 1.393/2026",
+    "descricao": "Encaminhar redação de parágrafo ao art. 31-C incluindo os integrantes operacionais do Susp entre os critérios de priorização.",
+    "prazo": "até 31/10/2026",
+    "instrumento": "CF, art. 62; Res. 1/2002-CN.",
+    "resultado": "Prioridade incluída no projeto de lei de conversão.",
+    "riscos": "R03, R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Designação de relator na CFT",
+    "descricao": "Ofício à presidência da CFT indicando relator aliado.",
+    "prazo": "até 13/11/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Projeto destravado na CFT.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Remissão ao Desenrola 3.0, definição pela Lei 13.675/2018 e divulgação dirigida.",
+    "prazo": "nov./2026",
+    "instrumento": "LC 95, art. 11; Lei 14.690/2023.",
+    "resultado": "Texto atualizado e com público definido.",
+    "riscos": "R01, R04, R05"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Dados de endividamento",
+    "descricao": "Reunir dados de entidades de classe e do Banco Central sobre endividamento dos profissionais de segurança.",
+    "prazo": "dez./2026",
+    "instrumento": "CF, art. 5º.",
+    "resultado": "Justificativa objetiva para a prioridade.",
+    "riscos": "R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Acompanhar a conversão da MP",
+    "descricao": "Monitorar o parecer da comissão mista e a votação nas Casas; se o tema entrar, ajustar o PL para não duplicar.",
+    "prazo": "até a votação da MP",
+    "instrumento": "CF, art. 62.",
+    "resultado": "Evitar redundância normativa.",
+    "riscos": "R03"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "pl": {
+    "titulo": "PL 1.110/2024 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2403388"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424834"
+   },
+   "prl": {
+    "titulo": "PRL 1 CSPCCO (parecer do relator)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424834"
+   },
+   "par": {
+    "titulo": "PAR 1 CSPCCO (parecer aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2424834"
+   },
+   "l14690": {
+    "titulo": "Lei 14.690/2023 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14690-3-outubro-2023-794773-normaatualizada-pl.html"
+   },
+   "mp1393": {
+    "titulo": "MP 1.393/2026 (Desenrola Brasil 3.0)",
+    "url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175870"
+   },
+   "nt1393": {
+    "titulo": "Senado · Nota técnica de adequação à MP 1.393/2026",
+    "url": "https://www2.senado.leg.br/jspui/bitstream/id/962341/1/NTAOF_MPV1393-2026_Silva_2026.pdf"
+   },
+   "l13675": {
+    "titulo": "Lei 13.675/2018 (Susp)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13675-11-junho-2018-786843-normaatualizada-pl.html"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e situação na CFT"
+   },
+   {
+    "fonte": "prl",
+    "nota": "voto do relator na CSPCCO"
+   },
+   {
+    "fonte": "par",
+    "nota": "aprovação simbólica"
+   },
+   {
+    "fonte": "l14690",
+    "nota": "arts. 1º, 31-A a 31-G e 35"
+   },
+   {
+    "fonte": "mp1393",
+    "nota": "prazos na comissão mista"
+   },
+   {
+    "fonte": "nt1393",
+    "nota": "modelo do Desenrola 3.0"
+   },
+   {
+    "fonte": "l13675",
+    "nota": "art. 9º, § 2º"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 5º e 62"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

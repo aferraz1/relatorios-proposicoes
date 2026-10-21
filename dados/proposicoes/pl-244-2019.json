@@ -100,13 +100,6 @@
    }
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2019-02-04",
-   "estado": "pendente"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
@@ -212,7 +205,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "1731438",
-      "nome": "REQ 1167/2019 FNCCAP",
+      "nome": "REQ 1167/2019",
       "id": 2197728
      }
     }
@@ -247,7 +240,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "1734515",
-      "nome": "REQ 1261/2019 FNCCAP",
+      "nome": "REQ 1261/2019",
       "id": 2198596
      }
     },
@@ -258,7 +251,7 @@
      "tipo": "rotina",
      "documento": {
       "codteor": "1736545",
-      "nome": "REQ 1300/2019 FNCCAP",
+      "nome": "REQ 1300/2019",
       "id": 2199131
      }
     }
@@ -662,10 +655,6 @@
    "descricao": "Art. 54."
   },
   {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
-  },
-  {
    "titulo": "Prazo de recurso ao Plenário",
    "descricao": "5 sessões após a última comissão (Art. 132, § 2º, RICD)."
   },
@@ -688,7 +677,7 @@
   "descricao_raiz": "Projeto de Lei · Dep. Pedro Lucas Fernandes (UNIÃO/MA)",
   "apensados": [
    {
-    "sigla": "PL 252/2019 FNPCC",
+    "sigla": "PL 252/2019",
     "tipo": "Projeto de Lei",
     "data": "04/02/2019",
     "id": 2190760,
@@ -711,7 +700,7 @@
       "codteor": "2039639"
      },
      {
-      "sigla": "SBT 1 FNCCAP",
+      "sigla": "SBT 1",
       "tipo": "Substitutivo",
       "data": "06/07/2021",
       "id": 2289743,
@@ -727,7 +716,7 @@
       "codteor": "2073958"
      },
      {
-      "sigla": "SBT-A 1 FNCCAP",
+      "sigla": "SBT-A 1",
       "tipo": "Substitutivo adotado pela Comissão",
       "data": "15/09/2021",
       "id": 2298880,
@@ -743,7 +732,7 @@
       "codteor": "3119894"
      },
      {
-      "sigla": "SBR 1 FNCCAP",
+      "sigla": "SBR 1",
       "tipo": "Subemenda de Relator",
       "data": "28/04/2026",
       "id": 2619389,
@@ -751,7 +740,7 @@
       "codteor": "3119894"
      },
      {
-      "sigla": "SBR 1 FNCCAP (id 2619389)",
+      "sigla": "SBR 1 (id 2619389)",
       "tipo": "Subemenda de Relator",
       "data": "28/04/2026",
       "id": 2619389,
@@ -767,7 +756,7 @@
       "codteor": "3132115"
      },
      {
-      "sigla": "SBR 2 FNCCAP",
+      "sigla": "SBR 2",
       "tipo": "Subemenda de Relator",
       "data": "19/05/2026",
       "id": 2625688,
@@ -775,7 +764,7 @@
       "codteor": "3132115"
      },
      {
-      "sigla": "SBR 2 FNCCAP (id 2625688)",
+      "sigla": "SBR 2 (id 2625688)",
       "tipo": "Subemenda de Relator",
       "data": "19/05/2026",
       "id": 2625688,
@@ -791,7 +780,7 @@
       "codteor": "3135273"
      },
      {
-      "sigla": "SBE-A 1 PNCCAP",
+      "sigla": "SBE-A 1",
       "tipo": "Subemenda Adotada pela Comissão",
       "data": "22/05/2026",
       "id": 2627278,
@@ -821,7 +810,7 @@
     "plural": "requerimentos",
     "itens": [
      {
-      "sigla": "REQ 1167/2019 FNCCAP",
+      "sigla": "REQ 1167/2019",
       "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
       "data": "10/04/2019",
       "id": 2197728,
@@ -829,7 +818,7 @@
       "codteor": "1731438"
      },
      {
-      "sigla": "REQ 1261/2019 FNCCAP",
+      "sigla": "REQ 1261/2019",
       "tipo": "Requerimento de Urgência (Art. 155 do RICD)",
       "data": "17/04/2019",
       "id": 2198596,
@@ -837,7 +826,7 @@
       "codteor": "1734515"
      },
      {
-      "sigla": "REQ 1300/2019 FNCCAP",
+      "sigla": "REQ 1300/2019",
       "tipo": "Requerimento de Inclusão de Matéria na Ordem do Dia",
       "data": "24/04/2019",
       "id": 2199131,
@@ -895,9 +884,9 @@
    "titulo": "Mensagens, Ofícios e Requerimentos",
    "subtitulo": "Requerimentos vinculados à proposição",
    "referencias": [
-    "REQ 1167/2019 FNCCAP",
-    "REQ 1261/2019 FNCCAP",
-    "REQ 1300/2019 FNCCAP",
+    "REQ 1167/2019",
+    "REQ 1261/2019",
+    "REQ 1300/2019",
     "REQ 2019/2023"
    ]
   },
@@ -906,17 +895,17 @@
    "subtitulo": "Pareceres, substitutivos e votos das comissões",
    "referencias": [
     "PRL 1 CSAUDE",
-    "SBT 1 FNCCAP",
+    "SBT 1",
     "PAR 1",
-    "SBT-A 1 FNCCAP",
+    "SBT-A 1",
     "PRL 1 CFT",
-    "SBR 1 FNCCAP",
-    "SBR 1 FNCCAP (id 2619389)",
+    "SBR 1",
+    "SBR 1 (id 2619389)",
     "PRL 2 CFT",
-    "SBR 2 FNCCAP",
-    "SBR 2 FNCCAP (id 2625688)",
+    "SBR 2",
+    "SBR 2 (id 2625688)",
     "PAR 1 (id 2627271)",
-    "SBE-A 1 PNCCAP",
+    "SBE-A 1",
     "PRL 1 CCJC",
     "PAR 1 CCJC"
    ]

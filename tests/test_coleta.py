@@ -176,3 +176,31 @@ def test_apresentacao_no_plenario_nao_cria_etapa():
     ]
     dados = MontadorRelatorio(ClienteFalso(tramites), date(2025, 4, 10), apelidos=APELIDOS).montar(1)
     assert "PLEN" not in [e["sigla"] for e in dados["estagios"]]
+
+
+def test_despacho_revisto_ignora_comissoes_extintas():
+    apelidos = {"Desenvolvimento Econômico": "CDE", "Indústria, Comércio e Serviços": "CICS", "Trabalho": "CTRAB",
+                "Administração e Serviço Público": "CASP", "Esporte": "CESPO", "Finanças e Tributação": "CFT",
+                "Constituição e Justiça e de Cidadania": "CCJC"}
+    original = ("Às Comissões de Desenvolvimento Econômico, Indústria, Comércio e Serviços; Trabalho, de Administração "
+                "e Serviço Público; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)")
+    assert comissoes_do_despacho(original, apelidos) == [
+        ("CDE", "Mérito"), ("CTRAB", "Mérito"), ("CFT", "Mérito e Art. 54"), ("CCJC", "Art. 54")]
+    revisto = ("Revejo o despacho para determinar a substituição da Comissão de Desenvolvimento Econômico pela Comissão de "
+               "Indústria, Comércio e Serviços.[ATUALIZAÇÃO DE DESPACHO: Às Comissões de Indústria, Comércio e Serviços; "
+               "Trabalho; Finanças e Tributação (Mérito e Art. 54, RICD) e Constituição e Justiça e de Cidadania (Art. 54 RICD)]")
+    assert comissoes_do_despacho(revisto, apelidos) == [
+        ("CICS", "Mérito"), ("CTRAB", "Mérito"), ("CFT", "Mérito e Art. 54"), ("CCJC", "Art. 54")]
+
+
+def test_relator_que_saiu_da_comissao_vira_ex_relator():
+    tramites = [
+        tramite(1, "2025-01-10T10:00", 4, "Apresentação de Proposição", "Apresentação do PL", TEOR + "100"),
+        tramite(2, "2025-01-20T10:00", 4, "Distribuição", DESPACHO, TEOR + "150"),
+        tramite(3, "2025-01-21T10:00", 2002, "Recebimento", "Recebimento pela CCTI."),
+        tramite(4, "2025-02-01T10:00", 2002, "Designação de Relator(a)", "Designado relator."),
+        tramite(5, "2025-04-01T10:00", 2002, "Saída de Relator(a) da Comissão - Sem Parecer Apresentado", "Deixou de ser membro."),
+    ]
+    relatorio = MontadorRelatorio(ClienteFalso(tramites), date(2025, 4, 10), apelidos=APELIDOS).montar(1)
+    assert relatorio["relatoria"]["relator"]["rotulo"] == "EX-RELATOR(A) · CCTI"
+    assert "Deixou a relatoria em 01/04/2025" in relatorio["relatoria"]["resumo_fim"]

@@ -62,10 +62,9 @@
   {
    "sigla": "CSAUDE",
    "nome": "Saúde",
-   "papel": "Mérito",
+   "papel": "Mérito · parecer em Plenário",
    "inicio": "2019-12-03",
-   "fim": "2019-12-05",
-   "estado": "concluido",
+   "estado": "pendente",
    "comissao": true
   },
   {
@@ -158,6 +157,10 @@
   {
    "titulo": "Andamento do PL 797/2019",
    "descricao": "Apensada, a proposição segue a tramitação da proposição principal."
+  },
+  {
+   "titulo": "Parecer da CSAUDE",
+   "descricao": "Mérito · parecer em Plenário."
   },
   {
    "titulo": "Votação em Plenário",

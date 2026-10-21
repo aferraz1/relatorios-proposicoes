@@ -263,5 +263,386 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 1.827/2024, com base no inteiro teor e na relatoria em curso na CDHMIR e nas alterações posteriores da Lei 13.636/2018, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 1.827/2024 altera a Lei 13.636/2018 (PNMPO) para dar aos **beneficiários do Bolsa Família acesso facilitado ao microcrédito produtivo orientado**, com juros anuais máximos de **Selic + 6%**, carência mínima de 2 meses sem capitalização e **garantia do FGO de 100% de cada operação**. O despacho prevê **CDHMIR (mérito), CFT (mérito e art. 54) e CCJC (art. 54)**, em regime conclusivo. Está na CDHMIR com a **Dep. Natália Bonavides** (PT-RN) relatora desde 11/08/2025, sem parecer; o prazo de emendas terminou sem emendas.",
+   "O ambiente normativo mudou depois da apresentação. A **Lei 14.995/2024 criou o Programa Acredita no Primeiro Passo**, com garantia do FGO para operações do PNMPO destinadas a inscritos no CadÚnico, público que abrange os beneficiários do Bolsa Família. E a **Lei 15.364/2026 reescreveu o art. 4º da Lei 13.636/2018**: o antigo parágrafo único virou § 1º e os **§§ 2º e 3º foram vetados**, de modo que o § 2º que o projeto pretende inserir **não pode mais ser usado** (LC 95, art. 12, III, “c”).",
+   "A estratégia recomendada é **reposicionar o texto como complemento do Acredita no Primeiro Passo**: prioridade ao beneficiário do Bolsa Família dentro do programa existente, condições diferenciadas a serem fixadas pelo CMN e pelo Codefat (como já prevê o art. 4º da Lei 13.636/2018) e garantia do FGO nos limites do patrimônio alocado. Isso corrige a numeração, reduz o impacto fiscal que a CFT examinará e afasta a crítica de sobreposição."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Relatora na CDHMIR há 14 meses sem parecer; ainda faltam CFT e CCJC."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA (CFT)",
+    "nivel": "ALTO",
+    "texto": "Garantia obrigatória do FGO de 100% e teto de juros exigem aporte ou subvenção da União sem estimativa de impacto (ADCT, art. 113; LRF, arts. 16 e 17)."
+   },
+   {
+    "eixo": "COERÊNCIA NORMATIVA",
+    "nivel": "ALTO",
+    "texto": "Lei 14.995/2024 já instituiu garantia do FGO para microcrédito a inscritos no CadÚnico; Lei 15.364/2026 vetou o § 2º do art. 4º."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "BAIXO",
+    "texto": "Matéria de direito financeiro e política de crédito, de competência da União; iniciativa parlamentar cabível."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "MÉDIO",
+    "texto": "Objetivo de porta de saída tem apoio, mas teto fixo de juros pode reduzir a oferta pelas instituições operadoras."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Situação nas comissões",
+    "itens": [
+     {
+      "texto": "Despacho de 16/05/2024: CDHMIR (mérito), CFT (mérito e art. 54) e CCJC (art. 54), conclusivo, regime ordinário. Prazo de emendas na CDHMIR encerrado em 21/08/2025 sem emendas.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "A relatora, Dep. Natália Bonavides, foi designada em 11/08/2025 e ainda não apresentou parecer.",
+      "fontes": [
+       "ficha"
+      ]
+     },
+     {
+      "texto": "Não há arquivamento ao fim da legislatura (RICD, art. 105, VI), mas a recomposição das comissões em 2027 pode trocar a relatoria.",
+      "fontes": [
+       "res33",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ENCAIXE NA LEI 13.636/2018",
+    "titulo": "O que mudou desde 2024",
+    "itens": [
+     {
+      "texto": "A Lei 15.364/2026 deu nova redação ao caput do art. 4º (CMN, Codefat e conselhos dos fundos constitucionais disciplinam anualmente as condições de repasse e de financiamento), transformou o parágrafo único em § 1º e teve vetados os §§ 2º e 3º. O § 2º do projeto colide com número vetado.",
+      "fontes": [
+       "l13636",
+       "l15364",
+       "lc95"
+      ]
+     },
+     {
+      "texto": "O art. 4º, II, já permite estratificações que priorizem os segmentos de mais baixa renda; fixar em lei teto de juros e carência engessa o modelo de disciplina anual pelo CMN e pelo Codefat.",
+      "fontes": [
+       "l13636"
+      ]
+     },
+     {
+      "texto": "O art. 5º tem hoje §§ 1º e 2º (sistemas de garantia e vedação de discriminação do idoso); o § 3º proposto é numeração livre.",
+      "fontes": [
+       "l13636"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "SOBREPOSIÇÃO E ADEQUAÇÃO",
+    "titulo": "Pontos que a CFT vai examinar",
+    "itens": [
+     {
+      "texto": "A Lei 14.995/2024 instituiu o Programa Acredita no Primeiro Passo e a garantia, pelo FGO, de operações do PNMPO para beneficiários inscritos no CadÚnico (arts. 5º e 6º), com aumento da participação da União no FGO de até R$ 1 bilhão (art. 7º). O projeto repete parte desse desenho.",
+      "fontes": [
+       "l14995"
+      ]
+     },
+     {
+      "texto": "A garantia obrigatória de 100% de cada operação amplia o risco assumido pelo FGO e tende a exigir novos aportes da União; sem estimativa de impacto e compensação, a CFT pode concluir pela inadequação.",
+      "fontes": [
+       "adct",
+       "lrf",
+       "nicft",
+       "adeq"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 1.827/2024",
+   "achados": [
+    {
+     "dispositivo": "Art. 2º (art. 4º, § 2º)",
+     "problema": "Acréscimo de § 2º ao art. 4º, número hoje vetado (Lei 15.364/2026); no texto de 2024, o art. 4º tinha parágrafo único e o projeto citava “§ 1º” sem renumerá-lo.",
+     "fundamento": "LC 95, art. 12, III, “c”",
+     "correcao": "Inserir o conteúdo como § 4º do art. 4º ou como art. 4º-A, mantendo a indicação “(VETADO)” nos §§ 2º e 3º."
+    },
+    {
+     "dispositivo": "Art. 1º",
+     "problema": "O artigo de objeto mistura objeto e justificativa (“para fornecer oportunidades (...) porta de saída”).",
+     "fundamento": "LC 95, art. 7º",
+     "correcao": "“Esta Lei altera a Lei nº 13.636, de 20 de março de 2018, para dispor sobre condições de acesso ao PNMPO pelos beneficiários do Programa Bolsa Família.”"
+    },
+    {
+     "dispositivo": "Art. 2º (art. 5º, § 3º)",
+     "problema": "Garantia de 100% “na forma do regulamento” sem limite de patrimônio do FGO nem remissão à Lei 14.995/2024.",
+     "fundamento": "LC 95, art. 11, II",
+     "correcao": "“poderão contar com garantia do FGO, nos termos da Lei nº 14.995, de 10 de outubro de 2024, até o limite do patrimônio alocado”."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Inadequação financeira na CFT",
+    "descricao": "Garantia integral obrigatória e teto de juros podem ser lidos como despesa ou subsídio sem estimativa e compensação.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "ADCT, art. 113; LRF, arts. 16 e 17; NI-CFT.",
+    "fontes": [
+     "adct",
+     "lrf",
+     "nicft"
+    ],
+    "mitigacao": "Converter a garantia em faculdade, nos limites do FGO, e remeter as condições ao CMN e ao Codefat."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Sobreposição com o Acredita no Primeiro Passo",
+    "descricao": "Relatores podem apontar que a Lei 14.995/2024 já atende o objetivo e propor rejeição.",
+    "instancia": "CDHMIR · CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "ALTO",
+    "fundamento": "Lei 14.995/2024, arts. 1º a 7º.",
+    "fontes": [
+     "l14995"
+    ],
+    "mitigacao": "Redigir como prioridade do beneficiário do Bolsa Família dentro do programa existente."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Numeração inválida no art. 4º",
+    "descricao": "O § 2º proposto reutiliza dispositivo vetado pela Lei 15.364/2026.",
+    "instancia": "CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "LC 95, art. 12, III, “c”.",
+    "fontes": [
+     "lc95",
+     "l15364"
+    ],
+    "mitigacao": "Renumerar no substitutivo da CDHMIR."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Teto de juros reduz a oferta",
+    "descricao": "Instituições operadoras podem não aderir a linha com custo limitado por lei.",
+    "instancia": "CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 13.636/2018, art. 4º.",
+    "fontes": [
+     "l13636"
+    ],
+    "mitigacao": "Prever condições favorecidas fixadas pelo CMN e pelo Codefat, sem teto rígido."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Troca de relatoria em 2027",
+    "descricao": "Recomposição da CDHMIR pode exigir nova designação.",
+    "instancia": "CDHMIR",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Buscar parecer ainda em 2026."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Substitutivo na CDHMIR",
+    "descricao": "A relatora de mérito pode atualizar o texto às Leis 14.995/2024 e 15.364/2026.",
+    "como": "Entregar minuta de substitutivo com a renumeração e a remissão ao Acredita.",
+    "fontes": [
+     "l14995",
+     "l15364",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda de inclusão produtiva",
+    "descricao": "O Executivo já opera microcrédito com garantia do FGO para o CadÚnico; a prioridade ao Bolsa Família dialoga com essa política.",
+    "como": "Ouvir o Ministério do Desenvolvimento e Assistência Social sobre o texto.",
+    "fontes": [
+     "l14995"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CELERIDADE",
+    "titulo": "Não implicação na CFT",
+    "descricao": "Sem garantia obrigatória e sem teto de juros, o texto tende a parecer de não implicação.",
+    "como": "Nota técnica para o futuro relator da CFT.",
+    "fontes": [
+     "nicft",
+     "adeq"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Reunião com a relatora da CDHMIR",
+    "descricao": "Apresentar o novo quadro normativo e pedir parecer com substitutivo ainda em 2026.",
+    "prazo": "até 13/11/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Parecer aprovado na CDHMIR.",
+    "riscos": "R02, R05"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Prioridade ao beneficiário do Bolsa Família no PNMPO e no Acredita no Primeiro Passo; condições fixadas pelo CMN e Codefat; garantia do FGO facultativa e nos limites do patrimônio alocado; renumeração do art. 4º.",
+    "prazo": "até 06/11/2026",
+    "instrumento": "LC 95, arts. 7º e 12; Leis 13.636/2018 e 14.995/2024.",
+    "resultado": "Texto sem sobreposição e sem vício de numeração.",
+    "riscos": "R01, R02, R03, R04"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Interlocução com o Executivo",
+    "descricao": "Reunião técnica com o MDS e o Ministério do Trabalho sobre a operação do Acredita e a prioridade proposta.",
+    "prazo": "nov./2026",
+    "instrumento": "Lei 14.995/2024.",
+    "resultado": "Apoio ou ausência de oposição do Governo.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Preparar a CFT",
+    "descricao": "Nota técnica de adequação demonstrando ausência de despesa obrigatória no substitutivo.",
+    "prazo": "dez./2026",
+    "instrumento": "NI-CFT; ADCT, art. 113.",
+    "resultado": "Parecer de não implicação.",
+    "riscos": "R01"
+   }
+  ],
+  "fontes": {
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "adeq": {
+    "titulo": "Conof · Exame de adequação",
+    "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf"
+   },
+   "pl": {
+    "titulo": "PL 1.827/2024 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2423847"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2433834"
+   },
+   "l13636": {
+    "titulo": "Lei 13.636/2018 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13636-20-marco-2018-786333-normaatualizada-pl.html"
+   },
+   "l15364": {
+    "titulo": "Lei 15.364/2026 (altera a Lei 13.636/2018)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15364.htm"
+   },
+   "l14995": {
+    "titulo": "Lei 14.995/2024 (Acredita no Primeiro Passo)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2024/lei-14995-10-outubro-2024-796457-normaatualizada-pl.html"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho e relatoria"
+   },
+   {
+    "fonte": "l13636",
+    "nota": "arts. 1º, 4º e 5º"
+   },
+   {
+    "fonte": "l15364",
+    "nota": "nova redação e vetos no art. 4º"
+   },
+   {
+    "fonte": "l14995",
+    "nota": "arts. 1º a 7º e 48"
+   },
+   {
+    "fonte": "adct",
+    "nota": "estimativa de impacto"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "arts. 16 e 17"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

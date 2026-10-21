@@ -104,10 +104,10 @@
    "id": 90201,
    "nome": "Dep. Pedro Augusto Bezerra",
    "descricao": "Deputado Federal · PDT/CE",
-   "rotulo": "RELATOR(A) · CTRAB"
+   "rotulo": "EX-RELATOR(A) · CTRAB"
   },
   "resumo_inicio": "Designação em 19/05/2021. Apresentou uma versão de parecer:",
-  "resumo_fim": "",
+  "resumo_fim": "Deixou a relatoria em 27/04/2022 sem parecer votado; a comissão aguarda nova designação.",
   "pareceres": [
    {
     "sigla": "PRL 1",
@@ -408,7 +408,7 @@
     "situacao": "TRAMITANDO EM CONJUNTO"
    },
    {
-    "sigla": "PL 2659/2023 IRPF",
+    "sigla": "PL 2659/2023",
     "tipo": "Projeto de Lei",
     "data": "17/05/2023",
     "id": 2363267,
@@ -514,5 +514,455 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 635/2021, com base no inteiro teor e no parecer apresentado na antiga CTASP e no texto vigente das Leis 7.713/1988, 8.134/1990 e 8.212/1991, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 635/2021 isenta o **13º salário do IRPF** (novo inciso XXIV do art. 6º da Lei 7.713/1988) e o exclui do **salário de contribuição** (nova alínea “ab” do § 9º do art. 28 da Lei 8.212/1991), revogando o art. 26 da Lei 7.713/1988 e o § 7º do art. 28 da Lei 8.212/1991. O despacho vigente prevê **CTRAB (mérito), CFT (mérito e art. 54) e CCJC (art. 54)**, conclusivo, com três apensados (PLs 1.277/2022, 2.659/2023 e 3.624/2024).",
+   "Em 2021 o relator na então CTASP, Dep. Pedro Augusto Bezerra, apresentou **parecer pela aprovação**, mas a matéria saiu de pauta três vezes por requerimentos aprovados e o relator deixou a comissão em 2022. Após redistribuições, o projeto voltou à **CTRAB em 29/10/2024 e aguarda designação de relator** desde então. Não será arquivado ao fim da 57ª Legislatura.",
+   "O obstáculo decisivo é **fiscal**: o texto cria renúncia de IR e de contribuição previdenciária sem estimativa nem compensação (ADCT, art. 113; LRF, art. 14). Além disso, a exclusão do § 9º do art. 28 também **retira o 13º da base da contribuição patronal** (art. 22, § 2º, da Lei 8.212/1991), efeito que vai além da ementa. A Lei 15.270/2025, que ampliou a isenção do IR até R$ 5 mil mensais, mudou o contexto da discussão."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Sem relator na CTRAB desde 29/10/2024; ainda faltam CTRAB, CFT e CCJC."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA (CFT)",
+    "nivel": "ALTO",
+    "texto": "Renúncia de IR e de contribuição previdenciária sem estimativa de impacto nem medida de compensação."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "MÉDIO",
+    "texto": "Isenção por lei específica é válida (CF, art. 150, § 6º), mas a ausência de estimativa afronta o art. 113 do ADCT."
+   },
+   {
+    "eixo": "TÉCNICA LEGISLATIVA",
+    "nivel": "MÉDIO",
+    "texto": "Numeração do inciso XXIV já usada por MP caducada; art. 16 da Lei 8.134/1990 fica sem referência; efeito sobre a contribuição patronal não declarado."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "MÉDIO",
+    "texto": "Tema popular, com parecer favorável anterior, mas de custo elevado para o RGPS e a União."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho do projeto",
+    "itens": [
+     {
+      "texto": "Despacho de 21/10/2024: CTRAB, CFT (mérito e art. 54) e CCJC (art. 54), conclusivo e ordinário, com os PLs 1.277/2022, 2.659/2023 e 3.624/2024 apensados.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "O parecer pela aprovação (PRL 1, 22/06/2021) não foi votado: houve requerimentos de retirada de pauta aprovados em 29/06, 06/07 e 17/08/2021, e o relator deixou a comissão em 2022. Um novo relator não está vinculado a ele.",
+      "fontes": [
+       "prl",
+       "ficha"
+      ]
+     },
+     {
+      "texto": "Não há arquivamento ao fim da legislatura (RICD, art. 105, VI), mas a recomposição da CTRAB em 2027 pode adiar a designação.",
+      "fontes": [
+       "res33",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Pontos verificados na legislação vigente",
+    "itens": [
+     {
+      "texto": "O 13º integra o salário de contribuição, exceto para cálculo de benefício (Lei 8.212/1991, art. 28, § 7º), e o STF considera legítima essa incidência (Súmula 688). Excluí-lo é escolha legislativa possível, mas reduz receita vinculada ao RGPS (CF, art. 195, I, “a”, e II).",
+      "fontes": [
+       "l8212",
+       "s688",
+       "cf"
+      ]
+     },
+     {
+      "texto": "As parcelas do § 9º do art. 28 também não integram a remuneração para a contribuição da empresa (art. 22, § 2º). A nova alínea “ab” isentaria, portanto, a contribuição patronal sobre o 13º, efeito não descrito na ementa.",
+      "fontes": [
+       "l8212",
+       "pl"
+      ]
+     },
+     {
+      "texto": "O IR sobre o 13º é tributado exclusivamente na fonte pelo art. 16 da Lei 8.134/1990, que remete ao art. 26 da Lei 7.713/1988. O projeto revoga o art. 26, mas não o art. 16; o apensado PL 3.624/2024 corrige esse ponto.",
+      "fontes": [
+       "l8134",
+       "l7713"
+      ]
+     },
+     {
+      "texto": "No art. 6º da Lei 7.713/1988, o inciso XXIII (vale-cultura) é o último em vigor; o XXIV foi usado pela MP 1.251/2024, que perdeu a vigência em 05/12/2024. Reaproveitar o número gera confusão na leitura do texto compilado.",
+      "fontes": [
+       "l7713",
+       "lc95"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+    "titulo": "Exame da CFT",
+    "itens": [
+     {
+      "texto": "A renúncia exige estimativa de impacto e medida de compensação ou demonstração de que foi considerada na LOA (LRF, art. 14; ADCT, art. 113). O argumento do parecer de 2021, de que o consumo devolveria a arrecadação, não supre essa exigência.",
+      "fontes": [
+       "lrf",
+       "adct",
+       "nicft",
+       "prl"
+      ]
+     },
+     {
+      "texto": "A Lei 15.270/2025 ampliou a isenção efetiva do IRPF até R$ 5 mil mensais a partir de 2026, com compensação própria. Isso reduz o público que paga IR sobre o 13º na faixa de menor renda e muda a base de cálculo do impacto.",
+      "fontes": [
+       "l15270",
+       "adeq"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 635/2021",
+   "achados": [
+    {
+     "dispositivo": "Art. 2º (art. 6º, XXIV, da Lei 7.713/1988)",
+     "problema": "Número já utilizado por medida provisória com vigência encerrada.",
+     "fundamento": "LC 95, art. 12, III, “c”",
+     "correcao": "Acrescer o dispositivo como inciso XXV."
+    },
+    {
+     "dispositivo": "Art. 4º",
+     "problema": "Revoga o art. 26 da Lei 7.713/1988, mas mantém o art. 16 da Lei 8.134/1990, que a ele remete.",
+     "fundamento": "LC 95, art. 9º",
+     "correcao": "Incluir a revogação expressa do art. 16 da Lei 8.134/1990, como faz o PL 3.624/2024."
+    },
+    {
+     "dispositivo": "Art. 3º (art. 28, § 9º, “ab”, da Lei 8.212/1991)",
+     "problema": "Ementa fala só da contribuição do empregado, mas a exclusão do § 9º alcança a contribuição patronal (art. 22, § 2º).",
+     "fundamento": "LC 95, arts. 5º e 11, II, “a”",
+     "correcao": "Declarar o alcance na ementa ou limitar a exclusão à contribuição do segurado."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Inadequação financeira na CFT",
+    "descricao": "Sem estimativa e compensação, a CFT tende a concluir pela inadequação, o que encerra a tramitação conclusiva.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "LRF, art. 14; ADCT, art. 113; NI-CFT.",
+    "fontes": [
+     "lrf",
+     "adct",
+     "nicft"
+    ],
+    "mitigacao": "Limitar o alcance (ex.: faixa de renda, só IR do empregado) e indicar compensação."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Projeto sem relator",
+    "descricao": "Dois anos sem designação na CTRAB e histórico de retiradas de pauta em 2021.",
+    "instancia": "CTRAB",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, art. 41, VI, e art. 52.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Pedir relator aliado e reaproveitar o parecer de 2021 como base."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Oposição da área econômica e da Previdência",
+    "descricao": "A isenção da contribuição patronal e do segurado sobre o 13º afeta o financiamento do RGPS.",
+    "instancia": "CTRAB · CFT",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 8.212/1991, arts. 22, § 2º, e 28; CF, art. 195.",
+    "fontes": [
+     "l8212",
+     "cf"
+    ],
+    "mitigacao": "Retirar a parte previdenciária ou restringi-la ao segurado de menor renda."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Perda de objeto parcial com a Lei 15.270/2025",
+    "descricao": "O relator pode entender que a ampliação da isenção já atende parte do objetivo.",
+    "instancia": "CTRAB · CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 15.270/2025.",
+    "fontes": [
+     "l15270"
+    ],
+    "mitigacao": "Reposicionar o projeto como complemento para a faixa acima de R$ 5 mil ou para o 13º de aposentados."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Recomposição das comissões em 2027",
+    "descricao": "Nova composição pode atrasar ainda mais a designação.",
+    "instancia": "CTRAB",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Renovar o pedido de relatoria após a instalação das comissões."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "CELERIDADE",
+    "titulo": "Parecer favorável já redigido",
+    "descricao": "O PRL 1 de 2021 pode ser reaproveitado por novo relator na CTRAB.",
+    "como": "Entregar o parecer atualizado ao relator designado.",
+    "fontes": [
+     "prl",
+     "ficha"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Saneamento por substitutivo",
+    "descricao": "Um substitutivo pode unir os apensados, corrigir a numeração, revogar o art. 16 da Lei 8.134/1990 e definir o alcance previdenciário.",
+    "como": "Minuta de substitutivo do gabinete.",
+    "fontes": [
+     "l7713",
+     "l8134",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda de alívio do IR na renda do trabalho",
+    "descricao": "O debate da Lei 15.270/2025 manteve o tema em evidência e pode abrir espaço para medidas complementares.",
+    "como": "Articular com a frente parlamentar e centrais sindicais.",
+    "fontes": [
+     "l15270"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "CELERIDADE",
+    "titulo": "Versão de menor custo",
+    "descricao": "Restringir a isenção do IR a faixas de renda e retirar a contribuição patronal reduz o impacto a calcular.",
+    "como": "Pedir estimativa à Consultoria de Orçamento antes da CFT.",
+    "fontes": [
+     "adeq",
+     "lrf"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Relator na CTRAB",
+    "descricao": "Pedir à presidência da CTRAB a designação de relator aliado, com o parecer de 2021 como ponto de partida.",
+    "prazo": "até 15/11/2026",
+    "instrumento": "RICD, art. 41, VI.",
+    "resultado": "Relator designado em 2026.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Estimativa de impacto",
+    "descricao": "Solicitar à Consultoria de Orçamento estimativa das renúncias de IR e de contribuição, separando segurado e empresa.",
+    "prazo": "até 30/11/2026",
+    "instrumento": "LRF, art. 14; ADCT, art. 113.",
+    "resultado": "Base para ajustar o alcance do texto.",
+    "riscos": "R01, R03"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Inciso XXV, revogação do art. 16 da Lei 8.134/1990, limitação da exclusão previdenciária ao segurado ou retirada dela, e cláusula de compensação.",
+    "prazo": "dez./2026",
+    "instrumento": "LC 95, arts. 9º, 11 e 12; NI-CFT.",
+    "resultado": "Texto defensável na CFT.",
+    "riscos": "R01, R03, R04"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Diálogo com a área econômica",
+    "descricao": "Apresentar a versão de menor custo ao Ministério da Fazenda e à Receita Federal.",
+    "prazo": "fev.–mar./2027",
+    "instrumento": "Lei 15.270/2025.",
+    "resultado": "Reduzir oposição do governo.",
+    "riscos": "R03, R04"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Relatoria na nova legislatura",
+    "descricao": "Confirmar ou pedir nova relatoria após a instalação das comissões.",
+    "prazo": "mar./2027",
+    "instrumento": "RICD, art. 105.",
+    "resultado": "Tramitação contínua.",
+    "riscos": "R05"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "adeq": {
+    "titulo": "Conof · Exame de adequação",
+    "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf"
+   },
+   "pl": {
+    "titulo": "PL 635/2021 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1968420"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2271080"
+   },
+   "prl": {
+    "titulo": "PRL 1 CTASP (parecer não votado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2271080"
+   },
+   "l7713": {
+    "titulo": "Lei 7.713/1988 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1988/lei-7713-22-dezembro-1988-372153-normaatualizada-pl.html"
+   },
+   "l8134": {
+    "titulo": "Lei 8.134/1990, art. 16",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8134.htm"
+   },
+   "l8212": {
+    "titulo": "Lei 8.212/1991 (texto compilado)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"
+   },
+   "l15270": {
+    "titulo": "Lei 15.270/2025 (isenção do IRPF até R$ 5 mil)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+   },
+   "s688": {
+    "titulo": "STF · Súmula 688",
+    "url": "https://jurisprudencia.stf.jus.br/pages/search?base=sumulas&queryString=688"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despachos, pauta e apensações"
+   },
+   {
+    "fonte": "prl",
+    "nota": "parecer pela aprovação (2021)"
+   },
+   {
+    "fonte": "l7713",
+    "nota": "arts. 6º e 26"
+   },
+   {
+    "fonte": "l8134",
+    "nota": "art. 16"
+   },
+   {
+    "fonte": "l8212",
+    "nota": "arts. 22, § 2º, e 28, §§ 7º e 9º"
+   },
+   {
+    "fonte": "l15270",
+    "nota": "isenção até R$ 5 mil"
+   },
+   {
+    "fonte": "s688",
+    "nota": "contribuição sobre o 13º"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 150, § 6º, e 195"
+   },
+   {
+    "fonte": "adct",
+    "nota": "estimativa de impacto"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "art. 14"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "adeq",
+    "nota": "exame de adequação"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 41, 52 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

@@ -96,25 +96,11 @@
    "comissao": true
   },
   {
-   "sigla": "CICS",
-   "nome": "Indústria, Comércio e Serviços",
-   "papel": "Mérito",
-   "estado": "pendente",
-   "comissao": true
-  },
-  {
    "sigla": "CCJC",
    "nome": "Constituição e Justiça e de Cidadania",
    "papel": "Art. 54",
    "estado": "pendente",
    "comissao": true
-  },
-  {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2022-11-09",
-   "estado": "pendente"
   },
   {
    "sigla": "REMESSA",
@@ -131,7 +117,7 @@
    "descricao": "Deputado Federal · UNIÃO/BA",
    "rotulo": "RELATOR(A) · CESPO"
   },
-  "resumo_inicio": "Designação em 31/10/2023. Apresentou 3 versões de parecer:",
+  "resumo_inicio": "Designação em 19/03/2025. Apresentou 3 versões de parecer:",
   "resumo_fim": "O último parecer foi aprovado na comissão.",
   "pareceres": [
    {
@@ -597,16 +583,8 @@
    "descricao": "Mérito e Art. 54."
   },
   {
-   "titulo": "Parecer da CICS",
-   "descricao": "Mérito."
-  },
-  {
    "titulo": "Parecer da CCJC",
    "descricao": "Art. 54."
-  },
-  {
-   "titulo": "Votação em Plenário",
-   "descricao": "Discussão e votação da matéria pelo Plenário da Câmara."
   },
   {
    "titulo": "Prazo de recurso ao Plenário",
@@ -899,5 +877,400 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 2.754/2022, com base no inteiro teor e nos pareceres aprovados na CDE (substitutivo) e na CESPO (subemenda), considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 2.754/2022, com os apensados PL 2.818/2022 e PL 3.036/2023, busca tornar **perene a isenção do Imposto de Importação e do IPI** para equipamentos e materiais esportivos sem similar nacional destinados à preparação de atletas e equipes brasileiras. O texto original alterava o **Decreto 6.759/2009**, o que a CDE corrigiu: o **substitutivo aprovado em 25/10/2023 altera a Lei 10.451/2002**, cujo art. 8º limitou a isenção a **31/12/2015**. A CESPO aprovou o substitutivo em 28/05/2025, com subemenda que troca “atletas paradesportivos” por “atletas e equipes brasileiras”.",
+   "Desde 29/05/2025 o projeto está na **CFT aguardando designação de relator**, para mérito e adequação; depois vai à CCJC (art. 54), em regime conclusivo. A CFT é a etapa decisiva: o texto é **renúncia de receita** e precisa de estimativa de impacto e de medidas de compensação (**LRF, art. 14; ADCT, art. 113**). Uma isenção “definitiva”, sem prazo, é o ponto mais vulnerável.",
+   "A reforma tributária muda o cálculo. Pela EC 132/2023, a partir de 2027 o **IPI terá alíquotas reduzidas a zero**, salvo produtos com industrialização incentivada na Zona Franca de Manaus, e a importação passa a sofrer a incidência da CBS e do IBS, que o texto não alcança. A estratégia recomendada é **concentrar o benefício no Imposto de Importação, com prazo de vigência e estimativa de impacto**, para viabilizar parecer favorável na CFT."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "MÉDIO",
+    "texto": "Duas comissões de mérito concluídas; sem relator na CFT há quase 17 meses; falta a CCJC."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA (CFT)",
+    "nivel": "ALTO",
+    "texto": "Renúncia de receita sem estimativa nem compensação, e sem prazo de vigência (LRF, art. 14; ADCT, art. 113)."
+   },
+   {
+    "eixo": "REFORMA TRIBUTÁRIA",
+    "nivel": "MÉDIO",
+    "texto": "IPI zerado a partir de 2027 (EC 132/2023) reduz o alcance; CBS e IBS não são tratados."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "BAIXO",
+    "texto": "Substitutivo corrigiu o vício de alterar decreto; isenção por lei específica atende o art. 150, § 6º, da CF."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "BAIXO",
+    "texto": "Aprovação unânime na CDE e na CESPO; apoio do setor esportivo."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho do projeto",
+    "itens": [
+     {
+      "texto": "Despacho vigente (22/03/2023): CDE e CESPO (mérito), CFT (mérito e art. 54) e CCJC (art. 54), conclusivo, regime ordinário. CDE e CESPO aprovaram o substitutivo; a CESPO, com subemenda.",
+      "fontes": [
+       "ficha",
+       "sbt_cde",
+       "par_cespo"
+      ]
+     },
+     {
+      "texto": "Na CESPO houve três relatores e três pareceres até a aprovação; na CFT o projeto aguarda designação de relator desde 29/05/2025.",
+      "fontes": [
+       "ficha"
+      ]
+     },
+     {
+      "texto": "O projeto foi desarquivado em 2023 a pedido do autor (REQ 15/2023); não será arquivado ao fim da 57ª Legislatura (RICD, art. 105, VI), mas a CFT terá nova composição em 2027.",
+      "fontes": [
+       "ficha",
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ENCAIXE NA LEI 10.451/2002",
+    "titulo": "Texto vigente",
+    "itens": [
+     {
+      "texto": "O art. 8º (redação da Lei 12.649/2012) concedeu a isenção “até 31 de dezembro de 2015”, para competições olímpicas, paraolímpicas, pan-americanas, parapan-americanas, nacionais e mundiais, e para material sem similar nacional homologado pela entidade internacional; os arts. 9º e 10 tratam dos beneficiários e das condições.",
+      "fontes": [
+       "l10451"
+      ]
+     },
+     {
+      "texto": "O texto original alterava o art. 186-A do Regulamento Aduaneiro (Decreto 6.759/2009), norma regulamentar que reproduz o prazo da lei; a correção feita pela CDE é indispensável para o projeto ter efeito.",
+      "fontes": [
+       "pl",
+       "sbt_cde",
+       "lc95"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO E REFORMA TRIBUTÁRIA",
+    "titulo": "Pontos que a CFT vai examinar",
+    "itens": [
+     {
+      "texto": "Isenção de II e IPI é renúncia de receita: exige estimativa no exercício e nos dois seguintes e compensação ou demonstração de que foi considerada na LOA. Sem esses elementos, a CFT costuma concluir pela inadequação.",
+      "fontes": [
+       "lrf",
+       "adct",
+       "nicft",
+       "adeq"
+      ]
+     },
+     {
+      "texto": "A EC 132/2023 (ADCT, art. 126, III, “a”) reduz a zero as alíquotas do IPI a partir de 2027, exceto produtos com industrialização incentivada na Zona Franca de Manaus; a parcela relevante do benefício passa a ser o II.",
+      "fontes": [
+       "ec132"
+      ]
+     },
+     {
+      "texto": "CBS e IBS incidirão na importação; o substitutivo não os alcança, e eventual tratamento diferenciado depende do regime da reforma (CF, arts. 156-A e 195, V).",
+      "fontes": [
+       "ec132",
+       "cf"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 2.754/2022",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º (texto original)",
+     "problema": "Lei alterando decreto do Poder Executivo (art. 186-A do Decreto 6.759/2009), sem tocar no prazo fixado na Lei 10.451/2002.",
+     "fundamento": "LC 95, art. 12, III; CF, art. 84, IV",
+     "correcao": "Manter a solução do substitutivo da CDE: alteração do art. 8º da Lei 10.451/2002."
+    },
+    {
+     "dispositivo": "Substitutivo da CDE (art. 8º)",
+     "problema": "Isenção “definitiva”, sem termo final, dificulta a adequação na CFT.",
+     "fundamento": "LRF, art. 14; LC 95, art. 11, II",
+     "correcao": "Fixar prazo (por exemplo, até 31 de dezembro de 2031) e cláusula de avaliação periódica."
+    },
+    {
+     "dispositivo": "Ementa do substitutivo",
+     "problema": "A subemenda da CESPO corrigiu “atletas paradesportivos” para “atletas e equipes brasileiras”; a redação final deve harmonizar ementa, art. 1º e art. 8º.",
+     "fundamento": "LC 95, arts. 5º e 7º",
+     "correcao": "Conferir a consolidação na CFT ou na redação final."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Inadequação financeira na CFT",
+    "descricao": "Renúncia sem estimativa nem compensação e sem prazo leva a parecer pela inadequação, que é terminativo.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "LRF, art. 14; ADCT, art. 113; NI-CFT; RICD, art. 54.",
+    "fontes": [
+     "lrf",
+     "adct",
+     "nicft",
+     "ricd"
+    ],
+    "mitigacao": "Pedir estimativa à Receita Federal ou à Conof e prever prazo e compensação no substitutivo da CFT."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Paralisia na CFT",
+    "descricao": "Sem relator há quase 17 meses; projetos de renúncia tendem a ficar sem pauta.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "RICD, art. 52.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Pedir à presidência da CFT relator aliado ou do setor esportivo."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Texto defasado pela reforma tributária",
+    "descricao": "Benefício de IPI perde efeito em 2027 e não há tratamento da CBS e do IBS.",
+    "instancia": "CFT · SENADO",
+    "probabilidade": "ALTA",
+    "impacto": "MÉDIO",
+    "fundamento": "EC 132/2023, ADCT, art. 126.",
+    "fontes": [
+     "ec132"
+    ],
+    "mitigacao": "Concentrar o substitutivo no II e registrar a questão da CBS e do IBS na justificação."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Nova relatoria em 2027",
+    "descricao": "Recomposição da CFT pode atrasar a designação.",
+    "instancia": "CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Obter a designação ainda em 2026."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Duas aprovações unânimes",
+    "descricao": "CDE e CESPO aprovaram o substitutivo em votação simbólica, sem emendas.",
+    "como": "Pedir às presidências da CESPO e da CDE apoio junto à CFT.",
+    "fontes": [
+     "par_cespo",
+     "sbt_cde"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "QUALIDADE",
+    "titulo": "Ajuste fiscal no substitutivo da CFT",
+    "descricao": "Prazo de vigência e foco no II reduzem e tornam previsível o impacto.",
+    "como": "Minuta de subemenda com prazo e estimativa.",
+    "fontes": [
+     "lrf",
+     "l10451"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Ciclo olímpico de 2028",
+    "descricao": "A preparação para os Jogos de Los Angeles dá atualidade ao tema e mobiliza COB, CPB e confederações.",
+    "como": "Envolver as entidades do esporte na interlocução com a CFT e com a Receita Federal.",
+    "fontes": [
+     "l10451"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "CELERIDADE",
+    "titulo": "Impacto reduzido pela reforma",
+    "descricao": "Com o IPI zerado a partir de 2027, a renúncia relevante fica restrita ao II sobre bens sem similar nacional.",
+    "como": "Usar o argumento na nota técnica de adequação.",
+    "fontes": [
+     "ec132"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Designação de relator na CFT",
+    "descricao": "Ofício à presidência da CFT indicando relator e pedindo prioridade.",
+    "prazo": "até 13/11/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Projeto destravado na CFT.",
+    "riscos": "R02, R04"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Estimativa da renúncia",
+    "descricao": "Pedir à Receita Federal, por requerimento de informação, ou à Conof estimativa do II e do IPI dispensados nos últimos anos de vigência e projeção.",
+    "prazo": "até 30/11/2026",
+    "instrumento": "LRF, art. 14; ADCT, art. 113.",
+    "resultado": "Base para o exame de adequação.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Subemenda para a CFT",
+    "descricao": "Prazo de vigência, foco no II, compensação ou remissão à LOA e harmonização da ementa.",
+    "prazo": "dez./2026",
+    "instrumento": "LRF, art. 14; LC 95, art. 11.",
+    "resultado": "Parecer pela adequação.",
+    "riscos": "R01, R03"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Articulação com o setor esportivo",
+    "descricao": "Reunião com COB, CPB e Ministério do Esporte para apoio técnico ao texto.",
+    "prazo": "nov./2026",
+    "instrumento": "Lei 10.451/2002, arts. 9º e 10.",
+    "resultado": "Apoio do Executivo e das entidades.",
+    "riscos": "R01, R02"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "adeq": {
+    "titulo": "Conof · Exame de adequação",
+    "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf"
+   },
+   "pl": {
+    "titulo": "PL 2.754/2022 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2213736"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2337172"
+   },
+   "sbt_cde": {
+    "titulo": "SBT-A 1 CDE (substitutivo aprovado)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2337172"
+   },
+   "par_cespo": {
+    "titulo": "PAR 1 CESPO e SBE-A 1 (parecer e subemenda aprovados)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2337172"
+   },
+   "l10451": {
+    "titulo": "Lei 10.451/2002 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2002/lei-10451-10-maio-2002-379311-normaatualizada-pl.html"
+   },
+   "ec132": {
+    "titulo": "EC 132/2023 (reforma tributária)",
+    "url": "https://www2.camara.leg.br/legin/fed/emecon/2023/emendaconstitucional-132-20-dezembro-2023-795084-publicacaooriginal-170513-pl.html"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto original e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho, relatorias e situação na CFT"
+   },
+   {
+    "fonte": "sbt_cde",
+    "nota": "texto aprovado na CDE"
+   },
+   {
+    "fonte": "par_cespo",
+    "nota": "aprovação e subemenda na CESPO"
+   },
+   {
+    "fonte": "l10451",
+    "nota": "arts. 8º a 10"
+   },
+   {
+    "fonte": "ec132",
+    "nota": "ADCT, art. 126"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "art. 14"
+   },
+   {
+    "fonte": "adct",
+    "nota": "art. 113"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 84, 150, 156-A e 195"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 54 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

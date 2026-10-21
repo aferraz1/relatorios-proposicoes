@@ -78,14 +78,6 @@
    "comissao": true
   },
   {
-   "sigla": "PLEN",
-   "nome": "Plenário",
-   "papel": "Discussão e votação da matéria",
-   "inicio": "2020-06-04",
-   "fim": "2022-12-12",
-   "estado": "concluido"
-  },
-  {
    "sigla": "REMESSA",
    "nome": "Mesa Diretora",
    "papel": "Envio dos autógrafos ao Senado Federal, encerrando a fase na Câmara (CF, art. 65)",
