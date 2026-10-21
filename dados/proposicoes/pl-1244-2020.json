@@ -556,5 +556,436 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 1.244/2020, com base no inteiro teor e no parecer apresentado na antiga CDE, no apensamento do PL 2.214/2024 e na relatoria em curso na CICS, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 1.244/2020, apresentado pela bancada do então PTB no início da pandemia, institui o **Programa de Seguro Emprego (PSE)**: empresas em dificuldade que firmem acordo coletivo de redução de jornada e salário (até 50%, por até 12 meses) e o empregado recebe **compensação de 50% da perda salarial, limitada a 65% da parcela máxima do seguro-desemprego**, com garantia de emprego. Pelo despacho revisto em 17/07/2024, vai à **CICS e à CTRAB (mérito), à CFT (mérito e art. 54) e à CCJC (art. 54)**, conclusivo, regime ordinário. Está na **CICS, com a Dep. Ivoneide Caetano (PT-BA) designada relatora em 21/05/2026**, ainda sem parecer; o PL 2.214/2024, que torna o PSE política permanente, está apensado.",
+   "O texto **reproduz quase literalmente a Lei 13.189/2015**, com a redação da Lei 13.456/2017, que criou o mesmo Programa Seguro-Emprego e o **extinguiu em 31/12/2018** (art. 11). Criar um segundo programa com o mesmo nome em lei autônoma contraria a LC 95; o caminho tecnicamente correto é **reativar e tornar permanente o PSE na própria Lei 13.189/2015**, o que também aproxima o projeto do apensado.",
+   "Dois pontos exigem correção antes de qualquer parecer: o **art. 6º, por erro de transcrição, proíbe a empresa de contratar pessoas com deficiência, idosos e egressos do sistema prisional** (na lei de 2015 essas eram exceções à vedação de contratar), o que é inconstitucional; e a compensação é **despesa obrigatória sem estimativa de impacto nem fonte**, o que leva a CFT à inadequação (ADCT, art. 113; LRF, arts. 16 e 17). Para crises com calamidade, a **Lei 14.437/2022** já autoriza o programa emergencial de manutenção do emprego."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Seis anos sem parecer votado; relatora na CICS desde 21/05/2026; ainda faltam CTRAB, CFT e CCJC."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "ALTO",
+    "texto": "Compensação paga pela União sem estimativa de impacto, compensação ou fonte expressa."
+   },
+   {
+    "eixo": "JURIDICIDADE",
+    "nivel": "ALTO",
+    "texto": "Duplica a Lei 13.189/2015 (PSE extinto em 2018) e sobrepõe-se à Lei 14.437/2022 nas calamidades."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Art. 6º veda contratar pessoas com deficiência e idosos (CF, art. 7º, XXXI); atribuições ao extinto Ministério da Economia."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "MÉDIO",
+    "texto": "Instrumento já testado entre 2015 e 2018; o parecer de 2021 na antiga CDEICS foi pela rejeição."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Do despacho à CICS",
+    "itens": [
+     {
+      "texto": "Despacho original (19/10/2020) à CDEICS, CTASP, CFT e CCJC; revisto em 22/03/2023 (CDE) e em 17/07/2024 (CICS e CTRAB, com a reestruturação da Res. 1/2023), mantido o caráter conclusivo e o regime ordinário.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Na antiga CDEICS, o PRL 1 (18/08/2021) foi pela rejeição, por considerar suficiente a MP 1.045/2021, que depois perdeu a eficácia sem conversão; o parecer não foi votado. Seguiram-se outros quatro relatores que não apresentaram parecer.",
+      "fontes": [
+       "prl_cde",
+       "ficha"
+      ]
+     },
+     {
+      "texto": "Na CICS, o prazo de emendas encerrou em 29/10/2024 sem emendas; a relatora atual foi designada em 21/05/2026. Não há arquivamento ao fim da legislatura (RICD, art. 105, VI), mas a recomposição de 2027 pode trocar a relatoria.",
+      "fontes": [
+       "ficha",
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "JURIDICIDADE E CONSTITUCIONALIDADE",
+    "titulo": "Encaixe no direito vigente",
+    "itens": [
+     {
+      "texto": "A Lei 13.189/2015 (redação da Lei 13.456/2017) já instituiu o Programa Seguro-Emprego com a mesma estrutura: adesão por acordo coletivo, compensação de 50% limitada a 65% do teto do seguro-desemprego, custeio pelo FAT, limite anual de despesas e relatórios semestrais. O art. 11 fixou a extinção do programa em 31/12/2018.",
+      "fontes": [
+       "l13189"
+      ]
+     },
+     {
+      "texto": "O art. 6º do projeto proíbe a “efetivação de estagiário” e a “contratação de pessoas com deficiência ou idosas” e de egressos; na Lei 13.189 essas hipóteses eram exceções à proibição de contratar para as mesmas atividades. Como redigido, o texto ofende a vedação de discriminação do trabalhador com deficiência (CF, art. 7º, XXXI).",
+      "fontes": [
+       "l13189",
+       "cf"
+      ]
+     },
+     {
+      "texto": "O art. 1º ancora o programa no art. 2º, II, da Lei 7.998/1990 (preservação do emprego), mas o art. 4º não diz quem custeia a compensação; só o art. 8º menciona restituição ao FAT. A Lei 14.437/2022 já autoriza o Executivo a instituir o programa emergencial de manutenção do emprego em calamidade pública, o que cobre as hipóteses de “endemias ou pandemias” do art. 3º.",
+      "fontes": [
+       "l7998",
+       "l14437"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA",
+    "titulo": "Exame da CFT",
+    "itens": [
+     {
+      "texto": "A compensação pecuniária é despesa obrigatória de caráter continuado; exige estimativa de impacto e medidas de compensação (ADCT, art. 113; LRF, arts. 16 e 17). O limite anual fixado pelo Executivo (art. 9º) ajuda, mas não substitui a estimativa.",
+      "fontes": [
+       "adct",
+       "lrf",
+       "nicft"
+      ]
+     },
+     {
+      "texto": "Sem esses elementos, a orientação da CFT (Norma Interna) é pela inadequação, que é terminativa (RICD, art. 54).",
+      "fontes": [
+       "nicft",
+       "adeq",
+       "ricd"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 1.244/2020",
+   "achados": [
+    {
+     "dispositivo": "Art. 6º, II a IV",
+     "problema": "Exceções da Lei 13.189/2015 transformadas em proibições: o texto veda contratar pessoas com deficiência, idosos e egressos.",
+     "fundamento": "LC 95, art. 11, II, “a”; CF, art. 7º, XXXI",
+     "correcao": "“II - contratar empregado para executar as mesmas atividades exercidas por empregado abrangido pelo programa, exceto nos casos de reposição, efetivação de estagiário e contratação de pessoa com deficiência, idosa ou egressa do sistema prisional”."
+    },
+    {
+     "dispositivo": "Lei autônoma (arts. 1º a 11)",
+     "problema": "Novo diploma para programa idêntico ao da Lei 13.189/2015, com o mesmo nome.",
+     "fundamento": "LC 95, art. 7º, IV",
+     "correcao": "Alterar a Lei 13.189/2015: nova redação do art. 11 (vigência permanente ou condicionada a ato do Executivo) e ajustes pontuais."
+    },
+    {
+     "dispositivo": "Arts. 3º e 5º; art. 8º",
+     "problema": "Inciso numerado “IIII”; parágrafos do art. 5º usados como itens de enumeração; incisos II e III do art. 8º não são hipóteses de exclusão e o III remete ao inciso I por engano; menção ao extinto Ministério da Economia.",
+     "fundamento": "LC 95, arts. 10 e 11, III",
+     "correcao": "Renumerar; converter os §§ do art. 5º em incisos; mover restituição e correção para parágrafos; referir-se ao “Poder Executivo federal”."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Inadequação financeira na CFT",
+    "descricao": "Sem estimativa de impacto e compensação, a CFT tende a declarar a inadequação, que encerra a tramitação.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "ADCT, art. 113; LRF, arts. 16 e 17; RICD, art. 54.",
+    "fontes": [
+     "adct",
+     "lrf",
+     "nicft"
+    ],
+    "mitigacao": "Condicionar a vigência a ato do Executivo e à previsão orçamentária, com custeio expresso pelo FAT e limite anual."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Rejeição por redundância",
+    "descricao": "Relatores podem repetir o argumento de 2021 (política já existente), agora com base na Lei 14.437/2022.",
+    "instancia": "CICS · CTRAB",
+    "probabilidade": "MÉDIA",
+    "impacto": "ALTO",
+    "fundamento": "Lei 14.437/2022; LC 95, art. 7º, IV.",
+    "fontes": [
+     "l14437",
+     "prl_cde"
+    ],
+    "mitigacao": "Posicionar o PSE como instrumento permanente para crises setoriais sem calamidade, que a Lei 14.437 não cobre."
+   },
+   {
+    "id": "R03",
+    "nivel": "ALTO",
+    "titulo": "Vício no art. 6º",
+    "descricao": "A vedação de contratar pessoas com deficiência e idosos expõe o projeto a parecer contrário ou a críticas públicas.",
+    "instancia": "CICS · CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "CF, art. 7º, XXXI; Lei 13.189/2015, art. 6º.",
+    "fontes": [
+     "cf",
+     "l13189"
+    ],
+    "mitigacao": "Corrigir já no substitutivo da CICS."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Atribuição ao Executivo",
+    "descricao": "Comandos ao “Ministério da Economia” podem ser lidos como interferência na organização administrativa.",
+    "instancia": "CCJC",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "CF, art. 61, § 1º, II, “e”; Súmula CCJC nº 1.",
+    "fontes": [
+     "cf",
+     "sum1"
+    ],
+    "mitigacao": "Referir-se ao Poder Executivo federal e remeter a regulamento."
+   },
+   {
+    "id": "R05",
+    "nivel": "BAIXO",
+    "titulo": "Nova relatoria em 2027",
+    "descricao": "A recomposição da CICS pode trocar a relatora antes do parecer.",
+    "instancia": "CICS",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Buscar parecer ainda em 2026 ou relator aliado em 2027."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Substitutivo na CICS",
+    "descricao": "A relatora pode unir o projeto e o apensado num texto que reative o PSE na Lei 13.189/2015 e corrija o art. 6º.",
+    "como": "Entregar minuta de substitutivo e nota técnica.",
+    "fontes": [
+     "l13189",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Programa com histórico",
+    "descricao": "O PSE funcionou entre 2015 e 2018 com custeio pelo FAT e adesão por acordo coletivo; há experiência de execução a aproveitar.",
+    "como": "Pedir ao Ministério do Trabalho e Emprego dados de execução do PSE.",
+    "fontes": [
+     "l13189"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Apensado com o mesmo objetivo",
+    "descricao": "O PL 2.214/2024 propõe o PSE como política permanente; a análise conjunta amplia a base de apoio.",
+    "como": "Contato com o autor do apensado para texto comum.",
+    "fontes": [
+     "ficha"
+    ]
+   },
+   {
+    "id": "O04",
+    "tipo": "ARTICULAÇÃO",
+    "titulo": "Complementaridade com a Lei 14.437/2022",
+    "descricao": "A lei de 2022 só atua em calamidade reconhecida; o PSE cobre crises setoriais.",
+    "como": "Usar o argumento no parecer de mérito.",
+    "fontes": [
+     "l14437"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Reativar o PSE por alteração da Lei 13.189/2015, corrigir o art. 6º, prever custeio pelo FAT com limite anual e referir-se ao Poder Executivo federal.",
+    "prazo": "até 06/11/2026",
+    "instrumento": "LC 95, arts. 7º e 11; Lei 13.189/2015.",
+    "resultado": "Texto juridicamente coerente.",
+    "riscos": "R02, R03, R04"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Reunião com a relatora da CICS",
+    "descricao": "Apresentar a minuta e o histórico do PSE e pedir inclusão em pauta.",
+    "prazo": "até 20/11/2026",
+    "instrumento": "RICD, art. 52.",
+    "resultado": "Parecer favorável na CICS.",
+    "riscos": "R02, R05"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Estimativa de impacto",
+    "descricao": "Pedir à Consultoria de Orçamento estimativa de custo com base na execução do PSE de 2015 a 2018 e desenhar a cláusula de vigência condicionada.",
+    "prazo": "nov.–dez./2026",
+    "instrumento": "ADCT, art. 113; LRF, arts. 16 e 17.",
+    "resultado": "Viabilidade na CFT.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Articulação com centrais sindicais e confederações",
+    "descricao": "Buscar manifestação de apoio de entidades de trabalhadores e da indústria para a CICS e a CTRAB.",
+    "prazo": "nov./2026",
+    "instrumento": "Lei 13.189/2015.",
+    "resultado": "Base de apoio no mérito.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Relatoria em 2027",
+    "descricao": "Se não houver parecer em 2026, pedir designação de relator aliado após a recomposição.",
+    "prazo": "fev.–mar./2027",
+    "instrumento": "RICD, art. 105, VI.",
+    "resultado": "Continuidade da tramitação.",
+    "riscos": "R05"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "adeq": {
+    "titulo": "Conof · Exame de adequação",
+    "url": "https://www2.camara.leg.br/orcamento-da-uniao/adequacao-orcamentaria-e-financeira/exame_adequacao.pdf"
+   },
+   "sum1": {
+    "titulo": "Súmula CCJC nº 1",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/ccjc/normas-internas/s1.pdf"
+   },
+   "pl": {
+    "titulo": "PL 1.244/2020 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1871540"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2242347"
+   },
+   "prl_cde": {
+    "titulo": "PRL 1 CDEICS, pela rejeição (18/08/2021)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2242347"
+   },
+   "l13189": {
+    "titulo": "Lei 13.189/2015 (Programa Seguro-Emprego, texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13189-19-novembro-2015-781920-normaatualizada-pl.html"
+   },
+   "l7998": {
+    "titulo": "Lei 7.998/1990 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-7998-11-janeiro-1990-366029-normaatualizada-pl.html"
+   },
+   "l14437": {
+    "titulo": "Lei 14.437/2022 (medidas trabalhistas em calamidade)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/2022/lei-14437-15-agosto-2022-793111-publicacaooriginal-165922-pl.html"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despachos, relatorias e apensamento"
+   },
+   {
+    "fonte": "prl_cde",
+    "nota": "fundamentos da rejeição em 2021"
+   },
+   {
+    "fonte": "l13189",
+    "nota": "arts. 2º, 4º, 6º, 11, 11-A e 11-B"
+   },
+   {
+    "fonte": "l7998",
+    "nota": "art. 2º, II"
+   },
+   {
+    "fonte": "l14437",
+    "nota": "art. 1º"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 7º e 61"
+   },
+   {
+    "fonte": "adct",
+    "nota": "estimativa de impacto"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "arts. 16 e 17"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "adeq",
+    "nota": "exame de adequação"
+   },
+   {
+    "fonte": "sum1",
+    "nota": "atribuições ao Executivo"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 54 e 105"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

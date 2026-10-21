@@ -286,5 +286,401 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PLP 48/2020, com base no inteiro teor e no despacho de distribuição e no histórico de relatorias na CFT, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PLP 48/2020 condiciona a liberação de **recursos extraordinários do compulsório, recursos próprios do Banco Central e do FGC** às instituições financeiras à realização de **leilões reversos**, em que têm prioridade os lotes com **menor taxa efetiva de juros** ao cliente final, com garantia nos próprios créditos. Por ser projeto de lei complementar, **não é conclusivo nas comissões**: vai à **CFT (mérito e art. 54) e à CCJC (art. 54) e depois ao Plenário**, em **regime de prioridade** (RICD, arts. 24, II, e 151, II), e precisa de **maioria absoluta, 257 votos** (CF, art. 69).",
+   "A tramitação está **parada na CFT desde 24/04/2024, sem relator**: o Dep. Júlio Cesar devolveu sem manifestação em 2022 e o Dep. Emanuel Pinheiro Neto deixou a comissão sem parecer. Em seis anos não houve parecer nem emendas. O texto foi pensado para a crise de 2020 e ainda cita o extinto Ministério da Economia.",
+   "O principal obstáculo é a **Lei Complementar 179/2021**, posterior ao projeto: o Banco Central passou a ser autarquia sem vinculação a ministério, com competência privativa para conduzir a política monetária, e a Lei 4.595/1964 (art. 10, V, na redação da LC 179) já lhe dá poder para fixar **garantias, prazos e formas de negociação** de seus empréstimos às instituições financeiras. Impor por lei o formato do leilão, usar o compulsório como fonte e dispor sobre recursos do **FGC, entidade privada**, tende a ser rejeitado no mérito e na CCJC. Um texto viável seria **diretriz de transparência e de repasse da redução de custo** nas linhas de liquidez, sem tirar do Banco Central a escolha do instrumento."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Sem relator na CFT desde 24/04/2024; depois ainda CCJC e Plenário, com quórum de maioria absoluta."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE E AUTONOMIA DO BC",
+    "nivel": "ALTO",
+    "texto": "Conflita com a LC 179/2021 e com a competência do BC sobre compulsório e redesconto (Lei 4.595/1964, art. 10)."
+   },
+   {
+    "eixo": "JURIDICIDADE",
+    "nivel": "ALTO",
+    "texto": "Dispõe sobre recursos do FGC, entidade privada, e atribui execução a ministério extinto."
+   },
+   {
+    "eixo": "ADEQUAÇÃO FINANCEIRA",
+    "nivel": "MÉDIO",
+    "texto": "§ 7º fala em “execução do orçamento” sem estimativa; mistura operação monetária do BC com despesa orçamentária."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "MÉDIO",
+    "texto": "Objetivo de reduzir spread e induzir repasse tem apelo, mas o instrumento proposto é rígido."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Rito de lei complementar",
+    "itens": [
+     {
+      "texto": "Despacho de 22/10/2020: CFT (mérito e art. 54) e CCJC (art. 54), sujeito ao Plenário, regime de prioridade. Projeto de lei complementar é excluído da apreciação conclusiva (RICD, art. 24, II, “a”).",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Em prioridade, cada comissão tem 10 sessões para opinar (RICD, art. 52, II), prazo que não tem sido observado: desde 2020 a CFT teve dois relatores e nenhum parecer. Sem relator desde 24/04/2024.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "A aprovação exige maioria absoluta (CF, art. 69) em votação no Plenário. Não há arquivamento ao fim da 57ª Legislatura (RICD, art. 105, VI), mas sem relator o projeto pode seguir parado em 2027.",
+      "fontes": [
+       "cf",
+       "res33"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "Banco Central e sistema financeiro",
+    "itens": [
+     {
+      "texto": "A forma de lei complementar é adequada à matéria do sistema financeiro (CF, art. 192), e o BC pode emprestar a instituições financeiras (CF, art. 164, § 1º, veda apenas empréstimos ao Tesouro e a quem não seja instituição financeira).",
+      "fontes": [
+       "cf"
+      ]
+     },
+     {
+      "texto": "A LC 179/2021 define o BC como autarquia de natureza especial, sem vinculação a ministério (art. 6º), e lhe atribui privativamente a condução da política monetária (art. 2º). A Lei 4.595/1964 dá ao BC o recolhimento compulsório (art. 10, III e IV) e as operações de redesconto e empréstimo nas condições que ele regulamentar (art. 10, V).",
+      "fontes": [
+       "lc179",
+       "l4595"
+      ]
+     },
+     {
+      "texto": "O projeto não altera a Lei 4.595/1964 nem a LC 179/2021: cria regra paralela que vincula instrumentos de política monetária a um formato único de leilão. O FGC é entidade privada, mantida pelas instituições associadas; lei sobre o uso de seus recursos para crédito desvia sua função de garantia de depósitos.",
+      "fontes": [
+       "l4595",
+       "lc95",
+       "fgc"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "ADEQUAÇÃO E MÉRITO",
+    "titulo": "Exame da CFT",
+    "itens": [
+     {
+      "texto": "O § 7º atribui ao “Ministério da Economia” a “execução do orçamento” das operações, o que sugere despesa da União sem estimativa (ADCT, art. 113; LRF, art. 16); se as operações são do BC, não há orçamento fiscal a executar.",
+      "fontes": [
+       "adct",
+       "lrf",
+       "nicft"
+      ]
+     },
+     {
+      "texto": "A ideia central, premiar a instituição que repassa menor taxa ao cliente, pode ser aproveitada como critério facultativo e como dever de transparência sobre as linhas de liquidez, o que preserva a autonomia do BC.",
+      "fontes": [
+       "lc179",
+       "pl"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PLP 48/2020",
+   "achados": [
+    {
+     "dispositivo": "Art. 2º, caput e § 1º",
+     "problema": "Regra autônoma sobre instrumentos do BC sem alterar a Lei 4.595/1964, que disciplina compulsório e redesconto.",
+     "fundamento": "LC 95, art. 7º, IV, e art. 12",
+     "correcao": "Se mantido, inserir dispositivo no art. 10 da Lei 4.595/1964 ou na LC 179/2021, como diretriz facultativa."
+    },
+    {
+     "dispositivo": "Art. 2º, §§ 2º, 3º e 5º",
+     "problema": "Linguagem explicativa (“portanto”, “ou seja”, palavra em caixa alta) e conceitos sem definição (“lote”, “contrapartidas”, “margem de segurança”).",
+     "fundamento": "LC 95, art. 11, I e II",
+     "correcao": "Redação normativa direta, com definição dos termos ou remissão ao regulamento do BC."
+    },
+    {
+     "dispositivo": "Art. 2º, §§ 7º e 8º",
+     "problema": "Atribuições ao extinto Ministério da Economia sobre operações de autarquia não vinculada.",
+     "fundamento": "LC 95, art. 11, II; LC 179/2021, art. 6º",
+     "correcao": "Suprimir o § 7º e converter o § 8º em dever de publicidade do próprio BC."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Projeto parado sem relator",
+    "descricao": "Sem designação, o projeto não avança na CFT e a recomposição de 2027 tende a manter a inércia.",
+    "instancia": "CFT",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, arts. 52, II, e 105, VI.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Pedir à presidência da CFT a designação de relator aliado."
+   },
+   {
+    "id": "R02",
+    "nivel": "ALTO",
+    "titulo": "Parecer contrário por ofensa à autonomia do BC",
+    "descricao": "Relator ou o próprio BC podem apontar conflito com a LC 179/2021 e com a Lei 4.595/1964.",
+    "instancia": "CFT · CCJC",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "LC 179/2021, arts. 2º e 6º; Lei 4.595/1964, art. 10.",
+    "fontes": [
+     "lc179",
+     "l4595"
+    ],
+    "mitigacao": "Substitutivo que transforma o leilão em diretriz facultativa e foca em transparência e repasse."
+   },
+   {
+    "id": "R03",
+    "nivel": "ALTO",
+    "titulo": "Quórum de maioria absoluta",
+    "descricao": "Mesmo aprovado nas comissões, o projeto depende de 257 votos no Plenário e de inclusão na pauta pelo Presidente.",
+    "instancia": "PLENÁRIO",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "CF, art. 69.",
+    "fontes": [
+     "cf"
+    ],
+    "mitigacao": "Buscar apoio de líderes e eventual apensação a projeto com mais tração."
+   },
+   {
+    "id": "R04",
+    "nivel": "MÉDIO",
+    "titulo": "Inadequação financeira",
+    "descricao": "O § 7º pode ser lido como criação de despesa sem estimativa.",
+    "instancia": "CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "ADCT, art. 113; LRF, art. 16.",
+    "fontes": [
+     "adct",
+     "lrf"
+    ],
+    "mitigacao": "Suprimir o § 7º e deixar claro que as operações são do BC, com repagamento."
+   },
+   {
+    "id": "R05",
+    "nivel": "MÉDIO",
+    "titulo": "Resistência do setor bancário",
+    "descricao": "A regra sobre recursos do FGC e a vinculação de taxas tende a mobilizar as instituições financeiras contra o texto.",
+    "instancia": "CFT · PLENÁRIO",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 4.595/1964.",
+    "fontes": [
+     "fgc",
+     "l4595"
+    ],
+    "mitigacao": "Retirar o FGC do texto."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Atualização por substitutivo",
+    "descricao": "O relator da CFT pode adaptar o texto à LC 179/2021 e às linhas de liquidez existentes.",
+    "como": "Entregar minuta de substitutivo com diretrizes e transparência.",
+    "fontes": [
+     "lc179",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Agenda do custo do crédito",
+    "descricao": "Juros ao tomador final e endividamento de famílias e empresas são tema recorrente no Congresso.",
+    "como": "Associar o projeto a frentes de empreendedorismo e de defesa do consumidor.",
+    "fontes": [
+     "pl"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CELERIDADE",
+    "titulo": "Regime de prioridade",
+    "descricao": "Em prioridade, os prazos de comissão são curtos (10 sessões), o que permite cobrar a designação e o parecer.",
+    "como": "Ofício à CFT citando o prazo regimental.",
+    "fontes": [
+     "ricd"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "CRÍTICA",
+    "titulo": "Designação de relator na CFT",
+    "descricao": "Ofício à presidência da CFT pedindo relator, com indicação de nome aliado.",
+    "prazo": "até 06/11/2026",
+    "instrumento": "RICD, arts. 52, II, e 151, II.",
+    "resultado": "Relator designado em 2026.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Reescrever como diretriz facultativa ao BC (critério de menor taxa ao tomador nas linhas de liquidez), com dever de publicidade; suprimir FGC e Ministério da Economia.",
+    "prazo": "até 30/11/2026",
+    "instrumento": "LC 95, arts. 7º e 11; LC 179/2021.",
+    "resultado": "Texto compatível com a autonomia do BC.",
+    "riscos": "R02, R04, R05"
+   },
+   {
+    "numero": "03",
+    "prioridade": "ALTA",
+    "titulo": "Diálogo técnico com o Banco Central",
+    "descricao": "Reunião com a área de política monetária do BC para testar a viabilidade da diretriz e colher dados de repasse.",
+    "prazo": "dez./2026",
+    "instrumento": "Lei 4.595/1964, art. 10.",
+    "resultado": "Reduzir oposição técnica.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Avaliar alternativa de rito",
+    "descricao": "Verificar se a parte de transparência pode seguir por lei ordinária ou ser incorporada a outro projeto em tramitação, com quórum menor.",
+    "prazo": "1º trim./2027",
+    "instrumento": "CF, arts. 69 e 192.",
+    "resultado": "Caminho mais curto para o objetivo.",
+    "riscos": "R03"
+   },
+   {
+    "numero": "05",
+    "prioridade": "MÉDIA",
+    "titulo": "Articulação para 2027",
+    "descricao": "Após a recomposição da CFT, confirmar o relator e pedir prazo de prioridade.",
+    "prazo": "fev.–mar./2027",
+    "instrumento": "RICD, art. 105, VI.",
+    "resultado": "Tramitação retomada.",
+    "riscos": "R01, R03"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "adct": {
+    "titulo": "ADCT, art. 113",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "lrf": {
+    "titulo": "LC 101/2000 (LRF)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "pl": {
+    "titulo": "PLP 48/2020 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1870360"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2241964"
+   },
+   "lc179": {
+    "titulo": "LC 179/2021 (autonomia do Banco Central)",
+    "url": "https://www2.camara.leg.br/legin/fed/leicom/2021/leicomplementar-179-24-fevereiro-2021-791083-publicacaooriginal-162335-pl.html"
+   },
+   "l4595": {
+    "titulo": "Lei 4.595/1964 (texto compilado)",
+    "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4595-31-dezembro-1964-353886-normaatualizada-pl.html"
+   },
+   "fgc": {
+    "titulo": "Fundo Garantidor de Créditos (FGC)",
+    "url": "https://www.fgc.org.br/"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despacho, regime e relatorias"
+   },
+   {
+    "fonte": "lc179",
+    "nota": "arts. 1º, 2º e 6º"
+   },
+   {
+    "fonte": "l4595",
+    "nota": "art. 10, III a V"
+   },
+   {
+    "fonte": "fgc",
+    "nota": "natureza da entidade"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 69, 164 e 192"
+   },
+   {
+    "fonte": "adct",
+    "nota": "estimativa de impacto"
+   },
+   {
+    "fonte": "lrf",
+    "nota": "art. 16"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 24, 52, 105 e 151"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }

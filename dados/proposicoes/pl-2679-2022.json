@@ -364,5 +364,347 @@
    "referencias": [],
    "mensagem_vazio": "Ainda não há redação final registrada até {data_consulta}."
   }
- ]
+ ],
+ "analise": {
+  "introducao": "Análise técnica do gabinete sobre o PL 2.679/2022, com base no inteiro teor e no despacho vigente e no texto compilado da Lei 8.036/1990, considerando a situação em 21/10/2026. Cada argumento indica a fonte oficial consultada. Não substitui o parecer das consultorias da Câmara; recomenda-se conferir a redação vigente das normas citadas no portal oficial antes de usá-las em documento formal.",
+  "sintese": [
+   "O PL 2.679/2022 acrescenta o **inciso XXIII ao art. 20 da Lei 8.036/1990** para permitir a movimentação da conta vinculada do FGTS na aquisição de veículo automotor novo ou usado, “nos termos do regulamento”. O despacho vigente (01/08/2023) prevê **CTRAB (mérito), CFT (mérito e art. 54) e CCJC (art. 54)**, em regime ordinário e apreciação conclusiva, com o **PL 3.332/2023 apensado**, de objeto semelhante.",
+   "O projeto está na **CTRAB aguardando designação de relator desde 02/08/2023**, há mais de três anos, sem prazo de emendas aberto e sem parecer. Antes disso passou por CTASP e CASP apenas por redistribuições decorrentes da Res. CD 1/2023. Não será arquivado ao fim da 57ª Legislatura, mas a recomposição das comissões em 2027 recomeça a disputa pela relatoria.",
+   "No texto compilado, o art. 20 termina no **inciso XXII (doença rara, Lei 13.932/2019)**, de modo que a numeração proposta está livre. O ponto fraco é a **ausência de qualquer limite**: diferentemente de outras hipóteses (como o teto de 30% do inciso XVII ou o imóvel único do § 3º), o texto delega tudo ao regulamento, o que alimenta a objeção de que o saque reduz os recursos do Fundo aplicados em habitação, saneamento e infraestrutura (art. 9º, § 2º)."
+  ],
+  "semaforo": [
+   {
+    "eixo": "CALENDÁRIO E TRAMITAÇÃO",
+    "nivel": "ALTO",
+    "texto": "Mais de três anos sem relator na CTRAB; ainda faltam CTRAB, CFT e CCJC."
+   },
+   {
+    "eixo": "CONSTITUCIONALIDADE (CCJC)",
+    "nivel": "BAIXO",
+    "texto": "Matéria de direito do trabalho e FGTS (CF, arts. 7º, III, e 22, I), de iniciativa parlamentar livre."
+   },
+   {
+    "eixo": "TÉCNICA E JURIDICIDADE",
+    "nivel": "MÉDIO",
+    "texto": "Inciso XXIII livre, mas sem limites de valor ou periodicidade e com delegação ampla ao regulamento."
+   },
+   {
+    "eixo": "IMPACTO NO FGTS (CFT)",
+    "nivel": "MÉDIO",
+    "texto": "Saque sem teto pode reduzir a capacidade de aplicação do Fundo em habitação e saneamento."
+   },
+   {
+    "eixo": "MÉRITO",
+    "nivel": "MÉDIO",
+    "texto": "Apelo popular e econômico, mas tende a enfrentar resistência do gestor e do Conselho Curador do FGTS."
+   }
+  ],
+  "diagnostico": [
+   {
+    "rotulo": "PROCESSO LEGISLATIVO · RICD",
+    "titulo": "Caminho do projeto",
+    "itens": [
+     {
+      "texto": "Despacho atual (01/08/2023): CTRAB, CFT (mérito e art. 54) e CCJC (art. 54), conclusivo e ordinário, com o PL 3.332/2023 apensado. A CASP saiu do despacho com a revisão.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Recebido pela CTRAB em 02/08/2023, o projeto nunca teve relator designado; a designação depende do presidente da comissão.",
+      "fontes": [
+       "ficha",
+       "ricd"
+      ]
+     },
+     {
+      "texto": "Não há arquivamento ao fim da legislatura (RICD, art. 105, VI), mas a nova composição da CTRAB em 2027 exigirá nova articulação para a relatoria.",
+      "fontes": [
+       "res33",
+       "ricd"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "CONSTITUCIONALIDADE E JURIDICIDADE",
+    "titulo": "O que a lei vigente já prevê",
+    "itens": [
+     {
+      "texto": "O FGTS é direito do trabalhador (CF, art. 7º, III) e a matéria é de competência da União (art. 22, I); não há reserva de iniciativa do Executivo para criar hipótese de saque.",
+      "fontes": [
+       "cf"
+      ]
+     },
+     {
+      "texto": "No texto compilado, o art. 20 vai até o inciso XXII (Lei 13.932/2019), que termina com ponto final; o novo inciso XXIII exige ajustar a pontuação do anterior.",
+      "fontes": [
+       "l8036",
+       "lc95"
+      ]
+     },
+     {
+      "texto": "O art. 20-A, § 2º, aplica as hipóteses do art. 20 às duas sistemáticas de saque (rescisão e aniversário), salvo exceções expressas; o novo inciso valeria também para quem optou pelo saque-aniversário.",
+      "fontes": [
+       "l8036"
+      ]
+     },
+     {
+      "texto": "Hipóteses de uso para bens ou ativos costumam ter limite em lei: 30% do saldo no FI-FGTS (inciso XVII) e um único imóvel para moradia (§ 3º). O projeto não fixa teto, frequência nem exige que o veículo fique em nome do titular.",
+      "fontes": [
+       "l8036",
+       "pl"
+      ]
+     }
+    ]
+   },
+   {
+    "rotulo": "MÉRITO E IMPACTO NO FUNDO",
+    "titulo": "Exame da CTRAB e da CFT",
+    "itens": [
+     {
+      "texto": "Os recursos do FGTS devem ser aplicados em habitação, saneamento, infraestrutura urbana e microcrédito (art. 9º, § 2º). Saque amplo para bem de consumo reduz essa capacidade, argumento previsível do gestor do Fundo.",
+      "fontes": [
+       "l8036"
+      ]
+     },
+     {
+      "texto": "O saque é pago com o patrimônio do próprio Fundo, não com dotação do orçamento da União; o exame da CFT tende a se concentrar no mérito e no equilíbrio do FGTS, mais do que na adequação orçamentária.",
+      "fontes": [
+       "nicft",
+       "l8036"
+      ]
+     }
+    ]
+   }
+  ],
+  "legistica": {
+   "rotulo": "LEGÍSTICA · LC 95/1998 · ACHADOS NO TEXTO DO PL 2.679/2022",
+   "achados": [
+    {
+     "dispositivo": "Art. 1º",
+     "problema": "“acrescido do seguinte inciso” não identifica o dispositivo acrescido e mantém o inciso XXII com ponto final.",
+     "fundamento": "LC 95, art. 12, III",
+     "correcao": "“acrescido do seguinte inciso XXIII”, com o inciso XXII passando a terminar em ponto e vírgula."
+    },
+    {
+     "dispositivo": "Art. 20, XXIII",
+     "problema": "Hipótese aberta (“nos termos do regulamento”), sem limite de valor, periodicidade ou titularidade do veículo.",
+     "fundamento": "LC 95, art. 11, II, “a” e “b”",
+     "correcao": "Fixar teto (percentual do saldo), intervalo mínimo entre saques e exigência de registro do veículo em nome do titular."
+    },
+    {
+     "dispositivo": "Ementa",
+     "problema": "Menciona “para o titular da conta vinculada”, restrição que o texto do inciso não contém.",
+     "fundamento": "LC 95, art. 5º",
+     "correcao": "Incluir a titularidade no inciso ou simplificar a ementa."
+    }
+   ]
+  },
+  "riscos": [
+   {
+    "id": "R01",
+    "nivel": "ALTO",
+    "titulo": "Projeto continua sem relator",
+    "descricao": "Três anos sem designação na CTRAB; sem pedido do autor, a situação tende a se repetir em 2027.",
+    "instancia": "CTRAB",
+    "probabilidade": "ALTA",
+    "impacto": "ALTO",
+    "fundamento": "RICD, art. 41, VI, e art. 52.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Pedir à presidência da CTRAB a designação de relator aliado ainda em 2026."
+   },
+   {
+    "id": "R02",
+    "nivel": "MÉDIO",
+    "titulo": "Objeção do gestor do FGTS",
+    "descricao": "Conselho Curador e agente operador podem apontar perda de recursos para habitação e saneamento.",
+    "instancia": "CTRAB · CFT",
+    "probabilidade": "MÉDIA",
+    "impacto": "MÉDIO",
+    "fundamento": "Lei 8.036/1990, art. 9º, § 2º.",
+    "fontes": [
+     "l8036"
+    ],
+    "mitigacao": "Propor teto percentual e periodicidade, nos moldes do inciso XVII."
+   },
+   {
+    "id": "R03",
+    "nivel": "MÉDIO",
+    "titulo": "Substitutivo a partir do apensado",
+    "descricao": "O relator pode preferir a redação do PL 3.332/2023 (financiamento e aquisição) e reduzir o protagonismo do texto principal.",
+    "instancia": "CTRAB",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 142.",
+    "fontes": [
+     "ficha",
+     "ricd"
+    ],
+    "mitigacao": "Oferecer minuta de substitutivo que una as duas propostas preservando a autoria."
+   },
+   {
+    "id": "R04",
+    "nivel": "BAIXO",
+    "titulo": "Recomposição das comissões em 2027",
+    "descricao": "Nova legislatura altera a composição da CTRAB e pode atrasar a designação.",
+    "instancia": "CTRAB",
+    "probabilidade": "MÉDIA",
+    "impacto": "BAIXO",
+    "fundamento": "RICD, art. 105, VI.",
+    "fontes": [
+     "res33"
+    ],
+    "mitigacao": "Renovar o pedido de relatoria logo após a instalação das comissões."
+   }
+  ],
+  "oportunidades": [
+   {
+    "id": "O01",
+    "tipo": "QUALIDADE",
+    "titulo": "Ajuste que reduz resistência",
+    "descricao": "Um teto de saque e a exigência de registro em nome do titular respondem à principal objeção técnica.",
+    "como": "Minuta de substitutivo com limite percentual e intervalo mínimo.",
+    "fontes": [
+     "l8036",
+     "lc95"
+    ]
+   },
+   {
+    "id": "O02",
+    "tipo": "CONVERGÊNCIA",
+    "titulo": "Trabalhadores de aplicativo",
+    "descricao": "A justificação liga o saque à renda de motoristas por plataforma, público com interesse organizado.",
+    "como": "Buscar apoio de entidades de motoristas e da frente parlamentar do setor automotivo.",
+    "fontes": [
+     "pl"
+    ]
+   },
+   {
+    "id": "O03",
+    "tipo": "CELERIDADE",
+    "titulo": "Exame orçamentário simples na CFT",
+    "descricao": "O saque usa recursos do Fundo, não dotações da União.",
+    "como": "Nota técnica para o relator da CFT sobre a natureza dos recursos.",
+    "fontes": [
+     "nicft",
+     "l8036"
+    ]
+   }
+  ],
+  "plano": [
+   {
+    "numero": "01",
+    "prioridade": "ALTA",
+    "titulo": "Relator na CTRAB",
+    "descricao": "Ofício e contato com a presidência da CTRAB pedindo a designação de relator aliado.",
+    "prazo": "até 15/11/2026",
+    "instrumento": "RICD, art. 41, VI.",
+    "resultado": "Relator designado em 2026.",
+    "riscos": "R01"
+   },
+   {
+    "numero": "02",
+    "prioridade": "ALTA",
+    "titulo": "Minuta de substitutivo",
+    "descricao": "Texto com inciso XXIII, teto percentual do saldo, intervalo mínimo entre saques, titularidade do veículo e incorporação do PL 3.332/2023.",
+    "prazo": "até 30/11/2026",
+    "instrumento": "LC 95, arts. 11 e 12.",
+    "resultado": "Parecer favorável mais robusto.",
+    "riscos": "R02, R03"
+   },
+   {
+    "numero": "03",
+    "prioridade": "MÉDIA",
+    "titulo": "Diálogo com o gestor do FGTS",
+    "descricao": "Apresentar o teto proposto ao Ministério do Trabalho e ao agente operador para reduzir objeções.",
+    "prazo": "dez./2026",
+    "instrumento": "Lei 8.036/1990, arts. 9º e 20.",
+    "resultado": "Menor resistência técnica.",
+    "riscos": "R02"
+   },
+   {
+    "numero": "04",
+    "prioridade": "MÉDIA",
+    "titulo": "Renovar a articulação em 2027",
+    "descricao": "Após a instalação das comissões, confirmar ou pedir nova relatoria na CTRAB.",
+    "prazo": "mar./2027",
+    "instrumento": "RICD, art. 105.",
+    "resultado": "Tramitação contínua na nova legislatura.",
+    "riscos": "R04"
+   }
+  ],
+  "fontes": {
+   "cf": {
+    "titulo": "Constituição Federal",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "ricd": {
+    "titulo": "RICD (Res. 17/1989)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+   },
+   "res33": {
+    "titulo": "Res. CD 33/2022 (art. 105 RICD)",
+    "url": "https://www2.camara.leg.br/legin/int/rescad/2022/resolucaodacamaradosdeputados-33-4-agosto-2022-793091-publicacaooriginal-165882-pl.html"
+   },
+   "lc95": {
+    "titulo": "LC 95/1998",
+    "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false"
+   },
+   "nicft": {
+    "titulo": "Norma Interna CFT (1996)",
+    "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cft/normas-internas/NORMA-INTERNA-1996.pdf"
+   },
+   "pl": {
+    "titulo": "PL 2.679/2022 (inteiro teor)",
+    "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2211715"
+   },
+   "ficha": {
+    "titulo": "Ficha de tramitação",
+    "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2336317"
+   },
+   "l8036": {
+    "titulo": "Lei 8.036/1990 (texto compilado)",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+   }
+  },
+  "fontes_consultadas": [
+   {
+    "fonte": "pl",
+    "nota": "texto e justificação"
+   },
+   {
+    "fonte": "ficha",
+    "nota": "despachos, apensação e situação na CTRAB"
+   },
+   {
+    "fonte": "l8036",
+    "nota": "arts. 9º, 20 e 20-A a 20-D"
+   },
+   {
+    "fonte": "cf",
+    "nota": "arts. 7º, III, e 22, I"
+   },
+   {
+    "fonte": "nicft",
+    "nota": "adequação"
+   },
+   {
+    "fonte": "lc95",
+    "nota": "técnica legislativa"
+   },
+   {
+    "fonte": "ricd",
+    "nota": "arts. 41, 52, 105 e 142"
+   },
+   {
+    "fonte": "res33",
+    "nota": "arquivamento ao fim da legislatura"
+   }
+  ]
+ }
 }
