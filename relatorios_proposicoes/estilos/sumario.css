@@ -1,0 +1,53 @@
+/* Sumário dos relatórios. Depende de tokens.css. */
+
+html, body { margin: 0; background: var(--surface); }
+.sumario {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--space-12) clamp(16px, 4vw, 32px) 64px;
+  color: var(--on-surface);
+  font-family: var(--font-body);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+.rotulo { font-family: var(--font-mono); font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0.05em; }
+.sumario__cabecalho { display: flex; flex-direction: column; gap: var(--space-2); }
+.sumario__sobre { color: var(--primary-fixed-dim); }
+.sumario h1 { margin: 0; font-family: var(--font-display); font-size: clamp(28px, 5vw, 40px); line-height: 1.15; color: var(--primary); }
+.sumario__intro { margin: 0; font-size: 14px; line-height: 22px; color: var(--on-surface-variant); }
+
+.sumario__lista { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: var(--space-3); }
+.sumario__item {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--outline-variant);
+  background: rgba(var(--container-rgb), 0.7);
+  display: grid;
+  grid-template-columns: 36px 1fr auto;
+  gap: var(--space-1) var(--space-3);
+}
+/* O item é grade, então o número da lista é desenhado aqui (o marcador nativo some). */
+.sumario__numero {
+  grid-row: 1 / span 3;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-base);
+  border: 1px solid var(--outline);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-surface);
+  font-variant-numeric: tabular-nums;
+}
+.sumario__link { font-family: var(--font-display); font-size: 18px; line-height: 24px; font-weight: 600; color: var(--primary-fixed-dim); text-decoration: none; }
+.sumario__link:hover { color: var(--primary-fixed); text-decoration: underline; }
+.sumario__link:focus-visible { outline: none; box-shadow: var(--glow-focus); border-radius: var(--radius-base); }
+.sumario__data { align-self: center; color: var(--on-surface-variant); font-variant-numeric: tabular-nums; }
+.sumario__ementa { grid-column: 2 / -1; font-size: 14px; line-height: 22px; }
+.sumario__situacao { grid-column: 2 / -1; color: var(--outline); }
+
+@media (max-width: 600px) {
+  .sumario__item { grid-template-columns: 36px 1fr; }
+  .sumario__data { grid-column: 2; }
+}

@@ -18,12 +18,14 @@ from relatorios_proposicoes import indicadores
 from relatorios_proposicoes.capa import Capa
 from relatorios_proposicoes.modelos import Estagio, Relatorio
 from relatorios_proposicoes.pesquisa import BasePesquisa
+from relatorios_proposicoes.sumario import Sumario
 
 Tema = Literal["claro", "escuro"]
 TEMAS: tuple[Tema, ...] = ("claro", "escuro")
 
 ARQUIVOS_CSS = ("tokens.css", "relatorio.css")
 ARQUIVOS_CSS_PESQUISA = ("tokens.css", "pesquisa.css")
+ARQUIVOS_CSS_SUMARIO = ("tokens.css", "sumario.css")
 
 CLASSES_NIVEL = {"ALTO": "alto", "CRÍTICA": "alto", "MÉDIO": "medio", "ALTA": "medio", "BAIXO": "baixo", "MÉDIA": "baixo"}
 
@@ -164,7 +166,16 @@ def renderizar_pesquisa(base: BasePesquisa, tema: Tema = "claro") -> str:
     )
 
 
-def carregar_pagina(caminho: str | Path) -> Relatorio | Capa | BasePesquisa:
+def renderizar_sumario(sumario: Sumario, tema: Tema = "claro") -> str:
+    """Renderiza o sumário com links para os relatórios, em ordem decrescente de apresentação."""
+    template = criar_ambiente().get_template("sumario.html")
+    return template.render(s=sumario, tema=_validar_tema(tema), estilos=carregar_estilos(ARQUIVOS_CSS_SUMARIO))
+
+
+Pagina = Relatorio | Capa | BasePesquisa | Sumario
+
+
+def carregar_pagina(caminho: str | Path) -> Pagina:
     """Lê um JSON de dados e devolve o modelo da página indicada pela chave ``pagina``.
 
     Sem a chave, o arquivo é tratado como relatório de tramitação.
@@ -176,21 +187,25 @@ def carregar_pagina(caminho: str | Path) -> Relatorio | Capa | BasePesquisa:
         return Capa.de_dict(dados)
     if pagina == "pesquisa":
         return BasePesquisa.de_dict(dados)
+    if pagina == "sumario":
+        return Sumario.de_dict(dados, Path(caminho).parent)
     if pagina == "tramitacao":
         return Relatorio.de_dict(dados)
     raise ValueError(f"Página desconhecida em {caminho}: {pagina!r}")
 
 
-def renderizar(modelo: Relatorio | Capa | BasePesquisa, tema: Tema = "claro") -> str:
+def renderizar(modelo: Pagina, tema: Tema = "claro") -> str:
     """Renderiza qualquer página a partir do seu modelo (a capa é sempre clara, para impressão)."""
     if isinstance(modelo, Capa):
         return renderizar_capa(modelo)
     if isinstance(modelo, BasePesquisa):
         return renderizar_pesquisa(modelo, tema)
+    if isinstance(modelo, Sumario):
+        return renderizar_sumario(modelo, tema)
     return renderizar_relatorio(modelo, tema)
 
 
-def gerar_arquivo(modelo: Relatorio | Capa | BasePesquisa, destino: str | Path, tema: Tema = "claro") -> Path:
+def gerar_arquivo(modelo: Pagina, destino: str | Path, tema: Tema = "claro") -> Path:
     """Renderiza a página e grava o HTML em ``destino``, criando as pastas."""
     destino = Path(destino)
     destino.parent.mkdir(parents=True, exist_ok=True)

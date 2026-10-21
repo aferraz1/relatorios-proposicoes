@@ -1,0 +1,7 @@
+{
+  "pagina": "sumario",
+  "titulo": "Sumário",
+  "sobre": "RELATÓRIOS_DE_TRAMITAÇÃO · DEP. PEDRO LUCAS FERNANDES",
+  "descricao": "{total} proposições ({tipos}) em tramitação, da apresentação mais recente para a mais antiga. Cada item abre o relatório de tramitação da proposição.",
+  "relatorios": ["pl-1680-2025.json", "pl-649-2021.json", "proposicoes/*.json"]
+}

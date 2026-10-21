@@ -23,6 +23,8 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Callable
 
+from relatorios_proposicoes.sumario import nome_arquivo as nome_relatorio
+
 API = "https://dadosabertos.camara.leg.br/api/v2"
 
 # Tipos de órgão (referencias/orgaos/codTipoOrgao).
@@ -626,12 +628,9 @@ def desde_remessa(efetivos: list[tuple[dict[str, Any], dict[str, Any]]]) -> str 
     return None
 
 
-def nome_arquivo(ficha_ou_dados: dict[str, Any]) -> str:
+def nome_arquivo(dados: dict[str, Any]) -> str:
     """Nome-base dos arquivos de uma proposição, como ``pl-1680-2025``."""
-    p = ficha_ou_dados.get("proposicao", ficha_ou_dados)
-    tipo, resto = p["identificacao"].split(" ", 1)
-    numero, ano = resto.replace(".", "").split("/")
-    return f"{tipo.lower()}-{numero}-{ano}"
+    return nome_relatorio(dados.get("proposicao", dados)["identificacao"])
 
 
 # ---------------------------------------------------------------------------
