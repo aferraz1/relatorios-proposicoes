@@ -430,9 +430,9 @@
       { "numero": "12", "prioridade": "MÉDIA", "titulo": "Comunicação de uma página", "descricao": "Material comparando PL 1.680 e Redata, com dados de demanda de energia e soberania digital.", "prazo": "até 15/11/2026", "instrumento": "Lei 15.504/2026; SBT-A 1 CCTI.", "resultado": "Apoio de parlamentares e do setor.", "riscos": "R10" }
     ],
     "fontes": {
-      "cf": { "titulo": "Constituição Federal", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" },
-      "adct": { "titulo": "ADCT, art. 113", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct" },
-      "lc95": { "titulo": "LC 95/1998", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm" },
+      "cf": { "titulo": "Constituição Federal", "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false" },
+      "adct": { "titulo": "ADCT, art. 113", "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:constituicao:1988-10-05;1988&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false" },
+      "lc95": { "titulo": "LC 95/1998", "url": "https://normas.leg.br/impressao?urn=urn:lex:br:federal:lei.complementar:1998-02-26;95@2001-04-26&exibir_camadas=true&exibir_rodape=false&exibir_cabecalho=false" },
       "lrf": { "titulo": "LC 101/2000 (LRF)", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm" },
       "lgpd": { "titulo": "Lei 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" },
       "l9074": { "titulo": "Lei 9.074/1995", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9074cons.htm" },
